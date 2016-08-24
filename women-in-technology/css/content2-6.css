@@ -1,0 +1,36 @@
+/*	CONTENT BLOCK 2-6
+/*----------------------------------------------------*/
+
+.content-2-6 .btn-outline {
+	margin: 1.8em;
+}
+
+.content-2-6 h2 {
+	line-height: 1.4em;
+	color: #ffffff;
+}
+
+
+/*	CONTENT BLOCK 2-6 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+		
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}

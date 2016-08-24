@@ -1,0 +1,54 @@
+/*	PROMO BLOCK 3
+/*----------------------------------------------------*/
+
+.promo-3 {
+	background: url("../images/star-sky.jpg") center top no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 140px 0;
+}
+
+.promo-3 h1 {
+	font-size: 60px;
+	color: #ffffff;
+}
+
+.promo-3 h2 {
+	font-weight: 600;
+	color: #ffffff;
+}
+
+.promo-3 a {
+	margin-top: 40px;
+}
+
+
+/*	PROMO BLOCK 3 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+		
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}
+
+
+

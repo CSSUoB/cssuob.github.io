@@ -1,0 +1,175 @@
+/*	HEADER 2
+/*----------------------------------------------------*/
+#header-2 {
+	width: 100%;
+	min-height: 98px;
+	position: relative;
+	z-index: 999;
+}
+
+#header-2 .brand-img {
+	float: none;
+	margin: 30px auto;
+	text-align: center;
+	max-width: 150px;
+}
+
+#header-2 .navbar-toggle {
+	margin-right: 0;
+	margin-top: 0;
+	background: none;
+	position: absolute;
+	right: 20px;
+	top: 30px;
+	border: none;
+}
+
+#header-2 .navbar-toggle:focus {
+	outline: none;
+}
+
+#header-2 .navbar-toggle .icon-bar {
+	background-color: #999;
+	height: 3px;
+}
+
+#header-2 .navbar-toggle:hover .icon-bar {
+	background-color: #3498DB;
+}
+
+#header-2 .navbar-fixed-top .navbar-collapse {
+	max-height: inherit;
+	border-top: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+#header-2 .main-nav .nav {
+	margin-top: 25px;
+}
+
+#header-2 .main-nav .nav .nav-item a {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #666;
+	background: none;
+}
+
+#header-2 .main-nav .nav .nav-item.active a {
+	color: #3498DB;
+}
+
+#header-2 .main-nav .nav .nav-item a:hover {
+	color: #3498DB;
+}
+
+#header-2 .main-nav .nav .nav-item a:focus {
+	outline: none;
+}
+
+#header-2 .main-nav .nav .dropdown-menu {
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	margin: 0;
+	border: none;
+	text-transform: none;
+	min-width: 180px;
+	backg round: #3E606F;
+}
+
+#header-2 .main-nav .nav .dropdown-menu a {
+	padding: 8px 20px;
+	color: #666;
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	opacity: 1;
+}
+
+#header-2 .main-nav .nav .dropdown-menu a:hover {
+	background: #3498DB;
+	color: #fff;
+}
+
+
+
+
+/* Override bootstrap default */
+#header-2 .main-nav .nav .open > a,
+#header-2 .main-nav .nav .open > a:hover,
+#header-2 .main-nav .nav .open > a:focus {
+	background: none;
+}
+
+
+
+
+
+
+/*	Header 2 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+	#header-2 .main-nav .nav .dropdown-menu {
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		-ms-border-radius: 4px;
+		-o-border-radius: 4px;
+		border-radius: 4px;
+		-moz-background-clip: padding;
+		-webkit-background-clip: padding-box;
+		background-clip: padding-box;
+		margin: 0;
+		border: none;
+		text-transform: none;
+		min-width: 180px;
+		background: #3E606F;
+	}
+	
+	#header-2 .main-nav .nav .dropdown-menu:before {
+		content: "";
+		display: block;
+		width: 0;
+		height: 0;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-bottom: 10px solid #3E606F;
+		position: absolute;
+		right: 35px;
+		top: -10px;
+	}
+	
+	#header-2 .main-nav .nav .dropdown-menu a {
+		padding: 8px 20px;
+		color: #fff;
+		-webkit-opacity: 1;
+		-moz-opacity: 1;
+		opacity: 1;
+	}
+	
+	#header-2 .main-nav .nav .dropdown-menu a:hover {
+		background: #193441;
+		color: #fff;
+	}
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}
+

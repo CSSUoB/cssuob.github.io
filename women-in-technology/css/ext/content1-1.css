@@ -1,0 +1,19 @@
+/*	CONTENT BLOCK 1-1
+/*----------------------------------------------------*/
+
+.content-1-1 {
+	background: url("../../images/typewriter-bg.jpg") center top no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.content-1-1 .container {
+	margin-top: 380px;
+}
+
+.content-1-1 h1 {
+	text-transform: uppercase;
+	font-weight: 300;
+}

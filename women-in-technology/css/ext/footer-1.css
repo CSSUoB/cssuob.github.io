@@ -1,0 +1,62 @@
+/*	FOOTER 1-1
+/*----------------------------------------------------*/
+
+.footer-1-1 {
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+.footer-1-1 h3, .footer-1-1 h4, .footer-1-1 .lead, .footer-1-1 li {
+	color: #ffffff;
+}
+
+.footer-1-1 .brand-img {
+	width: 200px;
+	margin-bottom: 30px;
+}
+
+.footer-1-1 h4 {
+	margin-bottom: 20px;
+}
+
+.footer-1-1 ul {
+	list-style-type: none;
+	margin: 0 0 26px;
+	padding: 0;
+}
+
+.footer-1-1 ul li {
+	border-top: 1px solid #bdc3c7;
+	line-height: 19px;
+	padding: 6px 0;
+}
+
+.footer-1-1 li:first-child {
+	border-top: none;
+	padding-top: 1px;
+}
+
+
+/*	FOOTER 1-1 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+		
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}

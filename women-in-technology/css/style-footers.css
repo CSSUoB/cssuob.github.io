@@ -1,0 +1,44 @@
+@import "footer-1.css";
+@import "footer-2.css";
+@import "footer-3.css";
+@import "footer-4.css";
+@import "footer-5.css";
+
+
+.footerWrapper {
+	padding-top: 0px;
+}
+
+.footer .navbar-brand img {
+	width: 75px;
+}
+
+.footer .navbar-brand img.small {
+	width: 30px;
+}
+
+.footer.dark {
+	background: #3D566E;
+	padding: 60px 0px 50px;
+	font-weight: 200;
+	color: #CBD0D3;
+}
+
+.footer.dark h2 {
+	color: #ECF0F1;
+	font-size: 34px;
+	border-bottom: 2px dashed #CBD0D3;
+	padding-bottom: 20px;
+	margin-top: 0px;
+}
+
+.footer.dark span {
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+.footer.dark a, .footer.dark a span {
+	font-size: 26px;
+	margin-right: 5px;
+	color: #1ABC9C;
+}

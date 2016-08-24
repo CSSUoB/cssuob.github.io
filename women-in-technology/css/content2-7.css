@@ -1,0 +1,60 @@
+/*	CONTENT BLOCK 2-7
+/*----------------------------------------------------*/
+
+.content-2-7 {
+	background: url("../images/dark-logs-bg.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+.content-2-7 .counter-icon {
+	font-size: 5em;
+	margin-top: 30px;
+	color: #f39c12;
+}
+
+.content-2-7 .counter, .content-2-7 .counter-text {
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	color: #f39c12;
+}
+
+.content-2-7 .counter-text p {
+	font-size: 18px;
+	color: #f39c12;
+}
+
+.content-2-7 .counter {
+	font-size: 44px;
+	color: #fff;
+}
+
+.content-2-7 .underlined-title h1, .content-2-7 .underlined-title h2 {
+	color: #fff;
+}
+
+
+/*	CONTENT BLOCK 2-7 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+		
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}

@@ -1,0 +1,131 @@
+/*	Pricing Tables 1
+/*----------------------------------------------------*/
+
+.pricing-table-1 .price-block {
+	text-align: center;
+	color: #ffffff;
+	transition: all 0.25s;
+	max-width: 400px;
+	margin: 0 auto 20px auto;
+}
+
+.pricing-table-1 h3 {
+	text-transform: uppercase;
+	padding: 20px 0;
+	background: #2c3e50;
+	margin: 0;
+	border-radius: 6px 6px 0 0;
+}
+
+.pricing-table-1 .price {
+	display: inline-block;
+	background: #898989;
+	width: 100%;
+}
+
+.pricing-table-1 .price-figure {
+	font-size: 24px;
+	text-transform: uppercase;
+	padding-top: 14px;
+}
+
+.pricing-table-1 .price-number {
+	font-weight: 600;
+	display: block;
+	margin-bottom: 0;
+}
+
+.pricing-table-1 .price-tenure {
+	font-size: 11px;
+	margin-top: 0;
+}
+
+.pricing-table-1 .features {
+	background: #e6e6e6;
+	color: #555555;
+	padding: 0;
+	margin: 0;
+}
+
+.pricing-table-1 .features li {
+	padding: 8px 15px;
+	border-bottom: 1px solid #ccc;
+	list-style-type: none;
+}
+
+.pricing-table-1 .price-footer {
+	display: block;
+	background: #2c3e50;
+	border-radius: 0 0 6px 6px;
+	margin-top: -5px;
+	padding: 10px 0;
+}
+
+
+/* Hover Effects */
+.pricing-table-1 .price-block:hover {
+	transform: scale(1.04) translateY(-5px);
+	-webkit-transform: scale(1.04) translateY(-5px);
+	z-index: 1;
+	border-bottom: 0 none;
+}
+
+.pricing-table-1 .price-block:hover .price.pastel-blue { background: #6082EB; }
+.pricing-table-1 .price-block:hover .price.pastel-green { background: #18B29D; }
+.pricing-table-1 .price-block:hover .price.pastel-red { background: #FF5E65; }
+.pricing-table-1 .price-block:hover .price.pastel-orange { background: #FFB068; }
+
+
+.pricing-table-1 .price-block:hover h3 {
+	background: #233447;
+}
+
+/* Ribbons */
+.ribbon {
+	position: absolute;
+	top: -4px;
+	right: 11px;
+	width: 82px;
+	height: 82px;
+	overflow: hidden;
+	z-index: 10
+}
+
+.red-hot { background: url("../images/ribbons/red-hot.png") 0 0 no-repeat; }
+.best-value { background: url("../images/ribbons/best-value.png") 0 0 no-repeat; }
+.super-cool { background: url("../images/ribbons/super-cool.png") 0 0 no-repeat; }
+.new { background: url("../images/ribbons/new.png") 0 0 no-repeat; }
+.premium { background: url("../images/ribbons/premium.png") 0 0 no-repeat; }
+.exclusive { background: url("../images/ribbons/exclusive.png") 0 0 no-repeat; }
+.popular { background: url("../images/ribbons/popular.png") 0 0 no-repeat; }
+.five-stars { background: url("../images/ribbons/five-stars.png") 0 0 no-repeat; }
+
+
+
+/*	Pricing Tables 1 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+	
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+	.pricing-table-1 .price-block {
+		margin-bottom: 20px;
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}
+

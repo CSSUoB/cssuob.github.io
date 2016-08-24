@@ -1,0 +1,71 @@
+/*	PROMO BLOCK 2
+/*----------------------------------------------------*/
+
+.promo-2 h1 {
+	font-size: 60px;
+}
+
+.promo-2 h1, .promo-2 h2 {
+	color: #ffffff;
+}
+
+.promo-2 .countDown {
+	margin: 80px auto 40px auto;
+	font-size: 0;
+}
+
+.promo-2 .countDown .countDown-input {
+	display: none;
+}
+
+.promo-2 .countDown .countDown-wrap {
+	width: 185px;
+	margin: 0 15px 20px;
+	display: inline-block;
+	background: rgba(133, 214, 222, 0.1);
+	border-left: 4px solid #F39C12;
+	border-right: 4px solid #F39C12;
+}
+
+.promo-2 .countDown .digits {
+	display: block;
+	margin-top: 34px;
+	margin-bottom: -6px;
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 120px;
+	color: #ffffff;
+}
+
+.promo-2 .countDown .digits-label {
+	margin-bottom: 18px;
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+
+/*	PROMO BLOCK 2 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+		
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}

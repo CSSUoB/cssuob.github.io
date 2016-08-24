@@ -1,0 +1,60 @@
+/*	CONTENT BLOCK 2-2
+/*----------------------------------------------------*/
+
+.content-2-2 h3 { font-weight: 300; }
+.content-2-2 h3, .content-2-2 p { color: #ffffff; }
+
+.content-2-2 .icon-outline {
+	height: 150px;
+	width: 150px;
+	max-width: 100%;
+	border: 4px solid rgba(255,255,255,0.6);
+	border-radius: 50%;
+	-o-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	margin: 0 auto 50px;
+	-webkit-transition: box-shadow 0.2s;
+	-moz-transition: box-shadow 0.2s;
+	transition: box-shadow 0.2s;
+}
+
+.content-2-2 .icon-outline:hover {
+	box-shadow: 0 0 0 14px rgba(255,255,255,0.4);
+	color: #fff;
+}
+
+.content-2-2 .icon-outline span {
+	line-height: 150px;
+	color: #fff;
+	font-size: 55px;
+}
+
+
+/*	CONTENT BLOCK 2-2 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+		
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}

@@ -1,0 +1,66 @@
+/*	FOOTER 1-2
+/*----------------------------------------------------*/
+
+.footer-1-2 {
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.footer-1-2 .brand-img {
+	margin: 0 auto;
+	width: 150px;
+}
+
+.big-social {
+	margin-top: 20px;
+}
+
+.big-social .social-item {
+	text-align: center;
+}
+
+.big-social .social-item a {
+	display: block;
+	border-radius: 4px;
+	padding: 18px;
+	color: #ffffff;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.big-social .social-item a h4 {
+	color: #ffffff;
+	visibility: hidden;
+	margin-bottom: 0;
+}
+
+.big-social .social-item a:hover h4, .big-social .social-item a:focus h4 { visibility:visible; }
+
+.big-social .social-item.facebook a:hover, .big-social .social-item.facebook a:focus { background-color:#016bb6; }
+.big-social .social-item.twitter a:hover, .big-social .social-item.twitter a:focus { background-color:#08c1e2; }
+.big-social .social-item.google a:hover, .big-social .social-item.google a:focus { background-color:#d94b34; }
+
+
+/*	FOOTER 1-2 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+		
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}

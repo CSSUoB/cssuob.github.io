@@ -1,0 +1,116 @@
+/*	Pricing Table 3
+/*----------------------------------------------------*/
+
+.pricing-table-3 .plan {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	overflow: hidden;
+}
+
+.pricing-table-3 .plan header {
+	background: #2F4052;
+	text-align: center;
+	padding: 50px;
+}
+
+.pricing-table-3 .plan h2 {
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: .15em;
+	text-transform: uppercase;
+	color: #FFF;
+}
+
+.pricing-table-3 .plan .btn {
+	margin-bottom: 0;
+}
+
+.pricing-table-3 .plan .price {
+	margin-bottom: 15px;
+	color: #ffffff;
+}
+
+.pricing-table-3 .plan .price * {
+	font-family: 'Lato', sans-serif;
+	line-height: 100%;
+}
+
+.pricing-table-3 .plan .price .amount {
+	font-size: 120px;
+	font-weight: 900;
+}
+
+.pricing-table-3 .plan .price .currency {
+	position: relative;
+	top: 16px;
+	font-size: 24px;
+	vertical-align: top;
+	margin-right: 5px;
+}
+
+.pricing-table-3 .plan .price .period {
+	font-size: 16px;
+	text-transform: uppercase;
+	clear: left;
+}
+
+.pricing-table-3 .plan .features {
+	background: #F5F7FA;
+	padding: 25px 35px;
+	border: 1px solid #E6E9ED;
+	border-top: none;
+	border-bottom-width: 2px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	margin-top: 0 !important;
+}
+
+.pricing-table-3 .plan .features li {
+	padding: 15px 0;
+ 	border-top: 1px solid #BCC7D1;
+	list-style: none;
+}
+
+.pricing-table-3 .plan .features li:first-child {
+	border: none;
+}
+
+.pricing-table-3 .plan .features li i {
+	margin-right: 10px;
+}
+
+.pricing-table-3 .col-4 .plan header {
+	padding: 40px;
+}
+
+.pricing-table-3 .col-4 .plan h2 {
+	font-size: 18px;
+}
+
+.pricing-table-3 .col-4 .plan .price .amount {
+	font-size: 90px;
+}
+
+.pricing-table-3 .col-4 .plan .features {
+	padding: 20px 30px;
+}
+
+/* Ribbon & Colors */
+.ribbon {
+	position: absolute;
+	top: -4px;
+	right: 11px;
+	width: 82px;
+	height: 82px;
+	overflow: hidden;
+	z-index: 10
+}
+
+.red-hot { background: url("../images/red-hot.png") 0 0 no-repeat; }
+.best-value { background: url("../images/best-value.png") 0 0 no-repeat; }
+.super-cool { background: url("../images/super-cool.png") 0 0 no-repeat; }
+.new { background: url("../images/new.png") 0 0 no-repeat; }
+.premium { background: url("../images/premium.png") 0 0 no-repeat; }
+.exclusive { background: url("../images/exclusive.png") 0 0 no-repeat; }
+.popular { background: url("../images/popular.png") 0 0 no-repeat; }
+.five-stars { background: url("../images/five-stars.png") 0 0 no-repeat; }

@@ -1,0 +1,179 @@
+/*
+Template Name: Bootstrap Starter Kit - Header 3
+Description: Business Startup & Prototyping HTML Framework
+Author: Theme Spirit
+Author URI: http://www.creativemarket.com/theme_spirit
+
+Version: 1.0
+
+*/
+
+/*	HEADER 3
+/*----------------------------------------------------*/
+
+#header-3 {
+    width: 100%;
+}
+
+#header-3 .brand {
+	position: relative;
+}
+
+#header-3 .brand-img {
+	position: absolute;
+	left: 15px;
+	top: 0;
+	max-width: 150px;
+}
+
+#header-3 nav {
+	background-color: #233447;
+	margin-top: -1px;
+}
+
+#header-3 nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+#header-3 nav ul li {
+	color: rgba(255, 255, 255, 0.6);
+	display: block;
+	border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	padding-left: 0;
+	position: relative;
+}
+
+#header-3 nav ul li:last-child {
+	border: none;
+}
+
+#header-3 nav ul li a {
+	color: rgba(255, 255, 255, 0.6);
+	display: block;
+	padding: 20px;
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	padding-left: 0;
+	position: relative;
+}
+
+#header-3 nav ul li a:hover, #header-3 nav ul li a:focus {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 1);
+}
+
+#header-3 #nav-toggle {
+	position: absolute;
+	right: 15px;
+	top: 0;
+}
+
+#header-3 #nav-toggle {
+	cursor: pointer;
+	padding: 10px 35px 16px 0px;
+}
+
+#header-3 #nav-toggle span, #header-3 #nav-toggle span:before, #header-3 #nav-toggle span:after {
+	cursor: pointer;
+	border-radius: 1px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	-o-border-radius: 1px;
+	height: 5px;
+	width: 35px;
+	background: #353535;
+	position: absolute;
+	display: block;
+	content: '';
+}
+
+#header-3 #nav-toggle span:before { top: -10px; }
+#header-3 #nav-toggle span:after { bottom: -10px; }
+
+#header-3 #nav-toggle span, #header-3 #nav-toggle span:before, #header-3 #nav-toggle span:after {
+	transition: all 500ms ease-in-out;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+}
+
+#header-3 #nav-toggle.active span { background-color: transparent; }
+
+#header-3 #nav-toggle.active span:before, #header-3 #nav-toggle.active span:after { top: 0; }
+
+#header-3 #nav-toggle.active span:before {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+}
+
+#header-3 #nav-toggle.active span:after {
+	transform: translateY(-10px) rotate(-45deg);
+	-webkit-transform: translateY(-10px) rotate(-45deg);
+	-ms-transform: translateY(-10px) rotate(-45deg);
+	top: 10px;
+}
+
+#header-3 .navicon {
+	position: relative;
+	height: 26px;
+}
+
+
+
+#header-3 .indicator {
+	position: absolute;
+	right: 0 !important;
+}
+
+#header-3 .pull { display: none; }
+
+
+#header-3 .hero {
+	background: url('../images/header-3-bg.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 50px 0 300px 0;
+	height: auto;
+}
+
+#header-3 .hero h1 {
+	margin-top: 100px;
+	font-weight: 600;
+	color: #31152B;
+}
+
+#header-3 .hero .lead {
+	font-weight: 600;
+	color: #723147;
+}
+
+
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  
+	
+  
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  
+	
+  
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  
+	
+	  
+}

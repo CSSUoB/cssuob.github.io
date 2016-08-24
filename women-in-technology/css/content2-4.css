@@ -1,0 +1,41 @@
+/*	CONTENT BLOCK 2-4
+/*----------------------------------------------------*/
+
+.content-2-4 i {
+	clear: both;
+	color: #1ABC9C;
+}
+
+#quote-carousel {
+
+}
+
+.content-2-4 h1 {
+	color: #ffffff;
+}
+
+
+
+/*	CONTENT BLOCK 2-4 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+		
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}

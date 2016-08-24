@@ -1,0 +1,158 @@
+/*	Team 2
+/*----------------------------------------------------*/
+
+.team-2 .team-wrapper {
+    padding-bottom: 25px;
+}
+
+.team-2 .team-wrapper .team-item {
+	max-width: 500px;
+	margin: 0 auto;
+    overflow: hidden;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.team-2 .team-wrapper .team-item .team-thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.team-2 .team-wrapper .team-item .team-thumb img {
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.team-2 .team-wrapper .team-item:hover .team-thumb img {
+    transform: scale(1.1);
+}
+
+.team-2 .team-wrapper .team-item .team-thumb .image-overlay {
+    background-color: #2c3e50;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.team-2 .team-wrapper .team-item:hover .team-thumb .image-overlay {
+    opacity: 0.50;
+    filter: alpha(opacity=50);
+}
+
+.team-2 .team-wrapper .team-item .team-thumb .team-link {
+    position: absolute;
+    color: #fff;
+    display: block;
+}
+
+.team-2 .team-wrapper .team-item .team-thumb .team-link:hover {
+    color: #F39C12;
+}
+
+
+.team-2 .col-sm-4 .team-item .team-thumb .team-link, .team-2 .col-md-3 .team-item .team-thumb .team-link {
+    top: 0;
+    left: 45%;
+    margin-top: -50px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.team-2 .col-sm-4 .team-item:hover .team-thumb .team-link, .team-2 .col-md-3 .team-item:hover .team-thumb .team-link {
+    display: block;
+    top: 58%;
+    left: 45%;
+}
+
+
+.team-2 .team-wrapper .team-item .team-details {
+    text-align: center;
+    padding-top: 20px;
+    background-color: #fff;
+    border-top: 0;
+    overflow: hidden;
+}
+
+
+
+
+
+/*	Team 2 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+	.team-2 .col-sm-4 .team-item .team-thumb .team-link {
+	    left: 40%;
+	}
+	
+	.team-2 .col-sm-4 .team-item:hover .team-thumb .team-link {
+	    top: 66%;
+	    left: 40%;
+	}
+	
+	.team-2 .col-sm-6 .team-item .team-thumb .team-link {
+	    left: 43.4%;
+	}
+	
+	.team-2 .col-sm-6 .team-item:hover .team-thumb .team-link {
+	    top: 60%;
+	    left: 43.4%;
+	}
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+	.team-2 .col-sm-4 .team-item .team-thumb .team-link {
+	    left: 42%;
+	}
+	
+	.team-2 .col-sm-4 .team-item:hover .team-thumb .team-link {
+	    top: 62%;
+	    left: 42%;
+	}
+	
+	.team-2 .col-md-3 .team-item .team-thumb .team-link {
+	    left: 39%;
+	}
+	
+	.team-2 .col-md-3 .team-item:hover .team-thumb .team-link {
+	    top: 66%;
+	    left: 39%;
+	}
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	.team-2 .col-sm-4 .team-item .team-thumb .team-link {
+	    left: 43.4%;
+	}
+	
+	.team-2 .col-sm-4 .team-item:hover .team-thumb .team-link {
+	    top: 60%;
+	    left: 43.4%;
+	}
+	
+	.team-2 .col-md-3 .team-item .team-thumb .team-link {
+	    left: 41.3%;
+	}
+	
+	.team-2 .col-md-3 .team-item:hover .team-thumb .team-link {
+	    top: 63%;
+	    left: 41.3%;
+	}
+	
+}
+

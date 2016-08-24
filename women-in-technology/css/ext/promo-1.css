@@ -1,0 +1,41 @@
+/*	PROMO BLOCK 1
+/*----------------------------------------------------*/
+
+.promo-1 {
+	background: url("../images/water-bg.jpg") center top no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 140px 0;
+}
+
+.promo-1 .video-wrapper {
+	max-width: 600px;
+	margin: 20px auto 0 auto;
+}
+
+
+/*	PROMO BLOCK 1 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+		
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}

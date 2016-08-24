@@ -1,0 +1,80 @@
+/*	Team 1
+/*----------------------------------------------------*/
+
+.team-1 h2 {
+	margin-bottom: 50px;
+}
+
+.team-member {
+	max-width: 500px;
+	margin: 0 auto 20px auto;
+	overflow: hidden;
+	border-top: 0;
+	border: 1px solid #f5f5f5;
+	border-radius: 4px;
+}
+
+.team-details {
+	padding: 20px;
+}
+
+.team-member .member-name {
+	marg in-top: 20px;
+	position: relative;
+}
+
+.team-member .member-name:before {
+	content: "";
+	width: 100%;
+	height: 2px;
+	background-color: #ecf0f1;
+	display: block;
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+}
+
+.team-member .position {
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+}
+
+.team-member .social-links {
+	padding-top: 10px;
+}
+
+.team-member .social-links > li a {
+	border-color: #ecf0f1;
+	border-radius: 3px;
+}
+
+
+
+
+/*	Team 1 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+	
+	
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+	
+	
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}
+

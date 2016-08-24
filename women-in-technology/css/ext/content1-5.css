@@ -1,0 +1,39 @@
+/*	CONTENT BLOCK 1-5
+/*----------------------------------------------------*/
+
+.content-1-5 h1 {
+	color: #3498DB;
+}
+
+.content-1-5 img {
+	margin: 30px auto 0 auto; 
+}
+
+
+
+/*	CONTENT BLOCK 1-5 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+	
+	
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+	.content-1-5 img {
+		margin: 0; 
+	}
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}

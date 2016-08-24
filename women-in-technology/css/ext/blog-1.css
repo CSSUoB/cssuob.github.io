@@ -1,0 +1,42 @@
+/*	Blog 1
+/*----------------------------------------------------*/
+
+.blog-1 .post {
+	text-align: center;
+	padding: 10px 0;
+}
+
+.blog-1 .post img {
+	margin: 30px 0;
+}
+
+
+
+
+
+
+
+/*	Blog 1 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+	
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+	
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}
+

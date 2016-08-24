@@ -1,0 +1,68 @@
+/*	FOOTER 1-4
+/*----------------------------------------------------*/
+
+.footer-1-4 {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.footer-1-4 h2 {
+	color: #ffffff;
+}
+
+.footer-1-4 .footer-form {
+	margin-top: 40px;
+}
+
+.footer-1-4 input[type=text] {
+	background-color: rgba(255, 255, 255, 0.1);
+	border: solid 1px #fff;
+	padding: 20px;
+	width: 30%;
+	color: #fff;
+}
+
+.footer-1-4 input[type=submit] {
+	background: rgba(61, 201, 179, 0.5);
+	border: solid 1px rgba(61, 201, 179, 0.5);
+	padding: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.footer-1-4 input[type=submit]:hover {
+	background: rgba(61, 201, 179, 1);
+	border: solid 1px rgba(61, 201, 179, 1);
+	color: #fff;
+}
+
+.footer-1-4 .social {
+	margin-top: 30px;
+}
+
+
+/*	FOOTER 1-4 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+		
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}

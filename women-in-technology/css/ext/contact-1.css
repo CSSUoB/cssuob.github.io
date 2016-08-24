@@ -1,0 +1,60 @@
+/*	CONTACT 1
+/*----------------------------------------------------*/
+
+.contact-1 .form-container {
+	margin-top: 60px;
+}
+
+.contact-1 .contact-info {
+	margin-top: 40px;
+	padding: 0;
+	list-style: none;
+}
+
+.contact-1 .contact-info span {
+	margin-right: 7px;
+	color: #1abc9c;
+	padding-right: 5px;
+}
+
+.contact-1 .contact-info li {
+	display: inline-block;
+	margin: 0 10px;
+	font-size: 15px;
+	font-weight: 700;
+	color: #2e2e2e
+}
+
+.contact-1 .contact-info li a {
+	color: #2e2e2e
+}
+
+.contact-1 .contact-info li a:hover {
+	color: #1abc9c
+}
+
+
+/*	CONTACT 1 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+		
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}
+

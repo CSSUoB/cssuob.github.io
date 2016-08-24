@@ -1,0 +1,64 @@
+/*	CONTENT BLOCK 2-8
+/*----------------------------------------------------*/
+
+.content-2-8 {
+	padding: 0px;
+	position: relative;
+}
+
+.content-2-8 .image-container {
+	position: absolute;
+	height: 100%;
+	padding: 0px;
+	top: 0px;
+}
+
+.content-2-8 .image-container .background-image-holder {
+	background: url('../images/gold-iphone.png') no-repeat bottom center;
+	
+	height: 100%;
+}
+
+.content-2-8 .content {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.content-2-8 h1 {
+	font-weight: 600;
+	font-size: 56px;
+}
+
+.content-2-8 h3 {
+	margin-top: 0;
+	font-weight: 600;
+}
+
+.content-2-8 h1, .content-2-8 h3, .content-2-8 .lead, .content-2-8 p, .content-2-8 span {
+	color: #ffffff;
+}
+
+
+/*	CONTENT BLOCK 2-8 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+	
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+	
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}

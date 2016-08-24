@@ -1,0 +1,45 @@
+/*	CONTENT BLOCK 2-5
+/*----------------------------------------------------*/
+
+/* Light */
+.content-2-5-light h2 {
+	color: #333333;
+}
+
+/* Dark */
+.content-2-5-dark h2 {
+	color: #ffffff;
+}
+
+.content-2-5-dark h2 a {
+	color: #f1c40f;
+}
+
+.content-2-5-dark h2 a:hover {
+	color: #ffffff;
+}
+
+
+/*	CONTENT BLOCK 2-5 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+		
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}

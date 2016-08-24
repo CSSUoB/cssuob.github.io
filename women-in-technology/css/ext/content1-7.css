@@ -1,0 +1,48 @@
+/*	CONTENT BLOCK 1-7
+/*----------------------------------------------------*/
+
+.content-1-7 {
+	text-align: center;
+}
+
+.content-1-7 .col-md-2 {
+	height: 80px;
+	line-height: 80px;
+}
+
+.content-1-7 img {
+	max-width: 140px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+	opacity: 0.4;
+}
+
+.content-1-7 img:hover {
+	opacity: 1;
+}
+
+
+/*	CONTENT BLOCK 1-7 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+	
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+	
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}
