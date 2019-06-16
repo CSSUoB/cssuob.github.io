@@ -1,6 +1,11 @@
 ---
 ---
 
+.lead {
+  display: block;
+  height: 100vh;
+}
+
 .ascii-container {
   text-align: center;
   display: flex;
@@ -13,7 +18,7 @@ pre.ascii {
   margin: 0;
   text-align: left;
   font-size: 2.8vmin;
-  font-family: averagemono, monospace;
+  font-family: "averagemono", monospace;
 
   i {
     font-style: normal;
