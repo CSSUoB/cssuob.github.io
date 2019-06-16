@@ -40,7 +40,7 @@
 
     <div class="person-container">
       {% for person in site.data.committee.people %}
-      <div class="person">
+      <div class="person hidden">
         <img class="picture" src="{{ person.picture }}" alt="picture of {{ person.name }}">
         <div class="details">
           <span class="name">{{ person.name }}</span>
@@ -53,5 +53,22 @@
       {% endfor %}
     </div>
   </main>
+
+  <script>
+    // gradually fade in
+    window.onload = () => {
+      let people = document.getElementsByClassName('person');
+      let i = 0;
+      let appear = setInterval(() => {
+        if (i >= people.length) {
+          clearInterval(appear);
+          return;
+        }
+
+        people[i].classList.remove('hidden');
+        i++;
+      }, 50);
+    }
+  </script>
 </body>
 </html>
