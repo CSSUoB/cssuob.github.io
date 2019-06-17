@@ -19,6 +19,8 @@ html, body {
   width: 100%;
   margin: 0;
   background-color: #2f3c63;
+
+  padding-bottom: 20px;
 }
 
 main {
@@ -34,5 +36,68 @@ main {
 
   p {
     color: white;
+  }
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0 5px 5px #00000035;
+
+  background-color: #00000035;
+
+  .left {
+    flex: 0 0 auto;
+    padding-left: 20px;
+  }
+
+  .right {
+    flex: 1 1 auto;
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  .title {
+    font-size: 3em;
+    font-family: "averagemono", monospace;
+    color: white;
+    text-decoration: none;
+  }
+
+  .nav {
+    font-size: 1.5em;
+    font-family: "averagemono", monospace;
+    color: white;
+    padding-left: 20px;
+    text-decoration: none;
+
+    display: inline-block;
+
+    &:before, &:after {
+      content: '';
+      width: 0%;
+      height: 2px;
+      display: block;
+      background-color: white;
+
+      transition: width 0.2s;
+    }
+
+    &:before {
+      float: left;
+    }
+    &:after {
+      float: right;
+    }
+
+    &:hover:after {
+      width: 100%;
+    }
+    
+    &:hover:before {
+      width: 100%;
+    }
   }
 }

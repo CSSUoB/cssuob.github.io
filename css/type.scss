@@ -1,9 +1,17 @@
 ---
 ---
 
-.lead {
-  display: block;
+body {
   height: 100vh;
+  overflow: hidden;
+}
+
+.lead {
+  position: absolute;
+  top: 5vh;
+  left: 0;
+  width: 100vw;
+  height: 95vh;
 }
 
 .ascii-container {
