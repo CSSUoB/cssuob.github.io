@@ -1,78 +1,50 @@
 ---
+layout: page
+title: Committee
+styles:
+  - /css/committee.css
 ---
 
-<!DOCTYPE html>
-<html>
-<head>
-  <title>UoB Computer Science Society</title>
-  <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
-  <meta name=viewport content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/committee.css">
-  
-  <meta name=description content="University of Birmingham Computer Science Society">
-  <meta name=keywords content="Birmingham, University, Society, Students, University of Birmingham, Computer Science, CSS, Computer Science Society">
-  <meta property=og:title content="UoB Computer Science Society">
-  <meta property=og:type content=website>
-  <meta property=og:url content=http://www.cssbham.co.uk>
-  <meta property=og:description content="Computer Science Society at University of Birmingham">
-  <meta property=og:image content=http://www.cssbham.co.uk/logo.png>
-  <meta name=twitter:card content=summary>
-  <meta name=twitter:site content=@CSSBham>
-  <meta name=twitter:description content="Computer Science Society at University of Birmingham">
-  <meta name=twitter:title content="CSS @ Uni Birmingham">
-  <meta name=twitter:image content=http://www.cssbham.co.uk/logo.png>
-</head>
-<body>
-  {% include header.html %}
+<h1>Committee</h1>
 
-  <main>
-    <h1>Committee</h1>
+<p>
+  The CSS committee represents all of our members and takes
+  responsibility for planning and organizing the society as well as
+  running events throughout the year.
+</p>
+<p>
+  Currently, for the academic year {{ site.data.committee.academic_year }}
+  we have {{ site.data.committee.people.size }} committee members:
+</p>
 
-    <p>
-      The CSS committee represents all of our members and takes
-      responsibility for planning and organizing the society as well as
-      running events throughout the year.
-    </p>
-    <p>
-      Currently, for the academic year {{ site.data.committee.academic_year }}
-      we have {{ site.data.committee.people.size }} committee members:
-    </p>
-
-    <div class="person-container">
-      {% for person in site.data.committee.people %}
-      <div class="person hidden">
-        <img class="picture" src="{{ person.picture }}" alt="picture of {{ person.name }}">
-        <div class="details">
-          <span class="name">{{ person.name }}</span>
-          <span class="role">{{ person.role }}</span>
-          <p class="bio">
-            {{ person.bio }}
-          </p>
-        </div>
-      </div>
-      {% endfor %}
+<div class="person-container">
+  {% for person in site.data.committee.people %}
+  <div class="person hidden">
+    <img class="picture" src="{{ person.picture }}" alt="picture of {{ person.name }}">
+    <div class="details">
+      <span class="name">{{ person.name }}</span>
+      <span class="role">{{ person.role }}</span>
+      <p class="bio">
+        {{ person.bio }}
+      </p>
     </div>
-  </main>
+  </div>
+  {% endfor %}
+</div>
 
-  {% include footer.html %}
+<script>
+  // gradually fade in
+  window.onload = () => {
+    let people = document.getElementsByClassName('person');
+    let i = 0;
+    let appear = setInterval(() => {
+      if (i >= people.length) {
+        clearInterval(appear);
+        return;
+      }
 
-  <script>
-    // gradually fade in
-    window.onload = () => {
-      let people = document.getElementsByClassName('person');
-      let i = 0;
-      let appear = setInterval(() => {
-        if (i >= people.length) {
-          clearInterval(appear);
-          return;
-        }
-
-        people[i].classList.remove('hidden');
-        i++;
-      }, 50);
-    }
-  </script>
-</body>
-</html>
+      people[i].classList.remove('hidden');
+      i++;
+    }, 50);
+  }
+</script>

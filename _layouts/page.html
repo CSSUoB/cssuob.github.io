@@ -1,24 +1,30 @@
----
----
-
 <!DOCTYPE html>
 <html>
 <head>
-  <title>UoB Computer Science Society</title>
+  <title>UoB Computer Science Society - {{ page.title }}</title>
   <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
   <meta name=viewport content="width=device-width, initial-scale=1">
+
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/main.css">
+
+  {% if page.styles %}
+  {% for style in page.styles %}
+  <link rel="stylesheet" href="{{ style }}">
+  {% endfor %}
+  {% endif %}
+
+  {% if page.scripts %}
+  {% for script in page.scripts %}
+  <script src="{{ script }}"></script>
+  {% endfor %}
+  {% endif %}
 </head>
 <body>
   {% include header.html %}
 
   <main>
-    <h1>About us</h1>
-
-    <p>
-      Add stuff here!
-    </p>
+    {{ content }}
   </main>
 
   {% include footer.html %}
