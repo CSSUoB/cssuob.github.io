@@ -17,8 +17,12 @@
 
 body {
   width: 100%;
+  min-height: 100vh;
   margin: 0;
   background-color: #2f3c63;
+
+  display: flex;
+  flex-direction: column;
 }
 
 main {
@@ -27,6 +31,8 @@ main {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+
+  flex: 1 1 auto;
 
   h1, h2 {
     color: white;
