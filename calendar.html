@@ -6,27 +6,38 @@
 	<head>
 		<link rel="shortcut icon" type="image/png" href="favicon.ico"/>
 
+		<link rel="stylesheet" href="https://unpkg.com/@fullcalendar/core@4.2.0/main.min.css">
+		<script src="https://unpkg.com/@fullcalendar/core@4.2.0/main.min.js"></script>
+		<link rel="stylesheet" href="https://unpkg.com/@fullcalendar/daygrid@4.2.0/main.min.css">
+		<script src="https://unpkg.com/@fullcalendar/daygrid@4.2.0/main.min.js"></script>
+		<script src="https://unpkg.com/@fullcalendar/google-calendar@4.2.0/main.min.js"></script>
+
 		<link rel="stylesheet" href="/css/normalize.css">
 		<link rel="stylesheet" href="/css/main.css">
 
 		<style type="text/css">
-			.calendar { border-width: 10px; border-radius: 5px;	border-color: #ffffff; border-style: solid; width: 100%; height: 80vh; min-height: 600px;}
-			.btn { margin: 20px;}
-			.footer { color: #ffffff; margin-top: 20px; font-size: 0.7em;}
+			#calendar {
+				background-color: white;
+				padding: 20px;
+				border-radius: 10px;
+			}
 		</style>
+
+		<script src="/js/calendar.js"></script>
 	</head>
 
 	<body>
 		{% include header.html %}
 
 		<main>
-			<div class="container text-center">
+			<div id="calendar"></div>
+			<!-- <div class="container text-center">
 				<button type="button"><a href="https://calendar.google.com/calendar/embed?src=kg5v9k480jn2qahpmq33h8g7cs%40group.calendar.google.com&ctz=Europe%2FLondon" style="margin: 100px auto;">Add to your Google Calendar</a></button>
 			</div>
 
 			<div class="container text-center">
 				<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;hl=en_GB&amp;bgcolor=%23ffffff&amp;mode=AGENDA&amp;src=kg5v9k480jn2qahpmq33h8g7cs%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=Europe%2FLondon" frameborder="0" scrolling="no" class="calendar"></iframe>
-			</div>
+			</div> -->
 		</main>
 
 		<footer>
