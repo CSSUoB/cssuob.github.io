@@ -15,12 +15,10 @@
   font-style: normal;
 }
 
-html, body {
+body {
   width: 100%;
   margin: 0;
   background-color: #2f3c63;
-
-  padding-bottom: 20px;
 }
 
 main {
@@ -101,4 +99,11 @@ header {
       width: 100%;
     }
   }
+}
+
+footer {
+  color: white;
+  font-family: "averagemono", monospace;
+  font-size: 0.7em;
+  text-align: center;
 }
