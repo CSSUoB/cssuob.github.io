@@ -9,6 +9,7 @@ a {
   display: flex;
 
   border-radius: 10px;
+  overflow: hidden;
 
   background: white;
 
@@ -30,5 +31,22 @@ a {
         color: grey;
       }
     }
+  }
+}
+
+.post {
+  background-color: white;
+
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 20px;
+
+  * {
+    color: black;
   }
 }
