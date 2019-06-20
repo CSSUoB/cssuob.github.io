@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('here');
     let hamburger = document.getElementById('hamburger');
     let menu = document.getElementById('hamburger-menu');
 
@@ -7,7 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
         menu.classList.toggle('visible');
     });
 
-    menu.addEventListener('click', () => {
-        menu.classList.toggle('visible');
+    menu.addEventListener('click', (event) => {
+        if (event.target == menu) {
+            menu.classList.toggle('visible');
+        }
     });
 });

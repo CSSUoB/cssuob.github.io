@@ -115,7 +115,8 @@ header {
     width: 100vw;
     height: 100vh;
     opacity: 0;
-    display: none;
+    display: flex;
+    visibility: hidden;
 
     padding-top: 100px;
 
@@ -125,9 +126,11 @@ header {
     flex-direction: column;
     align-items: flex-end;
 
+    transition: opacity 0.2s;
+
     &.visible {
+      visibility: visible;
       opacity: 1;
-      display: flex;
     }
 
     .nav {
