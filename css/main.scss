@@ -104,6 +104,10 @@ header {
     &:hover:before {
       width: 100%;
     }
+
+    &:active, &:focus {
+      outline: none;
+    }
   }
 }
 
