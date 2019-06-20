@@ -1,4 +1,4 @@
-window.onload = () => {
+document.addEventListener('DOMContentLoaded', () => {
     console.log('here');
     let hamburger = document.getElementById('hamburger');
     let menu = document.getElementById('hamburger-menu');
@@ -10,4 +10,4 @@ window.onload = () => {
     menu.addEventListener('click', () => {
         menu.classList.toggle('visible');
     });
-};
+});

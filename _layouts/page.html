@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+  {% if page.title %}
   <title>UoB Computer Science Society - {{ page.title }}</title>
+  {% else %}
+  <title>UoB Computer Science Society</title>
+  {% endif %}
+
   <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
   <meta name=viewport content="width=device-width, initial-scale=1">
 
