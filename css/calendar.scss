@@ -33,6 +33,10 @@
 
 
 @media only screen and (max-width: 900px) {
+  .calendar-container {
+    width: 100%;
+  }
+
   .calendar {
     padding: 10px;
   }
