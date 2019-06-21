@@ -3,6 +3,8 @@ layout: page
 title: Committee
 styles:
   - /css/committee.css
+scripts:
+  - /js/fadein.js
 ---
 
 <h1>Committee</h1>
@@ -17,9 +19,9 @@ styles:
   we have {{ site.data.committee.people.size }} committee members:
 </p>
 
-<div class="person-container">
+<div class="person-container fadein-container">
   {% for person in site.data.committee.people %}
-  <div class="person hidden">
+  <div class="person fadein hidden">
     <img class="picture" src="{{ person.picture }}" alt="picture of {{ person.name }}">
     <div class="details">
       <span class="name">{{ person.name }}</span>
@@ -31,20 +33,3 @@ styles:
   </div>
   {% endfor %}
 </div>
-
-<script>
-  // gradually fade in
-  window.onload = () => {
-    let people = document.getElementsByClassName('person');
-    let i = 0;
-    let appear = setInterval(() => {
-      if (i >= people.length) {
-        clearInterval(appear);
-        return;
-      }
-
-      people[i].classList.remove('hidden');
-      i++;
-    }, 50);
-  }
-</script>
