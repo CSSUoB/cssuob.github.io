@@ -166,8 +166,17 @@ header {
 }
 
 @media only screen and (max-width: 800px) {
+  main {
+    width: 95%;
+  }
+
   header {
+    .left {
+      padding-left: 10px;
+    }
+
     .right {
+      padding-right: 10px;
       font-size: 2vw;
     }
   }
