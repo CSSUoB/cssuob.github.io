@@ -41,6 +41,11 @@ main {
 
   p {
     color: white;
+    line-height: 1.5em;
+
+    a {
+      color: white;
+    }
   }
 }
 
@@ -49,9 +54,9 @@ header {
   align-items: center;
   padding-top: 5px;
   padding-bottom: 5px;
-  box-shadow: 0 5px 5px #00000035;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 
-  background-color: #00000035;
+  background-color: rgba(0, 0, 0, 0.2);
 
   .left {
     flex: 0 0 auto;
@@ -120,7 +125,7 @@ header {
 
     padding-top: 100px;
 
-    background-color: #000000b0;
+    background-color: rgba(0, 0, 0, 0.8);
     z-index: 1000;
 
     flex-direction: column;
