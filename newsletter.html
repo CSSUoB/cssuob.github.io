@@ -3,20 +3,24 @@ layout: page
 title: Newsletter
 styles:
   - /css/posts.css
+scripts:
+  - /js/fadein.js
 ---
 
 <h1>Newsletter</h1>
 
-{% for post in site.posts %}
-<a class="post-preview" href="{{ post.url }}">
-  {% if post.thumbnail %}
-  <img class="post-thumbnail" src="{{ post.thumbnail }}">
-  {% endif %}
-  <div class="post-details">
-    <h2 class="post-title">{{ post.title }}</h2>
-    <div class="post-excerpt">
-      {{ post.excerpt }}
+<div class="fadein-container">
+  {% for post in site.posts %}
+  <a class="post-preview fadein" href="{{ post.url }}">
+    {% if post.thumbnail %}
+    <img class="post-thumbnail" src="{{ post.thumbnail }}">
+    {% endif %}
+    <div class="post-details">
+      <h2 class="post-title">{{ post.title }}</h2>
+      <div class="post-excerpt">
+        {{ post.excerpt }}
+      </div>
     </div>
-  </div>
-</a>
-{% endfor %}
+  </a>
+  {% endfor %}
+</div>

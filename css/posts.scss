@@ -13,6 +13,9 @@ a {
 
   background: white;
 
+  opacity: 0;
+  transition: opacity 0.1s;
+
   .post-thumbnail {
     flex: 0 0 auto;
   }
@@ -31,6 +34,10 @@ a {
         color: grey;
       }
     }
+  }
+
+  &.visible {
+    opacity: 1;
   }
 }
 
