@@ -22,7 +22,7 @@ scripts:
 <div class="person-container fadein-container">
   {% for person in site.data.committee.people %}
   <div class="person fadein hidden">
-    <img class="picture" src="{{ person.picture }}" alt="picture of {{ person.name }}">
+    <img class="picture" src="{{ person.picture | relative_url }}" alt="picture of {{ person.name }}">
     <div class="details">
       <span class="name">{{ person.name }}</span>
       <span class="role">{{ person.role }}</span>

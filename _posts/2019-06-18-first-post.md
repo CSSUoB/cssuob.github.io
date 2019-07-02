@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "First post!"
-permalink: newsletter/:title
+permalink: /newsletter/:title
 thumbnail: "https://placekitten.com/150/150"
 ---
 

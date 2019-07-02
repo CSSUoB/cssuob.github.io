@@ -13,7 +13,7 @@ scripts:
   {% for post in site.posts %}
   <a class="post-preview fadein" href="{{ post.url | relative_url }}">
     {% if post.thumbnail %}
-    <img class="post-thumbnail" src="{{ post.thumbnail }}">
+    <img class="post-thumbnail" src="{{ post.thumbnail | relative_url }}">
     {% endif %}
     <div class="post-details">
       <h2 class="post-title">{{ post.title }}</h2>

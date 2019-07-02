@@ -3,19 +3,16 @@
     <a class="title" href="/">CSS</a>
 </span>
 <span class="right">
-    <a class="nav" href="/newsletter">Newsletter</a>
-    <a class="nav" href="/committee">Committee</a>
-    <a class="nav" href="/calendar">Calendar</a>
-    <a class="nav" href="/about">About</a>
+    {% for item in site.menu %}
+    <a class="nav" href="{{ item | relative_url }}">{{ item | capitalize }}</a>
+    {% endfor %}
 </span>
 <div id="hamburger" class="hamburger">
     <img src="/assets/hamburger.svg">
 </div>
 <div id="hamburger-menu" class="mobile-menu">
-    <a class="nav" href="/">Home</a>
-    <a class="nav" href="/newsletter">Newsletter</a>
-    <a class="nav" href="/committee">Committee</a>
-    <a class="nav" href="/calendar">Calendar</a>
-    <a class="nav" href="/about">About</a>
+    {% for item in site.menu %}
+    <a class="nav" href="{{ item | relative_url }}">{{ item | capitalize }}</a>
+    {% endfor %}
 </div>
 </header>
