@@ -1,32 +1,57 @@
 academic_year: 2019/2020
 people:
-  - name: John Doe
+  - name: Cristian Calauz
     role: President
-    bio: John Doe is the head of the society.
-  - name: John Doe
-    role: President
-    bio: John Doe is the head of the society.
-  - name: John Doe
-    role: President
-    bio: John Doe is the head of the society.
-  - name: John Doe
-    role: President
-    bio: John Doe is the head of the society.
-  - name: John Doe
-    role: President
-    bio: John Doe is the head of the society.
-  - name: John Doe
-    role: President
-    bio: John Doe is the head of the society.
-  - name: John Doe
-    role: President
-    bio: John Doe is the head of the society.
-  - name: John Doe
-    role: President
-    bio: John Doe is the head of the society.
-  - name: John Doe
-    role: President
-    bio: John Doe is the head of the society.
-  - name: John Doe
-    role: President
-    bio: John Doe is the head of the society.
+    bio:
+    picture: /assets/committee/mini/cristian.jpg
+  - name: Tom Goodman
+    role: Secretary
+    bio:
+    picture: /assets/committee/mini/tomg.jpg
+  - name: Stefan Nedelcu
+    role: Treasurer
+    bio:
+    picture: /assets/committee/mini/stefan.jpg
+  - name: Justin Chadwell
+    role: Vice-President
+    bio:
+    picture: /assets/committee/mini/justin.jpg
+  - name: Jonathan Rudman
+    role: Socials Rep
+    bio:
+    picture: /assets/committee/mini/jonty.jpg
+  - name: Selma Kander
+    role: International Rep
+    bio:
+    picture: /assets/committee/mini/selma.jpg
+  - name: Lauren Alie
+    role: Special Events Rep
+    bio:
+    picture: /assets/committee/mini/lauren.jpg
+  - name: Keerthi Rachmallu
+    role: Diversity and Inclusivity Rep
+    bio:
+    picture: /assets/committee/mini/keerthi.jpg
+  - name: Laura Cope
+    role: Sports Rep
+    bio:
+    picture: /assets/committee/mini/laura.jpg
+  - name: Lik Kan Chung
+    role: Publicity Rep
+    bio:
+    picture: /assets/committee/mini/likkan.jpg
+  - name: Tom Preece
+    role: Industrial Rep
+    bio:
+    picture: /assets/committee/mini/tomp.jpg
+  - name: Mark Titley
+    role: Post-Graduate (Taught) Rep
+    bio:
+  - name: Michael Staig
+    role: First Year Rep
+    bio:
+    picture: /assets/committee/mini/michael.png
+  - name: Marco Canducci
+    role: Post-Graduate (Research) Rep
+    bio:
+    picture: /assets/committee/mini/marco.jpg
