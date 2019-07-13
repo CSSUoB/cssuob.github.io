@@ -72,8 +72,8 @@ header {
       // neat animations
       &:before, &:after {
         content: '';
-        width: 0%;
-        height: 2px;
+        width: 0;
+        height: 0;
         display: block;
         background-color: white;
 
@@ -87,12 +87,9 @@ header {
         float: right;
       }
 
-      &:hover:after {
+      &:hover:before, &:hover:after {
         width: 100%;
-      }
-      
-      &:hover:before {
-        width: 100%;
+        height: 2px;
       }
     }
   }
@@ -143,10 +140,12 @@ header {
       font-size: 2em;
       line-height: 1.6em;
 
-      padding-right: 20px;
+      margin-right: 20px;
 
-      &:active, &:focus {
-        outline: none;
+      a {
+        &:active, &:focus {
+          outline: none;
+        }
       }
 
       &:first-child:before, &:after {
@@ -159,14 +158,16 @@ header {
     }
   }
 
-  .nav {
+  & .nav {
+    display: inline-block;
     font-size: 1.5em;
     font-family: "averagemono", monospace;
-    color: white;
     padding-left: 20px;
-    text-decoration: none;
 
-    display: inline-block;
+    a {
+      color: white;
+      text-decoration: none;
+    }
   }
 }
 
