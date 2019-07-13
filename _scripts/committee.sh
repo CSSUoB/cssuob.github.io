@@ -10,5 +10,5 @@
 
 mkdir -p assets/committee/mini/
 for picture in assets/committee/full/*; do
-	convert $picture -resize 120x120 assets/committee/mini/`basename $picture`
+	convert $picture -resize 150x150 assets/committee/mini/`basename $picture`
 done
