@@ -4,13 +4,7 @@
 .person-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 30px;
-}
-
-@media only screen and (max-width : 1100px) {
-  .person-container {
-    grid-template-columns: 1fr;
-  }
+  grid-gap: 10px;
 }
 
 .person {
@@ -28,8 +22,8 @@
   display: flex;
 
   .picture {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     flex: 0 0 auto;
 
     border-right: 1px solid #222;
@@ -51,7 +45,7 @@
     }
 
     .bio {
-      margin-top: 0.7em;
+      margin-top: 0.5em;
       margin-left: 1em;
       color: black;
 
@@ -61,7 +55,7 @@
   }
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width : 800px) {
   .person {
     flex-direction: column;
 
@@ -71,5 +65,15 @@
       margin-right: auto;
       border: 1px solid #222;
     }
+  }
+}
+
+@media only screen and (max-width : 1500px) {
+  .person-container {
+    grid-template-columns: 1fr;
+  }
+
+  .person {
+    max-width: 700px;
   }
 }
