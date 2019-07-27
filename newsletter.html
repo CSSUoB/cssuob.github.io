@@ -9,6 +9,10 @@ scripts:
 
 <h1>Newsletter</h1>
 
+{% if site.posts.size == 0 %}
+<p>There's nothing here yet...</p>
+{% endif %}
+
 <div class="fadein-container">
   {% for post in site.posts %}
   <a class="post-preview fadein" href="{{ post.url | relative_url }}">
