@@ -2,7 +2,6 @@
 layout: post
 title: "Freshers Welcome 2019"
 permalink: /newsletter/:title
-thumbnail: ""
 ---
 
 Congratulations on your place to study at the University of Birmingham - we
