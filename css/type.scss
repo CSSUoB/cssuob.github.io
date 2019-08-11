@@ -26,7 +26,9 @@ pre.ascii {
   margin: 0;
   text-align: left;
   font-size: 2.8vmin;
-  font-family: "averagemono", monospace;
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+  line-height: 0.9;
 
   i {
     font-style: normal;
@@ -124,15 +126,19 @@ pre.ascii {
     }
     &.d13 {
       animation-delay: 2.9s;
+      line-height: 1.1;
     }
     &.d14 {
       animation-delay: 3.1s;
+      line-height: 1.1;
     }
     &.d15 {
       animation-delay: 3.3s;
+      line-height: 1.1;
     }
     &.d16 {
       animation-delay: 3.5s;
+      line-height: 1.1;
     }
   }
 }
