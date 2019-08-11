@@ -14,7 +14,7 @@ it too! That is why CSS is working making sure to create events and provide a
 medium through which computer scientists can meet, make friends, and partake
 in a whole lot of exciting activities.
 
-## What do we do
+## What we do
 
 We run a variety of events around the year, such as:
 
