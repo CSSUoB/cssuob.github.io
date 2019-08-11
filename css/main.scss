@@ -34,7 +34,7 @@ main {
 
   flex: 1 1 auto;
 
-  h1, h2 {
+  h1, h2, h3, h4, h5, h6 {
     color: white;
     font-family: "averagemono", monospace;
   }
@@ -46,6 +46,15 @@ main {
     a {
       color: white;
     }
+  }
+
+  li {
+    color: white;
+    line-height: 1.5em;
+  }
+
+  .text-container {
+    max-width: 900px;
   }
 }
 
