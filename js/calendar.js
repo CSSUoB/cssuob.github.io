@@ -4,9 +4,12 @@ document.addEventListener('DOMContentLoaded', () => {
 		plugins: ['dayGrid', 'googleCalendar', 'list'],
 		height: 'auto',
 		header: {
-			left: 'prev',
-			center: 'today',
-			right: 'next'
+			left: 'title',
+			right: 'prev today next'
+		},
+		titleFormat: {
+			year: 'numeric',
+			month: 'long'
 		},
 		defaultView: window.innerWidth < 800 ? 'listMonth' : 'dayGridMonth',
 		googleCalendarApiKey: 'AIzaSyD-Dmwq4Nf0oSyaPdh_zM2NMqCgYnIRb14',
