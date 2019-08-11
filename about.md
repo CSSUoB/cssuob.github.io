@@ -1,6 +1,6 @@
 ---
 layout: textpage
-title: About us
+title: About
 ---
 
 # About us
@@ -58,7 +58,7 @@ They are a great way to meet new people, talk with different companies and
 learn new things. Each year we encourage members to get involved with
 hackathons since it's a great way to learn, build and share.
 
-To learn more about hackathons, checkout the great [https://mlh.io](MLH)
+To learn more about hackathons, checkout the great [MLH](https://mlh.io)
 website for more info about events happening all over the world.
 
 ## Awards
