@@ -1,3 +1,4 @@
+future: false
 plugins:
   - jekyll-seo-tag
 
@@ -8,9 +9,9 @@ social:
   links:
     - https://twitter.com/CSSBham
     - https://github.com/CSSUoB
-
 menu:
   - newsletter
   - committee
   - calendar
   - about
+
