@@ -1,6 +1,8 @@
 ---
 ---
 
+$preview-height: 150px;
+
 .post-preview {
   display: flex;
 
@@ -16,8 +18,14 @@
 
   text-decoration: none;
 
+  height: $preview-height;
+
   .post-thumbnail {
     flex: 0 0 auto;
+
+    width: $preview-height;
+    height: $preview-height;
+    object-fit: cover;
   }
 
   .post-details {

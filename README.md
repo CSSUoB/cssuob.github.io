@@ -51,6 +51,10 @@ shell:
 
     $ touch _posts/"$(date +%Y-%m-%d)-<title>.md"
 
+You can add a thumbnail to a post; simply link the thumbnail in the front
+matter in the markdown file for the post. The thumbnail should be a 150px
+square for best results.
+
 ### Updating the committee
 
 To update the committee:
