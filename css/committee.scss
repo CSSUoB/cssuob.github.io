@@ -1,0 +1,79 @@
+---
+---
+
+.person-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.person {
+  opacity: 1;
+  transition: opacity 0.1s;
+
+  &.hidden {
+    opacity: 0;
+  }
+
+  background-color: #fdfdfd;
+  overflow: hidden;
+  border-radius: 10px;
+
+  display: flex;
+
+  .picture {
+    width: 150px;
+    height: 150px;
+    flex: 0 0 auto;
+
+    border-right: 1px solid #222;
+  }
+
+  .details {
+    flex: 1 1 auto;
+    padding: 10px;
+
+    .name {
+      font-weight: bold;
+    }
+
+    .role {
+      color: #888;
+      &:before {
+        content: " — ";
+      }
+    }
+
+    .bio {
+      margin-top: 0.5em;
+      margin-left: 1em;
+      color: black;
+
+      font-size: 0.9em;
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media only screen and (max-width : 800px) {
+  .person {
+    flex-direction: column;
+
+    .picture {
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid #222;
+    }
+  }
+}
+
+@media only screen and (max-width : 1500px) {
+  .person-container {
+    grid-template-columns: 1fr;
+  }
+
+  .person {
+    max-width: 700px;
+  }
+}

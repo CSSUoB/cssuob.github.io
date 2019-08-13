@@ -1,0 +1,35 @@
+---
+layout: page
+title: Committee
+styles:
+  - /css/committee.css
+scripts:
+  - /js/fadein.js
+---
+
+<h1>Committee</h1>
+
+<p>
+  The CSS committee represents all of our members and takes
+  responsibility for planning and organizing the society as well as
+  running events throughout the year.
+</p>
+<p>
+  Currently, for the academic year {{ site.data.committee.academic_year }}
+  we have {{ site.data.committee.people.size }} committee members:
+</p>
+
+<div class="person-container fadein-container">
+  {% for person in site.data.committee.people %}
+  <div class="person fadein hidden">
+    <img class="picture" src="{{ person.picture | relative_url }}" alt="picture of {{ person.name }}">
+    <div class="details">
+      <span class="name">{{ person.name }}</span>
+      <span class="role">{{ person.role }}</span>
+      <p class="bio">
+        {{ person.bio }}
+      </p>
+    </div>
+  </div>
+  {% endfor %}
+</div>

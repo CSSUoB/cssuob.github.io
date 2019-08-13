@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UoB Computer Science Society - {{ page.title }}</title>
+  <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/css/normalize.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/css/posts.css' | relative_url }}">
+
+  <script src="{{ '/js/hamburger.js' | relative_url }}"></script>
+
+  {% seo %}
+</head>
+<body>
+  {% include header.html %}
+
+  <main>
+    <div class="post">
+      <h1>{{ page.title }}</h1>
+
+      {{ content }}
+    </div>
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>

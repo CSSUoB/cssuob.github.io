@@ -1,0 +1,22 @@
+<header>
+<span class="left">
+    <a class="title" href="{{ site.base_url }}/">CSS</a>
+</span>
+<span class="right">
+    {% for item in site.menu %}</div>
+    <div class="nav">
+        <a href="{{ item | relative_url }}">{{ item | capitalize }}</a>
+    </div>
+    {% endfor %}
+</span>
+<div id="hamburger" class="hamburger">
+    <img src="{{ '/assets/hamburger.svg' | relative_url }}">
+</div>
+<div id="hamburger-menu" class="mobile-menu">
+    {% for item in site.menu %}
+    <div class="nav">
+        <a href="{{ item | relative_url }}">{{ item | capitalize }}</a>
+    </div>
+    {% endfor %}
+</div>
+</header>

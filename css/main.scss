@@ -1,0 +1,222 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+@font-face {
+  font-family: "Inconsolata";
+  src: url(/fonts/Inconsolata-Regular.eot) format("embedded-opentype"),
+  url(/fonts/Inconsolata-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Inconsolata";
+  src: url(/fonts/Inconsolata-Bold.eot) format("embedded-opentype"),
+  url(/fonts/Inconsolata-Bold.ttf) format("truetype");
+  font-weight: bold;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #2f3c63;
+
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  font-family: "Noto Sans", sans-serif;
+  width: 80%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  flex: 1 1 auto;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: white;
+    font-family: "Inconsolata", monospace;
+  }
+
+  p {
+    color: white;
+    line-height: 1.5em;
+
+    a {
+      color: white;
+    }
+  }
+
+  li {
+    color: white;
+    line-height: 1.5em;
+  }
+
+  .text-container {
+    max-width: 900px;
+  }
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+  background-color: rgba(0, 0, 0, 0.2);
+
+  .left {
+    flex: 0 0 auto;
+    padding-left: 20px;
+  }
+
+  .right {
+    flex: 1 1 auto;
+    text-align: right;
+    padding-right: 20px;
+
+    .nav {
+      // neat animations
+      &:before, &:after {
+        content: '';
+        width: 0;
+        height: 0;
+        display: block;
+        background-color: white;
+
+        transition: width 0.2s;
+      }
+
+      &:before {
+        float: left;
+      }
+      &:after {
+        float: right;
+      }
+
+      &:hover:before, &:hover:after {
+        width: 100%;
+        margin-top: 3px;
+        margin-bottom: 1px;
+        height: 1px;
+      }
+    }
+  }
+
+  .title {
+    font-size: 3em;
+    font-family: "Inconsolata", monospace;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+
+  .hamburger {
+    flex: 1 1 auto;
+    text-align: right;
+    display: none;
+    padding-right: 20px;
+
+    z-index: 2000;
+    padding-top: 5px;
+  }
+
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    display: flex;
+    visibility: hidden;
+
+    padding-top: 100px;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+
+    flex-direction: column;
+    align-items: flex-end;
+
+    transition: opacity 0.2s;
+
+    &.visible {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .nav {
+      text-align: right;
+      font-size: 2em;
+      line-height: 1.6em;
+
+      margin-right: 20px;
+
+      a {
+        &:active, &:focus {
+          outline: none;
+        }
+      }
+
+      &:first-child:before, &:after {
+        content: "";
+        display: block;
+        width: 80vw;
+        height: 2px;
+        background-color: white;
+      }
+    }
+  }
+
+  & .nav {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: "Inconsolata", monospace;
+    padding-right: 20px;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  main {
+    width: 95%;
+  }
+
+  header {
+    .left {
+      padding-left: 10px;
+    }
+
+    .right {
+      padding-right: 10px;
+      font-size: 2vw;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    .right {
+      display: none;
+    }
+    
+    .hamburger {
+      display: inline-block;
+    }
+  }
+}
+
+footer {
+  color: white;
+  font-family: "Inconsolata", monospace;
+  font-size: 0.7em;
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+future: false
+plugins:
+  - jekyll-seo-tag
+
+title: UoB Computer Science Society
+url: cssbham.com
+social:
+  name: CSS
+  links:
+    - https://twitter.com/CSSBham
+    - https://github.com/CSSUoB
+menu:
+  - newsletter
+  - committee
+  - calendar
+  - about
+baseurl: /
+root: /
+
