@@ -45,8 +45,9 @@ The website should now serving at http://127.0.0.1:4000.
 
 To keep the site consistent, please avoid creating new directories explicitly
 for putting redirects in - it makes the folder structure unneccessarily
-complex. Additionally, when hosted using jekyll, this extra step is not
-required as `/redirect` will automatically lookup `/redirect.html`.
+complex. Instead of using `/<redirect>/index.html` you can use just
+`/<redirect>.html`. When hosted using jekyll, a lookup to `/<redirect>` will be
+automatically translated into `/<redirect>.html`.
 
 ### Writing a new post
 
