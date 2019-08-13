@@ -1,2 +1,10 @@
 - source: /epsawards
   destination: https://www.flickr.com/photos/136945066@N04/sets/72157709173802032/
+- source: /facebook
+  destination: https://facebook.com/CSSUoB
+- source: /twitter
+  destination: https://twitter.com/cssbham
+- source: /instagram
+  destination: https://instagram.com/cssbham
+- source: /join
+  destination: https://www.guildofstudents.com/studentgroups/societies/css/
