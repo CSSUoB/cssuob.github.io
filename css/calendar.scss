@@ -1,11 +1,31 @@
 ---
 ---
 
-.calendar-controls {
+.calendar-controls{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   margin-bottom: 10px;
+}
+
+.calendar-button {
+    border: 1px solid white;
+    border-radius: .25em;
+    padding: .4em .65em;
+    background-color: #2C3E50;
+    color: white;
+    vertical-align: middle;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: inherit;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+}
+
+.calendar-button:hover {
+  background-color:#212529;
 }
 
 .calendar-container {
@@ -44,7 +64,7 @@
 
 
 @media only screen and (max-width: 900px) {
-  .calendar-controls {
+  .calendar-controls-hideable {
     display: none;
   }
 
