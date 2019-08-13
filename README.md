@@ -41,6 +41,13 @@ Run jekyll server:
 
 The website should now serving at http://127.0.0.1:4000.
 
+### Adding new redirects
+
+To keep the site consistent, please avoid creating new directories explicitly
+for putting redirects in - it makes the folder structure unneccessarily
+complex. Additionally, when hosted using jekyll, this extra step is not
+required as `/redirect` will automatically lookup `/redirect.html`.
+
 ### Writing a new post
 
 To create a new post, create a markdown file in `_posts` with the post
