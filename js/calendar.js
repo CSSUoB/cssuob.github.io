@@ -1,16 +1,22 @@
+// API keys
+// these are generated using the google cloud platform api keys
+const CALENDAR_KEY = 'AIzaSyD-Dmwq4Nf0oSyaPdh_zM2NMqCgYnIRb14';
+const CALENDAR_ID = 'kg5v9k480jn2qahpmq33h8g7cs@group.calendar.google.com';
+
+// constants for the look and feel of the calendar
 const STATE_LIST = 'listMonth';
 const STATE_GRID = 'dayGridMonth';
 const TOGGLE_SIZE = 900;
 
+let state;
 let calendar;
-let state = null;
-let fixed = false;
 
 document.addEventListener('DOMContentLoaded', () => {
 	let calendarElement = document.getElementById('css-calendar');
 	let switchElement = document.getElementById('css-calendar-switch');
 
 	state = window.innerWidth < TOGGLE_SIZE ? STATE_LIST : STATE_GRID;
+	let fixed = false;
 
 	calendar = new FullCalendar.Calendar(calendarElement, {
 		plugins: ['dayGrid', 'googleCalendar', 'list'],
@@ -24,9 +30,9 @@ document.addEventListener('DOMContentLoaded', () => {
 			month: 'long'
 		},
 		defaultView: state,
-		googleCalendarApiKey: 'AIzaSyD-Dmwq4Nf0oSyaPdh_zM2NMqCgYnIRb14',
+		googleCalendarApiKey: CALENDAR_KEY,
 		events: {
-			googleCalendarId: 'kg5v9k480jn2qahpmq33h8g7cs@group.calendar.google.com'
+			googleCalendarId: CALENDAR_ID
 		}
 	});
 	calendar.render();
@@ -42,17 +48,17 @@ document.addEventListener('DOMContentLoaded', () => {
 				break;
 		}
 	})
-});
 
-window.addEventListener('resize', () => {
-	if (!fixed) {
-		if (window.innerWidth < TOGGLE_SIZE) {
-			refreshCalendar(STATE_LIST);
-		} else {
-			refreshCalendar(STATE_GRID);
+	window.addEventListener('resize', () => {
+		if (!fixed) {
+			if (window.innerWidth < TOGGLE_SIZE) {
+				refreshCalendar(STATE_LIST);
+			} else {
+				refreshCalendar(STATE_GRID);
+			}
 		}
-	}
-})
+	})
+});
 
 function refreshCalendar(nextState) {
 	if (nextState == state) {
