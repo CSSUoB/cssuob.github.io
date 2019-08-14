@@ -36,7 +36,7 @@ event, last year reaching half a ton of pizza eaten by our members.
 
 # How do I get involved?
 
-Of course you can! Our membership costs only £5 for one year. This gives you
+Our membership costs only £5 for one year. This gives you
 access to all of our events and you will also get a CSS T-Shirt. We will also
 be holding some elections at the start of the semester, and we need a First
 Year Rep, so if you think this sounds like something you would be interested
@@ -60,7 +60,7 @@ of all sizes, including the likes of IBM, Google and others, and learn new
 things while developing your project. Each year we encourage our members to
 come to hacktahons, some of them being organised by us. Two of the most
 important ones are the Google Hash Code, which we organise each year in our
-campus, and HackTheMidlands (visit hackthemidlands.com)
+campus, and HackTheMidlands (visit [hackthemidlands.com])
 
 HackTheMidlands will take place at the end of October, and it is one of the
 biggest hackathons held in Birmingham. The tickets are free, and CSS has some
