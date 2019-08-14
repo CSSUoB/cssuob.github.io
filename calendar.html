@@ -11,11 +11,12 @@ scripts:
   - https://unpkg.com/@fullcalendar/daygrid@4.2.0/main.min.js
   - https://unpkg.com/@fullcalendar/list@4.2.0/main.min.js
   - https://unpkg.com/@fullcalendar/google-calendar@4.2.0/main.min.js
+calendar_url: https://calendar.google.com/calendar/embed?src=kg5v9k480jn2qahpmq33h8g7cs%40group.calendar.google.com&ctz=Europe%2FLondon
 ---
 
 <div class="calendar-controls">
-      <button class="calendar-controls-hideable calendar-button" id="css-calendar-switch">Switch View</button>
-      <a class="calendar-controls-alwaysshow calendar-button" id="css-calendar-add" href="https://calendar.google.com/calendar/embed?src=kg5v9k480jn2qahpmq33h8g7cs%40group.calendar.google.com&ctz=Europe%2FLondon">Add to own Calendar</a>
+      <button class="calendar-button hideable" id="css-calendar-switch">Switch View</button>
+      <a class="calendar-button" href="{{ page.calendar_url }}">Add to own Calendar</a>
 </div>
 
 <div class="calendar-container">

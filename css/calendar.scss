@@ -1,7 +1,7 @@
 ---
 ---
 
-.calendar-controls{
+.calendar-controls {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -22,10 +22,10 @@
     font-weight: 400;
     text-align: center;
     text-decoration: none;
-}
 
-.calendar-button:hover {
-  background-color:#212529;
+    &:hover {
+      background-color:#212529;
+    }
 }
 
 .calendar-container {
@@ -64,10 +64,11 @@
 
 
 @media only screen and (max-width: 900px) {
-  .calendar-controls-hideable {
-    display: none;
+  .calendar-controls {
+    .hideable {
+      display: none;
+    }
   }
-
   .calendar-container {
     width: 100%;
   }
