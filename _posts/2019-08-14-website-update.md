@@ -35,20 +35,20 @@ So what's actually on this new and flashy website?
 
 We're going to continue working on more stuff on this site and improving it
 more and more, but the main work is done now. If you're interested in helping
-out, you can checkout the github [here](https://github.com/CSSUoB/cssuob.github.io/).
+out, you can checkout the GitHub [here](https://github.com/CSSUoB/cssuob.github.io/).
 
 ## Tech stack
 
 So, now that's out of the way, the fun part... the tech stack!
 
-We used to have just a few static pages as html documents - but now we have a
-fully fledged jekyll site! I've used jekyll before in the past, but I've
+We used to have just a few static pages as HTML documents - but now we have a
+fully fledged [Jekyll](https://jekyllrb.com/) site! I've used jekyll before in the past, but I've
 never written a theme from scratch, or used any of the more advanced
 features. So I got to learn a few new skills and can now comfortably use
-jekyll!
+Jekyll!
 
-*(Disclaimer: jekyll is awesome, and you should use it for everything on your
-webiste. All of the rest of this post is me going on about why jekyll is
+*(Disclaimer: Jekyll is awesome, and you should use it for everything on your
+webiste. All of the rest of this post is me going on about why Jekyll is
 great.)*
 
 ### Data files
@@ -58,17 +58,17 @@ insert content into the site. As the yaml's much easier to edit and use, it's
 easy to give to someone else to modify and re-use all across the site.
 
 For example, before, we used to have to manually add new pages every time we
-wanted to add a redirect; now, thanks to a clever hack, we can use jekyll to
+wanted to add a redirect link; now, thanks to a clever hack, we can use jekyll to
 insert redirects from a yaml file into the javascript of our 404 page!
 
 ### Themes
 
 Writing a theme from scratch is interesting - when we went from the old site
 to the new one, there were already some stylesheets, but not particularly
-organized. The very first task I looked at was to cleanup the CSS and move it
+organized. The very first task I looked at was to cleanup the CSS\* and move it
 in SCSS.
 
-There's only one problem with using SCSS - it makes going back to normal CSS
+There's only one problem with using SCSS - it makes going back to normal CSS\*
 frustrating. Thanks to that, we're able to have easy-to-read and *hopefully*
 easy-to-edit style sheets.
 
@@ -79,3 +79,6 @@ That's probably enough about that.
 Hopefully you all enjoy our new website!
 
 **Justin**
+
+---
+\* Here we mean *Cascading Style Sheets*, not *Computer Science Society*
