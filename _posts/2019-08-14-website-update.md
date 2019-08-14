@@ -2,34 +2,80 @@
 layout: post
 title: "Website Update"
 permalink: /newsletter/:title
-thumbnail: /logo.png
-published: false
+thumbnail: /assets/thumbnails/tada.jpg
 ---
 
-**We've given our website a new look!**
+The new website is finally, finally here!
 
-Over the last few months we've been working hard to update the look of our website. Previosuly, the website only consisted of a one page with the links that is now the [home page](http://cssbham.com/). We have now added more features to the website:
-* **[/newsletter](http://cssbham.com/newsletter)** - This is our new blog post area. Here we will post updates, such at this one you're reading now. You wull be able to read what we've been getting up to as a society, as being able to find out more information about our events. 
-* **[/committee](http://cssbham.com/committee)** - That's us! Here you can find more about us - the team that is running your society and its events. Feel free to contact us if yo want to find out more about how we run the society.
-* **[/calendar](http://cssbham.com/calendar)** - We now have a calendar page that you can find a list of all the events which we have coming up. You can switch between a list and calendar view, or even add the calendar to your own one.
-* **[/about](http://cssbham.com/about)** - This page is for some more information about the society. Find out more about what we do in general and you can follow us on social media too. 
+...it's taken a while to get here. In the last semester, when we were sitting
+down to meetings with our new committee, one of the things we said we wanted
+to focus on was communication with our members. After all, that's the only
+real reason we're here. But a complaint I've heard a lot is that there's no
+way to really keep up with what we're doing; so in response to that, I've
+been working on this new website, Lik Kan has been working on making our
+social media presence clearer and all of us are trying to make sure that
+everyone's voice is heard and represented.
 
-**Our tech stack:**
+So what's actually on this new and flashy website?
 
-*Many technical words, about how we use Git, Ruby, Jekyll, HTML and 'CSS<sup> 2</sup>' (see CSS (Disambiguation))*
+- **[Newsletter](/newsletter)** - This is our new blog
+  post area, where we'll post updates, such at this one! You'll be able to
+  read what we've been getting up to as a society, as being able to find out
+  more information about our events.
+- **[Calendar](/calendar)** - We now have a calendar page!
+  We organize a lot of events, and we've recently made a lot of changes to
+  how we keep track of them. So now we have a new page on the webiste that
+  lists all of them, all of the time.
+- **[About](/about)** - An about page - we can keep a list
+  of social media we're on as well as just some general information about
+  the society.
+- **[Committee](/committee)** - Probably my favoite part
+  of the new site. Hopefully, by putting ourselves up there, it's easier to
+  reach out to us and know who we are!
 
-words
+We're going to continue working on more stuff on this site and improving it
+more and more, but the main work is done now. If you're interested in helping
+out, you can checkout the github [here](https://github.com/CSSUoB/cssuob.github.io/).
 
-words
+## Tech stack
 
-words
+So, now that's out of the way, the fun part... the tech stack!
 
+We used to have just a few static pages as html documents - but now we have a
+fully fledged jekyll site! I've used jekyll before in the past, but I've
+never written a theme from scratch, or used any of the more advanced
+features. So I got to learn a few new skills and can now comfortably use
+jekyll!
 
-**Many Thanks,**
+*(Disclaimer: jekyll is awesome, and you should use it for everything on your
+webiste. All of the rest of this post is me going on about why jekyll is
+great.)*
+
+### Data files
+
+Data files are super nifty, and let you use a collection of yaml files to
+insert content into the site. As the yaml's much easier to edit and use, it's
+easy to give to someone else to modify and re-use all across the site.
+
+For example, before, we used to have to manually add new pages every time we
+wanted to add a redirect; now, thanks to a clever hack, we can use jekyll to
+insert redirects from a yaml file into the javascript of our 404 page!
+
+### Themes
+
+Writing a theme from scratch is interesting - when we went from the old site
+to the new one, there were already some stylesheets, but not particularly
+organized. The very first task I looked at was to cleanup the CSS and move it
+in SCSS.
+
+There's only one problem with using SCSS - it makes going back to normal CSS
+frustrating. Thanks to that, we're able to have easy-to-read and *hopefully*
+easy-to-edit style sheets.
+
+## Conclusion
+
+That's probably enough about that.
+
+Hopefully you all enjoy our new website!
 
 **Justin**
-
----
-CSS (Disambigation)
-1. Computer Science Society
-2. Cascading Style Sheets
