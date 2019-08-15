@@ -42,7 +42,7 @@ out, you can checkout the GitHub [here](https://github.com/CSSUoB/cssuob.github.
 So, now that's out of the way, the fun part... the tech stack!
 
 We used to have just a few static pages as HTML documents - but now we have a
-fully fledged [Jekyll](https://jekyllrb.com/) site! I've used jekyll before in the past, but I've
+fully fledged [Jekyll](https://jekyllrb.com/) site! I've used Jekyll before in the past, but I've
 never written a theme from scratch, or used any of the more advanced
 features. So I got to learn a few new skills and can now comfortably use
 Jekyll!
