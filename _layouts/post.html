@@ -19,12 +19,10 @@
     <div class="post-header">
       {% if page.header-image %}
         <img class="post-header-image" src="{{ page.header-image | relative_url }}">
-      {% elsif page.thumbnail %}
-        <img class="post-header-image" src="{{ page.thumbnail | relative_url }}">
       {% endif %}
     </div>
 
-    {% if page.header-image or page.thumbnail %}
+    {% if page.header-image %}
     <div class="post post-header-body-border">
     {% else %}
     <div class="post">
