@@ -72,10 +72,10 @@ $preview-height: 150px;
   }
 }
 
-.post-header{
-  width:100%;
+.post-header {
+  width: 100%;
   height: auto;
-  background: linear-gradient(to bottom, rgba(0,0,0,0) 100%, white 100%);
+  background: linear-gradient(to bottom, transparent 100%, white 100%);
   margin-bottom: -5px;
 }
 
@@ -84,13 +84,13 @@ $preview-height: 150px;
   max-height: 50vh;
   width: 100%;
   height: auto;
-  object-fit:cover;
+  object-fit: cover;
   border-radius: 20px 20px 0px 0px;
-  z-index:-1;
-  position:relative;
+  z-index: -1;
+  position: relative;
 }
 
-.post-body-header-border {
+.post-header-body-border {
   border-radius: 0px 0px 20px 20px;
 }
 
