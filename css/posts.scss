@@ -72,23 +72,6 @@ $preview-height: 150px;
   }
 }
 
-.post-body-header-border {
-  border-radius: 0px 0px 20px 20px;
-}
-
-.post-title {
-  display: inline-block;
-  margin-top: 1em;
-  margin-bottom: 0.7em;
-}
-
-.post-date {
-  display: inline-block;
-  float: right;
-  margin-top: 1.5em;
-  margin-right: 20px;
-}
-
 .post-header{
   width:100%;
   height: auto;
@@ -106,3 +89,26 @@ $preview-height: 150px;
   z-index:-1;
   position:relative;
 }
+
+.post-body-header-border {
+  border-radius: 0px 0px 20px 20px;
+}
+
+.post-title {
+  display: inline-block;
+  margin-top: 1em;
+  margin-bottom: 0.7em;
+}
+
+.post-date {
+  display: inline-block;
+  float: right;
+  margin-top: 1.5em;
+  margin-right: 20px;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+}
+
