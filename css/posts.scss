@@ -35,6 +35,15 @@ $preview-height: 150px;
     .post-title {
       color: black;
       margin-top: 0.5em;
+      display: inline-block;
+    }
+
+    .post-date {
+      color: black;
+      margin-top: 0.7em;
+      margin-right: 1em;
+      display: inline-block;
+      float: right;
     }
 
     .post-excerpt {
@@ -61,4 +70,17 @@ $preview-height: 150px;
   * {
     color: black;
   }
+}
+
+.post-title {
+  display: inline-block;
+  margin-top: 1em;
+  margin-bottom: 0.7em;
+}
+
+.post-date {
+  display: inline-block;
+  float: right;
+  margin-top: 1.5em;
+  margin-right: 20px;
 }
