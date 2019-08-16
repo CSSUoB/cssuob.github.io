@@ -16,9 +16,19 @@
   {% include header.html %}
 
   <main>
-    <div class="post">
-      <h1>{{ page.title }}</h1>
+    <div class="post-header">
+      {% if page.header-image %}
+        <img class="post-header-image" src="{{ page.header-image | relative_url }}">
+      {% endif %}
+    </div>
 
+    {% if page.header-image %}
+    <div class="post post-header-body-border">
+    {% else %}
+    <div class="post">
+    {% endif %}
+      <h1 class="post-title">{{ page.title }}</h1>
+      <h2 class="post-date">{{ page.date | date: "%b %-d, %Y"}}</h2>
       {{ content }}
     </div>
   </main>
