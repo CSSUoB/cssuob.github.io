@@ -3,6 +3,7 @@ layout: post
 title: "Freshers Welcome 2019"
 permalink: /newsletter/:title
 thumbnail: /logo.png
+header-image: /assets/header-images/computer-science-building.jpg
 ---
 
 Congratulations on your place to study at the University of Birmingham - we

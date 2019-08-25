@@ -2,6 +2,7 @@
 layout: post
 title: "Website Update"
 permalink: /newsletter/:title
+header-image: /assets/header-images/computer-science-building.jpg
 thumbnail: /assets/thumbnails/tada.jpg
 ---
 
@@ -29,7 +30,7 @@ So what's actually on this new and flashy website?
 - **[About](/about)** - An about page - we can keep a list
   of social media we're on as well as just some general information about
   the society.
-- **[Committee](/committee)** - Probably my favoite part
+- **[Committee](/committee)** - Probably my favourite part
   of the new site. Hopefully, by putting ourselves up there, it's easier to
   reach out to us and know who we are!
 
@@ -42,7 +43,7 @@ out, you can checkout the GitHub [here](https://github.com/CSSUoB/cssuob.github.
 So, now that's out of the way, the fun part... the tech stack!
 
 We used to have just a few static pages as HTML documents - but now we have a
-fully fledged [Jekyll](https://jekyllrb.com/) site! I've used jekyll before in the past, but I've
+fully fledged [Jekyll](https://jekyllrb.com/) site! I've used Jekyll before in the past, but I've
 never written a theme from scratch, or used any of the more advanced
 features. So I got to learn a few new skills and can now comfortably use
 Jekyll!
