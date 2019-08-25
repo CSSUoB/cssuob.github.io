@@ -15,10 +15,17 @@ calendar_url: https://calendar.google.com/calendar/embed?src=kg5v9k480jn2qahpmq3
 ---
 
 <div class="calendar-controls">
-      <button class="calendar-button hideable" id="css-calendar-switch">Switch View</button>
-      <a class="calendar-button" href="{{ page.calendar_url }}">Add to own Calendar</a>
+  <button class="calendar-button hideable" id="css-calendar-switch">Switch View</button>
+  <a class="calendar-button" href="{{ page.calendar_url }}">Add to own Calendar</a>
 </div>
 
 <div class="calendar-container">
+  <div class="calendar-event" id="calendar-event">
+      <h1 id="event-close"><a href="#">&times;</a></h1>
+      <h2 class="event-tag event-tag-title">Event:</h2> <span class="event-text" id="event-text-title">undefined</span><br>
+      <h2 class="event-tag event-tag-date">Date:</h2> <span class="event-text" id="event-text-date">undefined</span><br>
+      <h2 class="event-tag event-tag-location">Location:</h2> <span class="event-text" id="event-text-location">span</span><br>
+      <h2 class="event-tag event-tag-description">More info:</h2> <span class="event-text" id="event-text-description">span</span><br>
+  </div>
   <div class="calendar" id="css-calendar"></div>
 </div>
