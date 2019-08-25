@@ -34,16 +34,10 @@ $preview-height: 150px;
 
     .post-title {
       color: black;
-      margin-top: 0.5em;
-      display: inline-block;
     }
 
     .post-date {
-      color: black;
-      margin-top: 0.7em;
-      margin-right: 1em;
-      display: inline-block;
-      float: right;
+      color: black;   
     }
 
     .post-excerpt {
@@ -70,6 +64,16 @@ $preview-height: 150px;
   * {
     color: black;
   }
+
+  .post-date {
+    margin-top: 0.1em;
+    margin-right: 20px;
+  }
+
+  .post-image {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .post-header {
@@ -94,21 +98,39 @@ $preview-height: 150px;
   border-radius: 0px 0px 20px 20px;
 }
 
-.post-title {
-  display: inline-block;
-  margin-top: 1em;
-  margin-bottom: 0.7em;
+@media only screen and (min-width: 600px) {
+  .post-preview {
+    .post-details {
+      .post-title {
+        margin-top: 0.5em;
+        margin-bottom: 0.3em;
+      }
+      .post-date {
+        margin-top: 0.3em;
+        margin-bottom: 0.5em;
+      }
+      .post-excerpt p {
+        margin-top: 0.5em;
+      }
+    }
+  }
+
 }
 
-.post-date {
-  display: inline-block;
-  float: right;
-  margin-top: 1.5em;
-  margin-right: 20px;
+@media only screen and (max-width: 600px) {
+  .post-preview {
+    .post-details {
+      .post-title {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+      }
+      .post-date {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+      }
+      .post-excerpt p {
+        margin-top: 0.5em;
+      }
+    }
+  }
 }
-
-.post-image {
-  width: 100%;
-  height: auto;
-}
-
