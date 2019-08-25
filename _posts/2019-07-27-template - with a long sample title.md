@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Template with a long test title that can cause overflows when the title is extra long like this one"
+permalink: /newsletter/:title
+thumbnail: "https://placekitten.com/150/150"
+header-image: /assets/header-images/computer-science-building.jpg
+published: false
+---
+
+This post is a sample post.
+
+To make this into a real post, copy the content of this file, change any
+relevant details, such as the title, thumbnail and header photo and then modify the
+content. To publish the post, remove `published:false` from the front matter.
+
+The header photo should be specified, if not then it is hidden.
+
+<img class="post-image" src="/assets/header-images/computer-science-building.jpg">
+
+Images can also be placed with the class `post-image` for 100% width and auto height.
+
+The rest can be formatted in Markdown.
