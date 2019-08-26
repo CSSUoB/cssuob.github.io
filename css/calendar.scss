@@ -41,19 +41,6 @@
   margin-bottom: 10px;
   display: none;
 
-  #event-close {
-    display: block;
-    position: abolsute;
-    float: right;
-    margin: 5px;
-    transform: translateY(-10px);
-
-    a {
-      text-decoration: none;
-      color: black;
-    }
-  }
-
   h2, p { 
     color: black;
     text-align: left;
@@ -71,10 +58,14 @@
 
   .event-text {
     display: inline-block;
-    width: 65%;
+    width: 70%;
     margin-top: 10px;
     margin-bottom: 10px;
     vertical-align: middle;
+  }
+
+  .event-buttons {
+    text-align: center;
   }
 }
 
