@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	let calendarElement = document.getElementById('css-calendar');
 	let switchElement = document.getElementById('css-calendar-switch');
 	let eventCloseElement = document.getElementById('event-close');
-	let eventJSON = null;
 
 	state = window.innerWidth < TOGGLE_SIZE ? STATE_LIST : STATE_GRID;
 	let fixed = false;
@@ -36,11 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
 		events: {
 			googleCalendarId: CALENDAR_ID
 		},
-		eventRender: function(event) {
-			eventJSON = event;
-		},
-		eventClick: function(event, jsEvent) {
-			loadEvent(event, jsEvent);
+		eventClick: function(event) {
+			loadEvent(event);
 		}
 	});
 	calendar.render();
@@ -96,7 +92,7 @@ function refreshCalendar(nextState) {
 	}
 }
 
-function loadEvent(event, eventJSON) {
+function loadEvent(event) {
 	let title = "";
 	let date = "";
 	let location = "";
@@ -105,7 +101,6 @@ function loadEvent(event, eventJSON) {
 	// fetch calendar data
 	if (event) {
 		event.jsEvent.preventDefault(); // don't let the browser navigate
-
 		eventData = event.event;
 		// title
 		title = eventData.title;
@@ -166,9 +161,11 @@ function loadEvent(event, eventJSON) {
 		date = startDate + dash + endDate;
 
 		//	location
-		//location = eventJSON.location;
-		console.log(eventJSON);
+		location = eventData.extendedProps.location;
 
+		// description 
+		description = eventData.extendedProps.description;
+		
 		// set text
 		document.getElementById("event-text-title").textContent = title;
 		document.getElementById("event-text-date").textContent = date;
