@@ -14,6 +14,7 @@ let calendar;
 document.addEventListener('DOMContentLoaded', () => {
 	let calendarElement = document.getElementById('css-calendar');
 	let switchElement = document.getElementById('css-calendar-switch');
+	let eventCloseElement = document.getElementById('event-close');
 
 	state = window.innerWidth < TOGGLE_SIZE ? STATE_LIST : STATE_GRID;
 	let fixed = false;
@@ -33,6 +34,9 @@ document.addEventListener('DOMContentLoaded', () => {
 		googleCalendarApiKey: CALENDAR_KEY,
 		events: {
 			googleCalendarId: CALENDAR_ID
+		},
+		eventClick: function(event) {
+			loadEvent(event);
 		}
 	});
 	calendar.render();
@@ -58,6 +62,10 @@ document.addEventListener('DOMContentLoaded', () => {
 			}
 		}
 	})
+
+	eventCloseElement.addEventListener('click', () => {
+		hideEvent();
+	});
 });
 
 function refreshCalendar(nextState) {
@@ -82,4 +90,96 @@ function refreshCalendar(nextState) {
 			});
 			break;
 	}
+}
+
+function loadEvent(event) {
+	let title = "";
+	let date = "";
+	let location = "";
+	let description = "";
+
+	// fetch calendar data
+	if (event) {
+		event.jsEvent.preventDefault(); // don't let the browser navigate
+		eventData = event.event;
+
+		// title
+		title = eventData.title;
+
+		// date
+		var dash = " - ";
+		var colon = ":"
+		var space = " ";
+		var allDay = eventData.allDay;
+		var startMinute = ("0" + eventData.start.getMinutes()).slice(-2);
+		var endMinute = ("0" + eventData.end.getMinutes()).slice(-2);
+		var startHour = ("0" + eventData.start.getHours()).slice(-2);
+		var endHour = ("0" + eventData.end.getHours()).slice(-2);
+		var startDay = eventData.start.getDate();
+		var endDay = eventData.end.getDate();
+		var startMonth = eventData.start.getMonth();
+		var endMonth = eventData.end.getMonth();
+		var startYear = eventData.start.getFullYear()
+		var endYear = eventData.end.getFullYear();
+		const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+		var startDate = "";
+		var endDate = "";
+		if (startYear != endYear) {
+			// years differ - "dd MMM YYYY - dd MMM YYYY"
+			startDate = startDay + space + months[startMonth] + space + startYear;
+			endDate = endDay + space + months[endMonth] + space + endYear;
+			if (!allDay) {
+				// "dd MMM YYYY HH:MM - dd MMM YYYY HH:MM"
+				startDate += space + startHour + colon + startMinute;
+				endDate += space + startHour + colon + startMinute;
+			}
+		} else if (startMonth != endMonth) {
+			// same year, different month - "dd MMM - dd MMM"
+			startDate = startDay + space + months[startMonth];
+			endDate = endDay + space + months[endMonth];
+			if (!allDay) {
+				// "dd MMM HH:MM - dd MMM HH:MM"
+				startDate += space + startHour + colon + startMinute;
+				endDate += space + startHour + colon + startMinute;
+			}
+		} else if (startDay != endDay) {
+			// same year, same month, different day - "dd - dd MMM YYYY"
+			if (allDay) {
+				startDate = startDay;
+				endDate = endDay + space + months[endMonth] + space + endYear;
+			} else {
+				// "dd MMMM YYYY HH:MM - dd MMM YYYY HH:MM"
+				startDate = startDay + space + months[startMonth] + space + startHour + colon + endMinute;
+				endDate = endDay + space + months[endMonth] + space + endHour + colon + endMinute;
+			}
+		} else {
+			// same day - "dd MMM HH:MM - HH:MM"
+			startDate = startDay + space + months[startMonth] + space + startHour + colon + startMinute;
+			endDate = endHour + colon + endMinute;
+
+		}
+		date = startDate + dash + endDate;
+
+		//	location
+		location = eventData.extendedProps.location;
+
+		// description 
+		description = eventData.extendedProps.description;
+
+		// set text
+		document.getElementById("event-text-title").textContent = title;
+		document.getElementById("event-text-date").textContent = date;
+		document.getElementById("event-text-location").textContent = location;
+		document.getElementById("event-text-description").textContent = description;
+		document.getElementById('calendar-event').style.display = "block"; //show
+	} else {
+		console.log("ERROR: event is null");
+		//should I keep this?
+	}
+	
+}
+
+function hideEvent() {
+	// hide event information by hiding the element
+	document.getElementById('calendar-event').style.display = "none";
 }

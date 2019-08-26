@@ -34,6 +34,50 @@
   margin-right: auto;
 }
 
+.calendar-event{
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: none;
+
+  #event-close {
+    display: block;
+    position: abolsute;
+    float: right;
+    margin: 5px;
+    transform: translateY(-10px);
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+
+  h2, p { 
+    color: black;
+    text-align: left;
+  }
+
+  .event-tag {
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+  }
+
+  .event-text {
+    display: inline-block;
+    width: 65%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+  }
+}
+
 .calendar {
   background-color: white;
   padding: 20px;
