@@ -75,3 +75,37 @@ To update the committee:
 3. Create all the additional files by running `_scripts/committee.sh`
 2. Edit `_data/committee.yaml` with the correct academic year and the new
    committee's details and pictures (make sure to use the `mini` images).
+
+### Calendar Events
+
+Canendar events are extracted from the CSS public Google Calendar. 
+
+Clicking on the calendar event shows the information about the event.
+
+Title: The title of the event as on the Google Calendar event.
+
+Date: The time and date of the event as on the Google Calendar event.
+
+| Date Format                           | Use Case                                       |
+|---------------------------------------|------------------------------------------------|
+| DD MMM YYYY - DD MMM YYYY             | All Day when the year changes                  |
+| DD MMM YYYY HH:MM - DD MMM YYYY HH:MM | Time specified when year changes               |
+| DD MMM - DD MMM                       | All Day when month changes                     |
+| DD MMM HH:MM - DD MMM HH:MM           | Time specified when month changes              |
+| DD - DD MMM                           | All day on different days in same month        |
+| DD MMM HH:MM - DD MMM HH:MM           | Time specified on different days in same month |
+| DD MM HH:MM - HH:MM                   | Same day                                       |
+
+Location: The location of the event as on the Google Calendar event.
+
+More Info: The desctiption of the Google Calendar event, formatted as follows:
+
+| Formatting                         | Description                                                       |
+|------------------------------------|-------------------------------------------------------------------|
+| `<desc>text</desc>`                | `text` is displayed                                               |
+| `<br>`                             | Escaped characters are placed into the text. Use native breaklines|
+| Breakline in Google Calendar Event | A breakline is placed into the text                               |
+| `<fb>link</fb>`                    | `link` should be a Facebook Event link. Linked to by the button   |
+| none                               | The text in the Google Calendar Event is displayed                | 
+
+

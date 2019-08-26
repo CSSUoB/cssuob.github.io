@@ -147,12 +147,12 @@ function loadEvent(event) {
 				endDate += space + startHour + colon + startMinute;
 			}
 		} else if (startDay != endDay) {
-			// same year, same month, different day - "dd - dd MMM YYYY"
+			// same year, same month, different day - "dd - dd MMM"
 			if (allDay) {
 				startDate = startDay;
-				endDate = endDay + space + MONTHS[endMonth] + space + endYear;
+				endDate = endDay + space + MONTHS[endMonth];
 			} else {
-				// "dd MMMM YYYY HH:MM - dd MMM YYYY HH:MM"
+				// "dd MMMM HH:MM - dd MMM HH:MM"
 				startDate = startDay + space + MONTHS[startMonth] + space + startHour + colon + endMinute;
 				endDate = endDay + space + MONTHS[endMonth] + space + endHour + colon + endMinute;
 			}
