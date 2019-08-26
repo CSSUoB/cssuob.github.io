@@ -102,10 +102,11 @@ function loadEvent(event) {
 	if (event) {
 		event.jsEvent.preventDefault(); // don't let the browser navigate
 		eventData = event.event;
+
 		// title
 		title = eventData.title;
+
 		// date
-		
 		var dash = " - ";
 		var colon = ":"
 		var space = " ";
@@ -120,40 +121,39 @@ function loadEvent(event) {
 		var endMonth = eventData.end.getMonth();
 		var startYear = eventData.start.getFullYear()
 		var endYear = eventData.end.getFullYear();
-
-		const months = ["January", "February", "March", "April", "May", "June",
- 		"July", "August", "September", "October", "November", "December"
-		];
-		console.log("start: ".concat(eventData.start.toString(), "\nend: ", eventData.end.toString()));
+		const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 		var startDate = "";
 		var endDate = "";
 		if (startYear != endYear) {
-			// years differ
+			// years differ - "dd MMM YYYY - dd MMM YYYY"
 			startDate = startDay + space + months[startMonth] + space + startYear;
 			endDate = endDay + space + months[endMonth] + space + endYear;
 			if (!allDay) {
+				// "dd MMM YYYY HH:MM - dd MMM YYYY HH:MM"
 				startDate += space + startHour + colon + startMinute;
 				endDate += space + startHour + colon + startMinute;
 			}
 		} else if (startMonth != endMonth) {
-			// same year, different month
+			// same year, different month - "dd MMM - dd MMM"
 			startDate = startDay + space + months[startMonth];
 			endDate = endDay + space + months[endMonth];
 			if (!allDay) {
+				// "dd MMM HH:MM - dd MMM HH:MM"
 				startDate += space + startHour + colon + startMinute;
 				endDate += space + startHour + colon + startMinute;
 			}
 		} else if (startDay != endDay) {
-			// same year, same month, different day
+			// same year, same month, different day - "dd - dd MMM YYYY"
 			if (allDay) {
 				startDate = startDay;
 				endDate = endDay + space + months[endMonth] + space + endYear;
 			} else {
+				// "dd MMMM YYYY HH:MM - dd MMM YYYY HH:MM"
 				startDate = startDay + space + months[startMonth] + space + startHour + colon + endMinute;
 				endDate = endDay + space + months[endMonth] + space + endHour + colon + endMinute;
 			}
 		} else {
-			// same day
+			// same day - "dd MMM HH:MM - HH:MM"
 			startDate = startDay + space + months[startMonth] + space + startHour + colon + startMinute;
 			endDate = endHour + colon + endMinute;
 
@@ -165,13 +165,13 @@ function loadEvent(event) {
 
 		// description 
 		description = eventData.extendedProps.description;
-		
+
 		// set text
 		document.getElementById("event-text-title").textContent = title;
 		document.getElementById("event-text-date").textContent = date;
 		document.getElementById("event-text-location").textContent = location;
 		document.getElementById("event-text-description").textContent = description;
-		document.getElementById('calendar-event').style.display = "block";
+		document.getElementById('calendar-event').style.display = "block"; //show
 	} else {
 		console.log("ERROR: event is null");
 		//should I keep this?
@@ -180,6 +180,6 @@ function loadEvent(event) {
 }
 
 function hideEvent() {
+	// hide event information by hiding the element
 	document.getElementById('calendar-event').style.display = "none";
-	console.log("set none");
 }
