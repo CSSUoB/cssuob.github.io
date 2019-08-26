@@ -101,7 +101,8 @@ function loadEvent(event) {
 	// fetch calendar data
 	if (event) {
 		event.jsEvent.preventDefault(); // don't let the browser navigate
-		eventData = event.event;
+		let eventData = event.event;
+		let eventDataExtended = eventData.extendedProps;
 
 		// title
 		title = eventData.title;
@@ -161,18 +162,35 @@ function loadEvent(event) {
 		date = startDate + dash + endDate;
 
 		//	location
-		location = eventData.extendedProps.location;
+		location = eventDataExtended.location;
 
 		// description 
-		description = eventData.extendedProps.description;
+		description = parseDescription(eventDataExtended.description);
+
+		// Facebook event button
+		let eventFacebookLinkElement = document.getElementById("facebook-link");
+		let link = parseFacebookLink(eventDataExtended.description);
+		if (link) {
+			eventFacebookLinkElement.onclick = () => {window.open(link)};
+			eventFacebookLinkElement.style.display = "inline";
+		} else {
+			// catches null regex matches
+			eventFacebookLinkElement.style.display = "none";
+		}
+	
 
 		// set text
 		document.getElementById("event-text-title").textContent = title;
 		document.getElementById("event-text-date").textContent = date;
 		document.getElementById("event-text-location").textContent = location;
-		document.getElementById("event-text-description").textContent = description;
+		var descStr = "";
+		for (line in description) {
+			descStr += description[line].toString() + "<br>";
+		}
+		document.getElementById("event-text-description").innerHTML = descStr; //innerhtml since description is already string
 		document.getElementById('calendar-event').style.display = "block"; //show
 	} else {
+		//null event
 		console.log("ERROR: event is null");
 		//should I keep this?
 	}
@@ -182,4 +200,44 @@ function loadEvent(event) {
 function hideEvent() {
 	// hide event information by hiding the element
 	document.getElementById('calendar-event').style.display = "none";
+}
+
+function parseDescription(description) {
+	var retDesc = "";
+	let regex = new RegExp(/&lt;desc&gt;(.*?)&lt;\/desc\&gt;/, "g");
+	// parse and escape for <desc></desc> tags. toString prevent XSS
+	let match = regex.exec(description.toString());
+	if (match != null) {
+		if (match.length >= 2) {
+			retDesc = match[1];
+		}
+	} else {
+		// null, so just use the description
+		retDesc = description.toString();
+	}
+	// parse and replace <br> tags with \n
+	let regexBr = new RegExp(/\<br\>/, "g");
+	return retDesc.split(regexBr);
+	//returns list of lines
+}
+
+function parseFacebookLink(description) {
+	var retLink = "";
+	let regex = new RegExp(/&lt;fb&gt;(.*?)&lt;\/fb\&gt;/);
+	// parse and escape for <fb></fb> tags. toString prevents XSS???
+	let match = regex.exec(description.toString());
+	if (match != null) {
+				if (match.length >= 2) {
+			retLink = match[1];
+		}
+	}
+	// parse any <a> tags
+	let regexA = new RegExp(/\<a.*\>(.*?)\<\/a\>/);
+	match = regexA.exec(retLink.toString());
+	if (match != null) {
+		if (match.length >= 2) {
+			retLink = match[1];
+		}
+	} 
+	return retLink;
 }
