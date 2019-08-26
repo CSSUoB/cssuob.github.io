@@ -8,13 +8,15 @@ const STATE_LIST = 'listMonth';
 const STATE_GRID = 'dayGridMonth';
 const TOGGLE_SIZE = 900;
 
+// used for clickable event information
+const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
 let state;
 let calendar;
 
 document.addEventListener('DOMContentLoaded', () => {
 	let calendarElement = document.getElementById('css-calendar');
 	let switchElement = document.getElementById('css-calendar-switch');
-	let eventCloseElement = document.getElementById('event-close');
 
 	state = window.innerWidth < TOGGLE_SIZE ? STATE_LIST : STATE_GRID;
 	let fixed = false;
@@ -63,6 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 	})
 
+	let eventCloseElement = document.getElementById('event-close');
 	eventCloseElement.addEventListener('click', () => {
 		hideEvent();
 	});
@@ -93,14 +96,15 @@ function refreshCalendar(nextState) {
 }
 
 function loadEvent(event) {
-	let title = "";
-	let date = "";
-	let location = "";
-	let description = "";
-
 	// fetch calendar data
 	if (event) {
 		event.jsEvent.preventDefault(); // don't let the browser navigate
+
+		let title = "";
+		let date = "";
+		let location = "";
+		let description = "";
+
 		let eventData = event.event;
 		let eventDataExtended = eventData.extendedProps;
 
@@ -108,27 +112,26 @@ function loadEvent(event) {
 		title = eventData.title;
 
 		// date
-		var dash = " - ";
-		var colon = ":"
-		var space = " ";
-		var allDay = eventData.allDay;
-		var startMinute = ("0" + eventData.start.getMinutes()).slice(-2);
-		var endMinute = ("0" + eventData.end.getMinutes()).slice(-2);
-		var startHour = ("0" + eventData.start.getHours()).slice(-2);
-		var endHour = ("0" + eventData.end.getHours()).slice(-2);
-		var startDay = eventData.start.getDate();
-		var endDay = eventData.end.getDate();
-		var startMonth = eventData.start.getMonth();
-		var endMonth = eventData.end.getMonth();
-		var startYear = eventData.start.getFullYear()
-		var endYear = eventData.end.getFullYear();
-		const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-		var startDate = "";
-		var endDate = "";
+		let dash = " - ";
+		let colon = ":"
+		let space = " ";
+		let allDay = eventData.allDay;
+		let startMinute = ("0" + eventData.start.getMinutes()).slice(-2);
+		let endMinute = ("0" + eventData.end.getMinutes()).slice(-2);
+		let startHour = ("0" + eventData.start.getHours()).slice(-2);
+		let endHour = ("0" + eventData.end.getHours()).slice(-2);
+		let startDay = eventData.start.getDate();
+		let endDay = eventData.end.getDate();
+		let startMonth = eventData.start.getMonth();
+		let endMonth = eventData.end.getMonth();
+		let startYear = eventData.start.getFullYear()
+		let endYear = eventData.end.getFullYear();
+		let startDate = "";
+		let endDate = "";
 		if (startYear != endYear) {
 			// years differ - "dd MMM YYYY - dd MMM YYYY"
-			startDate = startDay + space + months[startMonth] + space + startYear;
-			endDate = endDay + space + months[endMonth] + space + endYear;
+			startDate = startDay + space + MONTHS[startMonth] + space + startYear;
+			endDate = endDay + space + MONTHS[endMonth] + space + endYear;
 			if (!allDay) {
 				// "dd MMM YYYY HH:MM - dd MMM YYYY HH:MM"
 				startDate += space + startHour + colon + startMinute;
@@ -136,8 +139,8 @@ function loadEvent(event) {
 			}
 		} else if (startMonth != endMonth) {
 			// same year, different month - "dd MMM - dd MMM"
-			startDate = startDay + space + months[startMonth];
-			endDate = endDay + space + months[endMonth];
+			startDate = startDay + space + MONTHS[startMonth];
+			endDate = endDay + space + MONTHS[endMonth];
 			if (!allDay) {
 				// "dd MMM HH:MM - dd MMM HH:MM"
 				startDate += space + startHour + colon + startMinute;
@@ -147,17 +150,16 @@ function loadEvent(event) {
 			// same year, same month, different day - "dd - dd MMM YYYY"
 			if (allDay) {
 				startDate = startDay;
-				endDate = endDay + space + months[endMonth] + space + endYear;
+				endDate = endDay + space + MONTHS[endMonth] + space + endYear;
 			} else {
 				// "dd MMMM YYYY HH:MM - dd MMM YYYY HH:MM"
-				startDate = startDay + space + months[startMonth] + space + startHour + colon + endMinute;
-				endDate = endDay + space + months[endMonth] + space + endHour + colon + endMinute;
+				startDate = startDay + space + MONTHS[startMonth] + space + startHour + colon + endMinute;
+				endDate = endDay + space + MONTHS[endMonth] + space + endHour + colon + endMinute;
 			}
 		} else {
 			// same day - "dd MMM HH:MM - HH:MM"
-			startDate = startDay + space + months[startMonth] + space + startHour + colon + startMinute;
+			startDate = startDay + space + MONTHS[startMonth] + space + startHour + colon + startMinute;
 			endDate = endHour + colon + endMinute;
-
 		}
 		date = startDate + dash + endDate;
 
@@ -178,16 +180,15 @@ function loadEvent(event) {
 			eventFacebookLinkElement.style.display = "none";
 		}
 	
-
 		// set text
 		document.getElementById("event-text-title").textContent = title;
 		document.getElementById("event-text-date").textContent = date;
 		document.getElementById("event-text-location").textContent = location;
-		var descStr = "";
-		for (line in description) {
-			descStr += description[line].toString() + "<br>";
+		let descStr = "";
+		for (let line in description) {
+			descStr += description[line].toString() + "\r\n";
 		}
-		document.getElementById("event-text-description").innerHTML = descStr; //innerhtml since description is already string
+		document.getElementById("event-text-description").textContent = descStr; 
 		document.getElementById('calendar-event').style.display = "block"; //show
 	} else {
 		//null event
@@ -203,7 +204,7 @@ function hideEvent() {
 }
 
 function parseDescription(description) {
-	var retDesc = "";
+	let retDesc = "";
 	let regex = new RegExp(/&lt;desc&gt;(.*?)&lt;\/desc\&gt;/, "g");
 	// parse and escape for <desc></desc> tags. toString prevent XSS
 	let match = regex.exec(description.toString());
@@ -215,19 +216,19 @@ function parseDescription(description) {
 		// null, so just use the description
 		retDesc = description.toString();
 	}
-	// parse and replace <br> tags with \n
+	// parse and split on <br>
 	let regexBr = new RegExp(/\<br\>/, "g");
 	return retDesc.split(regexBr);
 	//returns list of lines
 }
 
 function parseFacebookLink(description) {
-	var retLink = "";
+	let retLink = "";
 	let regex = new RegExp(/&lt;fb&gt;(.*?)&lt;\/fb\&gt;/);
-	// parse and escape for <fb></fb> tags. toString prevents XSS???
+	// parse and escape for <fb></fb> tags. 
 	let match = regex.exec(description.toString());
 	if (match != null) {
-				if (match.length >= 2) {
+		if (match.length >= 2) {
 			retLink = match[1];
 		}
 	}
