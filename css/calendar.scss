@@ -57,8 +57,6 @@
   h2, p { 
     color: black;
     text-align: left;
-    display: inline-block;
-    min-width: 25%;
   }
 
   .event-tag {
@@ -66,10 +64,17 @@
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 10px;
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
   }
 
   .event-text {
     display: inline-block;
+    width: 65%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
   }
 }
 
