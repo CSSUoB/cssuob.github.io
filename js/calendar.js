@@ -192,8 +192,7 @@ function loadEvent(event) {
 		document.getElementById('calendar-event').style.display = "block"; //show
 	} else {
 		//null event
-		console.error("ERROR: event is null");
-		//should I keep this?
+		console.error("Event is null");
 	}
 	
 }
@@ -209,7 +208,7 @@ function parseDescription(description) {
 	// parse and escape for <desc></desc> tags. toString prevent XSS
 	let match = regex.exec(description.toString());
 	if (match != null) {
-			retDesc = match[1];
+		retDesc = match[1];
 	} else {
 		// null, so just use the description
 		retDesc = description.toString();
@@ -226,13 +225,13 @@ function parseFacebookLink(description) {
 	// parse and escape for <fb></fb> tags. 
 	let match = regex.exec(description.toString());
 	if (match != null) {
-			retLink = match[1];
+		retLink = match[1];
 	}
 	// parse any <a> tags
 	let regexA = new RegExp(/\<a.*\>(.*?)\<\/a\>/);
 	match = regexA.exec(retLink.toString());
 	if (match != null) {
-			retLink = match[1];
+		retLink = match[1];
 	} 
 	return retLink;
 }
