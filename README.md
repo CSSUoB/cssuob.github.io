@@ -100,12 +100,12 @@ Location: The location of the event as on the Google Calendar event.
 
 More Info: The desctiption of the Google Calendar event, formatted as follows:
 
-| Formatting                         | Description                                                       |
-|------------------------------------|-------------------------------------------------------------------|
-| `<desc>text</desc>`                | `text` is displayed                                               |
-| `<br>`                             | Escaped characters are placed into the text. Use native breaklines|
-| Breakline in Google Calendar Event | A breakline is placed into the text                               |
-| `<fb>link</fb>`                    | `link` should be a Facebook Event link. Linked to by the button   |
-| none                               | The text in the Google Calendar Event is displayed                | 
+| Formatting                         | Description                                                                   |
+|------------------------------------|-------------------------------------------------------------------------------|
+| `<desc>text</desc>`                | `text` is displayed                                                           |
+| `<br>`                             | Do not use. Escaped characters are placed into the text. Use native breaklines|
+| Breakline in Google Calendar Event | A breakline is placed into the text                                           |
+| `<fb>link</fb>`                    | `link` should be a Facebook Event link. Linked to by the button               |
+| none                               | The text in the Google Calendar Event is displayed                            | 
 
 
