@@ -34,6 +34,45 @@
   margin-right: auto;
 }
 
+.calendar-event{
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: none;
+
+  h2, p { 
+    color: black;
+    text-align: left;
+  }
+
+  .event-tag {
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+  }
+
+  .event-pre {
+    white-space: pre-wrap; 
+  }
+  
+  .event-text {
+    display: inline-block;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+  }
+
+  .event-buttons {
+    text-align: center;
+  }
+}
+
 .calendar {
   background-color: white;
   padding: 20px;
