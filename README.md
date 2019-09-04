@@ -63,6 +63,49 @@ You can add a thumbnail to a post; simply link the thumbnail in the front
 matter in the markdown file for the post. The thumbnail should be a 150px
 square for best results.
 
+### Calendar Events
+
+The calendar events are accessed from the public CSS Google calendar also
+available [here][calendar]. They are accessed from the calendar using
+[FullCalendar][fullcalendar] and an API key managed from the Google Cloud
+Console.
+
+To add a new calendar event, a member of the CSS committee with access to the
+calendar must add a new event, and it will automatically appear on the
+website.
+
+#### Event formatting
+
+The event data displayed on the webiste is taken directly from the Google
+Calendar event. Some properties are extracted using XML-like tags from the
+event description - note that this does **not** imply that other XML tags are
+implemented, so no other tags aside from the ones specified here should be
+used.
+
+| Content       | Source                                                                               |
+|:--------------|:-------------------------------------------------------------------------------------|
+| title         | the name of it appears on the calendar                                               |
+| date          | the date and time as it appears on the calendar                                      |
+| location      | the location as it appears on the calendar                                           |
+| description   | `<desc></desc>` tags in the event description, otherwise, the full event description |
+| facebook link | `<fb></fb>` tags in the event description                                            |
+
+Note that for the facebook event link, all matching `<a></a>` tags are then
+removed from the event description.
+
+The time and date format used is chosen automagically depending on the times
+and dates given in the calendar event. The below table details the process:
+
+| Date Format                           | Used when                                      |
+| :------------------------------------ | :--------------------------------------------- |
+| DD MMM YYYY - DD MMM YYYY             | all day when the year changes                  |
+| DD MMM YYYY HH:MM - DD MMM YYYY HH:MM | time specified when year changes               |
+| DD MMM - DD MMM                       | all day when month changes                     |
+| DD MMM HH:MM - DD MMM HH:MM           | time specified when month changes              |
+| DD - DD MMM                           | all day on different days in same month        |
+| DD MMM HH:MM - DD MMM HH:MM           | time specified on different days in same month |
+| DD MM HH:MM - HH:MM                   | same day                                       |
+
 ### Updating the committee
 
 To update the committee:
@@ -76,36 +119,5 @@ To update the committee:
 2. Edit `_data/committee.yaml` with the correct academic year and the new
    committee's details and pictures (make sure to use the `mini` images).
 
-### Calendar Events
-
-Canendar events are extracted from the CSS public Google Calendar. 
-
-Clicking on the calendar event shows the information about the event.
-
-Title: The title of the event as on the Google Calendar event.
-
-Date: The time and date of the event as on the Google Calendar event.
-
-| Date Format                           | Use Case                                       |
-|---------------------------------------|------------------------------------------------|
-| DD MMM YYYY - DD MMM YYYY             | All Day when the year changes                  |
-| DD MMM YYYY HH:MM - DD MMM YYYY HH:MM | Time specified when year changes               |
-| DD MMM - DD MMM                       | All Day when month changes                     |
-| DD MMM HH:MM - DD MMM HH:MM           | Time specified when month changes              |
-| DD - DD MMM                           | All day on different days in same month        |
-| DD MMM HH:MM - DD MMM HH:MM           | Time specified on different days in same month |
-| DD MM HH:MM - HH:MM                   | Same day                                       |
-
-Location: The location of the event as on the Google Calendar event.
-
-More Info: The desctiption of the Google Calendar event, formatted as follows:
-
-| Formatting                         | Description                                                                   |
-|------------------------------------|-------------------------------------------------------------------------------|
-| `<desc>text</desc>`                | `text` is displayed                                                           |
-| `<br>`                             | Do not use. Escaped characters are placed into the text. Use native breaklines|
-| Breakline in Google Calendar Event | A breakline is placed into the text                                           |
-| `<fb>link</fb>`                    | `link` should be a Facebook Event link. Linked to by the button               |
-| none                               | The text in the Google Calendar Event is displayed                            | 
-
-
+[calendar]: https://calendar.google.com/calendar/embed?src=kg5v9k480jn2qahpmq33h8g7cs%40group.calendar.google.com&ctz=Europe%2FLondon
+[fullcalendar]: https://fullcalendar.io/
