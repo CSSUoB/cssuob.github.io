@@ -2,7 +2,7 @@
 layout: post
 title: "Website Update"
 permalink: /newsletter/:title
-header-image: /assets/header-images/computer-science-building.jpg
+header-image: /assets/header-images/green-heart.jpg
 thumbnail: /assets/thumbnails/tada.jpg
 ---
 
