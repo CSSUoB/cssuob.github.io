@@ -82,13 +82,13 @@ event description - note that this does **not** imply that other XML tags are
 implemented, so no other tags aside from the ones specified here should be
 used.
 
-| Content       | Source                                                                               |
-|:--------------|:-------------------------------------------------------------------------------------|
-| title         | the name of it appears on the calendar                                               |
-| date          | the date and time as it appears on the calendar                                      |
-| location      | the location as it appears on the calendar                                           |
-| description   | `<desc></desc>` tags in the event description, otherwise, the full event description |
-| facebook link | `<fb></fb>` tags in the event description                                            |
+| Content       | Source                                                                                                                     |
+|:--------------|:---------------------------------------------------------------------------------------------------------------------------|
+| title         | the name of it appears on the calendar                                                                                     |
+| date          | the date and time as it appears on the calendar                                                                            |
+| location      | the location as it appears on the calendar                                                                                 |
+| description   | `<desc></desc>` tags in the event description, otherwise, the full event description, which may include other tags if used |
+| facebook link | `<fb></fb>` tags in the event description                                                                                  |
 
 Note that for the facebook event link, all matching `<a></a>` tags are then
 removed from the event description.

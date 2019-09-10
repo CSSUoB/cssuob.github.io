@@ -206,30 +206,42 @@ function parseDescription(description) {
 	let retDesc = "";
 	let regex = new RegExp(/&lt;desc&gt;(.*?)&lt;\/desc\&gt;/, "g");
 	// parse and escape for <desc></desc> tags. toString prevent XSS
-	let match = regex.exec(description.toString());
+	// make descripton string, checks for null if no description specified
+	description = description == null ? null : description.toString();
+	let match = regex.exec(description);
 	if (match != null) {
 		retDesc = match[1];
 	} else {
 		// null, so just use the description
-		retDesc = description.toString();
+		retDesc = description;
 	}
 	// parse and split on <br>
-	let regexBr = new RegExp(/\<br\>/, "g");
-	return retDesc.split(regexBr);
-	//returns list of lines
+	if (retDesc) {
+		// checks for null
+		let regexBr = new RegExp(/\<br\>/, "g");
+		return retDesc.split(regexBr);
+		//returns list of lines
+	} else {
+		return retDesc;
+	}
+	
 }
 
 function parseFacebookLink(description) {
 	let retLink = "";
 	let regex = new RegExp(/&lt;fb&gt;(.*?)&lt;\/fb\&gt;/);
 	// parse and escape for <fb></fb> tags. 
-	let match = regex.exec(description.toString());
+	// make descripton string, checks for null if no description specified
+	description = description == null ? null : description.toString();
+	let match = regex.exec(description);
 	if (match != null) {
 		retLink = match[1];
 	}
 	// parse any <a> tags
 	let regexA = new RegExp(/\<a.*\>(.*?)\<\/a\>/);
-	match = regexA.exec(retLink.toString());
+	// check for null
+	retLink = description == null ? null : retLink.toString();
+	match = regexA.exec(retLink);
 	if (match != null) {
 		retLink = match[1];
 	} 
