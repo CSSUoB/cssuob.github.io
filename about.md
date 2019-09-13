@@ -37,7 +37,7 @@ members (but that's just a guess, so please so don't quote us).
 ## How to get involved
 
 Membership through the Guild only costs £5 for the whole year. You can go to
-our page on the [Guild of Students](https://www.facebook.com/groups/CSSUoB)
+our page on the [Guild of Students](https://www.guildofstudents.com/studentgroups/societies/css/)
 website to purchase your membership. Membership gives you access to all of
 our events and you also get a free CSS T-shirt!
 
