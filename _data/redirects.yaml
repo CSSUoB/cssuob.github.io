@@ -15,7 +15,7 @@
 - source: /guild
   destination: https://www.guildofstudents.com/studentgroups/societies/css/
 - source: /eps
-  destination: https://www.birmingham.ac.uk/university/colleges/eps/eps-community/Students/Student-societies/EPS-Student-Societies/css.aspx
+  destination: https://www.birmingham.ac.uk/university/colleges/eps/eps-community/students/eps-societies/css.aspx
 - source: /in
   destination: https://www.linkedin.com/company/cssbham/
 - source: /linkedin
