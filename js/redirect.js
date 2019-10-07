@@ -53,7 +53,7 @@ function renderLinkList(links) {
     for (let link of links) {
         let linkElement = document.createElement('a');
         linkElement.innerText = link.substring(pathname.length);
-        linkElement.setAttribute('href', redirects[name]);
+        linkElement.setAttribute('href', redirects[link]);
 
         let listElement = document.createElement('li');
         listElement.appendChild(linkElement);
