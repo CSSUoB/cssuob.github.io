@@ -12,6 +12,7 @@ social:
 menu:
   - newsletter
   - committee
+  # - clubs
   - calendar
   - about
 baseurl: /
@@ -21,3 +22,4 @@ collections_dir: collections/
 collections:
   news:
     output: true
+  clubs:

@@ -1,0 +1,44 @@
+---
+layout: page
+title: Developer Student Clubs
+styles:
+  - /css/clubs.css
+scripts:
+  - /js/fadein.js
+---
+
+<div class="fadein-container">
+  {% assign session = site.clubs.last %}
+  <div class="club recent fadein">
+    {% if session.header-image %}
+    <img class="header-image" src="{{ session.header-image | relative_url }}">
+    {% endif %}
+    <div class="details">
+      <h2>{{ session.title }}</h2>
+      <h3>{{ session.date | date: "%b %-d, %Y"}}</h3>
+      <div>
+        {{ session.content | markdownify }}
+      </div>
+    </div>
+  </div>
+
+  <div class="clubs-list">
+    {% for session in site.clubs reversed %}
+    {% if forloop.first == true %}
+      {% continue %}
+    {% endif %}
+    <div class="club not-recent fadein">
+      {% if session.header-image %}
+      <img class="header-image" src="{{ session.header-image | relative_url }}">
+      {% endif %}
+      <div class="details">
+        <h2>{{ session.title }}</h2>
+        <h3>{{ session.date | date: "%b %-d, %Y"}}</h3>
+        <div>
+          {{ session.content | markdownify }}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
