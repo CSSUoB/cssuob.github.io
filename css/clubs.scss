@@ -1,0 +1,81 @@
+---
+---
+
+.clubs-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.club {
+  position: relative;
+
+  overflow: hidden;
+  border-radius: 10px;
+
+  margin: 10px;
+
+  .details {
+    * {
+      color: black;
+    }
+  }
+
+  .header-image {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &.not-recent {
+    background-color: #fff;
+
+    .header-image {
+      height: 25vh;
+    }
+
+    .details {
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 10px;
+    }
+  }
+
+  &.recent {
+    .header-image {
+      height: 35vh;
+    }
+  }
+}
+
+@media only screen and (min-width : 1200px) {
+  .club.recent {
+    .details {
+      height: 35vh;
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      background: linear-gradient(to right, #0000 0%, #fffd 10%);
+
+      text-align: right;
+
+      padding-left: 50px;
+      padding-right: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width : 1200px) {
+  .clubs-list {
+    grid-template-columns: 1fr;
+  }
+
+  .club.recent {
+    background-color: #fff;
+
+    .details {
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 10px;
+    }
+  }
+}
