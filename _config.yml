@@ -17,3 +17,7 @@ menu:
 baseurl: /
 root: /
 
+collections_dir: collections/
+collections:
+  news:
+    output: true
