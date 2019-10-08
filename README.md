@@ -10,7 +10,7 @@ A number of files can be used to configure the site:
     - site-wide configuration
 - `_data/`
     - contains data used to render the site, e.g. the committee
-- `_posts/`
+- `_collections/news/`
     - contains markdown files for each newletter post
 - `_assets`
     - location for all static assets
@@ -51,13 +51,13 @@ cleaner.
 
 ### Writing a new post
 
-To create a new post, create a markdown file in `_posts` with the post
-content. You can see a template post already there to borrow from.
+To create a new post, create a markdown file in `_collections/news` with the
+post content. You can see a template post already there to borrow from.
 
 The filename should follow a precise format - to create this file from a
 shell:
 
-    $ touch _posts/"$(date +%Y-%m-%d)-<title>.md"
+    $ touch _collections/news/"$(date +%Y-%m-%d)-<title>.md"
 
 You can add a thumbnail to a post; simply link the thumbnail in the front
 matter in the markdown file for the post. The thumbnail should be a 150px
