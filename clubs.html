@@ -7,6 +7,42 @@ scripts:
   - /js/fadein.js
 ---
 
+<a class="club-logo" href="https://developers.google.com/community/dsc/">
+  <img src="/assets/dsc.png">
+</a>
+
+<div class="club-description text-container">
+  <p>
+    Hello, and welcome to the Developer Student Club at the University of
+    Birmingham!
+  </p>
+  <p>
+    We're really proud to be part of a a new, worldwide initiative, lead by
+    Google! Throughout the year, we're going to be running developer clubs,
+    with talks, workshops, mini-hackathons, and anything else that you guys
+    want.
+  </p>
+  <p>
+    The idea of the program is to try and link the theory that we learn at
+    uni, with the practical skills required in the real world. So, during our
+    sessions, we're going to be using industry-standard tools, common APIs,
+    and a whole variety of different technologies to build awesome real-world
+    projects that can go on a CV or portfolio.
+  </p>
+  <p>
+    Essentially, we're here to help you out, so if there's anything that you
+    think we should run, then <a href="/about#contact-us">contact us</a>!
+  </p>
+  {% if site.clubs.size != 0 %}
+  <br>
+  <h1>Projects</h1>
+  <p>
+    Here you can see a list of some of our previous epic projects that we've
+    worked on!
+  </p>
+  {% endif %}
+</div>
+
 <div class="fadein-container">
   {% assign session = site.clubs.last %}
   <div class="club recent fadein">
