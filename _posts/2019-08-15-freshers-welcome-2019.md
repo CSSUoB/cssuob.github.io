@@ -2,7 +2,7 @@
 layout: post
 title: "Freshers Welcome 2019"
 permalink: /newsletter/:title
-thumbnail: /logo.png
+thumbnail: /assets/logo.png
 header-image: /assets/header-images/green-heart.jpg
 ---
 
