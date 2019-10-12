@@ -22,7 +22,7 @@
   destination: https://www.linkedin.com/company/cssbham/
 
 - source: /lhdl19/aws
-  destination: https://mlhlocal.host/aws-student-signup
+  destination: https://aws.amazon.com/
 - source: /lhdl19/discord
   destination: https://github.com/wrussell1999/local-hack-day-workshop/blob/master/discord.md
 - source: /lhdl19/reddit
