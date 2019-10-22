@@ -31,3 +31,5 @@
   destination: https://www.eventbrite.co.uk/platform/
 - source: /egm
   destination: https://www.facebook.com/events/2379248222298968/
+- source: /quiz
+  destination: https://www.facebook.com/events/2401185156829906/
