@@ -29,7 +29,5 @@
   destination: https://github.com/wrussell1999/local-hack-day-workshop/blob/master/reddit.md
 - source: /lhdl19/eventbrite
   destination: https://www.eventbrite.co.uk/platform/
-- source: /egm
-  destination: https://www.facebook.com/events/2379248222298968/
-- source: /quiz
-  destination: https://www.facebook.com/events/2401185156829906/
+- source: /meal
+  destination: https://forms.gle/6umwcR9fvgdyYSPc7
