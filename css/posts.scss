@@ -74,6 +74,35 @@ $preview-height: 150px;
     width: 100%;
     height: auto;
   }
+
+  /*
+   * TODO: this would be nice to have as part of main.scss so that tables can
+   * appear in textpages as well.
+   */
+  table {
+    border-collapse: collapse;
+
+    td, th {
+      border: 1px solid black;
+      padding: 0.4em;
+    }
+
+    thead {
+      tr {
+        background-color: #eff0f1;
+        border-bottom: 2px solid black;
+      }
+    }
+
+    tbody {
+      tr:nth-child(even) {
+        background-color: #eff0f1;
+      }
+      tr:nth-child(odd) {
+        background-color: #fefeff;
+      }
+    }
+  }
 }
 
 .post-header {

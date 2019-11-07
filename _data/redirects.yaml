@@ -15,8 +15,21 @@
 - source: /guild
   destination: https://www.guildofstudents.com/studentgroups/societies/css/
 - source: /eps
-  destination: https://www.birmingham.ac.uk/university/colleges/eps/eps-community/students/eps-societies/css.aspx
+  destination: https://www.birmingham.ac.uk/university/colleges/eps/eps-community/students/societies/css.aspx
 - source: /in
   destination: https://www.linkedin.com/company/cssbham/
 - source: /linkedin
   destination: https://www.linkedin.com/company/cssbham/
+
+- source: /lhdl19/aws
+  destination: https://aws.amazon.com/
+- source: /lhdl19/discord
+  destination: https://github.com/wrussell1999/local-hack-day-workshop/blob/master/discord.md
+- source: /lhdl19/reddit
+  destination: https://github.com/wrussell1999/local-hack-day-workshop/blob/master/reddit.md
+- source: /lhdl19/eventbrite
+  destination: https://www.eventbrite.co.uk/platform/
+- source: /egm
+  destination: https://www.facebook.com/events/2379248222298968/
+- source: /quiz
+  destination: https://www.facebook.com/events/2401185156829906/

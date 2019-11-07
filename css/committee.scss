@@ -4,7 +4,6 @@
 .person-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
 }
 
 .person {
@@ -20,6 +19,8 @@
   border-radius: 10px;
 
   display: flex;
+
+  margin: 10px;
 
   .picture {
     width: 150px;
