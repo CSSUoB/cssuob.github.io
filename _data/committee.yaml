@@ -84,18 +84,15 @@ people:
       students away in industry. In my own time, I play guitar and enjoy
       some casual game development.
     picture: /assets/committee/mini/tomp.jpg
-  - name: Michael Staig
+  - name: Valeria Popescu
     role: First Year Rep
     bio: >
-      As the First-Year Rep, I am responsible for making sure the first-years
-      have their views listened to by the committee, as well as advertising
-      and planning the events we put on. Other than my stellar CSS work, I am
-      a big fan of video games and all things boomer.
-    picture: /assets/committee/mini/michael.png
-  - name: Mark Titley
-    role: Post-Graduate (Taught) Rep
-    bio:
-    picture: /assets/committee/mini/unknown.png
+      Hi! My name is Valeria and my goal is to make sure that first-year
+      students are well informed and involved in all the opportunities out
+      there in CS and having their best time at university. Outside CSS I
+      like participating in programming contests, hackathons and watching
+      bachata dancing.
+    picture: /assets/committee/mini/valeria.jpg
   - name: Marco Canducci
     role: Post-Graduate (Research) Rep
     bio:
