@@ -1,26 +1,32 @@
-- source: /epsawards
-  destination: https://www.flickr.com/photos/136945066@N04/sets/72157709173802032/
+# join
+- source: /join
+  destination: https://www.guildofstudents.com/studentgroups/societies/css/
+
+# social
 - source: /facebook
   destination: https://facebook.com/groups/CSSUoB
 - source: /fb
   destination: https://facebook.com/groups/CSSUoB
-- source: /twitter
-  destination: https://twitter.com/cssbham
-- source: /ig
-  destination: https://instagram.com/cssbham
 - source: /instagram
   destination: https://instagram.com/cssbham
-- source: /join
-  destination: https://www.guildofstudents.com/studentgroups/societies/css/
-- source: /guild
-  destination: https://www.guildofstudents.com/studentgroups/societies/css/
-- source: /eps
-  destination: https://www.birmingham.ac.uk/university/colleges/eps/eps-community/students/societies/css.aspx
+- source: /ig
+  destination: https://instagram.com/cssbham
+- source: /twitter
+  destination: https://twitter.com/cssbham
 - source: /in
   destination: https://www.linkedin.com/company/cssbham/
 - source: /linkedin
   destination: https://www.linkedin.com/company/cssbham/
 
+# uni
+- source: /guild
+  destination: https://www.guildofstudents.com/studentgroups/societies/css/
+- source: /eps
+  destination: https://www.birmingham.ac.uk/university/colleges/eps/eps-community/students/societies/css.aspx
+- source: /epsawards
+  destination: https://www.flickr.com/photos/136945066@N04/sets/72157709173802032/
+
+# local hack day 2019
 - source: /lhdl19/aws
   destination: https://aws.amazon.com/
 - source: /lhdl19/discord
@@ -29,5 +35,15 @@
   destination: https://github.com/wrussell1999/local-hack-day-workshop/blob/master/reddit.md
 - source: /lhdl19/eventbrite
   destination: https://www.eventbrite.co.uk/platform/
+
+# git workshop
+- source: /git/guide
+  destination: https://rogerdudler.github.io/git-guide/
+- source: /git/guestbook
+  destination: https://github.com/wrussell1999/css-guestbook
+- source: /git/workshop
+  destination: https://learngitbranching.js.org
+
+# events
 - source: /meal
   destination: https://forms.gle/6umwcR9fvgdyYSPc7
