@@ -40,7 +40,7 @@
 - source: /git/guide
   destination: https://rogerdudler.github.io/git-guide/
 - source: /git/guestbook
-  destination: https://github.com/wrussell1999/css-guestbook
+  destination: https://github.com/wrussell1999/dsc-guestbook
 - source: /git/workshop
   destination: https://learngitbranching.js.org
 
