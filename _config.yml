@@ -12,7 +12,7 @@ social:
 menu:
   - newsletter
   - committee
-  # - clubs
+  - clubs
   - calendar
   - about
 baseurl: /
