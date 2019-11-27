@@ -5,7 +5,7 @@ backend:
 
 publish_mode: editorial_workflow
 
-media_folder: "assets/"
+media_folder: "assets/images/"
 
 collections:
   - name: "pages"

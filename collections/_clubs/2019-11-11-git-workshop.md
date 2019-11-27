@@ -1,6 +1,6 @@
 ---
 title: "Git Workshop"
-header-image: /assets/header-images/git-workshop.jpg
+header-image: /assets/images/git-workshop.jpg
 ---
 
 [Justin](https://twitter.com/jedevc) and

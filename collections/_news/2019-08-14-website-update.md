@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Website Update"
-header-image: /assets/header-images/green-heart.jpg
-thumbnail: /assets/thumbnails/tada.jpg
+header-image: /assets/images/green-heart.jpg
+thumbnail: /assets/images/tada.jpg
 ---
 
 The new website is finally, finally here!
