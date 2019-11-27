@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Freshers Welcome 2019"
-permalink: /newsletter/:title
 thumbnail: /assets/logo.png
 header-image: /assets/header-images/green-heart.jpg
 ---

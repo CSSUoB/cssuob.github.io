@@ -22,4 +22,5 @@ collections_dir: collections/
 collections:
   news:
     output: true
+    permalink: /newsletter/:title
   clubs:
