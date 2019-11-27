@@ -26,7 +26,7 @@ collections:
         widget: "markdown"
 
   - name: "newsletter"
-    label: "Newletter"
+    label: "Newsletter"
     folder: "collections/_news"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
