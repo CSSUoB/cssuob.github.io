@@ -1,0 +1,70 @@
+backend:
+  name: github
+  repo: CSSUoB/cssuob.github.io
+  branch: master
+
+publish_mode: editorial_workflow
+
+media_folder: "assets/uploads/"
+
+collections:
+  - name: "newsletter"
+    label: "Newletter"
+    folder: "collections/_news"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "post"
+      - label: "Published"
+        name: "published"
+        widget: "hidden"
+        default: true
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Thumbnail"
+        name: "thumbnail"
+        widget: "image"
+        allow_multiple: false
+      - label: "Header Image"
+        name: "header-image"
+        widget: "image"
+        allow_multiple: false
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+  - name: "clubs"
+    label: "Clubs"
+    folder: "collections/_clubs"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Header Image"
+        name: "header-image"
+        widget: "image"
+        allow_multiple: false
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+  - name: "pages"
+    label: "Pages"
+    folder: "/"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "textpage"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
