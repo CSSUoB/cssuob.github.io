@@ -8,6 +8,23 @@ publish_mode: editorial_workflow
 media_folder: "assets/uploads/"
 
 collections:
+  - name: "pages"
+    label: "Pages"
+    folder: "/"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "textpage"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+
   - name: "newsletter"
     label: "Newletter"
     folder: "collections/_news"
@@ -36,6 +53,7 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+
   - name: "clubs"
     label: "Clubs"
     folder: "collections/_clubs"
@@ -49,22 +67,6 @@ collections:
         name: "header-image"
         widget: "image"
         allow_multiple: false
-      - label: "Body"
-        name: "body"
-        widget: "markdown"
-  - name: "pages"
-    label: "Pages"
-    folder: "/"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - label: "Layout"
-        name: "layout"
-        widget: "hidden"
-        default: "textpage"
-      - label: "Title"
-        name: "title"
-        widget: "string"
       - label: "Body"
         name: "body"
         widget: "markdown"
