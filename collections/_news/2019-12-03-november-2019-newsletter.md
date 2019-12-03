@@ -41,7 +41,7 @@ The other winning team implemented a visualisation of how quantum gates affect t
 
 ## Notable Mentions
 
-CSS also got involved with many other events this month, including attending AstonHack 2019 run by our friends at AstonHack, travelling all the way to Durham for DurHack 2019, partaking Societies’ Night at the Guild of Students, and attending an Internet of Things workshop with Startup Society. 
+CSS also got involved with many other events this month, including attending AstonHack 2019 run by our friends at Aston University, travelling all the way to Durham for DurHack 2019, partaking Societies’ Night at the Guild of Students, and attending an Internet of Things workshop with Startup Society. 
 
 A shout-out also goes to Tom Goodman, our current secretary and president of the society in the previous 3 years. He won an award as the Tech Rising Star of the Year at the Silicon Canal Tech Awards at Bierkeller on Broad Street last Thursday. Tom has made many achievements from his contributions to CSS, HackTheMidlands and countless other groups around the university and the wider community. Congratulations Tom!
 
