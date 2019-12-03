@@ -51,7 +51,7 @@ The Computer Science community has a few more events throughout the next week an
 
 The School of Computer Science has the annual Christmas Lights switch on this Wednesday (tomorrow) in the Atrium at 1pm. All are welcome to come together to witness Mark Lee top the tree with Tux, the Linux penguin, while enjoying mince pies, mulled wine and a few Christmas carols.
 
-CSS is running the first Board Games Night in conjunction with the School of Computer Science this Thursday 6th December at 6pm in the Atrium. All are invited to join in around the table to play some classic games including Exploding Kittens and I’m sure there will be a game of Werewolves too! And as always, drinks and snacks will also be provided.
+CSS is running the first Board Games Night in conjunction with the School of Computer Science this Thursday 6th December at 6pm in the Atrium. All are invited to join in around the table to play many classic games, including Exploding Kittens, Werewolf, and loads more. Please bring your own too, the more the merrier!
 
 Finally, we are looking forward to our annual Christmas Meal, at the S’Oak this Friday. While sign-ups are now closed for this event, we are expecting almost 90 members to join us for a festive meal this weekend. 
 
