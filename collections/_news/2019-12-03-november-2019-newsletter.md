@@ -7,7 +7,7 @@ header-image: /assets/images/docker-workshop.jpg
 ---
 November has been another successful (and busy) month for CSS. We have started Developer Student Clubs - an exciting new project, and brought our largest event of the year so far - the Qiskit Hackathon.
 
-## DSC
+## Developer Student Clubs
 
 On Monday 11th November, Justin started Developer Student Clubs at the University of Birmingham. DSC is a worldwide initiative led by Google and the idea is to link theory we learn at university with practical skills which are useful in the real world. Throughout the year, we will bring workshops, talks, mini-hackathons and anything else you would like from us. 
 
@@ -41,7 +41,7 @@ The other winning team implemented a visualisation of how quantum gates affect t
 
 ## Notable Mentions
 
-CSS also got involved with many other events this month, including attending a hackathon run by our friends at AstonHack, partaking Societies’ Night at the Guild of Students, and attending an Internet of Things workshop with Startup Society. 
+CSS also got involved with many other events this month, including attending AstonHack 2019 run by our friends at AstonHack, travelling all the way to Durham for DurHack 2019, partaking Societies’ Night at the Guild of Students, and attending an Internet of Things workshop with Startup Society. 
 
 A shout-out also goes to Tom Goodman, our current secretary and president of the society in the previous 3 years. He won an award as the Tech Rising Star of the Year at the Silicon Canal Tech Awards at Bierkeller on Broad Street last Thursday. Tom has made many achievements from his contributions to CSS, HackTheMidlands and countless other groups around the university and the wider community. Congratulations Tom!
 
