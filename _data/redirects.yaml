@@ -35,10 +35,6 @@
   destination: https://github.com/wrussell1999/local-hack-day-workshop/blob/master/reddit.md
 - source: /lhdl19/eventbrite
   destination: https://www.eventbrite.co.uk/platform/
-<<<<<<< HEAD
-- source: /meal
-  destination: https://forms.gle/6umwcR9fvgdyYSPc7
-=======
 
 # git workshop
 - source: /git/guide
@@ -49,8 +45,3 @@
   destination: https://learngitbranching.js.org
 
 # events
-- source: /meal
-  destination: https://forms.gle/6umwcR9fvgdyYSPc7
-- source: /pub
-  destination: https://www.facebook.com/events/2475130702729464/ 
->>>>>>> ac942e2ab4d3f1865141f7d9a81834be37e26e2d
