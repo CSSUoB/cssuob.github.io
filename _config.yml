@@ -12,8 +12,15 @@ social:
 menu:
   - newsletter
   - committee
+  - clubs
   - calendar
   - about
 baseurl: /
 root: /
 
+collections_dir: collections/
+collections:
+  news:
+    output: true
+    permalink: /newsletter/:title
+  clubs:

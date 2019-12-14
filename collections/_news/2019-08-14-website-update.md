@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Website Update"
-permalink: /newsletter/:title
-header-image: /assets/header-images/green-heart.jpg
-thumbnail: /assets/thumbnails/tada.jpg
+header-image: /assets/images/green-heart.jpg
+thumbnail: /assets/images/tada.jpg
 ---
 
 The new website is finally, finally here!

@@ -1,0 +1,80 @@
+---
+layout: page
+title: Developer Student Clubs
+styles:
+  - /css/clubs.css
+scripts:
+  - /js/fadein.js
+---
+
+<a class="dsc-logo" href="https://developers.google.com/community/dsc/">
+  <img src="/assets/dsc.png" />
+</a>
+
+<div class="dsc-description text-container">
+  <p>
+    Hello, and welcome to the Developer Student Club at the University of
+    Birmingham!
+  </p>
+  <p>
+    We're really proud to be part of a a new, worldwide initiative, lead by
+    Google! Throughout the year, we're going to be running developer clubs, with
+    talks, workshops, mini-hackathons, and anything else that you guys want.
+  </p>
+  <p>
+    The idea of the program is to try and link the theory that we learn at uni,
+    with the practical skills required in the real world. So, during our
+    sessions, we're going to be using industry-standard tools, common APIs, and
+    a whole variety of different technologies to build awesome real-world
+    projects that can go on a CV or portfolio.
+  </p>
+  <p>
+    Essentially, we're here to help you out, so if there's anything that you
+    think we should run, then <a href="/about#contact-us">contact us</a>!
+  </p>
+  {% if site.clubs.size != 0 %}
+  <br />
+  <h1>Projects</h1>
+  <p>
+    Here you can see a list of some of our previous epic projects/workshops that
+    we've had!
+  </p>
+  {% endif %}
+</div>
+
+<div class="fadein-container">
+  {% assign session = site.clubs.last %}
+  <div class="club recent fadein">
+    {% if session.header-image %}
+    <img class="header-image" src="{{ session.header-image | relative_url }}" />
+    {% endif %}
+    <div class="details">
+      <h2>{{ session.title }}</h2>
+      <h3>{{ session.date | date: "%b %-d, %Y"}}</h3>
+      <div>
+        {{ session.content | markdownify }}
+      </div>
+    </div>
+  </div>
+
+  <div class="clubs-list">
+    {% for session in site.clubs reversed %} {% if forloop.first == true %} {%
+    continue %} {% endif %}
+    <div class="club not-recent fadein">
+      {% if session.header-image %}
+      <img
+        class="header-image"
+        src="{{ session.header-image | relative_url }}"
+      />
+      {% endif %}
+      <div class="details">
+        <h2>{{ session.title }}</h2>
+        <h3>{{ session.date | date: "%b %-d, %Y"}}</h3>
+        <div>
+          {{ session.content | markdownify }}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

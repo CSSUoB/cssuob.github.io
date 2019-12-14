@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Freshers Welcome 2019"
-permalink: /newsletter/:title
 thumbnail: /assets/logo.png
-header-image: /assets/header-images/green-heart.jpg
+header-image: /assets/images/green-heart.jpg
 ---
 
 Congratulations on your place to study at the University of Birmingham - we
