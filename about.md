@@ -54,8 +54,12 @@ They are a great way to meet new people, talk with different companies and
 learn new things. Each year we encourage members to get involved with
 hackathons since it's a great way to learn, build and share.
 
-To learn more about hackathons, checkout the great [MLH](https://mlh.io)
-website for more info about events happening all over the world.
+If you're looking to find out a bit more about hackathons, have a look at the [UK Hackathon Wiki](https://hack.athon.uk), 
+which also has a calendar of all student hackathons happening around the UK. 
+
+Also, the [Major League Hacking website](https://mlh.io) has some great information about hackathons, and events going on.
+
+If you're interested in joining in, take a look at the CSS Facebook group for information on which hackathons we're going to!
 
 ## Awards
 
