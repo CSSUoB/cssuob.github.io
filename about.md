@@ -4,14 +4,16 @@ title: About
 ---
 # About us
 
-Welcome to the **Computer Science Society**! We are the departmental society
-in the School of Computer Science at the University of Birmingham.
+Welcome to the **Computer Science Society**! We are the departmental society in the School of Computer Science at the University of Birmingham.
 
-We are one of over 300 Guild of Students societies and one of 35+ EPS College
-societies. Being a student is not just about working hard, you have to enjoy
+We are one of over 300 Guild of Students societies and one of 35+ EPS College societies. Being a student is not just about working hard, you have to enjoy
 it too! That is why CSS is working making sure to create events and provide a
 medium through which computer scientists can meet, make friends, and partake
 in a whole lot of exciting activities.
+
+## Constitution
+
+As a society with the Guild of Students, we have a constitution that dictates our structure, how we meet, come to decisions, etc. You can find it [here][constitution]. All our committee signs the constitution, and we encourage all our members to read it at least once.
 
 ## What we do
 
@@ -25,37 +27,31 @@ We run a variety of events around the year, such as:
 * Workshops
 * and much more!
 
-We also organise special events, such as trips, Christmas meals, the annual
-CSS Ball and others! We are always completely open to suggestions too, so if
+We also organise special events, such as trips, Christmas meals, the annual CSS Ball and others! We are always completely open to suggestions too, so if
 there's an event you would like to see, just let us know.
 
-Most importantly, we also provide lots of **free pizza** at many of our
-events. We reckon that in 2018/19, we provided almost 500kg of pizza to our
+Most importantly, we also provide lots of **free pizza** at many of our events. We reckon that in 2018/19, we provided almost 500kg of pizza to our
 members (but that's just a guess, so please so don't quote us).
 
 ## How to get involved
 
 Membership through the Guild only costs £5 for the whole year. You can go to our page on the \[Guild of Students](https://www.guildofstudents.com/studentgroups/societies/css/) website to purchase your membership. Membership gives you access to all of our events and you also get a free CSS T-shirt!
 
-Each year we hold an AGM (Annual General Meeting) in March to elect our
-committee for the year. We have a variety of different roles, which you can
+Each year we hold an AGM (Annual General Meeting) in March to elect our committee for the year. We have a variety of different roles, which you can
 check out on our Committee page. We also hold another election at the start
 of the academic year to elect a new First Year Rep and PGT Rep.
 
-Every event we run will be advertised on our Facebook, Twitter and Instagram,
-as well as via. the Calendar page on our website. Stay tuned for all of
+Every event we run will be advertised on our Facebook, Twitter and Instagram, as well as via. the Calendar page on our website. Stay tuned for all of
 the latest updates!
 
 ## Hackathons
 
-A hackathon is a (usually 24 hours) event in which teams work together to
-create a piece of software for certain challenges, to win awesome prizes.
+A hackathon is a (usually 24 hours) event in which teams work together to create a piece of software for certain challenges, to win awesome prizes.
 They are a great way to meet new people, talk with different companies and
 learn new things. Each year we encourage members to get involved with
 hackathons since it's a great way to learn, build and share.
 
-If you're looking to find out a bit more about hackathons, have a look at the [UK Hackathon Wiki](https://hack.athon.uk), 
-which also has a calendar of all student hackathons happening around the UK. 
+If you're looking to find out a bit more about hackathons, have a look at the [UK Hackathon Wiki](https://hack.athon.uk),  which also has a calendar of all student hackathons happening around the UK. 
 
 Also, the [Major League Hacking website](https://mlh.io) has some great information about hackathons, and events going on.
 
@@ -82,4 +78,6 @@ Instagram: [@cssbham](https://instagram.com/cssbham)
 
 Facebook: [CSS - Computer Science Society](https://facebook.com/groups/CSSUoB)
 
-Email: <mailto:cssoc@cs.bham.ac.uk>
+Email: [cssoc@cs.bham.ac.uk](mailto:cssoc@cs.bham.ac.uk)
+
+[constitution]: https://docs.google.com/document/d/1J3_EWs3dd2gq5T_xYylcP5pDzm0HHAYCTgiqKUYwkls
