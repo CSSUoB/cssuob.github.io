@@ -47,3 +47,5 @@
 # events
 - source: /ball
   destination: https://www.facebook.com/events/562541707944902/
+- source: /tickets
+  destination: https://www.guildofstudents.com/events/6531/4805/
