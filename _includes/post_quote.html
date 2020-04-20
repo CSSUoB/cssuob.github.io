@@ -1,0 +1,18 @@
+<div class="post-quote">
+  {% if include.img %}
+    <img class="post-quote-thumbnail" src="{{ include.img }}">
+  {% endif %}
+  <div class="post-quote-details">
+    {% if include.title %}
+      <h2 class="post-quote-title">{{ include.title }}</h2>
+    {% endif %}
+    {% if include.subtitle %}
+      <h3 class="post-quote-subtitle">{{ include.subtitle }}</h3>
+    {% endif %}
+    {% if include.quote %}
+      <div class="post-quote-excerpt">
+        <p>&quot;{{ include.quote }}&quot;</p>
+      </div>
+    {% endif %}
+  </div>
+</div>
