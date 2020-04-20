@@ -33,7 +33,7 @@ Install bundle:
 
 Install required dependencies:
 
-    $ bundle install --path vendor/bundle
+    $ bundle install
 
 Run jekyll server:
 
