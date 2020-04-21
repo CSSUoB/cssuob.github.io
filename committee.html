@@ -15,12 +15,15 @@ scripts:
   running events throughout the year.
 </p>
 <p>
-  Currently, for the academic year {{ site.data.committee.academic_year }}
-  we have {{ site.data.committee.people.size }} committee members:
+  For previous years see <a href="/committee-archive.html">here</a>.
+</p>
+<p>
+  Currently, for the academic year {{ site.data.committee[0].academic_year }}
+  we have {{ site.data.committee[0].people.size }} committee members:
 </p>
 
 <div class="person-container fadein-container">
-  {% for person in site.data.committee.people %}
+  {% for person in site.data.committee[0].people %}
   <div class="person fadein hidden">
     <img class="picture" src="{{ person.picture | relative_url }}" alt="picture of {{ person.name }}">
     <div class="details">

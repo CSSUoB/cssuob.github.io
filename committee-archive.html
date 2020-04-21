@@ -1,0 +1,26 @@
+---
+layout: page
+title: Committee Archive
+styles:
+  - /css/committee.css
+scripts:
+  - /js/fadein.js
+---
+
+{% for committee in site.data.committee offset:1 %}
+<h2>{{ committee.academic_year }}</h2>
+<div class="person-container fadein-container">
+  {% for person in committee.people %}
+  <div class="person fadein hidden">
+    <img class="picture" src="{{ person.picture | relative_url }}" alt="picture of {{ person.name }}">
+    <div class="details">
+      <span class="name">{{ person.name }}</span>
+      <span class="role">{{ person.role }}</span>
+      <p class="bio">
+        {{ person.bio }}
+      </p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endfor %}
