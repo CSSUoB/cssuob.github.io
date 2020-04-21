@@ -5,8 +5,10 @@ title: Hackathons
 
 # Hackathons
 
-Hackathons are a great way to learn new skills, meet new people, and have lots of fun! Interested in attending hackathons? Contact [Will](https://m.me/wrussell1999).
-
+Hackathons are a great way to learn new skills, meet new people, and have
+lots of fun! Interested in attending hackathons? Contact anyone on the
+existing [committee](/committee), and they'll be able to give you some more
+information, or point you in the right direction.
 
 ## Calendar
 
@@ -54,7 +56,6 @@ We also suggest you bring along:
 
 Hackathons normally run over a weekend, with 24 hours to work on a project!
 
-
 #### Saturday 
 
 - Arrive: 10:00
@@ -65,8 +66,8 @@ Hackathons normally run over a weekend, with 24 hours to work on a project!
 - Dinner: 19:00
 - Mini Games: 20:00
 
-
 #### Sunday 
+
 - Midnight Pizza: 00:00
 - Hacking Ends: 12:00
 - Lunch: 12:30
