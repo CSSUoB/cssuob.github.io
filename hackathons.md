@@ -1,6 +1,8 @@
 ---
 layout: textpage
 title: Hackathons
+styles:
+  - /css/hackathon-events.css
 ---
 
 # Hackathons
@@ -77,132 +79,16 @@ Hackathons normally run over a weekend, with 24 hours to work on a project!
 
 ## Events CSS has been to!
 
-<style>
-/*
-Move this into a CSS file
-*/
-
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  background-color: white;
-}
-
-.container {
-  padding: 0 16px;
-  background-color: white;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-
-.name {
-  font-size: large;
-}
-
-.date { 
-  font-size: small;
-}
-.name, .date {
-  color: black;
-  text-align: center;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #2E3C62;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #25304F;
-}
-
-</style>
 <div class="row">
+{% for hackathon in site.data.hackathons %}
   <div class="column">
     <div class="card">
-      <img src="/assets/images/htm.jpg?raw=true" alt="HackTheMidlands 4.0" style="width:100%">
+      <img src="{{ hackathon.image }}" alt="{{ hackathon.name }}" style="width:100%">
        <div class="container">
-         <h2 class="name">HackTheMidlands 4.0</h2>
-         <p class="date">October 2019</p>
+         <h2 class="name">{{ hackathon.name }}</h2>
+         <p class="date">{{ hackathon.date }}</p>
        </div>
     </div>
   </div>
-  <div class="column">
-    <div class="card">
-      <img src="/assets/images/oxfordhack.jpg?raw=true" alt="OxfordHack 2019" style="width:100%">
-      <div class="container">
-        <h2 class="name">OxfordHack 2019</h2>
-        <p class="date">November 2019</p>
-      </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="card">
-      <img src="/assets/images/durhack.jpg?raw=true" alt="DurHack 2019" style="width:100%">
-      <div class="container">
-        <h2 class="name">DurHack 2019</h2>
-        <p class="date">November 2019</p>
-      </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="card">
-      <img src="/assets/images/manmethacks.jpg?raw=true" alt="ManMetHacks 2.0" style="width:100%">
-      <div class="container">
-        <h2 class="name">ManMetHacks 2.0</h2>
-        <p class="date">January 2020</p>
-      </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="card">
-      <img src="/assets/images/covhack.jpg?raw=true" alt="CovHack2020" style="width:100%">
-      <div class="container">
-        <h2 class="name">CovHack2020</h2>
-        <p class="date">February 2020</p>
-      </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="card">
-      <img src="/assets/images/hacktheburghvi.jpg?raw=true" alt="Hack the Burgh VI" style="width:100%">
-      <div class="container">
-        <h2 class="name">Hack the Burgh VI</h2>
-        <p class="date">February / March 2020</p>
-      </div>
-    </div>
-  </div>
+{% endfor %}
 </div>
