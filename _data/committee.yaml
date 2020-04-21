@@ -1,6 +1,6 @@
-- academic_year: 2020/2021
-  people:
-    ...
+# - academic_year: 2020/2021
+#   people:
+#     ...
 - academic_year: 2019/2020
   people:
     - name: Cristian Calauz

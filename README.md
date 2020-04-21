@@ -110,14 +110,15 @@ and dates given in the calendar event. The below table details the process:
 
 To update the committee:
 
-1. Remove the old committee's photos from `assets/committee/`
-2. Add the new committee's photos into `assets/committee/full`
+1. Add the new committee's photos into `assets/committee/full`
     - Each image should have a 1:1 ratio.
     - Add the highest quality images you can (they'll be scaled down later).
     - Most common image formats are supported.
-3. Create all the additional files by running `_scripts/committee.sh`
-2. Edit `_data/committee.yaml` with the correct academic year and the new
-   committee's details and pictures (make sure to use the `mini` images).
+2. Create all the additional files by running `_scripts/committee.sh` (it's a
+   bash shell script).
+3. Prepend a yaml object with the correct academic year and the new
+   committee's details and pictures (make sure to use the `mini` images
+   generated in the above step) to `data/committee.yaml`.
 
 [calendar]: https://calendar.google.com/calendar/embed?src=kg5v9k480jn2qahpmq33h8g7cs%40group.calendar.google.com&ctz=Europe%2FLondon
 [fullcalendar]: https://fullcalendar.io/
