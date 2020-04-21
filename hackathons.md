@@ -55,6 +55,26 @@ We also suggest you bring along:
 Hackathons normally run over a weekend, with 24 hours to work on a project!
 
 
+#### Saturday 
+
+- Arrive: 10:00
+- Opening Ceremony: 11:00
+- Hacking Starts: 12:00
+- Lunch: 13:00
+- Workshops: 14:00 - 18:00
+- Dinner: 19:00
+- Mini Games: 20:00
+
+
+#### Sunday 
+- Midnight Pizza: 00:00
+- Hacking Ends: 12:00
+- Lunch: 12:30
+- Judging: 13:00
+- On Stage Demos: 15:00
+- Awards: 16:00
+
+## Events CSS has been to!
 
 <style>
 /*
@@ -99,7 +119,15 @@ html {
   display: table;
 }
 
-.title, .name {
+
+.name {
+  font-size: large;
+}
+
+.date { 
+  font-size: small;
+}
+.name, .date {
   color: black;
   text-align: center;
 }
@@ -122,15 +150,58 @@ html {
 
 </style>
 <div class="row">
-<div class="column">
+  <div class="column">
     <div class="card">
-        <img src="/assets/images/covhack.jpg?raw=true" alt="Jane" style="width:100%">
-        <div class="container">
-        <h2 class="name">Will Russell</h2>
-        <p class="title">Hackathons</p>
-        <p><a href="https://m.me/wrussell1999"><button class="button">Message</button></a></p>
-        </div>
+      <img src="/assets/images/htm.jpg?raw=true" alt="HackTheMidlands 4.0" style="width:100%">
+       <div class="container">
+         <h2 class="name">HackTheMidlands 4.0</h2>
+         <p class="date">October 2019</p>
+       </div>
     </div>
-</div>
-
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/assets/images/oxfordhack.jpg?raw=true" alt="OxfordHack 2019" style="width:100%">
+      <div class="container">
+        <h2 class="name">OxfordHack 2019</h2>
+        <p class="date">November 2019</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/assets/images/durhack.jpg?raw=true" alt="DurHack 2019" style="width:100%">
+      <div class="container">
+        <h2 class="name">DurHack 2019</h2>
+        <p class="date">November 2019</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/assets/images/manmethacks.jpg?raw=true" alt="ManMetHacks 2.0" style="width:100%">
+      <div class="container">
+        <h2 class="name">ManMetHacks 2.0</h2>
+        <p class="date">January 2020</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/assets/images/covhack.jpg?raw=true" alt="CovHack2020" style="width:100%">
+      <div class="container">
+        <h2 class="name">CovHack2020</h2>
+        <p class="date">February 2020</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/assets/images/hacktheburghvi.jpg?raw=true" alt="Hack the Burgh VI" style="width:100%">
+      <div class="container">
+        <h2 class="name">Hack the Burgh VI</h2>
+        <p class="date">February / March 2020</p>
+      </div>
+    </div>
+  </div>
 </div>
