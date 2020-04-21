@@ -51,7 +51,9 @@ They are a great way to meet new people, talk with different companies and
 learn new things. Each year we encourage members to get involved with
 hackathons since it's a great way to learn, build and share.
 
-If you're looking to find out a bit more about hackathons, have a look at the [UK Hackathon Wiki](https://hack.athon.uk),  which also has a calendar of all student hackathons happening around the UK. 
+If you're looking to find out a bit more about hackathons, head over to our [hackathon page](/hackathons)!
+
+Also, have a look at the [UK Hackathon Wiki](https://hack.athon.uk),  which also has a calendar of all student hackathons happening around the UK. 
 
 Also, the [Major League Hacking website](https://mlh.io) has some great information about hackathons, and events going on.
 
