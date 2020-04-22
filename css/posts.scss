@@ -37,7 +37,7 @@ $preview-height: 150px;
     }
 
     .post-date {
-      color: black;   
+      color: black;
     }
 
     .post-excerpt {
@@ -103,6 +103,39 @@ $preview-height: 150px;
       }
     }
   }
+
+  .post-quote {
+    display: flex;
+    border: solid 2px black;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    .post-quote-thumbnail {
+      width: $preview-height;
+      height: $preview-height;
+      margin-right: 15px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+    }
+    .post-quote-title {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+    .post-quote-subtitle {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+
+    }
+    .post-quote-excerpt {
+
+    }
+  }
+
 }
 
 .post-header {
