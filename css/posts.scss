@@ -121,6 +121,8 @@ $preview-height: 150px;
       margin-right: 15px;
       margin-bottom: 10px;
       border-radius: 10px;
+      flex: 0 0 auto;
+      object-fit: cover;
     }
     .post-quote-title {
       margin-top: 0.5em;
