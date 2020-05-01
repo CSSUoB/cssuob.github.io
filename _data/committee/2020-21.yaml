@@ -6,63 +6,66 @@ people:
     role: President
     bio: >
 
-    picture: /assets/committee2020/jacqui.jpg
+    picture: /assets/committee/2020-21/mini/jacqui.jpg
   - name: Tom Goodman
     role: Secretary
     bio: >
 
-    picture: /assets/committee2020/tom.jpg
+    picture: /assets/committee/2020-21/mini/tom.jpg
   - name: Jake Foster
     role: Treasurer
     bio: >
 
-    picture: /assets/committee2020/jake.jpg
+    picture: /assets/committee/2020-21/mini/jake.jpg
   - name: Valeria Popescu
     role: Vice-President
     bio: >
 
-    picture: /assets/committee2020/valeria.jpg
+    picture: /assets/committee/2020-21/mini/valeria.jpg
   - name: Robert Hallam
     role: Socials Rep
     bio: >
 
-    picture: /assets/committee2020/rob.png
+    picture: /assets/committee/2020-21/mini/rob.png
   - name: Adrian David
     role: International Student Rep
     bio: >
 
-    picture: /assets/committee2020/adrian.jpg
+    picture: /assets/committee/2020-21/mini/adrian.jpg
   - name: Jacob Wilson
     role: Special Events Rep
     bio: >
 
-    picture: /assets/committee2020/jacob.jpg
+    picture: /assets/committee/2020-21/mini/jacob.jpg
   - name: Leela Muppala
     role: Diversity, Equality and Inclusivity Rep
     bio: >
 
-    picture: /assets/committee2020/leela.jpg
+    picture: /assets/committee/2020-21/mini/leela.jpg
   - name: Daniel-Stefan Stocia
     role: Sports Rep
     bio: >
 
-    picture: /assets/committee2020/daniel.JPG
+    picture: /assets/committee/2020-21/mini/daniel.JPG
   - name: George Baker
     role: Publicity Rep
     bio: >
-
-    picture: /assets/committee2020/george.png
+      I’m responsible for showing off CSS to the rest of the world! To do that,
+      I photograph our events, promote them on social media and update this
+      website regularly. In my spare time, I listen to music, watch films and
+      work on my own projects.
+    picture: /assets/committee/2020-21/mini/george.jpg
   - name: Likkan Chung
     role: Industrial Rep
     bio: >
 
-    picture: /assets/committee2020/likkan.jpg
+    picture: /assets/committee/2020-21/mini/likkan.jpg
   - name: Ammaar Sultan
     role: Interim First Year Rep
     bio: >
 
-    picture: /assets/committee2020/ammaar.jpg
+    picture: /assets/committee/2020-21/mini/ammaar.jpg
   - name: Dan Clark
     role: Post-Graduate (Research) Rep
     bio:
-    picture: /assets/committee2020/dan.png
+    picture: /assets/committee/2020-21/mini/dan.png
