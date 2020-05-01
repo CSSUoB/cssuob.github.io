@@ -1,0 +1,68 @@
+academic_year: 2020/2021
+postfix: Elect
+current: true
+people:
+  - name: Jacqueline Henes
+    role: President
+    bio: >
+
+    picture: /assets/committee2020/jacqui.jpg
+  - name: Tom Goodman
+    role: Secretary
+    bio: >
+
+    picture: /assets/committee2020/tom.jpg
+  - name: Jake Foster
+    role: Treasurer
+    bio: >
+
+    picture: /assets/committee2020/jake.jpg
+  - name: Valeria Popescu
+    role: Vice-President
+    bio: >
+
+    picture: /assets/committee2020/valeria.jpg
+  - name: Robert Hallam
+    role: Socials Rep
+    bio: >
+
+    picture: /assets/committee2020/rob.png
+  - name: Adrian David
+    role: International Student Rep
+    bio: >
+
+    picture: /assets/committee2020/adrian.jpg
+  - name: Jacob Wilson
+    role: Special Events Rep
+    bio: >
+
+    picture: /assets/committee2020/jacob.jpg
+  - name: Leela Muppala
+    role: Diversity, Equality and Inclusivity Rep
+    bio: >
+
+    picture: /assets/committee2020/leela.jpg
+  - name: Daniel-Stefan Stocia
+    role: Sports Rep
+    bio: >
+
+    picture: /assets/committee2020/daniel.JPG
+  - name: George Baker
+    role: Publicity Rep
+    bio: >
+
+    picture: /assets/committee2020/george.png
+  - name: Likkan Chung
+    role: Industrial Rep
+    bio: >
+
+    picture: /assets/committee2020/likkan.jpg
+  - name: Ammaar Sultan
+    role: Interim First Year Rep
+    bio: >
+
+    picture: /assets/committee2020/ammaar.jpg
+  - name: Dan Clark
+    role: Post-Graduate (Research) Rep
+    bio:
+    picture: /assets/committee2020/dan.png

@@ -9,8 +9,6 @@ scripts:
 
 <h1>Committee</h1>
 
-<p><b>Following the Results of the Committee Elections, this page will be updated shortly.</b></p>
-
 <p>
   The CSS committee represents all of our members and takes
   responsibility for planning and organizing the society as well as
@@ -25,16 +23,25 @@ scripts:
 </p>
 
 <div class="person-container fadein-container">
-  {% for person in site.data.committee[0].people %}
-  <div class="person fadein hidden">
-    <img class="picture" src="{{ person.picture | relative_url }}" alt="picture of {{ person.name }}">
-    <div class="details">
-      <span class="name">{{ person.name }}</span>
-      <span class="role">{{ person.role }}</span>
-      <p class="bio">
-        {{ person.bio }}
-      </p>
-    </div>
-  </div>
+  {% for committees in site.data.committee %}
+    {% assign committee = committees[1] %}
+    {% if committee.current %}
+      {% for person in committee.people %}
+        <div class="person fadein hidden">
+          <img class="picture" src="{{ person.picture | relative_url }}" alt="picture of {{ person.name }}">
+          <div class="details">
+            <span class="name">{{ person.name }}</span>
+            <span class="role">
+              {% if committee.prefix %}{{committee.prefix}}{% endif %}
+              {{ person.role }}
+              {% if committee.postfix %}{{committee.postfix}}{% endif %}
+            </span>
+            <p class="bio">
+              {{ person.bio }}
+            </p>
+          </div>
+        </div>
+      {% endfor %}
+    {% endif %}
   {% endfor %}
 </div>

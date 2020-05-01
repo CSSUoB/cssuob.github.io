@@ -57,7 +57,7 @@ post content. You can see a template post already there to borrow from.
 The filename should follow a precise format - to create this file from a
 shell:
 
-    $ touch _collections/news/"$(date +%Y-%m-%d)-<title>.md"
+    $ touch \_collections/news/"$(date +%Y-%m-%d)-<title>.md"
 
 You can add a thumbnail to a post; simply link the thumbnail in the front
 matter in the markdown file for the post. The thumbnail should be a 150px
@@ -116,9 +116,17 @@ To update the committee:
     - Most common image formats are supported.
 2. Create all the additional files by running `_scripts/committee.sh` (it's a
    bash shell script).
-3. Prepend a yaml object with the correct academic year and the new
-   committee's details and pictures (make sure to use the `mini` images
-   generated in the above step) to `data/committee.yaml`.
+3. Create a new yaml file in `_data/committee/` with these tags:
+   * `academic_year`: The academic year of the committee, e.g. `2019/20`
+   * `prefix`: Prefix to the role of each member, e.g. \"`Outgoing` Publicity Rep\"
+   * `postfix`: Postfix to the role of each member, e.g. \"Publicity Rep `Elect`\"
+   * `current`: Display the committee on the main list page, `true` or `false`. All committees will always be listed in the archive
+   * `people:` : A list of committee members:
+      * `name`: Name
+      * `role`: Committee Role
+      * `bio: >`: Multiline Bio
+      * `picture`: Picture
+
 
 [calendar]: https://calendar.google.com/calendar/embed?src=kg5v9k480jn2qahpmq33h8g7cs%40group.calendar.google.com&ctz=Europe%2FLondon
 [fullcalendar]: https://fullcalendar.io/
