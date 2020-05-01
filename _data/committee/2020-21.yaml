@@ -1,0 +1,71 @@
+academic_year: 2020/2021
+postfix: Elect
+current: true
+people:
+  - name: Jacqueline Henes
+    role: President
+    bio: >
+
+    picture: /assets/committee/2020-21/mini/jacqui.jpg
+  - name: Tom Goodman
+    role: Secretary
+    bio: >
+
+    picture: /assets/committee/2020-21/mini/tom.jpg
+  - name: Jake Foster
+    role: Treasurer
+    bio: >
+
+    picture: /assets/committee/2020-21/mini/jake.jpg
+  - name: Valeria Popescu
+    role: Vice-President
+    bio: >
+
+    picture: /assets/committee/2020-21/mini/valeria.jpg
+  - name: Robert Hallam
+    role: Socials Rep
+    bio: >
+
+    picture: /assets/committee/2020-21/mini/rob.png
+  - name: Adrian David
+    role: International Student Rep
+    bio: >
+
+    picture: /assets/committee/2020-21/mini/adrian.jpg
+  - name: Jacob Wilson
+    role: Special Events Rep
+    bio: >
+
+    picture: /assets/committee/2020-21/mini/jacob.jpg
+  - name: Leela Muppala
+    role: Diversity, Equality and Inclusivity Rep
+    bio: >
+
+    picture: /assets/committee/2020-21/mini/leela.jpg
+  - name: Daniel-Stefan Stocia
+    role: Sports Rep
+    bio: >
+
+    picture: /assets/committee/2020-21/mini/daniel.JPG
+  - name: George Baker
+    role: Publicity Rep
+    bio: >
+      I’m responsible for showing off CSS to the rest of the world! To do that,
+      I photograph our events, promote them on social media and update this
+      website regularly. In my spare time, I listen to music, watch films and
+      work on my own projects.
+    picture: /assets/committee/2020-21/mini/george.jpg
+  - name: Likkan Chung
+    role: Industrial Rep
+    bio: >
+
+    picture: /assets/committee/2020-21/mini/likkan.jpg
+  - name: Ammaar Sultan
+    role: Interim First Year Rep
+    bio: >
+
+    picture: /assets/committee/2020-21/mini/ammaar.jpg
+  - name: Dan Clark
+    role: Post-Graduate (Research) Rep
+    bio:
+    picture: /assets/committee/2020-21/mini/dan.png
