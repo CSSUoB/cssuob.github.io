@@ -45,7 +45,5 @@
   destination: https://learngitbranching.js.org
 
 # events
-- source: /ball
-  destination: https://www.facebook.com/events/562541707944902/
-- source: /tickets
-  destination: https://www.guildofstudents.com/events/6531/4805/
+- source: /awards
+  destination: https://www.birmingham.ac.uk/university/colleges/eps/eps-community/students/societies-awards/nominate.aspx
