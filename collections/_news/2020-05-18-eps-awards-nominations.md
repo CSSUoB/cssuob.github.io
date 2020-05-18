@@ -53,7 +53,7 @@ We appreciate that each member of our society may not know everything that has h
 | International Movie Nights | 2019-20 | |
 | HackTheMidlands 4.0 | 26-27 Oct 2019 | Largest iteration of the event so far, with near to 300 attendees.<br>Majorly improved the delight & welcomeness of the event with full networking and AV |
 | Halloween Pub Quiz | 29 Oct 2019 |
-| HackQuarantine | 23 Mar - Apr 12 2020 | Global, virtual hackathon spread over 3 weeks to help build solutions to the problems surrounding COVID-19.<br>3500+ people taking part from 6 different continents.<br>70+ workshops and talks delivered on the live stream.<br>250 projects submitted. 6000 people watching the awards ceremony on Twitch (featured on the Twitch home page).<br>Donated remaining funds to the WHO Fund |
+| Hack Quarantine | 23 Mar - Apr 12 2020 | Global, virtual hackathon spread over 3 weeks to help build solutions to the problems surrounding COVID-19.<br>3500+ people taking part from 6 different continents.<br>70+ workshops and talks delivered on the live stream.<br>250 projects submitted. 6000 people watching the awards ceremony on Twitch (featured on the Twitch home page).<br>Donated remaining funds to the WHO Fund |
 | Justin Chadwell for DSC Workshops | 2019-20 | New series of workshops with new partner DSC - establishing a new Club at UoB.<br>[Read more about DSC here](https://cssbham.com/clubs). |
 | Jacob Wilson for Mapathon | 30 Oct 2019 | Independently organised a Missing Maps charity event witin a month of starting at University, mapping almost 700 buildings.<br>[Read what Jacob had to say about his event](https://www.facebook.com/photo.php?fbid=145981043440053&set=gm.2483640361873530&type=3&theater&ifg=1).
 
@@ -140,7 +140,7 @@ See below in the Role Model list for more suggestions, many of them apply here t
 | What? |
 |-------|
 | WhatTheCTF?! by Afnom |
-| HackQuarantine |
+| Hack Quarantine |
 | EPS Community EDI Committee (EPSCEDI) |
 
 ### The Great Achievement in EPS Award
