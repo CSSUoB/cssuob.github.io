@@ -131,8 +131,7 @@ See below in the Role Model list for more suggestions, many of them apply here t
 |------|------|
 | Justin Chadwell | Delivered many technical workshops as part of Google’s DSC.<br>Committed 2 year (committee) member of both AFNOM and CSS, and a HackTheMidlands Organiser.<br>Worked hard to initiate development of a new website, implementing new ideas to the page. |
 | Jonathan Rudman | 2 year committed member of CSS.<br>Organised several social events for CSS including pub nights and Christmas market trips.<br>Friendly and engages with the whole CSS community. |
-| Will Russell | Involved and started running DSC workshops.
-Initiated Hackathons For Schools - a initiative to involve local school children in hackathons.<br>Engaged many CSS members in hackathons - organising walking trains and delivering further workshops.<br>Co-leader of Hack Quarantine designed to bring together the tech community during COVID-19.<br>HackTheMidlands AV Lead, Outreach Lead and Dedicated Safeguarding Person. |
+| Will Russell | Involved and started running DSC workshops.<br>Initiated Hackathons For Schools - a initiative to involve local school children in hackathons.<br>Engaged many CSS members in hackathons - organising walking trains and delivering further workshops.<br>Co-leader of Hack Quarantine designed to bring together the tech community during COVID-19.<br>HackTheMidlands AV Lead, Outreach Lead and Dedicated Safeguarding Person. |
 | George Baker | Committed member of CSS |
 
 ### Head of College Idea of the Year
