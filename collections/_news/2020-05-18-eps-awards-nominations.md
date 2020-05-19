@@ -150,7 +150,7 @@ See below in the Role Model list for more suggestions, many of them apply here t
 |------|------|
 | Tom Goodman | Served 3 years as President of CSS, and 1 as Secretary (about to serve 2nd term as Secretary now). Raised over £120,000 for events and initiatives in the local community.<br>Trustee of the Guild of Students, CEO of HackTheMidlands CIC, Director of Brum.AI, worked in various other positions with the BCS, Silicon Canal, etc.<br>Worked beyond just CSS in the EPS community, founding & co-chairing the EPSCEDI Committee, running numerous joint events with WISE and oSTEM, and sitting on a variety of committees.<br>Fellow of 3 learned societies - including Fellowship of the Higher Education Academy (FHEA) in recognition of his extensive teaching work. |
 | Cristian Calauz | Led the committee in time of crisis (Covid-19) |
-| Stedan Nedelcu ||
+| Stefan Nedelcu ||
 
 ### Society of the Year 2019/20
 *This Award celebrates those societies that have pushed the boundaries and delivered more than ever before. Through outstanding events, innovative projects and activities, superb organisation, and raising awareness, these societies provide an exceptional, well-rounded and inclusive experience to their members. They embody the ethos of the EPS Community.*
