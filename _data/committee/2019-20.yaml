@@ -1,6 +1,6 @@
 academic_year: 2019/2020
-prefix: Outgoing
-current: true
+#prefix: Outgoing
+current: false
 people:
   - name: Cristian Calauz
     role: President
