@@ -47,3 +47,6 @@
 # events
 - source: /awards
   destination: https://www.birmingham.ac.uk/university/colleges/eps/eps-community/students/societies-awards/nominate.aspx
+- source: /latest
+  destination: https://www.facebook.com/events/674845163077132/
+
