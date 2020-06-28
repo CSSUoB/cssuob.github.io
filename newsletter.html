@@ -23,7 +23,11 @@ scripts:
       <h2 class="post-title">{{ post.title }}</h2>
       <h3 class="post-date">{{ post.date | date: "%b %-d, %Y"}}</h3>
       <div class="post-excerpt">
+      {% if post.description %}
+        <p>{{ post.description }}</p>
+      {% else %}
         <p>{{ post.excerpt | strip_html }}</p>
+        {% endif %}
       </div>
     </div>
   </a>
