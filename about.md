@@ -4,7 +4,7 @@ title: About
 ---
 # About us
 
-Welcome to the **Computer Science Society**! We are the departmental society in the School of Computer Science at the University of Birmingham.
+Welcome to the **Computer Science Society**! We are the departmental society in the School of Computer Science at the University of Birmingham!
 
 We are one of over 300 Guild of Students societies and one of 35+ EPS College societies. Being a student is not just about working hard, you have to enjoy
 it too! That is why CSS is working making sure to create events and provide a
@@ -13,7 +13,7 @@ in a whole lot of exciting activities.
 
 ## Constitution
 
-As a society with the Guild of Students, we have a constitution that dictates our structure, how we meet, come to decisions, etc. You can find it [here][constitution]. All our committee signs the constitution, and we encourage all our members to read it at least once.
+As a society with the Guild of Students, we have a constitution that dictates our structure, how we meet, come to decisions, etc. You can find it [here](https://docs.google.com/document/d/1J3_EWs3dd2gq5T_xYylcP5pDzm0HHAYCTgiqKUYwkls). All our committee signs the constitution, and we encourage all our members to read it at least once.
 
 ## What we do
 
@@ -81,5 +81,3 @@ Instagram: [@cssbham](https://instagram.com/cssbham)
 Facebook: [CSS - Computer Science Society](https://facebook.com/groups/CSSUoB)
 
 Email: [cssoc@cs.bham.ac.uk](mailto:cssoc@cs.bham.ac.uk)
-
-[constitution]: https://docs.google.com/document/d/1J3_EWs3dd2gq5T_xYylcP5pDzm0HHAYCTgiqKUYwkls
