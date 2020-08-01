@@ -1,0 +1,35 @@
+{% if page.description %}
+<meta name="description" content="{{ page.description }}">
+{% endif %}
+
+<meta property="og:type" content="article" />
+{% if page.title %}
+<meta property="og:title" content="UoB Computer Science Society - {{ page.title }}" />
+{% else %}
+<meta property="og:title" content="{{ page.title }}" />
+{% endif %}
+
+{% if page.description %}
+<meta property="og:description" content="{{ page.description }}" />
+{% endif %}
+{% if page.header-image %}
+  <meta property="og:image" content="{{ page.header-image | relative_url }}" />
+{% endif %}
+<meta property="og:url" content="{{ page.url | relative_url }}" />
+<meta property="og:site_name" content="UoB Computer Science Society" />
+
+{% if page.title %}
+<meta name="twitter:title" content="UoB Computer Science Society - {{ page.title }}"/>
+{% else %}
+<meta name="twitter:title" content="{{ page.title }}"/>
+{% endif %}
+{% if page.description %}
+<meta name="twitter:description" content=""/>
+{% endif %}
+{% if page.header-image %}
+<meta name="twitter:image" content=""/>
+{% endif %}
+
+<link rel="stylesheet" href="{{ '/css/normalize.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/css/posts.css' | relative_url }}">
