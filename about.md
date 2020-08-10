@@ -2,7 +2,7 @@
 layout: textpage
 title: About
 ---
-# About us
+# About Us
 
 Welcome to the **Computer Science Society**! We are the departmental society in the School of Computer Science at the University of Birmingham.
 
