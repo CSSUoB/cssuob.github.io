@@ -2,26 +2,10 @@
 
 This is the source code to [cssbham.com](https://cssbham.com).
 
-## Configuration
+## Documentation
 
-A number of files can be used to configure the site:
-
-- `_config.yml`
-    - site-wide configuration
-- `_data/`
-    - contains data used to render the site, e.g. the committee
-- `_collections/news/`
-    - contains markdown files for each newletter post
-- `_assets`
-    - location for all static assets
-
-Aside from modifying the theme of the site or adding new functionality, no
-changes outsides these files should need to be made.
-
-## Scripts
-
-A number of utility scripts exist under `_scripts/`. Their functionality
-should be detailed at the top of each one in a comment.
+See in-depth documentation and maintainance guides at the
+[wiki](https://github.com/CSSUoB/cssuob.github.io/wiki).
 
 ## Development
 
