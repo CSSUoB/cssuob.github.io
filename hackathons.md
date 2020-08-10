@@ -3,6 +3,26 @@ layout: textpage
 title: Hackathons
 styles:
   - /css/hackathon-events.css
+
+hackathons:
+  - name: HackTheMidlands 4.0
+    data: October 2019
+    image: /assets/images/htm.jpg?raw=true
+  - name: OxfordHack 2019
+    data: November 2019
+    image: /assets/images/oxfordhack.jpg?raw=true
+  - name: DurHack 2019
+    data: November 2019
+    image: /assets/images/durhack.jpg?raw=true
+  - name: ManMetHacks 2.0
+    data: January 2020
+    image: /assets/images/manmethacks.jpg?raw=true
+  - name: CovHack2020
+    data: February 2020
+    image: /assets/images/covhack.jpg?raw=true
+  - name: Hack the Burgh VI
+    data: February/March 2020
+    image: /assets/images/hacktheburghvi.jpg?raw=true
 ---
 
 # Hackathons
@@ -80,7 +100,7 @@ Hackathons normally run over a weekend, with 24 hours to work on a project!
 ## Events CSS has been to!
 
 <div class="row">
-{% for hackathon in site.data.hackathons %}
+{% for hackathon in page.hackathons %}
   <div class="column">
     <div class="card">
       <img src="{{ hackathon.image }}" alt="{{ hackathon.name }}" style="width:100%">
