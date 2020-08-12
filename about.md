@@ -35,7 +35,7 @@ members (but that's just a guess, so please so don't quote us).
 
 ## How to get involved
 
-Membership through the Guild only costs £5 for the whole year. You can go to our page on the \[Guild of Students](https://www.guildofstudents.com/studentgroups/societies/css/) website to purchase your membership. Membership gives you access to all of our events and you also get a free CSS T-shirt!
+Membership through the Guild only costs £5 for the whole year. You can go to our page on the [Guild of Students](https://www.guildofstudents.com/studentgroups/societies/css/) website to purchase your membership. Membership gives you access to all of our events and you also get a free CSS T-shirt!
 
 Each year we hold an AGM (Annual General Meeting) in March to elect our committee for the year. We have a variety of different roles, which you can
 check out on our Committee page. We also hold another election at the start
