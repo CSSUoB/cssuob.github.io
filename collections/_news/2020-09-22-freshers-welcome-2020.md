@@ -3,7 +3,7 @@ layout: post
 published: true
 title: Freshers Welcome 2020
 thumbnail: /assets/images/welcome-freshers-thumbnail.png
-header-image: /assets/images/aston-webb-for-why-bham-cropped-900x600.jpg
+header-image: /assets/images/green-heart.jpg
 ---
 Hey there! 👋
 
