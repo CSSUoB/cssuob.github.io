@@ -1,0 +1,157 @@
+---
+---
+
+h1, h2, h3, h4 {
+  padding: 0;
+  margin: 0;
+}
+
+
+#about {
+  font-size: 18px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-v-center {
+  align-items: center;
+}
+
+.flex-container > div {
+  margin: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-img {
+  height: 1em;
+}
+
+#about-profile {
+  margin: 20px 0;
+
+  h1 {
+    margin: 10px 0;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: "Helvetica Neue", sans-serif;
+  }
+}
+
+#profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+#discord-button {
+  background-color: #738ADB;
+  color: white;
+  margin-right: 5px;
+  i {
+    color: white;
+  }
+}
+
+#guild-button {
+  background-color: #5bbaa2;
+  color: white;
+  margin-left: 10px;
+}
+
+#about-us {
+  background-color: #F1F3F8;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 18px;
+  //border: 10px solid transparent;
+  //border-image-source: url("/assets/about/border.png");
+  //border-image-slice: 33%;
+  //border-image-repeat: round;
+  //border: 4px dashed #303d63;
+}
+
+#get-involved {
+  margin: 20px 0;
+}
+
+#social {
+  .social-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #F1F3F8;
+    border-radius: 20px;
+    padding: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+
+    h4 {
+      font-family: "Helvetica Neue", sans-serif;
+      margin: 0;
+    }
+  }
+
+  .facebook {
+    h4, i {
+      color: #0d95f4;
+    }
+  }
+
+  .insta {
+    h4, i {
+      background: -webkit-linear-gradient(#833AB4, #5851DB, #C13584);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  .twitter {
+    h4, i {
+      color: #1da1f2;
+    }
+  }
+
+  .linkedin {
+    h4, i {
+      color: #0e76a8;
+    }
+  }
+
+  .youtube {
+    h4, i {
+      color: #ff0000;
+    }
+  }
+}
+
+#sparkles-gif {
+  width: 70px;
+  height: 70px;
+}
+
+#awards {
+  margin: 20px 0;
+}
+
+#trophy-gif {
+  width: 60px;
+  height: 60px;
+}
+
+#heart-gif {
+  width: 60px;
+  height: 60px;
+}
