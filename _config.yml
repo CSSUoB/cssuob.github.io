@@ -3,6 +3,7 @@ plugins:
   - jekyll-seo-tag
 
 title: UoB Computer Science Society
+description: The Computer Science Society at the University of Birmingham. 🎉🎉
 url: cssbham.com
 social:
   name: CSS

@@ -17,6 +17,8 @@
   destination: https://www.linkedin.com/company/cssbham/
 - source: /linkedin
   destination: https://www.linkedin.com/company/cssbham/
+- source: /discord
+  destination: https://discord.gg/uftEqwy
 
 # uni
 - source: /guild
@@ -49,4 +51,6 @@
   destination: https://www.birmingham.ac.uk/university/colleges/eps/eps-community/students/societies-awards/nominate.aspx
 - source: /latest
   destination: https://www.facebook.com/events/674845163077132/
+- source: /pride
+  destination: /newsletter/pride
 
