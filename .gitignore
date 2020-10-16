@@ -8,5 +8,5 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
-# ide
+# idea
 .idea/
