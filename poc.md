@@ -21,9 +21,9 @@ If you just want to chat to someone who is also doing CS at UoB, they’ll be up
 ## Munirudeen Maricar
 ### Contact Details
 <ul class="poc-contact">
-    <li><a href="mailto:maricar.munirudeen@gmail.com"><i class="far fa-envelope"></i> maricar.munirudeen@gmail.com</a></li>
+    <li><i class="far fa-envelope"></i> FILL IN</li>
     <li><i class="fab fa-discord"></i> MunirMaricar#3005</li>
-    <li><i class="fab fa-instagram"></i> munirmaricar</li>
+    <li><i class="fab fa-instagram"></i> <a href="https://instagram.com/munirmaricar">munirmaricar</a></li>
 </ul>
 
 ### Bio
@@ -34,10 +34,10 @@ description of me is that I am an ambitious and hard-working person who strives 
 ## Nat Lowis
 ### Contact Details
 <ul class="poc-contact">
-    <li><a href="mailto:nrl985@student.bham.ac.uk"><i class="far fa-envelope"></i> nrl985@student.bham.ac.uk</a></li>
+    <li><i class="far fa-envelope"></i> nrl985</li>
     <li><i class="fab fa-discord"></i> low101043#0472</li>
-    <li><i class="fab fa-instagram"></i> 10low1</li>
-    <li><i class="fab fa-facebook"></i> Nathaniel Lowis</li>
+    <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/10low1">10low1</a></li>
+    <li><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/profile.php?id=100005545727097">Nathaniel Lowis</a></li>
     <li><i class="fab fa-snapchat-ghost"></i> low101043</li>
 </ul>
 ### Bio
@@ -46,7 +46,7 @@ description of me is that I am an ambitious and hard-working person who strives 
 ## Max Warren
 ### Contact Details
 <ul class="poc-contact">
-    <li><a href="mailto:mxw723@student.bham.ac.uk"><i class="far fa-envelope"></i> mxw723@student.bham.ac.uk</a></li>
+    <li><i class="far fa-envelope"></i> mxw723</li>
     <li><i class="fab fa-discord"></i> Immobilecow#1601</li>
 </ul>
 
@@ -59,7 +59,7 @@ I've somehow survived 3 years of the horrific mismanagement of both the school a
 ## Sophie Guile
 ### Contact Details
 <ul class="poc-contact">
-    <li><a href="mailto:sxg661@student.bham.ac.uk"><i class="far fa-envelope"></i> sxg661@student.bham.ac.uk</a></li>
+    <li><i class="far fa-envelope"></i> sxg661</li>
     <li><i class="fab fa-discord"></i> sophie44612#4571</li>
 </ul>
 
@@ -71,9 +71,9 @@ taking part in Uni societies, and hope to be able to again this year.
 ## Katie Mae Potts
 ### Contact Details
 <ul class="poc-contact">
-    <li><a href="mailto:KMP672@student.bham.ac.uk"><i class="far fa-envelope"></i> KMP672@student.bham.ac.uk</a></li>
+    <li><i class="far fa-envelope"></i> KMP672</li>
     <li><i class="fab fa-discord"></i> GeekKat#4672</li>
-    <li><i class="fab fa-facebook"></i> Katie Mae</li>
+    <li><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/profile.php?id=100009724419921">Katie Mae</a></li>
 </ul>
 
 ### Bio
@@ -84,9 +84,9 @@ Hi, I'm Katie, a fourth year student doing the Integrated Masters course! I love
 ## Zoe Robins
 ### Contact Details
 <ul class="poc-contact">
-    <li><a href="mailto:zlr901@student.bham.ac.uk"><i class="far fa-envelope"></i> zlr901@student.bham.ac.uk</a></li>
+    <li><i class="far fa-envelope"></i> zlr901</li>
     <li><i class="fab fa-discord"></i> zoerobins#0454</li>
-    <li><i class="fab fa-facebook"></i> Zoe Robins</li>
+    <li><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/zoe.robins.1293">Zoe Robins</a></li>
 </ul>
 
 ### Bio
@@ -100,9 +100,9 @@ Computer Science, part of the Wayfarers hiking society, and on the committee for
 ## Alex Banks
 ### Contact Details
 <ul class="poc-contact">
-    <li><a href="mailto:ajb769@student.bham.ac.uk"><i class="far fa-envelope"></i> ajb769@student.bham.ac.uk</a></li>
+    <li><i class="far fa-envelope"></i> ajb769</li>
     <li><i class="fab fa-discord"></i> TheAxelr8r#7476</li>
-    <li><i class="fab fa-facebook"></i> TheAxelr8r</li>
+    <li><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/TheAxelr8r">TheAxelr8r</a></li>
 </ul>
 
 ### Bio
