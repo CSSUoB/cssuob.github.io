@@ -21,7 +21,7 @@ If you just want to chat to someone who is also doing CS at UoB, they’ll be up
 ## Munirudeen Maricar
 ### Contact Details
 <ul class="poc-contact">
-    <li><i class="far fa-envelope"></i> FILL IN</li>
+    <li><i class="far fa-envelope"></i> mxm1287</li>
     <li><i class="fab fa-discord"></i> MunirMaricar#3005</li>
     <li><i class="fab fa-instagram"></i> <a href="https://instagram.com/munirmaricar">munirmaricar</a></li>
 </ul>
