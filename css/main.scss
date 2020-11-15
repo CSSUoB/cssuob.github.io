@@ -38,11 +38,23 @@ main {
   h1, h2, h3, h4, h5, h6 {
     color: white;
     font-family: "Inconsolata", monospace;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 27px;
+  }
+
+  h3 {
+    font-size: 22px;
   }
 
   p {
     color: white;
     line-height: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
     a {
       color: white;
@@ -231,4 +243,9 @@ footer {
   font-family: "Inconsolata", monospace;
   font-size: 0.7em;
   text-align: center;
+}
+
+.poc-contact {
+  list-style-type: none;
+  padding: 0;
 }
