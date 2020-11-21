@@ -53,4 +53,6 @@
   destination: https://www.facebook.com/events/674845163077132/
 - source: /pride
   destination: /newsletter/pride
+- source: /lightning
+  destination: https://forms.gle/9BByKaKENd7EfxcH9
 
