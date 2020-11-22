@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: CV Workshop
-description: The session recoding is now available to watch back.
+description: The session recording is now available to watch back.
 thumbnail: /assets/images/cv-workshop.png
 ---
 
@@ -69,7 +69,7 @@ You can also take up internships. It goes without saying that taking on a summer
 
 ## Getting more help
 
-Use the Careers Network's [CV Checker](https://intranet.birmingham.ac.uk/as/employability/careers/vmock.aspx). Upload your CV and get an automated rating and suggestions for improvement
+Use the Careers Network's [CV Checker](https://intranet.birmingham.ac.uk/as/employability/careers/vmock.aspx). Upload your CV and get an automated rating and suggestions for improvement.
 
 Alternatively, you can email your CV for a manual review, or ask questions, to careersenquiries@bham.ac.uk.
 
