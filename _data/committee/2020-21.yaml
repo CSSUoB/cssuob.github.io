@@ -45,14 +45,14 @@ people:
       the unlikely event that you can’t find me in the Sloman lounge or in the labs, I’m probably
       either playing guitar or running along the canals.
     picture: /assets/committee/2020-21/mini/rob.png
-  - name: Adrian David
+  - name: Afarin Izadi
     role: International Student Rep
     bio: >
-      My goal is to promote the society and its events to students who aren't from the UK.
-      This year, I want to help everyone feel welcome and at home.
-      In my free time I like working out and binge-watching TV shows.
+      I know all about the struggles of being an international student — like finding friends, understanding the culture,
+      and homesickness. I'm here to help you make friends and to make everyone feel
+      like they belong in our community. In my free time, I love sports, fashion design and talking about Elon Musk!
 
-    picture: /assets/committee/2020-21/mini/adrian.jpg
+    picture: /assets/committee/2020-21/mini/afarin.jpg
   - name: Jacob Wilson
     role: Special Events Rep
     bio: >
@@ -84,11 +84,9 @@ people:
   - name: George Baker
     role: Publicity Rep
     bio: >
-      I’m responsible for showing off CSS to the rest of the world! To do that,
-      I photograph our events, promote them on social media and update this
-      website regularly. In my spare time, I play tennis, listen to alternative/indie music and
-      work on my own projects.
-    picture: /assets/committee/2020-21/mini/george.jpg
+      I’m responsible for promoting all of our wonderful events and maintaining this website! In my spare time, I enjoy photography,
+      playing tennis, and listening to music.
+    picture: /assets/committee/2020-21/mini/george.jpeg
   - name: Likkan Chung
     role: Industrial Rep
     bio: >
@@ -99,18 +97,16 @@ people:
 
 
     picture: /assets/committee/2020-21/mini/likkan.jpg
-  - name: Ammaar Sultan
-    role: Interim First Year Rep
+  - name: Rhys Morgan
+    role: First Year Rep
     bio: >
-      I want to make sure that the new first years feel
-      welcome during their initial few weeks at Birmingham. I will encourage them to join
-      CSS and make it as homely as possible for them. The key to this: icebreaker
-      events! If you ever feel lost or just want to chat, feel free to send me a message.
-      Outside of CSS, I like gaming, cooking
-      and seeing deadlines tick away (while procrastinating).
+      Hello World! I'm Rhys, a first year degree apprentice and your First Year Rep. I enjoy anything to do with CS and many
+      other things - from programming to cycling (sometimes I do both 😉). I'll be making sure that you feel welcomed as a first
+      year, and that CSS is a cool place for you. Feel free to contact me and I'll be sure to get back to you. 😇
 
 
-    picture: /assets/committee/2020-21/mini/ammaar.jpg
+
+    picture: /assets/committee/2020-21/mini/rhys.jpg
   - name: Dan Clark
     role: Post-Graduate (Research) Rep
     bio: >
