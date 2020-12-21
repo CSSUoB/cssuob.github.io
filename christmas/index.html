@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Christmas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>  
+</head>
+<body onresize="resize()">
+    <noscript>
+      <meta http-equiv="refresh" content="0;url=noscript.html">
+    </noscript>
+    <div class="envelope new">
+        <div class="front">
+            <div class="mailme">
+            <p>A special message from CSS</p>
+            <p>(click!)</p>
+            </div>
+        </div>
+        <div class="back">
+            <div class="letter">
+              <img src="chrimsas.jpg" alt="" style="height: 75%; border-radius: 5px; position: absolute; left: 5px; top: 45px;">
+              <div style="position: absolute; right: 10px; top: 50px; width: 46%; text-align: center;">
+                <h1>Hello World!</h1>
+                <p>We are wishing you a very merry Christmas, and we hope you have so much fun!</p>
+                <p>From all the committee at CSS ❤️</p>
+              </div>
+            </div>
+            <div class="flap left-flap"></div>
+            <div class="flap right-flap"></div>
+            <div class="flap bottom-flap"></div>
+            <div class="flap top-flap"></div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+  resize();
+</script>
