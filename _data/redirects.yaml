@@ -54,7 +54,7 @@
 - source: /pride
   destination: /newsletter/pride
 - source: /lightning
-  destination: https://forms.gle/9BByKaKENd7EfxcH9
+  destination: https://forms.gle/Z8HuKW6bryE8zcDi9
 
 # Christmas Gift 2020
 - source: /christmas
