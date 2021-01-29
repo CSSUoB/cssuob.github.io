@@ -51,3 +51,4 @@ title: Agendas
 - [agenda_21_01_08.pdf](/assets/agendas/agenda_21_01_08.pdf)
 - [agenda_21_01_15.pdf](/assets/agendas/agenda_21_01_15.pdf)
 - [agenda_21_01_22.pdf](/assets/agendas/agenda_21_01_22.pdf)
+- [agenda_21_01_29.pdf](/assets/agendas/agenda_21_01_29.pdf)
