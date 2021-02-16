@@ -19,6 +19,8 @@
   destination: https://www.linkedin.com/company/cssbham/
 - source: /discord
   destination: https://discord.gg/uftEqwy
+- source: /youtube
+  destination: https://www.youtube.com/channel/UC-nWGWJv8wi3nw4YG55Vd0A
 
 # uni
 - source: /guild
