@@ -55,8 +55,8 @@
   destination: https://www.facebook.com/events/674845163077132/
 - source: /pride
   destination: /newsletter/pride
-- source: /lightning
-  destination: https://forms.gle/Z8HuKW6bryE8zcDi9
+- source: /ball
+  destination: https://www.guildofstudents.com/events/6531/5535/
 
 # Christmas Gift 2020
 - source: /christmas
