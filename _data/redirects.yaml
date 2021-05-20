@@ -57,8 +57,9 @@
   destination: /newsletter/pride
 - source: /ball
   destination: https://gather.town/app/RjeROFVzlTDOGkf4/CSS%20Ball
-- source: /outside
-  destination: https://www.eventbrite.co.uk/e/css-goes-outside-tickets-155612502183
+- source: /trace
+  destination: https://forms.gle/jG22hqATtxAJAvZT7
+
 
 # Christmas Gift 2020
 - source: /christmas
