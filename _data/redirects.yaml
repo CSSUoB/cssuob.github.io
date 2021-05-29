@@ -65,6 +65,9 @@
   destination: https://www.eventbrite.co.uk/e/css-goes-to-winterbourne-tickets-157332518799
 - source: /winterbourn
   destination: https://www.eventbrite.co.uk/e/css-goes-to-winterbourne-tickets-157332518799
+- source: /outside
+  destination: https://www.eventbrite.co.uk/e/css-goes-outside-tickets-157333706351
+
 
 
 
