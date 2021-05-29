@@ -59,6 +59,13 @@
   destination: https://gather.town/app/RjeROFVzlTDOGkf4/CSS%20Ball
 - source: /trace
   destination: https://forms.gle/jG22hqATtxAJAvZT7
+- source: /winterbourne
+  destination: https://www.eventbrite.co.uk/e/css-goes-to-winterbourne-tickets-157332518799
+- source: /winterborne
+  destination: https://www.eventbrite.co.uk/e/css-goes-to-winterbourne-tickets-157332518799
+- source: /winterbourn
+  destination: https://www.eventbrite.co.uk/e/css-goes-to-winterbourne-tickets-157332518799
+
 
 
 # Christmas Gift 2020
