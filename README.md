@@ -7,23 +7,46 @@ This is the source code to [cssbham.com](https://cssbham.com).
 See in-depth documentation and maintainance guides at the
 [wiki](https://github.com/CSSUoB/cssuob.github.io/wiki).
 
-## Development
+## Installation
+
+### Docker setup
+
+Ensure that you have docker and docker-compose installed.
+
+Then:
+
+```bash
+docker-compose build
+docker-compose up
+```
+
+The website should now be available at http://127.0.0.1:4000.
+
+### Manual setup (not recommended)
 
 First, ensure that `gem` is installed.
 
 Install bundle:
 
-    $ gem install bundle
+```bash
+gem install bundle
+```
 
 Install required dependencies:
 
-    $ bundle install
+```bash
+bundle install
+```
 
 Run jekyll server:
 
-    $ bundle exec jekyll serve
+```bash
+bundle exec jekyll serve
+```
 
-The website should now serving at http://127.0.0.1:4000.
+The website should now be available at http://127.0.0.1:4000.
+
+## Development
 
 ### Adding new redirects
 
@@ -41,7 +64,9 @@ post content. You can see a template post already there to borrow from.
 The filename should follow a precise format - to create this file from a
 shell:
 
-    $ touch \_collections/news/"$(date +%Y-%m-%d)-<title>.md"
+```bash
+touch \_collections/news/"$(date +%Y-%m-%d)-<title>.md"
+```
 
 You can add a thumbnail to a post; simply link the thumbnail in the front
 matter in the markdown file for the post. The thumbnail should be a 150px
