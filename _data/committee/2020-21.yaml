@@ -1,7 +1,7 @@
 academic_year: 2020/2021
 #postfix: Elect
-prefix: Outgoing
-current: true
+#prefix: Outgoing
+current: false
 people:
   - name: Jacqueline Henes
     role: President
