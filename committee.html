@@ -21,7 +21,7 @@ scripts:
 <p>
   You can also find all of the agendas from our committee meetings <a href="../agendas">here</a>.
 <p>
-  Currently (for the academic year 2020/21), we have 13 committee members:
+  Currently 14 elected members for 2021/22:
 </p>
 
 
@@ -31,14 +31,19 @@ scripts:
     {% if committee.current %}
       {% for person in committee.people %}
         <div class="person fadein hidden">
-          <img class="picture" src="{{ person.picture | relative_url }}" alt="picture of {{ person.name }}">
+            <img class="picture" src="{{ person.picture | relative_url }}" alt="picture of {{ person.name }}">
           <div class="details">
             <span class="name">{{ person.name }}</span>
-            <span class="role">
+            {% if person.pronouns %}
+              <span class="pronouns">
+                {{person.pronouns}}
+              </span>
+            {% endif %}
+            <p class="role">
               {% if committee.prefix %}{{committee.prefix}}{% endif %}
               {{ person.role }}
               {% if committee.postfix %}{{committee.postfix}}{% endif %}
-            </span>
+            </p>
             <p class="bio">
               {{ person.bio }}
             </p>

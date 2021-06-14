@@ -22,16 +22,19 @@
 
   margin: 10px;
 
+  align-items: center;
+
   .picture {
     width: 150px;
     height: 100%;
-    flex: 0 0 auto;
-
     object-fit: cover;
+    flex: 0 0 auto;   
     border-right: 1px solid #222;
   }
 
   .details {
+    min-height: 150px;
+
     flex: 1 1 auto;
     padding: 10px;
 
@@ -39,11 +42,15 @@
       font-weight: bold;
     }
 
-    .role {
+    .pronouns {
       color: #888;
       &:before {
         content: " — ";
       }
+    }
+
+    .role {
+      color: #888;
     }
 
     .bio {
