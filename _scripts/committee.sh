@@ -8,9 +8,9 @@
 # needed.
 #
 
-for committee in assets/committee/*; do
-	mkdir -p $committee/mini/
-	for picture in $committee/full/*; do
-		convert $picture -resize 150x150 $committee/mini/`basename $picture`
-	done
+committee=$1
+mkdir -p $committee/mini/
+for picture in $committee/full/*; do
+	convert $picture -resize 150x150 $committee/mini/`basename $picture`
 done
+
