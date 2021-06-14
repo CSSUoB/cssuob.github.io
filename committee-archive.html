@@ -19,9 +19,14 @@ scripts:
           <img class="picture" src="{{ person.picture | relative_url }}" alt="picture of {{ person.name }}">
           <div class="details">
             <span class="name">{{ person.name }}</span>
-            <span class="role">
+            {% if person.pronouns %}
+              <span class="pronouns">
+                {{person.pronouns}}
+              </span>
+            {% endif %}
+            <p class="role">
               {{ person.role }}
-            </span>
+            </p>
             <p class="bio">
               {{ person.bio }}
             </p>

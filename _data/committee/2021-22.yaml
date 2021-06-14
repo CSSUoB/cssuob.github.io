@@ -1,0 +1,123 @@
+academic_year: 2021/2022
+postfix: Elect
+current: true
+people:
+  - name: Likkan Chung
+    pronouns: He/Him
+    role: President
+    picture: /assets/committee/2021-22/likkan.jpg
+    bio: >
+      I'm a final year on the MSci course, just coming back from my placement at Kainos. 
+      You may also know me from organising HackTheMidlands, or as a Student Ambassador. 
+      I look forward to seeing what this year brings as President, and don't be shy to say hi!
+
+  - name: Jacqui Henes
+    pronouns: She/Her
+    role: Treasurer
+    picture: /assets/committee/2021-22/jacqui.jpg
+    bio: >
+      I'm Jacqui, the treasurer of CSS! My role is to manage the funds for CSS, making sure we have the ability to put on great events. 
+      When I'm not stressing out over responsibilities and deadlines, I spend a lot of my time playing RPGs and drinking iced lemon tea.
+
+  - name: Rhys Morgan
+    pronouns: He/Him
+    role: Secretary
+    picture: /assets/committee/2021-22/rhys.jpg
+    bio: >
+      Hiya! I'm Rhys, a second year degree apprentice and your Secretary this year. 
+      It's my job to organise and minute the meetings, as well as ensuring everyone's doing awesome. 
+      I love coding, JoJo, boba, many sports and spending time with friends. Feel free to have a chat with me whenever! ❤️
+
+  - name: Jacob Wilson
+    pronouns: He/Him
+    role: Vice-President
+    picture: /assets/committee/2021-22/jacob.jpg
+    bio: >
+      My role is keeping everything in the society ticking along and to help out where I can in all aspects of the committee. 
+      If the President, Secretary or Treasurer can't make it, then I fill in for them in meetings. 
+      CSS members may also recognise me from many of the CSS quizzes I've written and hosted! 🎉
+      In my spare time I like to play D&D, win at board games, and drink wine. You may also see me fencing as part of the University's Fencing Club. 🤺
+
+  - name: Fatima Zahra Al Hajji
+    pronouns: She/Her
+    role: Interim First Year Rep
+    picture: /assets/committee/2021-22/fatima.jpg
+    bio: >
+      Hello everyone. My name is Fatima Zahra Al Hajji and I’m a first year student on the course ‘Artificial Intelligence and Computer Science with a year in industry’. 
+      I enjoy cycling, reading and drawing as well as programming, of course. 
+      I’m hoping to make sure that all first year students settle into our school as comfortably as possible and give them many opportunities to socialise, 
+      make friends and learn more about what computer science has to offer 💜.
+
+  - name: Mohammed Aamaan
+    pronouns: He/Him
+    role: International Student Rep
+    picture: /assets/committee/2021-22/aamaan.jpg
+    bio: >
+      Hey! I'm Aamaan. My job is to ensure all International Students enjoy their time at the university and receive support to ease the challenges that accompany a move to the new country. 
+      In my free time (sometimes not so free), I like playing Rocket League and watching random YouTube videos!
+
+  - name: Alex Banks
+    pronouns: He/Him
+    role: Publicity Officer
+    picture: /assets/committee/2021-22/alex.jpg
+    bio: >
+      My job is to make sure all our members know all about the amazing events we do throughout the year, 
+      and help the society reach even more people by encouraging people to sign up, especially throughout freshers. 
+      I promote the society through our social media, physical media, and in person at various events. 
+      Outside of CS I'm an active member of the LGBTQ+ community, I have a mild caffeine addiction, and an affinity for the colour orange 🏳️‍🌈☕🧡
+
+  - name: Jack Shilton
+    pronouns: He/Him
+    role: Special Events Officer
+    picture: /assets/committee/2021-22/jack.png
+    bio: >
+      Hey everyone! I’m Jack, a 1st year CS student on the Year Abroad course! 
+      I will be responsible for handling all the larger events we run this year, including the CSS Ball, Christmas meal, Board Game Nights, 
+      as well as lots of other events! If I’m not working, then I’m probably learning and developing my Japanese skills or riding around campus!
+
+  - name: Leaf Crauwels
+    pronouns: They/Them
+    role: Socials Secretary
+    picture: /assets/committee/unknown.png
+    bio: >
+
+  - name: Ryan Arrowsmith
+    pronouns: He/Him
+    role: Sports Secretary
+    picture: /assets/committee/2021-22/ryan.png
+    bio: >
+      Hello, I'm Ryan and I'm going into my 2nd year studying Computer Science. I will be responsible for all of your sports and e-Sports events this year -- 
+      please let me know what you want to see! When I'm not sleeping I'm either speedrunning, participating in hackathons or working on programming projects.
+
+  - name: Victoria Tilley
+    pronouns: She/Her, They/Them
+    role: Equality, Diversity, and Inclusivity Officer
+    picture: /assets/committee/2021-22/victoria.jpg
+    bio: >
+      Heya! I'm Victoria and this year I'll be making sure that everyone feels included and represented at all of our events and in our School. 
+      Outside of this, I enjoy game development, airsoft, snowboarding and playing guitar. Come to me if you need anything!
+
+  - name: Lyndon Chan
+    pronouns: He/Him
+    role: Industrial Liaison
+    picture: /assets/committee/2021-22/lyndon.jpg
+    bio: >
+      Hi everyone. I am Lyndon, the Industrial Liaison of CSS this year. 
+      My role is to build connection between the industry and the society by organizing different careers events. 
+      I hope all of you will find them meaningful and helpful, especially for your personal development and future career.
+      In my spare time, I like playing basketball and watching anime. I am looking forward to meeting you all.
+
+  - name: James Dickinson
+    role: Interim Post-Graduate Taught Rep
+    picture: /assets/committee/2021-22/james.jpg
+    bio: >
+      I’m James, an MSc Computer Science student. My role its help represent current and incoming masters students.
+      In my free time, I love cycling, swimming, and reading. Feel free to contact me!
+
+  - name: Dan Clark
+    pronouns: He/Him
+    role: Post-Graduate (Research) Rep
+    picture: /assets/committee/unknown.png
+    bio: >
+
+
