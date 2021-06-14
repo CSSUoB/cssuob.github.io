@@ -1,3 +1,10 @@
+# git
+.git
+.gitignore
+
+# docker
+docker-compose.yaml
+
 # bundle
 .bundle
 vendor/

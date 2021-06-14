@@ -1,0 +1,8 @@
+services:
+  jekyll:
+    build: .
+    volumes:
+      - "./:/usr/src/app"
+    ports:
+      - "4000:4000"
+
