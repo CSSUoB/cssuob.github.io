@@ -34,7 +34,7 @@ scripts:
             <img class="picture" src="{{ person.picture | relative_url }}" alt="picture of {{ person.name }}">
           <div class="details">
             <span class="name">{{ person.name }}</span>
-            <span class="discordtag">{{ discordtags }}</span>
+            <span class="discordtag">{{ person.discordtag }}</span>
             {% if person.pronouns %}
               <span class="pronouns">
                 {{person.pronouns}}
