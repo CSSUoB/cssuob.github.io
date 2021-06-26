@@ -67,8 +67,8 @@
   destination: https://www.eventbrite.co.uk/e/css-goes-to-winterbourne-tickets-157332518799
 - source: /outside
   destination: https://www.eventbrite.co.uk/e/css-goes-outside-tickets-157333706351
-
-
+- source: /not-bbq
+  destination: https://www.eventbrite.co.uk/e/css-not-bbq-tickets-161249945929
 
 
 # Christmas Gift 2020
