@@ -45,7 +45,14 @@
     .pronouns {
       color: #888;
       &:before {
-        content: " — ";
+        content: " | ";
+      }
+    }
+
+    .discordtag {
+      color: #888;
+      &:before {
+        content: " — @";
       }
     }
 
