@@ -71,6 +71,6 @@
   destination: https://www.eventbrite.co.uk/e/css-not-a-bbq-tickets-161249945929
 
 
-# Christmas Gift 2020
-- source: /christmas
-  destination: https://docs.google.com/forms/d/e/1FAIpQLSfg99vEAdl4v9rqK2QnP72K6n0fSiSzyMdmI0RLGB0T60oV-Q/viewform
+# Forms
+- source: /graduate
+  destination: https://forms.gle/a7NKHJVkLvBwxtmp7
