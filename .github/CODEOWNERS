@@ -1,0 +1,19 @@
+# cssuob.github.io CODEOWNERS
+# automatic PR review requests
+
+# Global Owners
+# Default requesters
+* @LikkanChung @Danyc0
+
+# Backend
+/_scrips/ @jedevc @LikkanChung @Danyc0
+/admin/ @jedevc @LikkanChung @Danyc0
+Dockerfile @jedevc @LikkanChung @Danyc0
+Gemfile @jedevc @LikkanChung @Danyc0
+Gemfile.lock @jedevc @LikkanChung @Danyc0
+
+# Frontend
+/collections/ @AlexJBanks @LikkanChung @Danyc0
+/_data/redirects.yaml @AlexJBanks @LikkanChung @Danyc0
+*.html @AlexJBanks @LikkanChung @Danyc0
+*.md @AlexJBanks @LikkanChung @Danyc0
