@@ -24,10 +24,9 @@ body {
 pre.ascii {
   margin: 0;
   text-align: left;
-  font-size: 2.8vmin;
-  font-family: "Inconsolata", monospace;
+  font-size: 2.4vmin;
+  font-family: "JetBrains Mono", "Inconsolata", monospace;
   font-weight: bold;
-  line-height: 0.9;
 
   i {
     font-style: normal;
@@ -86,6 +85,7 @@ pre.ascii {
     overflow: hidden;
     animation: type 0.2s steps(60, end);
     animation-fill-mode: backwards;
+    line-height: 1.35;
 
     &.d1 {
       animation-delay: 0.5s;
@@ -125,24 +125,28 @@ pre.ascii {
     }
     &.d13 {
       animation-delay: 2.9s;
-      line-height: 1.1;
     }
     &.d14 {
       animation-delay: 3.1s;
-      line-height: 1.1;
     }
     &.d15 {
       animation-delay: 3.3s;
-      line-height: 1.1;
     }
     &.d16 {
       animation-delay: 3.5s;
-      line-height: 1.1;
     }
     &.d17 {
       animation-delay: 3.7s;
-      line-height: 1.1;
     }
+    &.d18 {
+      animation-delay: 3.9s;
+    }
+    &.d19 {
+      animation-delay: 4.1s;
+    }
+  }
+  abbr[title] .delay {
+    line-height: 1;
   }
 }
 
