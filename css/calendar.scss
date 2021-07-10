@@ -1,6 +1,11 @@
 ---
 ---
 
+$CSS-Blue:      #2f3c63;
+$CSS-Mid-Blue:  #101939;
+$CSS-Deep-Blue: #0a0f1e;
+$TeX-Purple:    #9d68dc;
+
 .calendar-controls {
   margin-left: auto;
   margin-right: auto;
@@ -12,7 +17,7 @@
     border: 1px solid white;
     border-radius: .25em;
     padding: .4em .65em;
-    background-color: #2C3E50;
+    background-color: $CSS-Mid-Blue;
     color: white;
     vertical-align: middle;
     font-size: 1em;
@@ -24,7 +29,7 @@
     text-decoration: none;
 
     &:hover {
-      background-color:#212529;
+      background-color:$CSS-Deep-Blue;
     }
 }
 
@@ -57,10 +62,12 @@
   }
 
   .event-pre {
+    font-family: "JetBrains Mono", "Inconsolata", monospace;
     white-space: pre-wrap; 
   }
   
   .event-text {
+    font-family: "Roboto", SansSerif;
     display: inline-block;
     width: 70%;
     margin-top: 10px;
@@ -80,6 +87,21 @@
 
   h1, h2, h3, h4, h5, h6 {
     color: black;
+  }
+
+  .fc-button-primary {
+    background-color: $CSS-Mid-Blue;
+    &:disabled{
+      opacity: 1;
+      background-color: $CSS-Blue;
+    }
+    &:hover {
+      background-color:$CSS-Deep-Blue;
+    }
+  }
+
+  tbody tr td.fc-today  {
+    background: rgba($TeX-Purple,0.1);
   }
 }
 

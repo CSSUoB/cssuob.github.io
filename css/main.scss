@@ -8,11 +8,16 @@
   src: url(/fonts/Inconsolata-Regular.ttf) format("truetype");
 }
 
+$CSS-Blue:      #2f3c63;
+$CSS-Mid-Blue:  #101939;
+$CSS-Deep-Blue: #0a0f1e;
+$TeX-Purple:    #9d68dc;
+
 body {
   width: 100%;
   min-height: 100vh;
   margin: 0;
-  background-color: #2f3c63;
+  background-color: $CSS-Blue;
 
   display: flex;
   flex-direction: column;
@@ -119,7 +124,7 @@ header {
   padding-bottom: 5px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: $CSS-Mid-Blue;
 
   .left {
     flex: 0 0 auto;
@@ -193,7 +198,7 @@ header {
 
     padding-top: 100px;
 
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: $CSS-Deep-Blue;
     z-index: 1000;
 
     flex-direction: column;

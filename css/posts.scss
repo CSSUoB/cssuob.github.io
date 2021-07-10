@@ -89,17 +89,17 @@ $preview-height: 150px;
 
     thead {
       tr {
-        background-color: #eff0f1;
+        background-color: rgba(0, 0, 0, 0.1);
         border-bottom: 2px solid black;
       }
     }
 
     tbody {
       tr:nth-child(even) {
-        background-color: #eff0f1;
+        background-color: rgba(0, 0, 0, 0.1);
       }
       tr:nth-child(odd) {
-        background-color: #fefeff;
+        background-color: rgba(0, 0, 0, 0.05);
       }
     }
   }
