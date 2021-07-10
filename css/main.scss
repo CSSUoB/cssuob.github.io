@@ -30,6 +30,7 @@ main {
   h1, h2, h3, h4, h5, h6 {
     color: white;
     font-family: "JetBrains Mono", "Inconsolata", monospace;
+    font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -40,13 +41,17 @@ main {
 
   h3 {
     font-size: 24px;
-    font-weight: lighter;
-    font-style: italic;
+    font-weight: normal;
   }
 
   h4 {
     font-size: 22px;
     font-weight: normal;
+  }
+
+  .post-date {
+    font-weight: lighter;
+    font-style: italic;
   }
 
   p {
