@@ -1,0 +1,65 @@
+---
+---
+
+.text-center {
+    text-align: center;
+}
+
+#logo-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: "Helvetica Neue", sans-serif;
+
+}
+
+#discord-button {
+    background-color: #738ADB;
+    color: white;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    i {
+      color: white;
+    }
+  }
+  
+#guild-button {
+    background-color: #5bbaa2;
+    color: white;
+    margin-left: 10px;
+
+    .text-img {
+        height: 1em;
+        width: 1em;
+        display: inline;
+    }
+}
+
+.society-button {
+  background-color: #9d68dc;
+  color: white;
+  margin-left: 10px;
+
+  .text-img {
+      height: 1em;
+      width: 1em;
+      display: inline;
+  }
+}
+
+.highlight-block {
+    background-color: #F1F3F8;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 20px;
+    font-size: 18px;
+  }
