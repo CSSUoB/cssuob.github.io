@@ -65,9 +65,9 @@ $preview-height: 150px;
     color: black;
   }
 
-  .post-date {
-    margin-top: 0.1em;
-    margin-right: 20px;
+  .post-title, .post-date {
+    margin: 0.1em 1ch 0.1em 0px;
+    display: inline;
   }
 
   .post-image {
