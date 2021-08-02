@@ -65,9 +65,9 @@ $preview-height: 150px;
     color: black;
   }
 
-  .post-date {
-    margin-top: 0.1em;
-    margin-right: 20px;
+  .post-title, .post-date {
+    margin: 0.1em 1ch 0.1em 0px;
+    display: inline;
   }
 
   .post-image {
@@ -89,17 +89,17 @@ $preview-height: 150px;
 
     thead {
       tr {
-        background-color: #eff0f1;
+        background-color: rgba(0, 0, 0, 0.1);
         border-bottom: 2px solid black;
       }
     }
 
     tbody {
       tr:nth-child(even) {
-        background-color: #eff0f1;
+        background-color: rgba(0, 0, 0, 0.1);
       }
       tr:nth-child(odd) {
-        background-color: #fefeff;
+        background-color: rgba(0, 0, 0, 0.05);
       }
     }
   }

@@ -1,33 +1,30 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,500;0,700;1,100&family=Roboto&display=swap');
 
 @font-face {
   font-family: "Inconsolata";
-  src: url(/fonts/Inconsolata-Regular.eot) format("embedded-opentype"),
-  url(/fonts/Inconsolata-Regular.ttf) format("truetype");
+  src: url(/fonts/Inconsolata-Regular.ttf) format("truetype");
 }
 
-@font-face {
-  font-family: "Inconsolata";
-  src: url(/fonts/Inconsolata-Bold.eot) format("embedded-opentype"),
-  url(/fonts/Inconsolata-Bold.ttf) format("truetype");
-  font-weight: bold;
-}
+$CSS-Blue:      #2f3c63;
+$CSS-Mid-Blue:  #101939;
+$CSS-Deep-Blue: #0a0f1e;
+$TeX-Purple:    #9d68dc;
 
 body {
   width: 100%;
   min-height: 100vh;
   margin: 0;
-  background-color: #2f3c63;
+  background-color: $CSS-Blue;
 
   display: flex;
   flex-direction: column;
 }
 
 main {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   width: 80%;
   margin-top: 20px;
   margin-left: auto;
@@ -37,17 +34,33 @@ main {
 
   h1, h2, h3, h4, h5, h6 {
     color: white;
-    font-family: "Inconsolata", monospace;
+    font-family: "JetBrains Mono", "Inconsolata", monospace;
+    font-weight: normal;
     margin-top: 10px;
     margin-bottom: 10px;
   }
 
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
   h2 {
     font-size: 27px;
+    font-weight: bold;
   }
 
   h3 {
-    font-size: 22px;
+    font-size: 27px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  .post-date {
+    font-weight: lighter;
+    font-style: italic;
   }
 
   p {
@@ -115,7 +128,7 @@ header {
   padding-bottom: 5px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: $CSS-Mid-Blue;
 
   .left {
     flex: 0 0 auto;
@@ -189,7 +202,7 @@ header {
 
     padding-top: 100px;
 
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: $CSS-Deep-Blue;
     z-index: 1000;
 
     flex-direction: column;
@@ -228,7 +241,8 @@ header {
   & .nav {
     display: inline-block;
     font-size: 1.5em;
-    font-family: "Inconsolata", monospace;
+    font-family: "JetBrains Mono", "Inconsolata", monospace;
+    font-weight: bold;
     padding-right: 20px;
 
     a {
@@ -269,7 +283,7 @@ header {
 
 footer {
   color: white;
-  font-family: "Inconsolata", monospace;
+  font-family: "JetBrains Mono", "Inconsolata", monospace;
   font-size: 0.7em;
   text-align: center;
 }
