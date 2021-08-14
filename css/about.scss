@@ -48,6 +48,9 @@ h1, h2, h3, h4 {
     border-radius: 10px;
     text-decoration: none;
     font-family: "Helvetica Neue", sans-serif;
+    width: 220px;
+    height: 25px;
+    margin-bottom: 5px;
   }
 }
 
@@ -60,8 +63,6 @@ h1, h2, h3, h4 {
 #discord-button {
   background-color: #738ADB;
   color: white;
-  margin-right: 5px;
-  margin-bottom: 10px;
   i {
     color: white;
   }
@@ -70,7 +71,9 @@ h1, h2, h3, h4 {
 #guild-button {
   background-color: #5bbaa2;
   color: white;
-  margin-left: 10px;
+  img{
+    vertical-align: middle;
+  }
 }
 
 #about-us {
