@@ -1,5 +1,6 @@
 ---
 ---
+
 h1, h2, h3, h4 {
   padding: 0;
   margin: 0;
@@ -34,11 +35,9 @@ h1, h2, h3, h4 {
 
 #about-profile {
   margin: 20px 0;
-
   h1 {
     margin: 10px 0;
   }
-
   .button {
     display: inline-block;
     padding: 15px;
@@ -62,7 +61,6 @@ h1, h2, h3, h4 {
 #discord-button {
   background-color: #738ADB;
   color: white;
-
   i {
     color: white;
   }
@@ -71,7 +69,6 @@ h1, h2, h3, h4 {
 #guild-button {
   background-color: #5bbaa2;
   color: white;
-
   img {
     vertical-align: middle;
   }
@@ -98,8 +95,6 @@ h1, h2, h3, h4 {
     padding: 15px;
     margin-right: 10px;
     margin-bottom: 10px;
-
-
     h4 {
       font-family: "Helvetica Neue", sans-serif;
       margin: 0;
