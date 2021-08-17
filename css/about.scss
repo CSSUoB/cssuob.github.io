@@ -35,11 +35,9 @@ h1, h2, h3, h4 {
 
 #about-profile {
   margin: 20px 0;
-
   h1 {
     margin: 10px 0;
   }
-
   .button {
     display: inline-block;
     padding: 15px;
@@ -48,6 +46,9 @@ h1, h2, h3, h4 {
     border-radius: 10px;
     text-decoration: none;
     font-family: "Helvetica Neue", sans-serif;
+    width: 220px;
+    height: 25px;
+    margin-bottom: 5px;
   }
 }
 
@@ -60,8 +61,6 @@ h1, h2, h3, h4 {
 #discord-button {
   background-color: #738ADB;
   color: white;
-  margin-right: 5px;
-  margin-bottom: 10px;
   i {
     color: white;
   }
@@ -70,7 +69,9 @@ h1, h2, h3, h4 {
 #guild-button {
   background-color: #5bbaa2;
   color: white;
-  margin-left: 10px;
+  img {
+    vertical-align: middle;
+  }
 }
 
 #about-us {
@@ -94,8 +95,6 @@ h1, h2, h3, h4 {
     padding: 15px;
     margin-right: 10px;
     margin-bottom: 10px;
-
-
     h4 {
       font-family: "Helvetica Neue", sans-serif;
       margin: 0;
@@ -135,25 +134,28 @@ h1, h2, h3, h4 {
   }
 }
 
-#sparkles-gif {
-  width: 70px;
-  height: 70px;
+#sparkles {
+  font-size: 30px;
 }
 
 #awards {
   margin: 20px 0;
 }
 
-#trophy-gif {
-  width: 60px;
-  height: 60px;
+#trophy {
+  font-size: 30px;
 }
 
-#heart-gif {
-  width: 60px;
-  height: 60px;
+#heart {
+  font-size: 30px;
 }
 
 .emoji-bullet {
   margin: 1px;
+}
+
+.subtext {
+  margin: 1px;
+  font-size: 15px;
+  font-style: italic;
 }
