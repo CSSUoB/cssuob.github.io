@@ -1,6 +1,5 @@
 ---
 ---
-
 h1, h2, h3, h4 {
   padding: 0;
   margin: 0;
@@ -63,6 +62,7 @@ h1, h2, h3, h4 {
 #discord-button {
   background-color: #738ADB;
   color: white;
+
   i {
     color: white;
   }
@@ -71,7 +71,8 @@ h1, h2, h3, h4 {
 #guild-button {
   background-color: #5bbaa2;
   color: white;
-  img{
+
+  img {
     vertical-align: middle;
   }
 }
@@ -138,25 +139,28 @@ h1, h2, h3, h4 {
   }
 }
 
-#sparkles-gif {
-  width: 70px;
-  height: 70px;
+#sparkles {
+  font-size: 30px;
 }
 
 #awards {
   margin: 20px 0;
 }
 
-#trophy-gif {
-  width: 60px;
-  height: 60px;
+#trophy {
+  font-size: 30px;
 }
 
-#heart-gif {
-  width: 60px;
-  height: 60px;
+#heart {
+  font-size: 30px;
 }
 
 .emoji-bullet {
   margin: 1px;
+}
+
+.subtext {
+  margin: 1px;
+  font-size: 15px;
+  font-style: italic;
 }
