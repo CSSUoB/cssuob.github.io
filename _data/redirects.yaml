@@ -13,22 +13,28 @@
   destination: https://instagram.com/cssbham
 - source: /twitter
   destination: https://twitter.com/cssbham
-- source: /in
-  destination: https://www.linkedin.com/company/cssbham/
+- source: /tw
+  destination: https://twitter.com/cssbham
 - source: /linkedin
+  destination: https://www.linkedin.com/company/cssbham/
+- source: /in
   destination: https://www.linkedin.com/company/cssbham/
 - source: /discord
   destination: https://discord.gg/uftEqwy
+- source: /di
+  destination: https://discord.gg/uftEqwy
 - source: /youtube
   destination: https://www.youtube.com/channel/UC-nWGWJv8wi3nw4YG55Vd0A
+- source: /yt
+  destination: https://www.youtube.com/channel/UC-nWGWJv8wi3nw4YG55Vd0A
+- source: /email
+  destination: mailto:cssoc@cs.bham.ac.uk
 
 # uni
 - source: /guild
   destination: https://www.guildofstudents.com/studentgroups/societies/css/
 - source: /eps
   destination: https://www.birmingham.ac.uk/university/colleges/eps/eps-community/students/societies/css.aspx
-- source: /epsawards
-  destination: https://www.flickr.com/photos/136945066@N04/sets/72157709173802032/
 
 # local hack day 2019
 - source: /lhdl19/aws
@@ -55,22 +61,5 @@
   destination: https://www.facebook.com/events/674845163077132/
 - source: /pride
   destination: /newsletter/pride
-- source: /ball
-  destination: https://gather.town/app/RjeROFVzlTDOGkf4/CSS%20Ball
 - source: /trace
   destination: https://forms.gle/jG22hqATtxAJAvZT7
-- source: /winterbourne
-  destination: https://www.eventbrite.co.uk/e/css-goes-to-winterbourne-tickets-157332518799
-- source: /winterborne
-  destination: https://www.eventbrite.co.uk/e/css-goes-to-winterbourne-tickets-157332518799
-- source: /winterbourn
-  destination: https://www.eventbrite.co.uk/e/css-goes-to-winterbourne-tickets-157332518799
-- source: /outside
-  destination: https://www.eventbrite.co.uk/e/css-goes-outside-tickets-157333706351
-- source: /not-a-bbq
-  destination: https://www.eventbrite.co.uk/e/css-not-a-bbq-tickets-161249945929
-
-
-# Forms
-- source: /graduate
-  destination: https://forms.gle/a7NKHJVkLvBwxtmp7
