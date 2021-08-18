@@ -2,7 +2,7 @@
 - source: /join
   destination: https://www.guildofstudents.com/studentgroups/societies/css/
 
-# join
+# sponsor
 - source: /sponsor
   destination: /CSS_Sponsorship.pdf
 
