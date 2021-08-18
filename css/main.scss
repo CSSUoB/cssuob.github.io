@@ -70,7 +70,7 @@ main {
     margin-bottom: 10px;
 
     a {
-      color: white;
+      color: $TeX-Purple;
     }
   }
 
@@ -79,7 +79,7 @@ main {
     line-height: 1.5em;
 
     a {
-      color: white;
+      color: $TeX-Purple;
     }
   }
 
@@ -92,6 +92,10 @@ main {
 
     * {
       color: black;
+    }
+
+    a {
+      color: $TeX-Purple;
     }
   }
 
