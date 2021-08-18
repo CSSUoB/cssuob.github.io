@@ -2,6 +2,11 @@
 - source: /join
   destination: https://www.guildofstudents.com/studentgroups/societies/css/
 
+# sponsor
+- source: /sponsor
+  destination: /CSS_Sponsorship.pdf
+
+
 # social
 - source: /facebook
   destination: https://facebook.com/groups/CSSUoB
