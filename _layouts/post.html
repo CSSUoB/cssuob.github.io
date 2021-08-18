@@ -14,8 +14,12 @@
 </head>
 <body>
   {% include header.html %}
-
   <main>
+
+    <div id="freshers-banner">
+      <p>Joining us in September? Read our <a href=/newsletter/freshers-welcome-2021>2021 Welcome Newsletter</a> and <a href=/discord>meet everyone else over on the Discord</a></p>
+    </div>
+
     <div class="post-header">
       {% if page.header-image %}
         <img class="post-header-image" src="{{ page.header-image | relative_url }}">

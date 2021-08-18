@@ -23,6 +23,21 @@ body {
   flex-direction: column;
 }
 
+#freshers-banner {
+  background-color: #9D68DC;
+  border-radius: 10px;
+  padding: 2px 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+
+  * {
+    color: white;
+    text-align: center;
+    font-family: "JetBrains Mono", "Inconsolata", monospace;
+    font-weight: bolder;
+  }
+}
+
 main {
   font-family: "Roboto", sans-serif;
   width: 80%;
@@ -87,7 +102,7 @@ main {
     max-width: 900px;
     margin: 0 auto;
     background-color: white;
-    padding: 10px 30px 20px;
+    padding: 20px 20px;
     border-radius: 20px;
 
     * {
