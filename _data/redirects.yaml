@@ -34,6 +34,10 @@
   destination: https://www.youtube.com/channel/UC-nWGWJv8wi3nw4YG55Vd0A
 - source: /email
   destination: mailto:cssoc@cs.bham.ac.uk
+- source: /gh
+  destination: https://github.com/CSSUoB/cssuob.github.io
+- source: /github
+  destination: https://github.com/CSSUoB/cssuob.github.io
 
 # uni
 - source: /guild
