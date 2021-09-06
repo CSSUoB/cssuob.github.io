@@ -154,6 +154,51 @@ h1, h2, h3, h4 {
   }      
 }
 
+#constitution {
+  #constitution-buttons {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 185px);
+  }
+
+  .constitution-link {
+    display: inline-block;
+    width: 150px;
+    height: 25px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    h4 {
+      font-family: "Helvetica Neue", sans-serif;
+      margin: 0;
+    }
+    h4, i {
+      color: white;
+    }
+  }
+
+  @media (max-width: 400px){
+    #constitution-buttons{
+      justify-content: center;
+      display: grid;
+      grid-template-columns: 185px;
+    }
+  }
+
+  .constitution {
+    background-color: #793fd8; //TeX Shadow
+  }
+
+  .agendas {
+    background-color: #3b37b6; //TeX Blue
+  }
+}
+
 #sparkles {
   font-size: 30px;
 }
@@ -163,6 +208,10 @@ h1, h2, h3, h4 {
 }
 
 #trophy {
+  font-size: 30px;
+}
+
+#document {
   font-size: 30px;
 }
 
