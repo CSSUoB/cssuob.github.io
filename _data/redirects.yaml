@@ -6,6 +6,9 @@
 - source: /sponsor
   destination: /CSS_Sponsorship.pdf
 
+# constitution
+- source: /constitution
+  destination: /constitution.pdf
 
 # social
 - source: /facebook
