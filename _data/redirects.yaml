@@ -75,3 +75,6 @@
   destination: /newsletter/pride
 - source: /trace
   destination: https://forms.gle/jG22hqATtxAJAvZT7
+- source: /ming-moon
+  destination: https://docs.google.com/forms/d/e/1FAIpQLSeNY1DYiqCosKI_a3XZPaiIVspTHJP925E_M17UmNJwPqAMmw
+
