@@ -78,3 +78,6 @@
 - source: /ming-moon
   destination: https://docs.google.com/forms/d/e/1FAIpQLSeNY1DYiqCosKI_a3XZPaiIVspTHJP925E_M17UmNJwPqAMmw/viewform
 
+# Calendar Typos
+- source: /calender
+  destination: /calendar
