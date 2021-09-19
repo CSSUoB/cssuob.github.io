@@ -7,7 +7,7 @@ const redirects = {
     {% endfor %}
 };
 
-let pathname = window.location.pathname;
+let pathname = window.location.pathname.toLowerCase();
 
 let lookup = redirects[pathname];
 if (lookup) {
