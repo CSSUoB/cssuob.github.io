@@ -22,7 +22,7 @@ if (lookup) {
     // build up a link directory of possibilities
     let listing = [];
     for (let redirect of Object.keys(redirects)) {
-        if (redirect.startsWith(pathname)) {
+        if (redirect.startsWith(pathname.toLowerCase())) {
             listing.push(redirect);
         }
     }
