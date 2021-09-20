@@ -79,6 +79,8 @@
   destination: https://docs.google.com/forms/d/e/1FAIpQLSeNY1DYiqCosKI_a3XZPaiIVspTHJP925E_M17UmNJwPqAMmw/viewform
 - source: /Ming-Moon
   destination: https://docs.google.com/forms/d/e/1FAIpQLSeNY1DYiqCosKI_a3XZPaiIVspTHJP925E_M17UmNJwPqAMmw/viewform
+- source: /hunt
+  destination: https://docs.google.com/forms/d/e/1FAIpQLScTt5RJkYHh0kIThccq_P2Gfz39BUusqK42JHdXG0UhBjsqnA/viewform
 
 # Calendar Typos
 - source: /calender
