@@ -45,6 +45,8 @@
 # uni
 - source: /guild
   destination: https://www.guildofstudents.com/studentgroups/societies/css/
+- source: /guild/admin
+  destination: https://www.guildofstudents.com/organisation/admin/6531/
 - source: /eps
   destination: https://www.birmingham.ac.uk/university/colleges/eps/eps-community/students/societies/css.aspx
 
