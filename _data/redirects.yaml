@@ -85,3 +85,7 @@
 # Calendar Typos
 - source: /calender
   destination: /calendar
+
+# EGM 2021
+- source: /egm/agenda
+  destination: /assets/agendas/agenda_21_10_20.pdf
