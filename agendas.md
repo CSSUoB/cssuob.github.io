@@ -5,7 +5,7 @@ title: Agendas
 
 # Agendas
 
-For access to minutes (i.e. AGM or EGM minutes), please ask <a href="../committee">committee</a>
+For access to minutes (i.e. AGM or EGM minutes), please ask <a href="../committee">committee</a>.
 
 --- 
 
