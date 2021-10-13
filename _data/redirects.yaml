@@ -58,6 +58,10 @@
 - source: /lhdl19/eventbrite
   destination: https://www.eventbrite.co.uk/platform/
 
+# GDSC: Python Workshop 13/10/2021
+- source: /python
+  destination: https://github.com/CSSUoB/GDSCPython
+
 # git workshop
 - source: /git/guide
   destination: https://rogerdudler.github.io/git-guide/
