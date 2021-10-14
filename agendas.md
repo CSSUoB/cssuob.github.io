@@ -25,7 +25,6 @@ For access to minutes (i.e. AGM or EGM minutes), please ask <a href="../committe
 - [agenda_20_09_04.pdf](/assets/agendas/agenda_20_09_04.pdf)
 - [agenda_20_09_11.pdf](/assets/agendas/agenda_20_09_11.pdf)
 - [agenda_20_09_18.pdf](/assets/agendas/agenda_20_09_18.pdf)
-- [agenda_20_09_04.pdf](/assets/agendas/agenda_20_09_04.pdf)
 - [agenda_20_09_25.pdf](/assets/agendas/agenda_20_09_25.pdf)
 
 ### October
@@ -73,7 +72,7 @@ For access to minutes (i.e. AGM or EGM minutes), please ask <a href="../committe
 - [agenda_21_04_02.pdf](/assets/agendas/agenda_21_04_02.pdf)
 - [agenda_21_04_09.pdf](/assets/agendas/agenda_21_04_09.pdf)
 - [agenda_21_04_16.pdf](/assets/agendas/agenda_21_04_16.pdf)
-- [EGM - agenda_21_04_21.pdf](/assets/agendas/agenda_21_04_21.pdf)
+- [AGM - agenda_21_04_21.pdf](/assets/agendas/agenda_21_04_21.pdf)
 - [agenda_21_04_23.pdf](/assets/agendas/agenda_21_04_23.pdf)
 - [agenda_21_04_30.pdf](/assets/agendas/agenda_21_04_30.pdf)
 
