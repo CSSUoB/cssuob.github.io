@@ -87,8 +87,11 @@
   destination: https://docs.google.com/forms/d/e/1FAIpQLScTt5RJkYHh0kIThccq_P2Gfz39BUusqK42JHdXG0UhBjsqnA/viewform
 - source: /joel-blake
   destination: https://www.eventbrite.co.uk/e/leadership-insights-from-tech-entrepreneur-joel-blake-obe-tickets-193792076317
+- source: /halloween
+  destination: https://www.eventbrite.co.uk/e/halloween-quiz-tickets-195014723287
+- source: /hallowe'en
+  destination: https://www.eventbrite.co.uk/e/halloween-quiz-tickets-195014723287
   
-
 # Calendar Typos
 - source: /calender
   destination: /calendar
