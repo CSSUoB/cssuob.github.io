@@ -91,6 +91,10 @@
   destination: https://www.eventbrite.co.uk/e/halloween-quiz-tickets-195014723287
 - source: /hallowe'en
   destination: https://www.eventbrite.co.uk/e/halloween-quiz-tickets-195014723287
+- source: /bouldering
+  destination: https://www.eventbrite.co.uk/e/css-goes-bouldering-tickets-203708356177
+- source: /boldering
+  destination: https://www.eventbrite.co.uk/e/css-goes-bouldering-tickets-203708356177
   
 # Calendar Typos
 - source: /calender
