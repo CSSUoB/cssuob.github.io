@@ -73,28 +73,7 @@
 # events
 - source: /awards
   destination: https://www.birmingham.ac.uk/university/colleges/eps/eps-community/students/societies-awards/nominate.aspx
-- source: /latest
-  destination: https://www.facebook.com/events/674845163077132/
-- source: /pride
-  destination: /newsletter/pride
-- source: /trace
-  destination: https://forms.gle/jG22hqATtxAJAvZT7
-- source: /ming-moon
-  destination: https://docs.google.com/forms/d/e/1FAIpQLSeNY1DYiqCosKI_a3XZPaiIVspTHJP925E_M17UmNJwPqAMmw/viewform
-- source: /Ming-Moon
-  destination: https://docs.google.com/forms/d/e/1FAIpQLSeNY1DYiqCosKI_a3XZPaiIVspTHJP925E_M17UmNJwPqAMmw/viewform
-- source: /hunt
-  destination: https://docs.google.com/forms/d/e/1FAIpQLScTt5RJkYHh0kIThccq_P2Gfz39BUusqK42JHdXG0UhBjsqnA/viewform
-- source: /joel-blake
-  destination: https://www.eventbrite.co.uk/e/leadership-insights-from-tech-entrepreneur-joel-blake-obe-tickets-193792076317
-- source: /halloween
-  destination: https://www.eventbrite.co.uk/e/halloween-quiz-tickets-195014723287
-- source: /hallowe'en
-  destination: https://www.eventbrite.co.uk/e/halloween-quiz-tickets-195014723287
-- source: /bouldering
-  destination: https://www.eventbrite.co.uk/e/css-goes-bouldering-tickets-203708356177
-- source: /boldering
-  destination: https://www.eventbrite.co.uk/e/css-goes-bouldering-tickets-203708356177
+
   
 # Calendar Typos
 - source: /calender
