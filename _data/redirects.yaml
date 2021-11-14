@@ -73,7 +73,10 @@
 # events
 - source: /awards
   destination: https://www.birmingham.ac.uk/university/colleges/eps/eps-community/students/societies-awards/nominate.aspx
--
+- source: /bouldering
+  destination: https://www.eventbrite.co.uk/e/css-goes-bouldering-tickets-210654221447
+- source: /boldering
+  destination: https://www.eventbrite.co.uk/e/css-goes-bouldering-tickets-210654221447
   
 # Calendar Typos
 - source: /calender
