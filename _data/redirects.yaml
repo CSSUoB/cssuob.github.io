@@ -79,6 +79,14 @@
   destination: https://www.eventbrite.co.uk/e/css-goes-bouldering-tickets-210654221447
 - source: /christmas
   destination: https://www.guildofstudents.com/events/6531/6157/
+- source: /boardgames
+  destination: https://www.eventbrite.co.uk/e/css-board-games-night-tickets-212479811837
+- source: /board-games
+  destination: https://www.eventbrite.co.uk/e/css-board-games-night-tickets-212479811837
+- source: /boardgame
+  destination: https://www.eventbrite.co.uk/e/css-board-games-night-tickets-212479811837
+- source: /board-game
+  destination: https://www.eventbrite.co.uk/e/css-board-games-night-tickets-212479811837
   
 # Calendar Typos
 - source: /calender
