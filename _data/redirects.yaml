@@ -62,6 +62,12 @@
 - source: /python
   destination: https://github.com/CSSUoB/GDSCPython
 
+# GDSC: Bot Workshop 26/11/2021
+- source: /preworkshop
+  destination: https://docs.google.com/presentation/d/1BILU_wHxmBz66UzFaCv4E0W886bohHtBh2ctuAJemfE/edit#slide=id.g1028c2c9b68_0_52
+- source: /botworkshop
+  destination: https://github.com/antikitten/Discord-Bot-Workshop
+
 # git workshop
 - source: /git/guide
   destination: https://rogerdudler.github.io/git-guide/
