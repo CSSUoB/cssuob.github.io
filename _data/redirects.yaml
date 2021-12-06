@@ -93,6 +93,8 @@
   destination: https://www.eventbrite.co.uk/e/css-board-games-night-tickets-212479811837
 - source: /board-game
   destination: https://www.eventbrite.co.uk/e/css-board-games-night-tickets-212479811837
+- source: /graduation
+  destination: https://forms.gle/pFn6agjDgk4ZXyaP7
   
 # Calendar Typos
 - source: /calender
