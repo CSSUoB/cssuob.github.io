@@ -109,3 +109,5 @@
 # Hoodies 2021
 - source: /hoodies
   destination: https://www.guildofstudents.com/shop/catalogue/ComputerScienceSoc/
+- source: /hoodie
+  destination: https://www.guildofstudents.com/shop/catalogue/ComputerScienceSoc/
