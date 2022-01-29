@@ -69,7 +69,7 @@ scripts:
       {% endif %}
       <div class="details">
         <h2>{{ session.title }}</h2>
-        <h3>{{ session.date | date: "%b %-d, %Y"}}</h3>
+        <h3 class="post-date">{{ session.date | date: "%b %-d, %Y"}}</h3>
         <div>
           {{ session.content | markdownify }}
         </div>
