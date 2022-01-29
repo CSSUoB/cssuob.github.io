@@ -65,6 +65,7 @@
 
     .header-image {
       height: 25vh;
+      max-width: none;
     }
 
     .details {
@@ -76,7 +77,8 @@
 
   &.recent {
     .header-image {
-      height: 35vh;
+      height: 50vh;
+      max-width: none;
     }
   }
 }
@@ -84,12 +86,12 @@
 @media only screen and (min-width: 1200px) {
   .club.recent {
     .details {
-      height: 35vh;
+      height: 50vh;
       position: absolute;
       top: 0;
       right: 0;
 
-      max-width: 400px;
+      max-width: 35vw;
 
       background: linear-gradient(to right, #0000 0%, #fffd 10%);
 
