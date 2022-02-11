@@ -73,3 +73,7 @@
 # EGM 2022
 - source: /egm/agenda
   destination: /assets/agendas/agenda_22_02_15.pdf
+
+# Bletchley Park
+- source: /bletchley-park
+  destination: https://www.guildofstudents.com/events/6531/6398/
