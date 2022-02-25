@@ -1,0 +1,25 @@
+---
+---
+
+.soon-contain {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  h1 {
+    text-align: center;
+    font-size: 180px;
+    margin-top: 20vh;
+  }
+  img {
+    position: fixed;
+    top: 20vh;
+    left: -20vh;
+    width: 900px;
+    max-width: none;
+    max-height: none;
+    opacity: 0.1;
+  }
+}
