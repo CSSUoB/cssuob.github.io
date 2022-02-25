@@ -6,11 +6,11 @@
 * @LikkanChung @Danyc0
 
 # Backend
-/_scrips/ @jedevc @LikkanChung @Danyc0
-/admin/ @jedevc @LikkanChung @Danyc0
-Dockerfile @jedevc @LikkanChung @Danyc0
-Gemfile @jedevc @LikkanChung @Danyc0
-Gemfile.lock @jedevc @LikkanChung @Danyc0
+/_scrips/ @LikkanChung @Danyc0
+/admin/ @LikkanChung @Danyc0
+Dockerfile @LikkanChung @Danyc0
+Gemfile @LikkanChung @Danyc0
+Gemfile.lock @LikkanChung @Danyc0
 
 # Frontend
 /collections/ @AlexJBanks @LikkanChung @Danyc0
