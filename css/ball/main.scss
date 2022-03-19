@@ -1,0 +1,86 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&display=swap');
+
+$CSS-Blue:      #2f3c63;
+$CSS-Mid-Blue:  #101939;
+$CSS-Deep-Blue: #0a0f1e;
+$TeX-Purple:    #9d68dc;
+
+$background:    #241040;
+
+$secondary-highlight: #f0c146;
+$secondary-background: #c6911a;
+$secondary-text: #000;
+
+$text: #fff;
+
+$font-primary: "Abril Fatface";
+$font-secondary: "Open Sans";
+
+header {
+    background-color: $secondary-background;
+    a { 
+        color: $secondary-text;
+        font-family: $font-secondary;
+    }
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    background-color: $background;
+
+    display: flex;
+    flex-direction: column;
+
+    .text-center-div {
+        text-align: center;
+        margin-top: 2.5vh;
+        margin-bottom: 2.5vh;
+      }
+    
+    .margin-top {
+        border-top: 1px solid $secondary-background;
+    }
+    
+    .margin-bottom {
+        border-bottom: 1px solid $secondary-background;
+    }
+
+    .title {
+        font-size: 120px;
+        margin-top: 2.5vh;
+        font-family: $font-primary;
+    }
+
+    .subtitle {
+        font-size: 60px;
+        margin-top: 2.5vh;
+        margin-bottom: 2.5vh;
+        font-family: $font-primary;
+    }
+
+    .text-block {
+        margin-top: 2.5vh;
+        margin-bottom: 2.5vh;
+        font-family: $font-secondary;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 10px;
+        text-decoration: none;
+        font-family: $font-secondary;
+        width: 220px;
+        height: 25px;
+        margin: 5vh 5px;
+        background-color: $secondary-background;
+        color: $text;
+      }
+}

@@ -1,0 +1,35 @@
+---
+layout: page
+styles:
+  - /css/main.css
+  - /css/ball/main.css
+title: CSS Ball
+---
+
+{% assign ball = site.data.ball.2022 %}
+<div class="text-center-div margin-top margin-bottom">
+    <h1 class="title">
+        {{ball.name}} {{ball.year}}
+    </h1>
+    <h2 class="text-block">
+        {{ball.location}} - {{ball.date}}
+    </h2>
+
+    {% for link in ball.links %}
+        <a href='{{link.url}}' class="button">{{link.text}}</a>
+    {% endfor %}
+</div>
+
+<div class="margin-bottom">
+    <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+    src="https://www.openstreetmap.org/export/embed.html?bbox=-1.9495582580566408%2C52.44421355909145%2C-1.9227790832519533%2C52.456153224771704&amp;layer=mapnik&amp;marker=52.45018379651639%2C-1.9361686706542969" 
+    style="border: 1px solid black; margin-bottom: 2.5vh;"></iframe>
+</div>
+
+<div class="text-center-div margin-bottom">
+    <h2 class="subtitle">FAQ</h2>
+    {% for qanda in ball.faq %}
+        <h3 class="text-block"><strong>{{ qanda.question }}</strong></h3>
+        <h4 class="text-block">{{ qanda.answer }}</h4>
+    {% endfor %}
+</div>

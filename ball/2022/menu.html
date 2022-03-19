@@ -1,0 +1,27 @@
+---
+layout: page
+styles:
+  - /css/main.css
+  - /css/ball/main.css
+title: CSS Ball
+---
+
+{% assign ball = site.data.ball.2022 %}
+<div class="text-center-div margin-top margin-bottom">
+    <h1 class="title">
+        {{ball.name}} {{ball.year}}
+    </h1>
+    <h2 class="subtitle">
+        MENU
+    </h2>
+</div>
+
+
+{% for section in ball.menu %}
+    <div class="text-center-div">
+        <h1 class="menu-section-title">{{section[0]}}</h1>
+        {% for item in section[1] %}
+            <h2 class="menu-item">{{item}}</h2>
+        {% endfor %}
+    </div>
+{% endfor %}
