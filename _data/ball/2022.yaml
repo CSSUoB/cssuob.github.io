@@ -1,0 +1,24 @@
+name: CSS Ball
+year: 2022
+location: LOCATION NAME
+date: DAY MONTH
+links: 
+  - text: Tickets
+    url: https://google.com
+  - text: Menu
+    url: menu
+menu:
+  starters: 
+    - STARTER 1
+    - STARTER 2
+  mains: 
+    - MAIN 1
+    - MAIN 2
+  desserts: 
+    - DESSERT 1
+    - DESSERT 2
+faq:
+  - question: Can I ask a question?
+    answer: Yes.
+  - question: How about another?
+    answer: Trivially.
