@@ -19,12 +19,17 @@ $text: #fff;
 $font-primary: "Abril Fatface";
 $font-secondary: "Open Sans";
 
+html {
+    a { 
+        color: $secondary-highlight;
+        font-family: $font-secondary;
+        text-decoration: none;
+    }
+}
+
 header {
     background-color: $secondary-background;
-    a { 
-        color: $secondary-text;
-        font-family: $font-secondary;
-    }
+
 }
 
 body {
@@ -63,10 +68,16 @@ body {
         font-family: $font-primary;
     }
 
-    .text-block {
-        margin-top: 2.5vh;
-        margin-bottom: 2.5vh;
+    .subsubtitle {
+        font-size: xx-large;
         font-family: $font-secondary;
+    }
+    
+    .text-block {
+        margin-top: 1.25vh;
+        margin-bottom: 1.25vh;
+        font-family: $font-secondary;
+        font-size: x-large;
     }
 
     .button {
@@ -83,4 +94,18 @@ body {
         background-color: $secondary-background;
         color: $text;
       }
+
+}
+
+.menu {
+    .menu-section-title {
+        font-size: 60px;
+        margin-top: 2.5vh;
+        font-family: $font-primary;
+    }
+    
+    .menu-item {
+        font-family: $font-secondary;
+        margin-bottom: 2.5vh;
+    }
 }
