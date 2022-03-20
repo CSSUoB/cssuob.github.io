@@ -1,4 +1,4 @@
-name: CSS Ball
+name: CSS BALL
 year: 2022
 location: LOCATION NAME
 date: DAY MONTH
@@ -7,6 +7,8 @@ links:
     url: https://google.com
   - text: Menu
     url: menu
+  - text: FAQs
+    url: '#FAQ'
 menu:
   starters: 
     - STARTER 1

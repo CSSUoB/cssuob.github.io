@@ -1,7 +1,8 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&display=swap');
+@import url('https://fontlibrary.org//face/cmu-serif');
+@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
 
 $CSS-Blue:      #2f3c63;
 $CSS-Mid-Blue:  #101939;
@@ -10,17 +11,18 @@ $TeX-Purple:    #9d68dc;
 
 $background:    #241040;
 
-$secondary-highlight: #f0c146;
-$secondary-background: #c6911a;
+$secondary-highlight: #e4d05f;
+$secondary-background: #cbb347;
+$secondary-lowlight: #79651b;
 $secondary-text: #000;
 
 $text: #fff;
 
-$font-primary: "Abril Fatface";
-$font-secondary: "Open Sans";
+$font-primary: "CMUSerifRoman", serif;
+$font-secondary: "Ovo", serif;
 
 header {
-    background-color: $secondary-background;
+    background-color: $secondary-lowlight;
     a { 
         color: $secondary-text;
         font-family: $font-secondary;
@@ -31,6 +33,9 @@ body {
     width: 100%;
     min-height: 100vh;
     margin: 0;
+
+    background-image: url("/assets/events/ball/2022-background.png");
+    background-size: cover;
     background-color: $background;
 
     display: flex;
@@ -43,17 +48,22 @@ body {
       }
     
     .margin-top {
-        border-top: 1px solid $secondary-background;
+        border-top: 3px solid $secondary-background;
+        margin-top: 15px;
+        padding-top: 15px;
     }
     
     .margin-bottom {
-        border-bottom: 1px solid $secondary-background;
+        border-bottom: 3px solid $secondary-background;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
     }
 
     .title {
-        font-size: 120px;
+        font-size: 10vw;
         margin-top: 2.5vh;
         font-family: $font-primary;
+        color: $secondary-background;
     }
 
     .subtitle {
@@ -61,6 +71,7 @@ body {
         margin-top: 2.5vh;
         margin-bottom: 2.5vh;
         font-family: $font-primary;
+        color: $secondary-background;
     }
 
     .text-block {
@@ -79,8 +90,14 @@ body {
         font-family: $font-secondary;
         width: 220px;
         height: 25px;
-        margin: 5vh 5px;
-        background-color: $secondary-background;
+        margin: 5px 5px;
+        background-color: $secondary-lowlight;
         color: $text;
-      }
+    }
+
+    .qanda{
+        .question, .answer {
+            text-align: left;
+        }
+    }
 }
