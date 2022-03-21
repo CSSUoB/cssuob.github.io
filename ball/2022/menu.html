@@ -5,11 +5,11 @@ styles:
   - /css/ball/main.css
 title: CSS Ball
 ---
-
+<a href=".">&larr; Go Back</a>
 {% assign ball = site.data.ball.2022 %}
 <div class="text-center-div margin-top margin-bottom">
     <h1 class="title">
-        {{ball.name}} {{ball.year}}
+        {{ ball.name }} {{ ball.year }}
     </h1>
     <h2 class="subtitle">
         MENU
@@ -17,11 +17,19 @@ title: CSS Ball
 </div>
 
 
-{% for section in ball.menu %}
-    <div class="text-center-div">
-        <h1 class="menu-section-title">{{section[0]}}</h1>
+
+<div class="text-center-div menu margin-bottom">
+    {% for section in ball.menu %}
+        <h1 class="menu-section-title">{{ section[0] | capitalize }}</h1>
         {% for item in section[1] %}
-            <h2 class="menu-item">{{item}}</h2>
+            <h2 class="menu-item">{{ item | upcase }}</h2>
         {% endfor %}
-    </div>
-{% endfor %}
+    {% endfor %}
+</div>
+
+
+<div class="text-center-div margin-bottom">
+    <p class="text-block">
+        If you have any dietary requirements, please let us know when you purchase your ticket.
+    </p>
+</div>

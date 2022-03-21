@@ -21,12 +21,18 @@ $text: #fff;
 $font-primary: "CMUSerifRoman", serif;
 $font-secondary: "Ovo", serif;
 
+
+html {
+    a { 
+        color: $secondary-highlight;
+        font-family: $font-secondary;
+        text-decoration: none;
+    }
+}
+
 header {
     background-color: $secondary-lowlight;
-    a { 
-        color: $secondary-text;
-        font-family: $font-secondary;
-    }
+
 }
 
 body {
@@ -74,10 +80,16 @@ body {
         color: $secondary-background;
     }
 
-    .text-block {
-        margin-top: 2.5vh;
-        margin-bottom: 2.5vh;
+    .subsubtitle {
+        font-size: xx-large;
         font-family: $font-secondary;
+    }
+    
+    .text-block {
+        margin-top: 1.25vh;
+        margin-bottom: 1.25vh;
+        font-family: $font-secondary;
+        font-size: x-large;
     }
 
     .button {
@@ -99,5 +111,18 @@ body {
         .question, .answer {
             text-align: left;
         }
+    }
+}
+
+.menu {
+    .menu-section-title {
+        font-size: 60px;
+        margin-top: 2.5vh;
+        font-family: $font-primary;
+    }
+    
+    .menu-item {
+        font-family: $font-secondary;
+        margin-bottom: 2.5vh;
     }
 }

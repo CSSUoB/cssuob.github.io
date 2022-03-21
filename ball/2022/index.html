@@ -7,11 +7,12 @@ title: CSS Ball
 ---
 
 {% assign ball = site.data.ball.2022 %}
+
 <div class="text-center-div margin-top">
     <h1 class="title">
         {{ball.name}} {{ball.year}}
     </h1>
-    <h2 class="text-block">
+    <h2 class="subsubtitle">
         {{ball.location}} • {{ball.date}}
     </h2>
 
@@ -29,7 +30,7 @@ title: CSS Ball
 <div class="text-center-div margin-bottom qanda" id="FAQ">
     <h2 class="subtitle">FAQ</h2>
     {% for qanda in ball.faq %}
-        <h3 class="text-block question"><strong>{{ qanda.question }}</strong></h3>
-        <h4 class="text-block answer">{{ qanda.answer }}</h4>
+        <h3 class="subtitle question"><strong>{{ qanda.question }}</strong></h3>
+        <p class="text-block answer">{{ qanda.answer }}</p>>
     {% endfor %}
 </div>
