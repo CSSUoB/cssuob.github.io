@@ -48,6 +48,10 @@
 - source: /eps
   destination: https://www.birmingham.ac.uk/university/colleges/eps/eps-community/students/societies/css.aspx
 
+# ball
+- source: /ball
+  destination: /ball/2022
+
 # GDSC: Python Workshop 13/10/2021
 - source: /python
   destination: https://github.com/CSSUoB/GDSCPython

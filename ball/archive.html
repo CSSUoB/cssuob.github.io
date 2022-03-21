@@ -1,0 +1,20 @@
+---
+layout: page
+styles:
+  - /css/main.css
+  - /css/ball/main.css
+title: CSS Ball Archive
+---
+
+<div class="text-center-div">
+    <h1>CSS Ball Archive</h1>
+
+    {% for balls in site.data.ball %}
+        {% assign ball = balls[1] %}
+        <div>
+            <ul>
+                <li>{{ball.year}}, {{ball.location}}</li>
+            </ul>
+        </div>
+    {% endfor %}
+</div>

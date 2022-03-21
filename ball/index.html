@@ -1,20 +1,14 @@
 ---
 layout: page
 styles:
-  - /css/main.css
-  - /css/ball/main.css
+- /css/main.css
+- /css/ball/main.css
 title: CSS Ball
 ---
 
-<div class="text-center-div">
-    <h1>CSS Ball Archive</h1>
-
-    {% for balls in site.data.ball %}
-        {% assign ball = balls[1] %}
-        <div>
-            <ul>
-                <li>{{ball.year}}, {{ball.location}}</li>
-            </ul>
-        </div>
-    {% endfor %}
-</div>
+<head>
+    <meta http-equiv="refresh" content="0; url='/ball/2022'" />
+</head>
+<body>
+    <h1>Click here to go to the <a href="/ball/2022">CSS BALL 2022 page</a>.</h1>
+</body>
