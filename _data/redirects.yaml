@@ -51,6 +51,8 @@
 # ball
 - source: /ball
   destination: /ball/2022
+- source: /soon
+  destination: /ball/2022
 
 # GDSC: Python Workshop 13/10/2021
 - source: /python

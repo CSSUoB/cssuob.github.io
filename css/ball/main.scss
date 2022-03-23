@@ -51,7 +51,17 @@ body {
         text-align: center;
         margin-top: 2.5vh;
         margin-bottom: 2.5vh;
-      }
+        .soon-contain {
+            h2{
+                font-family: $font-primary;
+            }
+
+        }
+
+        .avoidwrap {
+             display: inline-block;
+         }
+    }
     
     .margin-top {
         border-top: 3px solid $secondary-background;
