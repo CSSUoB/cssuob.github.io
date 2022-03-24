@@ -51,12 +51,6 @@ body {
         text-align: center;
         margin-top: 2.5vh;
         margin-bottom: 2.5vh;
-        .soon-contain {
-            h2{
-                font-family: $font-primary;
-            }
-
-        }
 
         .avoidwrap {
              display: inline-block;
@@ -65,14 +59,14 @@ body {
     
     .margin-top {
         border-top: 3px solid $secondary-background;
-        margin-top: 15px;
-        padding-top: 15px;
+        margin-top: 10px;
+        padding-top: 10px;
     }
     
     .margin-bottom {
         border-bottom: 3px solid $secondary-background;
-        margin-bottom: 15px;
-        padding-bottom: 15px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
     }
 
     .title {
@@ -88,11 +82,18 @@ body {
         margin-bottom: 2.5vh;
         font-family: $font-primary;
         color: $secondary-background;
+
     }
 
     .subsubtitle {
         font-size: xx-large;
         font-family: $font-secondary;
+        &.venue-date{
+            font-size: xxx-large;
+        }
+        &.countdown{
+            font-size: xx-large;
+        }
     }
     
     .text-block {
@@ -115,6 +116,9 @@ body {
         margin: 5px 5px;
         background-color: $secondary-lowlight;
         color: $text;
+        &.empty {
+            filter: brightness(60%);
+        }
     }
 
     .qanda{

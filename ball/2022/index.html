@@ -12,16 +12,17 @@ title: CSS Ball
     <h1 class="title">
         {{ball.name}} {{ball.year}}
     </h1>
-    <h2 class="subsubtitle">
+    <h2 class="subsubtitle venue-date">
         <span class="avoidwrap">{{ball.location}}</span> • <span class="avoidwrap">{{ball.date}}</span>
     </h2>
 
-    <div class="soon-contain">
-        <h2 id="count"></h2>
+    <div>
+        <h2 class="subsubtitle countdown" id="count"><br></h2>
     </div>
 
     {% for link in ball.links %}
-        <a href='{{link.url}}' class="button">{{link.text}}</a>
+        <a href='{{link.url}}' class="button {% if link.url == '' %}empty"{% else %}" href='{{link.url}}' {% endif %}>
+            {{link.text}}{% if link.url == '' %} (Coming Soon){% endif %}</a>
     {% endfor %}
 </div>
 
@@ -35,7 +36,7 @@ title: CSS Ball
     <h2 class="subtitle">FAQ</h2>
     {% for qanda in ball.faq %}
         <h3 class="subtitle question"><strong>{{ qanda.question }}</strong></h3>
-        <p class="text-block answer">{{ qanda.answer }}</p>>
+        <p class="text-block answer">{{ qanda.answer }}</p>
     {% endfor %}
 </div>
 
