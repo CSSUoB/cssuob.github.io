@@ -1,7 +1,7 @@
 name: CSS BALL
 year: 2022
-location: LOCATION NAME
-date: DAY MONTH
+location: Fazeley Studios
+date: 27th April
 links: 
   - text: Tickets
     url: https://google.com
@@ -10,15 +10,12 @@ links:
   - text: FAQs
     url: '#FAQ'
 menu:
-  starters: 
-    - STARTER 1
-    - STARTER 2
-  mains: 
-    - MAIN 1
-    - MAIN 2
-  desserts: 
-    - DESSERT 1
-    - DESSERT 2
+  starter:
+    - Halloumi, Olive & Sun Blushed Tomato Bruschetta, Rocket & Balsamic
+  main:
+    - Parma Ham Wrapped Chicken Fillet, Savoy Cabbage, Crushed New Potatoes, White Wine & Thyme Gravy
+  dessert:
+    - Dark Chocolate Tart with Vanilla Ice Cream
 faq:
   - question: Can I ask a question?
     answer: Yes.
