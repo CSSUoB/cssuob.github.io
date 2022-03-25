@@ -8,7 +8,7 @@ title: CSS Ball
 
 {% assign ball = site.data.ball.2022 %}
 
-<div class="text-center-div margin-top">
+<div class="text-center-div margin-top section-details">
     <h1 class="title">
         {{ball.name}} {{ball.year}}
     </h1>
@@ -16,9 +16,7 @@ title: CSS Ball
         <span class="avoidwrap">{{ball.location}}</span> • <span class="avoidwrap">{{ball.date}}</span>
     </h2>
 
-    <div>
-        <h2 class="subsubtitle countdown" id="count"><br></h2>
-    </div>
+    <h2 class="subsubtitle countdown" id="count"><br></h2>
 
     {% for link in ball.links %}
         <a href='{{link.url}}' class="button {% if link.url == '' %}empty"{% else %}" href='{{link.url}}' {% endif %}>
@@ -26,17 +24,39 @@ title: CSS Ball
     {% endfor %}
 </div>
 
-<div class="margin-top margin-bottom">
+<div class="text-center-div margin-top section-venue flex" id="Venue">
+
+    <div class="description text-center-div flex-l">
+        <h2 class="subtitle ">The Venue</h2>
+        <p class="text-block">description of where, what rooms, etc.</p>
+    </div>
+    <div class="image flex-r">
+        <p class="text-block">[image here]</p>
+    </div>
+</div>
+
+<div class="margin-top section-hashtag flex">
+    <h2 class="subtitle hashtag flex-l">#CSSBall22</h2>
+    <div class="hashtag-buttons text-center-div flex-r">
+        <a href='https://www.instagram.com/explore/tags/CSSBall22/' class="button">Instagram</a>
+        <a href='https://www.tiktok.com/tag/CSSBall22' class="button">TikTok</a>
+        <a href='https://twitter.com/hashtag/CSSBall22' class="button">Twitter</a>
+    </div>
+</div>
+
+<div class="margin-top margin-bottom section-map">
     <iframe width="100%" height="400"
     src="//umap.openstreetmap.fr/en/map/untitled-map_736360?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=null&onLoadPanel=undefined&captionBar=false&datalayers=2168470#13/52.4652/-1.9053">
     </iframe>
 </div>
 
-<div class="text-center-div margin-bottom qanda" id="FAQ">
-    <h2 class="subtitle">FAQ</h2>
+<div class="text-center-div margin-bottom section-faq" id="FAQ">
+    <h2 class="subtitle">FAQs</h2>
     {% for qanda in ball.faq %}
-        <h3 class="subtitle question"><strong>{{ qanda.question }}</strong></h3>
+        <div class="faq">
+        <h3 class="subsubtitle question">{{ qanda.question }}</h3>
         <p class="text-block answer">{{ qanda.answer }}</p>
+        </div>
     {% endfor %}
 </div>
 

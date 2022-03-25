@@ -2,14 +2,10 @@
 ---
 
 @import url('https://fontlibrary.org//face/cmu-serif');
-@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&family=Ovo&display=swap');
 
-$CSS-Blue:      #2f3c63;
-$CSS-Mid-Blue:  #101939;
-$CSS-Deep-Blue: #0a0f1e;
-$TeX-Purple:    #9d68dc;
-
-$background:    #241040;
+$primary-background: #241040;
+$primary-lowlight: #0c0515;
 
 $secondary-highlight: #e4d05f;
 $secondary-background: #cbb347;
@@ -18,7 +14,7 @@ $secondary-text: #000;
 
 $text: #fff;
 
-$font-primary: "CMUSerifRoman", serif;
+$font-primary: "Gentium Book Basic", "CMUSerifRoman", serif;
 $font-secondary: "Ovo", serif;
 
 
@@ -42,7 +38,8 @@ body {
 
     background-image: url("/assets/events/ball/2022-background.png");
     background-size: cover;
-    background-color: $background;
+    background-attachment: fixed;
+    background-color: $primary-background;
 
     display: flex;
     flex-direction: column;
@@ -51,12 +48,12 @@ body {
         text-align: center;
         margin-top: 2.5vh;
         margin-bottom: 2.5vh;
-
-        .avoidwrap {
-             display: inline-block;
-         }
     }
-    
+
+    .avoidwrap {
+        display: inline-block;
+    }
+
     .margin-top {
         border-top: 3px solid $secondary-background;
         margin-top: 10px;
@@ -74,6 +71,7 @@ body {
         margin-top: 2.5vh;
         font-family: $font-primary;
         color: $secondary-background;
+        text-shadow: 0.5vw 0.5vw 0.6vw $primary-lowlight;
     }
 
     .subtitle {
@@ -82,18 +80,13 @@ body {
         margin-bottom: 2.5vh;
         font-family: $font-primary;
         color: $secondary-background;
-
+        text-shadow: 0.2vw 0.2vw 0.3vw $primary-lowlight;
     }
 
     .subsubtitle {
         font-size: xx-large;
         font-family: $font-secondary;
-        &.venue-date{
-            font-size: xxx-large;
-        }
-        &.countdown{
-            font-size: xx-large;
-        }
+        text-shadow: 0.1vw 0.1vw 0.2vw $primary-lowlight;
     }
     
     .text-block {
@@ -119,11 +112,84 @@ body {
         &.empty {
             filter: brightness(60%);
         }
+        &:not(.empty) {
+            box-shadow: 0.2vw 0.2vw 0.3vw $primary-lowlight;
+            &:hover {
+                filter: brightness(110%);
+                box-shadow: 0.5vw 0.5vw 0.6vw $primary-lowlight;
+            }
+        }
     }
 
-    .qanda{
-        .question, .answer {
-            text-align: left;
+    .section-details {
+        .venue-date{
+            font-size: 69px;
+        }
+        .countdown{
+            font-size: xx-large;
+        }
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: row;
+
+        .flex-l {
+            flex: 0 1 auto;
+        }
+        .flex-r {
+             flex: 1 0 auto;
+         }
+
+
+    }
+
+
+
+    .section-venue {
+        margin-bottom: inherit;
+
+        .description {
+            padding: 0.5vw;
+            background-color: $primary-lowlight;
+        }
+    }
+
+    .section-hashtag {
+        .hashtag {
+            font-size: 130px;
+            margin: auto;
+        }
+        .hashtag-buttons {
+            display: inline-grid;
+            margin: 0 auto;
+            flex: 0 0 auto
+        }
+
+
+        @media screen and (max-width: 1114px){
+            flex-direction: column;
+
+            .hashtag {
+                font-size: 16vw;
+            }
+            .hashtag-buttons {
+                display: block;
+            }
+        }
+    }
+
+    .section-faq {
+        .faq {
+            border-top: 2px solid rgba(255, 255, 255, 0.3);
+
+            padding-top: 5px;
+            margin: auto;
+            width: 80%;
+
+            .question {
+                font-weight: bold;
+            }
         }
     }
 }
