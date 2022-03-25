@@ -1,0 +1,83 @@
+---
+layout: page
+styles:
+  - /css/main.css
+  - /css/ball/main.css
+title: CSS Ball
+---
+
+{% assign ball = site.data.ball.2022 %}
+
+<div class="text-center-div margin-top section-details">
+    <h1 class="title">
+        {{ball.name}} {{ball.year}}
+    </h1>
+    <h2 class="subsubtitle venue-date">
+        <span class="avoidwrap">{{ball.location}}</span> • <span class="avoidwrap">{{ball.date}}</span>
+    </h2>
+
+    <h2 class="subsubtitle countdown" id="count"><br></h2>
+
+    {% for link in ball.links %}
+        <a href='{{link.url}}' class="button {% if link.url == '' %}empty"{% else %}" href='{{link.url}}' {% endif %}>
+            {{link.text}}{% if link.url == '' %} (Coming Soon){% endif %}</a>
+    {% endfor %}
+</div>
+
+<div class="text-center-div margin-top section-venue" id="Venue">
+    <h2 class="subtitle mobile-only">The Venue</h2>
+    <img class="image" src="/assets/images/ball-22-venue.jpg" alt="Image of Fazeley Studios, where the CSS Ball is being held">
+    <div class="description text-center-div">
+        <h2 class="subtitle">The Venue</h2>
+        <p class="text-block">This year's Ball will take place at Fazeley Studios - a gorgeous renovated church in the heart of Digbeth.
+            We'll have exclusive access to various different rooms and facilities, including a bar, private courtyard, dining room, and of course the obligatory dancefloor.</p>
+    </div>
+</div>
+
+<div class="margin-top section-hashtag flex">
+    <h2 class="subtitle hashtag flex-l">#CSSBall22</h2>
+    <div class="hashtag-buttons text-center-div flex-r">
+        <a href='https://www.instagram.com/explore/tags/CSSBall22/' class="button">Instagram</a>
+        <a href='https://www.tiktok.com/tag/CSSBall22' class="button">TikTok</a>
+        <a href='https://twitter.com/hashtag/CSSBall22' class="button">Twitter</a>
+    </div>
+</div>
+
+<div class="margin-top margin-bottom section-map">
+    <iframe width="100%" height="400"
+    src="//umap.openstreetmap.fr/en/map/untitled-map_736360?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=null&onLoadPanel=undefined&captionBar=false&datalayers=2168470#13/52.4652/-1.9053">
+    </iframe>
+</div>
+
+<div class="text-center-div margin-bottom section-faq" id="FAQ">
+    <h2 class="subtitle">FAQs</h2>
+    {% for qanda in ball.faq %}
+        <div class="faq">
+        <h3 class="subsubtitle question">{{ qanda.question }}</h3>
+        <p class="text-block answer">{{ qanda.answer }}</p>
+        </div>
+    {% endfor %}
+</div>
+
+
+<script>
+    var countDownDate = new Date("Apr 27, 2022 19:00:00").getTime();
+
+    var x = setInterval(function() {
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("count").innerHTML = "<span class='avoidwrap'><span class='avoidwrap'>" + days + " Days <\span><span class='avoidwrap'>" + ("00" + hours).slice(-2) +
+            " Hours </span></span> <span class='avoidwrap'><span class='avoidwrap'>" + ("00" + minutes).slice(-2) + " Minutes <\span><span class='avoidwrap'> " + ("00" + seconds).slice(-2) +
+            " Seconds</span></span>";
+
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("count").innerHTML = "<a href='/join'>cssbham.com/join</a>";
+        }
+    }, 1000);
+</script>

@@ -1,0 +1,21 @@
+---
+layout: page
+styles:
+  - /css/main.css
+  - /css/ball/main.css
+title: CSS Ball
+---
+
+{% assign ball = site.data.ball.2020 %}
+
+<div class="text-center-div margin-top margin-botton">
+    <h1 class="title">
+        {{ ball.name }} - {{ ball.year }}
+    </h1>
+    <h2 class="text-block">
+        {{ ball.location }} - {{ ball.date }}
+    </h2>
+    <p class="text-block"> 
+        {{ ball.attendees }} people attendeed the CSS Ball in 2020.
+    </p>
+</div>
