@@ -142,7 +142,7 @@ body {
             font-size: 4vw;
         }
         .subsubtitle{
-            margin: 5vh 2vw;
+            margin: 5vh 1vw;
         }
         @media screen and (max-width: 800px) {
             .venue-date{
@@ -167,8 +167,8 @@ body {
             left: 0;
             width: 400px;
             height: 60vh;
-            background: linear-gradient(to left, #0000 0%, #0c0515d0 10%);
-            padding: 0 80px 0 20px;
+            background: linear-gradient(to left, #0000 0%, #0c0515d0 5%);
+            padding: 0 50px 0 20px;
             margin: 10px 0;
             max-height: 400px;
             .subtitle {
@@ -227,7 +227,7 @@ body {
 
             padding-top: 5px;
             margin: auto;
-            width: 80%;
+            width: 70%;
 
             .question {
                 font-weight: bold;
