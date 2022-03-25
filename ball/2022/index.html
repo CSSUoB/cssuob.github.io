@@ -24,14 +24,13 @@ title: CSS Ball
     {% endfor %}
 </div>
 
-<div class="text-center-div margin-top section-venue flex" id="Venue">
-
-    <div class="description text-center-div flex-l">
-        <h2 class="subtitle ">The Venue</h2>
-        <p class="text-block">description of where, what rooms, etc.</p>
-    </div>
-    <div class="image flex-r">
-        <p class="text-block">[image here]</p>
+<div class="text-center-div margin-top section-venue" id="Venue">
+    <h2 class="subtitle mobile-only">The Venue</h2>
+    <img class="image" src="/assets/images/ball-22-venue.jpg" alt="Image of Fazeley Studios, where the CSS Ball is being held">
+    <div class="description text-center-div">
+        <h2 class="subtitle">The Venue</h2>
+        <p class="text-block">This year's Ball will take place at Fazeley Studios - a gorgeous renovated church in the heart of Digbeth.
+            We'll have exclusive access to various different rooms and facilities, including a bar, private courtyard, dining room, and of course the obligatory dancefloor.</p>
     </div>
 </div>
 
@@ -72,9 +71,9 @@ title: CSS Ball
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        document.getElementById("count").innerHTML = "<span class='avoidwrap'>" + days + " Days " + ("00" + hours).slice(-2) +
-            " Hours</span> <span class='avoidwrap'>" + ("00" + minutes).slice(-2) + " Minutes " + ("00" + seconds).slice(-2) +
-            " Seconds</span>";
+        document.getElementById("count").innerHTML = "<span class='avoidwrap'><span class='avoidwrap'>" + days + " Days <\span><span class='avoidwrap'>" + ("00" + hours).slice(-2) +
+            " Hours </span></span> <span class='avoidwrap'><span class='avoidwrap'>" + ("00" + minutes).slice(-2) + " Minutes <\span><span class='avoidwrap'> " + ("00" + seconds).slice(-2) +
+            " Seconds</span></span>";
 
         if (distance < 0) {
             clearInterval(x);
