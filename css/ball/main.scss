@@ -145,6 +145,9 @@ body {
             margin: 5vh 1vw;
         }
         @media screen and (max-width: 800px) {
+            .title {
+                font-size: 20vw;
+            }
             .venue-date{
                 font-size: 69px;
             }
