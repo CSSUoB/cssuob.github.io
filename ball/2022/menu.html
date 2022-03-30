@@ -22,7 +22,12 @@ title: CSS Ball
     {% for section in ball.menu %}
         <h1 class="menu-section-title">{{ section[0] | capitalize }}</h1>
         {% for item in section[1] %}
-            <h2 class="menu-item">{{ item | upcase }}</h2>
+        <div class="menu-item-container ">
+            <h2 class="menu-item">{{ item.dish | upcase }}</h2>
+            {% if item.type %}
+            <h3 class="menu-type"> - {{ item.type | upcase }}</h3>
+            {% endif %}
+        </div>
         {% endfor %}
     {% endfor %}
 </div>
@@ -30,7 +35,8 @@ title: CSS Ball
 
 <div class="text-center-div margin-bottom">
     <p class="text-block">
+        A vegan version of each vegetarian option is available.
         Meals will be altered to account for any dietary requirements.
-        Please let us know when you purchase your ticket.
+        Please let us know what these are when you purchase your ticket.
     </p>
 </div>
