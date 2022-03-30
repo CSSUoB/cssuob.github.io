@@ -6,17 +6,20 @@ links:
   - text: Tickets
     url:  ''
   - text: Menu
-    url:  ''
+    url:  '\menu'
   - text: Venue
     url: '#Venue'
   - text: FAQs
     url: '#FAQ'
 menu:
-  starter:
-    - Halloumi, Olive & Sun Blushed Tomato Bruschetta, Rocket & Balsamic
-  main:
+  starters:
+    - Thai Sweet Chilli Beef, Coriander & Beansprout Salad
+    - Halloumi, Olive & Sun Blushed Tomato Bruschetta, Rocket & Balsamic (Veg)
+  mains:
     - Parma Ham Wrapped Chicken Fillet, Savoy Cabbage, Crushed New Potatoes, White Wine & Thyme Gravy
-  dessert:
+    - Wild Mushroom & Spinach En-Croute, Roast Butternut Squash, Buttered Green Beans, Truffle Crème Fraiche (Veg)
+  desserts:
+    - Strawberry & Raspberry Panna Cotta with Berry Sorbet
     - Dark Chocolate Tart with Vanilla Ice Cream
 faq:
   - question: What is a Ball?
