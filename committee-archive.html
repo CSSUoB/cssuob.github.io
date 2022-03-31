@@ -9,9 +9,39 @@ scripts:
 
 <h1>Committee Archive</h1>
 
-{% for committees in site.data.committee %}
+{% assign committees = site.data.committee %}
+{% for committees in committees reversed %}
   {% assign committee = committees[1] %}
-  {% unless committee.current == true %}
+  {% if committee.current == true %}
+    <h2>{{ committee.academic_year}}</h2>
+    <div class="person-container fadein-container">
+      {% for person in committee.people %}
+        {% if person.end-date %}
+          <div class="person fadein hidden">
+            <img class="picture" src="{{ person.picture | relative_url }}" alt="picture of {{ person.name }}">
+            <div class="details">
+              <span class="name">{{ person.name }}</span>
+              {% if person.pronouns %}
+                <span class="pronouns">
+                  {{person.pronouns}}
+                </span>
+              {% endif %}
+              <p class="role">
+                {{ person.role }}
+                |
+                {% if person.start-date and person.end-date %}
+                  {{ person.start-date | date: "%b %Y" }} -
+                  {{ person.end-date | date: "%b %Y" | default: "Present" }}
+                {% endif %}
+              </p>
+              <p class="bio">
+                {{ person.bio }}
+              </p>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+  {% else %}
     <h2>{{ committee.academic_year}}</h2>
     <div class="person-container fadein-container">
       {% for person in committee.people %}
@@ -33,6 +63,6 @@ scripts:
           </div>
         </div>
       {% endfor %}
-    {% endunless %}
+  {% endif %}
   </div>
 {% endfor %}

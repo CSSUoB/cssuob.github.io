@@ -30,6 +30,7 @@ scripts:
     {% assign committee = committees[1] %}
     {% if committee.current %}
       {% for person in committee.people %}
+        {% unless person.end-date %}
         <div class="person fadein hidden">
             <img class="picture" src="{{ person.picture | relative_url }}" alt="picture of {{ person.name }}">
           <div class="details">
@@ -44,12 +45,16 @@ scripts:
               {% if committee.prefix %}{{committee.prefix}}{% endif %}
               {{ person.role }}
               {% if committee.postfix %}{{committee.postfix}}{% endif %}
+              |
+              {{ person.start-date | date: "%b %Y" }} -
+              {{ person.end-date | date: "%b %Y" | default: "Present" }}
             </p>
             <p class="bio">
               {{ person.bio }}
             </p>
           </div>
         </div>
+        {% endunless %}
       {% endfor %}
     {% endif %}
   {% endfor %}
