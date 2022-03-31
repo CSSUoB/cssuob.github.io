@@ -23,8 +23,9 @@ menu:
     - dish: Wild Mushroom & Spinach En-Croute, Roast Butternut Squash, Buttered Green Beans, Truffle Crème Fraiche
       type: vegetarian & vegan
   desserts:
-    - dish: Strawberry & Raspberry Panna Cotta with Berry Sorbet
     - dish: Dark Chocolate Tart with Vanilla Ice Cream
+    - dish: Strawberry & Raspberry Panna Cotta with Berry Sorbet
+      type: vegan
 faq:
   - question: What is a Ball?
     answer: A ball is a solid or hollow spherical or egg-shaped object that is kicked, thrown, or hit in a game. <br><br> Ok but seriously, a Ball is an opportunity to come together and celebrate the year. Many societies hold them for their members and we're no different. Our annual Ball is the biggest night of the year so if you're not attending you're really missing out.
