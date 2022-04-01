@@ -6,18 +6,26 @@ links:
   - text: Tickets
     url:  ''
   - text: Menu
-    url:  ''
+    url:  '\ball\2022\menu'
   - text: Venue
     url: '#Venue'
   - text: FAQs
     url: '#FAQ'
 menu:
-  starter:
-    - Halloumi, Olive & Sun Blushed Tomato Bruschetta, Rocket & Balsamic
-  main:
-    - Parma Ham Wrapped Chicken Fillet, Savoy Cabbage, Crushed New Potatoes, White Wine & Thyme Gravy
-  dessert:
-    - Dark Chocolate Tart with Vanilla Ice Cream
+  starters:
+    - dish: Thai Sweet Chilli Beef, Coriander & Beansprout Salad
+      type: meat
+    - dish: Halloumi, Olive & Sun Blushed Tomato Bruschetta, Rocket & Balsamic
+      type: vegetarian & vegan
+  mains:
+    - dish: Parma Ham Wrapped Chicken Fillet, Savoy Cabbage, Crushed New Potatoes, White Wine & Thyme Gravy
+      type: meat
+    - dish: Wild Mushroom & Spinach En-Croute, Roast Butternut Squash, Buttered Green Beans, Truffle Crème Fraiche
+      type: vegetarian & vegan
+  desserts:
+    - dish: Dark Chocolate Tart with Vanilla Ice Cream
+    - dish: Strawberry & Raspberry Panna Cotta with Berry Sorbet
+      type: vegan
 faq:
   - question: What is a Ball?
     answer: A ball is a solid or hollow spherical or egg-shaped object that is kicked, thrown, or hit in a game. <br><br> Ok but seriously, a Ball is an opportunity to come together and celebrate the year. Many societies hold them for their members and we're no different. Our annual Ball is the biggest night of the year so if you're not attending you're really missing out.

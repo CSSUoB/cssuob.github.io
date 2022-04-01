@@ -242,12 +242,26 @@ body {
 .menu {
     .menu-section-title {
         font-size: 60px;
-        margin-top: 2.5vh;
+        margin-top: 5vh;
         font-family: $font-primary;
+    }
+
+    .menu-item-container {
+        padding: 10pt;
+        border-top: 2px solid rgba(255, 255, 255, 0.3);
+        margin: auto;
+        width: 80%;
     }
     
     .menu-item {
         font-family: $font-secondary;
         margin-bottom: 2.5vh;
+        display: inline;
+    }
+
+    .menu-type {
+        font-family: $font-secondary;
+        color: $secondary-background;
+        display: inline;
     }
 }
