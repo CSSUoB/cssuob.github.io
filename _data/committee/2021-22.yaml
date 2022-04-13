@@ -35,6 +35,17 @@ people:
       It's my job to organise and minute the meetings, as well as ensuring everyone's doing awesome. 
       I love coding, JoJo, boba, many sports and spending time with friends. Feel free to have a chat with me whenever! ❤️
 
+  - name: Victoria Tilley
+    pronouns: She/They
+    discordtag: Sapphyre#5656
+    role: Secretary
+    picture: /assets/committee/2021-22/mini/victoria.jpg
+    start-date: 29/1/2022
+    bio: >
+      Heya! I'm Victoria, a second year who will be your Secretary for this year.
+      It's my job to make sure CSS' meetings are organised and minuted and generally help out everywhere else.
+      Outside of this, I enjoy web development, airsoft, snowboarding and playing guitar. Come to me if you need anything!
+
   - name: Jacob Wilson
     pronouns: He/Him
     discordtag: BladorthinGrey#8528
@@ -59,6 +70,18 @@ people:
       I enjoy cycling, reading and drawing as well as programming, of course. 
       I’m hoping to make sure that all first year students settle into our school as comfortably as possible and give them many opportunities to socialise, 
       make friends and learn more about what computer science has to offer 💜.
+
+  - name: Gokul Menon
+    pronouns: He/Him
+    discordtag: laterflow#8193
+    role: First Year Rep
+    start-date: 20/10/2021
+    picture: /assets/committee/2021-22/mini/gokul.png
+    bio: >
+        Hey everyone! I’m Gokul, a CS student who is the First year representative for CSS this year.
+        My job is to ensure all first years enjoy their time at CSS and more generally at university.
+        I have many hobbies, including programming, recreational maths, puzzle solving and video games.
+        I'm always happy to help so always feel welcome to message me on Discord or approach me on campus!
 
   - name: Mohammed Aamaan
     pronouns: He/Him
@@ -104,16 +127,28 @@ people:
       I love cosplaying, playing games, art, photography, baking, collecting sanrio merch, & puzzle solving. 
       I'm always happy to meet new people so always feel welcome to message me or approach me if you see me on campus. 🌱
 
-  - name: Ryan Arrowsmith
+  - name: Raine Arrowsmith
     pronouns: He/Him
     discordtag: Raine#8544
     role: Sports Secretary
-    picture: /assets/committee/2021-22/mini/ryan.png
+    picture: /assets/committee/2021-22/mini/raine.png
     start-date: 1/7/2021
     end-date: 15/1/2022
     bio: >
-      Hello, I'm Ryan and I'm going into my 2nd year studying Computer Science. I will be responsible for all of your sports and e-Sports events this year -- 
+      Hello, I'm Raine and I'm going into my 2nd year studying Computer Science. I will be responsible for all of your sports and e-Sports events this year --
       please let me know what you want to see! When I'm not sleeping I'm either speedrunning, participating in hackathons or working on programming projects.
+
+  - name: Aarogya Yadav
+    pronouns: He/Him
+    discordtag: Arcane34#4178
+    role: Sports Secretary
+    picture: /assets/committee/2021-22/mini/aarogya.jpg
+    start-date: 15/2/2022
+    bio: >
+      Well Hello there! I'm Aarogya but feel free to call me "Arrow" because pronunciation can be difficult,
+      I'm a 1st year studying CS and I'll be handling any suggestions on activities and sports you'd like to be
+      run during my time as Sports Secretary. At the end of the day, I like nothing more than to meet new people
+      so feel free to approach me anytime! 😄
 
   - name: Victoria Tilley
     pronouns: She/Her, They/Them
@@ -125,29 +160,41 @@ people:
     bio: >
       Heya! I'm Victoria and this year I'll be making sure that everyone feels included and represented at all of our events and in our School. 
       Outside of this, I enjoy game development, airsoft, snowboarding and playing guitar. Come to me if you need anything!
-  
-  - name: Victoria Tilley
-    pronouns: She/Her, They/Them
-    discordtag: Sapphyre#5656
-    role: Secretary
-    picture: /assets/committee/2021-22/mini/victoria.jpg
-    start-date: 29/1/2022
-    bio: >
-      Heya! I'm Victoria and this year I'll be making sure that everyone feels included and represented at all of our events and in our School. 
-      Outside of this, I enjoy game development, airsoft, snowboarding and playing guitar. Come to me if you need anything!
 
+  - name: Tori
+    pronouns: Xe/Xem
+    discordtag: torisucks2020#7193
+    role: Equality, Diversity, and Inclusivity Officer
+    picture: /assets/committee/2021-22/mini/tori.jpg
+    start-date: 15/2/2022
+    bio: >
+      Hi! I'm Tori, I'm a first year doing Comp Sci/ Software Engineering MEng with an Industrial Year. 
+      As the EDI officer I'm in charge if making sure that everyone feels represented, equal and safe within CS. 
+      I'm also an ambassador for CS and love spending time with all the people here.
+  
   - name: Lyndon Chan
     pronouns: He/Him
     discordtag: LyndonChan#5225
     role: Industrial Liaison
     picture: /assets/committee/2021-22/mini/lyndon.jpg
     start-date: 1/7/2021
-    end-date: 15/2/2021
+    end-date: 15/2/2022
     bio: >
       Hi everyone. I am Lyndon, the Industrial Liaison of CSS this year. 
       My role is to build connection between the industry and the society by organizing different careers events. 
       I hope all of you will find them meaningful and helpful, especially for your personal development and future career.
       In my spare time, I like playing basketball and watching anime. I am looking forward to meeting you all.
+
+  - name: Matty Widdop
+    pronouns: He/Him
+    discordtag: Matty#5687
+    role: Industrial Liaison
+    picture: /assets/committee/2021-22/mini/matty.jpg
+    start-date: 15/2/2022
+    bio: >
+      Hello! I'm Matty, your industrial liaison so I'll be handling communication and organisation with external companies to arrange sponsorships and events
+      to help make sure CSS is providing the best possible experience for members. My interest in CS started with programming Minecraft plugins nearly 8 years
+      ago but since then I've also gotten into cyber security as well. I also enjoy Jiu Jitsu, and would love to get more people involved!
 
   - name: James Dickinson
     discordtag: jamesdickinson#3403
