@@ -39,8 +39,10 @@ faq:
     answer: Tickets will cost £42.50. The Guild will also add on a booking fee - we can't do anything about that.
   - question: Can I bring a guest?
     answer: Yes, though they'll need a guest ticket to attend - these will be available for purchase on Thursday 14th April.
+  - question: Will I need to show my ticket when I arrive?
+    answer: No, we'll have a list of everyone who has bought a ticket so you'll just need to give your name and head right in. 
   - question: Who will I sit next to?
-    answer: We'll ask you for the names of up to 2 people who you would like to sit near. We'll try our best to sit people near their friends, but we can't make promises you'll be next to both.
+    answer: We'll ask you for the names of up to 2 people who you would like to sit near. We'll try our best to sit people near their friends, but we can't make promises you'll be next to both.<br><br> If you bring a Guest we will make sure you're sat with them, but please be sure to put them in as your seating preference.
   - question: What about my dietary requirements?
     answer: Fazeley Studios can handle catering for most dietary requirements, and there will be vegan and gluten free options. Make sure to let us know any dietary requirements when you purchase your ticket.
   - question: What about fasting for Ramadan?
