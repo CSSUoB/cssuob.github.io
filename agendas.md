@@ -55,3 +55,14 @@ title: Agendas
 
 ### October
 - [EGM - agenda_21_10_20.pdf](/assets/agendas/agenda_21_10_20.pdf)
+
+## 2022
+
+### January
+- [EGM - agenda_22_01_28.pdf](/assets/agendas/agenda_22_01_28.pdf)
+
+### February
+- [EGM - agenda_22_02_15.pdf](/assets/agendas/agenda_22_02_15.pdf)
+
+### May
+- [AGM - agenda_22_05_04.pdf](/assets/agendas/agenda_22_05_04.pdf)

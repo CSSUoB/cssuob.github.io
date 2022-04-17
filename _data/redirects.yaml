@@ -76,9 +76,9 @@
 - source: /calender
   destination: /calendar
 
-# EGM 2022
-- source: /egm/agenda
-  destination: /assets/agendas/agenda_22_02_15.pdf
+# AGM 2022
+- source: /agm/agenda
+  destination: /assets/agendas/agenda_22_05_04.pdf
 
 # Bletchley Park
 - source: /bletchley-park
