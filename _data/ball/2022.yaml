@@ -3,8 +3,6 @@ year: 2022
 location: Fazeley Studios
 date: 27th April
 links: 
-  - text: Tickets
-    url:  'https://www.guildofstudents.com/events/6531/6529/'
   - text: Menu
     url:  '\ball\2022\menu'
   - text: Venue
@@ -32,13 +30,11 @@ faq:
   - question: What will be there?
     answer: Balls usually have a 3 course meal, a bar, and a dancefloor. We'll have all that, a live DJ, and a photobooth.
   - question: When can I buy tickets?
-    answer: Tickets are live now! Use the link at the top of the page.
-  - question: The ticket link isn't working :(
-    answer: Make sure you're logged in to the Guild website, otherwise it'll say that the content is unavailable. <br><br>You also need to be a member to buy a ticket. If you're not one already you can go to <a href="https://cssbham.com/join">cssbham.com/join</a> to become a member
-  - question: How much will tickets cost?
-    answer: Tickets will cost £42.50. The Guild will also add on a booking fee - we can't do anything about that.
-  - question: Can I bring a guest?
-    answer: Yes, though they'll need a guest ticket to attend - these will be available for purchase on Thursday 14th April.
+    answer: Tickets are now closed for the 2022 Ball.
+  - question: How much did tickets cost?
+    answer: Tickets were £42.50. The Guild also added on a booking fee - we couldn't do anything about that.
+  - question: Could I bring a guest?
+    answer: Yes, though they needed a guest ticket to attend.
   - question: Will I need to show my ticket when I arrive?
     answer: No, we'll have a list of everyone who has bought a ticket so you'll just need to give your name and head right in. 
   - question: Who will I sit next to?
