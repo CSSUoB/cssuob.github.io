@@ -9,6 +9,8 @@ links:
     url: '#Venue'
   - text: FAQs
     url: '#FAQ'
+  - text: Photos
+    url: '\ball\2022\photos'
 menu:
   starters:
     - dish: Thai Sweet Chilli Beef, Coriander & Beansprout Salad
