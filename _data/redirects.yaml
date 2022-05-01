@@ -54,7 +54,7 @@
 - source: /soon
   destination: /ball/2022
 - source: /ball/2022/photos
-  destinaton: https://photos.app.goo.gl/cnmi9Hm7BgdnzYr6A
+  destination: https://photos.app.goo.gl/cnmi9Hm7BgdnzYr6A
 
 # GDSC: Python Workshop 13/10/2021
 - source: /python
