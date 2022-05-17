@@ -87,3 +87,7 @@
 # Bletchley Park
 - source: /bletchley-park
   destination: https://www.guildofstudents.com/events/6531/6398/
+
+# BBQ
+- source: /bbq
+  destination: https://www.eventbrite.co.uk/e/css-bbq-2022-tickets-343681248867
