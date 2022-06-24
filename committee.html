@@ -21,10 +21,16 @@ scripts:
 <p>
   You can also find all of the agendas from our committee meetings <a href="../agendas">here</a>.
 <p>
-  {% assign count = site.data.committee.2021-22.people.size %}
-  {% for member in site.data.committee.2021-22.people %}
-    {% if member.end-date %}
-      {% assign count = count | minus:1 %}
+  {% for committees in site.data.committee %}
+    {% assign committee = committees[1] %}
+    {% if committee.current %}
+      {% assign current_committee = committee %}
+      {% assign count = current_committee.people.size %}
+      {% for member in current_committee.people %}
+        {% if member.end-date %}
+          {% assign count = count | minus:1 %}
+        {% endif %}
+      {% endfor %}
     {% endif %}
   {% endfor %}
   Currently {{ count }} elected members for 2021/22:
