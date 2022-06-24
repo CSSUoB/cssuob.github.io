@@ -21,7 +21,13 @@ scripts:
 <p>
   You can also find all of the agendas from our committee meetings <a href="../agendas">here</a>.
 <p>
-  Currently 13 elected members for 2021/22:
+  {% assign count = site.data.committee.2021-22.people.size %}
+  {% for member in site.data.committee.2021-22.people %}
+    {% if member.end-date %}
+      {% assign count = count | minus:1 %}
+    {% endif %}
+  {% endfor %}
+  Currently {{ count }} elected members for 2021/22:
 </p>
 
 
