@@ -3,17 +3,17 @@
 
 # Global Owners
 # Default requesters
-* @LikkanChung @Danyc0
+* @JTWWilson @Danyc0 @LMBishop @MattyTheHacker @rainestormee @sapphyree
 
 # Backend
-/_scrips/ @LikkanChung @Danyc0
-/admin/ @LikkanChung @Danyc0
-Dockerfile @LikkanChung @Danyc0
-Gemfile @LikkanChung @Danyc0
-Gemfile.lock @LikkanChung @Danyc0
+/_scrips/ @Danyc0
+/admin/ @Danyc0
+Dockerfile @Danyc0
+Gemfile @Danyc0
+Gemfile.lock  @Danyc0
 
 # Frontend
-/collections/ @AlexJBanks @LikkanChung @Danyc0
-/_data/redirects.yaml @AlexJBanks @LikkanChung @Danyc0
-*.html @AlexJBanks @LikkanChung @Danyc0
-*.md @AlexJBanks @LikkanChung @Danyc0
+/collections/ @Danyc0
+/_data/redirects.yaml @Danyc0
+*.html @Danyc0
+*.md @Danyc0
