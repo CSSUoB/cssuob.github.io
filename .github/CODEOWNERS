@@ -4,16 +4,3 @@
 # Global Owners
 # Default requesters
 * @JTWWilson @Danyc0 @LMBishop @MattyTheHacker @rainestormee @sapphyree
-
-# Backend
-/_scrips/ @Danyc0
-/admin/ @Danyc0
-Dockerfile @Danyc0
-Gemfile @Danyc0
-Gemfile.lock  @Danyc0
-
-# Frontend
-/collections/ @Danyc0
-/_data/redirects.yaml @Danyc0
-*.html @Danyc0
-*.md @Danyc0
