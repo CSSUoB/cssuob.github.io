@@ -89,11 +89,11 @@ h1, h2, h3, h4 {
     align-items: center;
     display: grid;
     gap: 30px;
-    grid-template-columns: repeat(2, 250px);
+    grid-template-columns: repeat(3, 230px);
   }
 
-  @media (max-width: 600px){
-    #guild-and-uob-images{
+  @media (max-width: 1000px){
+    #guild-and-uob-images {
       justify-content: center;
       align-items: center;
       display: grid;
