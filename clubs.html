@@ -8,7 +8,7 @@ scripts:
 ---
 
 <a class="dsc-logo" href="https://developers.google.com/community/dsc/">
-  <img src="/assets/dsc.png" />
+  <img alt="Developer Student Clubs University of Birmingham" src="/assets/dsc.png" />
 </a>
 
 <div class="dsc-description text-container">
@@ -46,7 +46,7 @@ scripts:
   {% assign session = site.clubs.last %}
   <div class="club recent fadein">
     {% if session.header-image %}
-    <img class="header-image" src="{{ session.header-image | relative_url }}" />
+    <img alt="{{ session.title }}" class="header-image" src="{{ session.header-image | relative_url }}" />
     {% endif %}
     <div class="details">
       <h2>{{ session.title }}</h2>
@@ -63,6 +63,7 @@ scripts:
     <div class="club not-recent fadein">
       {% if session.header-image %}
       <img
+        alt="{{ session.title }}"
         class="header-image"
         src="{{ session.header-image | relative_url }}"
       />
