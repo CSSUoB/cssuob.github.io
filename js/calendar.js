@@ -118,18 +118,22 @@ function loadEvent(event) {
 		let space = " ";
 		let allDay = eventData.allDay;
 		let startMinute = ("0" + eventData.start.getMinutes()).slice(-2);
-		let endMinute = ("0" + eventData.end.getMinutes()).slice(-2);
+		let endMinute = ("0" + eventData.end?.getMinutes()).slice(-2);
 		let startHour = ("0" + eventData.start.getHours()).slice(-2);
-		let endHour = ("0" + eventData.end.getHours()).slice(-2);
+		let endHour = ("0" + eventData.end?.getHours()).slice(-2);
 		let startDay = eventData.start.getDate();
-		let endDay = eventData.end.getDate();
+		let endDay = eventData.end?.getDate();
 		let startMonth = eventData.start.getMonth();
-		let endMonth = eventData.end.getMonth();
+		let endMonth = eventData.end?.getMonth();
 		let startYear = eventData.start.getFullYear()
-		let endYear = eventData.end.getFullYear();
+		let endYear = eventData.end?.getFullYear();
 		let startDate = "";
 		let endDate = "";
-		if (startYear != endYear) {
+		if (!eventData.end) {
+			// no end date
+			startDate = startDay + space + MONTHS[startMonth] + space + startYear + space + startHour + colon + startMinute;
+			dash = "";
+		} else if (startYear != endYear) {
 			// years differ - "dd MMM YYYY - dd MMM YYYY"
 			startDate = startDay + space + MONTHS[startMonth] + space + startYear;
 			endDate = endDay + space + MONTHS[endMonth] + space + endYear;
