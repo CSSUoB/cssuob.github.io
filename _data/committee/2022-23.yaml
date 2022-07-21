@@ -18,8 +18,8 @@ people:
     picture: /assets/committee/2022-23/mini/juozas.jpg
     start-date: 1/7/2022
     bio: >
-      Hey, I'm Juozas, and am currently on a Year in Industry. I'm the treasurer, meaning I keep track of the money that CSS 
-      deals with, and help with making events happen! When not in an office in the city center, I like to read fantasy and SF 
+      Hey, I'm Juozas and I am currently on a Year in Industry. I'm the treasurer, meaning I keep track of the money that CSS 
+      deals with and help with making events happen! When not in an office in the city centre, I like to read fantasy and SF 
       (if you have any recommendations, let me know!); make computer hardware do stuff it was never meant to; and try to form 
       the ultimate ritual to make the perfect cup of coffee.
 
@@ -41,9 +41,9 @@ people:
     picture: /assets/committee/2022-23/mini/v.png
     start-date: 1/7/2022
     bio: >
-      Hiya! My role in the society is to help out where I can across all committee positions and make sure that everyone is 
-      doing well. CSS members will know me from hosting a bunch of Workshops, posting plenty of memes in the CSS Discord or 
-      just hanging around CS. If I'm not working, I'm probably programming in my spare time, playing videogames or listening 
+      Hiya! My role in the society is to help out where I can across all the committee positions and make sure that everyone is 
+      doing well. CSS members will know me from hosting a bunch of workshops, posting plenty of memes in the CSS Discord or 
+      just hanging around CS. If I'm not working, I'm probably programming in my spare time, playing video games or listening 
       to a lot of music. Feel free to come to me if you need anything!
 
   - name: Adi
@@ -55,7 +55,7 @@ people:
     bio: >
       Hey guys! My name is Adi and I'm the International Student Rep for this year. My main role is to look after all the 
       international students in the society, make sure they're comfortable and answer any sort of questions they might have. 
-      Also encouraging them to become members of the society and attend more events. Other than that I love music, poetry, 
+      I also encourage them to become members of the society and attend more events. Other than that I love music, poetry, 
       cooking and gaming :)
 
   - name: Fatima Zahra Al Hajji
@@ -67,7 +67,7 @@ people:
     bio: >
       Hello everyone. My name is Fatima Zahra Al Hajji and I'm a final year student on the course of AI and CS with a year 
       in industry. I enjoy cycling, reading and drawing in my free time. As the publicity officer, I aim to ensure that all 
-      our members know about all the amazing events that take place throughout the year and encourage as many people to join
+      our members know about all the amazing events that take place throughout the year and encourage as many people as I can to join
       our society and participate. Feel free to approach me and ask me anything! 💜
 
   - name: Leonardo Bishop
@@ -78,7 +78,7 @@ people:
     start-date: 1/7/2022
     bio: >
       Hi! I'm Leonardo, a second year studying Computer Science. I'm responsible for organising large scale CSS events, such 
-      as the BBQ, Christmas meal, ball, and helping with other events. Outside of CSS, I enjoy robotics, cybersecurity, 
+      as the BBQ, Christmas meal, Ball and helping with other events. Outside of CSS, I enjoy robotics, cybersecurity, 
       gaming, and Formula 1. 🏎 
 
   - name: Leaf
@@ -88,7 +88,7 @@ people:
     picture: /assets/committee/2022-23/mini/leaf.jpg
     start-date: 1/7/2022
     bio: >
-      My role on committee is organizing fun socials, workshops, & meetups for members. Outside of enjoying programming, I love 
+      My role on committee is organising fun socials, workshops, & meetups for members. Outside of enjoying programming, I love 
       cosplaying, playing games, art, photography, baking, collecting sanrio merch, & puzzle solving. I'm always happy to meet 
       new people so always feel welcome to message me or approach me if you see me on campus. 🌱
 
@@ -99,7 +99,7 @@ people:
     picture: /assets/committee/2022-23/mini/aarogya.jpg
     start-date: 1/7/2022
     bio: >
-      Well Hello there! I'm Aarogya but feel free to call me "Arrow" because pronunciation can be difficult, I'm a 1st year 
+      Well Hello there! I'm Aarogya but feel free to call me "Arrow" because pronunciation can be difficult, I'm a 2nd year 
       studying CS and I'll be handling any suggestions on activities and sports you'd like to be run during my time as Sports 
       Secretary. At the end of the day, I like nothing more than to meet new people so feel free to approach me anytime! 😄
 
@@ -110,8 +110,8 @@ people:
     picture: /assets/committee/2022-23/mini/sofia.png
     start-date: 1/7/2022
     bio: >
-      Hiya! I'm Sofia, a second year and the EDI Officer of CSS! I work on making sure that all CSS members are properly 
-      represented as well as ensuring all CSS events and School programs are safe, diverse and equal for all. Other than 
+      Hiya! I'm Sofia, a second year and the EDI Officer of CSS! I work to make sure that all CSS members are properly 
+      represented as well as ensuring all CSS events and School programmes are safe, diverse and equal for all. Other than 
       CS, I enjoy reading sci-fi novels, playing D&D and listening to a lot of music! Please come to me if you need anything 
       or want to chat <3
 
@@ -125,7 +125,7 @@ people:
       Hello! I'm Matty, your industrial liaison so I'll be handling communication and organisation with external companies to 
       arrange sponsorships and events to help make sure CSS is providing the best possible experience for members. My interest 
       in CS started with programming Minecraft plugins nearly 8 years ago but since then I've also gotten into cyber security as 
-      well. I also enjoy Jiu Jitsu, and would love to get more people involved!
+      well. I also enjoy Jiu Jitsu and would love to get more people involved!
 
   - name: Dan Clark
     pronouns: He/Him
@@ -134,7 +134,7 @@ people:
     picture: /assets/committee/2022-23/mini/dan.png
     start-date: 1/7/2022
     bio: >
-      My job this year is to get more PhD and MRes students involved in CSS events.My research is in Cyber Security, focusing on 
+      My job this year is to get more PhD and MRes students involved in CSS events. My research is in Cyber Security, focusing on 
       the (in)security of Bluetooth. Outside of that, I enjoy competing in CTF competitions and Rock Climbing. I was the CSS PGT 
       rep during my MSc back in 2016/17, went to work for a few years then came back to UoB in 2019 and have been PGR rep ever 
       since.
