@@ -4,9 +4,11 @@
 
 on:
   push:
-    - '*'
+    branches:
+      - '*'
   merge:
-    - '*'
+    branches:
+      - '*'
 
 jobs:
   build:
