@@ -1,6 +1,13 @@
 #################
 # Start the Job #
 #################
+
+on:
+  push:
+    - '*'
+  merge:
+    - '*'
+
 jobs:
   build:
     # Name the Job
