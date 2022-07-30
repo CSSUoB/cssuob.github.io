@@ -9,11 +9,11 @@ scripts:
 
 <h1>Committee Archive</h1>
 
-{% assign committees = site.data.committee %}
-{% for committees in committees reversed %}
+{% assign committees = site.data.committee | sort %}
+{% for committees in committees %}
   {% assign committee = committees[1] %}
   {% if committee.current == true %}
-    <h2>{{ committee.academic_year}}</h2>
+    <h2>{{ committee.academic_year }}</h2>
     <div class="person-container fadein-container">
       {% for person in committee.people %}
         {% if person.end-date %}
@@ -42,7 +42,7 @@ scripts:
         {% endif %}
       {% endfor %}
   {% else %}
-    <h2>{{ committee.academic_year}}</h2>
+    <h2>{{ committee.academic_year }}</h2>
     <div class="person-container fadein-container">
       {% for person in committee.people %}
         <div class="person fadein hidden">
