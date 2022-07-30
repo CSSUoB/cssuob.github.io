@@ -10,7 +10,7 @@ scripts:
 <h1>Committee Archive</h1>
 
 {% assign committees = site.data.committee | sort %}
-{% for committees in committees %}
+{% for committees in committees reversed %}
   {% assign committee = committees[1] %}
   {% if committee.current == true %}
     <h2>{{ committee.academic_year }}</h2>
