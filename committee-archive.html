@@ -13,6 +13,14 @@ scripts:
 {% for committees in committees reversed %}
   {% assign committee = committees[1] %}
   {% if committee.current == true %}
+    {% assign empty_list = true %}
+    {% for member in committee.people %}
+      {% if member.end-date %}
+        {% assign empty_list = false %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    {% unless empty_list %}
     <h2>{{ committee.academic_year }}</h2>
     <div class="person-container fadein-container">
       {% for person in committee.people %}
@@ -41,6 +49,7 @@ scripts:
           </div>
         {% endif %}
       {% endfor %}
+    {% endunless %}
   {% else %}
     <h2>{{ committee.academic_year }}</h2>
     <div class="person-container fadein-container">
