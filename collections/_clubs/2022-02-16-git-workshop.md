@@ -1,5 +1,6 @@
 ---
 title: "Git Workshop"
+header-image: /assets/images/git-workshop-22.png
 ---
 
 Victoria and Dan hosted a "Git Workshop" as an introduction for first years and second years to Git - a version control system widely used in industry and by ourselves.
