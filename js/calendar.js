@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			googleCalendarId: CALENDAR_ID
 		},
 		eventColor: '#9d68dc',
-		eventClick: function(event) {
+		eventClick: function (event) {
 			loadEvent(event);
 		}
 	});
@@ -178,13 +178,15 @@ function loadEvent(event) {
 		let eventFacebookLinkElement = document.getElementById("facebook-link");
 		let link = parseFacebookLink(eventDataExtended.description);
 		if (link) {
-			eventFacebookLinkElement.onclick = () => {window.open(link)};
+			eventFacebookLinkElement.onclick = () => {
+				window.open(link)
+			};
 			eventFacebookLinkElement.style.display = "inline";
 		} else {
 			// catches null regex matches
 			eventFacebookLinkElement.style.display = "none";
 		}
-	
+
 		// set text
 		document.getElementById("event-text-title").textContent = title;
 		document.getElementById("event-text-date").textContent = date;
@@ -193,13 +195,12 @@ function loadEvent(event) {
 		for (let line in description) {
 			descStr += description[line].toString() + "\r\n";
 		}
-		document.getElementById("event-text-description").textContent = descStr; 
+		document.getElementById("event-text-description").textContent = descStr;
 		document.getElementById('calendar-event').style.display = "block"; //show
 	} else {
 		//null event
 		console.error("Event is null");
 	}
-	
 }
 
 function hideEvent() {
@@ -229,7 +230,6 @@ function parseDescription(description) {
 	} else {
 		return retDesc;
 	}
-	
 }
 
 function parseFacebookLink(description) {
@@ -249,6 +249,6 @@ function parseFacebookLink(description) {
 	match = regexA.exec(retLink);
 	if (match != null) {
 		retLink = match[1];
-	} 
+	}
 	return retLink;
 }
