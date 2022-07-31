@@ -33,7 +33,7 @@ pre.ascii {
 
     &[c="_"],
     &[c="$"] {
-      color: #ff9c00;
+      color: #FF9C00;
     }
 
     &[c=";"],
@@ -42,14 +42,14 @@ pre.ascii {
     &[c=")"],
     &[c="!"],
     &[c="="] {
-      color: #fff;
+      color: #FFF;
     }
 
     &[c="["],
     &[c="]"],
     &[c="{"],
     &[c="}"] {
-      color: #58cad6;
+      color: #58CAD6;
     }
 
     &[c="0"],
@@ -62,11 +62,11 @@ pre.ascii {
     &[c="7"],
     &[c="8"],
     &[c="9"] {
-      color: #03e421;
+      color: #03E421;
     }
 
     &[c="comment"] {
-      color: #fdff8a;
+      color: #FDFF8A;
       * {
         color: inherit;
       }

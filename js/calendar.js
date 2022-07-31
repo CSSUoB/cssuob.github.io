@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		events: {
 			googleCalendarId: CALENDAR_ID
 		},
-		eventColor: '#9d68dc',
+		eventColor: '#9D68DC',
 		eventClick: function (event) {
 			loadEvent(event);
 		}

@@ -5,14 +5,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&family=Ovo&display=swap");
 
 $primary-background: #241040;
-$primary-lowlight: #0c0515;
+$primary-lowlight: #0C0515;
 
-$secondary-highlight: #e4d05f;
-$secondary-background: #cbb347;
-$secondary-lowlight: #79651b;
+$secondary-highlight: #E4D05F;
+$secondary-background: #CBB347;
+$secondary-lowlight: #79651B;
 $secondary-text: #000;
 
-$text: #fff;
+$text: #FFF;
 
 $font-primary: "Gentium Book Basic", "CMUSerifRoman", serif;
 $font-secondary: "Ovo", serif;
@@ -175,7 +175,7 @@ body {
             left: 0;
             width: 400px;
             height: 60vh;
-            background: linear-gradient(to left, #0000 0%, #0c0515d0 5%);
+            background: linear-gradient(to left, #0000 0%, #0C0515D0 5%);
             padding: 0 50px 0 20px;
             margin: 10px 0;
             max-height: 500px;
@@ -251,7 +251,7 @@ body {
             right: 0;
             width: 400px;
             height: 60vh;
-            background: linear-gradient(to right, #0000 0%, #0c0515d0 5%);
+            background: linear-gradient(to right, #0000 0%, #0C0515D0 5%);
             padding: 0 20px 0 50px;
             margin: 10px 0;
             max-height: 500px;
