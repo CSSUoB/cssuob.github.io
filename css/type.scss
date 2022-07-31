@@ -51,6 +51,7 @@ pre.ascii {
     &[c="}"] {
       color: #58cad6;
     }
+
     &[c="0"],
     &[c="1"],
     &[c="2"],
@@ -90,67 +91,88 @@ pre.ascii {
     &.d1 {
       animation-delay: 0.5s;
     }
+    
     &.d2 {
       animation-delay: 0.7s;
     }
+
     &.d3 {
       animation-delay: 0.9s;
     }
+
     &.d4 {
       animation-delay: 1.1s;
     }
+
     &.d5 {
       animation-delay: 1.3s;
     }
+
     &.d6 {
       animation-delay: 1.5s;
     }
+
     &.d7 {
       animation-delay: 1.7s;
     }
+
     &.d8 {
       animation-delay: 1.9s;
     }
+
     &.d9 {
       animation-delay: 2.1s;
     }
+
     &.d10 {
       animation-delay: 2.3s;
     }
+
     &.d11 {
       animation-delay: 2.5s;
     }
+
     &.d12 {
       animation-delay: 2.7s;
     }
+
     &.d13 {
       animation-delay: 2.9s;
     }
+    
     &.d14 {
       animation-delay: 3.1s;
     }
+
     &.d15 {
       animation-delay: 3.3s;
     }
+
     &.d16 {
       animation-delay: 3.5s;
     }
+
     &.d17 {
       animation-delay: 3.7s;
     }
+
     &.d18 {
       animation-delay: 3.9s;
     }
+
     &.d19 {
       animation-delay: 4.1s;
     }
+
     &.d20 {
       animation-delay: 4.3s;
     }
+
     &.d21 {
       animation-delay: 4.5s;
     }
   }
+
   abbr[title] .delay {
     line-height: 1;
   }
@@ -160,6 +182,7 @@ pre.ascii {
   from {
     width: 0;
   }
+  
   to {
     width: 100%;
   }

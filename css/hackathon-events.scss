@@ -39,14 +39,14 @@ html {
   display: table;
 }
 
-
 .name {
   font-size: large;
 }
 
-.date { 
+.date {
   font-size: small;
 }
+
 .name, .date {
   color: black;
   text-align: center;
@@ -58,12 +58,12 @@ html {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #2E3C62;
+  background-color: #2e3c62;
   text-align: center;
   cursor: pointer;
   width: 100%;
 }
 
 .button:hover {
-  background-color: #25304F;
+  background-color: #25304f;
 }

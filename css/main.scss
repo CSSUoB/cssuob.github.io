@@ -1,17 +1,17 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,500;0,700;1,100&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,500;0,700;1,100&family=Roboto&display=swap");
 
 @font-face {
   font-family: "Inconsolata";
   src: url(/fonts/Inconsolata-Regular.ttf) format("truetype");
 }
 
-$CSS-Blue:      #2f3c63;
-$CSS-Mid-Blue:  #101939;
+$CSS-Blue: #2f3c63;
+$CSS-Mid-Blue: #101939;
 $CSS-Deep-Blue: #0a0f1e;
-$TeX-Purple:    #9d68dc;
+$TeX-Purple: #9d68dc;
 
 body {
   width: 100%;
@@ -25,7 +25,7 @@ body {
 
 #freshers-banner {
   display: none;
-  background-color: #9D68DC;
+  background-color: #9d68dc;
   border-radius: 10px;
   padding: 2px 20px;
   font-size: 18px;
@@ -122,7 +122,7 @@ main {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   img {
     display: block;
     width: 100%;
@@ -163,18 +163,18 @@ header {
     .nav {
       // neat animations
       &:before, &:after {
-        content: '';
+        content: "";
         width: 0;
         height: 0;
         display: block;
         background-color: white;
-
         transition: width 0.2s;
       }
 
       &:before {
         float: left;
       }
+
       &:after {
         float: right;
       }
@@ -219,15 +219,11 @@ header {
     opacity: 0;
     display: flex;
     visibility: hidden;
-
     padding-top: 100px;
-
     background-color: $CSS-Deep-Blue;
     z-index: 1000;
-
     flex-direction: column;
     align-items: flex-end;
-
     transition: opacity 0.2s;
 
     &.visible {
@@ -239,7 +235,6 @@ header {
       text-align: right;
       font-size: 2em;
       line-height: 1.6em;
-
       margin-right: 20px;
 
       a {
@@ -294,7 +289,7 @@ header {
     .right {
       display: none;
     }
-    
+
     .hamburger {
       display: inline-block;
     }

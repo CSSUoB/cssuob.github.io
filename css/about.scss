@@ -6,7 +6,6 @@ h1, h2, h3, h4 {
   margin: 0;
 }
 
-
 #about {
   font-size: 18px;
 }
@@ -59,7 +58,7 @@ h1, h2, h3, h4 {
 }
 
 #discord-button {
-  background-color: #738ADB;
+  background-color: #738adb;
   color: white;
   i {
     color: white;
@@ -75,7 +74,7 @@ h1, h2, h3, h4 {
 }
 
 #about-us {
-  background-color: #F1F3F8;
+  background-color: #f1f3f8;
   border-radius: 10px;
   padding: 20px;
   font-size: 18px;
@@ -92,7 +91,7 @@ h1, h2, h3, h4 {
     grid-template-columns: repeat(3, 230px);
   }
 
-  @media (max-width: 1000px){
+  @media (max-width: 1000px) {
     #guild-and-uob-images {
       justify-content: center;
       align-items: center;
@@ -107,7 +106,7 @@ h1, h2, h3, h4 {
 }
 
 #social {
-  #social-buttons{
+  #social-buttons {
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(3, 185px);
@@ -120,7 +119,7 @@ h1, h2, h3, h4 {
     text-decoration: none;
     text-align: center;
     font-size: 20px;
-    background-color: #F1F3F8;
+    background-color: #f1f3f8;
     border-radius: 20px;
     padding: 15px;
     margin-right: 10px;
@@ -134,16 +133,16 @@ h1, h2, h3, h4 {
     }
   }
 
-  @media (max-width: 600px){
-    #social-buttons{
+  @media (max-width: 600px) {
+    #social-buttons {
       justify-content: center;
       display: grid;
       grid-template-columns: repeat(2, 185px);
     }
   }
 
-  @media (max-width: 400px){
-    #social-buttons{
+  @media (max-width: 400px) {
+    #social-buttons {
       justify-content: center;
       display: grid;
       grid-template-columns: 185px;
@@ -151,7 +150,7 @@ h1, h2, h3, h4 {
   }
 
   .facebook {
-    background-color: #1877F2;
+    background-color: #1877f2;
   }
 
   .insta {
@@ -159,20 +158,20 @@ h1, h2, h3, h4 {
   }
 
   .twitter {
-    background-color: #00A1F3;
+    background-color: #00a1f3;
   }
 
   .linkedin {
-    background-color: #0077B5;
+    background-color: #0077b5;
   }
 
   .youtube {
-    background-color: #EA3223;
-  }      
-  
+    background-color: #ea3223;
+  }
+
   .github {
-    background-color: #161B22;
-  }      
+    background-color: #161b22;
+  }
 }
 
 #sponsors {
@@ -187,7 +186,7 @@ h1, h2, h3, h4 {
     justify-content: center;
     display: grid;
   }
- 
+
   .sponsors-link {
     display: inline-block;
     width: 280px;
@@ -208,8 +207,8 @@ h1, h2, h3, h4 {
     }
   }
 
-  @media (max-width: 400px){
-    #sponsors-images{
+  @media (max-width: 400px) {
+    #sponsors-images {
       justify-content: center;
       align-items: center;
       display: grid;
@@ -255,8 +254,8 @@ h1, h2, h3, h4 {
     }
   }
 
-  @media (max-width: 400px){
-    #constitution-buttons{
+  @media (max-width: 400px) {
+    #constitution-buttons {
       justify-content: center;
       display: grid;
       grid-template-columns: 185px;
