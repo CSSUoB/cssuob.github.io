@@ -4,11 +4,11 @@
 
 # sponsor
 - source: /sponsor
-  destination: /CSS_Sponsorship_Proposal.pdf
+  destination: /assets/sponsorship/CSS_Sponsorship_Proposal.pdf
 
 # constitution
 - source: /constitution
-  destination: /constitution.pdf
+  destination: /assets/constitution.pdf
 
 # social
 - source: /facebook
