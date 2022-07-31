@@ -83,10 +83,10 @@ people:
     end-date: 1/7/2022
     picture: /assets/committee/2021-22/mini/gokul.png
     bio: >
-        Hey everyone! I’m Gokul, a CS student who is the First year representative for CSS this year.
-        My job is to ensure all first years enjoy their time at CSS and more generally at university.
-        I have many hobbies, including programming, recreational maths, puzzle solving and video games.
-        I'm always happy to help so always feel welcome to message me on Discord or approach me on campus!
+      Hey everyone! I’m Gokul, a CS student who is the First year representative for CSS this year.
+      My job is to ensure all first years enjoy their time at CSS and more generally at university.
+      I have many hobbies, including programming, recreational maths, puzzle solving and video games.
+      I'm always happy to help so always feel welcome to message me on Discord or approach me on campus!
 
   - name: Mohammed Aamaan
     pronouns: He/Him
@@ -182,7 +182,7 @@ people:
       Hi! I'm Tori, I'm a first year doing Comp Sci/ Software Engineering MEng with an Industrial Year. 
       As the EDI officer I'm in charge if making sure that everyone feels represented, equal and safe within CS. 
       I'm also an ambassador for CS and love spending time with all the people here.
-  
+
   - name: Lyndon Chan
     pronouns: He/Him
     discordtag: LyndonChan#5225
@@ -231,5 +231,3 @@ people:
       Bluetooth. Outside of that, I enjoy competing in CTF competitions and Rock Climbing.
       I was the CSS PGT rep during my MSc back in 2016/17, 
       went to work for a few years then came back to UoB in 2019 and have been PGR rep ever since.
-
-

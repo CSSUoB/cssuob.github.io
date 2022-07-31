@@ -2,13 +2,13 @@ name: CSS BALL
 year: 2022
 location: Fazeley Studios
 date: 27th April
-links: 
+links:
   - text: Menu
-    url:  '\ball\2022\menu'
+    url: '\ball\2022\menu'
   - text: Venue
-    url: '#Venue'
+    url: "#Venue"
   - text: FAQs
-    url: '#FAQ'
+    url: "#FAQ"
   - text: Photos
     url: '\ball\2022\photos'
 menu:
@@ -38,7 +38,7 @@ faq:
   - question: Could I bring a guest?
     answer: Yes, though they needed a guest ticket to attend.
   - question: Will I need to show my ticket when I arrive?
-    answer: No, we'll have a list of everyone who has bought a ticket so you'll just need to give your name and head right in. 
+    answer: No, we'll have a list of everyone who has bought a ticket so you'll just need to give your name and head right in.
   - question: Who will I sit next to?
     answer: We'll ask you for the names of up to 2 people who you would like to sit near. We'll try our best to sit people near their friends, but we can't make promises you'll be next to both.<br><br> If you bring a Guest we will make sure you're sat with them, but please be sure to put them in as your seating preference.
   - question: What about my dietary requirements?

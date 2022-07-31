@@ -73,7 +73,7 @@
   destination: https://github.com/CSSUoB/GDSCGit
 - source: /git/workshop
   destination: https://learngitbranching.js.org
-  
+
 # Calendar Typos
 - source: /calender
   destination: /calendar
@@ -83,7 +83,7 @@
   destination: /assets/agendas/agenda_22_05_04.pdf
 - source: /feedback
   destination: https://docs.google.com/forms/d/e/1FAIpQLScTIizptSk8feTUWRGzKYEJ9_odGQh8Irv8GBAHALDJArzgeg/viewform?usp=sf_link
-  
+
 # Bletchley Park
 - source: /bletchley-park
   destination: https://www.guildofstudents.com/events/6531/6398/
