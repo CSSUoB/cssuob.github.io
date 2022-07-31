@@ -128,20 +128,17 @@ $preview-height: 150px;
       flex: 0 0 auto;
       object-fit: cover;
     }
+
     .post-quote-title {
       margin-top: 0.5em;
       margin-bottom: 0.5em;
     }
+
     .post-quote-subtitle {
       margin-top: 0.5em;
       margin-bottom: 0.5em;
-
-    }
-    .post-quote-excerpt {
-
     }
   }
-
 }
 
 .post-header {
@@ -173,16 +170,17 @@ $preview-height: 150px;
         margin-top: 0.5em;
         margin-bottom: 0.3em;
       }
+
       .post-date {
         margin-top: 0.3em;
         margin-bottom: 0.5em;
       }
+
       .post-excerpt p {
         margin-top: 0.5em;
       }
     }
   }
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -192,10 +190,12 @@ $preview-height: 150px;
         margin-top: 0.2em;
         margin-bottom: 0.2em;
       }
+
       .post-date {
         margin-top: 0.2em;
         margin-bottom: 0.2em;
       }
+
       .post-excerpt p {
         margin-top: 0.5em;
       }
