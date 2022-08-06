@@ -11,6 +11,6 @@
 committee=$1
 mkdir -p $committee/mini/
 for picture in $committee/full/*; do
-	convert $picture -resize 150x150 $committee/mini/`basename $picture`
+	convert $picture -resize 150x150^ -gravity center -crop 150x150+0+0 $committee/mini/`basename $picture`
 done
 
