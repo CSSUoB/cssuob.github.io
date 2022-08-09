@@ -27,7 +27,7 @@ collections:
 
   - name: "newsletter"
     label: "Newsletter"
-    folder: "collections/_news"
+    folder: "_collections/_news"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -56,7 +56,7 @@ collections:
 
   - name: "clubs"
     label: "Clubs"
-    folder: "collections/_clubs"
+    folder: "_collections/_clubs"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
