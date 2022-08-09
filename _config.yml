@@ -20,7 +20,7 @@ menu:
 baseurl: /
 root: /
 
-collections_dir: collections/
+collections_dir: _collections/
 collections:
   news:
     output: true
