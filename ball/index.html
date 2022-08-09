@@ -6,9 +6,46 @@ styles:
 title: CSS Ball
 ---
 
-<head>
-    <meta http-equiv="refresh" content="0; url='/ball/2022'" />
-</head>
-<body>
-    <h1>Click here to go to the <a href="/ball/2022">CSS BALL 2022 page</a>.</h1>
-</body>
+<div class="text-center-div margin-top section-details">
+    <h1 class="title">
+        CSS BALL
+    </h1>
+    <h2 class="subtitle venue-date">
+        The best night of the year
+    </h2>
+</div>
+
+<div class="text-center-div section-faq">
+        <div class="faq">
+        <h3 class="subsubtitle question">
+	What is a ball?
+	</h3>
+        <p class="text-block answer">
+	A ball is a solid or hollow spherical or egg-shaped object that is kicked, thrown, or hit in
+	a game.
+	<br><br>
+	 Ok but seriously, a Ball is an opportunity to come together and celebrate the year. Many societies
+	 hold them for their members and we're no different. Our annual Ball is the biggest night of the year
+	 so if you're not attending you're really missing out.
+	</p>
+        </div>
+</div>
+
+{% assign ball = site.data.ball.general %}
+
+{% for event in ball.events %}
+<div class="text-center-div margin-top section-details">
+    <h1 class="title">
+        {{event.name}} {{event.year}}
+    </h1>
+    <h2 class="subsubtitle venue-date">
+        <span class="avoidwrap">{{event.location}}</span> • <span class="avoidwrap">{{event.date}}</span>
+    </h2>
+    <h3 class="subsubtitle">Attendees: {{ event.attendees }}</h3>
+    <a href="{{ event.link }}">
+      <img class="image" src="{{ event.image}}" alt="{{ event.alt }}">
+    </a>
+</div>
+{% endfor %}
+
+<div class="margin-bottom"></div>
