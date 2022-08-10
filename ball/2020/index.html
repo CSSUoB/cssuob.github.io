@@ -10,12 +10,15 @@ title: CSS Ball
 
 <div class="text-center-div margin-top margin-botton">
     <h1 class="title">
-        {{ ball.name }} - {{ ball.year }}
+        {{ ball.name }} {{ ball.year }}
     </h1>
-    <h2 class="text-block">
-        {{ ball.location }} - {{ ball.date }}
+    <h2 class="subsubtitle venue-date">
+        <span class="avoidwrap">{{ball.location}}</span> • <span class="avoidwrap">{{ball.date}}</span>
     </h2>
     <p class="text-block"> 
-        {{ ball.attendees }} people attendeed the CSS Ball in 2020.
+        Attendees: {{ ball.attendees }}
     </p>
+    {% for link in ball.links %}
+    <a href='{{link.url}}' class="button">{{link.text}}</a>
+    {% endfor %}
 </div>

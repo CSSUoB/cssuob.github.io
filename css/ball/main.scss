@@ -121,6 +121,14 @@ body {
         }
     }
 
+    .dropdown {
+      font-family: $font-secondary;
+    }
+
+    .dropdown-content {
+      background-color: $secondary-lowlight;
+    }
+
     .flex {
          display: flex;
          flex-direction: row;

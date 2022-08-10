@@ -1,5 +1,8 @@
-name: CSS Ball
+name: CSS BALL
 year: 2020
 location: The Malmaison
 date: 12th March
 attendees: 130
+links:
+  - text: Photos
+    url:  '\ball\2020\photos'
