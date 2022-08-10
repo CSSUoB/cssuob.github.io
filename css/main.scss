@@ -162,18 +162,15 @@ header {
 
   }
 
-  .dropdown {
-    overflow: hidden;
-  }
-
   .dropdown-btn {
     display: inline-block;
     position: relative;
     padding: 0;
+    font-size: 24px;
   }
 
   .dropdown a {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .dropdown-content {
