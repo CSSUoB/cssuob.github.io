@@ -1,0 +1,34 @@
+name: CSS BALL
+year: 2021
+location: Gather.Town
+date: 25th March
+attendees: 83
+image_root: '/assets/images/ball-21/'
+features:
+  - title: "An Online Ball"
+    paragraph: "We weren't going to let Covid get in the way of our annual ball, so we decided to host our
+    first ever online CSS Ball. Gather.Town was our venue of choice, where we created a virtual palace complete
+    with dining hall, dance floor and hidden treasure. Proximity voice and video chat was also enabled, so
+    guests could walk around, chat and show off their outfits!"
+    images:
+      - name: "start.png"
+  - title: "But what about food?"
+    paragraph: "Don't worry, we had that covered! Each guest received an Uber Eats voucher (worth more than the 
+    ticket cost!) which they used to get their favourite dish delivered straight to their door. And just like   
+    at any other ball, we sat together at (virtual) tables!"
+    images:
+      - name: "Screenshot_20210325_201739.png"
+  - title: "...and drink?"
+    paragraph: "The great thing about this year was that we could bring any drink we wanted. We even created    
+    our own cocktail just for the event!"
+    images:
+      - name: "the_tex.png"
+  - title: "Fun and Games"
+    paragraph: "After we'd eaten, we enjoyed the custom-built maze and a treasure hunt around the map we had    
+    created. We had a group photo competition, and got up to some famous CSS shenanigans. Everyone had an 
+    absolute blast, and for many of us it was the highlight of the year!"
+    images:
+      - name: "maze.png"
+      - name: "unknown-12.png"
+      - name: "rick-astley.png"
+      - name: "CSS_Virtual_Ball_2021.jpg"
