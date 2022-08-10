@@ -14,6 +14,7 @@ menu:
   - name: ball
     children:
       - 2022
+      - 2021
       - 2020
   - name: newsletter
   - name: committee

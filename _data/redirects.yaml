@@ -57,6 +57,8 @@
   destination: https://photos.app.goo.gl/bSyPR6fyHGtGDW6h9
 - source: /ball/2020/photos
   destination: https://www.facebook.com/media/set/?set=oa.2609144112656487
+- source: /ball/2021/gather.town
+  destination: https://www.gather.town/
 
 # GDSC: Python Workshop 13/10/2021
 - source: /python
