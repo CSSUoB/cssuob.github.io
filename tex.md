@@ -14,52 +14,62 @@ tex:
 
   - name: Christmas TeX
     path: tex_christmas.png
-    description: TeX wearing a Santa hat and wrapped with fairy lights. Stickers of Christmas TeX are handed out at our Christmas meal.
+    description: >
+      TeX wearing a Santa hat and wrapped with fairy lights. Stickers of Christmas TeX are handed out 
+      at our Christmas meal.
     ratio: 1.087
 
   - name: Ball TeX
     path: tex_ball.png
-    description: .
+    description: TeX with a tux! Stickers of Ball TeX are handed out at the CSS Ball.
     ratio: 1.087
 
   - name: Pride TeX
     path: tex_pride.png
-    description: .
+    description: >
+      TeX holding a pride flag. If you didn't know, TeX is non-binary and uses they/them pronouns. 
+      Stickers are handed out at our pride events.
     ratio: 1.087
 
   - name: BBQ TeX
     path: tex_bbq.png
-    description: .
+    description: >
+      Chef TeX at the annual CSS BBQ. Stickers are handed out at our BBQ events.
     ratio: 1.127   
     
   - name: Graduation TeX
     path: tex_graduation.png
-    description: .
+    description: > 
+      TeX graduating from university. Stickers are given at graduation to those graduating each 
+      year.
     ratio: 1.042
 
   - name: Old Joe TeX
     path: tex_old-joe.png
-    description: .
+    description: > 
+      TeX masquerading as Old Joe. Stickers are handed out as a prize for completing the scavenger 
+      hunt.
     ratio: 0.704
 
   - name: Megaphone TeX
-    path: tex_graduation.png
-    description: .
+    path: tex_megaphone.png
+    description: TeX holding a megaphone. We use this for our publicity.
     ratio: 1.326
 
   - name: Halloween TeX
     path: tex_halloween.png
-    description: .
+    description: TeX under a white cloth pretending to be a ghost. Currently, this isn't used anywhere.
     ratio: 1.087
 
   - name: Speech TeX
     path: tex_speech.png
-    description: .
+    description: TeX with a speech bubble. Currently, this isn't used anywhere.
     ratio: 1.130
 
   - name: Ballot TeX
     path: tex_ballot.png
-    description: .
+    description: >
+      TeX exercising their democratic rights as a CSS member. Stickers are handed out at our AGM.
     ratio: 1.109
 
 ---
