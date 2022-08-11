@@ -127,6 +127,10 @@ body {
 
     .dropdown-content {
       background-color: $secondary-lowlight;
+      
+      a {
+        font-family: $font-secondary;
+      }
     }
 
     .flex {
