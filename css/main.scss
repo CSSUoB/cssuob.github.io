@@ -167,7 +167,7 @@ header {
     display: inline-block;
   }
 
-  .dropdown-btn {
+  .dropdown button {
     display: inline-block;
     position: relative;
     padding: 0;
@@ -176,6 +176,7 @@ header {
 
   .dropdown a {
     font-size: 24px;
+    text-align: center;
   }
 
   .dropdown-content {

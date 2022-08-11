@@ -8,9 +8,7 @@
     {% for item in site.menu %}
     {% if item.children %}
     <div class="nav dropdown">
-    <div class="dropdown-btn">
     <button>{{ item.name | capitalize }}</button>
-    </div>
     <div class="dropdown-content">
       {% for sub in item.children %}
       {% assign link = item.name | append: '/' | append: sub %}

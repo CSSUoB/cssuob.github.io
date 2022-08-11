@@ -127,9 +127,11 @@ body {
 
     .dropdown-content {
       background-color: $secondary-lowlight;
+      right: 6px;
       
       a {
         font-family: $font-secondary;
+	font-size: 20px;
       }
     }
 
