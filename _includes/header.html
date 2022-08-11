@@ -14,7 +14,7 @@
     <div class="dropdown-content">
       {% for sub in item.children %}
       {% assign link = item.name | append: '/' | append: sub %}
-      <a class="nav" href="{{ link | relative_url }}">{{ sub }}</a>
+      <a href="{{ link | relative_url }}">{{ sub }}</a>
       {% endfor %}
     </div>
     </div>

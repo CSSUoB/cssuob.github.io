@@ -162,6 +162,11 @@ header {
 
   }
 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
   .dropdown-btn {
     display: inline-block;
     position: relative;
@@ -181,6 +186,7 @@ header {
     background-color: $CSS-Mid_Blue;
     opacity: 1;
     z-index: 10;
+    right: 10px;
   }
 
   .nav {
@@ -219,6 +225,11 @@ header {
     padding: 10px;
     text-decoration: none;
   }
+
+  .dropdown-content a:hover {
+    background-color: $TeX-Purple;
+  }
+
 
   .logo {
     display: block;
