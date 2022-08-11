@@ -67,16 +67,16 @@ tex:
 # TeX
 
 TeX is the official mascot of the Computer Science Society. In 2019, CSS wore a purple dinosaur costume to the 
-EPS Trophy sports day to motivate CS students, and eventually that turned into our mascot, TeX.
+EPS Trophy sports day to motivate CS students, and eventually that turned into our mascot. TeX was 
+illustrated by one of our former members, Kate ([@kyrallei](https://www.instagram.com/kyrallei/)).
 
 <figure>
   <img src="/assets/tex/raster/tex_original.png" alt="TeX">
   <figcaption>TeX, our mascot since 2019.</figcaption>
 </figure>
 
-<!-- Fun Fact: TeX is non-binary and uses they/them pronouns. This is because they're an inanimate inflatable costume and gender is a lie. -->
-
-TeX was illustrated by one of our former members, Kate ([@kyrallei](https://www.instagram.com/kyrallei/)).
+Fun Fact: TeX is non-binary and uses they/them pronouns. This is because they're an inanimate inflatable costume 
+and gender is a lie.
 
 ## Variations
 
