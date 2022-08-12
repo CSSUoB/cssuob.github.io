@@ -31,12 +31,12 @@
     {% assign id = 0 %}
     <div class="nav">
 	{% if item.children %}
-	{% assign id = id +1 %}
+	{% assign id = id + 1 %}
 	<button onclick="toggleShow({{ id }})">{{ item.name | capitalize }}</button>
 	<div class="dropdown" style="display: none" id="hbdd_{{ id }}">
 	  {% for sub in item.children %}
           {% assign link = item.name | append: '/' | append: sub %}
-	  <a href="{{ link | relative_url }}">- {{ sub }}</a><br>
+          <a href="{{ link | relative_url }}">- {{ sub }}</a><br>
 	  {% endfor %}
 	</div>
 	{% else %}

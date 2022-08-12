@@ -22,3 +22,15 @@ title: CSS Ball
     <a href='{{link.url}}' class="button">{{link.text}}</a>
     {% endfor %}
 </div>
+
+<div class="text-center-div margin-bottom section-faq" id="FAQ">
+    {% for qanda in ball.features %}
+        <div class="faq">
+        <h3 class="subsubtitle question">{{ qanda.title }}</h3>
+        <p class="text-block answer">{{ qanda.paragraph }}</p>
+        </div>
+        {% assign url = ball.image_root | append: qanda.image %}
+        <img class="image" src="{{ url }}">
+        <br>
+    {% endfor %}
+</div>
