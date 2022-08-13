@@ -11,12 +11,16 @@ social:
     - https://twitter.com/CSSBham
     - https://github.com/CSSUoB
 menu:
-  - ball
-  - newsletter
-  - committee
-  - clubs
-  - calendar
-  - about
+  - name: ball
+    children:
+      - 2022
+      - 2021
+      - 2020
+  - name: newsletter
+  - name: committee
+  - name: clubs
+  - name: calendar
+  - name: about
 baseurl: /
 root: /
 

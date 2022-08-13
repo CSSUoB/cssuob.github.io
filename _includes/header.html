@@ -6,9 +6,21 @@
 </span>
 <span class="right">
     {% for item in site.menu %}
-    <div class="nav">
-        <a href="{{ item | relative_url }}">{{ item | capitalize }}</a>
+    {% if item.children %}
+    <div class="nav dropdown">
+    <button>{{ item.name | capitalize }}</button>
+    <div class="dropdown-content">
+      {% for sub in item.children %}
+      {% assign link = item.name | append: '/' | append: sub %}
+      <a href="{{ link | relative_url }}">{{ sub }}</a>
+      {% endfor %}
     </div>
+    </div>
+    {% else %}
+    <div class="nav">
+	<a href="{{ item.name | relative_url }}">{{ item.name | capitalize }}</a>
+    </div>
+    {% endif %}
     {% endfor %}
 </span>
 <div id="hamburger" class="hamburger">
@@ -16,8 +28,20 @@
 </div>
 <div id="hamburger-menu" class="mobile-menu">
     {% for item in site.menu %}
+    {% assign id = 0 %}
     <div class="nav">
-        <a href="{{ item | relative_url }}">{{ item | capitalize }}</a>
+	{% if item.children %}
+	{% assign id = id + 1 %}
+	<button onclick="toggleShow({{ id }})">{{ item.name | capitalize }}</button>
+	<div class="dropdown" style="display: none" id="hbdd_{{ id }}">
+	  {% for sub in item.children %}
+          {% assign link = item.name | append: '/' | append: sub %}
+          <a href="{{ link | relative_url }}">- {{ sub }}</a><br>
+	  {% endfor %}
+	</div>
+	{% else %}
+        <a href="{{ item.name | relative_url }}">{{ item.name | capitalize }}</a>
+	{% endif %}
     </div>
     {% endfor %}
 </div>

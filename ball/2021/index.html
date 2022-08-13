@@ -6,21 +6,18 @@ styles:
 title: CSS Ball
 ---
 
-{% assign ball = site.data.ball.2020 %}
+{% assign ball = site.data.ball.2021 %}
 
-<div class="text-center-div margin-top margin-bottom">
+<div class="text-center-div margin-top">
     <h1 class="title">
         {{ ball.name }} {{ ball.year }}
     </h1>
     <h2 class="subsubtitle venue-date">
-        <span class="avoidwrap">{{ball.location}}</span> • <span class="avoidwrap">{{ball.date}}</span>
+      <span class="avoidwrap"><a href="{{ball.location}}">{{ball.location}}</a></span> • <span class="avoidwrap">{{ball.date}}</span>
     </h2>
     <p class="text-block"> 
         Attendees: {{ ball.attendees }}
-    </p>
-    {% for link in ball.links %}
-    <a href='{{link.url}}' class="button">{{link.text}}</a>
-    {% endfor %}
+    </p> 
 </div>
 
 <div class="text-center-div margin-bottom section-faq" id="FAQ">
@@ -29,8 +26,10 @@ title: CSS Ball
         <h3 class="subsubtitle question">{{ qanda.title }}</h3>
         <p class="text-block answer">{{ qanda.paragraph }}</p>
         </div>
-        {% assign url = ball.image_root | append: qanda.image %}
-        <img class="image" src="{{ url }}">
-        <br>
+	{% for image in qanda.images %}
+	  {% assign url = ball.image_root | append: image.name %}
+	  <img class="image" src="{{ url }}">
+	  <br>
+	{% endfor %}
     {% endfor %}
 </div>
