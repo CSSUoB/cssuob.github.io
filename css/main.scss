@@ -160,33 +160,77 @@ header {
     text-align: right;
     padding-right: 20px;
 
-    .nav {
-      // neat animations
-      &:before, &:after {
-        content: '';
-        width: 0;
-        height: 0;
-        display: block;
-        background-color: white;
+  }
 
-        transition: width 0.2s;
-      }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
 
-      &:before {
-        float: left;
-      }
-      &:after {
-        float: right;
-      }
+  .dropdown button {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    font-size: 24px;
+  }
 
-      &:hover:before, &:hover:after {
-        width: 100%;
-        margin-top: 3px;
-        margin-bottom: 1px;
-        height: 1px;
-      }
+  .dropdown a {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.2);
+    padding: 0;
+    background-color: $CSS-Mid_Blue;
+    opacity: 1;
+    z-index: 10;
+    right: 10px;
+  }
+
+  .nav {
+    // neat animations
+     &:before, &:after {
+      content: '';
+      width: 0;
+      height: 0;
+      display: block;
+      background-color: white;
+      transition: width 0.2s;
+    }
+
+    &:before {
+      float: left;
+    }
+    &:after {
+      float: right;
+    }
+
+    &:hover:before, &:hover:after {
+      width: 100%;
+      margin-top: 3px;
+      margin-bottom: 1px;
+      height: 1px;
     }
   }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a {
+    display: block;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  .dropdown-content a:hover {
+    background-color: $TeX-Purple;
+  }
+
 
   .logo {
     display: block;
@@ -211,6 +255,7 @@ header {
   }
 
   .mobile-menu {
+    font-family: "JetBrains Mono", "Inconsolata", monospace;
     position: fixed;
     top: 0;
     left: 0;
@@ -239,13 +284,17 @@ header {
       text-align: right;
       font-size: 2em;
       line-height: 1.6em;
-
+      margin-left: 40px;
       margin-right: 20px;
 
       a {
         &:active, &:focus {
           outline: none;
         }
+      }
+
+      button {
+	font-weight: 'normal';
       }
 
       &:first-child:before, &:after {
@@ -266,8 +315,18 @@ header {
     padding-right: 20px;
 
     a {
+      padding: none;
       color: white;
       text-decoration: none;
+    }
+
+    button {
+      color: white;
+      background: none;
+      padding: 0;
+      border: none;
+      text-decoration: none;
+      font-weight: bold;
     }
   }
 }
@@ -289,7 +348,7 @@ header {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 880px) {
   header {
     .right {
       display: none;

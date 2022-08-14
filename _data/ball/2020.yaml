@@ -1,5 +1,26 @@
-name: CSS Ball
+name: CSS BALL
 year: 2020
 location: The Malmaison
 date: 12th March
 attendees: 130
+image_root: '/assets/images/ball-20/'
+links:
+  - text: Photos
+    url:  '\ball\2020\photos'
+features:
+  - title: 'Balloons, Bubbles and Booze'
+    paragraph: 'CSS Ball 2020 took place at the Malmaison Hotel at the Mailbox, which was decked out 
+    exquisitely for the occasion. Each table received free bubble liquid and prosecco, and the room was filled 
+    with CSS balloons. Once we had enjoyed the delicious food and finally exhausted the supply of booze, 
+    we invaded the dance floor, where we held our very own CSS disco.'
+    image: 'balloons-bubbles-booze.jpg'
+  - title: 'New Friends and Old'
+    paragraph: 'At the event, many future best friends met for the first time. For many others, it was the last.
+    Whether fresher or final year, we all created lifelong memories from the mayhem that was that night.'
+    image: 'new-friends-and-old.jpg'
+  - title: 'A Well-Timed Ball'
+    paragraph: "For most, CSS Ball 2020 was the last time we could get together with our friends and truly have 
+    a blast before we went into lockdown 10 days later. It was our last chance for a year and a half to get up 
+    to the crazy shenanigans which CSS is famous for. Its a miracle we even had a ball in 2020, and it will 
+    always remain an unforgettable night."
+    image: 'well-timed-ball.jpg'
