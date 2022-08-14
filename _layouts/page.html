@@ -17,6 +17,10 @@
   <link rel="stylesheet" href="{{ '/css/normalize.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
 
+  {% if page.favicon %}
+  <link rel="icon" type="image/x-icon" href="{{ page.favicon }}">
+  {% endif %}
+
   {% if page.styles %}
   {% for style in page.styles %}
   <link rel="stylesheet" href="{{ style | relative_url }}">
