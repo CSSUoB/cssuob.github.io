@@ -95,3 +95,7 @@
 # BBQ
 - source: /bbq
   destination: https://www.eventbrite.co.uk/e/css-bbq-2022-tickets-343681248867
+
+# Welcome
+- source: /welcome
+  destination: https://www.youtube.com/watch?v=WK5tCf7m-ZM
