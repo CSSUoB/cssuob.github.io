@@ -16,11 +16,10 @@ Ensure that you have docker and docker-compose installed.
 Then:
 
 ```bash
-docker-compose build
-docker-compose up
+docker compose up --build
 ```
 
-The website should now be available at http://127.0.0.1:4000.
+The website should now be available at <http://127.0.0.1:4000>.
 
 ### Manual setup (not recommended)
 
@@ -44,7 +43,7 @@ Run jekyll server:
 bundle exec jekyll serve
 ```
 
-The website should now be available at http://127.0.0.1:4000.
+The website should now be available at <http://127.0.0.1:4000>.
 
 ## Contributing
 
@@ -130,16 +129,15 @@ To update the committee:
 2. Create all the additional files by running `_scripts/committee.sh _scripts/assets/committee/2019-20`
    (it's a bash shell script).
 3. Create a new yaml file in `_data/committee/` with these tags:
-   * `academic_year`: The academic year of the committee, e.g. `2019/20`
-   * `prefix`: Prefix to the role of each member, e.g. \"`Outgoing` Publicity Rep\"
-   * `postfix`: Postfix to the role of each member, e.g. \"Publicity Rep `Elect`\"
-   * `current`: Display the committee on the main list page, `true` or `false`. All committees will always be listed in the archive
-   * `people:` : A list of committee members:
-      * `name`: Name
-      * `role`: Committee Role
-      * `bio: >`: Multiline Bio
-      * `picture`: Picture
-
+   - `academic_year`: The academic year of the committee, e.g. `2019/20`
+   - `prefix`: Prefix to the role of each member, e.g. \"`Outgoing` Publicity Rep\"
+   - `postfix`: Postfix to the role of each member, e.g. \"Publicity Rep `Elect`\"
+   - `current`: Display the committee on the main list page, `true` or `false`. All committees will always be listed in the archive
+   - `people:` : A list of committee members:
+      - `name`: Name
+      - `role`: Committee Role
+      - `bio: >`: Multiline Bio
+      - `picture`: Picture
 
 [calendar]: https://calendar.google.com/calendar/embed?src=kg5v9k480jn2qahpmq33h8g7cs%40group.calendar.google.com&ctz=Europe%2FLondon
 [fullcalendar]: https://fullcalendar.io/
