@@ -20,6 +20,7 @@ menu:
   - name: committee
   - name: clubs
   - name: calendar
+  - name: sponsor
   - name: about
 baseurl: /
 root: /
