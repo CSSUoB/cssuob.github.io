@@ -1,5 +1,6 @@
 future: false
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
 
 title: UoB Computer Science Society
@@ -30,3 +31,8 @@ collections:
     output: true
     permalink: /newsletter/:title
   clubs:
+
+feed:
+  collections:
+    news:
+      path: "/newsletter/feed.xml"
