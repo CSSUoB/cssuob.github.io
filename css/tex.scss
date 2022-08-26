@@ -1,0 +1,34 @@
+---
+---
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  td, tr, th {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  tr:nth-child(odd), th {
+    background-color: #f7f7f7;
+  }
+}
+
+figure {
+  width: 50%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: auto;
+  padding: 0.5em;
+}
