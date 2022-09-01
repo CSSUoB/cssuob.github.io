@@ -2,7 +2,9 @@ version: '3.2'
 
 services:
   jekyll:
-    build: .
+    build:
+      context: .
+      target: server
     volumes:
       - "./:/usr/src/app"
     ports:

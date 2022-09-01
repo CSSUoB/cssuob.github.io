@@ -1,0 +1,7 @@
+*
+!**/
+!*.scss
+!*.js
+
+_site
+/js/redirect.js

@@ -11,15 +11,28 @@ See in-depth documentation and maintainance guides at the
 
 ### Docker setup
 
-Ensure that you have docker and docker-compose installed.
+Ensure that you have docker and docker-compose installed, along with GNU Make:
 
 Then:
 
 ```bash
-docker compose up --build
+make serve
 ```
 
 The website should now be available at <http://127.0.0.1:4000>.
+
+You can also build the site into `_site`:
+
+```bash
+make build
+```
+
+To automatically run the code formatter, ensure that
+[prettier](https://prettier.io/) is installed, then:
+
+```bash
+make fmt
+```
 
 ### Manual setup (not recommended)
 
