@@ -159,78 +159,63 @@ header {
     flex: 1 1 auto;
     text-align: right;
     padding-right: 20px;
-
-  }
-
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-
-  .dropdown button {
-    display: inline-block;
-    position: relative;
-    padding: 0;
-    font-size: 24px;
-  }
-
-  .dropdown a {
-    font-size: 24px;
-    text-align: center;
   }
 
   .dropdown-content {
     display: none;
     position: absolute;
-    box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 1px;
     padding: 0;
     background-color: $CSS-Mid_Blue;
     opacity: 1;
     z-index: 10;
-    right: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    a {
+      display: block;
+      color: black;
+      padding: 10px;
+      text-decoration: none;
+      text-align: center;
+    }
+    a:hover {
+      background-color: $TeX-Purple;
+    }
   }
 
   .nav {
+    position: relative;
+
     // neat animations
-     &:before, &:after {
+    &:before, &:after {
+      position: absolute;
       content: '';
       width: 0;
-      height: 0;
+      height: 1px;
       display: block;
       background-color: white;
       transition: width 0.2s;
     }
 
     &:before {
-      float: left;
+      left: 0;
     }
     &:after {
-      float: right;
+      right: 0;
     }
 
     &:hover:before, &:hover:after {
       width: 100%;
-      margin-top: 3px;
-      margin-bottom: 1px;
       height: 1px;
     }
   }
 
   .dropdown:hover .dropdown-content {
     display: block;
+    text-align: center;
   }
-
-  .dropdown-content a {
-    display: block;
-    color: black;
-    padding: 10px;
-    text-decoration: none;
-  }
-
-  .dropdown-content a:hover {
-    background-color: $TeX-Purple;
-  }
-
 
   .logo {
     display: block;
@@ -297,7 +282,11 @@ header {
 	font-weight: 'normal';
       }
 
+      &:before {
+        display: none;
+      }
       &:first-child:before, &:after {
+        position: relative;
         content: "";
         display: block;
         width: 80vw;
@@ -312,7 +301,8 @@ header {
     font-size: 1.5em;
     font-family: "JetBrains Mono", "Inconsolata", monospace;
     font-weight: bold;
-    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 
     a {
       padding: none;
