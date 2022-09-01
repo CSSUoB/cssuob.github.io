@@ -19,9 +19,11 @@ If you have never used git before, we would recommend that you read the [GitHub'
 If you are new to contributing to open-source projects on GitHub, the general workflow is as follows:
 1. Fork this repository and clone it
 2. Create a branch off master
-3. Make your changes and commit them
-4. Push your local branch to your remote fork
-5. Open a new pull request on GitHub
+3. Make your changes
+    - Make sure to run `make fmt` to autoformat your code
+    - Make a commit with an explanatory commit message
+5. Push your local branch to your remote fork
+6. Open a new pull request on GitHub
 
 We recommend also reading the following if you're unsure or not confident:
 
@@ -47,7 +49,15 @@ If you happen to be doing a lot of technical work on the website, the [wiki](htt
 
 ### Code style
 
-In general, follow the formatting in the file you are editing. We also encourage you to limit the maximum length of individual lines to a reasonable limit, use double quotes instead of single, use spaces rather than tabs, and write hex in upper case.
+To enforce a consistent code style across files, we use [prettier](https://prettier.io/)
+to auto-format most of the code. This will automatically format your syntax to
+a specific style - if it doesn't generate pretty code, then the code probably
+needs a refactor and cleanup anyways. You can run prettier from within your IDE
+(which will have it's own way of running it), or by using the `make fmt` helper
+defined at the root of the repository.
+
+In addition to the automatic formatter, follow the formatting style in the file
+you are editing.
 
 ### Git commit messages
 
