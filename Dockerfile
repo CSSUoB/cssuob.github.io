@@ -1,4 +1,4 @@
-FROM ruby:3.1-slim-bullseye as base
+FROM ruby:3.1 as base
 
 RUN bundle config --global frozen 1 && \
     mkdir -p /vendor/bundle && \
