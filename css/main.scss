@@ -1,17 +1,17 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,500;0,700;1,100&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,500;0,700;1,100&family=Roboto&display=swap");
 
 @font-face {
   font-family: "Inconsolata";
   src: url(/fonts/Inconsolata-Regular.ttf) format("truetype");
 }
 
-$CSS-Blue:      #2f3c63;
-$CSS-Mid-Blue:  #101939;
+$CSS-Blue: #2f3c63;
+$CSS-Mid-Blue: #101939;
 $CSS-Deep-Blue: #0a0f1e;
-$TeX-Purple:    #9d68dc;
+$TeX-Purple: #9d68dc;
 
 body {
   width: 100%;
@@ -25,7 +25,7 @@ body {
 
 #freshers-banner {
   // display: none;
-  background-color: #9D68DC;
+  background-color: #9d68dc;
   border-radius: 10px;
   padding: 2px 20px;
   font-size: 18px;
@@ -48,7 +48,12 @@ main {
 
   flex: 1 1 auto;
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     color: white;
     font-family: "JetBrains Mono", "Inconsolata", monospace;
     font-weight: normal;
@@ -122,7 +127,7 @@ main {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   img {
     display: block;
     width: 100%;
@@ -164,7 +169,7 @@ header {
   .dropdown-content {
     display: none;
     position: absolute;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     margin-top: 1px;
     padding: 0;
     background-color: $CSS-Mid_Blue;
@@ -172,7 +177,7 @@ header {
     z-index: 10;
     left: 50%;
     transform: translateX(-50%);
-    
+
     a {
       display: block;
       color: black;
@@ -189,9 +194,10 @@ header {
     position: relative;
 
     // neat animations
-    &:before, &:after {
+    &:before,
+    &:after {
       position: absolute;
-      content: '';
+      content: "";
       width: 0;
       height: 1px;
       display: block;
@@ -206,7 +212,8 @@ header {
       right: 0;
     }
 
-    &:hover:before, &:hover:after {
+    &:hover:before,
+    &:hover:after {
       width: 100%;
       height: 1px;
     }
@@ -273,19 +280,21 @@ header {
       margin-right: 20px;
 
       a {
-        &:active, &:focus {
+        &:active,
+        &:focus {
           outline: none;
         }
       }
 
       button {
-	font-weight: 'normal';
+        font-weight: "normal";
       }
 
       &:before {
         display: none;
       }
-      &:first-child:before, &:after {
+      &:first-child:before,
+      &:after {
         position: relative;
         content: "";
         display: block;
@@ -343,7 +352,7 @@ header {
     .right {
       display: none;
     }
-    
+
     .hamburger {
       display: inline-block;
     }

@@ -1,10 +1,10 @@
 ---
 ---
 
-$CSS-Blue:      #2f3c63;
-$CSS-Mid-Blue:  #101939;
+$CSS-Blue: #2f3c63;
+$CSS-Mid-Blue: #101939;
 $CSS-Deep-Blue: #0a0f1e;
-$TeX-Purple:    #9d68dc;
+$TeX-Purple: #9d68dc;
 
 .calendar-controls {
   margin-left: auto;
@@ -14,23 +14,23 @@ $TeX-Purple:    #9d68dc;
 }
 
 .calendar-button {
-    border: 1px solid white;
-    border-radius: .25em;
-    padding: .4em .65em;
-    background-color: $CSS-Mid-Blue;
-    color: white;
-    vertical-align: middle;
-    font-size: 1em;
-    line-height: 1.5em;
-    font-family: inherit;
-    display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    text-decoration: none;
+  border: 1px solid white;
+  border-radius: 0.25em;
+  padding: 0.4em 0.65em;
+  background-color: $CSS-Mid-Blue;
+  color: white;
+  vertical-align: middle;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: inherit;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
 
-    &:hover {
-      background-color:$CSS-Deep-Blue;
-    }
+  &:hover {
+    background-color: $CSS-Deep-Blue;
+  }
 }
 
 .calendar-container {
@@ -39,14 +39,15 @@ $TeX-Purple:    #9d68dc;
   margin-right: auto;
 }
 
-.calendar-event{
+.calendar-event {
   background-color: white;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
   display: none;
 
-  h2, p { 
+  h2,
+  p {
     color: black;
     text-align: left;
   }
@@ -63,9 +64,9 @@ $TeX-Purple:    #9d68dc;
 
   .event-pre {
     font-family: "JetBrains Mono", "Inconsolata", monospace;
-    white-space: pre-wrap; 
+    white-space: pre-wrap;
   }
-  
+
   .event-text {
     font-family: "Roboto", SansSerif;
     display: inline-block;
@@ -85,23 +86,28 @@ $TeX-Purple:    #9d68dc;
   padding: 20px;
   border-radius: 10px;
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     color: black;
   }
 
   .fc-button-primary {
     background-color: $CSS-Mid-Blue;
-    &:disabled{
+    &:disabled {
       opacity: 1;
       background-color: $CSS-Blue;
     }
     &:hover {
-      background-color:$CSS-Deep-Blue;
+      background-color: $CSS-Deep-Blue;
     }
   }
 
-  tbody tr td.fc-today  {
-    background: rgba($TeX-Purple,0.1);
+  tbody tr td.fc-today {
+    background: rgba($TeX-Purple, 0.1);
   }
 }
 
@@ -122,7 +128,6 @@ $TeX-Purple:    #9d68dc;
     width: 90%;
   }
 }
-
 
 @media only screen and (max-width: 900px) {
   .calendar-controls {
