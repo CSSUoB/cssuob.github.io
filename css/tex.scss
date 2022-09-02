@@ -5,7 +5,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -13,12 +15,15 @@ table {
   width: 100%;
   border-collapse: collapse;
 
-  td, tr, th {
+  td,
+  tr,
+  th {
     padding: 10px;
     border: 1px solid #ccc;
   }
 
-  tr:nth-child(odd), th {
+  tr:nth-child(odd),
+  th {
     background-color: #f7f7f7;
   }
 }
