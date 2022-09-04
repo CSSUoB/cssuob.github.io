@@ -1,0 +1,20 @@
+name: Check Prettier has been run
+
+on:
+  pull_request:
+    branches: [master]
+
+jobs:
+  prettier:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Check formatting
+        uses: creyD/prettier_action@v4.2
+        with:
+          dry: True
+          prettier_options: --check .
