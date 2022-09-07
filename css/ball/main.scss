@@ -144,6 +144,22 @@ body {
     }
   }
 
+  #freshers-banner {
+    // display: none;
+    background-color: $secondary-lowlight;
+    border-radius: 10px;
+    padding: 2px 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+    * {
+      color: white;
+      text-align: center;
+      font-family: "JetBrains Mono", "Inconsolata", monospace;
+      font-weight: bolder;
+    }
+  }
+
   .section-details {
     .venue-date {
       font-size: 6vw;
