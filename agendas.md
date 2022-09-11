@@ -176,3 +176,4 @@ title: Agendas
 
 ### September
 - [agenda_22_09_01.pdf](/assets/agendas/agenda_22_09_01.pdf)
+- [agenda_22_09_08.pdf](/assets/agendas/agenda_22_09_08.pdf)
