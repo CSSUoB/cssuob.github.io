@@ -162,18 +162,19 @@ title: Agendas
 - [agenda_22_05_23.pdf](/assets/agendas/agenda_22_05_23.pdf)
 
 ### June
-- [agenda_22_06_09.pdf](/assets/agendas/agenda_22_06_01.pdf)
+- [agenda_22_06_09.pdf](/assets/agendas/agenda_22_06_09.pdf) -- no agenda
 
 ### July
-- [agenda_22_07_10.pdf](/assets/agendas/agenda_22_07_10.pdf)
+- [agenda_22_07_10.pdf](/assets/agendas/agenda_22_07_10.pdf) -- no agenda
 - [agenda_22_07_24.pdf](/assets/agendas/agenda_22_07_24.pdf)
 
 ### August
 - [agenda_22_08_06.pdf](/assets/agendas/agenda_22_08_06.pdf)
 - [agenda_22_08_14.pdf](/assets/agendas/agenda_22_08_14.pdf)
-- [agenda_22_08_19.pdf](/assets/agendas/agenda_22_08_19.pdf)
-- [agenda_22_08_24.pdf](/assets/agendas/agenda_22_08_24.pdf)
+- [agenda_22_08_19.pdf](/assets/agendas/agenda_22_08_19.pdf) -- no agenda
+- [agenda_22_08_24.pdf](/assets/agendas/agenda_22_08_24.pdf) -- no agenda
 
 ### September
 - [agenda_22_09_01.pdf](/assets/agendas/agenda_22_09_01.pdf)
 - [agenda_22_09_08.pdf](/assets/agendas/agenda_22_09_08.pdf)
+- [agenda_22_09_15.pdf](/assets/agendas/agenda_22_09_13.pdf)
