@@ -62,6 +62,12 @@ The website should now be available at <http://127.0.0.1:4000>.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for more information about contributing.
 
+## License
+
+Source code is licensed under the Apache License, Version 2.0 - see the [LICENSE](LICENSE) file for details.
+
+This does not apply to the contents of `assets/`, whose rights remain exclusively with their original copyright holders.
+
 ## Development
 
 ### Adding new redirects
