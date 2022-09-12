@@ -57,7 +57,7 @@ title: Agendas
 ### February
 - [agenda_21_02_05.pdf](/assets/agendas/agenda_21_02_05.pdf)
 - [agenda_21_02_12.pdf](/assets/agendas/agenda_21_02_12.pdf)
-- [agenda_21_02_15.pdf](/assets/agendas/agenda_21_02_15.pdf)
+- [agenda_21_02_15.pdf](/assets/agendas/agenda_21_02_15.pdf) -- no agenda
 - [agenda_21_02_19.pdf](/assets/agendas/agenda_21_02_19.pdf)
 - [agenda_21_02_26.pdf](/assets/agendas/agenda_21_02_26.pdf)
 
