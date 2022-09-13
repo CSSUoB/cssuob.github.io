@@ -98,4 +98,4 @@
 - source: /welcome
   destination: https://www.youtube.com/watch?v=WK5tCf7m-ZM
 - source: /soon
-  destination: https://cssbham.com/calendar
+  destination: /calendar
