@@ -99,3 +99,17 @@
   destination: https://www.youtube.com/watch?v=WK5tCf7m-ZM
 - source: /soon
   destination: /calendar
+
+# Freshers Events
+- source: /ming-moon
+  destination: https://www.eventbrite.co.uk/e/415324415507
+- source: /soc-night
+  destination: https://www.eventbrite.co.uk/e/412505092837
+- source: /societies-night
+  destination: https://www.eventbrite.co.uk/e/412505092837
+- source: /board-games-night
+  destination: https://forms.gle/4Ym4yk6NhkYtcUAn9
+- source: /board-games
+  destination: https://forms.gle/4Ym4yk6NhkYtcUAn9
+- source: /bringing-games
+  destination: https://docs.google.com/spreadsheets/d/1rhbeN7Uz3Pdc5BykaovVdaOhnmsR8vX2Es1pYXSvIGU/edit?usp=sharing
