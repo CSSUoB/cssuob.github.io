@@ -51,8 +51,6 @@
 # ball
 - source: /ball
   destination: /ball/2022
-- source: /soon
-  destination: /ball/2022
 - source: /ball/2022/photos
   destination: https://photos.app.goo.gl/bSyPR6fyHGtGDW6h9
 - source: /ball/2020/photos
@@ -99,3 +97,5 @@
 # Welcome
 - source: /welcome
   destination: https://www.youtube.com/watch?v=WK5tCf7m-ZM
+- source: /soon
+  destination: https://cssbham.com/calendar
