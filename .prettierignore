@@ -3,5 +3,6 @@
 !*.scss
 !*.js
 
-_site
+/vendor
+/_site
 /js/redirect.js
