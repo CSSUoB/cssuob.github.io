@@ -16,10 +16,12 @@ You'll also get a snazzy green role 🟢 on the [Discord](/discord)!
 If you have any problems getting a membership, ask in #help on our Discord
 server, the Guild website can occassionally be a little temperamental!
 
-<a href="/join" class="button guild-button">
-  <img src="/assets/about/guild-logo.svg" class="text-img" alt="">
-  Get Membership
-</a>
+<div class="text-center">
+  <a href="/join" class="button guild-button">
+    <img src="/assets/about/guild-logo.svg" class="text-img" alt="">
+    Get Membership
+  </a>
+</div>
 
 <div class="section-box" markdown="1">
 
