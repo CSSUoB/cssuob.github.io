@@ -234,11 +234,13 @@ function loadEvent(event) {
     document.getElementById("event-text-title").textContent = title;
     document.getElementById("event-text-date").textContent = date;
     document.getElementById("event-text-location").textContent = location;
-    let descStr = "";
-    for (let line in description) {
-      descStr += description[line].toString() + "\r\n";
+    if (description === null) {
+      document.getElementById("event-text-description").innerHTML = "";
+    } else {
+      document
+        .getElementById("event-text-description")
+        .replaceChildren(description);
     }
-    document.getElementById("event-text-description").textContent = descStr;
     document.getElementById("calendar-event").style.display = "block"; //show
   } else {
     //null event
@@ -252,46 +254,117 @@ function hideEvent() {
 }
 
 function parseDescription(description) {
-  let retDesc = "";
-  let regex = new RegExp(/&lt;desc&gt;(.*?)&lt;\/desc\&gt;/, "g");
-  // parse and escape for <desc></desc> tags. toString prevent XSS
-  // make descripton string, checks for null if no description specified
-  description = description == null ? null : description.toString();
-  let match = regex.exec(description);
-  if (match != null) {
-    retDesc = match[1];
-  } else {
-    // null, so just use the description
-    retDesc = description;
+  const el = parseHTML(description, ["desc"]);
+  if (el === null) {
+    return null;
   }
-  // parse and split on <br>
-  if (retDesc) {
-    // checks for null
-    let regexBr = new RegExp(/\<br\>/, "g");
-    return retDesc.split(regexBr);
-    //returns list of lines
-  } else {
-    return retDesc;
+
+  const desc = el.querySelector("fb");
+  if (desc) {
+    return desc;
   }
+  return el;
 }
 
 function parseFacebookLink(description) {
-  let retLink = "";
-  let regex = new RegExp(/&lt;fb&gt;(.*?)&lt;\/fb\&gt;/);
-  // parse and escape for <fb></fb> tags.
-  // make descripton string, checks for null if no description specified
-  description = description == null ? null : description.toString();
-  let match = regex.exec(description);
-  if (match != null) {
-    retLink = match[1];
+  const el = parseHTML(description, ["fb"]);
+  if (el === null) {
+    return null;
   }
-  // parse any <a> tags
-  let regexA = new RegExp(/\<a.*\>(.*?)\<\/a\>/);
-  // check for null
-  retLink = description == null ? null : retLink.toString();
-  match = regexA.exec(retLink);
-  if (match != null) {
-    retLink = match[1];
+
+  const fb = el.querySelector("fb");
+  if (fb) {
+    return fb.textContent;
   }
-  return retLink;
+
+  const links = el.querySelectorAll("a");
+  for (let link of links) {
+    const url = new URL(link);
+    if (url.hostname == "facebook.com") {
+      return link;
+    }
+  }
 }
+
+function parseHTML(html, otherValidTags = null, otherValidProperties = null) {
+  if (otherValidTags === null) otherValidTags = [];
+  if (otherValidProperties === null) otherValidProperties = new Map();
+
+  if (html === null || html === undefined || html === "") {
+    return null;
+  }
+
+  const validTags = ["a", "b", "br", "code", "em", "span", "strong"];
+  const validProperties = new Map([["a", ["href"]]]);
+  html = sanitizeTags(
+    html,
+    validTags.concat(otherValidTags),
+    new Map([...validProperties, ...otherValidProperties])
+  );
+
+  let el = document.createElement("span");
+  el.innerHTML = html;
+  return el;
+}
+
+// sanitizeTags cleans up all html <tags>, checking tag names against an
+// allow-list, dropping any invalid or forbidden tags.
+// Additionally, all suspicious characters are entity-encoded.
+function sanitizeTags(text, validTags, validProperties) {
+  let result = "";
+  for (;;) {
+    const match = text.match(
+      /<(\/?)([a-zA-Z]+)([a-zA-Z0-9\s:\/&'"-_=]*?)(\/?)>/
+    );
+    if (!match) {
+      result += encodeHTML(text);
+      break;
+    }
+
+    let [_, close, name, props, selfClose] = match;
+
+    result += encodeHTML(text.slice(0, match.index));
+    text = text.slice(match.index + match[0].length);
+
+    if (!validTags.includes(name)) {
+      result += encodeHTML(match[0]);
+      continue;
+    }
+
+    props = sanitizeProps(props, validProperties.get(match[2]));
+    result += `<${close}${name}${props}${selfClose}>`;
+  }
+  return result;
+}
+
+// sanitizeProps splits up a string of properties, checks them against an
+// allow-list, dropping any invalid of forbidden properties.
+function sanitizeProps(text, validProperties) {
+  if (validProperties === undefined || validProperties === null) return "";
+  const props = text
+    .split(" ")
+    .map((attr) => attr.match(/^([a-zA-Z]+)="([^"]*)"$/))
+    .filter((match) => match)
+    .map((match) => [match[1], match[2]])
+    .filter(([key, value]) => key && value && validProperties.includes(key))
+    .map(([key, value]) => `${key}="${value}"`)
+    .join(" ");
+  return props.length > 0 ? ` ${props} ` : "";
+}
+
+// encodeHTML encodes a possible html text string to use html-entities to
+// protect against XSS.
+function encodeHTML(text) {
+  return (
+    text
+      // parse selected entities (because *someone* is pasting weird characters to the calendar)
+      .replace(
+        /\&(#?[a-z0-9]+);/g,
+        (match, group) => entityList.get(group) || match
+      )
+      // encode all dangerous characters to html entities
+      .replace(/[\u00A0-\u9999<>\&]/g, (i) => "&#" + i.charCodeAt(0) + ";")
+  );
+}
+
+const entityList = new Map([["nbsp", "\u00a0"]]);
