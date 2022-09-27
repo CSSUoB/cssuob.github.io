@@ -12,17 +12,30 @@ social:
     - https://twitter.com/CSSBham
     - https://github.com/CSSUoB
 menu:
-  - name: ball
+  - name: Ball
+    link: /ball
     children:
-      - 2022
-      - 2021
-      - 2020
-  - name: newsletter
-  - name: committee
-  - name: clubs
-  - name: calendar
-  - name: sponsor
-  - name: about
+      - name: 2022
+        link: /ball/2022
+      - name: 2021
+        link: /ball/2021
+      - name: 2020
+        link: /ball/2020
+  - name: Newsletter
+    link: /newsletter
+  - name: Committee
+    link: /committee
+  - name: Clubs
+    link: /clubs
+  - name: Calendar
+    link: /calendar
+  - name: Sponsor
+    link: /sponsor
+  - name: About
+    link: /about
+    children:
+      - name: Membership
+        link: /membership
 baseurl: /
 root: /
 
