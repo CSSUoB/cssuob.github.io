@@ -1,0 +1,101 @@
+---
+layout: page
+styles:
+  - /css/type.css
+  - /css/pizzas.css
+---
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js CDN included-->
+
+<div id="pizzaMainContent">
+  <h1>CSS Pizza Statistics</h2>
+
+  {% for years in site.data.pizza %}
+    {% assign year = years[1] %}
+    {% if year.current %}
+      {% assign current_year = year %}
+    {% endif %}
+  {% endfor %}
+  {% assign total_pizzas = 0 %}
+  {% for years in site.data.pizza %}
+    {% if years[1].current %} 
+      {% assign year = years[1] %} 
+      {% for flavour in year.statistics %} 
+        {% assign total_pizzas = total_pizzas | plus: flavour[1] %}
+      {% endfor %}
+    {% endif %} 
+  {% endfor %}
+
+  <div id="pizzaCharts">
+    <!-- scripting for current year statistics -->
+    {% assign current_labels = "" | split: ',' %}
+    {% assign current_figures = "" | split: ',' %}
+    {% for flavour in current_year.statistics %}
+      {% assign current_labels = current_labels | push: flavour[0] %}
+      {% assign current_labels = current_labels | push: ", " %}
+      {% assign current_figures = current_figures | push: flavour[1] %}
+      {% assign current_figures = current_figures | push: ", " %}
+    {% endfor %}
+   
+    <div id="annualChartHolder">
+      <h3>In {{ current_year.academic_year }}, CSS has so far eaten {{ total_pizzas }} pizzas!</h3>
+      <canvas id="annualChart"></canvas>
+    </div>
+  </div>
+</div>
+
+<!-- annual chart scripting -->
+<script>
+  var pizzaLabels = '{{current_labels}}'.split(", ");
+  pizzaLabels.pop();
+  var pizzaFigures = '{{current_figures}}'.split(", ");
+  pizzaFigures = pizzaFigures.map((figure) => {
+    return parseInt(figure);
+  })
+  const ctx = document.getElementById("annualChart").getContext("2d");
+  const annualChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: pizzaLabels,
+        datasets: [{
+            data: pizzaFigures,
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        },
+        maintainAspectRatio: false,
+        plugins: {
+          title: {
+            display: true,
+            text: "{{current_year.academic_year}}",
+            color: "rgba(255, 255, 255, 1)",
+          },
+          legend: {
+            display: false,
+          }
+        }
+    }
+})
+</script>
+
