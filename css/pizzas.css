@@ -1,9 +1,10 @@
 
-#annualChartHolder {
+#annualBarChartHolder {
 	width: 100%;
 	height: 600px;
 	display: flex;
 	flex-direction: column;
+	margin-right: 100px;
 }
 
 #pizzaCharts {
