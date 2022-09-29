@@ -25,7 +25,9 @@ styles:
       {% endfor %}
     {% endif %} 
   {% endfor %}
-
+  <h3>In {{ current_year.academic_year }}, CSS has so far eaten {{ total_pizzas
+  }} pizzas!</h3>
+  
   <div id="pizzaCharts">
     <!-- scripting for current year statistics -->
     {% assign current_labels = "" | split: ',' %}
@@ -38,7 +40,6 @@ styles:
     {% endfor %}
    
     <div id="annualBarChartHolder">
-      <h3>In {{ current_year.academic_year }}, CSS has so far eaten {{ total_pizzas }} pizzas!</h3>
       <canvas id="annualBarChart"></canvas>
     </div>
     <div id="annualPieHolder">
@@ -47,13 +48,29 @@ styles:
   </div>
 </div>
 
+<!-- Annual bar chart scripting -->
 <script>
-  var pizzaLabels = '{{current_labels}}'.split(", ");
-  pizzaLabels.pop();
+  const chartBackgroundColors = [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)',
+                'rgba(23, 43, 250, 0.2)'
+            ];
+  const chartBorderColors = [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)',
+                'rgba(23, 43, 250, 1)'
+            ];
+  
+  var pizzaLabels = '{{current_labels}}'.split(", ").pop();
   var pizzaFigures = '{{current_figures}}'.split(", ");
-  pizzaFigures = pizzaFigures.map((figure) => {
-    return parseInt(figure);
-  })
   var ctx = document.getElementById("annualPieChart").getContext("2d");
   var annualChart = new Chart(ctx, {
     type: 'pie',
@@ -61,22 +78,8 @@ styles:
         labels: pizzaLabels,
         datasets: [{
             data: pizzaFigures,
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
+            backgroundColor: chartBackgroundColors,
+            borderColor: chartBorderColors,
             borderWidth: 1
         }]
     },
@@ -85,7 +88,7 @@ styles:
         plugins: {
           title: {
             display: true,
-            text: "{{current_year.academic_year}}",
+            text: "Scroll Over Me To See Data!",
             color: "rgba(255, 255, 255, 1)",
           },
           legend: {
@@ -96,7 +99,7 @@ styles:
 })
 </script> 
 
-<!-- annual chart scripting -->
+<!-- Annual pie chart scripting -->
 <script>
   var pizzaLabels = '{{current_labels}}'.split(", ");
   pizzaLabels.pop();
@@ -111,22 +114,8 @@ styles:
         labels: pizzaLabels,
         datasets: [{
             data: pizzaFigures,
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
+            backgroundColor: chartBackgroundColors,
+            borderColor: chartBorderColors,
             borderWidth: 1
         }]
     },
