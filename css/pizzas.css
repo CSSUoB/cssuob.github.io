@@ -1,0 +1,13 @@
+
+#annualChartHolder {
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+}
+
+#pizzaCharts {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
