@@ -93,6 +93,10 @@
 # BBQ
 - source: /bbq
   destination: https://www.eventbrite.co.uk/e/css-bbq-2022-tickets-343681248867
+  
+# BCS Tech She Can Talk
+- source: /tech-she-can
+  destination: https://www.eventbrite.co.uk/e/bcs-x-tech-she-can-talk-tickets-429564768787
 
 # Welcome
 - source: /welcome
