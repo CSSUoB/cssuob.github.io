@@ -38,44 +38,53 @@ styles:
       {% assign current_figures = current_figures | push: flavour[1] %}
       {% assign current_figures = current_figures | push: ", " %}
     {% endfor %}
+
+    <!-- build text for ARIA -->
+    {% assign aria_text = "" %}
+    {% for flavour in current_year.statistics %}
+      {% assign aria_text = aria_text | append: flavour[0] %}
+      {% assign aria_text = aria_text | append: ": " %}
+      {% assign aria_text = aria_text | append: flavour[1] %}
+      {% assign aria_text = aria_text | append: ", " %}
+    {% endfor %}
    
     <div id="annualBarChartHolder">
-      <canvas id="annualBarChart"></canvas>
+      <canvas id="annualBarChart" role="img" aria-label="{{ aria_text }}"></canvas>
     </div>
     <div id="annualPieHolder">
-      <canvas id="annualPieChart"></canvas>
+      <canvas id="annualPieChart" role= "img" aria-label="{{ aria_text }}"></canvas>
     </div>
   </div>
 </div>
 
-<!-- Annual bar chart scripting -->
+<!-- Annual pie chart scripting -->
 <script>
   const chartBackgroundColors = [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)',
-                'rgba(23, 43, 250, 0.2)'
+                'rgba(255, 23, 45, 0.7)',
+                'rgba(24, 12, 235, 0.7)',
+                'rgba(255, 235, 12, 0.7)',
+                'rgba(10, 240, 47, 0.7)',
+                'rgba(240, 50, 255, 0.7)',
+                'rgba(255, 145, 0, 0.7)',
+                'rgba(23, 43, 250, 0.7)'
             ];
   const chartBorderColors = [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)',
+                'rgba(255, 23, 45, 1)',
+                'rgba(24, 12, 235, 1)',
+                'rgba(255, 235, 12, 1)',
+                'rgba(10, 240, 47, 1)',
+                'rgba(240, 50, 255, 1)',
+                'rgba(255, 145, 0, 1)',
                 'rgba(23, 43, 250, 1)'
             ];
   
-  var pizzaLabels = '{{current_labels}}'.split(", ").pop();
+  var pizzaPieLabels = '{{current_labels}}'.split(", ");
   var pizzaFigures = '{{current_figures}}'.split(", ");
   var ctx = document.getElementById("annualPieChart").getContext("2d");
   var annualChart = new Chart(ctx, {
     type: 'pie',
     data: {
-        labels: pizzaLabels,
+        labels: pizzaPieLabels,
         datasets: [{
             data: pizzaFigures,
             backgroundColor: chartBackgroundColors,
@@ -84,22 +93,29 @@ styles:
         }]
     },
     options: {
-        maintainAspectRatio: false,
-        plugins: {
-          title: {
-            display: true,
-            text: "Scroll Over Me To See Data!",
-            color: "rgba(255, 255, 255, 1)",
-          },
-          legend: {
-            display: false,
+      maintainAspectRatio: false,
+      plugins: {
+        labels: {
+          render: 'label',
+          fontColor: "white",
+        },
+        title: {
+          display: true,
+          text: "Scroll Over Me To See Data!",
+          color: "rgba(255, 255, 255, 1)",
+        },
+        legend: {
+          display: false,
+          labels: {
+            fontColor: "white",
           }
         }
+      },
     }
 })
 </script> 
 
-<!-- Annual pie chart scripting -->
+<!-- Annual bar chart scripting -->
 <script>
   var pizzaLabels = '{{current_labels}}'.split(", ");
   pizzaLabels.pop();
@@ -120,23 +136,32 @@ styles:
         }]
     },
     options: {
-        scales: {
-            y: {
-                beginAtZero: true
-            }
-        },
-        maintainAspectRatio: false,
-        plugins: {
-          title: {
-            display: true,
-            text: "{{current_year.academic_year}}",
-            color: "rgba(255, 255, 255, 1)",
+      scales: {
+          y: {
+              beginAtZero: true
           },
-          legend: {
-            display: false,
+          x: {
+            ticks: {
+              color: "white",
+            }
+          }
+      },
+      maintainAspectRatio: false,
+      plugins: {
+        title: {
+          display: true,
+          text: "{{current_year.academic_year}}",
+          color: "rgba(255, 255, 255, 1)",
+        },
+        legend: {
+          display: false,
+          labels: {
+            fontColor: "white",
           }
         }
+      }
     }
-})
+  });
+
 </script>
 
