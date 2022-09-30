@@ -180,3 +180,4 @@ title: Agendas
 - [agenda_22_09_13.pdf](/assets/agendas/agenda_22_09_13.pdf)
 - [agenda_22_09_18.pdf](/assets/agendas/agenda_22_09_18.pdf)
 - [agenda_22_09_25.pdf](/assets/agendas/agenda_22_09_25.pdf)
+- [agenda_22_09_29.pdf](/assets/agendas/agenda_22_09_29.pdf)
