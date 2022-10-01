@@ -55,29 +55,11 @@
   destination: https://photos.app.goo.gl/bSyPR6fyHGtGDW6h9
 - source: /ball/2020/photos
   destination: https://www.facebook.com/media/set/?set=oa.2609144112656487
-- source: /ball/2021/gather.town
-  destination: https://www.gather.town/
 
-# GDSC: Python Workshop 13/10/2021
-- source: /python
-  destination: https://github.com/CSSUoB/GDSCPython
-
-# GDSC: Bot Workshop 26/11/2021
-- source: /preworkshop
-  destination: /assets/events/bot-workshop/Pre-Workshop.pdf
-- source: /botworkshop
-  destination: https://github.com/antikitten/Discord-Bot-Workshop
-
-# git workshop
-- source: /git/guide
-  destination: https://rogerdudler.github.io/git-guide/
-- source: /git/guestbook
-  destination: https://github.com/CSSUoB/GDSCGit
-- source: /git/workshop
-  destination: https://learngitbranching.js.org
-  
 # Calendar Typos
 - source: /calender
+  destination: /calendar
+- source: /cal
   destination: /calendar
 
 # AGM 2022
@@ -85,15 +67,7 @@
   destination: /assets/agendas/agenda_22_05_04.pdf
 - source: /feedback
   destination: https://docs.google.com/forms/d/e/1FAIpQLScTIizptSk8feTUWRGzKYEJ9_odGQh8Irv8GBAHALDJArzgeg/viewform?usp=sf_link
-  
-# Bletchley Park
-- source: /bletchley-park
-  destination: https://www.guildofstudents.com/events/6531/6398/
 
-# BBQ
-- source: /bbq
-  destination: https://www.eventbrite.co.uk/e/css-bbq-2022-tickets-343681248867
-  
 # BCS Tech She Can Talk
 - source: /tech-she-can
   destination: https://www.eventbrite.co.uk/e/bcs-x-tech-she-can-talk-tickets-429564768787
@@ -103,15 +77,3 @@
   destination: https://www.youtube.com/watch?v=WK5tCf7m-ZM
 - source: /soon
   destination: /calendar
-
-# Freshers Events
-- source: /soc-night
-  destination: https://www.eventbrite.co.uk/e/412505092837
-- source: /societies-night
-  destination: https://www.eventbrite.co.uk/e/412505092837
-- source: /guild-societies-night
-  destination: https://www.guildofstudents.com/ents/event/6677/
-- source: /guild-soc-night
-  destination: https://www.guildofstudents.com/ents/event/6677/
-- source: /tea
-  destination: https://www.guildofstudents.com/organisation/tea/
