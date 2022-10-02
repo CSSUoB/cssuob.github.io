@@ -77,3 +77,19 @@
   destination: https://www.youtube.com/watch?v=WK5tCf7m-ZM
 - source: /soon
   destination: /calendar
+
+# Freshers Events
+- source: /soc-night
+  destination: https://www.eventbrite.co.uk/e/412505092837
+- source: /societies-night
+  destination: https://www.eventbrite.co.uk/e/412505092837
+- source: /guild-societies-night
+  destination: https://www.guildofstudents.com/ents/event/6677/
+- source: /guild-soc-night
+  destination: https://www.guildofstudents.com/ents/event/6677/
+- source: /tea
+  destination: https://www.guildofstudents.com/organisation/tea/
+
+# Other typos
+- source: /pizzas
+  destination: https://cssbham.com/pizza

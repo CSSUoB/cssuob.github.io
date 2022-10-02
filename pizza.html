@@ -49,10 +49,10 @@ styles:
       {% assign aria_text = aria_text | append: ", " %}
     {% endfor %}
    
-    <div id="annualBarChartHolder">
+    <div class="annualChartHolder">
       <canvas id="annualBarChart" role="img" aria-label="{{ aria_text }}"></canvas>
     </div>
-    <div id="annualPieHolder">
+    <div class="annualChartHolder">
       <canvas id="annualPieChart" role= "img" aria-label="{{ aria_text }}"></canvas>
     </div>
   </div>
