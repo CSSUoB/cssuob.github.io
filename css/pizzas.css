@@ -1,7 +1,7 @@
-
 .annualChartHolder {
 	width: 50%;
 	height: auto;
+	padding-right: 50px;
 }
 
 @media screen and (max-width: 1060px) {
