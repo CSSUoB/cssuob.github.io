@@ -115,3 +115,7 @@
   destination: https://www.guildofstudents.com/ents/event/6677/
 - source: /tea
   destination: https://www.guildofstudents.com/organisation/tea/
+
+# Other typos
+- source: /pizzas
+  destination: https://cssbham.com/pizza

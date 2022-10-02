@@ -1,24 +1,28 @@
 
-#annualBarChartHolder {
-	width: 100%;
-	height: 600px;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	margin-right: 100px;
+.annualChartHolder {
+	width: 50%;
+	height: auto;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1060px) {
 	#pizzaCharts {
 		width: 100%;
 		height: 100%;
 		display: flex;
 		flex-direction: column;
 	}	
+	.annualChartHolder {
+		width: 100%;
+		height: 50%;
+	}
 }
 
 #pizzaCharts {
 	width: 100%;
 	height: 100%;
 	display: flex;
+}
+
+#pizzaMainContent {
+	height: 600px;
 }
