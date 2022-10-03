@@ -77,3 +77,7 @@
   destination: https://www.youtube.com/watch?v=WK5tCf7m-ZM
 - source: /soon
   destination: /calendar
+
+# Other typos
+- source: /pizzas
+  destination: https://cssbham.com/pizza
