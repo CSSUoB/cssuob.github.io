@@ -80,6 +80,6 @@ After that, that's it! You've made your first contribution to CSS' website. 🎉
 
 ## Guidance
 
-We aim to get more people involved with our website, and help build members' confidence in using git and contributing to open-source. If you see an error with the website, we encourage you to *be bold* and fix it yourself, rather than just raising an issue. If you are stuck, need help, or have a question about the website, the best place to ask is on our Discord, in the `#website🌐` channel.
+We aim to get more people involved with our website, and help build members' confidence in using git and contributing to open-source. If you see an error with the website, we encourage you to *be bold* and fix it yourself, rather than just raising an issue. If you are stuck, need help, or have a question about the website, the best place to ask is on our Discord, in the `#github🌐` channel.
 
 Happy editing!
