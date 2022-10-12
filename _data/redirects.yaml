@@ -81,3 +81,7 @@
 # Other typos
 - source: /pizzas
   destination: https://cssbham.com/pizza
+
+# Bar Crawl 2022
+- source: /barcrawl
+  destination: https://www.guildofstudents.com/events/6531/6722/
