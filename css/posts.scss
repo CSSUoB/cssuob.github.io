@@ -11,8 +11,6 @@ $preview-height: 150px;
 
   margin-bottom: 20px;
 
-  background: white;
-
   opacity: 0;
   transition: opacity 0.1s;
 
@@ -22,6 +20,10 @@ $preview-height: 150px;
 
   .post-thumbnail {
     flex: 0 0 auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px white solid;
+    box-sizing: border-box;
 
     width: $preview-height;
     height: $preview-height;
@@ -30,7 +32,8 @@ $preview-height: 150px;
 
   .post-details {
     flex: 1 1 auto;
-    margin-left: 1em;
+    padding-left: 1em;
+    background: white;
 
     .post-title {
       color: black;
