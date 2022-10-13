@@ -95,3 +95,9 @@
   destination: https://www.eventbrite.co.uk/e/halloween-quiz-2022-tickets-440595040627
 - source: /quiz
   destination: https://www.eventbrite.co.uk/e/halloween-quiz-2022-tickets-440595040627
+
+# EGM October 2022
+- source: /egm/agenda
+  destination: /assets/agendas/agenda_22_10_27.pdf
+- source: /egm
+  destination: /assets/agendas/agenda_22_10_27.pdf
