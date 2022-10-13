@@ -85,3 +85,13 @@
 # Bar Crawl 2022
 - source: /barcrawl
   destination: https://www.guildofstudents.com/events/6531/6722/
+
+# Halloween Quiz 2022
+- source: /halloween
+  destination: https://www.eventbrite.co.uk/e/halloween-quiz-2022-tickets-440595040627
+- source: /halloween-quiz
+  destination: https://www.eventbrite.co.uk/e/halloween-quiz-2022-tickets-440595040627
+- source: /haloween 
+  destination: https://www.eventbrite.co.uk/e/halloween-quiz-2022-tickets-440595040627
+- source: /quiz
+  destination: https://www.eventbrite.co.uk/e/halloween-quiz-2022-tickets-440595040627
