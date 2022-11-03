@@ -69,7 +69,7 @@ tex:
   - name: Ballot TeX
     path: tex_ballot.png
     description: >
-      TeX exercising their democratic rights as a CSS member. Stickers are handed out at our AGM.
+      TeX exercising their democratic rights as a CSS member. Stickers are handed out at our elections.
     ratio: 1.109
 
 ---
