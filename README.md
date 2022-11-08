@@ -168,7 +168,7 @@ To update the committee:
    - `prefix`: Prefix to the role of each member, e.g. \"`Outgoing` Publicity Rep\"
    - `postfix`: Postfix to the role of each member, e.g. \"Publicity Rep `Elect`\"
    - `current`: Display the committee on the main list page, `true` or `false`. All committees will always be listed in the archive
-   - `people:` : A list of committee members:
+   - `people`: A list of committee members:
       - `name`: Name
       - `role`: Committee Role
       - `bio: >`: Multiline Bio
