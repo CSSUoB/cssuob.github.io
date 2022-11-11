@@ -101,3 +101,7 @@
   destination: /assets/agendas/agenda_22_10_27.pdf
 - source: /egm
   destination: /assets/agendas/agenda_22_10_27.pdf
+  
+ # Escape Room
+ - source: /escape
+  destination: https://www.guildofstudents.com/events/6531/6953/
