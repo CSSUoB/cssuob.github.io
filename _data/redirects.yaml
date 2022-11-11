@@ -68,33 +68,13 @@
 - source: /feedback
   destination: https://docs.google.com/forms/d/e/1FAIpQLScTIizptSk8feTUWRGzKYEJ9_odGQh8Irv8GBAHALDJArzgeg/viewform?usp=sf_link
 
-# BCS Tech She Can Talk
-- source: /tech-she-can
-  destination: https://www.eventbrite.co.uk/e/bcs-x-tech-she-can-talk-tickets-429564768787
-
 # Welcome
-- source: /welcome
-  destination: https://www.youtube.com/watch?v=WK5tCf7m-ZM
 - source: /soon
   destination: /calendar
 
 # Other typos
 - source: /pizzas
   destination: https://cssbham.com/pizza
-
-# Bar Crawl 2022
-- source: /barcrawl
-  destination: https://www.guildofstudents.com/events/6531/6722/
-
-# Halloween Quiz 2022
-- source: /halloween
-  destination: https://www.eventbrite.co.uk/e/halloween-quiz-2022-tickets-440595040627
-- source: /halloween-quiz
-  destination: https://www.eventbrite.co.uk/e/halloween-quiz-2022-tickets-440595040627
-- source: /haloween 
-  destination: https://www.eventbrite.co.uk/e/halloween-quiz-2022-tickets-440595040627
-- source: /quiz
-  destination: https://www.eventbrite.co.uk/e/halloween-quiz-2022-tickets-440595040627
 
 # EGM October 2022
 - source: /egm/agenda
