@@ -9,7 +9,7 @@ Hi everyone!
 We wanted to let you know about all the CSS events coming up in the next month - it’s going to be a busy one so here’s a quick rundown:
 ## Escape Room 🔐
 
-This Friday at 8pm, put your teamwork and puzzle solving skills to the test at an escape room! Tickets are available at 🔗https://cssbham.com/escape
+This Friday at 8pm, put your teamwork and puzzle solving skills to the test at an escape room! Tickets are available at 🔗 [https://cssbham.com/escape](/escape)
 
 ## Quantum Workshop ⚛️
 
