@@ -9,7 +9,7 @@ Hi everyone!
 We wanted to let you know about all the CSS events coming up in the next month - it’s going to be a busy one so here’s a quick rundown:
 ## Escape Room 🔐
 
-This Friday at 8pm, put your teamwork and puzzle solving skills to the test at an escape room! Tickets are available at 🔗 [https://cssbham.com/escape](/escape)
+This Friday at 8pm, put your teamwork and puzzle solving skills to the test at an escape room! Tickets are available at 🔗 [https://cssbham.com/escape](/escape)🔗
 
 ## Quantum Workshop ⚛️
 
@@ -19,8 +19,9 @@ Miriam will be teaching a quantum computing module next semester for final years
 
 This is your chance to get involved with running the society! You can stand for election to be our new Social Secretary or PGR rep and help run more events. The speeches and voting will all be taking place on Wednesday the 30th at 1pm.
 
-## Christmas events! 🎅
+## Christmas Events! 🎅
 
+W﻿e've got lots of events coming up to celebrate this time of the year:
 
 ### Christmas Lights 
 
