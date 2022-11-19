@@ -168,11 +168,21 @@ To update the committee:
    - `prefix`: Prefix to the role of each member, e.g. \"`Outgoing` Publicity Rep\"
    - `postfix`: Postfix to the role of each member, e.g. \"Publicity Rep `Elect`\"
    - `current`: Display the committee on the main list page, `true` or `false`. All committees will always be listed in the archive
+      - NB: this is now obsolete as each committee member has a start and end date
    - `people`: A list of committee members:
       - `name`: Name
+      - `pronouns`: Pronouns
+      - `discordtag`: Handle on Discord
+      - `flags`: A list of flags they have. Defined in `_data\committee-flags.yaml`
+         - Each committee member can have 0 or more flags assigned in a list. For example: `flags: ["interim"]`
+         - `interim`: They were elected as an interim rep until the next EGM
+         - `outgoing`: They are outgoing but still attending meetings / working
+         - `elect`: They have been elected but are not necessarily attending meetings / working
       - `role`: Committee Role
-      - `bio: >`: Multiline Bio
       - `picture`: Picture
+      - `start-date`: Date they started on the committee. Normally 1st of July for AGMs or the date of the EGM
+      - `end-date`: Date they ended on the committee. If this tag is present they are put into the archive and are not shown in the /committee page
+      - `bio: >`: Multiline Bio
 
 [calendar]: https://calendar.google.com/calendar/embed?src=kg5v9k480jn2qahpmq33h8g7cs%40group.calendar.google.com&ctz=Europe%2FLondon
 [fullcalendar]: https://fullcalendar.io/
