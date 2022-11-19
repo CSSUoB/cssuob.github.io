@@ -57,6 +57,15 @@ scripts:
               {% if committee.prefix %}{{committee.prefix}}{% endif %}
               {{ person.role }}
               {% if committee.postfix %}{{committee.postfix}}{% endif %}
+              {% if person.flags %}
+                {% for flag in person.flags %}
+                  {% if site.data.committee-flags.flags[flag] %}
+                    <span class="flag-{{ flag }}" title="{{ site.data.committee-flags.flags[flag].description }}"><!--
+                   -->{{ site.data.committee-flags.flags[flag].text }}<!--
+                 --></span>
+                  {% endif %} 
+                {% endfor %}
+              {% endif %}
               |
               {{ person.start-date | date: "%b %Y" }} -
               {{ person.end-date | date: "%b %Y" | default: "Present" }}
