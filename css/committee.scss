@@ -97,18 +97,3 @@
     max-width: 700px;
   }
 }
-
-{% for flag in site.data.committee-flags.flags %}
-.flag-{{ flag[0] }} {
-  {% if flag[1]["background-colour"] %}
-    background-color: {{ flag[1]["background-colour"] }};
-  {% endif %}
-  {% if flag[1]["text-colour"] %}
-    color: {{ flag[1]["text-colour"] }};
-  {% endif %}
-  border-radius: 6px;
-  text-align: center;
-  font-size: 0.8em;
-  padding: 2px 4px;
-}
-{% endfor %}
