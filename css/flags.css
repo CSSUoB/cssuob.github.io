@@ -8,5 +8,6 @@
   text-align: center;
   font-size: 0.8em;
   padding: 2px 4px;
+  line-height: 1.5em;
 }
 {% endfor %}
