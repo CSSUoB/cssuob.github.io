@@ -3,6 +3,7 @@ layout: page
 title: Committee Archive
 styles:
   - /css/committee.css
+  - /css/flags.css
 scripts:
   - /js/fadein.js
 ---
@@ -12,7 +13,6 @@ scripts:
 {% assign committees = site.data.committee | sort %}
 {% for committees in committees reversed %}
   {% assign committee = committees[1] %}
-  {% if committee.current == true %}
     {% assign empty_list = true %}
     {% for member in committee.people %}
       {% if member.end-date %}
@@ -25,35 +25,6 @@ scripts:
     <div class="person-container fadein-container">
       {% for person in committee.people %}
         {% if person.end-date %}
-          <div class="person fadein hidden">
-            <img class="picture" src="{{ person.picture | relative_url }}" alt="picture of {{ person.name }}">
-            <div class="details">
-              <span class="name">{{ person.name }}</span>
-              {% if person.pronouns %}
-                <span class="pronouns">
-                  {{person.pronouns}}
-                </span>
-              {% endif %}
-              <p class="role">
-                {{ person.role }}
-                |
-                {% if person.start-date and person.end-date %}
-                  {{ person.start-date | date: "%b %Y" }} -
-                  {{ person.end-date | date: "%b %Y" | default: "Present" }}
-                {% endif %}
-              </p>
-              <p class="bio">
-                {{ person.bio }}
-              </p>
-            </div>
-          </div>
-        {% endif %}
-      {% endfor %}
-    {% endunless %}
-  {% else %}
-    <h2>{{ committee.academic_year }}</h2>
-    <div class="person-container fadein-container">
-      {% for person in committee.people %}
         <div class="person fadein hidden">
           <img class="picture" src="{{ person.picture | relative_url }}" alt="picture of {{ person.name }}">
           <div class="details">
@@ -64,14 +35,29 @@ scripts:
               </span>
             {% endif %}
             <p class="role">
+              {% if committee.prefix %}{{committee.prefix}}{% endif %}
               {{ person.role }}
+              {% if committee.postfix %}{{committee.postfix}}{% endif %}
+              {% if person.flags %}
+                {% for flag in person.flags %}
+                  {% if site.data.committee-flags.flags[flag] %}
+                    <span class="flag-{{ flag }}" title="{{ site.data.committee-flags.flags[flag].description }}"><!--
+                   -->{{ site.data.committee-flags.flags[flag].text }}<!--
+                 --></span>
+                  {% endif %} 
+                {% endfor %}
+              {% endif %}
+              |
+              {{ person.start-date | date: "%b %Y" }} -
+              {{ person.end-date | date: "%b %Y" | default: "Present" }}
             </p>
             <p class="bio">
               {{ person.bio }}
             </p>
           </div>
         </div>
+        {% endif %}
       {% endfor %}
-  {% endif %}
+    {% endunless %}
   </div>
 {% endfor %}

@@ -1,0 +1,16 @@
+flags:
+  interim:
+    text: 'Interim'
+    description: 'Elected as an interim rep until the next EGM'
+    text-colour: '#fff'
+    background-colour: '#9d68dc'
+  outgoing:
+    text: 'Outgoing'
+    description: 'Outgoing committee member'
+    text-colour: '#fff'
+    background-colour: '#ff9c00'
+  elect: 
+    text: 'Elect'
+    description: 'Recently elected as committee'
+    text-colour: '#fff'
+    background-colour: '#58cad6'

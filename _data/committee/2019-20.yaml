@@ -4,6 +4,8 @@ current: false
 people:
   - name: Cristian Calauz
     role: President
+    start-date: 1/7/2019
+    end-date: 1/7/2020
     bio: >
       As the president of CSS, I oversee and manage the committee and the
       society. I also engage in the recreational sport of watching paint dry,
@@ -11,6 +13,8 @@ people:
     picture: /assets/committee/2019-20/mini/cristian.jpg
   - name: Tom Goodman
     role: Secretary
+    start-date: 1/7/2019
+    end-date: 1/7/2020
     bio: >
       I'm Tom, a 2nd year PhD student here at the uni. I did my BSc here too,
       and I've been involved with CSS since my first year, and was president
@@ -19,6 +23,8 @@ people:
     picture: /assets/committee/2019-20/mini/tomg.jpg
   - name: Stefan Nedelcu
     role: Treasurer
+    start-date: 1/7/2019
+    end-date: 1/7/2020
     bio: >
       As Treasurer, I look after the finances of our society, ensuring every
       transaction is made by the book. Some would say the computer science
@@ -27,6 +33,8 @@ people:
     picture: /assets/committee/2019-20/mini/stefan.jpg
   - name: Justin Chadwell
     role: Vice-President
+    start-date: 1/7/2019
+    end-date: 1/7/2020
     bio: >
       My job within the committee is to help the society run smoothly, so I
       do lots of odd jobs, like work on this website. When not on CSS
@@ -35,6 +43,8 @@ people:
     picture: /assets/committee/2019-20/mini/justin.jpg
   - name: Jonathan Rudman
     role: Socials Rep
+    start-date: 1/7/2019
+    end-date: 1/7/2020
     bio: >
       As CSS socials rep, I ensure that social events occur frequently and
       that these events are designed around our members. When I’m not
@@ -42,6 +52,8 @@ people:
     picture: /assets/committee/2019-20/mini/jonty.jpg
   - name: Selma Kander
     role: International Rep
+    start-date: 1/7/2019
+    end-date: 1/7/2020
     bio: >
       Hi I’m selma, international rep for CSS. My goal is to make sure
       international CS students feel at home here! Feel free to hit me up if
@@ -49,6 +61,8 @@ people:
     picture: /assets/committee/2019-20/mini/selma.jpg
   - name: Lauren Alie
     role: Special Events Rep
+    start-date: 1/7/2019
+    end-date: 1/7/2020
     bio: >
       As Special Events rep, I'm responsible for making sure that all big CSS
       events during the year, such as the CSS ball, are the best they can be.
@@ -56,6 +70,8 @@ people:
     picture: /assets/committee/2019-20/mini/lauren.jpg
   - name: Keerthi Rachmallu
     role: Diversity and Inclusivity Rep
+    start-date: 1/7/2019
+    end-date: 1/7/2020
     bio: >
       I’m the Diversity, Inclusivity and Equality Representative, or as I
       like to be called, the DIE rep for CSS. When I’m not doing nerdy comp
@@ -64,6 +80,8 @@ people:
     picture: /assets/committee/2019-20/mini/keerthi.jpg
   - name: Laura Cope
     role: Sports Rep
+    start-date: 1/7/2019
+    end-date: 1/7/2020
     bio: >
       Within the committee I organise any sporting events, not forgetting
       e-sports. In my free time I play ice hockey, cycle and do and any other
@@ -72,6 +90,8 @@ people:
     picture: /assets/committee/2019-20/mini/laura.jpg
   - name: Lik Kan Chung
     role: Publicity Rep
+    start-date: 1/7/2019
+    end-date: 1/7/2020
     bio: >
       Hi. I'm Likkan, I'm a third year undergrad. I'm the publicity rep so my
       job is to make all the posters and post on social media. Other things I
@@ -80,6 +100,8 @@ people:
     picture: /assets/committee/2019-20/mini/likkan.jpg
   - name: Tom Preece
     role: Industrial Rep
+    start-date: 1/7/2019
+    end-date: 1/7/2020
     bio: >
       I'm the committee's link to the world of industry, ensuring that the
       society is relevant and on top of changes. I also represents the
@@ -88,6 +110,8 @@ people:
     picture: /assets/committee/2019-20/mini/tomp.jpg
   - name: Valeria Popescu
     role: First Year Rep
+    start-date: 23/10/2019
+    end-date: 1/7/2020
     bio: >
       Hi! My name is Valeria and my goal is to make sure that first-year
       students are well informed and involved in all the opportunities out
@@ -97,5 +121,7 @@ people:
     picture: /assets/committee/2019-20/mini/valeria.jpg
   - name: Marco Canducci
     role: Post-Graduate (Research) Rep
+    start-date: 1/7/2019
+    end-date: 1/7/2020
     bio:
     picture: /assets/committee/2019-20/mini/marco.jpg

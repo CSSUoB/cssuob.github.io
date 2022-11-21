@@ -5,6 +5,8 @@ current: false
 people:
   - name: Jacqueline Henes
     role: President
+    start-date: 1/7/2020
+    end-date: 1/7/2021
     bio: >
       I'm Jacqui, the president of CSS! My role is to manage the society and
       committee, as well as represent CSS at the guild. When I'm not stressing
@@ -13,6 +15,8 @@ people:
     picture: /assets/committee/2020-21/mini/jacqui.jpg
   - name: Tom Goodman
     role: Secretary
+    start-date: 1/7/2020
+    end-date: 1/7/2021
     bio: >
       Hey! I'm a 3rd year PhD student in the School 💖 This year, I'm serving as your Secretary, and have been on the
       committee for five (😱) years now. I love cats, baking, gin, board games, and a boatload of other stuff - feel
@@ -21,6 +25,8 @@ people:
     picture: /assets/committee/2020-21/mini/tom.jpg
   - name: Jake Foster
     role: Treasurer
+    start-date: 1/7/2020
+    end-date: 1/7/2021
     bio: >
       Hi I’m Jake and this academic year I will be managing the societies finances.
       I am going into my 4th year and plan to spend it playing DnD, drinking, and completing the occasional assignment.
@@ -29,6 +35,8 @@ people:
     picture: /assets/committee/2020-21/mini/jake.jpg
   - name: Valeria Popescu
     role: Vice-President
+    start-date: 1/7/2020
+    end-date: 1/7/2021
     bio: >
       Hi everyone! My role this year is to make sure that all events run smoothly and that everyone feels included
       in our computer science community.
@@ -40,6 +48,8 @@ people:
     picture: /assets/committee/2020-21/mini/valeria.jpg
   - name: Robert Hallam
     role: Socials Rep
+    start-date: 1/7/2020
+    end-date: 1/7/2021
     bio: >
       Hi, I'm Rob. It’s my job to make sure you have as much fun as possible
       by running social events and meetups! This year, I want more people coming to these. In
@@ -48,6 +58,8 @@ people:
     picture: /assets/committee/2020-21/mini/rob.png
   - name: Afarin Izadi
     role: International Student Rep
+    start-date: 28/10/2020
+    end-date: 1/7/2021
     bio: >
       I know all about the struggles of being an international student — like finding friends, understanding the culture,
       and homesickness. I'm here to help you make friends and to make everyone feel
@@ -56,6 +68,8 @@ people:
     picture: /assets/committee/2020-21/mini/afarin.jpg
   - name: Jacob Wilson
     role: Special Events Rep
+    start-date: 1/7/2020
+    end-date: 1/7/2021
     bio: >
       I ensure that all of our big social events (like the CSS Ball and the Christmas meal) run
       smoothly and that everyone has a good time. I hope to make all of our events special throughout the
@@ -66,6 +80,8 @@ people:
     picture: /assets/committee/2020-21/mini/jacob.jpg
   - name: Leela Muppala
     role: Diversity, Equality and Inclusivity Rep
+    start-date: 1/7/2020
+    end-date: 1/7/2021
     bio: >
       My role is to make everyone feel included and represented at all our events,
       no matter their background. I also help arrange our international events,
@@ -76,6 +92,8 @@ people:
     picture: /assets/committee/2020-21/mini/leela.jpg
   - name: Daniel Stoica
     role: Sports Rep
+    start-date: 1/7/2020
+    end-date: 1/7/2021
     bio: >
       I encourage everyone (regardless of your level or experience) to take
       part in our sports and e-sports events! One of my goals this year is to increase the amount of people
@@ -84,12 +102,16 @@ people:
     picture: /assets/committee/2020-21/mini/daniel-stoica.jpg
   - name: George Baker
     role: Publicity Rep
+    start-date: 1/7/2020
+    end-date: 1/7/2021
     bio: >
       I’m responsible for promoting all of our wonderful events and maintaining this website! In my spare time, I enjoy photography,
       playing tennis, and listening to music.
     picture: /assets/committee/2020-21/mini/george.jpeg
   - name: Likkan Chung
     role: Industrial Rep
+    start-date: 1/7/2020
+    end-date: 1/7/2021
     bio: >
       I'm a fourth year undergrade on my Year in Industry at Kainos.
       As our Industrial Liaison, I bring industry and careers events to the society.
@@ -100,6 +122,8 @@ people:
     picture: /assets/committee/2020-21/mini/likkan.jpg
   - name: Rhys Morgan
     role: First Year Rep
+    start-date: 28/10/2020
+    end-date: 1/7/2021
     bio: >
       Hello World! I'm Rhys, a first year degree apprentice and your First Year Rep. I enjoy anything to do with CS and many
       other things - from programming to cycling (sometimes I do both 😉). I'll be making sure that you feel welcomed as a first
@@ -110,6 +134,8 @@ people:
     picture: /assets/committee/2020-21/mini/rhys.jpg
   - name: Dan Clark
     role: Post-Graduate (Research) Rep
+    start-date: 1/7/2020
+    end-date: 1/7/2021
     bio: >
       My job this year is to get more PhD and MRes students involved in CSS events.
       My research is in Cyber Security, focusing on the (in)security of
