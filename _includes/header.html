@@ -31,7 +31,6 @@
 	{% if item.children %}
 	<a onclick="toggleShow({{ forloop.index }})">{{ item.name }}</a>
 	<div class="dropdown" style="display: none" id="hbdd_{{ forloop.index }}">
-      <a href="{{ item.link | relative_url }}">- Index</a><br/>
 	  {% for sub in item.children %}
           <a href="{{ sub.link | relative_url }}">- {{ sub.name }}</a><br/>
 	  {% endfor %}
