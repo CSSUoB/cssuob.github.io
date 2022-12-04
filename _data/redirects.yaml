@@ -93,3 +93,9 @@
   destination: https://www.guildofstudents.com/events/6531/6973/
 - source: /christmas
   destination: https://www.guildofstudents.com/events/6531/6973/
+  
+# Hoodies
+- source: /hoodies
+  destination: https://guildofstudents.com/events/6531/7064
+- source: /hoodie
+  destination: https://guildofstudents.com/events/6531/7064
