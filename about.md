@@ -50,7 +50,7 @@ can get involved with straight away — no membership required! 😃
 #### Become A Member
 
 To take part in our ticketed events, you'll want to [click here](/join) to
-purchase a membership; it's only £5 for the entire year! 😲
+purchase a membership; it's only £5 for the entire year!
 
 You can find out more about becoming a member [here](/membership).
 
