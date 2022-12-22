@@ -24,6 +24,17 @@ people:
       (if you have any recommendations, let me know!); make computer hardware do stuff it was never meant to; and try to form 
       the ultimate ritual to make the perfect cup of coffee.
 
+  - name: Matty Widdop
+    pronouns: He/Him
+    discordtag: Matty#5687
+    role: Treasurer
+    picture: /assets/committee/2022-23/mini/matty.jpg
+    start-date: 7/12/2022
+    bio: >
+      Hello! I'm Matty, your treasurer so I'll be handling the society finances and financial paperwork required to make sure the society can continue running amazing events for everyone!
+      I'm a second year CS student and I'm also the most senior student rep - representing all 24,000 Undergraduate students to the University Senate.
+      My interest in CS started with programming Minecraft plugins nearly 8 years ago but since then I've also gotten into cyber security as well. I also enjoy Jiu Jitsu and would love to get more people involved!
+
   - name: Raine Arrowsmith
     pronouns: She/They
     discordtag: Raine#8544
@@ -94,6 +105,17 @@ people:
       cosplaying, playing games, art, photography, baking, collecting sanrio merch, & puzzle solving. I'm always happy to meet 
       new people so always feel welcome to message me or approach me if you see me on campus. 🌱
 
+  - name: Marcus Gustafsson
+    pronouns: He/Him
+    discordtag: jb007db5#0412
+    role: Socials Secretary
+    picture: /assets/committee/2022-23/mini/marcus.jpg
+    start-date: 7/12/2022
+    bio: >
+      Hello, I'm Marcus, and I'm in second year Computer Science. I'm responsible for organising social events of all different
+      types. My interests outside of Computer Science are movies, cars, planes, '80s music and other nerdy stuff! I'm normally 
+      around on Discord so feel free to message me!
+
   - name: Aarogya Yadav
     pronouns: He/Him
     discordtag: Arcane34#4178
@@ -109,7 +131,7 @@ people:
     pronouns: She/They
     discordtag: cryptonomicon#6206
     role: Equality, Diversity, and Inclusivity Officer
-    picture: /assets/committee/2022-23/mini/sofia.png
+    picture: /assets/committee/2022-23/mini/sofia.jpg
     start-date: 1/7/2022
     bio: >
       Hiya! I'm Sofia, a second year and the EDI Officer of CSS! I work to make sure that all CSS members are properly 
@@ -123,11 +145,24 @@ people:
     role: Industrial Liaison
     picture: /assets/committee/2022-23/mini/matty.jpg
     start-date: 1/7/2022
+    end-date: 7/12/2022
     bio: >
       Hello! I'm Matty, your industrial liaison so I'll be handling communication and organisation with external companies to 
       arrange sponsorships and events to help make sure CSS is providing the best possible experience for members. My interest 
       in CS started with programming Minecraft plugins nearly 8 years ago but since then I've also gotten into cyber security as 
       well. I also enjoy Jiu Jitsu and would love to get more people involved!
+
+  - name: Charlie Wilson
+    pronouns: He/Him
+    discordtag: CESW#5849
+    role: Industrial Liaison
+    picture: /assets/committee/2022-23/mini/charlie.jpg
+    start-date: 7/12/2022
+    bio: >
+      Hi I'm Charlie and I'm the Industrial Liaison for CSS, which means I communicate with lots of companies to convince them to
+      sponsor us, helping bring in money for the society and fund all the fun events that we want to run.  My hobbies outside of
+      Computer Science are reading Science Fiction (with my favourite book being Snow Crash) and I love listening to music, so feel
+      free to come up to me to talk about those or anything else you'd like to discuss.
 
   - name: Dan Clark
     pronouns: He/Him
