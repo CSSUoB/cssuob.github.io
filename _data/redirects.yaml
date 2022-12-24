@@ -77,14 +77,6 @@
 # Other typos
 - source: /pizzas
   destination: https://cssbham.com/pizza
-
-# Christmas Meal
-- source: /christmas-meal
-  destination: https://www.guildofstudents.com/events/6531/6973/
-- source: /meal
-  destination: https://www.guildofstudents.com/events/6531/6973/
-- source: /christmas
-  destination: https://www.guildofstudents.com/events/6531/6973/
   
 # Hoodies
 - source: /hoodies
