@@ -41,6 +41,8 @@
   destination: https://github.com/CSSUoB/cssuob.github.io
 - source: /github
   destination: https://github.com/CSSUoB/cssuob.github.io
+- source: /texbot
+  destination: https://github.com/CSSUoB/TeX-Bot-JS
 
 # uni
 - source: /guild
@@ -93,3 +95,11 @@
   destination: https://guildofstudents.com/events/6531/7063
 - source: /quak
   destination: https://guildofstudents.com/events/6531/7063
+
+# Git Workshop 2022
+- source: /git/guestbook
+  destination: https://github.com/CSSUoB/GDSCGit
+- source: /git/guide
+  destination: https://rogerdudler.github.io/git-guide/
+- source: /git/visual
+  destination: https://git-school.github.io/visualizing-git/
