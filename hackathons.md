@@ -23,6 +23,9 @@ hackathons:
   - name: Hack the Burgh VI
     data: February/March 2020
     image: /assets/images/hacktheburghvi.jpg?raw=true
+  - name: HackNotts 2023
+    data: February 2023
+    image: /assets/images/hacknotts23.jpg?raw=true
 ---
 
 # Hackathons
