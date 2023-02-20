@@ -115,3 +115,11 @@
 # TNMOC 2023
 - source: /tnmoc
   destination: https://www.guildofstudents.com/events/6531/7209/
+
+# Tex Talks 2023
+- source: /textalks
+  destination: https://www.eventbrite.co.uk/e/tex-talks-tickets-552718996397
+- source: /tex-talks
+  destination: https://www.eventbrite.co.uk/e/tex-talks-tickets-552718996397
+- source: /talks
+  destination: https://www.eventbrite.co.uk/e/tex-talks-tickets-552718996397
