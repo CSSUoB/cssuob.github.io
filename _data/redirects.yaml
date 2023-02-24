@@ -123,3 +123,9 @@
   destination: https://www.eventbrite.co.uk/e/tex-talks-tickets-552718996397
 - source: /talks
   destination: https://www.eventbrite.co.uk/e/tex-talks-tickets-552718996397
+  
+# SloLAN 2023
+- source: /slolan
+  destination: https://forms.gle/c5C3WFwFeKNB2cwX8
+- source: /lan
+  destination: https://forms.gle/c5C3WFwFeKNB2cwX8
