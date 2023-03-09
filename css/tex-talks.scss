@@ -21,28 +21,28 @@ h4 {
 }
 
 body {
-  background-color: #332461; 
+  background-color: #332461;
 }
 
 .slot-container {
-  >.slot-header {
+  > .slot-header {
     * {
       color: white;
     }
-    >.slot-time {
+    > .slot-time {
       text-align: right;
       flex-grow: 1;
       display: flex;
       justify-content: flex-end;
       align-items: center;
-      >.clock-symbol {
+      > .clock-symbol {
         width: 15px;
         margin: 0;
         margin-right: 5px;
         display: inline;
       }
     }
-    >.slot-title {
+    > .slot-title {
       text-align: left;
       flex-grow: 4;
     }
@@ -50,10 +50,10 @@ body {
     width: calc(100% - 20px);
     background-color: $TeX-Shadow;
     padding: 10px;
-    font-family: 'JetBrains Mono', 'Inconsolata', monospace;
+    font-family: "JetBrains Mono", "Inconsolata", monospace;
   }
-  
-  >.slot-body {
+
+  > .slot-body {
     width: calc(100% - 20px);
     padding: 10px;
     display: flex;
@@ -62,12 +62,12 @@ body {
       margin-right: 10px;
       flex-direction: row;
       // max-width: 150px;
-    } 
+    }
     .slot-image {
       min-height: 150px;
       display: inline;
       margin-right: 10px;
-      >img {
+      > img {
         width: 150px;
         clip-path: circle(49%);
         min-height: 150px;
@@ -80,7 +80,7 @@ body {
     .slot-image:not(:first-child) {
       margin-left: -15px;
     }
-    >.slot-content {
+    > .slot-content {
       line-height: 150%;
       text-align: justify;
       vertical-align: middle;
@@ -90,7 +90,6 @@ body {
     }
     margin-bottom: 10px;
   }
-
 }
 
 .tex {
