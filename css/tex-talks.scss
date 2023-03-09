@@ -1,0 +1,128 @@
+---
+---
+
+$CSS-Blue: #2f3c63;
+$TeX-Shadow: #793fd8;
+
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+  margin: 0;
+}
+
+.slow-container {
+  width: 100%;
+}
+
+.slot-body {
+  background-color: #f1f3f8;
+}
+
+body {
+  background-color: #332461; 
+}
+
+.slot-container {
+  >.slot-header {
+    * {
+      color: white;
+    }
+    >.slot-time {
+      text-align: right;
+      flex-grow: 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      >.clock-symbol {
+        width: 15px;
+        margin: 0;
+        margin-right: 5px;
+        display: inline;
+      }
+    }
+    >.slot-title {
+      text-align: left;
+      flex-grow: 4;
+    }
+    display: flex;
+    width: calc(100% - 20px);
+    background-color: $TeX-Shadow;
+    padding: 10px;
+    font-family: 'JetBrains Mono', 'Inconsolata', monospace;
+  }
+  
+  >.slot-body {
+    width: calc(100% - 20px);
+    padding: 10px;
+    display: flex;
+    .slot-image-container {
+      display: flex;
+      margin-right: 10px;
+      flex-direction: row;
+      // max-width: 150px;
+    } 
+    .slot-image {
+      min-height: 150px;
+      display: inline;
+      margin-right: 10px;
+      >img {
+        width: 150px;
+        clip-path: circle(49%);
+        min-height: 150px;
+        float: left;
+      }
+    }
+    .slot-image:not(:last-child) {
+      margin-right: 0px;
+    }
+    .slot-image:not(:first-child) {
+      margin-left: -15px;
+    }
+    >.slot-content {
+      line-height: 150%;
+      text-align: justify;
+      vertical-align: middle;
+      // display: flex;
+      // align-items: center;
+      // margin-left: 70px;
+    }
+    margin-bottom: 10px;
+  }
+
+}
+
+.tex {
+  float: right;
+  width: 150px;
+}
+
+.tex-container {
+  position: relative;
+  width: 100%;
+}
+
+.tex-image {
+  position: absolute;
+  right: 20px;
+  top: -70px;
+  max-height: 70px;
+  overflow: hidden;
+}
+
+.section-box {
+  background-color: #f1f3f8;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 18px;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.subtext {
+  margin: 1px;
+  font-size: 15px;
+  font-style: italic;
+}
