@@ -92,6 +92,12 @@ body {
   }
 }
 
+@media (max-width: 600px) {
+  .slot-body {
+    flex-direction: column;
+  }
+}
+
 .tex {
   float: right;
   width: 150px;
