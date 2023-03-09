@@ -111,7 +111,7 @@ schedule:
 
 Interested in learning beyond what your CS degree teaches? Want to find out about CS careers outside of software development? Pizza? Then come to the **Aston Webb building** on **Monday the 13th of March** at **4pm** for a series of short talks about new and different CS and technology topics in an event we're calling TeX Talks. 
 
-Make sure to register for a **FREE** ticket: [cssbham.com/textalks](/textalks)
+Make sure to register for a **FREE** ticket: [cssbham.com/tex-talks-tickets](/tex-talks-tickets)
 
 ### Schedule
 <div class="schedule">
@@ -141,7 +141,7 @@ Make sure to register for a **FREE** ticket: [cssbham.com/textalks](/textalks)
 <div class="section-box" markdown="1">
 ## Need a ticket?
 
-* Make sure register for a [free ticket](/tex-talks), so we can keep track of numbers! ✨
+* Make sure register for a [free ticket](/tex-talks-tickets), so we can keep track of numbers! ✨
 * This events starts at 4pm and is expected to last no more than 4 hours.
 * The talks will be held in the Aston Webb Building, lecture theatre WG5.
 * Food and drinks will be provided! 🍕
