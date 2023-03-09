@@ -118,11 +118,9 @@
 
 # Tex Talks 2023
 - source: /textalks
-  destination: https://www.eventbrite.co.uk/e/tex-talks-tickets-552718996397
-- source: /tex-talks
-  destination: https://www.eventbrite.co.uk/e/tex-talks-tickets-552718996397
+  destination: /tex-talks
 - source: /talks
-  destination: https://www.eventbrite.co.uk/e/tex-talks-tickets-552718996397
+  destination: /tex-talks
   
 # SloLAN 2023
 - source: /slolan
