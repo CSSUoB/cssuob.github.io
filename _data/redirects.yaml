@@ -72,10 +72,6 @@
 - source: /feedback
   destination: https://docs.google.com/forms/d/e/1FAIpQLSfnd5C5KUjnWO4ZgyQfCEMsaWW8NpkVK32DoKAECCAFE_pGcQ/viewform?usp=sf_link
 
-# Welcome
-- source: /soon
-  destination: /calendar
-
 # Other typos
 - source: /pizzas
   destination: https://cssbham.com/pizza
