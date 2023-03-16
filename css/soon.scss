@@ -22,7 +22,7 @@ body {
   position: relative;
 }
 
-main::before {    
+main::before {
   z-index: -2;
   content: "";
   background-image: url("/assets/events/ball/2022-background.png");
@@ -73,13 +73,13 @@ header {
     animation: fade-in-title 1s linear 5s 1 forwards normal;
     text-shadow: 0.2vw 0.2vw 0.2vw $primary-lowlight;
   }
-  & #count { 
+  & #count {
     span {
       font-size: 0.8em;
     }
-    
+
     span:not(:last-child) {
-      padding-right: 0.6em; 
+      padding-right: 0.6em;
     }
   }
   img {
@@ -92,12 +92,13 @@ header {
     max-height: none;
     opacity: 0;
     transform: translateX(-75px);
-    animation: translate-normal 2s ease 1.5s 1 forwards normal, fade-in-tex 2s linear 1.5s 1 forwards normal;
+    animation: translate-normal 2s ease 1.5s 1 forwards normal,
+      fade-in-tex 2s linear 1.5s 1 forwards normal;
   }
 }
 
-@media (max-width: 700px){
-  .soon-contain{
+@media (max-width: 700px) {
+  .soon-contain {
     h1 {
       font-size: 20vw;
     }
@@ -133,11 +134,11 @@ header {
 @keyframes fade-in-title {
   100% {
     opacity: 1;
-  }   
+  }
 }
 
 @keyframes fade-in-tex {
   100% {
     opacity: 0.1;
-  }   
+  }
 }
