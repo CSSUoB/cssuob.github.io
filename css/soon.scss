@@ -1,6 +1,45 @@
 ---
 ---
 
+@import url("https://fontlibrary.org//face/cmu-serif");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&family=Ovo&display=swap");
+
+$primary-background: #241040;
+$primary-lowlight: #0c0515;
+
+$secondary-highlight: #e4d05f;
+$secondary-background: #cbb347;
+$secondary-lowlight: #79651b;
+$secondary-text: #000;
+
+$text: #eee;
+
+$font-primary: "Gentium Book Basic", "CMUSerifRoman", serif;
+$font-secondary: "Ovo", serif;
+
+body {
+  animation: change-background-primary 2s ease-in-out 0.5s 1 forwards normal;
+  position: relative;
+}
+
+main::before {    
+  z-index: -2;
+  content: "";
+  background-image: url("/assets/events/ball/2022-background.png");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0;
+  animation: fade-in-title 2s ease-in-out 0.5s 1 forwards normal;
+}
+
+header {
+  animation: change-background-secondary 2s ease-in-out 0.5s 1 forwards normal;
+}
+
 .soon-contain {
   text-align: center;
   display: grid;
@@ -11,7 +50,37 @@
   h1 {
     text-align: center;
     font-size: 180px;
-    margin-top: 20vh;
+    margin-top: 15vh;
+    font-family: $font-primary;
+    color: $secondary-highlight;
+    text-shadow: 0.5vw 0.5vw 0.6vw $primary-lowlight;
+    opacity: 0;
+    animation: fade-in-title 1s linear 3s 1 forwards normal;
+  }
+  h2 {
+    font-size: 60px;
+    font-family: $font-primary;
+    color: $text;
+    opacity: 0;
+    animation: fade-in-title 1s linear 4s 1 forwards normal;
+    text-shadow: 0.2vw 0.2vw 0.2vw $primary-lowlight;
+  }
+  h3 {
+    font-size: 40px;
+    font-family: $font-primary;
+    color: $text;
+    opacity: 0;
+    animation: fade-in-title 1s linear 5s 1 forwards normal;
+    text-shadow: 0.2vw 0.2vw 0.2vw $primary-lowlight;
+  }
+  & #count { 
+    span {
+      font-size: 0.8em;
+    }
+    
+    span:not(:last-child) {
+      padding-right: 0.6em; 
+    }
   }
   img {
     z-index: -1;
@@ -21,7 +90,9 @@
     width: 900px;
     max-width: none;
     max-height: none;
-    opacity: 0.1;
+    opacity: 0;
+    transform: translateX(-75px);
+    animation: translate-normal 2s ease 1.5s 1 forwards normal, fade-in-tex 2s linear 1.5s 1 forwards normal;
   }
 }
 
@@ -30,5 +101,43 @@
     h1 {
       font-size: 20vw;
     }
+
+    h2 {
+      font-size: 10vw;
+    }
+
+    h3 {
+      font-size: 6vw;
+    }
   }
+}
+
+@keyframes change-background-primary {
+  100% {
+    background-color: $primary-background;
+  }
+}
+
+@keyframes change-background-secondary {
+  100% {
+    background-color: $secondary-lowlight;
+  }
+}
+
+@keyframes translate-normal {
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes fade-in-title {
+  100% {
+    opacity: 1;
+  }   
+}
+
+@keyframes fade-in-tex {
+  100% {
+    opacity: 0.1;
+  }   
 }

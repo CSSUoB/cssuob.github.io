@@ -6,29 +6,31 @@ styles:
 ---
 
 <div class="soon-contain">
-    <img src="https://raw.githubusercontent.com/CSSUoB/resources/db2bbb3b4f0b19a1099cb0fb72a2b19fdfa89999/dinosaur/tex_ball.svg" alt="TuX TeX"/>
+    <img src="/assets/tex/tex_ball.svg" alt="TuX TeX"/>
     <h1>Soon.™</h1>
-    <h2 id="count"></h2>
+    <h2>Wednesday, 26th April 2023</h2>
+    <h3 id="count"></h3>
 </div>
 
 
 <script>
-    var countDownDate = new Date("Apr 28, 2022 18:00:00").getTime();
+    const countDownDate = new Date("Apr 26, 2023 18:00:00").getTime();
 
-    var x = setInterval(function() {
-        var now = new Date().getTime();
-        var distance = countDownDate - now;
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    (function updateTimer() {
+        let now = new Date().getTime();
+        let distance = countDownDate - now;
+        let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        document.getElementById("count").innerHTML = days + " Days " + hours + " Hours "
-            + minutes + " Minutes " + seconds + " Seconds";
+        document.getElementById("count").innerHTML = days + " <span>days</span> " + hours + " <span>hours</span> "
+            + minutes + " <span>minutes</span> " + seconds + " <span>seconds</span>";
 
         if (distance < 0) {
-            clearInterval(x);
             document.getElementById("count").innerHTML = "<a href='https://cssbham.com/join'>cssbham.com/join</a>";
+        } else {
+            setTimeout(updateTimer, 1000)
         }
-    }, 1000);
+    })();
 </script>
