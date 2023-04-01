@@ -1,0 +1,58 @@
+name: CSS BALL
+year: 2023
+location: Fazeley Studios
+date: 26th April
+links: 
+  - text: Menu
+    url:  '/ball/2023/menu'
+  - text: Tickets
+    url:  '#tickets'
+  - text: FAQs
+    url: '#faq'
+menu-links:
+  - text: Home
+    url:  '/ball/2023'
+  - text: Tickets
+    url:  '/ball/2023#tickets'
+  - text: FAQs
+    url:  '/ball/2023#faq'
+menu:
+  starters:
+    - dish: Ham hock & Cumberland sausage roulade, sweet potato spring onion salsa & sage crisps
+      type: dairy free
+    - dish: Pan fried chilli polenta, roasted ginger beets, samphire with an doragen and coriander dressing
+      type: vegan & gluten free
+  mains:
+    - dish: Pan seared thyme and garlic chicken, creamy dauphinoise potato, sautéed green beans, baby carrots, and thyme chicken jus
+      type: gluten free
+    - dish: Chargrilled sweet potato dome filled with ratatouille, courgette, adn carrot crisps, and chive cream
+      type: vegan & gluten free
+  dessert:
+    - dish: Belgian dark chocolate mousse with caramelised celementine orange and deep-fried mint
+      type: vegan & gluten free
+  
+faq:
+  - question: What is a Ball?
+    answer: A ball is a solid or hollow spherical or egg-shaped object that is kicked, thrown, or hit in a game. <br><br> Ok but seriously, a Ball is an opportunity to come together and celebrate the year. Many societies hold them for their members and we're no different. Our annual Ball is the biggest night of the year so if you're not attending you're really missing out.
+  - question: What will be there?
+    answer: The ball will have a 3 course meal, a bar, and a dancefloor. We will also have a live band, a photobooth, and a photographer.
+  - question: When can I buy tickets?
+    answer: Now! You'll need to be a CSS Member to purchase tickets - if you aren't then you can join CSS on the <a href="/join">Guild website</a>.
+  - question: How much do tickets cost?
+    answer: Tickets are £42.50, same as last years. The Guild will also add on a booking fee - we can't do anything about that.
+  - question: Can I bring a guest?
+    answer: Yes, you will need to buy an extra ticket for your guest.
+  - question: Will I need to show my ticket when I arrive?
+    answer: No, we'll have a list of everyone who has bought a ticket. Just give your name on the door and you'll be issued a wristband.
+  - question: Who will I sit next to for dinner?
+    answer: We'll ask you for the names of up to 2 people who you would like to sit near. We'll try our best to sit people near their friends, but we can't make promises you'll be next to both.<br><br> If you bring a guest we will make sure you're sat with them, but please be sure to put them in as your seating preference.
+  - question: What about my dietary requirements?
+    answer: Fazeley Studios can handle catering for most dietary requirements, and there are be vegan and gluten free options. Make sure to let us know any dietary requirements when you purchase your ticket.
+  - question: What should I wear?
+    answer: Dress to impress! <br>Don your fanciest frocks, smartest suits or whatever you feel fabulous in. It's going to be the big night of the year so feel free to go all out!
+  - question: When do I need to get there?
+    answer: Doors will open at 6:30pm so aim to arrive around then for the drinks reception. Dinner will start at 7:30pm, so please don't arrive later than then.
+  - question: Will I be photographed?
+    answer: Yes. We'll have a photographer taking photos all night so we can share them all with you afterwards. If you don't want to be in photos, please speak to our lovely photographer on the night.
+  - question: I bought a ticket but can't attend anymore.
+    answer: Oh no! That's okay though. You should be able to get a refund on tickets through the Guild while ticket sales are ongoing. <br><br> After that you're welcome to sell your ticket to someone else. All that we ask is that you sell them at a reasonable price, and you let a committee member know. It may not be possible to accommodate dietary requirements for tickets you buy too close to the Ball.
