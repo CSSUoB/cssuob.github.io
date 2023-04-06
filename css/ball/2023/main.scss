@@ -174,7 +174,7 @@ body {
     gap: 25px;
 
     .icon {
-      height: 120px;
+      min-height: 120px;
     }
 
     .text {
@@ -187,6 +187,10 @@ body {
 
     @media screen and (max-width: 800px) {
       flex-direction: column;
+      
+      .icon {
+        max-height: 120px;
+      }
     }
   }
 
