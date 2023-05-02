@@ -66,9 +66,11 @@
 - source: /cal
   destination: /calendar
 
-# AGM 2022
-- source: /agm/agenda
+# AGMs
+- source: /agm/2022/agenda
   destination: /assets/agendas/agenda_22_05_04.pdf
+- source: /agm/2023/agenda
+  destination: /assets/agendas/agenda_23_05_10.pdf
 
 # Feedback form
 - source: /feedback
