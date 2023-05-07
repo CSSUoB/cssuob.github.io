@@ -51,6 +51,8 @@
   destination: https://www.birmingham.ac.uk/university/colleges/eps/eps-community/students/societies/css.aspx
 
 # ball
+- source: /ball/2023/photos
+  destination: (placeholder) coming soon :eyes:
 - source: /ball
   destination: /ball/2023
 - source: /soon
