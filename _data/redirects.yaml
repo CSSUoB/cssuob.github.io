@@ -52,7 +52,7 @@
 
 # ball
 - source: /ball/2023/photos
-  destination: (placeholder) coming soon :eyes:
+  destination: /placeholder
 - source: /ball
   destination: /ball/2023
 - source: /soon
