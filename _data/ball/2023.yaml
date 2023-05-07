@@ -10,7 +10,7 @@ links:
   - text: FAQs
     url: '#faq'
   - text: Photos
-    url: '\ball\2023\photos'
+    url: '/ball/2023/photos'
 menu-links:
   - text: Home
     url:  '/ball/2023'
@@ -19,7 +19,7 @@ menu-links:
   - text: FAQs
     url:  '/ball/2023#faq'
   - text: Photos
-    url: '\ball\2023\photos'
+    url: '/ball/2023/photos'
 menu:
   starters:
     - dish: Ham hock & Cumberland sausage roulade, sweet potato spring onion salsa & sage crisps
