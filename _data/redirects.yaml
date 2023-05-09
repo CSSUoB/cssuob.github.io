@@ -52,7 +52,7 @@
 
 # ball
 - source: /ball/2023/photos
-  destination: /placeholder
+  destination: https://photos.app.goo.gl/PZEahyV3CJed7ttA6
 - source: /ball
   destination: /ball/2023
 - source: /soon
