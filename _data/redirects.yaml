@@ -76,7 +76,7 @@
 
 # Feedback form
 - source: /feedback
-  destination: https://docs.google.com/forms/d/e/1FAIpQLSfnd5C5KUjnWO4ZgyQfCEMsaWW8NpkVK32DoKAECCAFE_pGcQ/viewform?usp=sf_link
+  destination: https://docs.google.com/forms/d/e/1FAIpQLSe1jAEFmNEc4YQmXtvDMhFZGFzk1xLIJ3WV5q2FxVtYh7fnUw/viewform?usp=sf_link
 
 # Other typos
 - source: /pizzas
