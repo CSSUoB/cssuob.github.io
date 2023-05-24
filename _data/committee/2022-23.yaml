@@ -1,6 +1,6 @@
 academic_year: 2022/2023
 #postfix: Elect
-current: true
+current: false
 people:
   - name: Jacob Wilson
     pronouns: He/Him
@@ -8,6 +8,7 @@ people:
     role: President
     picture: /assets/committee/2022-23/mini/jacob.jpg
     start-date: 1/7/2022
+    end-date: 1/7/2023
     bio: >
       Hello! I'm a final year Computer Science student and my role is to lead the society and manage the committee to help everything get done. 🎉 CSS members may recognise me from the many CSS quizzes I've written and hosted, all with a glass of wine in my hand 🍷 In my spare time I like to play D&D, win at board games, and travel. I've been on the committee for three years now and I've met my best friends through CSS, feel free to reach out on the Discord or say hi in person <3 
 
@@ -30,6 +31,7 @@ people:
     role: Treasurer
     picture: /assets/committee/2022-23/mini/matty.jpg
     start-date: 7/12/2022
+    end-date: 1/7/2023
     bio: >
       Hello! I'm Matty, your treasurer so I'll be handling the society finances and financial paperwork required to make sure the society can continue running amazing events for everyone!
       I'm a second year CS student and I'm also the most senior student rep - representing all 24,000 Undergraduate students to the University Senate.
@@ -41,6 +43,7 @@ people:
     role: Secretary
     picture: /assets/committee/2022-23/mini/raine.png
     start-date: 1/7/2022
+    end-date: 1/7/2023
     bio: >
       Hello, I'm Raine and I'm going into my final year studying Computer Science. I will be responsible for keeping everyone in check and taking minutes during meetings. 
       When I'm not sleeping I'm either speedrunning, 
@@ -52,6 +55,7 @@ people:
     role: Vice-President
     picture: /assets/committee/2022-23/mini/v.png
     start-date: 1/7/2022
+    end-date: 1/7/2023
     bio: >
       Hiya! My role in the society is to help out where I can across all the committee positions and make sure that everyone is 
       doing well. CSS members will know me from hosting a bunch of workshops, posting plenty of memes in the CSS Discord or 
@@ -64,6 +68,7 @@ people:
     role: International Student Rep
     picture: /assets/committee/2022-23/mini/adi.jpg
     start-date: 1/7/2022
+    end-date: 1/7/2023
     bio: >
       Hey guys! My name is Adi and I'm the International Student Rep for this year. My main role is to look after all the 
       international students in the society, make sure they're comfortable and answer any sort of questions they might have. 
@@ -76,6 +81,7 @@ people:
     role: Publicity Officer
     picture: /assets/committee/2022-23/mini/fatima.jpg
     start-date: 1/7/2022
+    end-date: 1/7/2023
     bio: >
       Hello everyone. My name is Fatima Zahra Al Hajji and I'm a final year student on the course of AI and CS with a year 
       in industry. I enjoy cycling, reading and drawing in my free time. As the publicity officer, I aim to ensure that all 
@@ -88,6 +94,7 @@ people:
     role: Special Events Officer
     picture: /assets/committee/2022-23/mini/leonardo.jpg
     start-date: 1/7/2022
+    end-date: 1/7/2023
     bio: >
       Hi! I'm Leonardo, a second year studying Computer Science. I'm responsible for organising large scale CSS events, such 
       as the BBQ, Christmas meal, Ball and helping with other events. Outside of CSS, I enjoy robotics, cybersecurity, 
@@ -111,6 +118,7 @@ people:
     role: Socials Secretary
     picture: /assets/committee/2022-23/mini/marcus.jpg
     start-date: 7/12/2022
+    end-date: 1/7/2023
     bio: >
       Hello, I'm Marcus, and I'm in second year Computer Science. I'm responsible for organising social events of all different
       types. My interests outside of Computer Science are movies, cars, planes, '80s music and other nerdy stuff! I'm normally 
@@ -122,6 +130,7 @@ people:
     role: Sports Secretary
     picture: /assets/committee/2022-23/mini/aarogya.jpg
     start-date: 1/7/2022
+    end-date: 1/7/2023
     bio: >
       Well Hello there! I'm Aarogya but feel free to call me "Arrow" because pronunciation can be difficult, I'm a 2nd year 
       studying CS and I'll be handling any suggestions on activities and sports you'd like to be run during my time as Sports 
@@ -133,6 +142,7 @@ people:
     role: Equality, Diversity, and Inclusivity Officer
     picture: /assets/committee/2022-23/mini/sofia.jpg
     start-date: 1/7/2022
+    end-date: 1/7/2023
     bio: >
       Hiya! I'm Sofia, a second year and the EDI Officer of CSS! I work to make sure that all CSS members are properly 
       represented as well as ensuring all CSS events and School programmes are safe, diverse and equal for all. Other than 
@@ -158,6 +168,7 @@ people:
     role: Industrial Liaison
     picture: /assets/committee/2022-23/mini/charlie.jpg
     start-date: 7/12/2022
+    end-date: 1/7/2023
     bio: >
       Hi I'm Charlie and I'm the Industrial Liaison for CSS, which means I communicate with lots of companies to convince them to
       sponsor us, helping bring in money for the society and fund all the fun events that we want to run.  My hobbies outside of
@@ -207,6 +218,7 @@ people:
     discordtag: ajewdor#0360
     role: PGT Rep
     start-date: 27/10/2022
+    end-date: 1/7/2023
     picture: /assets/committee/2022-23/mini/aju.jpg
     bio: >
       Hey! I'm a MSc Computer Science student and as PGT Rep I aim to make sure that all postgrad students (on any of the 7 PGT courses) feel welcomed at CSS. Outside of CSS, I enjoy music 🎧, gaming 🎮 and reading high fantasy 🧙‍♂️. Always up for a friendly chat or offering support and advice; feel free to hmu on Discord or LinkedIn, or say hi 👋 if you see me around campus! 
@@ -216,6 +228,7 @@ people:
     discordtag: UserUninvited#7748
     role: First Year Rep
     start-date: 27/10/2022
+    end-date: 1/7/2023
     picture: /assets/committee/2022-23/mini/libby.jpg
     bio: >
       Hiya! I'm Libby and I'm in my first year studying computer science. As the first-year rep, it is my job to put 
@@ -228,6 +241,7 @@ people:
     discordtag: FrozenDude101#2700
     role: PGR Rep
     start-date: 07/12/2022
+    end-date: 1/7/2023
     picture: /assets/committee/2022-23/mini/matthew.jpg
     bio: >
       Hey, I'm Matthew! I'm a 3rd year undergrad, studying computer science. As the PGR Rep, it's my responsibility to
