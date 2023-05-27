@@ -34,7 +34,7 @@ GEM
     gemoji (3.0.1)
     github-pages (227)
       github-pages-health-check (= 1.17.9)
-      jekyll (= 3.9.2)
+      jekyll (= 4.2.0)
       jekyll-avatar (= 0.7.0)
       jekyll-coffeescript (= 1.1.1)
       jekyll-commonmark-ghpages (= 0.2.0)
@@ -89,7 +89,7 @@ GEM
     http_parser.rb (0.8.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-    jekyll (3.9.2)
+    jekyll (4.2.0)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -259,7 +259,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (>= 224)
-  jekyll (>= 3.9.0)
+  jekyll (>= 4.2.0)
   jekyll-feed
   jekyll-seo-tag
   webrick
