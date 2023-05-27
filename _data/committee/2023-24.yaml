@@ -2,40 +2,46 @@ academic_year: 2023/2024
 #postfix: Elect
 current: true
 people:
-  - name: 
-    pronouns: 
-    discordtag: 
+  - name: Placeholder
+    pronouns: Placeholder
+    discordtag: Placeholder
     role: President
-    picure: 
+    picure: /assets/committee/2022-23/mini/
     start-date: 1/7/2023
-    bio: >
+    bio: > 
+      Placeholder
 	
 	
-  - name: 
-    pronouns: 
-    discordtag: 
+  - name: Matty Widdop
+    pronouns: He/Him
+    discordtag: Matty#5687
     role: Treasurer
-    picure: 
+    picure: /assets/committee/2022-23/mini/matty.jpg
     start-date: 1/7/2023
     bio: >
+      Hello! I'm Matty, your treasurer so I'll be handling the society finances and financial paperwork required to make sure the society can continue running amazing events for everyone!
+      I'm a second year CS student and I'm also the most senior student rep - representing all 27,000 Undergraduate students to the University Senate.
+      My interest in CS started with programming Minecraft plugins nearly 8 years ago but since then I've also gotten into cyber security as well. I also enjoy Jiu Jitsu and would love to get more people involved!
 	
 	
-  - name: 
-    pronouns: 
-    discordtag: 
+  - name: Placeholder
+    pronouns: Placeholder
+    discordtag: Placeholder
     role: Secretary
-    picure: 
+    picure: /assets/committee/2022-23/mini/
     start-date: 1/7/2023
     bio: >
+      Placeholder
 	
 	
-  - name: 
-    pronouns: 
-    discordtag: 
+  - name: Placeholder
+    pronouns: Placeholder
+    discordtag: Placeholder
     role: Vice-President
-    picure: 
+    picure: /assets/committee/2022-23/mini/
     start-date: 1/7/2023
     bio: >
+      Placeholder
 	
 
 	
@@ -56,83 +62,94 @@ people:
       drop me a message on Discord whenever! 😁 🏳️‍⚧️
 
 	  
-  - name: 
-    pronouns: 
-    discordtag: 
+  - name: Placeholder
+    pronouns: Placeholder
+    discordtag: Placeholder
     role: International Student Rep
-    picure: 
+    picure: /assets/committee/2022-23/mini/
     start-date: 1/7/2023
     bio: >
+      Placeholder
 		  
 
-  - name: 
-    pronouns: 
-    discordtag: 
+  - name: Placeholder
+    pronouns: Placeholder
+    discordtag: Placeholder
     role: Special Events Officer
-    picure: 
+    picure: /assets/committee/2022-23/mini/
     start-date: 1/7/2023
     bio: >
+      Placeholder
 	
 	
-  - name: 
-    pronouns: 
-    discordtag: 
+  - name: Placeholder
+    pronouns: Placeholder
+    discordtag: Placeholder
     role: Socials Secretary
-    picure: 
+    picure: /assets/committee/2022-23/mini/
     start-date: 1/7/2023
     bio: >
+      Placeholder
 	
 
-  - name: 
-    pronouns: 
-    discordtag: 
+  - name: Placeholder
+    pronouns: Placeholder
+    discordtag: Placeholder
     role: Sports Secretary
-    picure: 
+    picure: /assets/committee/2022-23/mini/
     start-date: 1/7/2023
     bio: >
+      Placeholder
 	
-  - name: 
-    pronouns: 
-    discordtag: 
+	
+  - name: Placeholder
+    pronouns: Placeholder
+    discordtag: Placeholder
     role: Equality, Diversity and Inclusivity Officer
-    picure: 
+    picure: /assets/committee/2022-23/mini/
     start-date: 1/7/2023
     bio: >
+      Placeholder
 	
 	
-  - name: 
-    pronouns: 
-    discordtag: 
+  - name: Placeholder
+    pronouns: Placeholder
+    discordtag: Placeholder
     role: Industrial Liaison
-    picure: 
+    picure: /assets/committee/2022-23/mini/
     start-date: 1/7/2023
     bio: >
+      Placeholder
 	
 
-  - name: 
-    pronouns: 
-    discordtag: 
+  - name: Placeholder
+    pronouns: Placeholder
+    discordtag: Placeholder
     role: Post-Graduate (Research) Rep
-    picure: 
+    picure: /assets/committee/2022-23/mini/
     start-date: 1/7/2023
     bio: >
+      Placeholder
 	
 	
-  - name: 
-    pronouns: 
-    discordtag: 
+  - name: Placeholder
+    pronouns: Placeholder
+    discordtag: Placeholder
     flags: ["interim"]
     role: First Year Rep
-    picure: 
+    picure: /assets/committee/2022-23/mini/
     start-date: 1/7/2023
     bio: >
+      Placeholder
+	  
 	
-  - name: 
-    pronouns: 
-    discordtag: 
+  - name: Placeholder
+    pronouns: Placeholder
+    discordtag: Placeholder
     flags: "[interim]"
     role: Post-Graduate (Taught) Rep
-    picure: 
+    picure: /assets/committee/2022-23/mini/
     start-date: 1/7/2023
     bio: >
+      Placeholder
 	
