@@ -1,14 +1,51 @@
 academic_year: 2023/2024
 #postfix: Elect
-current: false
+current: true
 people:
+  - name: 
+    pronouns: 
+    discordtag: 
+    role: President
+    picure: 
+    start-date: 1/7/2023
+    bio: >
+	
+	
+  - name: 
+    pronouns: 
+    discordtag: 
+    role: Treasurer
+    picure: 
+    start-date: 1/7/2023
+    bio: >
+	
+	
+  - name: 
+    pronouns: 
+    discordtag: 
+    role: Secretary
+    picure: 
+    start-date: 1/7/2023
+    bio: >
+	
+	
+  - name: 
+    pronouns: 
+    discordtag: 
+    role: Vice-President
+    picure: 
+    start-date: 1/7/2023
+    bio: >
+	
+
+	
+  
   - name: Abi P
     pronouns: She/Her
     discordtag: abichrome#8669
     role: Publicity Officer
-    picture: /assets/committee/2023-24/abi.png
+    picture: /assets/committee/2023-24/mini/abi.png
     start-date: 1/7/2023
-    end-date: 1/7/2024
     bio: >
       Hey there! I'm Abi, and am going into my second year of CS at UoB. My
       role within CSS this year is basically to make sure you know what we're
@@ -17,3 +54,85 @@ people:
       old film cameras in the darkroom or making things.
       If you ever see me around, feel free to say hi! You're also welcome to
       drop me a message on Discord whenever! 😁 🏳️‍⚧️
+
+	  
+  - name: 
+    pronouns: 
+    discordtag: 
+    role: International Student Rep
+    picure: 
+    start-date: 1/7/2023
+    bio: >
+		  
+
+  - name: 
+    pronouns: 
+    discordtag: 
+    role: Special Events Officer
+    picure: 
+    start-date: 1/7/2023
+    bio: >
+	
+	
+  - name: 
+    pronouns: 
+    discordtag: 
+    role: Socials Secretary
+    picure: 
+    start-date: 1/7/2023
+    bio: >
+	
+
+  - name: 
+    pronouns: 
+    discordtag: 
+    role: Sports Secretary
+    picure: 
+    start-date: 1/7/2023
+    bio: >
+	
+  - name: 
+    pronouns: 
+    discordtag: 
+    role: Equality, Diversity and Inclusivity Officer
+    picure: 
+    start-date: 1/7/2023
+    bio: >
+	
+	
+  - name: 
+    pronouns: 
+    discordtag: 
+    role: Industrial Liaison
+    picure: 
+    start-date: 1/7/2023
+    bio: >
+	
+
+  - name: 
+    pronouns: 
+    discordtag: 
+    role: Post-Graduate (Research) Rep
+    picure: 
+    start-date: 1/7/2023
+    bio: >
+	
+	
+  - name: 
+    pronouns: 
+    discordtag: 
+    flags: ["interim"]
+    role: First Year Rep
+    picure: 
+    start-date: 1/7/2023
+    bio: >
+	
+  - name: 
+    pronouns: 
+    discordtag: 
+    flags: "[interim]"
+    role: Post-Graduate (Taught) Rep
+    picure: 
+    start-date: 1/7/2023
+    bio: >
+	
