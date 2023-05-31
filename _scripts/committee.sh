@@ -9,6 +9,13 @@
 #
 
 committee=$1
+
+if [[ -z "$committee" ]]; then
+	echo "Missing argument"
+	echo "Usage: $0 [BASE CMT IMAGES DIR]"
+	exit 1
+fi
+
 mkdir -p $committee/mini/
 for picture in $committee/full/*; do
 	convert $picture -resize 150x150^ -gravity center -crop 150x150+0+0 $committee/mini/`basename $picture`
