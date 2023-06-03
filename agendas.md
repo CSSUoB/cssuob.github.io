@@ -10,7 +10,7 @@ title: Agendas
 ## 2023
 
 ### May
-- [Committee Handover Meeting - Monday 29th May] (/assets/agenda/2023/05/29.pdf)
+- [Committee Handover Meeting - Monday 29th May] (/assets/agendas/2023/05/29.pdf)
 - [Committee Meeting - Saturday 13th May](/assets/agendas/2023/05/13.pdf)
 - [AGM - Wednesday 10th May](/assets/agendas/2023/05/10.pdf)
 - [Committee Meeting - Tuesday 9th May](/assets/agendas/2023/05/09.pdf)
