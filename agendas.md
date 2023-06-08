@@ -9,6 +9,9 @@ title: Agendas
 
 ## 2023
 
+### June
+- [Committee Meeting - Tuesday 6th June](/assets/agendas/2023/06/06.pdf)
+
 ### May
 - [Committee Handover Meeting - Monday 29th May](/assets/agendas/2023/05/29.pdf)
 - [Committee Meeting - Saturday 13th May](/assets/agendas/2023/05/13.pdf)
