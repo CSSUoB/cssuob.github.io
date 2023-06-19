@@ -143,7 +143,7 @@ people:
  
  
   - name: Charlie
-    discordtag: var_noisy#1047
+    discordtag: var_noisy
     flags: ["interim"]
     role: First Year Rep
     picture: /assets/committee/2023-24/mini/charlie0.jpeg
@@ -157,7 +157,7 @@ people:
 
   - name: Matt Norton
     pronouns: He/Him
-    discordtag: CarrotManMatt#0165
+    discordtag: carrotmanmatt
     flags: ["interim"]
     role: Post-Graduate (Taught) Rep
     picture: /assets/committee/2023-24/mini/matt.png
