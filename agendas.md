@@ -10,6 +10,7 @@ title: Agendas
 ## 2023
 
 ### June
+- [Committee Meeting - Monday 19th June](/assets/agendas/2023/06/19.pdf)
 - [Committee Meeting - Tuesday 6th June](/assets/agendas/2023/06/06.pdf)
 
 ### May
