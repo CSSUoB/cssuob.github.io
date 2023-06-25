@@ -16,8 +16,10 @@ if [[ -z "$committee" ]]; then
 	exit 1
 fi
 
+resolution="250x250"
+
 mkdir -p $committee/mini/
 for picture in $committee/full/*; do
-	convert $picture -resize 150x150^ -gravity center -crop 150x150+0+0 $committee/mini/`basename $picture`
+	convert $picture -resize $resolution^ -gravity center -crop $resolution+0+0 $committee/mini/`basename $picture`
 done
 
