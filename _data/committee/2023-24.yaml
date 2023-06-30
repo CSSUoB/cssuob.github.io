@@ -1,0 +1,186 @@
+academic_year: 2023/2024
+#postfix: Elect
+current: true
+people:
+  - name: Archer
+    pronouns: They/Them
+    discordtag: useruninvited
+    role: President
+    picture: /assets/committee/2023-24/mini/archer.jpg
+    start-date: 1/7/2023
+    bio: >
+      Hey! I’m Archer and I’m the CSS president. My role is to lead the society (read: take all the credit) and whip the committee into doing their jobs and getting everything done. I’ve had a blast at CSS events and being on the committee since I joined, and I hope I can help others have a brilliant time this year as well. In my free time I like to listen to musicals, play D&D, and obsess over roller coasters. Feel free to message me on discord or say hi if you see me around campus! 🎉
+ 
+ 
+  - name: Matty Widdop
+    pronouns: He/Him
+    discordtag: mattythehacker
+    role: Treasurer
+    picture: /assets/committee/2023-24/mini/matty.jpg
+    start-date: 1/7/2023
+    bio: >
+      Hello! I'm Matty, your treasurer so I'll be handling the society finances and financial paperwork required to make sure the society can continue running amazing events for everyone!
+      I'm a second year CS student and I'm also the most senior student rep - representing all 27,000 Undergraduate students to the University Senate.
+      My interest in CS started with programming Minecraft plugins nearly 8 years ago but since then I've also gotten into cyber security as well. I also enjoy Jiu Jitsu and would love to get more people involved!
+ 
+ 
+  - name: "Ella"
+    pronouns: "She/They"
+    discordtag: "formlessmess"
+    role: Secretary
+    picture: /assets/committee/2023-24/mini/ella.jpg
+    start-date: 1/7/2023
+    bio: >
+      Hey! I’m Ella, a 2nd year CS student. In my role as Secretary I’ll be minuting and keeping the committee organised and on task, as well as anything else I can help out with. Outside of CSS I play bass, have an endless amount of crochet projects, and pick up various random hobbies weekly. Please come say hi if you see me around!
+
+ 
+  - name: Charlie Wilson
+    pronouns: He/They
+    discordtag: cesw
+    role: Vice-President
+    picture: /assets/committee/2023-24/mini/charlie.jpg
+    start-date: 1/7/2023
+    bio: >
+      Hi I'm Charlie, the vice-president for CSS. This means I pick up any odd jobs that need to be done if other commitee members don't have the time. My hobbies outside of Computer Science are reading Science Fiction (with my favourite book being Brave New World) and I love listening to music, so feel free to come up to me to talk about those or anything else you'd like to discuss.
+ 
+  
+  - name: Abi P
+    pronouns: She/Her
+    discordtag: abichrome
+    role: Publicity Officer
+    picture: /assets/committee/2023-24/mini/abi.png
+    start-date: 1/7/2023
+    bio: >
+      Hey there! I'm Abi, and am going into my second year of CS at UoB. My
+      role within CSS this year is basically to make sure you know what we're
+      up to - be that through our Discord, Instagram or even our website.
+      When I'm not dealing with that, you can find me programming, playing with
+      old film cameras in the darkroom or making things.
+      If you ever see me around, feel free to say hi! You're also welcome to
+      drop me a message on Discord whenever! 😁 🏳️‍⚧️
+
+   
+  - name: Vishwas
+    pronouns: He/Him
+    discordtag: v.x.a
+    role: International Student Rep
+    picture: /assets/committee/2023-24/mini/vishwas.jpeg
+    start-date: 1/7/2023
+    bio: >
+      Heyo! I'm Vishwas, and I'm in my third year of CS at UoB. As your international rep, it's my job to make sure
+      everyone feels at home at UoB. When I'm not dabbling in esoteric programming languages or tinkering with
+      electronics, you'll find me raving about planes and trains. Feel free to stop me for a chat if you see me around 
+      or ping me on Discord!
+    
+
+  - name: Ellie-Anne Watts
+    pronouns: She/Her
+    discordtag: flame_panda33
+    role: Special Events Officer
+    picture: /assets/committee/2023-24/mini/ellie-anne.jpg
+    start-date: 1/7/2023
+    bio: >
+      Hi! I'm Ellie-Anne and I'm a third year Computer Science student.
+      I'm responsible for organising the more large scale CSS events like the Ball, Christmas Meal and BBQ.
+      Outside of Computer Science I enjoy crafts, writing and playing DnD.
+ 
+ 
+  - name: Marcus Gustafsson
+    pronouns: He/Him
+    discordtag: jb007db5
+    role: Socials Secretary
+    picture: /assets/committee/2023-24/mini/marcus.jpg
+    start-date: 1/7/2023
+    bio: >
+      Hello, I'm Marcus, and I'm in my 3rd year of Computer Science. 
+      I'm responsible for organising social events of all different types. 
+      My interests outside of Computer Science are movies, cars, planes, '80s music, laserdisc and other nerdy stuff! 
+      I'm normally around on Discord so feel free to message me!
+ 
+
+  - name: Sumeet Brar
+    pronouns: He/Him
+    discordtag: jethoodie
+    role: Sports Secretary
+    picture: /assets/committee/2023-24/mini/sumeet.png
+    start-date: 1/7/2023
+    bio: >
+      Hey, I'm Sumeet and I'm in my 2nd year of Maths and Computer Science.
+      I'll be responsible for helping out with anything sport related within
+      CSS this year, and will be making sure that we can all stay active.
+      I enjoy a lot of sports, such as tennis and cricket. Other than sport,
+      my interests consist of cooking, building lego and gaming.
+      I'll be on discord a lot, so feel free to message me!
+ 
+ 
+  - name: Sofia
+    pronouns: She/They
+    discordtag: cryptonomicon
+    role: Equality, Diversity, and Inclusivity Officer
+    picture: /assets/committee/2022-23/mini/sofia.jpg
+    start-date: 1/7/2023
+    bio: >
+      Hiya! I'm Sofia, a second year and the EDI Officer of CSS! I work to make sure that all CSS members are properly 
+      represented as well as ensuring all CSS events and School programmes are safe, diverse and equal for all. Other than 
+      CS, I enjoy reading sci-fi novels, playing D&D and listening to a lot of music! Please come to me if you need anything 
+      or want to chat <3
+
+ 
+ 
+  - name: Holly P.
+    pronouns: She/Her
+    discordtag: errortm99
+    role: Industrial Liaison
+    picture: /assets/committee/2023-24/mini/holly.jpg
+    start-date: 1/7/2023
+    bio: >
+      Howdy gang! I'm Holly and I am in my 3rd year of the MSci Computer Science
+      degree. I am the Industrial Liaison for CSS this year, so I will be in charge
+      of reaching out to companies for sponsorships and helping industrial opportunities
+      reach you. Outside of that, I enjoy making mods/plugins for Minecraft, digital art,
+      and doing Karate. I'm often around on Discord, so don't be afraid to say hi! 
+ 
+
+  - name: Matthew Hammond
+    pronouns: He/They
+    discordtag: frozendude101
+    role: Post-Graduate (Research) Rep
+    picture: /assets/committee/2023-24/mini/matthew.jpg
+    start-date: 1/7/2023
+    bio: >
+      Hello, hello! I'm Matthew and I'm returning as this year's PGR rep. It's
+      my job to reach out to the PGRs (all the people studying for a PhD), and
+      both tailor events to them, and encourage them to come. Outside of CSS I
+      like to work on whatever soon-to-be abandoned project my brain will focus
+      on, as well as sleep 24/7 (especially when it helps me avoid my responsibilities).
+
+ 
+  - name: Charlie
+    discordtag: var_noisy
+    flags: ["interim"]
+    role: First Year Rep
+    picture: /assets/committee/2023-24/mini/charlie0.jpeg
+    start-date: 1/7/2023
+    bio: >
+      Hello! I'm your first year rep, so my role is to make sure that there are events that
+      first years will enjoy and voice first year suggestions and concerns during meetings.
+      I enjoy playing bass and watching House in my spare time. If you see me around, feel
+      free to come and chat to me about anything or message me on Discord :)
+ 
+
+  - name: Matt Norton
+    pronouns: He/Him
+    discordtag: carrotmanmatt
+    flags: ["interim"]
+    role: Post-Graduate (Taught) Rep
+    picture: /assets/committee/2023-24/mini/matt.png
+    start-date: 1/7/2023
+    bio: >
+      It may be short-lived, but the time we'll spend together will be memorable. Matt here,
+      your interim PGT Rep (and boy am I good at "repping"). I'll be looking out for all the
+      taught post-graduates over the summer, as well as introducing CSS to all the new
+      students in September. We've had such a good inclusion of PGT students in 2022/23 so
+      I'm looking forward to keeping that going with fun events that are accessible to the
+      needs of my cohort. I may be crazy, but I'll never be scary so always feel free to
+      come over for a chat! #ILoveOSM
+ 
