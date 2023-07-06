@@ -1,0 +1,133 @@
+# join
+- source: /join
+  destination: https://www.guildofstudents.com/studentgroups/societies/css/
+
+# sponsor
+# - source: /sponsor
+#   destination: /assets/sponsorship/CSS_Sponsorship_Proposal.pdf
+
+# constitution
+- source: /constitution
+  destination: /assets/constitution.pdf
+
+# social
+- source: /facebook
+  destination: https://facebook.com/groups/CSSUoB
+- source: /fb
+  destination: https://facebook.com/groups/CSSUoB
+- source: /instagram
+  destination: https://instagram.com/cssbham
+- source: /ig
+  destination: https://instagram.com/cssbham
+- source: /twitter
+  destination: https://twitter.com/cssbham
+- source: /tw
+  destination: https://twitter.com/cssbham
+- source: /linkedin
+  destination: https://www.linkedin.com/company/cssbham/
+- source: /in
+  destination: https://www.linkedin.com/company/cssbham/
+- source: /discord
+  destination: https://discord.gg/uftEqwy
+- source: /di
+  destination: https://discord.gg/uftEqwy
+- source: /youtube
+  destination: https://www.youtube.com/channel/UC-nWGWJv8wi3nw4YG55Vd0A
+- source: /yt
+  destination: https://www.youtube.com/channel/UC-nWGWJv8wi3nw4YG55Vd0A
+- source: /email
+  destination: mailto:css@guild.bham.ac.uk
+- source: /gh
+  destination: https://github.com/CSSUoB/cssuob.github.io
+- source: /github
+  destination: https://github.com/CSSUoB/cssuob.github.io
+- source: /texbot
+  destination: https://github.com/CSSUoB/TeX-Bot-JS
+
+# uni
+- source: /guild
+  destination: https://www.guildofstudents.com/studentgroups/societies/css/
+- source: /eps
+  destination: https://www.birmingham.ac.uk/university/colleges/eps/eps-community/students/societies/css.aspx
+
+# ball
+- source: /ball/2023/photos
+  destination: https://photos.app.goo.gl/PZEahyV3CJed7ttA6
+- source: /ball
+  destination: /ball/2023
+- source: /soon
+  destination: /ball/2023
+- source: /ball/2022/photos
+  destination: https://photos.app.goo.gl/bSyPR6fyHGtGDW6h9
+- source: /ball/2020/photos
+  destination: https://www.facebook.com/media/set/?set=oa.2609144112656487
+
+# Calendar Typos
+- source: /calender
+  destination: /calendar
+- source: /cal
+  destination: /calendar
+
+# AGMs
+- source: /agm/2022/agenda
+  destination: /assets/agendas/agenda_22_05_04.pdf
+- source: /agm/2023/agenda
+  destination: /assets/agendas/agenda_23_05_10_AGM.pdf
+
+# Feedback form
+- source: /feedback
+  destination: https://docs.google.com/forms/d/e/1FAIpQLSe1jAEFmNEc4YQmXtvDMhFZGFzk1xLIJ3WV5q2FxVtYh7fnUw/viewform?usp=sf_link
+
+# Other typos
+- source: /pizzas
+  destination: https://cssbham.com/pizza
+  
+# Hoodies
+- source: /hoodies
+  destination: https://guildofstudents.com/events/6531/7064
+- source: /hoodie
+  destination: https://guildofstudents.com/events/6531/7064
+
+# Ducks
+- source: /ducks
+  destination: https://guildofstudents.com/events/6531/7063
+- source: /duck
+  destination: https://guildofstudents.com/events/6531/7063
+- source: /quack
+  destination: https://guildofstudents.com/events/6531/7063
+- source: /quak
+  destination: https://guildofstudents.com/events/6531/7063
+
+# Git Workshop 2022
+- source: /git/guestbook
+  destination: https://github.com/CSSUoB/GDSCGit
+- source: /git/guide
+  destination: https://rogerdudler.github.io/git-guide/
+- source: /git/visual
+  destination: https://git-school.github.io/visualizing-git/
+
+# Board Games Night 20-02-2023
+- source: /bringing-games
+  destination: https://docs.google.com/spreadsheets/d/e/2PACX-1vTf4_L-y62IkZ-QR-fDrb_YKxEYfmsZXrKMqiZ0GUTSqfrMBaCzEcpqSreSqm5LLqhbEKc9xBgg3k5P/pubhtml
+- source: /board-games-night
+  destination: https://forms.gle/sYsNBMkDJvEmpuBi8
+- source: /bgn
+  destination: https://forms.gle/sYsNBMkDJvEmpuBi8
+
+# TNMOC 2023
+- source: /tnmoc
+  destination: https://www.guildofstudents.com/events/6531/7209/
+
+# Tex Talks 2023
+- source: /textalks
+  destination: /tex-talks
+- source: /talks
+  destination: /tex-talks
+- source: /tex-talks-tickets
+  destination: https://www.eventbrite.co.uk/e/tex-talks-tickets-552718996397
+  
+# SloLAN 2023
+- source: /slolan
+  destination: https://forms.gle/c5C3WFwFeKNB2cwX8
+- source: /lan
+  destination: https://forms.gle/c5C3WFwFeKNB2cwX8
