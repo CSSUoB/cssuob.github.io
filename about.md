@@ -116,14 +116,9 @@ Our society has won many achievements and awards, including:
     </div>
 </div>
 
-## 2022/2023 Sponsors 🤝
+## 2023/2024 Sponsors 🤝
 
-CSS is proud to be sponsored by:
-
-<div class="sponsors-images">
-    <img src="/assets/sponsorship/palantir-logo.png" alt="Palantir Logo">
-    <img src="/assets/sponsorship/accenture-logo.png" alt="Accenture Logo">
-</div>
+Coming soon! We're still working our sponsorships for this year. 
 
 If you or your company is interested in sponsoring CSS, please take a look at our Sponsorship Proposal:
 
