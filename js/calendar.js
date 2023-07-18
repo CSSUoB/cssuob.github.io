@@ -294,7 +294,7 @@ function parseHTML(html, otherValidTags = null, otherValidProperties = null) {
     return null;
   }
 
-  const validTags = ["a", "b", "br", "code", "em", "span", "strong"];
+  const validTags = ["a", "b", "br", "code", "em", "i", "span", "strong", "u"];
   const validProperties = new Map([["a", ["href"]]]);
   html = sanitizeTags(
     html,
@@ -314,7 +314,7 @@ function sanitizeTags(text, validTags, validProperties) {
   let result = "";
   for (;;) {
     const match = text.match(
-      /<(\/?)([a-zA-Z]+)([a-zA-Z0-9\s:\/&'"-_=]*?)(\/?)>/,
+      /<(\/?)([a-zA-Z]+)([a-zA-Z0-9\s:\/&'"\-_=.~?#*@'+,;%]*?)(\/?)>/,
     );
     if (!match) {
       result += encodeHTML(text);
@@ -367,4 +367,7 @@ function encodeHTML(text) {
   );
 }
 
-const entityList = new Map([["nbsp", "\u00a0"]]);
+const entityList = new Map([
+  ["nbsp", "\u00a0"],
+  ["amp", "&"],
+]);
