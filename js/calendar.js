@@ -367,4 +367,4 @@ function encodeHTML(text) {
   );
 }
 
-const entityList = new Map([["nbsp", "\u00a0"]]);
+const entityList = new Map([["nbsp", "\u00a0"], ["amp", "&"]]);
