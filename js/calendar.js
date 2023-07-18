@@ -313,7 +313,9 @@ function parseHTML(html, otherValidTags = null, otherValidProperties = null) {
 function sanitizeTags(text, validTags, validProperties) {
   let result = "";
   for (;;) {
-    const match = text.match(/<(\/?)([a-zA-Z]+)([a-zA-Z0-9\s:\/&'"-_=]*?)(\/?)>/);
+    const match = text.match(
+      /<(\/?)([a-zA-Z]+)([a-zA-Z0-9\s:\/&'"-_=]*?)(\/?)>/,
+    );
     if (!match) {
       result += encodeHTML(text);
       break;
