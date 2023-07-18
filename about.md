@@ -146,6 +146,6 @@ Below are links to both our current Constitution and all previous agendas:
 
 ## Contact Us 📧
 
-[cssoc@cs.bham.ac.uk](mailto:cssoc@cs.bham.ac.uk)
+[css@guild.bham.ac.uk](mailto:css@guild.bham.ac.uk)
 
 <script src="https://kit.fontawesome.com/3e937b69c2.js" crossorigin="anonymous"></script>
