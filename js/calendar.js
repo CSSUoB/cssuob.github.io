@@ -294,7 +294,7 @@ function parseHTML(html, otherValidTags = null, otherValidProperties = null) {
     return null;
   }
 
-  const validTags = ["a", "b", "br", "code", "em", "span", "strong"];
+  const validTags = ["a", "b", "br", "code", "em", "i", "span", "strong", "u"];
   const validProperties = new Map([["a", ["href"]]]);
   html = sanitizeTags(
     html,
