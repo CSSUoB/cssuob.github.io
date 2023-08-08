@@ -9,6 +9,9 @@ title: Agendas
 
 ## 2023
 
+### August
+- [Committee Meeting - Sunday 6th August](/assets/agendas/2023/08/06.pdf)
+
 ### July
 - [Committee Meeting - Sunday 30th July](/assets/agendas/2023/07/30.pdf)
 - [Committee Meeting - Monday 17th July](/assets/agendas/2023/07/17.pdf)
