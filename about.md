@@ -2,9 +2,8 @@
 layout: textpage
 title: About
 styles:
-- /css/about.css
+  - /css/about.css
 ---
-
 <div class="about-profile text-center">
     <img class="profile-pic" src="/assets/logo-large.png" alt="CSS Logo">
     <h1>Computer Science Society</h1>
@@ -14,7 +13,7 @@ styles:
 
 <div class="section-box" markdown="1">
 
-Hey there! 👋
+Hey there! 👋👋
 
 We're the *award-winning* Computer Science Society **(CSS)** at the University of Birmingham.
 
@@ -62,7 +61,7 @@ We encourage everyone to take part in these really cool events.
 
 See our page on [hackathons](/hackathons) to learn more! 
 
-## Stay Up-To-Date &#10084;&#65039; 
+## Stay Up-To-Date &#10084;&#65039;
 
 In addition to joining our [Discord](/discord), if you have a Facebook account,
 we recommend that you join our Facebook Group linked below! 👇
@@ -74,24 +73,27 @@ You can also find links to all of our other various social media accounts:
         <h4><i class="fab fa-instagram"></i> Instagram</h4>
     </a>
 
-    <a href="/tw" class="social-link twitter">
-        <h4><i class="fab fa-twitter"></i> Twitter</h4>
-    </a>
+```
+<a href="/tw" class="social-link twitter">
+    <h4><i class="fab fa-twitter"></i> Twitter</h4>
+</a>
 
-    <a href="/fb" class="social-link facebook">
-        <h4><i class="fab fa-facebook"></i> Facebook</h4>
-    </a>
+<a href="/fb" class="social-link facebook">
+    <h4><i class="fab fa-facebook"></i> Facebook</h4>
+</a>
 
-    <a href="/in" class="social-link linkedin">
-        <h4><i class="fab fa-linkedin"></i> LinkedIn</h4>
-    </a>
+<a href="/in" class="social-link linkedin">
+    <h4><i class="fab fa-linkedin"></i> LinkedIn</h4>
+</a>
 
-    <a href="/yt" class="social-link youtube">
-        <h4><i class="fab fa-youtube"></i> YouTube</h4>
-    </a>
-    <a href="/gh" class="social-link github">
-        <h4><i class="fab fa-github"></i> GitHub</h4>
-    </a>
+<a href="/yt" class="social-link youtube">
+    <h4><i class="fab fa-youtube"></i> YouTube</h4>
+</a>
+<a href="/gh" class="social-link github">
+    <h4><i class="fab fa-github"></i> GitHub</h4>
+</a>
+```
+
 </div>
 
 ## Awards 🏆
