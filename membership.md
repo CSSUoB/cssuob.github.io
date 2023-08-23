@@ -1,6 +1,6 @@
 ---
 layout: textpage
-title: About
+title: Membership
 styles:
 - /css/about.css
 ---
