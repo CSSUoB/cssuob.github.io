@@ -9,6 +9,8 @@ styles:
 
 # Membership Statistics
 
+What is Membership? Find out here: [Membership](/membership)
+
 
 <div class="text-center">
   <a href="/join" class="button guild-button">
