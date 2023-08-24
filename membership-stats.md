@@ -2,7 +2,6 @@
 layout: textpage
 title: Membership Stats
 styles:
-- /css/about.css
 - /css/member-stats.css
 ---
 
