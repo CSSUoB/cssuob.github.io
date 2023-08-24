@@ -18,6 +18,10 @@
     overflow: hidden;
 }
 
+.chart-container iframe html {
+  overflow: none;
+}
+
 h1,
 h2,
 h3,
