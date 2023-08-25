@@ -44,7 +44,7 @@ using your Student Login.
 <b> Please note that since the Guild's recent antics with external memberships the information below is now out of date and we will work to update it as soon as the Guild provides us with more information. </b>
 <br> <br>
 <b>
-While we wait for them to update their policies, you can find the most recent announcement [here](https://www.guildofstudents.com/news/article/website/Guild-Statement-Confirmation-of-the-reintroduction-of-External-Memberships/). </b> <br>
+While we wait for them to update their policies, you can find the most recent announcement [here](https://www.guildofstudents.com/news/article/website/Guild-Statement-Confirmation-of-the-reintroduction-of-External-Memberships/). </b> <br> <br> <br>
 
 As an external member, you'll be able to support the society, and of course,
 you'll be welcome at all of our events.
