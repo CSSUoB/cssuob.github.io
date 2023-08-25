@@ -16,6 +16,8 @@ You'll also get a snazzy green role 🟢 on the [Discord](/discord)!
 If you have any problems getting a membership, ask in #help on our Discord
 server, the Guild website can occassionally be a little temperamental!
 
+Interested in seeing our historical membership statistics and some fun graphs? Check them out [here](/membership-stats)!
+
 <div class="text-center">
   <a href="/join" class="button guild-button">
     <img src="/assets/about/guild-logo.svg" class="text-img" alt="">
