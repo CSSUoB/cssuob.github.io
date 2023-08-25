@@ -1,5 +1,5 @@
 ---
-layout: textpage
+layout: page
 title: Membership Stats
 styles:
 - /css/member-stats.css
