@@ -5,13 +5,11 @@ styles:
 - /css/member-stats.css
 ---
 
-
-<div class="text-center">
-
 # Membership Statistics
 
 ## What is Membership? Find out here: [Membership](/membership)
 
+<div class="text-center">
   <a href="/join" class="button guild-button">
     <img src="/assets/about/guild-logo.svg" class="text-img" alt="">
     Get Membership
