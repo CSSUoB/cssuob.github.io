@@ -41,6 +41,8 @@ using your Student Login.
 
 ## 🧑‍🏫 External Membership
 
+<b> Please note that since the Guild's recent antics with external memberships the information below is now out of date and we will work to update it as soon as the Guild provides us with more information. </b>
+
 As an external member, you'll be able to support the society, and of course,
 you'll be welcome at all of our events.
 
