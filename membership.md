@@ -44,7 +44,7 @@ External members can do everything that standard members can, except vote in ele
 
 </div>
 
-<div class="text-center">
+<div class="text-center" markdown="1">
 
 # Sounds great! How do it?
 
@@ -64,6 +64,11 @@ To join, you can purchase a membership on the [Guild of Students CSS page](/join
 <div class="section-box" markdown="1">
 
 ## 🧑‍🏫 External Membership
+<br>
+<b> Please note that since the Guild's recent antics with external memberships the information below is now out of date and we will work to update it as soon as the Guild provides us with more information. </b>
+<br> <br>
+<b>
+While we wait for them to update their policies, you can find the most recent announcement [here](https://www.guildofstudents.com/news/article/website/Guild-Statement-Confirmation-of-the-reintroduction-of-External-Memberships/). </b> <br> <br> <br>
 
 The process for external memberships is a bit longer and will vary depending on your circumstances.
 
