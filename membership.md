@@ -44,7 +44,7 @@ External members can do everything that standard members can, except vote in ele
 
 </div>
 
-<div class="text-center">
+<div class="text-center" markdown="1">
 
 # Sounds great! How do it?
 
