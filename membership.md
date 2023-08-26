@@ -25,9 +25,11 @@ Interested in seeing our historical membership statistics and some fun graphs? C
   </a>
 </div>
 
+<div class="text-center" markdown="1">
 
 # 🤔 What's the difference?
 
+</div>
 
 <div class="section-box" markdown="1">
 
@@ -52,7 +54,7 @@ External members can do everything that standard members can, except vote in ele
 
 <div class="text-center" markdown="1">
 
-# Sounds great! How do it?
+# Sounds great! How do I do it?
 
 </div>
 
