@@ -25,16 +25,22 @@ Interested in seeing our historical membership statistics and some fun graphs? C
   </a>
 </div>
 
+
+# 🤔 What's the difference?
+
+
 <div class="section-box" markdown="1">
 
-## 🤔 What's the difference?
-
-### Standard Member
+## Standard Member
 
 You're automatically considered a standard member if you're a registered student at UoB. 
 This also includes if you're only a part time student or resitting internally.
 
-### External Member
+</div>
+
+<div class="section-box" markdown="1">
+
+## External Member
 
 Anyone who doesn't fall into the above category (i.e. if you're not a student) is considered an external member.
 This also includes those resitting externally, on a leave of absense or university staff.
