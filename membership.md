@@ -27,7 +27,7 @@ Interested in seeing our historical membership statistics and some fun graphs? C
 
 <div class="text-center" markdown="1">
 
-# 🤔 What's the difference?
+# What's the difference?
 
 </div>
 
@@ -61,7 +61,7 @@ External members can do everything that standard members can, except vote in ele
 <div class="section-box" markdown="1">
 
 
-## 🧑‍🎓 Standard Membership
+## Standard Membership
 
 As a registered student (as we explained above) you're automatically a member of the Guild so don't need to do anything before joining! 
 
@@ -71,12 +71,7 @@ To join, you can purchase a membership on the [Guild of Students CSS page](/join
 
 <div class="section-box" markdown="1">
 
-## 🧑‍🏫 External Membership
-<br>
-<b> Please note that since the Guild's recent antics with external memberships the information below is now out of date and we will work to update it as soon as the Guild provides us with more information. </b>
-<br> <br>
-<b>
-While we wait for them to update their policies, you can find the most recent announcement [here](https://www.guildofstudents.com/news/article/website/Guild-Statement-Confirmation-of-the-reintroduction-of-External-Memberships/). </b> <br> <br> <br>
+## External Membership
 
 The process for external memberships is a bit longer and will vary depending on your circumstances.
 
