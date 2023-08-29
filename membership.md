@@ -25,20 +25,26 @@ Interested in seeing our historical membership statistics and some fun graphs? C
   </a>
 </div>
 
+
+
+<div class="section-box" markdown="1">
+
 <div class="text-center" markdown="1">
 
 # What's the difference?
 
 </div>
 
-<div class="section-box" markdown="1">
-
-<div class="section-box" markdown="1">
-
 ## Standard Member
 
 You're automatically considered a standard member if you're a registered student at UoB. 
 This also includes if you're only a part-time student or resitting internally.
+
+## Sounds great! How do I do it?
+
+As a registered student (as we explained above) you're automatically a member of the Guild so don't need to do anything before joining! 
+
+To join, you can purchase a membership on the [Guild of Students CSS page](/join) using your Student Login.
 
 ## External Member
 
@@ -47,17 +53,11 @@ This also includes those resitting externally, on a leave of absence, or univers
 
 External members can do everything that standard members can, except vote in elections and run for committee positions.
 
-</div>
+<div class="text-center" markdown="1">
 
 # Sounds great! How do I do it?
 
-
-## Standard Membership
-
-As a registered student (as we explained above) you're automatically a member of the Guild so don't need to do anything before joining! 
-
-To join, you can purchase a membership on the [Guild of Students CSS page](/join) using your Student Login.
-
+</div>
 
 ## External Membership
 
