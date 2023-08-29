@@ -37,29 +37,23 @@ Interested in seeing our historical membership statistics and some fun graphs? C
 
 ## Standard Member
 
-You're automatically considered a standard member if you're a registered student at UoB. 
+You're automatically considered a full member of the Guild if you're a registered student at UoB. 
 This also includes if you're only a part-time student or resitting internally.
 
-## Sounds great! How do I do it?
+As a full member of the Guild you're considered a "Standard Member", meaning you'll have a student login to the Guild website and won't need to do anything else before purchasing a membership.
 
-As a registered student (as we explained above) you're automatically a member of the Guild so don't need to do anything before joining! 
+To join, you can purchase a membership on the [Guild of Students CSS page](/join).
 
-To join, you can purchase a membership on the [Guild of Students CSS page](/join) using your Student Login.
+In addition to the benefits listed above, Standard Members can also vote in elections and run for committee positions.
 
 ## External Member
 
-Anyone who doesn't fall into the above category (i.e. if you're not a student) is considered an external member.
+Anyone who doesn't fall into the above category (i.e. if you're not a current UoB student) is considered an external member.
 This also includes those resitting externally, on a leave of absence, or university staff.
 
 External members can do everything that standard members can, except vote in elections and run for committee positions.
 
-<div class="text-center" markdown="1">
-
-# Sounds great! How do I do it?
-
-</div>
-
-## External Membership
+### Sounds great! How do I do it?
 
 The process for external memberships is a bit longer and will vary depending on your circumstances.
 
