@@ -33,6 +33,8 @@ Interested in seeing our historical membership statistics and some fun graphs? C
 
 <div class="section-box" markdown="1">
 
+<div class="section-box" markdown="1">
+
 ## Standard Member
 
 You're automatically considered a standard member if you're a registered student at UoB. 
@@ -44,6 +46,8 @@ Anyone who doesn't fall into the above category (i.e. if you're not a student) i
 This also includes those resitting externally, on a leave of absence, or university staff.
 
 External members can do everything that standard members can, except vote in elections and run for committee positions.
+
+</div>
 
 # Sounds great! How do I do it?
 
