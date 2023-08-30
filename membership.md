@@ -14,46 +14,59 @@ to running great events for other members, a lot of it going on pizza!
 You'll also get a snazzy green role 🟢 on the [Discord](/discord)!
 
 If you have any problems getting a membership, ask in #help on our Discord
-server, the Guild website can occassionally be a little temperamental!
+server, the Guild website can occasionally be a little temperamental!
 
 Interested in seeing our historical membership statistics and some fun graphs? Check them out [here](/membership-stats)!
 
 <div class="text-center">
   <a href="/join" class="button guild-button">
-    <img src="/assets/about/guild-logo.svg" class="text-img" alt="">
+    <img src="/assets/about/guild-logo.svg" class="text-img" alt="Get Membership">
     Get Membership
   </a>
 </div>
 
+
+
 <div class="section-box" markdown="1">
 
-## 🧑‍🎓 Student Membership
+<div class="text-center" markdown="1">
 
-As a student member, you'll be able to vote in our elections (held during
-our AGMs and EGMs) and run for a position on the committee.
-
-To join, you can purchase a membership on the [Guild of Students CSS page](https://www.guildofstudents.com/studentgroups/societies/css/)
-using your Student Login.
+# What's the difference?
 
 </div>
 
-<div class="section-box" markdown="1">
+## Standard Member
 
-## 🧑‍🏫 External Membership
-<br>
-<b> Please note that since the Guild's recent antics with external memberships the information below is now out of date and we will work to update it as soon as the Guild provides us with more information. </b>
-<br> <br>
-<b>
-While we wait for them to update their policies, you can find the most recent announcement [here](https://www.guildofstudents.com/news/article/website/Guild-Statement-Confirmation-of-the-reintroduction-of-External-Memberships/). </b> <br> <br> <br>
+You're automatically considered a full member of the Guild if you're a <b>registered student at UoB</b>. 
+This also includes if you're only a part-time student or resitting internally.
 
-As an external member, you'll be able to support the society, and of course,
-you'll be welcome at all of our events.
+As a full member of the Guild you're considered a "Standard Member", meaning you'll have a student login to the Guild website and <b>don't need to do anything else</b> before purchasing a membership.
 
-To join, you'll first need to sign up with a Guest Membership, and then upgrade
-it to an External Membership on the [Guild of Students membership page](https://www.guildofstudents.com/about/memberships/).
-As part of the process to get a Guild External Membership, you'll need to
-submit a form to explain why you believe you should be included as a member.
+To join, you can <b>purchase a membership on the [Guild of Students CSS page](/join)</b>.
 
-Then, you can purchase an external membership from the [Guild of Students CSS page](https://www.guildofstudents.com/studentgroups/societies/css/).
+In addition to the benefits listed above, Standard Members can also vote in elections and run for committee positions.
+
+## External Member
+
+Anyone who doesn't fall into the above category (i.e. if you're not a current UoB student) is considered an external member.
+
+This also includes those resitting externally, on a leave of absence, or university staff.
+
+External members can do everything that standard members can, except vote in elections and run for committee positions.
+
+### Sounds great! How do I do it?
+
+The process for external memberships is a bit longer and will vary depending on your circumstances.
+
+1. Firstly, everyone will need to create a "Guest Account" on the guild website. You can do that [here](https://www.guildofstudents.com/about/memberships/).
+
+2. Once you've done that, you'll need to click the "Apply for External Membership" button on the same page and this is where the process deviates.
+
+3. If you're a member of staff, an external student, or a student on a leave of absence all you'll need to do is provide your university email address to be verified. Once this is done you can skip straight to step 5.
+
+4. If you don't fall into the categories mentioned in step 3 (i.e. you're an alumnus, or a student at another university) you'll need to provide a [basic DBS check](https://www.gov.uk/request-copy-criminal-record) issued within the last 3 months and a letter of recommendation from a current Standard Member. 
+
+5. Finally, once you're application has been accepted, you'll be able to head over to the [Guild of Students CSS page](/join) and purchase a membership using the login credentials you used for your Guest Account, which you created in step 1.
+
 
 </div>
