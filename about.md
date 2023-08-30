@@ -118,7 +118,12 @@ Our society has won many achievements and awards, including:
 
 ## 2023/2024 Sponsors 🤝
 
-Coming soon! We're still working on our sponsorships for this year. 
+This year, we are proudly sponsored by:
+
+<div class="sponsors-images">
+    <img src="assets/sponsorship/bny-mellon-logo.png" alt="BNY Mellon" />
+    <img src="assets/sponsorship/bofa-logo.png" alt="Bank of America" />
+</div>
 
 If you or your company is interested in sponsoring CSS, please take a look at our Sponsorship Proposal:
 
