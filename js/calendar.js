@@ -294,12 +294,12 @@ function parseHTML(html, otherValidTags = null, otherValidProperties = null) {
     return null;
   }
 
-  const validTags = ["a", "b", "br", "code", "em", "span", "strong"];
+  const validTags = ["a", "b", "br", "code", "em", "i", "span", "strong", "u"];
   const validProperties = new Map([["a", ["href"]]]);
   html = sanitizeTags(
     html,
     validTags.concat(otherValidTags),
-    new Map([...validProperties, ...otherValidProperties])
+    new Map([...validProperties, ...otherValidProperties]),
   );
 
   let el = document.createElement("span");
@@ -314,7 +314,7 @@ function sanitizeTags(text, validTags, validProperties) {
   let result = "";
   for (;;) {
     const match = text.match(
-      /<(\/?)([a-zA-Z]+)([a-zA-Z0-9\s:\/&'"-_=]*?)(\/?)>/
+      /<(\/?)([a-zA-Z]+)([a-zA-Z0-9\s:\/&'"\-_=.~?#*@'+,;%]*?)(\/?)>/,
     );
     if (!match) {
       result += encodeHTML(text);
@@ -360,11 +360,14 @@ function encodeHTML(text) {
       // parse selected entities (because *someone* is pasting weird characters to the calendar)
       .replace(
         /\&(#?[a-z0-9]+);/g,
-        (match, group) => entityList.get(group) || match
+        (match, group) => entityList.get(group) || match,
       )
       // encode all dangerous characters to html entities
       .replace(/[\u00A0-\u9999<>\&]/g, (i) => "&#" + i.charCodeAt(0) + ";")
   );
 }
 
-const entityList = new Map([["nbsp", "\u00a0"]]);
+const entityList = new Map([
+  ["nbsp", "\u00a0"],
+  ["amp", "&"],
+]);
