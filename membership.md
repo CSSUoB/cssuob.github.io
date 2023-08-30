@@ -1,6 +1,6 @@
 ---
 layout: textpage
-title: About
+title: Membership
 styles:
 - /css/about.css
 ---
@@ -15,6 +15,8 @@ You'll also get a snazzy green role 🟢 on the [Discord](/discord)!
 
 If you have any problems getting a membership, ask in #help on our Discord
 server, the Guild website can occassionally be a little temperamental!
+
+Interested in seeing our historical membership statistics and some fun graphs? Check them out [here](/membership-stats)!
 
 <div class="text-center">
   <a href="/join" class="button guild-button">
@@ -38,6 +40,11 @@ using your Student Login.
 <div class="section-box" markdown="1">
 
 ## 🧑‍🏫 External Membership
+<br>
+<b> Please note that since the Guild's recent antics with external memberships the information below is now out of date and we will work to update it as soon as the Guild provides us with more information. </b>
+<br> <br>
+<b>
+While we wait for them to update their policies, you can find the most recent announcement [here](https://www.guildofstudents.com/news/article/website/Guild-Statement-Confirmation-of-the-reintroduction-of-External-Memberships/). </b> <br> <br> <br>
 
 As an external member, you'll be able to support the society, and of course,
 you'll be welcome at all of our events.
