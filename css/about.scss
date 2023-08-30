@@ -182,6 +182,8 @@ h4 {
   align-items: center;
   display: grid;
   grid-template-columns: repeat(2, 185px);
+  grid-gap: 30px;
+  padding: 10px;
 }
 
 .sponsors-buttons {
