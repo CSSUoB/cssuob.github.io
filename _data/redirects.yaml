@@ -106,13 +106,13 @@
 - source: /git/visual
   destination: https://git-school.github.io/visualizing-git/
 
-# Board Games Night 20-02-2023
+# Board Games Night 18-09-2023
 - source: /bringing-games
-  destination: https://docs.google.com/spreadsheets/d/e/2PACX-1vTf4_L-y62IkZ-QR-fDrb_YKxEYfmsZXrKMqiZ0GUTSqfrMBaCzEcpqSreSqm5LLqhbEKc9xBgg3k5P/pubhtml
+  destination: https://docs.google.com/spreadsheets/d/1EI9blUDyI0RklzobSTTcuRrDJV6D1FdGDaFA2SGpQSQ/
 - source: /board-games-night
-  destination: https://forms.gle/sYsNBMkDJvEmpuBi8
+  destination: https://forms.gle/etTB5YRzgH7nUMPJ7
 - source: /bgn
-  destination: https://forms.gle/sYsNBMkDJvEmpuBi8
+  destination: https://forms.gle/etTB5YRzgH7nUMPJ7
 
 # TNMOC 2023
 - source: /tnmoc
