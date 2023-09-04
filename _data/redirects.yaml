@@ -113,6 +113,8 @@
   destination: https://forms.gle/etTB5YRzgH7nUMPJ7
 - source: /bgn
   destination: https://forms.gle/etTB5YRzgH7nUMPJ7
+- source: /bgn-walking-train
+  destination: https://www.google.com/maps/place/52%C2%B027'31.7%22N+1%C2%B055'34.1%22W/@52.4586142,-1.9261034,18.26z/data=!4m4!3m3!8m2!3d52.458793!4d-1.92614?entry=ttu
 
 # TNMOC 2023
 - source: /tnmoc
