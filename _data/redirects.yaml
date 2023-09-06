@@ -119,8 +119,6 @@
 # Ming Moon 20-09-2023
 - source: /ming-moon
   destination: https://www.eventbrite.co.uk/e/css-goes-to-ming-moon-tickets-712969449817?aff=oddtdtcreator
-- source: /mm
-  destination: https://www.eventbrite.co.uk/e/css-goes-to-ming-moon-tickets-712969449817?aff=oddtdtcreator
 
 # TNMOC 2023
 - source: /tnmoc
