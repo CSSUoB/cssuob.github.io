@@ -33,6 +33,7 @@ $preview-height: 150px;
   .post-details {
     flex: 1 1 auto;
     padding-left: 1em;
+    max-width: calc(100vw - 150px - 10%);
     background: white;
 
     .post-title {
@@ -189,6 +190,7 @@ $preview-height: 150px;
 @media only screen and (max-width: 600px) {
   .post-preview {
     .post-details {
+      
       .post-title {
         margin-top: 0.2em;
         margin-bottom: 0.2em;
