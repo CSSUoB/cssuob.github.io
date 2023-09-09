@@ -1,7 +1,3 @@
-# join
-- source: /join
-  destination: https://www.guildofstudents.com/studentgroups/societies/css/
-
 # sponsor
 - source: /sponsor
   destination: /assets/sponsorship/CSS_Sponsorship_Proposal.pdf
