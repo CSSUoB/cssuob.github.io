@@ -191,10 +191,12 @@ $preview-height: 150px;
   .post-preview {
     .post-details {
       .post-title {
+        font-size: min(6vw, 27px);
         margin-top: 0.2em;
         margin-bottom: 0.2em;
       }
       .post-date {
+        font-size: min(5vw, 27px);
         margin-top: 0.2em;
         margin-bottom: 0.2em;
       }
