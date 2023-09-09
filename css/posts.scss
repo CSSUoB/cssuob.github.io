@@ -33,6 +33,7 @@ $preview-height: 150px;
   .post-details {
     flex: 1 1 auto;
     padding-left: 1em;
+    width: calc(100vw - 150px - 5% - 1em);
     background: white;
 
     .post-title {
@@ -190,10 +191,12 @@ $preview-height: 150px;
   .post-preview {
     .post-details {
       .post-title {
+        font-size: min(6vw, 27px);
         margin-top: 0.2em;
         margin-bottom: 0.2em;
       }
       .post-date {
+        font-size: min(5vw, 27px);
         margin-top: 0.2em;
         margin-bottom: 0.2em;
       }
