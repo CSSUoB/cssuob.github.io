@@ -106,6 +106,12 @@
 - source: /git/visual
   destination: https://git-school.github.io/visualizing-git/
 
+# Scavenger Hunt 18-09-2023 -> 25-09-2023
+- source: /hunt
+  destination: https://forms.gle/AfeZwccHvwt2Qnpo6
+- source: /scavenger-hunt
+  destination: https://forms.gle/AfeZwccHvwt2Qnpo6
+
 # Board Games Night 18-09-2023
 - source: /bringing-games
   destination: https://docs.google.com/spreadsheets/d/1W21xL9TJCRPXEcq4MfV6-jMBSYXK2fRuOnX3JJQSVyM/
