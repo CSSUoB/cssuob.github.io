@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/join"
+  to = "https://www.guildofstudents.com/studentgroups/societies/css/"
+  status = 301
+  force = true
+  query = {path = ":path"}
