@@ -36,6 +36,8 @@ menu:
   - name: About
     link: /about
     children:
+      - name: About Us
+        link: /about
       - name: Membership
         link: /membership
 baseurl: /
