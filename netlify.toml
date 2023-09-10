@@ -2,304 +2,212 @@
 [[redirects]]
   from = "/join"
   to = "https://www.guildofstudents.com/studentgroups/societies/css/"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/guild"
   to = "/join"
-  status = 301
-  force = true
 
 
 # EPS Link
 [[redirects]]
   from = "/eps"
   to = "https://www.birmingham.ac.uk/university/colleges/eps/eps-community/students/societies/css.aspx"
-  status = 301
-  force = true
 
 
 # Sponsorship Proposal
 [[redirects]]
   from = "/sponsor"
   to = "/assets/sponsorship/CSS_Sponsorship_Proposal.pdf"
-  status = 301
-  force = true
 
 
 # Society Constitution
 [[redirects]]
   from = "/constitution"
   to = "/assets/constitution.pdf"
-  status = 301
-  force = true
 
 
 # Socials
 [[redirects]]
   from = "/facebook"
   to = "https://facebook.com/groups/CSSUoB"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/fb"
   to = "/facebook"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/instagram"
   to = "https://instagram.com/cssbham"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/ig"
   to = "/instagram"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/twitter"
   to = "https://twitter.com/cssbham"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/tw"
   to = "/twitter"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/linkedin"
   to = "https://www.linkedin.com/company/cssbham/"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/in"
   to = "/linkedin"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/discord"
   to = "https://discord.gg/uftEqwy"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/di"
   to = "/discord"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/youtube"
   to = "https://www.youtube.com/channel/UC-nWGWJv8wi3nw4YG55Vd0A"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/yt"
   to = "/youtube"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/email"
   to = "mailto:css@guild.bham.ac.uk"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/github"
   to = "https://github.com/CSSUoB/cssuob.github.io"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/gh"
   to = "/github"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/texbot"
   to = "https://github.com/CSSUoB/TeX-Bot-Py-V2"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/tex"
   to = "/texbot"
-  status = 301
-  force = true
 
 
 # Ball
 [[redirects]]
   from = "/ball"
   to = "/ball/2023"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/ball/2023/photos"
   to = "https://photos.app.goo.gl/PZEahyV3CJed7ttA6"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/ball/2022/photos"
   to = "https://photos.app.goo.gl/bSyPR6fyHGtGDW6h9"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/ball/2020/photos"
   to = "https://www.facebook.com/media/set/?set=oa.2609144112656487"
-  status = 301
-  force = true
 
 
 # Calendar
 [[redirects]]
   from = "/calender"
   to = "/calendar"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/cal"
   to = "/calendar"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/soon"
   to = "/calendar"
-  status = 301
-  force = true
 
 
 # AGMs
 [[redirects]]
   from = "/agm/2022/agenda"
   to = "/assets/agendas/2022/agenda_22_05_04.pdf"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/agm/2023/agenda"
   to = "/assets/agendas/agenda_23_05_10_AGM.pdf"
-  status = 301
-  force = true
 
 
 # Feedback
 [[redirects]]
   from = "/feedback"
   to = "https://docs.google.com/forms/d/e/1FAIpQLSe1jAEFmNEc4YQmXtvDMhFZGFzk1xLIJ3WV5q2FxVtYh7fnUw/viewform?usp=sf_link"
-  status = 301
-  force = true
 
 
 # Pizza Typo
 [[redirects]]
   from = "/pizzas"
   to = "/pizza"
-  status = 301
-  force = true
 
 
 # Hoodies -- PLACEHOLDER, NOT ON SALE
 [[redirects]]
   from = "/hoodies"
   to = "/404"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/hoodie"
   to = "/404"
-  status = 301
-  force = true
 
 
 # Ducks
 [[redirects]]
   from = "/ducks"
   to = "https://guildofstudents.com/events/6531/7063"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/duck"
   to = "/ducks"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/quack"
   to = "/ducks"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/quak"
   to = "/ducks"
-  status = 301
-  force = true
 
 
 # Scavenger Hunt 18-09-2023 -> 25-09-2023
 [[redirects]]
   from = "/hunt"
   to = "/https://forms.gle/AfeZwccHvwt2Qnpo6"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/scavenger-hunt"
   to = "/hunt"
-  status = 301
-  force = true
 
 
 # Board Games Night 18-09-2023
 [[redirects]]
   from = "/bringing-games"
   to = "https://docs.google.com/spreadsheets/d/1W21xL9TJCRPXEcq4MfV6-jMBSYXK2fRuOnX3JJQSVyM/"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/board-games-night"
   to = "https://forms.gle/etTB5YRzgH7nUMPJ7"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/bgn"
   to = "/board-games-night"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/bgn-walking-train"
   to = "/https://www.google.com/maps/place/52%C2%B027'31.7%22N+1%C2%B055'34.1%22W/@52.4586142,-1.9261034,18.26z/data=!4m4!3m3!8m2!3d52.458793!4d-1.92614?entry=ttu"
-  status = 301
-  force = true
 
 
 # Ming Moon 20-09-2023
 [[redirects]]
   from = "/ming-moon"
   to = "/https://www.eventbrite.co.uk/e/css-goes-to-ming-moon-tickets-712969449817?aff=oddtdtcreator"
-  status = 301
-  force = true
 
