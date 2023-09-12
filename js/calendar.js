@@ -132,7 +132,7 @@ function loadEvent(event) {
     let allDay = eventData.allDay;
     let startMinute = ("0" + eventData.start.getMinutes()).slice(-2);
     let endMinute = ("0" + eventData.end?.getMinutes()).slice(-2);
-    let startHour = ("0" + eventData.start.getHours()).slice(-2);
+    let startHour = ("0" + eventData.start.getHours()).slice(-1);
     let endHour = ("0" + eventData.end?.getHours()).slice(-2);
     let startDay = eventData.start.getDate();
     let endDay = eventData.end?.getDate();
