@@ -181,7 +181,7 @@
 # Scavenger Hunt 18-09-2023 -> 25-09-2023
 [[redirects]]
   from = "/hunt"
-  to = "/https://forms.gle/AfeZwccHvwt2Qnpo6"
+  to = "https://forms.gle/AfeZwccHvwt2Qnpo6"
 
 [[redirects]]
   from = "/scavenger-hunt"
@@ -203,11 +203,14 @@
 
 [[redirects]]
   from = "/bgn-walking-train"
-  to = "/https://www.google.com/maps/place/52%C2%B027'31.7%22N+1%C2%B055'34.1%22W/@52.4586142,-1.9261034,18.26z/data=!4m4!3m3!8m2!3d52.458793!4d-1.92614?entry=ttu"
+  to = "https://www.google.com/maps/place/52%C2%B027'31.7%22N+1%C2%B055'34.1%22W/@52.4586142,-1.9261034,18.26z/data=!4m4!3m3!8m2!3d52.458793!4d-1.92614?entry=ttu"
 
+[[redirects]] # emergency "whoops I typed the link into the QR code generator for the quiet room signage wrong" redirect
+  from = "/commitee"
+  to = "/committee"
 
 # Ming Moon 20-09-2023
 [[redirects]]
   from = "/ming-moon"
-  to = "/https://www.eventbrite.co.uk/e/css-goes-to-ming-moon-tickets-712969449817?aff=oddtdtcreator"
+  to = "https://www.eventbrite.co.uk/e/css-goes-to-ming-moon-tickets-712969449817?aff=oddtdtcreator"
 
