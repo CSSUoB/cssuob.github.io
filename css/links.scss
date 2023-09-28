@@ -15,19 +15,19 @@ $preview-height-small: 45px;
 
 @mixin set-height() {
   @media screen and (max-width: 400px) {
-    height: $preview-height-small
+    height: $preview-height-small;
   }
   @media screen and (min-width: 401px) {
-    height: $preview-height-normal
+    height: $preview-height-normal;
   }
 }
 
 @mixin set-width() {
   @media screen and (max-width: 400px) {
-    width: $preview-height-small
+    width: $preview-height-small;
   }
   @media screen and (min-width: 401px) {
-    width: $preview-height-normal
+    width: $preview-height-normal;
   }
 }
 
@@ -210,21 +210,21 @@ $preview-height-small: 45px;
 }
 
 // @media only screen and (min-width: 600px) {
-  .post-preview {
-    .post-details {
-      .post-title {
-        margin-top: 0.5em;
-        margin-bottom: 0.3em;
-      }
-      .post-date {
-        margin-top: 0.3em;
-        margin-bottom: 0.5em;
-      }
-      .post-excerpt p {
-        margin-top: 0.5em;
-      }
+.post-preview {
+  .post-details {
+    .post-title {
+      margin-top: 0.5em;
+      margin-bottom: 0.3em;
+    }
+    .post-date {
+      margin-top: 0.3em;
+      margin-bottom: 0.5em;
+    }
+    .post-excerpt p {
+      margin-top: 0.5em;
     }
   }
+}
 // }
 
 // @media only screen and (max-width: 600px) {
