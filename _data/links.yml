@@ -1,0 +1,7 @@
+- text: Get membership!
+  url: /join
+  image: /assets/images/guild-colour-logo.png
+
+- text: Join our Discord!
+  url: /discord
+  image: /assets/images/discord-logo.png

@@ -1,0 +1,33 @@
+---
+layout: page
+title: Links
+styles:
+- /css/links.css
+scripts:
+- /js/fadein.js
+favicon: /favicon.ico
+---
+<div style="display: flex; justify-content: center;">
+    {% if site.data.links.size == 0 %}
+    <p>There's nothing here yet...</p>
+    {% endif %}
+
+    <div class="fadein-container wide">
+        {% for link in site.data.links %}
+
+        {% if link.type == "divider" %}
+        <h4 style="padding-bottom: 10px;"">{{ link.text }}</h4>
+        {% else %}
+        <a class=" wide-child post-preview fadein" href="{{ link.url }}">
+            {% if link.image %}
+            <img alt="{{ link.text }}" class="post-thumbnail" src="{{ link.image | relative_url }}">
+            {% endif %}
+            <div class="post-details">
+                <h2 class="post-title">{{ link.text }}</h2>
+            </div>
+            </a>
+            {% endif %}
+
+        {% endfor %}
+    </div>
+</div>
