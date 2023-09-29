@@ -1,0 +1,248 @@
+---
+---
+
+div.wide {
+  width: 50%;
+  min-width: 330px;
+
+  div.wide-child {
+    width: 100%;
+  }
+}
+
+$preview-height-normal: 60px;
+$preview-height-small: 45px;
+
+@mixin set-height() {
+  @media screen and (max-width: 400px) {
+    height: $preview-height-small;
+  }
+  @media screen and (min-width: 401px) {
+    height: $preview-height-normal;
+  }
+}
+
+@mixin set-width() {
+  @media screen and (max-width: 400px) {
+    width: $preview-height-small;
+  }
+  @media screen and (min-width: 401px) {
+    width: $preview-height-normal;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  div.post-details {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  div.post-details h2 {
+    font-size: 23px;
+  }
+}
+
+.post-preview {
+  display: flex;
+
+  border-radius: 10px;
+  overflow: hidden;
+
+  margin-bottom: 20px;
+
+  opacity: 0;
+  transition: opacity 0.1s;
+
+  text-decoration: none;
+
+  @include set-height();
+
+  .post-thumbnail {
+    flex: 0 0 auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px white solid;
+    box-sizing: border-box;
+
+    @include set-width;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .post-details {
+    flex: 1 1 auto;
+    padding-left: 1em;
+    width: calc(100vw - 150px - 5% - 1em);
+    background: white;
+
+    .post-title {
+      color: black;
+    }
+
+    .post-date {
+      color: black;
+    }
+
+    .post-excerpt {
+      * {
+        color: grey;
+      }
+    }
+  }
+
+  &.visible {
+    opacity: 1;
+  }
+}
+
+.post {
+  background-color: white;
+
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 20px;
+
+  * {
+    color: black;
+  }
+
+  a {
+    color: #9d68dc;
+  }
+
+  .post-title,
+  .post-date {
+    margin: 0.1em 1ch 0.1em 0px;
+    display: inline;
+  }
+
+  .post-image {
+    width: 100%;
+    height: auto;
+  }
+
+  /*
+   * TODO: this would be nice to have as part of main.scss so that tables can
+   * appear in textpages as well.
+   */
+  table {
+    border-collapse: collapse;
+
+    td,
+    th {
+      border: 1px solid black;
+      padding: 0.4em;
+    }
+
+    thead {
+      tr {
+        background-color: rgba(0, 0, 0, 0.1);
+        border-bottom: 2px solid black;
+      }
+    }
+
+    tbody {
+      tr:nth-child(even) {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      tr:nth-child(odd) {
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+    }
+  }
+
+  .post-quote {
+    display: flex;
+    border: solid 2px black;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    .post-quote-thumbnail {
+      @include set-height();
+      @include set-width();
+      margin-right: 15px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      flex: 0 0 auto;
+      object-fit: cover;
+    }
+    .post-quote-title {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+    .post-quote-subtitle {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+    .post-quote-excerpt {
+    }
+  }
+}
+
+.post-header {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to bottom, transparent 100%, white 100%);
+  margin-bottom: -5px;
+}
+
+.post-header-image {
+  max-width: 100%;
+  max-height: 50vh;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+  z-index: -1;
+  position: relative;
+}
+
+.post-header-body-border {
+  border-radius: 0px 0px 20px 20px;
+}
+
+// @media only screen and (min-width: 600px) {
+.post-preview {
+  .post-details {
+    .post-title {
+      margin-top: 0.5em;
+      margin-bottom: 0.3em;
+    }
+    .post-date {
+      margin-top: 0.3em;
+      margin-bottom: 0.5em;
+    }
+    .post-excerpt p {
+      margin-top: 0.5em;
+    }
+  }
+}
+// }
+
+// @media only screen and (max-width: 600px) {
+//   .post-preview {
+//     .post-details {
+//       .post-title {
+//         font-size: min(6vw, 27px);
+//         margin-top: 0.2em;
+//         margin-bottom: 0.2em;
+//       }
+//       .post-date {
+//         font-size: min(5vw, 27px);
+//         margin-top: 0.2em;
+//         margin-bottom: 0.2em;
+//       }
+//       .post-excerpt p {
+//         margin-top: 0.5em;
+//       }
+//     }
+//   }
+// }
