@@ -10,6 +10,8 @@ title: Agendas
 ## 2023
 
 ### September
+- [Committee Meeting - Saturday 23rd September](/assets/agendas/2023/09/23.pdf)
+- [Committee Meeting - Saturday 16th September](/assets/agendas/2023/09/16.pdf)
 - [Committee Meeting - Monday 11th September](/assets/agendas/2023/09/11.pdf)
 - [Committee Meeting - Sunday 3rd September](/assets/agendas/2023/09/03.pdf)
 
