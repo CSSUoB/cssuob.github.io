@@ -62,11 +62,13 @@ The process for external memberships is a bit longer and will vary depending on 
 
 2. Once you've done that, you'll need to click the "Apply for External Membership" button on the same page and this is where the process deviates.
 
-3. If you're a member of staff, an external student, or a student on a leave of absence all you'll need to do is provide your university email address to be verified. Once this is done you can skip straight to step 5.
+3. If you're a member of staff, an external student, or a student on a leave of absence all you'll need to do is provide your university email address to be verified. Once this is done you can skip straight to step 6.
 
-4. If you don't fall into the categories mentioned in step 3 (i.e. you're an alumnus, or a student at another university) you'll need to provide a [basic DBS check](https://www.gov.uk/request-copy-criminal-record) issued within the last 3 months and a letter of recommendation from a current Standard Member. 
+4. If you don't fall into the categories mentioned in step 3 (i.e. you're an alumnus, or a student at another university) you'll need to provide a [basic DBS check](https://www.gov.uk/request-copy-criminal-record) issued within the last 3 months and a letter of recommendation from a current Standard Member.
 
-5. Finally, once you're application has been accepted, you'll be able to head over to the [Guild of Students CSS page](/join) and purchase a membership using the login credentials you used for your Guest Account, which you created in step 1.
+5. Once you've submitted your application, the Guild will contact you and ask you to attend in person to verify your identity and check your DBS certificate. It is currently unclear if an online alternative of this will be available. 
+
+6. Finally, once you're application has been accepted, you'll be able to head over to the [Guild of Students CSS page](/join) and purchase a membership using the login credentials you used for your Guest Account, which you created in step 1.
 
 
 </div>
