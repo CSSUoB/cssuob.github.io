@@ -10,6 +10,7 @@ title: Agendas
 ## 2023
 
 ### October
+- [Committee Meeting - Monday 9th October](/assets/agendas/2023/10/09.pdf)
 - [Committee Meeting - Monday 2nd October](/assets/agendas/2023/10/02.pdf)
 
 ### September
