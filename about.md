@@ -121,8 +121,10 @@ Our society has won many achievements and awards, including:
 This year, we are proudly sponsored by:
 
 <div class="sponsors-images">
-    <img src="assets/sponsorship/bny-mellon-logo.png" alt="BNY Mellon" />
-    <img src="assets/sponsorship/bofa-logo.png" alt="Bank of America" />
+    <img src="assets/sponsorship/BNY-Mellon_brand_image.png" alt="BNY Mellon" />
+    <img src="assets/sponsorship/bank-of-america_brand_image.png" alt="Bank of America" />
+    <img src="assets/sponsorship/kainos_brand_image.png" alt="Kainos" />
+    <img src="assets/sponsorship/the-Trade-Desk_brand_image.png" alt="the Trade Desk" />
 </div>
 
 If you or your company is interested in sponsoring CSS, please take a look at our Sponsorship Proposal:
