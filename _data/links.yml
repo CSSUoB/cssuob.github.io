@@ -2,18 +2,30 @@
   url: /join
   image: /assets/images/guild-colour-logo.png
 
-- text: Join our Discord!
+- text: Join our Discord
   url: /discord
   image: /assets/images/discord-logo.png
 
-- text: "AFNOM's 'Missing Semester' signup form"
-  url: https://docs.google.com/forms/d/e/1FAIpQLSd0AqwJ774SfcQvd-j1bNQTeqIcBAjMEXFUro6hQbsmYYXIxw/viewform
+- text: View upcoming events on our Instagram
+  url: /instagram
+  image: /assets/images/instagram-logo.png
+
+- text: "Find out about AFNOM's 'Missing Semester'"
+  url: https://missingsemester.afnom.net/
   image: /assets/images/afnom_logo.png
 
-- text: Great Uni Hack travel subsidies form
-  url: https://docs.google.com/forms/d/e/1FAIpQLSdNXKptCS96qs5H0puuxbtO94VP-7ICuy-TT83aCEWS8Q3yVA/viewform?usp=sf_link
-  image: /assets/images/great_uni_hack_logo.png
+- text: Buy a CSS rubber duck
+  url: /ducks
+  image: https://www.guildofstudents.com/asset/Event/6531/CSSDuck.png
 
-- text: Kainos open evening signup form
-  url: https://careers.kainos.com/gb/en/event/64fb2d587c974f0b8fec156f/Birmingham-Early-Careers-open-evening?utm_medium=email&utm_source=partner&utm_campaign=ec_24&utm_content=uobcss
-  image: /assets/sponsorship/kainos_logo.png
+- text: Meet our mascot: TeX
+  url: /tex
+  image: /assets/tex/raster/tex_original.png
+
+- text: Chat to CSS members in our Whatsapp community
+  url: /whatsapp
+  image: /assets/images/whatsapp-logo.png
+
+- text: Watch out for our announcements on Facebook
+  url: /facebook
+  image: /assets/images/facebook-logo.png
