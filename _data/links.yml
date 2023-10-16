@@ -18,7 +18,7 @@
   url: /ducks
   image: https://www.guildofstudents.com/asset/Event/6531/CSSDuck.png
 
-- text: Meet our mascot: TeX
+- text: "Meet our mascot: TeX"
   url: /tex
   image: /assets/tex/raster/tex_original.png
 
