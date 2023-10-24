@@ -15,10 +15,10 @@ $preview-height-small: 45px;
 
 @mixin set-height() {
   @media screen and (max-width: 400px) {
-    height: $preview-height-small;
+    min-height: $preview-height-small;
   }
   @media screen and (min-width: 401px) {
-    height: $preview-height-normal;
+    min-height: $preview-height-normal;
   }
 }
 
@@ -58,21 +58,24 @@ $preview-height-small: 45px;
 
   @include set-height();
 
-  .post-thumbnail {
+  .post-thumbnail-container {
     flex: 0 0 auto;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     border: 2px white solid;
     box-sizing: border-box;
+    background: white;
 
     @include set-width;
-    height: 100%;
     object-fit: cover;
+    display: flex;
+    justify-content: center;
   }
 
   .post-details {
     flex: 1 1 auto;
-    padding-left: 1em;
     width: calc(100vw - 150px - 5% - 1em);
     background: white;
 
