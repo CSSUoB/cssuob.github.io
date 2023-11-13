@@ -168,6 +168,7 @@ people:
 
  
   - name: Rohit J.
+    pronouns: He/Him
     discordtag: bluka479
     role: First Year Rep
     picture: /assets/committee/2023-24/mini/rohit.jpg
@@ -179,7 +180,21 @@ people:
       and ideas from first year students, as well as to ensuring events are accessible to
       first years. A couple of my hobbies include ethical hacking, drawing, and gaming. Feel
       free to say hi if you see me around or on discord!
- 
+
+
+  - name: Charlie
+    discordtag: var_noisy
+    flags: ["interim"]
+    role: First Year Rep
+    picture: /assets/committee/2023-24/mini/charlie0.jpeg
+    start-date: 1/7/2023
+    end-date: 1/11/2023
+    bio: >
+      Hello! I'm your first year rep, so my role is to make sure that there are events that
+      first years will enjoy and voice first year suggestions and concerns during meetings.
+      I enjoy playing bass and watching House in my spare time. If you see me around, feel
+      free to come and chat to me about anything or message me on Discord :)
+
 
   - name: Matt Norton
     pronouns: He/Him
