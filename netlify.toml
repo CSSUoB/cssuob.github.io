@@ -214,3 +214,34 @@
   from = "/ming-moon"
   to = "https://www.eventbrite.co.uk/e/css-goes-to-ming-moon-tickets-712969449817?aff=oddtdtcreator"
 
+
+# EGM 2023-11-01
+[[redirects]]
+  from = "/vote"
+  to = "https://vote.cssbham.com"
+
+[[redirects]]
+  from = "/egm"
+  to = "https://vote.cssbham.com"
+
+[[redirects]]
+  from = "/agm"
+  to = "https://vote.cssbham.com"
+
+# Pub crawl 2023-11-24
+[[redirects]]
+  from = "/pubcrawl"
+  to = "https://www.guildofstudents.com/events/6531/8295/"
+
+[[redirects]]
+  from = "/pub"
+  to = "/pubcrawl"
+
+# Roller Skating 2023-11-16
+[[redirects]]
+  from = "/rollerskating"
+  to = "https://www.skiddle.com/whats-on/Birmingham/Roller-Jam/Get-Down---Free-Entry-and-241-Cocktails-6pm-2am-For-Ages-18/36707712/"
+
+[[redirects]]
+  from = "/skate"
+  to = "/rollerskating"
