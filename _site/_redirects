@@ -24,7 +24,6 @@
 /di /discord
 /youtube https://www.youtube.com/channel/UC-nWGWJv8wi3nw4YG55Vd0A
 /yt /youtube
-/email mailto:css@guild.bham.ac.uk
 /github https://github.com/CSSUoB/cssuob.github.io
 /gh /github
 /texbot https://github.com/CSSUoB/TeX-Bot-Py-V2
@@ -61,30 +60,22 @@
 /quack /ducks
 /quak /ducks
 
-# Scavenger Hunt 18-09-2023 -> 25-09-2023
-/hunt https://forms.gle/AfeZwccHvwt2Qnpo6
-/scavenger-hunt /hunt
-
-# Board Games Night 18-09-2023
-/bringing-games https://docs.google.com/spreadsheets/d/1W21xL9TJCRPXEcq4MfV6-jMBSYXK2fRuOnX3JJQSVyM/
-/board-games-night https://forms.gle/etTB5YRzgH7nUMPJ7
-/bgn /board-games-night
-/bgn-walking-train https://www.google.com/maps/place/52%C2%B027'31.7%22N+1%C2%B055'34.1%22W/@52.4586142,-1.9261034,18.26z/data=!4m4!3m3!8m2!3d52.458793!4d-1.92614?entry=ttu
-# emergency "whoops I typed the link into the QR code generator for the quiet room signage wrong" redirect
-/commitee /committee
-# Ming Moon 20-09-2023
-/ming-moon https://www.eventbrite.co.uk/e/css-goes-to-ming-moon-tickets-712969449817?aff=oddtdtcreator
-
-# EGM 2023-11-01
+# Voting
 /vote https://vote.cssbham.com
 /egm https://vote.cssbham.com
 /agm https://vote.cssbham.com
+
+# Scavenger Hunt
+/hunt /404
+/scavenger-hunt /hunt
+
 # Pub crawl 2023-11-24
 /pubcrawl https://www.guildofstudents.com/events/6531/8295/
 /pub /pubcrawl
-# Roller Skating 2023-11-16
-/rollerskating https://www.skiddle.com/whats-on/Birmingham/Roller-Jam/Get-Down---Free-Entry-and-241-Cocktails-6pm-2am-For-Ages-18/36707712/
-/skate /rollerskating
+
+# Christmas Meal 17-11-2023
+/christmas https://www.guildofstudents.com/events/6531/8284/
+/christmasmeal /christmas
 
 # BNY Mellon Technology Talk
 /bnytalk https://events.teams.microsoft.com/event/b044fa13-0241-428c-b836-0db4e89e8bf4@b024cacf-dede-4241-a15c-3c97d553e9f3
