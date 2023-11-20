@@ -54,3 +54,6 @@ feed:
   collections:
     news:
       path: "/newsletter/feed.xml"
+
+include: ["_redirects"]
+keep_files: ["_redirects"]
