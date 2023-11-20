@@ -50,10 +50,6 @@
 # Pizza Typo
 /pizzas /pizza
 
-# Hoodies -- PLACEHOLDER, NOT ON SALE
-/hoodies /404
-/hoodie /404
-
 # Ducks
 /ducks https://guildofstudents.com/events/6531/7063
 /duck /ducks
@@ -64,10 +60,6 @@
 /vote https://vote.cssbham.com
 /egm https://vote.cssbham.com
 /agm https://vote.cssbham.com
-
-# Scavenger Hunt
-/hunt /404
-/scavenger-hunt /hunt
 
 # Pub crawl 2023-11-24
 /pubcrawl https://www.guildofstudents.com/events/6531/8295/
