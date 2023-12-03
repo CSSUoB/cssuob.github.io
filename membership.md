@@ -68,7 +68,7 @@ The process for external memberships is a bit longer and will vary depending on 
 
 5. Once you've submitted your application, the Guild will contact you and ask you to attend in person to verify your identity and check your DBS certificate. It is currently unclear if an online alternative of this will be available. 
 
-6. Finally, once you're application has been accepted, you'll be able to head over to the [Guild of Students CSS page](/join) and purchase a membership using the login credentials you used for your Guest Account, which you created in step 1.
+6. Finally, once your application has been accepted, you'll be able to head over to the [Guild of Students CSS page](/join) and purchase a membership using the login credentials you used for your Guest Account, which you created in step 1.
 
 
 </div>
