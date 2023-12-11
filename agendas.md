@@ -9,11 +9,16 @@ title: Agendas
 
 ## 2023
 
+## December
+- [Committee Meeting - Monday 18th December]() - *TBC*
+- [Committee Meeting - Monday 11th December](/assets/agendas/2023/12/11.pdf)
+- [Committee Meeting - Monday 4th December](/assets/agendas/2023/12/04.pdf)
+
 ## November
-- [Committee Meeting - Monday 27th November]() - *TBC*
-- [Committee Meeting - Monday 20th Novembr]() - *TBC*
-- [Committee Meeting - Monday 13th November]() - *TBC*
-- [Committee Meeting - Monday 6th November]() - *TBC*
+- [Committee Meeting - Monday 27th November](/assets/agendas/2023/11/27.pdf)
+- [Committee Meeting - Monday 20th Novembr](/assets/agendas/2023/11/20.pdf)
+- [Committee Meeting - Monday 13th November](/assets/agendas/2023/11/13.pdf)
+- [Committee Meeting - Monday 6th November](/assets/agendas/2023/11/06.pdf)
 - [EGM - Wednesday 1st November](/assets/agendas/2023/11/01.pdf)
 
 ### October
