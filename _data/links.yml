@@ -2,9 +2,29 @@
   url: /join
   image: /assets/images/guild-colour-logo.png
 
-- text: Join our Discord!
+- text: Join our Discord
   url: /discord
   image: /assets/images/discord-logo.png
+
+- text: View upcoming events on our Instagram
+  url: /instagram
+  image: /assets/images/instagram-logo.png
+
+- text: "Find out about AFNOM's 'Missing Semester'"
+  url: https://missingsemester.afnom.net/
+  image: /assets/images/afnom_logo.png
+
+- text: Buy a CSS rubber duck
+  url: /ducks
+  image: https://www.guildofstudents.com/asset/Event/6531/CSSDuck.png
+
+- text: "Meet our mascot: TeX"
+  url: /tex
+  image: /assets/tex/raster/tex_original.png
+
+- text: Check us out on Facebook
+  url: /facebook
+  image: /assets/images/facebook-logo.png
 
 - text: "Christmas Meal 2023"
   type: "divider"
