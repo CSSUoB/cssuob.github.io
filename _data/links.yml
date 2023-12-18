@@ -26,14 +26,3 @@
   url: /facebook
   image: /assets/images/facebook-logo.png
 
-- text: "Christmas Meal 2023"
-  type: "divider"
-
-- text: Where we're going
-  url: https://maps.app.goo.gl/D8F5PbcN9GXan1Ps6
-
-- text: Where to get tickets
-  url: "/christmas"
-
-- text: What there is to eat
-  url: https://www.emberinns.co.uk/content/dam/ember/pdf/2023/christmas/festive-menu-pb4.pdf
