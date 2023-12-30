@@ -10,7 +10,7 @@ title: Agendas
 ## 2023
 
 ## December
-- [Committee Meeting - Monday 18th December]() - *TBC*
+- [Committee Meeting - Monday 18th December](/assets/agendas/2023/12/18.pdf)
 - [Committee Meeting - Monday 11th December](/assets/agendas/2023/12/11.pdf)
 - [Committee Meeting - Monday 4th December](/assets/agendas/2023/12/04.pdf)
 
