@@ -7,14 +7,20 @@ title: Agendas
 
 ---
 
+## 2024
+
+### January
+- [Committee Meeting - Tuesday 2nd January](/assets/agendas/2024/01/02.pdf)
+
+
 ## 2023
 
-## December
+### December
 - [Committee Meeting - Monday 18th December](/assets/agendas/2023/12/18.pdf)
 - [Committee Meeting - Monday 11th December](/assets/agendas/2023/12/11.pdf)
 - [Committee Meeting - Monday 4th December](/assets/agendas/2023/12/04.pdf)
 
-## November
+### November
 - [Committee Meeting - Monday 27th November](/assets/agendas/2023/11/27.pdf)
 - [Committee Meeting - Monday 20th Novembr](/assets/agendas/2023/11/20.pdf)
 - [Committee Meeting - Monday 13th November](/assets/agendas/2023/11/13.pdf)
