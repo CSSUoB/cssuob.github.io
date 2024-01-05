@@ -26,3 +26,11 @@
   url: /facebook
   image: /assets/images/facebook-logo.png
 
+- type: divider
+  text: "Board Games night 19/01/2024"
+
+- text: "Fill in the attendance and games form!"
+  url: "/bgn-form"
+
+- text: "See the games other people are bringing"
+  url: "/bgn"
