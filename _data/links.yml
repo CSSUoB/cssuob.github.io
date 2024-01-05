@@ -31,6 +31,8 @@
 
 - text: "Fill in the attendance and games form!"
   url: "/bgn-form"
+  image: "/assets/images/bgn.jpg"
 
 - text: "See the games other people are bringing"
   url: "/bgn"
+  image: "/assets/images/bgn.jpg"
