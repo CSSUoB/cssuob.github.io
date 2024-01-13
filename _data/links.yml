@@ -10,6 +10,10 @@
   url: /instagram
   image: /assets/images/instagram-logo.png
 
+- text: Grab a CSS Hoodie
+  url: /hoodies
+  image: /assets/images/hoodie.png
+
 - text: "Find out about AFNOM's 'Missing Semester'"
   url: https://missingsemester.afnom.net/
   image: /assets/images/afnom_logo.png
