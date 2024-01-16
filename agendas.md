@@ -10,6 +10,7 @@ title: Agendas
 ## 2024
 
 ### January
+- [Committee Meeting - Friday 12th January](/assets/agendas/2024/01/12.pdf)
 - [Committee Meeting - Tuesday 2nd January](/assets/agendas/2024/01/02.pdf)
 
 
