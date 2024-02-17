@@ -4,22 +4,18 @@ location: Banquetting Suite
 date: 24th April
 links: 
   - text: Menu
-    url:  '/ball/2023/menu'
+    url:  '/ball/2024/menu'
   - text: Tickets
     url:  '#tickets'
   - text: FAQs
     url: '#faq'
-  - text: Photos
-    url: '/ball/2023/photos'
 menu-links:
   - text: Home
-    url:  '/ball/2023'
+    url:  '/ball/2024'
   - text: Tickets
-    url:  '/ball/2023#tickets'
+    url:  '/ball/2024#tickets'
   - text: FAQs
-    url:  '/ball/2023#faq'
-  - text: Photos
-    url: '/ball/2023/photos'
+    url:  '/ball/2024#faq'
 menu:
   starters:
     - dish: TBD
