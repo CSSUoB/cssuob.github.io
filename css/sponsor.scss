@@ -1,0 +1,169 @@
+---
+---
+.stats {
+  justify-content: center;
+  display: flex;
+}
+
+.stat {
+  margin: 50px;
+}
+
+.centered-header {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.hr-line {
+  margin-top: 25px;
+}
+
+.sponsors-container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+  grid-auto-flow: column;
+  width: 100%;
+}
+
+.sponsors-container.gold img {
+  width: 400px;
+}
+
+.sponsors-container img {
+  height: 75px;
+}
+
+button.email-button {
+  border-radius: 20px;
+  border-width: 0;
+  background-color: #00a1f3;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+.buttons-container {
+  margin-top: 20px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+  gap: 30px;
+}
+
+.sponsors-container img {
+  width: 200px;
+}
+
+.previous-sponsors {
+  gap: 40px;
+}
+
+.proposal {
+  margin: 0 150px 0 150px;
+}
+
+.proposal.text-container {
+  max-width: 1000px;
+}
+
+.benefits-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px;
+}
+
+.benefit.text-container {
+  max-width: 450px;
+
+}
+
+h2 {
+  padding-top: 15px;
+}
+
+.tiers-list {
+  font-family: "JetBrains Mono", sans-serif;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  margin: 20px;
+}
+
+.tiers-table {
+  width: 800px;
+}
+
+th,td {
+  padding: 15px;
+}
+
+/* Border rounding */
+th:first-of-type {
+  border-top-left-radius: 10px;
+}
+
+th:last-of-type {
+  border-top-right-radius: 10px;
+}
+
+tr:last-of-type td:first-of-type {
+  border-bottom-left-radius: 10px;
+}
+
+tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 10px;
+}
+
+/* Perk Colouring */
+th:nth-child(1) {
+  background-color: #f3f3f3;
+}
+
+td:nth-child(1) {
+  background-color: white;
+}
+
+/* Bronze Column Colouring */
+th:nth-child(2) {
+  background-color: #f6b26b;
+}
+
+td:nth-child(2) {
+  background-color: #f9cb9c;
+}
+
+/* Silver Column Colouring */
+th:nth-child(3) {
+  background-color: #98979a;
+}
+
+td:nth-child(3) {
+  background-color: #c9c7cb;
+}
+
+/* Gold Column Colouring */
+th:nth-child(4) {
+  background: linear-gradient(15deg, #ffb968, #ffeec7);
+  background-size: 300%;
+  transition: background 0.3s ease;
+}
+
+th:nth-child(4):hover {
+  background-size: 320%;
+  background-position: right center;
+}
+
+td:nth-child(4) {
+  background-color: #FFE59A;
+}
+
+.past-events {
+  margin: 0 450px 0 450px;
+}
