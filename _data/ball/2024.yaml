@@ -33,18 +33,18 @@ menu-links:
     url:  '/ball/2024#faq'
 menu:
   starters:
-    - dish: TBD
-      type: dairy free
-    - dish: TBD
-      type: vegan & gluten free
+    - dish: Roasted vine tomato and basil served with focaccia (V, Ve, GF, L)
+      type: vegetarian, vegan, gluten free & lactose free
+    - dish: Samosa chatt served with spiced chickpeas, onion salad and a warm yoghurt dressing (V, Ve, L)
+      type: vegetarian, vegan & lactose free
   mains:
-    - dish: TBD
-      type: gluten free
-    - dish: TBD
-      type: vegan & gluten free
+    - dish: Roasted pork belly served with spring greens, braised carrots, lentils with a Provencale sauce (GF, L)
+      type: gluten free & lactose free
+    - dish: Aubergine butter katsu, served with cumin and green pea rice and Bengali carrot salad (V, Ve)
+      type: vegetarian & vegan
   dessert:
-    - dish: TBD
-      type: vegan & gluten free
+    - dish: Chocolate torte and berries served with lotus powder and cinder toffee (V, Ve)
+      type: vegetarian & vegan
   
 faq:
   - question: What is a Ball?
