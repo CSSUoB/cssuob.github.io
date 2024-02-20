@@ -2,12 +2,25 @@ academic_year: 2023/2024
 #postfix: Elect
 current: true
 people:
+  - name: Matthew Hammond
+    discordtag: frozendude101
+    role: President
+    picture: /assets/committee/2023-24/mini/matthew.jpg
+    start-date: 1/11/2023
+    bio: >
+      Hello, hello! I'm Matthew and I'm your CSS President! It's my job to keep things running
+      smoothly and to keep the rest of committee on top of their tasks! I've had a great time
+      planning, running, and attending events so far, so now I just have to return the favour!
+      Outside of CSS I like to work on whatever soon-to-be abandoned project my brain will focus
+      on, as well as sleep 24/7 (especially when it helps me avoid my responsibilities).
+    
   - name: Archer
     pronouns: They/Them
     discordtag: useruninvited
     role: President
     picture: /assets/committee/2023-24/mini/archer.jpg
     start-date: 1/7/2023
+    end-date: 1/11/2023
     bio: >
       Hey! I’m Archer and I’m the CSS president. My role is to lead the society (read: take all the credit) and whip the committee into doing their jobs and getting everything done. I’ve had a blast at CSS events and being on the committee since I joined, and I hope I can help others have a brilliant time this year as well. In my free time I like to listen to musicals, play D&D, and obsess over roller coasters. Feel free to message me on discord or say hi if you see me around campus! 🎉
  
@@ -145,6 +158,7 @@ people:
     role: Post-Graduate (Research) Rep
     picture: /assets/committee/2023-24/mini/matthew.jpg
     start-date: 1/7/2023
+    end-date: 1/11/2023
     bio: >
       Hello, hello! I'm Matthew and I'm returning as this year's PGR rep. It's
       my job to reach out to the PGRs (all the people studying for a PhD), and
@@ -152,19 +166,33 @@ people:
       like to work on whatever soon-to-be abandoned project my brain will focus
       on, as well as sleep 24/7 (especially when it helps me avoid my responsibilities).
 
- 
+
+  - name: Rohit J.
+    pronouns: He/Him
+    role: First Year Rep
+    picture: /assets/committee/2023-24/mini/rohit.jpg
+    start-date: 1/11/2023
+    bio: >
+      Heya! I'm Rohit, I'm in my first year of medicine, and I'm the CSS First Year Rep.
+      Believe it or not, there is a real person under the mask! My job is to voice concerns
+      and ideas from first year students, as well as to ensuring events are accessible to
+      first years. A couple of my hobbies include ethical hacking, drawing, and gaming. Feel
+      free to say hi if you see me around or on discord!
+
+
   - name: Charlie
     discordtag: var_noisy
     flags: ["interim"]
     role: First Year Rep
     picture: /assets/committee/2023-24/mini/charlie0.jpeg
     start-date: 1/7/2023
+    end-date: 1/11/2023
     bio: >
       Hello! I'm your first year rep, so my role is to make sure that there are events that
       first years will enjoy and voice first year suggestions and concerns during meetings.
       I enjoy playing bass and watching House in my spare time. If you see me around, feel
       free to come and chat to me about anything or message me on Discord :)
- 
+
 
   - name: Matt Norton
     pronouns: He/Him
@@ -173,6 +201,7 @@ people:
     role: Post-Graduate (Taught) Rep
     picture: /assets/committee/2023-24/mini/matt.png
     start-date: 1/7/2023
+    end-date: 1/11/2023
     bio: >
       It may be short-lived, but the time we'll spend together will be memorable. Matt here,
       your interim PGT Rep (and boy am I good at "repping"). I'll be looking out for all the

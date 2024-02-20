@@ -40,6 +40,8 @@ menu:
         link: /about
       - name: Membership
         link: /membership
+      - name: Links
+        link: /links
 baseurl: /
 root: /
 
@@ -54,3 +56,6 @@ feed:
   collections:
     news:
       path: "/newsletter/feed.xml"
+
+include: ["_redirects"]
+keep_files: ["_redirects"]
