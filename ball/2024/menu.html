@@ -23,6 +23,12 @@ title: CSS Ball
 <hr>
 <div class="text-center-div menu margin-bottom">
     <h2 class="subtitle">Menu</h2>
+    <div class="text-center-div margin-bottom menu-footer">
+        <p class="text-block">
+            The venue will alter your chosen for any dietary requirements. Please ensure to enter any allergy or dietary information when you purchase your ticket.
+            If a dietary requirement means that the dish cannot be altered to meet your requirements the venue will provide an alternative. 
+        </p>
+    </div>
     {% for section in ball.menu %}
         <hr class="small">
         <h3 class="menu-section-title">{{ section[0] | capitalize }}</h3>
@@ -39,10 +45,4 @@ title: CSS Ball
         {% assign first = true %}
         {% endfor %}
     {% endfor %}
-    <div class="text-center-div margin-bottom menu-footer">
-        <p class="text-block">
-            We will try to make sure meals are altered to account for any dietary requirements you may have.
-            Please let us know what these are when you purchase your ticket.
-        </p>
-    </div>
 </div>
