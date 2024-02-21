@@ -52,7 +52,7 @@ favicon: /ball/favicon.ico
                 {% for ticket in ball.tickets %}
                     <tr>
                         <td><p class="text-block">{{ ticket.type }}</p></td>
-                        <td><p class="text-block">{{ ticket.price }}</p></td>
+                        <td><p class="text-block"><span class="highlight">{{ ticket.price }}</span></p></td>
                     </tr>
                 {% endfor %}
 
