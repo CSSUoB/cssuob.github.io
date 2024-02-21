@@ -44,9 +44,19 @@ favicon: /ball/favicon.ico
         <h2 class="subtitle">Tickets</h2>
         <p class="text-block">We have several different ticket types, designed to give you the most options possible!
             <br>
+            <table>
+                <tr>
+                    <th><p class="text-block">Ticket Type</p></th>
+                    <th><p class="text-block">Price</p></th>
+                </tr>
                 {% for ticket in ball.tickets %}
-                    {{ ticket.type }} - {{ ticket.price }}<br>
+                    <tr>
+                        <td><p class="text-block">{{ ticket.type }}</p></td>
+                        <td><p class="text-block">{{ ticket.price }}</p></td>
+                    </tr>
                 {% endfor %}
+
+            </table>
             <br>
     </div>
     <div>
