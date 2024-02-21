@@ -33,17 +33,17 @@ menu-links:
     url:  '/ball/2024#faq'
 menu:
   starters:
-    - dish: Roasted vine tomato and basil soup served with focaccia (V, Ve, GF, L)
+    - dish: Roasted vine tomato and basil soup served with focaccia
       type: vegetarian, vegan, gluten free & lactose free
-    - dish: Samosa chatt served with spiced chickpeas, onion salad and a warm yoghurt dressing (V, Ve, L)
+    - dish: Samosa chatt served with spiced chickpeas, onion salad and a warm yoghurt dressing
       type: vegetarian, vegan & lactose free
   mains:
-    - dish: Roasted pork belly served with spring greens, braised carrots, lentils with a Provencale sauce (GF, L)
+    - dish: Roasted pork belly served with spring greens, braised carrots, lentils with a Provencale sauce
       type: gluten free & lactose free
-    - dish: Aubergine butter katsu, served with cumin and green pea rice and Bengali carrot salad (V, Ve)
+    - dish: Aubergine butter katsu, served with cumin and green pea rice and Bengali carrot salad
       type: vegetarian & vegan
   dessert:
-    - dish: Chocolate torte and berries served with lotus powder and cinder toffee (V, Ve)
+    - dish: Chocolate torte and berries served with lotus powder and cinder toffee
       type: vegetarian & vegan
   
 faq:
