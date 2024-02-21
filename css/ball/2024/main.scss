@@ -201,6 +201,11 @@ body {
   .highlight {
     color: $secondary-highlight;
   }
+
+  .ticket-table {
+    width: 100%;
+    align-items: center;
+  }
 }
 
 .menu {
@@ -230,8 +235,4 @@ body {
     background-color: #00000044;
     padding: 1em;
   }
-}
-
-.ticket-table {
-  width: 100%;
 }
