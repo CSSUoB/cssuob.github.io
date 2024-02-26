@@ -8,5 +8,5 @@ services:
     volumes:
       - "./:/usr/src/app"
     ports:
-      - "4000:4000"
+      - "40000:4000"
 
