@@ -12,4 +12,4 @@ clean:
 	rm -rf _site
 	
 fmt:
-	prettier . --write
+	npx prettier . --write
