@@ -4,18 +4,15 @@ location: Banqueting Suite
 date: 24th April
 
 tickets:
-  - type: 3 Course (Member)
-    price: £35
-  - type: 3 Course (Non-Member)
-    price: £45
-  - type: 2 Course (Member)
-    price: £30
-  - type: 2 Course (Non-Member)
-    price: £40
-  - type: Non-Food (Member)
-    price: £22
-  - type: Non-Food (Non-Member)
-    price: £28
+  - type: 3 Course
+    member-price: £35
+    non-member-price: £45
+  - type: 2 Course
+    member-price: £30
+    non-member-price: £40
+  - type: Non-Food
+    member-price: £22
+    non-member-price: £28
 
 links: 
   - text: Menu
