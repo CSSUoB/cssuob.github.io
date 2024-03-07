@@ -21,6 +21,7 @@ links:
     url:  '#tickets'
   - text: FAQs
     url: '#faq'
+    
 menu-links:
   - text: Home
     url:  '/ball/2024'
@@ -28,6 +29,7 @@ menu-links:
     url:  '/ball/2024#tickets'
   - text: FAQs
     url:  '/ball/2024#faq'
+    
 menu:
   starters:
     - dish: Roasted vine tomato and basil soup served with focaccia
@@ -47,7 +49,7 @@ faq:
   - question: What is a Ball?
     answer: A ball is a solid or hollow spherical or egg-shaped object that is kicked, thrown, or hit in a game. <br><br> Ok but seriously, a Ball is an opportunity to come together and celebrate the year. Many societies hold them for their members and we're no different. Our annual Ball is the biggest night of the year so if you're not attending you're really missing out.
   - question: What will be there?
-    answer: The ball will have a 3 course meal, a bar, and a dancefloor. We will also have a top tier spotify playlist, a photobooth, and a photographer.
+    answer: The ball will have a 3 course meal, a bar, and a dancefloor. We will also have some bangin' tunes, a photobooth, and a photographer.
   - question: When can I buy tickets?
     answer: We're currently finalising plans and we'll let you know as soon as they're available! 
   - question: How much do tickets cost?
