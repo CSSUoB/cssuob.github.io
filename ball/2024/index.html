@@ -1,0 +1,121 @@
+---
+layout: page
+styles:
+  - /css/main.css
+  - /css/ball/2024/main.css
+  - "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+title: CSS Ball
+favicon: /ball/favicon.ico
+---
+
+{% assign ball = site.data.ball.2024 %}
+
+<div class="text-center-div margin-top margin-bottom section-details">
+    <h1 class="title">
+        {{ball.name}} {{ball.year}}
+    </h1>
+    <h2>
+        <span class="avoidwrap">{{ball.location}}</span> • <span class="avoidwrap">{{ball.date}}</span>
+    </h2>
+
+    <h3 id="count"><br></h3>
+
+    {% for link in ball.links %}
+        <a href='{{link.url}}' class="button {% if link.url == '' %}empty"{% else %}" href='{{link.url}}' {% endif %}>
+            {{link.text}}{% if link.url == '' %} (Coming Soon){% endif %}</a>
+    {% endfor %}
+</div>
+<hr class="bleed-bottom">
+<div class="text-center-div margin-top margin-bottom section-info" id="venue">
+    <h2 class="subtitle mobile-only">The Venue</h2>
+    <img class="image" src="/assets/images/ball-24-venue.png" alt="Image of the Banqueting Suite, where the CSS Ball is being held.">
+    <div class="description-left text-center-div">
+        <h2 class="subtitle">The Venue</h2>
+        <p class="text-block">For this year's ball we'll be at the beautiful Banqueting Suite!<br><br>
+            We'll have exclusive access to several rooms and facilities including a bar, gorgeous dining room, and of course the dancefloor!
+        </p>
+    </div>
+</div>
+<hr class="bleed-top">
+<div class="section-tickets" id="tickets">
+    <div class="icon">
+        <img class="icon" src="/assets/images/ball-ticket-icon.png"/>
+    </div>
+    <div class="text text-center-div">
+        <h2 class="subtitle">Tickets</h2>
+        <p class="text-block">We have several different ticket types, designed to give you the most options possible! <br><br> Ticket prices for members are heavily discounted so be sure to pick up a membership if you haven't already! 
+            <br>
+            <table class="ticket-table">
+                <tr>
+                    <th><p class="text-block">Ticket Type</p></th>
+                    <th><p class="text-block">Members' Price</p></th>
+                    <th><p class="text-block">Non-Members' Price</p></th>
+                </tr>
+                {% for ticket in ball.tickets %}
+                    <tr>
+                        <td><p class="text-block">{{ ticket.type }}</p></td>
+                        <td><p class="text-block"><span class="highlight">{{ ticket.member-price }}</span></p></td>
+                        <td><p class="text-block"><span class="highlight">{{ ticket.non-member-price }}</span></p></td>
+                    </tr>
+                {% endfor %}
+
+            </table>
+            <br>
+      <div class="ticket-buttons">
+        <a class="button" href="https://www.guildofstudents.com/events/6531/8760/">Buy Tickets</a>
+        <a class="button" href="https://cssbham.com/join">Buy Membership</a>
+      </div>
+      
+  <p><b class="guild-incompetence-notice">Note: Tickets are not on sale yet as we are currently waiting for the Guild to approve and set them up. We'll let you know as soon as they're available!</b></p>
+    </div>
+</div>
+<hr>
+<div class="text-center-div margin-bottom section-faq" id="faq">
+    <h2 class="subtitle">FAQs</h2>
+    {% for qanda in ball.faq %}
+        <div class="faq">
+        <h3 class="subsubtitle question">{{ qanda.question }}</h3>
+        <p class="text-block answer">{{ qanda.answer }}</p>
+        </div>
+    {% endfor %}
+</div>
+<hr>
+<div class="margin-top margin-bottom section-info">
+    <div id="map" style="width: 100%; height: 300px;"></div>
+</div>
+<hr>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+    const pos = [52.4800686, -1.9027106];
+
+    var map = L.map('map').setView(pos, 17);
+
+    L.marker(pos).addTo(map);
+    L.tooltip(pos, {content: 'Council House Banqueting Suite', permanent: true, offset: [5, 0]}).addTo(map);
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+    const countDownDate = new Date("Apr 24, 2024 19:00:00").getTime();
+
+    (function updateTimer() {
+        let now = new Date().getTime();
+        let distance = countDownDate - now;
+        let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("count").innerHTML = days + " <span>days</span> " + hours + " <span>hours</span> "
+            + minutes + " <span>minutes</span> " + seconds + " <span>seconds</span>";
+
+        if (distance < 0) {
+            document.getElementById("count").innerHTML = "<a href='https://cssbham.com/join'>cssbham.com/join</a>";
+        } else {
+            setTimeout(updateTimer, 1000)
+        }
+    })();
+</script>
