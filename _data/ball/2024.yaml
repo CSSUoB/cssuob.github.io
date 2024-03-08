@@ -1,0 +1,72 @@
+name: CSS BALL
+year: 2024
+location: Banqueting Suite
+date: 24th April
+
+tickets:
+  - type: 3 Course
+    member-price: £35
+    non-member-price: £45
+  - type: 2 Course
+    member-price: £30
+    non-member-price: £40
+  - type: Non-Food
+    member-price: £22
+    non-member-price: £28
+
+links: 
+  - text: Menu
+    url:  '/ball/2024/menu'
+  - text: Tickets
+    url:  '#tickets'
+  - text: FAQs
+    url: '#faq'
+    
+menu-links:
+  - text: Home
+    url:  '/ball/2024'
+  - text: Tickets
+    url:  '/ball/2024#tickets'
+  - text: FAQs
+    url:  '/ball/2024#faq'
+    
+menu:
+  starters:
+    - dish: Roasted vine tomato and basil soup served with focaccia
+      type: vegetarian, vegan, gluten free & lactose free
+    - dish: Samosa chatt served with spiced chickpeas, onion salad and a warm yoghurt dressing
+      type: vegetarian, vegan & lactose free
+  mains:
+    - dish: Roasted pork belly served with spring greens, braised carrots, lentils with a Provencale sauce
+      type: gluten free & lactose free
+    - dish: Aubergine butter katsu, served with cumin and green pea rice and Bengali carrot salad
+      type: vegetarian & vegan
+  dessert:
+    - dish: Chocolate torte and berries served with lotus powder and cinder toffee
+      type: vegetarian & vegan
+  
+faq:
+  - question: What is a Ball?
+    answer: A ball is a solid or hollow spherical or egg-shaped object that is kicked, thrown, or hit in a game. <br><br> Ok but seriously, a Ball is an opportunity to come together and celebrate the year. Many societies hold them for their members and we're no different. Our annual Ball is the biggest night of the year so if you're not attending you're really missing out.
+  - question: What will be there?
+    answer: The ball will have a 3 course meal, a bar, and a dancefloor. We will also have some bangin' tunes, a photobooth, and a photographer.
+  - question: When can I buy tickets?
+    answer: We're currently finalising plans and we'll let you know as soon as they're available! 
+  - question: How much do tickets cost?
+    answer: We have a number of different ticket options available and all of our member tickets are cheaper than the last 2 years! The Guild will also add on a booking fee of £2.50 - There's nothing we can do about that sadly. Take a look at the <a href=/ball/2024/#tickets> tickets page </a> for more details. 
+  - question: Can I bring a guest?
+    answer: Absolutely! Non-Member tickets will be available alongside member tickets. If your guest is not a student they will need to create a guest account on the Guild website. 
+  - question: Will I need to show my ticket when I arrive?
+    answer: No, we'll have a list of everyone who has bought a ticket. Just give your name on the door and you'll be issued a wristband.
+  - question: Who will I sit next to for dinner?
+    answer: We'll ask you for the names of up to 2 people who you would like to sit near. We'll try our best to sit people near their friends, but we can't make promises you'll be next to both.<br><br> If you bring a guest we will make sure you're sat with them, but please be sure to put them in as your seating preference.
+  - question: What about my dietary requirements?
+    answer: The venue can handle catering for most dietary requirements, and there are vegan and gluten free options. Make sure to let us know any dietary requirements when you purchase your ticket. For more info on the menu please check the menu page <a href=/ball/2024/menu> here </a>.
+  - question: What should I wear?
+    answer: Dress to impress! <br>Don your fanciest frocks, smartest suits or whatever you feel fabulous in. It's going to be the big night of the year so feel free to go all out!
+  - question: When do I need to get there?
+    answer: We're still finalising details but we'll let you know as soon as we can!
+  - question: Will I be photographed?
+    answer: Yes. We'll have a photographer taking photos all night so we can share them all with you afterwards. If you don't want to be in photos, please speak to our lovely photographer on the night.
+  - question: I bought a ticket but can't attend anymore.
+    answer: Oh no! That's okay though. You're welcome to sell your ticket to someone else. All that we ask is that you sell them at a reasonable price, and you let a committee member know. It may not be possible to accommodate dietary requirements for tickets you buy too close to the Ball.
