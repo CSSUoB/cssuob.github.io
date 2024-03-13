@@ -1,5 +1,4 @@
-academic_year: 2023/2024 
-#postfix: Elect
+academic_year: 2023/2024 #postfix: Elect
 current: true
 people:
   - name: Matthew Hammond
@@ -216,7 +215,7 @@ people:
     pronouns: He/Him
     role: Post-Graduate (Taught) Rep
     discordtag: palee.
-    picture: /assets/committee/2023-24/mini/lee.png
+    picture: /assets/committee/2023-24/mini/lee.jpg
     start-date: 31/01/2024
     bio: >
       Hiya! I'm Lee, your PGT Rep. My role within the committee is to
