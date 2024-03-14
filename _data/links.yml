@@ -1,3 +1,17 @@
+- type: divider
+  text: "CSS Ball 24/04/2024"
+
+- text: "Find out more!"
+  url: /ball
+  image: /assets/tex/raster/tex_ball.png
+
+- text: "Grab your ticket!"
+  url: /ball/2024/tickets
+  image: /assets/tex/raster/tex_ball.png
+
+- type: divider
+  text: "General"
+
 - text: Get membership!
   url: /join
   image: /assets/images/guild-colour-logo.png
@@ -29,11 +43,4 @@
 - text: Check us out on Facebook
   url: /facebook
   image: /assets/images/facebook-logo.png
-
-- type: divider
-  text: "Bletchley Park 17/01/2024"
-
-- text: "Buy tickets!"
-  url: "/bletchley"
-  image: "/assets/images/bletchley.jpg"
 
