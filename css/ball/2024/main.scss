@@ -173,10 +173,6 @@ body {
     align-items: center;
     gap: 25px;
 
-    .guild-incompetence-notice {
-      color: #ff5733;
-    }
-
     .icon {
       min-height: 120px;
     }
@@ -243,4 +239,8 @@ body {
     background-color: #00000044;
     padding: 1em;
   }
+}
+
+.guild-incompetence-notice {
+  color: #ff5733;
 }
