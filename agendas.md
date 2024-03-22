@@ -9,12 +9,12 @@ title: Agendas
 
 ## 2024
 
-## March
+### March
 - [Committee Meeting - Monday 18th March](/assets/agendas/2024/03/18.pdf)
 - [Committee Meeting - Monday 11th March](/assets/agendas/2024/03/11.pdf)
 - [Committee Meeting - Monday 4th March](/assets/agendas/2024/03/04.pdf)
 
-## February
+### February
 - [Committee Meeting - Monday 26th February](/assets/agendas/2024/02/26.pdf)
 - [Committee Meeting - Monday 19th February](/assets/agendas/2024/02/19.pdf)
 - [Committee Meeting - Monday 12th February](/assets/agendas/2024/02/12.pdf)
@@ -22,6 +22,7 @@ title: Agendas
 
 ### January
 - [Committee Meeting - Wednesday 31st January](/assets/agendas/2024/01/31.pdf)
+- [EGM - Wednesday 31th January](/assets/agendas/2024/01/31_egm.pdf)
 - [Committee Meeting - Wednesday 24th January](/assets/agendas/2024/01/24.pdf)
 - [Committee Meeting - Wednesday 17th January](/assets/agendas/2024/01/17.pdf)
 - [Committee Meeting - Friday 12th January](/assets/agendas/2024/01/12.pdf)
