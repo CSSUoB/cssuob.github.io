@@ -81,10 +81,18 @@ title: Agendas
 ## 2022
 
 ### December
-- [EGM - Wednesday 7th December](/assets/agendas/2022/12/07.pdf)
+- [Committee Meeting - Thursday 15th December](/assets/agendas/2022/12/15.pdf)
+- [Committee Meeting - Wednesday 7st December](/assets/agendas/2022/12/01.pdf)
+- [EGM - Wednesday 7th December](/assets/agendas/2022/12/07_EGM.pdf)
+- [Committee Meeting - Thursday 1st December](/assets/agendas/2022/12/01.pdf)
+
+### November
+- [Committee Meeting - Thursday 24th November](/assets/agendas/2022/11/24.pdf)
 
 ### October
-- [EGM - Saturday 22nd October](/assets/agendas/2022/agenda_22_10_27.pdf)
+- [EGM - Saturday 27th October](/assets/agendas/2022/10/27.pdf)
+- [Committee Meeting - Thursday 13th October](/assets/agendas/2022/10/13.pdf)
+- [Committee Meeting - Thursday 6th October](/assets/agendas/2022/10/06.pdf)
 
 ### September
 - [Committee Meeting - Thursday 29th September](/assets/agendas/2022/agenda_22_09_29.pdf)
