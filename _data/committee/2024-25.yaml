@@ -1,0 +1,45 @@
+academic_year: 2024/2025
+current: true
+people: 
+  - name: Name
+    discordtag: username
+    pronouns: Pro/Nouns
+    role: Role
+    picture: /assets/committee/2024-25/mini/placeholder.jpg
+    start-date: 1/7/2024
+    bio: >
+      I don't know what I'm doing ever. Help!
+
+  - name: Holly P.
+    discordtag: errortm99
+    pronouns: She/Her
+    role: President
+    picture: /assets/committee/2024-25/mini/holly.jpg
+    start-date: 1/7/2024
+    bio: >
+      All aboard! My name is Holly, and I am your CSS President, conducting our wonderful committee and the society as a 
+      whole this year. Whilst I am in charge of ensuring events and tasks run smoothly, I am also the face and voice for 
+      the society, so please let me know if you have any concerns or questions. Outside of my presidential duties, I 
+      enjoy story writing, coding mods for Minecraft, and drawing. Feel free to say hi if you see me on campus, and if 
+      you have a cat, DM it to me on Discord. :)
+
+  - name: Matty Widdop
+    discordtag: MattyTheHacker
+    pronouns: He/Him
+    role: Treasurer
+    picture: /assets/committee/2024-25/mini/matty.jpg
+    start-date: 1/7/2024
+    bio: >
+      Hello! I'm Matty, your treasurer, so I'll be handling the society finances and financial paperwork required to make sure the society can continue running amazing events for everyone! I'm going into my 5th year at UoB, 4th year in CS and a student rep so please do reach out if you have any concerns, general feedback or just fancy venting about something.
+
+  - name: Shay Patel
+    discordtag: sg.24
+    pronouns: He/Him
+    role: First Year Rep
+    flags: ["interim"]
+    picture: /assets/committee/2024-25/mini/shay.jpg
+    start-date: 1/7/2024
+    bio: >
+      Hey everyone - Shay here! I'm your elected First Year Rep - this means I'm here to represent the often unheard voice of first years within the CSS Committee,
+      making sure that as a first year, you feel welcomed into the society and have fun participating in events alongside us!
+      If you have any questions or suggestions, feel free to DM me over on Discord!
