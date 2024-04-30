@@ -9,6 +9,9 @@ title: Agendas
 
 ## 2024
 
+### May
+- [Committee Meeting - Wednesday 1st May](/assets/agendas/2024/05/01.pdf)
+
 ### April
 - [Committee Meeting - Monday 22nd April](/assets/agendas/2024/04/22.pdf)
 - [Committee Meeting - Monday 15th April](/assets/agendas/2024/04/15.pdf)
