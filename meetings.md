@@ -24,7 +24,7 @@ title: Meetings
         {% for file in files reversed%}
             {% assign file_path = base_path | append: '/' | append: year | append: '/' | append: month | append: '/' %}
             {% if file.path contains {{file_path}} %}
-                    <a href='{{file_path | append: file.name}}'>{{file.name}}</a><br>
+                    <a href='{{file.path}}'>{{file.name}}</a><br>
             {% endif %}
         {% endfor %}
     {% endfor %}
