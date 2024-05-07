@@ -14,8 +14,6 @@ title: Meetings
 {% assign years = "2022,2023" | split: ',' %}
 {% assign months = "01,02,03,04,05,06,07,08,09,10,11,12" | split: ',' %}
 
-{% assign base_path = "assets/meetings" %}
-
 <h2>Paths</h2>
 
 {% for path in paths %}
@@ -33,7 +31,7 @@ title: Meetings
 
         <h3>{{month}}</h3>
         {% for file in files reversed %}
-            {% assign file_path = base_path | append: '/' | append: year | append: '/' | append: month | append: '/' %}
+            {% assign file_path = 'assets/meetings' | append: '/' | append: year | append: '/' | append: month | append: '/' %}
             {% if file.path contains {{file_path}} %}
                     <a href='{{file.path}}'>{{file.name}}</a><br>
             {% endif %}
