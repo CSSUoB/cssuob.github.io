@@ -19,7 +19,7 @@ title: Meetings
 {% assign base_path = "assets/meetings" %}
 
 {% for path in paths %}
-    <p>{{path}}</p>
+    <!-- Operations here to manipulate the paths -->
 {% endfor %}
 
 <h2>CSS Committee Meetings</h2>
