@@ -7,8 +7,10 @@ title: Meetings
 
 {% assign files = site.static_files | where_exp: "item", "item.path contains 'assets/meetings'" %}
 
-{% for a in files %}
-    {% assign paths = paths | push: a.path %}
+{% assign paths = "" | split: ',' %}
+
+{% for file in files %}
+    {% assign paths = paths | push: file.path %}
 {% endfor %}
 
 {% assign years = "2022,2023" | split: ',' %}
@@ -16,12 +18,9 @@ title: Meetings
 
 {% assign base_path = "assets/meetings" %}
 
-<h2>Paths</h2>
-
 {% for path in paths %}
     <p>{{path}}</p>
 {% endfor %}
-
 
 <h2>CSS Committee Meetings</h2>
 
