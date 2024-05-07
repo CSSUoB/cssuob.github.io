@@ -95,28 +95,28 @@ title: Agendas
 - [EGM - Wednesday 7th December](/assets/agendas/2022/12/07.pdf)
 
 ### October
-- [EGM - Saturday 22nd October](/assets/agendas/2022/agenda_22_10_27.pdf)
+- [EGM - Saturday 22nd October](/assets/agendas/2022/10/27.pdf)
 
 ### September
-- [Committee Meeting - Thursday 29th September](/assets/agendas/2022/agenda_22_09_29.pdf)
-- [Committee Meeting - Sunday 25th September](/assets/agendas/2022/agenda_22_09_25.pdf)
-- [Committee Meeting - Sunday 18th September](/assets/agendas/2022/agenda_22_09_18.pdf)
-- [Committee Meeting - Tuesday 13th September](/assets/agendas/2022/agenda_22_09_13.pdf)
-- [Committee Meeting - Thursday 8th September](/assets/agendas/2022/agenda_22_09_08.pdf)
-- [Committee Meeting - Thursday 1st September](/assets/agendas/2022/agenda_22_09_01.pdf)
+- [Committee Meeting - Thursday 29th September](/assets/agendas/2022/09/29.pdf)
+- [Committee Meeting - Sunday 25th September](/assets/agendas/2022/09/25.pdf)
+- [Committee Meeting - Sunday 18th September](/assets/agendas/2022/09/18.pdf)
+- [Committee Meeting - Tuesday 13th September](/assets/agendas/2022/09/13.pdf)
+- [Committee Meeting - Thursday 8th September](/assets/agendas/2022/09/08.pdf)
+- [Committee Meeting - Thursday 1st September](/assets/agendas/2022/09/01.pdf)
 
 ### August
-- [Committee Meeting - Wednesday 24th August](/assets/agendas/2022/agenda_22_08_24.pdf)
-- [Committee Meeting - Friday 19th August](/assets/agendas/2022/agenda_22_08_19.pdf)
-- [Committee Meeting - Sunday 14th August](/assets/agendas/2022/agenda_22_08_14.pdf)
-- [Committee Meeting - Saturday 6th August](/assets/agendas/2022/agenda_22_08_06.pdf)
+- [Committee Meeting - Wednesday 24th August](/assets/agendas/2022/08/24.pdf)
+- [Committee Meeting - Friday 19th August](/assets/agendas/2022/08/19.pdf)
+- [Committee Meeting - Sunday 14th August](/assets/agendas/2022/08/14.pdf)
+- [Committee Meeting - Saturday 6th August](/assets/agendas/2022/08/06.pdf)
 
 ### July
-- [Committee Meeting - Sunday 24th July](/assets/agendas/2022/agenda_22_07_24.pdf)
-- [Committee Meeting - Sunday 10th July](/assets/agendas/2022/agenda_22_07_10.pdf)
+- [Committee Meeting - Sunday 24th July](/assets/agendas/2022/07/24.pdf)
+- [Committee Meeting - Sunday 10th July](/assets/agendas/2022/07/10.pdf)
 
 ### June
-- [Committee Meeting - Thursday 9th June](/assets/agendas/2022/agenda_22_06_09.pdf)
+- [Committee Meeting - Thursday 9th June](/assets/agendas/2022/06/09.pdf)
 
 ### May
 - [Committee Meeting - Monday 23rd May](/assets/agendas/2022/agenda_22_05_23.pdf)
