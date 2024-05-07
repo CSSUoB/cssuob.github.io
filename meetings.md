@@ -18,7 +18,7 @@ title: Meetings
     <h3>{{year}}</h3>
     {% for month in months reversed %}
         <h3>{{month}}</h3>
-        {% assign slug = '{{year}}/{{month}}' %}
+        {% assign slug = "{{year}}/{{month}}" %}
         {% for file in files reversed %}
             {% if file.path contains {{slug}} %}
                 <a href='{{file.path}}'>{{file.name}}</a><br>
