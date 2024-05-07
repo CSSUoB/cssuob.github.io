@@ -146,8 +146,8 @@ Below are links to both our current Constitution and all previous agendas:
     <a href="/constitution" class="constitution-link constitution">
         <h4>Constitution</h4>
     </a>
-    <a href="/agendas" class="constitution-link agendas">
-        <h4>Agendas</h4>
+    <a href="/meetings" class="constitution-link agendas">
+        <h4>Meetings</h4>
     </a>
 </div>
 
