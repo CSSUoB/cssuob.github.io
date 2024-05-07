@@ -7,8 +7,8 @@ title: Meetings
 
 {% assign files = site.static_files | where_exp: "item", "item.path contains 'assets/meetings'" %}
 
-{% for file in files %}
-    {% assign paths = paths | push: file.path %}
+{% for a in files %}
+    {% assign paths = paths | push: a.path %}
 {% endfor %}
 
 {% assign years = "2022,2023" | split: ',' %}
