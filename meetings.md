@@ -16,12 +16,6 @@ title: Meetings
 {% assign years = "2022,2023" | split: ',' %}
 {% assign months = "01,02,03,04,05,06,07,08,09,10,11,12" | split: ',' %}
 
-<<<<<<< HEAD
-<h2>Paths</h2>
-=======
-{% assign base_path = "assets/meetings" %}
->>>>>>> 6920d2964f871664b2714ffe7741b8b18c2a896b
-
 {% for path in paths %}
     <!-- Operations here to manipulate the paths -->
 {% endfor %}
