@@ -19,6 +19,7 @@ title: Meetings
     {% for month in months reversed %}
         <h3>{{month}}</h3>
         {% for file in meetings reversed %}
+            <p>Checking file: {{file.path}}</p><br>
             {% if file.path contains 'assets/meetings/{{year}}/{{month}}/' %}
                 <a href='{{file.path}}'>{{file.name}}</a><br>
             {% endif %}
