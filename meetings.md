@@ -17,7 +17,7 @@ title: Meetings
 
 <!-- {% assign ps = "" | split: ',' %} -->
 
-{% assign ps = "" | split: ',' %}
+{% assign ps = [] %}
 
 {% for path in paths %}
     {% capture ps %}
