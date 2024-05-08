@@ -30,7 +30,20 @@ title: Meetings
     <h3>{{y | slice: 0, 4}}</h3>
     {% for p in ps reversed %}
         {% if p contains {{y}} %}
-            <h4>{{p | slice: 5, 7}}</h4>
+            {% assign m = p | slice: 5, 7 %}
+            {% if {{m}} == '01' %}<h4>January</h4>
+            {% elsif {{m}} == '02' %}<h4>February</h4>
+            {% elsif {{m}} == '03' %}<h4>March</h4>
+            {% elsif {{m}} == '04' %}<h4>April</h4>
+            {% elsif {{m}} == '05' %}<h4>May</h4>
+            {% elsif {{m}} == '06' %}<h4>June</h4>
+            {% elsif {{m}} == '07' %}<h4>July</h4>
+            {% elsif {{m}} == '08' %}<h4>August</h4>
+            {% elsif {{m}} == '09' %}<h4>September</h4>
+            {% elsif {{m}} == '10' %}<h4>October</h4>
+            {% elsif {{m}} == '11' %}<h4>November</h4>
+            {% elsif {{m}} == '12' %}<h4>December</h4>
+            {% endif %}
             {% for file in files reversed %}
                 {% assign fp = 'assets/meetings' | append: '/' | append: p | append: '/' %}
                 {% if file.path contains fp %}
