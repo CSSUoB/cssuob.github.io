@@ -17,6 +17,8 @@ title: Meetings
 
 <!-- {% assign ps = "" | split: ',' %} -->
 
+{% assign ps = "" | split: ',' %}
+
 {% for path in paths %}
     {% capture ps %}
         {{ path | remove: "/assets/meetings/" | remove: ".pdf" | slice: 0, 4 }}<br>
