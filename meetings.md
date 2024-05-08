@@ -15,16 +15,22 @@ title: Meetings
 {% endfor %}
 
 {% assign ps = "" | split: ',' %}
-{% assign ys = "" | split: ',' %}
 
 {% for path in paths %}
     {% capture p %}{{ path | remove: "/assets/meetings/" | slice: 0, 7 }}{% endcapture %} 
     {% assign ps = ps | push: p | uniq %}
-    {% assign ys = ys | push: p | slice: 0, 4 | uniq %}
+{% endfor %}
+
+{{ ps | inspect }}
+
+{% assign ys = "" | split: ',' %}
+
+{% for p in ps %}
+    {% assign ys = ys | push p | slice: 0, 4 | uniq %}
 {% endfor %}
 
 {{ ys | inspect }}
-{{ ps | inspect }}
+
 
 {% assign years = "2022,2023" | split: ',' %}
 {% assign months = "01,02,03,04,05,06,07,08,09,10,11,12" | split: ',' %}
