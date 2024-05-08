@@ -21,7 +21,7 @@ title: Meetings
         {{ path | remove: "/assets/meetings/" | slice: 0, 4 }}<br>
     {% endcapture %}
     {{ p | inspect }}
-    {% assign ps = ps | push: p %}
+    {% assign ps = ps | push: 'p' %}
 {% endfor %}
 
 
