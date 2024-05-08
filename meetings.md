@@ -24,8 +24,14 @@ title: Meetings
     {% assign ys = ys | push: y | uniq %}
 {% endfor %}
 
-{{ ps | inspect }}
 
+{% for p in ps %}
+    {% if forloop.first %}
+        {{p | slice: 0, 4}}
+    {% else %}
+        {{p | slice: 5, 7}}
+    {% endif %}
+{% endfor %}
 
 {% assign years = "2022,2023" | split: ',' %}
 {% assign months = "01,02,03,04,05,06,07,08,09,10,11,12" | split: ',' %}
