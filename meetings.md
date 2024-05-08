@@ -14,7 +14,7 @@ title: Meetings
     {% assign paths = paths | push: file.path %}
 {% endfor %}
 
-{% assign ps = [] %}
+{% assign ps = "" | split: ',' %}
 
 {% for path in paths %}
     {% capture p %}{{ path | remove: "/assets/meetings/" | slice: 0, 4 }}{% endcapture %}
