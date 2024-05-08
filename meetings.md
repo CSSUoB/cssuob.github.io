@@ -24,11 +24,13 @@ title: Meetings
     {% assign ys = ys | push: y | uniq %}
 {% endfor %}
 
+<p>
+<h2>CSS Committee Meetings</h2>
 {% for y in ys reversed %}
-    {{y | slice: 0, 4}}
+    <h3>{{y | slice: 0, 4}}</h3>
     {% for p in ps reversed %}
         {% if p contains {{y}} %}
-            {{p | slice: 5, 7}}
+            <h4>{{p | slice: 5, 7}}</h4>
             {% for file in files reversed %}
                 {% assign fp = 'assets/meetings' | append: '/' | append: p | append: '/' %}
                 {% if file.path contains fp %}
@@ -38,27 +40,4 @@ title: Meetings
         {% endif %}
     {% endfor %}
 {% endfor %}
-
-
-{% assign years = "2022,2023" | split: ',' %}
-{% assign months = "01,02,03,04,05,06,07,08,09,10,11,12" | split: ',' %}
-
-<h2>CSS Committee Meetings</h2>
-
-<p>
-
-{% for year in years reversed %}
-    <h3>{{year}}</h3>
-    {% for month in months reversed %}
-
-        <h3>{{month}}</h3>
-        {% for file in files reversed %}
-            {% assign file_path = 'assets/meetings' | append: '/' | append: year | append: '/' | append: month | append: '/' %}
-            {% if file.path contains {{file_path}} %}
-                    <a href='{{file.path}}'>{{file.name}}</a><br>
-            {% endif %}
-        {% endfor %}
-    {% endfor %}
-{% endfor %}
-
 </p>
