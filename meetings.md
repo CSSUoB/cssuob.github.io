@@ -44,16 +44,20 @@ title: Meetings
             {% elsif {{m}} == '11' %}<h4>November</h4>
             {% elsif {{m}} == '12' %}<h4>December</h4>
             {% endif %}
+            <ul>
             {% for file in files reversed %}
                 {% assign fp = 'assets/meetings' | append: '/' | append: p | append: '/' %}
                 {% if file.path contains fp %}
+                    <li>
                     {% if file.name contains 'minutes' %}
                         <a href='{{file.path}}'>Minutes - {{file.name}}</a><br>
                     {% else %}
                         <a href='{{file.path}}'>Agenda - {{file.name}}</a><br>
                     {% endif %}
+                    </li>
                 {% endif %}
             {% endfor %}
+            </ul>
         {% endif %}
     {% endfor %}
 {% endfor %}
