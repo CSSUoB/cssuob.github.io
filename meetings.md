@@ -47,7 +47,11 @@ title: Meetings
             {% for file in files reversed %}
                 {% assign fp = 'assets/meetings' | append: '/' | append: p | append: '/' %}
                 {% if file.path contains fp %}
-                    <a href='{{file.path}}'>{{file.name}}</a><br>
+                    {% if file.name contains 'minutes' %}
+                        <a href='{{file.path}}'>Minutes - {{file.name}}</a><br>
+                    {% else %}
+                        <a href='{{file.path}}'>Agenda - {{file.name}}</a><br>
+                    {% endif %}
                 {% endif %}
             {% endfor %}
         {% endif %}
