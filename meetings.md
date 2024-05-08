@@ -24,14 +24,21 @@ title: Meetings
     {% assign ys = ys | push: y | uniq %}
 {% endfor %}
 
-
-{% for p in ps %}
-    {% if forloop.first %}
-        {{p | slice: 0, 4}}
-    {% else %}
-        {{p | slice: 5, 7}}
-    {% endif %}
+{% for y in ys reversed %}
+    {{y | slice: 0, 4}}
+    {% for p in ps reversed %}
+        {% if p contains {{y}} %}
+            {{p | slice: 5, 7}}
+            {% for file in files reversed %}
+                {% assign fp = 'assets/meetings' | append: '/' | append: p | append: '/' %}
+                {% if file.path contains fp %}
+                    <a href='{{file.path}}'>{{file.name}}</a><br>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
 {% endfor %}
+
 
 {% assign years = "2022,2023" | split: ',' %}
 {% assign months = "01,02,03,04,05,06,07,08,09,10,11,12" | split: ',' %}
