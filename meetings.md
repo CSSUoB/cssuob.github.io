@@ -24,18 +24,6 @@ title: Meetings
 {{ ps | inspect }}
 
 
-{% for file in files %}
-    {% assign file.year = '2024' %}
-    {{file | inspect}}
-{% endfor %}
-
-
-
-
-
-
-
-
 
 
 {% assign years = "2022,2023" | split: ',' %}
