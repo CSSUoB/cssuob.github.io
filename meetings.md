@@ -14,16 +14,17 @@ title: Meetings
     {% assign paths = paths | push: file.path %}
 {% endfor %}
 
-
-<!-- {% assign ps = "" | split: ',' %} -->
-
 {% assign ps = [] %}
 
 {% for path in paths %}
     {% capture ps %}
-        {{ path | remove: "/assets/meetings/" | remove: ".pdf" | slice: 0, 4 }}<br>
+        {{ path | remove: "/assets/meetings/" | slice: 0, 4 }}<br>
     {% endcapture %}
 {% endfor %}
+
+
+
+
 
 {{ ps | inspect }}
 
