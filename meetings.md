@@ -15,10 +15,13 @@ title: Meetings
 {% endfor %}
 
 {% assign ps = "" | split: ',' %}
+{% assign ys = "" | split: ',' %}
 
 {% for path in paths %}
-    {% capture p %}{{ path | remove: "/assets/meetings/" | slice: 0, 7 }}{% endcapture %} 
+    {% capture p %}{{ path | remove: "/assets/meetings/" | slice: 0, 7 }}{% endcapture %}
+    {% capture y %}{{ path | remove: "/assets/meetings/" | slice: 0, 4 }}{% endcapture %}
     {% assign ps = ps | push: p | uniq %}
+    {% assign ys = ys | push: y | uniq %}
 {% endfor %}
 
 {{ ps | inspect }}
