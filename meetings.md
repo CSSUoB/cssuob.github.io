@@ -17,7 +17,7 @@ title: Meetings
 
 {% assign ps = "" | split: ',' %}
 
-{% for path in paths %}{{ path | remove: "/assets/meetings/" | remove: ".pdf" }}{% endfor %}
+{% for path in paths %}{{ path | remove: "/assets/meetings/" | remove: ".pdf" | slice: 0, 3 }}{% endfor %}
 
 
 {% assign years = "2022,2023" | split: ',' %}
