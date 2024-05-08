@@ -17,7 +17,10 @@ title: Meetings
 {% assign ps = [] %}
 
 {% for path in paths %}
-    {{ path | remove: "/assets/meetings/" | slice: 0, 4 }}<br>
+    {% capture p %}
+        {{ path | remove: "/assets/meetings/" | slice: 0, 4 }}<br>
+    {% endcapture %}
+    {% assign ps = ps | push: p %}
 {% endfor %}
 
 
