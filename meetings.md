@@ -23,14 +23,6 @@ title: Meetings
 
 {{ ps | inspect }}
 
-{% assign ys = "" | split: ',' %}
-
-{% for i in ps %}
-    {% assign ys = ys | push i | uniq %}
-{% endfor %}
-
-{{ ys | inspect }}
-
 
 {% assign years = "2022,2023" | split: ',' %}
 {% assign months = "01,02,03,04,05,06,07,08,09,10,11,12" | split: ',' %}
