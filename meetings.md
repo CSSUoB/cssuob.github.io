@@ -21,11 +21,22 @@ title: Meetings
     {% assign ps = ps | push: p | uniq %}
 {% endfor %}
 
-
-
-
-
 {{ ps | inspect }}
+
+
+{% for file in files %}
+    {% assign file.year = '2024' %}
+    {{file | inspect}}
+{% endfor %}
+
+
+
+
+
+
+
+
+
 
 {% assign years = "2022,2023" | split: ',' %}
 {% assign months = "01,02,03,04,05,06,07,08,09,10,11,12" | split: ',' %}
