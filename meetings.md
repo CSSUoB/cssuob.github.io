@@ -26,7 +26,7 @@ title: Meetings
 {% assign ys = "" | split: ',' %}
 
 {% for p in ps %}
-    {% assign ys = ys | push p | slice: 0, 4 | uniq %}
+    {% assign ys = ys | push p | uniq %}
 {% endfor %}
 
 {{ ys | inspect }}
