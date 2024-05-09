@@ -140,7 +140,7 @@ If you or your company is interested in sponsoring CSS, please take a look at ou
 CSS is part of the [Guild of Students](/guild). This means we have a
 Constitution which we recommend all members read at least once.
 
-Below are links to both our current Constitution and all previous agendas:
+Below are links to both our current Constitution and all previous meeting agendas and minutes:
 
 <div class="constitution-buttons">
     <a href="/constitution" class="constitution-link constitution">
