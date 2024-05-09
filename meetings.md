@@ -7,6 +7,7 @@ title: Meetings
 
 {% assign files = site.static_files | where_exp: "item", "item.path contains 'assets/meetings'" %}
 
+
 {% assign months = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
 
 {% assign paths = "" | split: ',' %}
