@@ -7,8 +7,8 @@ title: Meetings
 
 {% assign files = site.static_files | where_exp: "item", "item.path contains 'assets/meetings'" %}
 
-{% assign months = "January,February,March,April,May,June,July,August,September,October,November, December" | split: "," %}
 
+{% assign months = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
 
 {% assign paths = "" | split: ',' %}
 
@@ -32,8 +32,9 @@ title: Meetings
     <h3>{{y | slice: 0, 4}}</h3>
     {% for p in ps reversed %}
         {% if p contains y %}
-            {% assign m = p | slice: 5, 7 | remove_first: '0' | plus: -1%}            
-            <h4>{{ months[m] }}</h4>
+            {% assign m = p | slice: 5, 7 %}            
+            {% assign n = m | plus: -1 %}
+            <h4>{{ months[n] }}</h4>
             <ul>
             {% for file in files reversed %}
                 {% assign fp = 'assets/meetings' | append: '/' | append: p | append: '/' %}
