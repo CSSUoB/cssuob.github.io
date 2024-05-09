@@ -49,10 +49,24 @@ title: Meetings
                 {% assign fp = 'assets/meetings' | append: '/' | append: p | append: '/' %}
                 {% if file.path contains fp %}
                     <li>
-                    {% if file.name contains 'minutes' %}
-                        <a href='{{file.path}}'>Minutes - {{file.name}}</a><br>
+                    {% if file.name contains 'agm' %}
+                        {% if file.name contains 'minutes' %}
+                            <a href='{{file.path}}'>AGM Minutes - {{file.name}}</a><br>
+                        {% else %}
+                            <a href='{{file.path}}'>AGM Agenda - {{file.name | truncate: 2, ""}}/{{m}}/{{y}}</a><br>
+                        {% endif %}
+                    {% elsif file.name contains 'egm' %}
+                        {% if file.name contains 'minutes' %}
+                            <a href='{{file.path}}'>EGM Minutes - {{file.name}}</a><br>
+                        {% else %}
+                            <a href='{{file.path}}'>EGM Agenda - {{file.name | truncate: 2, ""}}/{{m}}/{{y}}</a><br>
+                        {% endif %} 
                     {% else %}
-                        <a href='{{file.path}}'>Agenda - {{file.name}}</a><br>
+                        {% if file.name contains 'minutes' %}
+                            <a href='{{file.path}}'>Committee Meeting Minutes - {{file.name}}</a><br>
+                        {% else %}
+                            <a href='{{file.path}}'>Committee Meeting Agenda - {{file.name | truncate: 2, ""}}/{{m}}/{{y}}</a><br>
+                        {% endif %}
                     {% endif %}
                     </li>
                 {% endif %}
