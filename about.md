@@ -121,8 +121,10 @@ Our society has won many achievements and awards, including:
 This year, we are proudly sponsored by:
 
 <div class="sponsors-images">
-    <img src="assets/sponsorship/bny-mellon-logo.png" alt="BNY Mellon" />
-    <img src="assets/sponsorship/bofa-logo.png" alt="Bank of America" />
+    <img src="assets/sponsorship/the-Trade-Desk_brand_image.png" alt="the Trade Desk" />
+    <img src="assets/sponsorship/BNY-Mellon_brand_image.png" alt="BNY Mellon" />
+    <img src="assets/sponsorship/bank-of-america_brand_image.png" alt="Bank of America" />
+    <img src="assets/sponsorship/kainos_brand_image.png" alt="Kainos" />
 </div>
 
 If you or your company is interested in sponsoring CSS, please take a look at our Sponsorship Proposal:
@@ -138,14 +140,14 @@ If you or your company is interested in sponsoring CSS, please take a look at ou
 CSS is part of the [Guild of Students](/guild). This means we have a
 Constitution which we recommend all members read at least once.
 
-Below are links to both our current Constitution and all previous agendas:
+Below are links to both our current Constitution and all previous meeting agendas and minutes:
 
 <div class="constitution-buttons">
     <a href="/constitution" class="constitution-link constitution">
         <h4>Constitution</h4>
     </a>
-    <a href="/agendas" class="constitution-link agendas">
-        <h4>Agendas</h4>
+    <a href="/meetings" class="constitution-link agendas">
+        <h4>Meetings</h4>
     </a>
 </div>
 
