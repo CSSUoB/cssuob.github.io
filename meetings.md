@@ -35,32 +35,18 @@ title: Meetings
             {% assign m = p | slice: 5, 7 %}            
             {% assign n = m | plus: -1 %}
             <h4>{{ months[n] }}</h4>
+            {% assign revFiles = files | reverse %}
             <ul>
-            {% for file in files reversed %}
+            {% for file in revFiles %}
                 {% assign fp = 'assets/meetings' | append: '/' | append: p | append: '/' %}
-                {% if file.path contains fp %}
+                {% assign monthFiles = revFiles | where_exp:"file", "file.path contains fp" %}
+                {% assign fileLength = monthFiles | size %}
+                
+                {% for file in monthFiles %}
                     <li>
-                    {% if file.name contains 'agm' %}
-                        {% if file.name contains 'minutes' %}
-                            <a href='{{file.path}}'>AGM Minutes - {{file.name}}</a><br>
-                        {% else %}
-                            <a href='{{file.path}}'>AGM Agenda - {{file.name | truncate: 2, ""}}/{{m}}/{{y}}</a><br>
-                        {% endif %}
-                    {% elsif file.name contains 'egm' %}
-                        {% if file.name contains 'minutes' %}
-                            <a href='{{file.path}}'>EGM Minutes - {{file.name}}</a><br>
-                        {% else %}
-                            <a href='{{file.path}}'>EGM Agenda - {{file.name | truncate: 2, ""}}/{{m}}/{{y}}</a><br>
-                        {% endif %} 
-                    {% else %}
-                        {% if file.name contains 'minutes' %}
-                            <a href='{{file.path}}'>Committee Meeting Minutes - {{file.name}}</a><br>
-                        {% else %}
-                            <a href='{{file.path}}'>Committee Meeting Agenda - {{file.name | truncate: 2, ""}}/{{m}}/{{y}}</a><br>
-                        {% endif %}
-                    {% endif %}
+                        {{ file.path }}
                     </li>
-                {% endif %}
+                {% endfor %}
             {% endfor %}
             </ul>
         {% endif %}
