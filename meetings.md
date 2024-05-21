@@ -20,7 +20,6 @@ title: Meetings
 {% assign ys = "" | split: ',' %}
 
 {% for path in paths %}
-    {% capture mon %}{{ path | remove: "/assets/meetings/" | slice: 0, 7 }}{% endcapture %}
     {% capture p %}{{ path | remove: "/assets/meetings/" | slice: 0, 10 }}{% endcapture %}
     {% capture y %}{{ path | remove: "/assets/meetings/" | slice: 0, 4 }}{% endcapture %}
     {% assign ps = ps | push: p | uniq %}
@@ -33,15 +32,15 @@ title: Meetings
     <h3>{{y | slice: 0, 4}}</h3>
     {% for p in ps reversed %}
         {% if p contains y %}
-            {% assign m = p | slice: 5, 7 %}            
+            {% assign m = p | slice: 5, 7 %}     
             {% assign n = m | plus: -1 %}
-            <h4>{{ months[n] }}</h4>
+            <!-- <h4>{{ months[n] }}</h4> -->
             <ul>
             {% assign meeting = "" | split: ',' %}
             {% for file in files reversed %}
                 {% assign fp = 'assets/meetings' | append: '/' | append: p | append: '/' %}
                 {% if file.path contains fp %}
-                {% assign meeting = meeting | push: file %}
+                    {% assign meeting = meeting | push: file %}
                 {% endif %}
             {% endfor %}
             <li>
