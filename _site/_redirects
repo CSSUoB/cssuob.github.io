@@ -45,8 +45,9 @@
 /soon /calendar
 
 # AGMs
-/agm/2022/agenda /assets/agendas/2022/agenda_22_05_04.pdf
-/agm/2023/agenda /assets/agendas/agenda_23_05_10_AGM.pdf
+/agm/2022/agenda /assets/meetings/2023/05/04_agm.pdf
+/agm/2023/agenda /assets/meetings/2023/05/10_agm.pdf
+/agm/2024/agenda /assets/meetings/2024/03/20_agm.pdf
 
 # Feedback
 /feedback https://docs.google.com/forms/d/e/1FAIpQLSe1jAEFmNEc4YQmXtvDMhFZGFzk1xLIJ3WV5q2FxVtYh7fnUw/viewform?usp=sf_link
@@ -70,3 +71,7 @@
 /hoodie /hoodies
 /hoody /hoodies
 
+# BBQ
+/bbq https://www.guildofstudents.com/events/6531/9200/
+/barbecue /bbq
+/barbeque /bbq
