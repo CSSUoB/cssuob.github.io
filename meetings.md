@@ -20,7 +20,7 @@ title: Meetings
 {% assign ys = "" | split: ',' %}
 
 {% for path in paths %}
-    {% capture p %}{{ path | remove: "/assets/meetings/" | slice: 0, 10 }}{% endcapture %}
+    {% capture p %}{{ path | remove: "/assets/meetings/" | slice: 0, 7 }}{% endcapture %}
     {% capture y %}{{ path | remove: "/assets/meetings/" | slice: 0, 4 }}{% endcapture %}
     {% assign ps = ps | push: p | uniq %}
     {% assign ys = ys | push: y | uniq %}
@@ -32,25 +32,36 @@ title: Meetings
     <h3>{{y | slice: 0, 4}}</h3>
     {% for p in ps reversed %}
         {% if p contains y %}
-            {% assign m = p | slice: 5, 7 %}     
+            {% assign m = p | slice: 5, 7 %}            
             {% assign n = m | plus: -1 %}
-            <!-- <h4>{{ months[n] }}</h4> -->
+            <h4>{{ months[n] }}</h4>
             <ul>
-            {% assign meeting = "" | split: ',' %}
             {% for file in files reversed %}
                 {% assign fp = 'assets/meetings' | append: '/' | append: p | append: '/' %}
                 {% if file.path contains fp %}
-                    {% assign meeting = meeting | push: file %}
+                    <li>
+                    {% if file.name contains 'agm' %}
+                        {% if file.name contains 'minutes' %}
+                            <a href='{{file.path}}'>AGM Minutes - {{file.name}}</a><br>
+                        {% else %}
+                            <a href='{{file.path}}'>AGM Agenda - {{file.name | truncate: 2, ""}}/{{m}}/{{y}}</a><br>
+                        {% endif %}
+                    {% elsif file.name contains 'egm' %}
+                        {% if file.name contains 'minutes' %}
+                            <a href='{{file.path}}'>EGM Minutes - {{file.name}}</a><br>
+                        {% else %}
+                            <a href='{{file.path}}'>EGM Agenda - {{file.name | truncate: 2, ""}}/{{m}}/{{y}}</a><br>
+                        {% endif %} 
+                    {% else %}
+                        {% if file.name contains 'minutes' %}
+                            <a href='{{file.path}}'>Committee Meeting Minutes - {{file.name}}</a><br>
+                        {% else %}
+                            <a href='{{file.path}}'>Committee Meeting Agenda - {{file.name | truncate: 2, ""}}/{{m}}/{{y}}</a><br>
+                        {% endif %}
+                    {% endif %}
+                    </li>
                 {% endif %}
             {% endfor %}
-            <li>
-                {% if meeting[0].path contains "minutes"%}
-                    Committee Meeting - <a href='{{meeting[1].path}}'>Agenda</a> <a href='{{meeting[0].path}}'>Minutes</a>
-                {% else %}
-                    Committee Meeting - <a href='{{meeting[0].path}}'>Agenda</a>
-                {% endif %}
-            </li>
-            {% assign meeting = "" | split: ',' %}
             </ul>
         {% endif %}
     {% endfor %}
