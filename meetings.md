@@ -47,7 +47,6 @@ title: Meetings
                     {% endunless %}
                 {% endfor %}
 
-                
             {% endif %}
         {% endfor %}
 {% endfor %}
