@@ -18,7 +18,7 @@ If you have never used git before, we would recommend that you read the [GitHub'
 
 If you are new to contributing to open-source projects on GitHub, the general workflow is as follows:
 1. Fork this repository and clone it
-2. Create a branch off master
+2. Create a branch off main
 3. Make your changes
     - Make sure to run `make fmt` to autoformat your code
     - Make a commit with an explanatory commit message
