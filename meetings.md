@@ -18,7 +18,6 @@ title: Meetings
 
 {% assign ps = "" | split: ',' %}
 {% assign ys = "" | split: ',' %}
-{% assign ms = "" | split: ',' %}
 
 
 {% for path in paths %}
@@ -33,21 +32,29 @@ title: Meetings
 <h2>CSS Committee Meetings</h2>
 {% for y in ys reversed %}
     <h3>{{y | slice: 0, 4}}</h3>
+    {% assign ms = "" | split: ',' %}
         {% for p in ps reversed %}
             {% if p contains y %}   
-                {% assign arr = "" | split: ',' %}
                 {% capture m %}{{ p | slice: 5, 2}}{% endcapture %}
-                {% assign arr = arr | push: m | uniq %}
-                {{arr}}
-
-                {% assign ms = arr[0] %}
-                {% for item in arr %}
-                    {% unless ms contains item %}
-                        {% capture ms %}{{ ms }},{{ item }}{% endcapture %}
-                    {% endunless %}
-                {% endfor %}
-
+                {% assign ms = ms | push: m | uniq %}
             {% endif %}
         {% endfor %}
+
+    {% for m in ms %}  
+        <h4>{{m}}</h4>
+        <ul>
+        {% for file in files reversed %}
+            {% if file.path contains y %}
+                    {% assign tmp = file.path | remove: "/assets/meetings/" | slice: 5, 2 %}
+                    {% if tmp contains m %}
+                        <li>
+                        <a href="{{file.path}}">{{p}}</a>
+                        </li>
+                    {% endif %}
+            {% endif %}
+        {% endfor %}
+        
+        </ul>     
+    {% endfor %}
 {% endfor %}
 </p>
