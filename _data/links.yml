@@ -1,13 +1,9 @@
 - type: divider
-  text: "CSS Ball 24/04/2024"
-
-- text: "Find out more!"
-  url: /ball
-  image: /assets/tex/raster/tex_ball.png
-
-- text: "Grab your ticket!"
-  url: /ball/2024/tickets
-  image: /assets/tex/raster/tex_ball.png
+  text: Ball
+  
+- text: CSS Ball 2024 Photos
+  url: /ball/2024/photos
+  image: /assets/tex/tex_ball.svg
 
 - type: divider
   text: "General"
@@ -23,10 +19,6 @@
 - text: View upcoming events on our Instagram
   url: /instagram
   image: /assets/images/instagram-logo.png
-
-- text: Grab a CSS Hoodie
-  url: /hoodies
-  image: /assets/images/hoodie.png
 
 - text: "Find out about AFNOM's 'Missing Semester'"
   url: https://missingsemester.afnom.net/
