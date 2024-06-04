@@ -47,18 +47,6 @@ people:
       team, West Ham United. If you see me around feel free to have a 
       chat or reach out to me on discord where I'm nearly always active :)
 
-  - name: Shay Patel
-    discordtag: sg.24
-    pronouns: He/Him
-    role: First Year Rep
-    flags: ["interim"]
-    picture: /assets/committee/2024-25/mini/shay.jpg
-    start-date: 1/7/2024
-    bio: >
-      Hey everyone - Shay here! I'm your elected First Year Rep - this means I'm here to represent the often unheard voice of first years within the CSS Committee,
-      making sure that as a first year, you feel welcomed into the society and have fun participating in events alongside us!
-      If you have any questions or suggestions, feel free to DM me over on Discord!
-
   - name: Marcus Gustafsson
     pronouns: He/Him
     discordtag: jb007db5
@@ -71,3 +59,15 @@ people:
       I'm responsible for working with current and prospective sponsors and planning sponsored events. 
       My interests outside of Computer Science are movies, cars, planes, '80s music, laserdisc and other nerdy stuff! 
       I'm normally around on Discord so feel free to message me!
+
+  - name: Shay Patel
+    discordtag: sg.24
+    pronouns: He/Him
+    role: First Year Rep
+    flags: ["interim"]
+    picture: /assets/committee/2024-25/mini/shay.jpg
+    start-date: 1/7/2024
+    bio: >
+      Hey everyone - Shay here! I'm your elected First Year Rep - this means I'm here to represent the often unheard voice of first years within the CSS Committee,
+      making sure that as a first year, you feel welcomed into the society and have fun participating in events alongside us!
+      If you have any questions or suggestions, feel free to DM me over on Discord!
