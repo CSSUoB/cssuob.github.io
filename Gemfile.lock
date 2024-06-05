@@ -10,7 +10,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    ffi (1.16.3)
+    ffi (1.17.0)
     forwardable-extended (2.6.0)
     google-protobuf (4.27.0)
       bigdecimal
@@ -62,7 +62,7 @@ GEM
       strscan (>= 3.0.9)
     rouge (4.2.1)
     safe_yaml (1.0.5)
-    sass-embedded (1.77.3)
+    sass-embedded (1.77.4)
       google-protobuf (>= 3.25, < 5.0)
       rake (>= 13)
     strscan (3.1.0)
