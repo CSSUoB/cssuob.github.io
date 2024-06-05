@@ -75,6 +75,99 @@ pre.ascii {
       font-weight: inherit;
     }
   }
+  
+  &.tdov {
+    .d1,.d2,.d11,.d12 {
+      i {
+        color: #5BCEFA !important;
+      }
+    }
+
+    .d3,.d4,.d9,.d10 {
+      i {
+        color: #F5A9B8 !important;
+      }
+    }
+
+    .d5,.d6,.d7,.d8 {
+      i {
+        color: #FFFFFF !important;
+      }
+    }
+  }
+
+  &.pride {
+    .d1,.d2 {
+      i {
+        color: #FF5755 !important;
+      }
+    }
+
+    .d3,.d4 {
+      i {
+        color: #FF924C !important;
+      }
+    }
+    
+    .d5,.d6 {
+      i {
+        color: #FFEE58 !important;
+      }
+    }
+
+    .d7,.d8 {
+      i {
+        color: #81E056 !important;
+      }
+    }
+
+    .d9,.d10 {
+      i {
+        color: #5272FE !important;
+      }
+    }
+
+    .d11,.d12 {
+      i {
+        color: #9253FF !important;
+      }
+    }
+  }
+  
+  &.christmas {
+    [c="_"],
+    [c="$"] {
+      color: #0def42 !important;
+    }
+
+    [c=";"],
+    [c="+"],
+    [c="("],
+    [c=")"],
+    [c="!"],
+    [c="="] {
+      color: #fff !important;
+    }
+
+    [c="["],
+    [c="]"],
+    [c="{"],
+    [c="}"] {
+      color: #17c867 !important;
+    }
+    [c="0"],
+    [c="1"],
+    [c="2"],
+    [c="3"],
+    [c="4"],
+    [c="5"],
+    [c="6"],
+    [c="7"],
+    [c="8"],
+    [c="9"] {
+      color: #dc3d2a !important;
+    }
+  }
 }
 
 .ascii {
