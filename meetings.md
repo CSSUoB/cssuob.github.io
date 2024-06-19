@@ -20,7 +20,6 @@ title: Meetings
 {% assign ys = "" | split: ',' %}
 
 {% for path in paths %}
-<!-- {{path | remove: "/assets/meetings/"}} -->
     {% capture p %}{{ path | remove: "/assets/meetings/" | slice: 0, 10 }}{% endcapture %}
     {% capture y %}{{ path | remove: "/assets/meetings/" | slice: 0, 4 }}{% endcapture %}
     {% assign ps = ps | push: p | uniq %}
