@@ -3,7 +3,7 @@ layout: textpage
 title: Meetings
 ---
 
-<!-- PATH FORMAT:  assets/meetings/YYYY/MM/DD -->
+<!-- PATH FORMAT:  assets/meetings/YYYY/MM/DD/agenda.pdf -->
 
 {% assign files = site.static_files | where_exp: "item", "item.path contains 'assets/meetings'" %}
 
@@ -20,7 +20,7 @@ title: Meetings
 {% assign ys = "" | split: ',' %}
 
 {% for path in paths %}
-    {% capture p %}{{ path | remove: "/assets/meetings/" | slice: 0, 7 }}{% endcapture %}
+    {% capture p %}{{ path | remove: "/assets/meetings/" | slice: 0, 10 }}{% endcapture %}
     {% capture y %}{{ path | remove: "/assets/meetings/" | slice: 0, 4 }}{% endcapture %}
     {% assign ps = ps | push: p | uniq %}
     {% assign ys = ys | push: y | uniq %}
@@ -30,40 +30,78 @@ title: Meetings
 <h2>CSS Committee Meetings</h2>
 {% for y in ys reversed %}
     <h3>{{y | slice: 0, 4}}</h3>
-    {% for p in ps reversed %}
-        {% if p contains y %}
-            {% assign m = p | slice: 5, 7 %}            
-            {% assign n = m | plus: -1 %}
-            <h4>{{ months[n] }}</h4>
-            <ul>
-            {% for file in files reversed %}
-                {% assign fp = 'assets/meetings' | append: '/' | append: p | append: '/' %}
-                {% if file.path contains fp %}
-                    <li>
-                    {% if file.name contains 'agm' %}
-                        {% if file.name contains 'minutes' %}
-                            <a href='{{file.path}}'>AGM Minutes - {{file.name}}</a><br>
+    {% assign ms = "" | split: ',' %}
+        {% for p in ps reversed %}
+            {% if p contains y %}   
+                {% capture m %}{{ p | slice: 5, 2}}{% endcapture %}
+                {% assign ms = ms | push: m | uniq %}
+            {% endif %}
+        {% endfor %}
+
+    {% for m in ms %}
+        {% assign ds = "" | split: ',' %}
+        {% for p in ps reversed %}
+            {% if p contains y %}
+                {% assign tmp = p | slice: 5, 2 %}
+                {% if tmp contains m %}
+                    {% capture d %}{{ p | slice: 8, 2}}{% endcapture %}
+                    {% assign ds = ds | push: d | uniq %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+        {% assign n = m | minus: 1 %}
+        <h4>{{months[n]}}</h4>
+        <ul>
+        {% for file in files reversed %}
+            {% if file.path contains y %}
+                {% assign tmp = file.path | remove: "/assets/meetings/" | slice: 5, 2 %}
+                {% if tmp contains m %}
+                    {% assign index = forloop.length | minus: forloop.index %}
+                    {% assign path1 = files[index].path | slice: 0,28 %}
+                    {% assign incrementIndex = index | plus: 1 %}
+                    {% assign path2 = files[incrementIndex].path | slice: 0, 28 %}
+                    {% assign decrementIndex = index | minus: 1 %}
+                    {% assign path3 = files[decrementIndex].path | slice: 0, 28 %}
+
+                    {% assign day = file.path | remove: "/assets/meetings" | slice: 9, 2 %}
+                    {% assign month = file.path | remove: "/assets/meetings" | slice: 6, 2 %}
+                    {% assign year = file.path | remove: "/assets/meetings" | slice: 1, 4 %}
+
+
+                    {% if path2 contains path1 %}
+                        {% if file.path contains 'agm' %}
+                            <li>
+                                AGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}agm/agenda.pdf'>Agenda</a> - <a href='{{path1}}agm/minutes.pdf'>Minutes</a>
+                            </li>
+                        {% elsif file.path contains 'egm' %}
+                            <li>
+                                EGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}egm_agenda.pdf'>Agenda</a> - <a href='{{path1}}egm/minutes.pdf'>Minutes</a>
+                            </li>
                         {% else %}
-                            <a href='{{file.path}}'>AGM Agenda - {{file.name | truncate: 2, ""}}/{{m}}/{{y}}</a><br>
+                            <li>
+                                Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}agenda.pdf'>Agenda</a> - <a href='{{path1}}minutes.pdf'>Minutes</a>
+                            </li>
                         {% endif %}
-                    {% elsif file.name contains 'egm' %}
-                        {% if file.name contains 'minutes' %}
-                            <a href='{{file.path}}'>EGM Minutes - {{file.name}}</a><br>
-                        {% else %}
-                            <a href='{{file.path}}'>EGM Agenda - {{file.name | truncate: 2, ""}}/{{m}}/{{y}}</a><br>
-                        {% endif %} 
+                    {% elsif path1 contains path3 %}
                     {% else %}
-                        {% if file.name contains 'minutes' %}
-                            <a href='{{file.path}}'>Committee Meeting Minutes - {{file.name}}</a><br>
+                        {% if file.path contains 'agm' %}
+                            <li>
+                                 AGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}agm/agenda.pdf'>Agenda</a>
+                            </li>
+                        {% elsif file.path contains 'egm' %}
+                            <li>
+                                EGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}egm/agenda.pdf'>Agenda</a>
+                            </li>
                         {% else %}
-                            <a href='{{file.path}}'>Committee Meeting Agenda - {{file.name | truncate: 2, ""}}/{{m}}/{{y}}</a><br>
+                            <li>
+                                Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}agenda.pdf'>Agenda</a>
+                            </li>
                         {% endif %}
                     {% endif %}
-                    </li>
                 {% endif %}
-            {% endfor %}
-            </ul>
-        {% endif %}
+            {% endif %}
+        {% endfor %}
+        </ul>     
     {% endfor %}
 {% endfor %}
 </p>
