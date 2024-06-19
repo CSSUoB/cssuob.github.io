@@ -3,7 +3,7 @@ layout: textpage
 title: Meetings
 ---
 
-<!-- PATH FORMAT:  assets/meetings/YYYY/MM/DD -->
+<!-- PATH FORMAT:  assets/meetings/YYYY/MM/DD/agenda.pdf -->
 
 {% assign files = site.static_files | where_exp: "item", "item.path contains 'assets/meetings'" %}
 
@@ -18,7 +18,6 @@ title: Meetings
 
 {% assign ps = "" | split: ',' %}
 {% assign ys = "" | split: ',' %}
-
 
 {% for path in paths %}
 <!-- {{path | remove: "/assets/meetings/"}} -->
@@ -40,20 +39,48 @@ title: Meetings
             {% endif %}
         {% endfor %}
 
-    {% for m in ms %}  
-        <h4>{{m}}</h4>
+    {% for m in ms %}
+        {% assign ds = "" | split: ',' %}
+        {% for p in ps reversed %}
+            {% if p contains y %}
+                {% assign tmp = p | slice: 5, 2 %}
+                {% if tmp contains m %}
+                    {% capture d %}{{ p | slice: 8, 2}}{% endcapture %}
+                    {% assign ds = ds | push: d | uniq %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+        {% assign n = m | minus: 1 %}
+        <h4>{{months[n]}}</h4>
         <ul>
         {% for file in files reversed %}
             {% if file.path contains y %}
                     {% assign tmp = file.path | remove: "/assets/meetings/" | slice: 5, 2 %}
                     {% if tmp contains m %}
-                        <li>
-                        <a href="{{file.path}}">{{p}}</a>
-                        </li>
+                        {% assign index = forloop.length | minus: forloop.index %}
+                        {% assign path1 = files[index].path | slice: 0,28 %}
+                        {% assign incrementIndex = index | plus: 1 %}
+                        {% assign path2 = files[incrementIndex].path | slice: 0, 28 %}
+                        {% assign decrementIndex = index | minus: 1 %}
+                        {% assign path3 = files[decrementIndex].path | slice: 0, 28 %}
+
+                        {% assign day = file.path | remove: "/assets/meetings" | slice: 9, 2 %}
+                        {% assign month = file.path | remove: "/assets/meetings" | slice: 6, 2 %}
+                        {% assign year = file.path | remove: "/assets/meetings" | slice: 1, 4 %}
+
+                        {% if path2 contains path1 %}
+                            <li>
+                                Committee Meeting {{day}}/{{month}}/{{year}}: <a href="">Agenda</a> - <a href="">Minutes</a>
+                            </li>
+                        {% elsif path1 contains path3 %}
+                        {% else %}
+                            <li>
+                                Committee Meeting {{day}}/{{month}}/{{year}}: <a href="">Agenda</a>
+                            </li>
+                        {% endif %}
                     {% endif %}
             {% endif %}
         {% endfor %}
-        
         </ul>     
     {% endfor %}
 {% endfor %}
