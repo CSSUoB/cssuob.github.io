@@ -55,30 +55,51 @@ title: Meetings
         <ul>
         {% for file in files reversed %}
             {% if file.path contains y %}
-                    {% assign tmp = file.path | remove: "/assets/meetings/" | slice: 5, 2 %}
-                    {% if tmp contains m %}
-                        {% assign index = forloop.length | minus: forloop.index %}
-                        {% assign path1 = files[index].path | slice: 0,28 %}
-                        {% assign incrementIndex = index | plus: 1 %}
-                        {% assign path2 = files[incrementIndex].path | slice: 0, 28 %}
-                        {% assign decrementIndex = index | minus: 1 %}
-                        {% assign path3 = files[decrementIndex].path | slice: 0, 28 %}
+                {% assign tmp = file.path | remove: "/assets/meetings/" | slice: 5, 2 %}
+                {% if tmp contains m %}
+                    {% assign index = forloop.length | minus: forloop.index %}
+                    {% assign path1 = files[index].path | slice: 0,28 %}
+                    {% assign incrementIndex = index | plus: 1 %}
+                    {% assign path2 = files[incrementIndex].path | slice: 0, 28 %}
+                    {% assign decrementIndex = index | minus: 1 %}
+                    {% assign path3 = files[decrementIndex].path | slice: 0, 28 %}
 
-                        {% assign day = file.path | remove: "/assets/meetings" | slice: 9, 2 %}
-                        {% assign month = file.path | remove: "/assets/meetings" | slice: 6, 2 %}
-                        {% assign year = file.path | remove: "/assets/meetings" | slice: 1, 4 %}
+                    {% assign day = file.path | remove: "/assets/meetings" | slice: 9, 2 %}
+                    {% assign month = file.path | remove: "/assets/meetings" | slice: 6, 2 %}
+                    {% assign year = file.path | remove: "/assets/meetings" | slice: 1, 4 %}
 
-                        {% if path2 contains path1 %}
+
+                    {% if path2 contains path1 %}
+                        {% if file.path contains 'agm' %}
                             <li>
-                                Committee Meeting {{day}}/{{month}}/{{year}}: <a href="">Agenda</a> - <a href="">Minutes</a>
+                                AGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}agm/agenda.pdf'>Agenda</a> - <a href='{{path1}}agm/minutes.pdf'>Minutes</a>
                             </li>
-                        {% elsif path1 contains path3 %}
+                        {% elsif file.path contains 'egm' %}
+                            <li>
+                                EGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}egm_agenda.pdf'>Agenda</a> - <a href='{{path1}}egm/minutes.pdf'>Minutes</a>
+                            </li>
                         {% else %}
                             <li>
-                                Committee Meeting {{day}}/{{month}}/{{year}}: <a href="">Agenda</a>
+                                Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}agenda.pdf'>Agenda</a> - <a href='{{path1}}minutes.pdf'>Minutes</a>
+                            </li>
+                        {% endif %}
+                    {% elsif path1 contains path3 %}
+                    {% else %}
+                        {% if file.path contains 'agm' %}
+                            <li>
+                                 AGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}agm/agenda.pdf'>Agenda</a>
+                            </li>
+                        {% elsif file.path contains 'egm' %}
+                            <li>
+                                EGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}egm/agenda.pdf'>Agenda</a>
+                            </li>
+                        {% else %}
+                            <li>
+                                Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}agenda.pdf'>Agenda</a>
                             </li>
                         {% endif %}
                     {% endif %}
+                {% endif %}
             {% endif %}
         {% endfor %}
         </ul>     
