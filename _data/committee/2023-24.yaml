@@ -1,11 +1,12 @@
-academic_year: 2023/2024 #postfix: Elect
-current: true
+academic_year: 2023/2024
+current: false
 people:
   - name: Matthew Hammond
     discordtag: frozendude101
     role: President
     picture: /assets/committee/2023-24/mini/matthew.jpg
     start-date: 1/11/2023
+    end-date: 1/7/2024
     bio: >
       Hello, hello! I'm Matthew and I'm your CSS President! It's my job to keep things running
       smoothly and to keep the rest of committee on top of their tasks! I've had a great time
@@ -30,6 +31,7 @@ people:
     role: Treasurer
     picture: /assets/committee/2023-24/mini/matty.jpg
     start-date: 1/7/2023
+    end-date: 1/7/2024
     bio: >
       Hello! I'm Matty, your treasurer, so I'll be handling the society finances and financial paperwork required to make sure the society can continue running amazing events for everyone!
       I'm in my 4th year at UoB, 3rd year in CS and a student rep so please do reach out if you have any concerns, general feedback or just fancy venting about something.    
@@ -41,6 +43,7 @@ people:
     role: Secretary
     picture: /assets/committee/2023-24/mini/ella.jpg
     start-date: 1/7/2023
+    end-date: 1/7/2024
     bio: >
       Hey! I’m Ella, a 2nd year CS student. In my role as Secretary I’ll be minuting and keeping the committee organised and on task, as well as anything else I can help out with. Outside of CSS I play bass, have an endless amount of crochet projects, and pick up various random hobbies weekly. Please come say hi if you see me around!
 
@@ -51,6 +54,7 @@ people:
     role: Vice-President
     picture: /assets/committee/2023-24/mini/charlie.jpg
     start-date: 1/7/2023
+    end-date: 1/7/2024
     bio: >
       Hi I'm Charlie, the vice-president for CSS. This means I pick up any odd jobs that need to be done if other commitee members don't have the time. My hobbies outside of Computer Science are reading Science Fiction (with my favourite book being Brave New World) and I love listening to music, so feel free to come up to me to talk about those or anything else you'd like to discuss.
  
@@ -61,6 +65,7 @@ people:
     role: Publicity Officer
     picture: /assets/committee/2023-24/mini/abi.png
     start-date: 1/7/2023
+    end-date: 1/7/2024
     bio: >
       Hey there! I'm Abi, and am in my second year of CS at UoB. My
       role within CSS this year is to make sure you know what we're
@@ -77,6 +82,7 @@ people:
     role: International Student Rep
     picture: /assets/committee/2023-24/mini/vishwas.jpeg
     start-date: 1/7/2023
+    end-date: 1/7/2024
     bio: >
       Heyo! I'm Vishwas, and I'm in my third year of CS at UoB. As your international rep, it's my job to make sure
       everyone feels at home at UoB. When I'm not dabbling in esoteric programming languages or tinkering with
@@ -90,6 +96,7 @@ people:
     role: Special Events Officer
     picture: /assets/committee/2023-24/mini/ellie-anne.jpg
     start-date: 1/7/2023
+    end-date: 1/7/2024
     bio: >
       Hi! I'm Ellie-Anne and I'm a third year Computer Science student.
       I'm responsible for organising the more large scale CSS events like the Ball, Christmas Meal and BBQ.
@@ -102,6 +109,7 @@ people:
     role: Socials Secretary
     picture: /assets/committee/2023-24/mini/marcus.jpg
     start-date: 1/7/2023
+    end-date: 1/7/2024
     bio: >
       Hello, I'm Marcus, and I'm in my 3rd year of Computer Science. 
       I'm responsible for organising social events of all different types. 
@@ -115,6 +123,7 @@ people:
     role: Sports Secretary
     picture: /assets/committee/2023-24/mini/sumeet.png
     start-date: 1/7/2023
+    end-date: 1/7/2024
     bio: >
       Hey, I'm Sumeet and I'm in my 2nd year of Maths and Computer Science.
       I'll be responsible for helping out with anything sport related within
@@ -130,6 +139,7 @@ people:
     role: Equality, Diversity, and Inclusivity Officer
     picture: /assets/committee/2022-23/mini/sofia.jpg
     start-date: 1/7/2023
+    end-date: 1/7/2024
     bio: >
       Hiya! I'm Sofia, a second year and the EDI Officer of CSS! I work to make sure that all CSS members are properly 
       represented as well as ensuring all CSS events and School programmes are safe, diverse and equal for all. Other than 
@@ -144,6 +154,7 @@ people:
     role: Industrial Liaison
     picture: /assets/committee/2023-24/mini/holly.jpg
     start-date: 1/7/2023
+    end-date: 1/7/2024
     bio: >
       Howdy gang! I'm Holly and I am in my 3rd year of the MSci Computer Science
       degree. I am the Industrial Liaison for CSS this year, so I will be in charge
@@ -171,6 +182,7 @@ people:
     role: First Year Rep
     picture: /assets/committee/2023-24/mini/rohit.jpg
     start-date: 1/11/2023
+    end-date: 1/7/2024
     bio: >
       Heya! I'm Rohit, I'm in my first year of medicine, and I'm the CSS First Year Rep.
       Believe it or not, there is a real person under the mask! My job is to voice concerns
@@ -217,6 +229,7 @@ people:
     discordtag: palee.
     picture: /assets/committee/2023-24/mini/lee.jpg
     start-date: 31/01/2024
+    end-date: 1/7/2024
     bio: >
       Hiya! I'm Lee, your PGT Rep. My role within the committee is to
       try and get the PGTs the engage more with the society. In my free

@@ -1,0 +1,140 @@
+academic_year: 2024/2025
+current: true
+people:
+  - name: Holly P.
+    discordtag: errortm99
+    pronouns: Any
+    role: President
+    picture: /assets/committee/2024-25/mini/holly.jpg
+    start-date: 1/7/2024
+    bio: >
+      All aboard! My name is Holly, and I am your CSS President, conducting our wonderful committee and the society as a 
+      whole this year. Whilst I am in charge of ensuring events and tasks run smoothly, I am also the face and voice for 
+      the society, so please let me know if you have any concerns or questions. Outside of my presidential duties, I 
+      enjoy story writing, coding mods for Minecraft, and drawing. Feel free to say hi if you see me on campus, and if 
+      you have a cat, DM it to me on Discord. :)
+
+  - name: Matty Widdop
+    discordtag: MattyTheHacker
+    pronouns: He/Him
+    role: Treasurer
+    picture: /assets/committee/2024-25/mini/matty.jpg
+    start-date: 1/7/2024
+    bio: >
+      Hello! I'm Matty, your treasurer, so I'll be handling the society finances and financial paperwork required to make sure the society can continue running amazing events for everyone! I'm going into my 5th year at UoB, 4th year in CS and a student rep so please do reach out if you have any concerns, general feedback or just fancy venting about something.
+
+  - name: Adi Agarwal
+    discordtag: floofmcfluff
+    pronouns: He/Him
+    role: Vice President
+    picture: /assets/committee/2024-25/mini/adi.jpg
+    start-date: 1/7/2024
+    bio: >
+      Hiya folks! My name is Adi, the Vice President of CSS. My role is very similar to that of our President, however I mostly look after the lower level tasks and taking over responsibilites as and when needed. Alongside that, I am also the GDSC Lead for this year, so if you have any ideas for workshops or talks, please let me know! Outside of CSS, I enjoy reading, writing poetry, playing the guitar and gardening. Feel free to say hi if you see me in person, or DM me over Discord!
+
+  - name: Lee Alabaster
+    pronouns: He/Him
+    role: Secretary
+    discordtag: palee.
+    picture: /assets/committee/2024-25/mini/lee.jpg
+    start-date: 1/7/2024
+    bio: >
+      Wagwan my drillas. I'm Lee, your Secretary for this year. My job 
+      is to minute the meetings we have aswell as upload the agendas and 
+      minutes to the website and make sure the rest of committee stay organised 
+      throughout the year. In my free time, I enjoy playing games 
+      (mostly Destiny 2) and also watching F1, darts and my football 
+      team, West Ham United. If you see me around feel free to have a 
+      chat or reach out to me on discord where I'm nearly always active :)
+
+  - name: Leonardo Bishop
+    pronouns: He/Him
+    discordtag: leonardobishop
+    role: Publicity Officer
+    picture: /assets/committee/2024-25/mini/leonardo.jpg
+    start-date: 1/7/2024
+    bio: >
+      Hi! I'm Leonardo, a final year studying Computer Science. My role this year is to create beautiful shitposts on 
+      Canva to publish on Instagram and Discord to keep you guys up to date on what we're up to. I'm usually around on 
+      campus, so if you see around do feel free to say hello :)
+
+  - name: Rohit J.
+    pronouns: He/Him
+    role: Special Events Officer
+    picture: /assets/committee/2024-25/mini/rohit.png
+    start-date: 1/7/2024
+    bio: >
+      Heya! I'm Rohit, I'm in my second year of medicine, and I'm the CSS Special Events Officer.
+      Believe it or not, there is a real person under the mask! My job is to manage larger events
+      in CSS, ensuring they run smoothly and are as accessible as possible. A couple of my hobbies
+      include ethical hacking, drawing, and gaming. Feel free to say hi if you see me around or on discord!
+
+  - name: Marcus Gustafsson
+    pronouns: He/Him
+    discordtag: jb007db5
+    role: Industrial Liaison
+    picture: /assets/committee/2024-25/mini/marcus.jpg
+    start-date: 1/7/2024
+    bio: >
+      Hello, I'm Marcus, and I'm on industrial placement at Jaguar Land Rover. 
+      I'm responsible for working with current and prospective sponsors and planning sponsored events. 
+      My interests outside of Computer Science are movies, cars, planes, '80s music, laserdisc and other nerdy stuff! 
+      I'm normally around on Discord so feel free to message me!
+
+  - name: Sumeet Brar
+    pronouns: He/Him
+    discordtag: jethoodie
+    role: Sports Secretary
+    picture: /assets/committee/2024-25/mini/sumeet.jpg
+    start-date: 1/7/2024
+    bio: >
+      Hey, I'm Sumeet and I'm in my 3rd year of Maths and Computer Science.
+      I'll be responsible for helping out with anything sport related within
+      CSS this year, and will be making sure that we can all stay active.
+      I enjoy a lot of sports, such as ultimate frisbee and tennis.
+      Other than sport, my interests consist of cooking, building lego and gaming.
+      I'll be on discord a lot, so feel free to message me about anything!
+
+  - name: Sai
+    pronouns: Any
+    role: International Student's Rep
+    discordtag: achievementcava
+    picture: /assets/committee/2024-25/mini/sai.jpg
+    start-date: 1/7/2024
+    bio: >
+      ¡Hola, Hello, 大家好, வணக்கம், apa habaq, नमस्ते, Jambo, a su'mae, Birmingham - I'm Sai, your International's 
+      Representative for this year! My job is to think about how decisions we make might have different impacts on 
+      students from every culture, country and creed. I might be mega-Introverted, 
+      but I still love meeting new people, especially if it means that I can help you with anything that might be 
+      on your mind (I don't bite, I promise). When I'm busyn't, I play the guitar and <s>bedrot</s>
+      like exploring new places! 
+ 
+  - name: Ella
+    discordtag: formlessmess
+    pronouns: She/They
+    role: Post-Graduate (Research) Rep
+    picture: /assets/committee/2024-25/mini/ella.jpg
+    start-date: 1/7/2024
+    bio: >
+      Hi I'm Ella, a 3rd year Comp Sci student! My role is to represent the post grad research students in CSS, to ensure all members of CSS have a voice when we are planning events and making decisions. Outside of committee you can usually find me playing saxophone, getting more piercings, and chilling with some crochet (when uni work hasn't completely absorbed me).
+
+  - name: Shay Patel
+    discordtag: sg.24
+    pronouns: He/Him
+    role: First Year Rep
+    flags: ["interim"]
+    picture: /assets/committee/2024-25/mini/shay.jpg
+    start-date: 1/7/2024
+    bio: >
+      Hey everyone - Shay here! I'm your elected First Year Rep - this means I'm here to represent the often unheard voice of first years within the CSS Committee,
+      making sure that as a first year, you feel welcomed into the society and have fun participating in events alongside us!
+      If you have any questions or suggestions, feel free to DM me over on Discord!
+
+  - name: Trinity
+    discordtag: trinity034
+    pronouns: They/Them
+    role: EDI Officer
+    picture: /assets/committee/2024-25/mini/trinity.jpg
+    start-date: 1/7/2024
+    bio: >
+      Hi, I'm Trinity, I'm a 4th year Computer Science student and CSS' EDI Officer! This means it's my job to ensure CSS events are accessible and all members of the society feel represented. Feel free to reach out to me if you have any EDI-related questions, feedback, or ideas!
