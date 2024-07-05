@@ -88,11 +88,14 @@ limitations under the License.
 
 ### Adding new redirects
 
-To manage a new redirect, then add it to `_data/redirects.yaml`, following
+To manage a new redirect, then add it to `_site/redirects.yaml`, following
 the format of the entries that are already there.
 
 This avoids needing to add files and folders everywhere, keeping the site
 cleaner.
+
+Please note that redirects are handled server-side by Netlify and so will
+not work locally.
 
 ### Writing a new post
 
