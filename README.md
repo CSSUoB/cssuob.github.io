@@ -88,7 +88,7 @@ limitations under the License.
 
 ### Adding new redirects
 
-To manage a new redirect, then add it to `_redirects.yaml`, following
+To manage a new redirect, then add it to `_redirects`, following
 the format of the entries that are already there.
 
 This avoids needing to add files and folders everywhere, keeping the site
