@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: News for our Year, 2024
+title: 2024 End of Year Newsletter
 thumbnail: /assets/images/2024-end-of-year-newsletter/ball.jpg
 header-image: /assets/images/2024-end-of-year-newsletter/ball.jpg
 ---
