@@ -1,4 +1,4 @@
-FROM ruby:3.3.4 as base
+FROM ruby:3.3.4 AS base
 
 RUN bundle config --global frozen 1 && \
     mkdir -p /vendor/bundle && \
@@ -10,12 +10,12 @@ RUN bundle install
 
 COPY . .
 
-FROM base as build-step
+FROM base AS build-step
 RUN bundle exec jekyll build
 
-FROM scratch as build
+FROM scratch AS build
 COPY --from=build-step /usr/src/app/_site /
 
-FROM base as server
+FROM base AS server
 EXPOSE 4000
 CMD bundle exec jekyll serve --host 0.0.0.0 --port 4000 --destination /tmp/_site
