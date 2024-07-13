@@ -22,7 +22,7 @@ Of course, I can’t continue without mentioning our grandest event, the CSS Bal
 
 ![A picture of everyone at the CSS Ball, in the Birmingham Council House.](/assets/images/2024-end-of-year-newsletter/ball.jpg)
 
-I’m really looking forward to seeing what gets put on next year. Holly and the rest of the incoming committee have a big job ahead of them, but I’m sure there'll be plenty of old favourites, and some new ideas to refresh your palette. Make sure to check out the committee page to get to know your committee, and send them all your ideas for future events. I wish them nothing but good luck for next year!
+I’m really looking forward to seeing what gets put on next year. Holly and the rest of the incoming committee have a big job ahead of them, but I’m sure there'll be plenty of old favourites, and some new ideas to refresh your palette. Make sure to check out the [committee page](https://cssbham.com/committee) to get to know your committee, and send them all your ideas for future events. I wish them nothing but good luck for next year!
 
 So, if you’ve been with us through University, or this is your first year with CSS, thank you for being a part of our community, and for making University just a little more fun!
 
