@@ -54,6 +54,16 @@ document.addEventListener("DOMContentLoaded", () => {
     eventClick: function (event) {
       loadEvent(event);
     },
+    views: {
+      dayGrid: {
+        eventTimeFormat: {
+          hour: "numeric",
+          minute: "2-digit",
+          omitZeroMinute: true,
+          meridiem: "short",
+        },
+      },
+    },
   });
   calendar.render();
 
