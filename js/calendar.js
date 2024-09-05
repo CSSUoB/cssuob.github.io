@@ -54,6 +54,16 @@ document.addEventListener("DOMContentLoaded", () => {
     eventClick: function (event) {
       loadEvent(event);
     },
+    views: {
+      dayGrid: {
+        eventTimeFormat: {
+          hour: "numeric",
+          minute: "2-digit",
+          omitZeroMinute: true,
+          meridiem: "short",
+        },
+      },
+    },
   });
   calendar.render();
 
@@ -294,7 +304,11 @@ function parseHTML(html, otherValidTags = null, otherValidProperties = null) {
     return null;
   }
 
-  const validTags = ["a", "b", "br", "code", "em", "i", "span", "strong", "u"];
+  const validTags = [
+    "a", "b", "br", "code", "em", "i", "p", "span", "strong", "sup", "u",
+    "h1", "h2", "h3", "h4", "h5", "h6",
+    "ul", "ol", "li",
+  ];
   const validProperties = new Map([["a", ["href"]]]);
   html = sanitizeTags(
     html,
@@ -314,7 +328,7 @@ function sanitizeTags(text, validTags, validProperties) {
   let result = "";
   for (;;) {
     const match = text.match(
-      /<(\/?)([a-zA-Z]+)([a-zA-Z0-9\s:\/&'"\-_=.~?#*@'+,;%]*?)(\/?)>/,
+      /<(\/?)(h[1-6]|[a-zA-Z]+)([a-zA-Z0-9\s:\/&'"\-_=.~?#*@'+,;%]*?)(\/?)>/,
     );
     if (!match) {
       result += encodeHTML(text);
