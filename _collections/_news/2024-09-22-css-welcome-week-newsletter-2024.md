@@ -1,3 +1,10 @@
+---
+layout: post
+published: true
+title: Welcome Week 2024
+thumbnail: /assets/images/2024-welcome-week-newsletter/header.png
+header-image: /assets/images/2024-welcome-week-newsletter/header.png
+---
 # Welcome CSS members, to a new year of UoB!
 
 To start off another year full of fantastic CSS events, we're running 2 weeks full of freshers activities to get involved with, with lots to do, even if you aren't a first year!
@@ -78,7 +85,7 @@ Make sure to bring a form of **Photo ID** (Not student ID!) if you'd like to buy
 
 As well as the above, AFNOM, oSTEM, and VR will be running their own events as seen on the timetable, join their discord servers from the hub at https://discord.gg/9CH8VtfWQr to learn more!
 
-if you know anyone who'd like to join, send them our way at https://cssbham.com/join so they can sign up!
+If you know anyone who'd like to join, send them our way at https://cssbham.com/join so they can sign up!
 
 If you have any questions, or just want to say hi, we'll be at our stand in the CS Atrium on the 24th and the 25th of September, as well as being available on our discord server at https://cssbham.com/discord. Hope to see you around!
 
