@@ -58,7 +58,7 @@ tex:
 
   - name: Halloween TeX
     path: tex_halloween.png
-    description: TeX under a white cloth pretending to be a ghost. Currently, this isn't used anywhere.
+    description: TeX under a white cloth pretending to be a ghost. Stickers are handed out at our Halloween quiz.
     ratio: 1.087
 
   - name: Speech TeX
