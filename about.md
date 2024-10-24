@@ -74,10 +74,6 @@ You can also find links to all of our other various social media accounts:
         <h4><i class="fab fa-instagram"></i> Instagram</h4>
     </a>
 
-    <a href="/tw" class="social-link twitter">
-        <h4><i class="fab fa-twitter"></i> Twitter</h4>
-    </a>
-
     <a href="/fb" class="social-link facebook">
         <h4><i class="fab fa-facebook"></i> Facebook</h4>
     </a>
