@@ -109,7 +109,21 @@ h4 {
   margin: 20px 0;
 }
 
-.social-buttons {
+.social-buttons2 {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 185px);
+
+  .youtube {
+    background-color: #ea3223;
+  }
+
+  .github {
+    background-color: #161b22;
+  }
+}
+
+.social-buttons3 {
   justify-content: center;
   display: grid;
   grid-template-columns: repeat(3, 185px);
@@ -122,20 +136,8 @@ h4 {
     background-color: #d13378;
   }
 
-  .twitter {
-    background-color: #00a1f3;
-  }
-
   .linkedin {
     background-color: #0077b5;
-  }
-
-  .youtube {
-    background-color: #ea3223;
-  }
-
-  .github {
-    background-color: #161b22;
   }
 }
 
