@@ -69,7 +69,7 @@ Below are the dates, times and locations:
 
 - **Final Year Mixer** — Thursday 27th September 4-6pm — CS Atrium, CS Building
 - **Postgraduate Mixer** — Tuesday 1st October 1-3pm — Joe's Bar, UoB Guild
-- **First Year Mixer** — Thursday 27th September 1-2pm — Joe's Bar, UoB Guild
+- **First Year Mixer** — Wednesday 2nd Wednesday 1-2pm — Joe's Bar, UoB Guild
 
 
 For the final year mixer, pizza and soft drinks will be provided, for the postgraduate and first year mixer, Joe's Bar has a variety of food and drink available.
