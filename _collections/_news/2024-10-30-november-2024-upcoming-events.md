@@ -24,23 +24,23 @@ This Thursday, we have Amrit giving the second Lua workshop that covers the foll
 - Lua package management
 - Type safety
 
-If you missed the first talk, you can access the "slides" for it here: https://www.frityet.net/lua-ss/ (of which we were
+If you missed the first talk, you can access the "slides" for it here: <https://www.frityet.net/lua-ss/> (of which we were
 told were made in Lua, believe it or not)
 
 ## November EGM 🗳️ - Wednesday 6th November, 1pm - Y3-G34
 Campaigning for the EGM has now begun! You can now post your manifestos, questions and constitutional amendments ahead
 of the EGM into the newly opened channel on our Discord server. 
 
-If you're considering standing for a role in the EGM, you are able to do so on the voting website: https://vote.cssbham.com
+If you're considering standing for a role in the EGM, you are able to do so on the voting website: <https://vote.cssbham.com>
 
 If you're standing or have questions for candidates, you are now able to join them in Discord, which you can do here:
-https://cssbham.com/discord 
+<https://cssbham.com/discord> 
 
 See you on the day!
 
 ## NQ64 🎮 - Thursday 7th November, 7pm 
 We'll be returning to NQ64 for the night! NQ64 is a drinking arcade in Digbeth with themed drinks and arcade games like
-Mario Kart, Crazy Taxi, Pacman, etc. - for more information, check NQ64's 
+Mario Kart, Crazy Taxi, Pacman, etc. - for more information, check [NQ64's website](https://nq64.co.uk/birmingham/).
 
 We'll also be hosting a walking train starting at 6:15pm from the Computer Science building if you're not sure of how
 to get there!
@@ -91,7 +91,7 @@ bots...
 We'll post any updates on our Discord or Instagram @cssbham - we hope you've enjoyed the events we've run so far, and
 we'll see you around! 
 
-All the love,
-- CSS Committee
+All the love, 
+\- CSS Committee
 
 
