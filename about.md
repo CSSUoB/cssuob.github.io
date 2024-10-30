@@ -69,13 +69,9 @@ we recommend that you join our Facebook Group linked below! 👇
 
 You can also find links to all of our other various social media accounts:
 
-<div class="social-buttons">
+<div class="social-buttons3">
     <a href="/ig" class="social-link insta">
         <h4><i class="fab fa-instagram"></i> Instagram</h4>
-    </a>
-
-    <a href="/tw" class="social-link twitter">
-        <h4><i class="fab fa-twitter"></i> Twitter</h4>
     </a>
 
     <a href="/fb" class="social-link facebook">
@@ -85,7 +81,9 @@ You can also find links to all of our other various social media accounts:
     <a href="/in" class="social-link linkedin">
         <h4><i class="fab fa-linkedin"></i> LinkedIn</h4>
     </a>
+</div>
 
+<div class="social-buttons2">
     <a href="/yt" class="social-link youtube">
         <h4><i class="fab fa-youtube"></i> YouTube</h4>
     </a>
