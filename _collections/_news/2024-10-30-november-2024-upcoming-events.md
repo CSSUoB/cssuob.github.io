@@ -91,7 +91,7 @@ bots...
 We'll post any updates on our Discord or Instagram @cssbham - we hope you've enjoyed the events we've run so far, and
 we'll see you around! 
 
-All the love, 
+All the love,  
 \- CSS Committee
 
 
