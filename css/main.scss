@@ -23,9 +23,7 @@ body {
   flex-direction: column;
 }
 
-#freshers-banner {
-  // display: none;
-  background-color: #9d68dc;
+.banner {
   border-radius: 10px;
   padding: 2px 20px;
   font-size: 18px;
@@ -36,6 +34,18 @@ body {
     text-align: center;
     font-family: "JetBrains Mono", "Inconsolata", monospace;
     font-weight: bolder;
+  }
+}
+
+.freshers-banner {
+  background-color: #9d68dc;
+}
+
+.xmas-banner {
+  background-color: #035443;
+  
+  * {
+    color: #E9E2D2;
   }
 }
 
