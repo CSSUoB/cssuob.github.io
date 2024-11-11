@@ -17,7 +17,7 @@ favicon: /ball/favicon.ico
         <span class="avoidwrap">{{ball.location}}</span> • <span class="avoidwrap">{{ball.date}}</span>
     </h2>
 
-    <h3 id="count"><br></h3>
+    <h3 id="count">Attendees: 124<br></h3>
 
     {% for link in ball.links %}
         <a href='{{link.url}}' class="button {% if link.url == '' %}empty"{% else %}" href='{{link.url}}' {% endif %}>
@@ -77,25 +77,3 @@ favicon: /ball/favicon.ico
     </iframe>
 </div>
 <hr>
-
-<script>
-    const countDownDate = new Date("Apr 26, 2023 19:00:00").getTime();
-
-    (function updateTimer() {
-        let now = new Date().getTime();
-        let distance = countDownDate - now;
-        let days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        document.getElementById("count").innerHTML = days + " <span>days</span> " + hours + " <span>hours</span> "
-            + minutes + " <span>minutes</span> " + seconds + " <span>seconds</span>";
-
-        if (distance < 0) {
-            document.getElementById("count").innerHTML = "<a href='https://cssbham.com/join'>cssbham.com/join</a>";
-        } else {
-            setTimeout(updateTimer, 1000)
-        }
-    })();
-</script>
