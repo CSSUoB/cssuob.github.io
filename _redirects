@@ -96,3 +96,11 @@
 /christmas /christmas-meal
 /xmas-meal /christmas-meal
 /xmas /christmas-meal
+
+# Bar Crawl
+/bar-crawl https://www.guildofstudents.com/events/6531/10077/
+/pub-crawl /bar-crawl
+/barcrawl /bar-crawl
+/pubcrawl /bar-crawl
+
+
