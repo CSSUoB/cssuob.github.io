@@ -114,15 +114,12 @@ Our society has won many achievements and awards, including:
     </div>
 </div>
 
-## 2023/2024 Sponsors 🤝
+## 2024/2025 Sponsors 🤝
 
 This year, we are proudly sponsored by:
 
 <div class="sponsors-images">
     <img src="assets/sponsorship/the-Trade-Desk_brand_image.png" alt="the Trade Desk" />
-    <img src="assets/sponsorship/BNY-Mellon_brand_image.png" alt="BNY Mellon" />
-    <img src="assets/sponsorship/bank-of-america_brand_image.png" alt="Bank of America" />
-    <img src="assets/sponsorship/kainos_brand_image.png" alt="Kainos" />
 </div>
 
 If you or your company is interested in sponsoring CSS, please take a look at our Sponsorship Proposal:
