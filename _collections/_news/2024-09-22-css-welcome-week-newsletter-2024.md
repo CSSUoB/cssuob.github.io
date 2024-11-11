@@ -90,6 +90,6 @@ If you know anyone who'd like to join, send them our way at https://cssbham.com/
 If you have any questions, or just want to say hi, we'll be at our stand in the CS Atrium on the 24th and the 25th of September, as well as being available on our discord server at https://cssbham.com/discord. Hope to see you around!
 
 
-Rohit J
-Special Events Officer
-CSS Committee
+Rohit J  
+Special Events Officer  
+CSS Committee  
