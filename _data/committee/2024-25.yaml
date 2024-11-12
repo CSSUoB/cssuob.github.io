@@ -142,13 +142,13 @@ people:
     bio: >
       Hi, I'm Trinity, I'm a 4th year Computer Science student and CSS' EDI Officer! This means it's my job to ensure CSS events are accessible and all members of the society feel represented. Feel free to reach out to me if you have any EDI-related questions, feedback, or ideas!
 
-  - name: 
-    discordtag: 
-    pronouns: 
+  - name: George Barrell
+    pronouns: He/Him
     role: Socials Secretary
-    picture: 
+    picture: /assets/committee/2024-25/mini/george.jpg
     start-date: 6/11/2024
     bio: >
+      Hello everyone, I'm George. My role is to organise and run fun and exciting events for the society! Outside of CSS, I'm an avid speed cuber and chess player. I'm a friendly face (mostly) so feel free to message me on Discord or speak to me if you see me around.
 
   - name: 
     discordtag: 
@@ -165,7 +165,7 @@ people:
     picture: /assets/committee/2024-25/mini/nial.jpg
     start-date: 6/11/2024
     bio: > 
-    Hi, I'm Nial, I'm a postgraduate Computer Science student who grew up down the road from campus in Bournville. I will be ensuring that the society makes awesome events tailored towards the postgrad cohort. If you see me I'm happy to chat on any ideas or concerns you may have or just have a chat in general. I like to code a lot as well play and watch Football with my favourite team being Birmingham City (sadly).
+      Hi, I'm Nial, I'm a postgraduate Computer Science student who grew up down the road from campus in Bournville. I will be ensuring that the society makes awesome events tailored towards the postgrad cohort. If you see me I'm happy to chat on any ideas or concerns you may have or just have a chat in general. I like to code a lot as well play and watch Football with my favourite team being Birmingham City (sadly).
 
   - name: Joseph Adams
     discordtag: itjoe
