@@ -18,7 +18,7 @@ favicon: /ball/favicon.ico
         <span class="avoidwrap">{{ball.location}}</span> • <span class="avoidwrap">{{ball.date}}</span>
     </h2>
 
-    <h3 id="count">Attendees: 172<br></h3>
+    <h3 id="count"><br></h3>
 
     {% for link in ball.links %}
         <a href='{{link.url}}' class="button {% if link.url == '' %}empty"{% else %}" href='{{link.url}}' {% endif %}>
