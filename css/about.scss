@@ -109,10 +109,10 @@ h4 {
   margin: 20px 0;
 }
 
-.social-buttons2 {
+.social-buttons {
   justify-content: center;
   display: grid;
-  grid-template-columns: repeat(2, 185px);
+  grid-template-columns: repeat(3, 185px);
 
   .youtube {
     background-color: #ea3223;
@@ -121,12 +121,10 @@ h4 {
   .github {
     background-color: #161b22;
   }
-}
 
-.social-buttons3 {
-  justify-content: center;
-  display: grid;
-  grid-template-columns: repeat(3, 185px);
+  .whatsapp {
+    background-color: #25d366;
+  }
 
   .facebook {
     background-color: #1877f2;
