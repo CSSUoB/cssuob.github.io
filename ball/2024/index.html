@@ -18,7 +18,7 @@ favicon: /ball/favicon.ico
         <span class="avoidwrap">{{ball.location}}</span> • <span class="avoidwrap">{{ball.date}}</span>
     </h2>
 
-    <h3 id="count"><br></h3>
+    <h3 id="count">Attendees: 172<br></h3>
 
     {% for link in ball.links %}
         <a href='{{link.url}}' class="button {% if link.url == '' %}empty"{% else %}" href='{{link.url}}' {% endif %}>
@@ -83,37 +83,3 @@ favicon: /ball/favicon.ico
 </div>
 <hr>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script>
-    const pos = [52.4800686, -1.9027106];
-
-    var map = L.map('map').setView(pos, 17);
-
-    L.marker(pos).addTo(map);
-    L.tooltip(pos, {content: 'Council House Banqueting Suite', permanent: true, offset: [5, 0]}).addTo(map);
-
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    }).addTo(map);
-
-    const countDownDate = new Date("Apr 24, 2024 19:00:00").getTime();
-
-    (function updateTimer() {
-        let now = new Date().getTime();
-        let distance = countDownDate - now;
-        let days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        document.getElementById("count").innerHTML = days + " <span>days</span> " + hours + " <span>hours</span> "
-            + minutes + " <span>minutes</span> " + seconds + " <span>seconds</span>";
-
-        if (distance < 0) {
-            document.getElementById("count").innerHTML = "<a href='https://cssbham.com/join'>cssbham.com/join</a>";
-        } else {
-            setTimeout(updateTimer, 1000)
-        }
-    })();
-</script>
