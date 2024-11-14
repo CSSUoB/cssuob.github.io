@@ -93,7 +93,7 @@ favicon: /ball/favicon.ico
             + minutes + " <span>minutes</span> " + seconds + " <span>seconds</span>";
 
         if (distance < 0) {
-            document.getElementById("count").innerHTML = "<a href='https://cssbham.com/join'>cssbham.com/join</a>";
+document.getElementById("count").innerHTML = "Attendees: "+{{ball.attendees}};
         } else {
             setTimeout(updateTimer, 1000)
         }
