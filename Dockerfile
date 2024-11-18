@@ -1,4 +1,4 @@
-FROM ruby:3.3.5 AS base
+FROM ruby:3.3.6 AS base
 
 RUN bundle config --global frozen 1 && \
     mkdir -p /vendor/bundle && \
