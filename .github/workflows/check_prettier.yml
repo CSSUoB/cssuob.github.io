@@ -2,9 +2,9 @@ name: Check Prettier has been run
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
 
 jobs:
   prettier:
