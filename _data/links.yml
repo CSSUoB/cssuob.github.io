@@ -1,11 +1,4 @@
 - type: divider
-  text: Christmas Meal
-  
-- text: Get Christmas Meal Tickets
-  url: /christmas
-  image: /assets/tex/tex_christmas.svg
-
-- type: divider
   text: "General"
 
 - text: Get membership!
