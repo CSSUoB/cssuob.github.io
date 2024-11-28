@@ -166,5 +166,11 @@ td:nth-child(4) {
 }
 
 .past-events {
-  margin: 0 450px 0 450px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+  grid-auto-flow: column;
+  width: 100%;
+  margin: 0 30px 30px 0;
 }

@@ -1,38 +1,30 @@
 - type: divider
-  text: Ball
-  
-- text: CSS Ball 2024 Photos
-  url: /ball/2024/photos
-  image: /assets/tex/tex_ball.svg
-
-- type: divider
   text: "General"
 
 - text: Get membership!
   url: /join
   image: /assets/images/guild-colour-logo.png
 
-- text: Join our Discord
+- text: Join our Discord community
   url: /discord
   image: /assets/images/discord-logo.png
 
-- text: View upcoming events on our Instagram
+- text: Follow us on Instagram
   url: /instagram
   image: /assets/images/instagram-logo.png
 
-- text: "Find out about AFNOM's 'Missing Semester'"
+- text: Read Missing Semester lecture notes
   url: https://missingsemester.afnom.net/
   image: /assets/images/afnom_logo.png
-
-- text: Buy a CSS rubber duck
-  url: /ducks
-  image: https://www.guildofstudents.com/asset/Event/6531/CSSDuck.png
 
 - text: "Meet our mascot: TeX"
   url: /tex
   image: /assets/tex/raster/tex_original.png
 
-- text: Check us out on Facebook
-  url: /facebook
-  image: /assets/images/facebook-logo.png
+- type: divider
+  text: Ball
+  
 
+- text: CSS Ball 2024 Photos
+  url: /ball/2024/photos
+  image: /assets/tex/tex_ball.svg

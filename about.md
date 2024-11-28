@@ -69,7 +69,7 @@ we recommend that you join our Facebook Group linked below! 👇
 
 You can also find links to all of our other various social media accounts:
 
-<div class="social-buttons3">
+<div class="social-buttons">
     <a href="/ig" class="social-link insta">
         <h4><i class="fab fa-instagram"></i> Instagram</h4>
     </a>
@@ -81,9 +81,11 @@ You can also find links to all of our other various social media accounts:
     <a href="/in" class="social-link linkedin">
         <h4><i class="fab fa-linkedin"></i> LinkedIn</h4>
     </a>
-</div>
 
-<div class="social-buttons2">
+    <a href="/wa" class="social-link whatsapp">
+        <h4><i class="fab fa-whatsapp"></i> WhatsApp</h4>
+    </a>
+
     <a href="/yt" class="social-link youtube">
         <h4><i class="fab fa-youtube"></i> YouTube</h4>
     </a>
@@ -114,15 +116,12 @@ Our society has won many achievements and awards, including:
     </div>
 </div>
 
-## 2023/2024 Sponsors 🤝
+## 2024/2025 Sponsors 🤝
 
 This year, we are proudly sponsored by:
 
 <div class="sponsors-images">
     <img src="assets/sponsorship/the-Trade-Desk_brand_image.png" alt="the Trade Desk" />
-    <img src="assets/sponsorship/BNY-Mellon_brand_image.png" alt="BNY Mellon" />
-    <img src="assets/sponsorship/bank-of-america_brand_image.png" alt="Bank of America" />
-    <img src="assets/sponsorship/kainos_brand_image.png" alt="Kainos" />
 </div>
 
 If you or your company is interested in sponsoring CSS, please take a look at our Sponsorship Proposal:

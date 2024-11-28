@@ -305,9 +305,26 @@ function parseHTML(html, otherValidTags = null, otherValidProperties = null) {
   }
 
   const validTags = [
-    "a", "b", "br", "code", "em", "i", "p", "span", "strong", "sup", "u",
-    "h1", "h2", "h3", "h4", "h5", "h6",
-    "ul", "ol", "li",
+    "a",
+    "b",
+    "br",
+    "code",
+    "em",
+    "i",
+    "p",
+    "span",
+    "strong",
+    "sup",
+    "u",
+    "h1",
+    "h2",
+    "h3",
+    "h4",
+    "h5",
+    "h6",
+    "ul",
+    "ol",
+    "li",
   ];
   const validProperties = new Map([["a", ["href"]]]);
   html = sanitizeTags(

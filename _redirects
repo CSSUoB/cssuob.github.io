@@ -31,6 +31,8 @@
 /gh /github
 /texbot https://github.com/CSSUoB/TeX-Bot-Py-V2
 /tex /texbot
+/whatsapp https://chat.whatsapp.com/HA2wW0rxk9lH7DmNDXrsBB
+/wa /whatsapp
 
 # Ball
 /ball /ball/2024
@@ -90,3 +92,11 @@
 # Scavenger Hunt
 /scavenger-hunt https://forms.gle/mL6L6Ar2SJoKcZej8
 /hunt /scavenger-hunt
+
+# Bar Crawl
+/bar-crawl https://www.guildofstudents.com/events/6531/10077/
+/pub-crawl /bar-crawl
+/barcrawl /bar-crawl
+/pubcrawl /bar-crawl
+
+
