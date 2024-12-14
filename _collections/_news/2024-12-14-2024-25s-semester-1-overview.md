@@ -10,10 +10,10 @@ What a blazing start it's been for CSS - there's so much that's happened, even I
 If you need a quick reminder on what's happened, let's go over everything...
 
 # What's been on this semester
-Since our welcome week, we've been running a series of new events mixed in with old ones, both with old friends and new
-ones. We kicked things off with our classic Cream Tea event, joined by TeaSoc! Even if we ended up buying Sainsbury's
-full stock of scones and forgot the cream, it was still an incredibly successful event, giving us the chance to catch
-up with everyone after the chaos of welcome week. Thank you once again to TeaSoc for hosting this event with us <3
+Since our welcome week, we've been running a mix of new and recurring events, kicking off first with Cream Tea with TeaSoc! 
+Even if we ended up buying Sainsbury's full stock of scones and forgot the cream, it was still an incredibly successful 
+event, giving us the chance to catch up with everyone after the chaos of welcome week. Thank you once again to
+TeaSoc for hosting this event with us <3
 
 ![A view of the room for the Cream Tea event.](/assets/images/2024-semester-1/cream-tea.png)
 
