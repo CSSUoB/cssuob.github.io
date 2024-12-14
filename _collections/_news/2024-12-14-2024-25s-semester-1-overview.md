@@ -58,9 +58,9 @@ semester, and it was wonderful to see so many people there!
 
 ![A picture of members at the Christmas Meal in the Green Man, some students sitting at tables.](/assets/images/2024-semester-1/christmas-meal.png)
 
-And lastly, on the 8th of December, we were able to host the Discord Botathon - the last iteration being held in 2021.
-Seven different teams responded to the call and built a Discord bot from scratch, learning from the bot workshop held 
-the day beforehand. Here's how the final standings looked:
+Finally, on the 8th of December we hosted the Discord Botathon, the first since 2021.
+Seven different teams responded to the call and built a Discord bot from scratch, some learning from the bot workshop held 
+the day before. Here's how the final standings looked:
 
 1. **Texagotchi**, with their beautiful illustrations of TeX and creative approach to the Tamagotchi concept!
 2. **Garlic Tone**, that looked like it was ready to break every time we came to judge it, but took advantage of Discord's
