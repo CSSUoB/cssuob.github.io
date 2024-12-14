@@ -128,8 +128,8 @@ be the same without you - thank you for making this our best semester in CSS' hi
 # What's next
 As I round off this newsletter, I'd like to give you a brief glimpse into what we're looking to prepare next semester. 
 
-We've already started planning and even finalisation of our larger events, such as our trip to the National Museum of
-Computing, the glamorous ball, and the AGM to elect the entirety of committee for the new year. However, we also have a
+We've already started planning our larger events, such as our trip to the National Museum of
+Computing, the glamorous Ball, and the AGM to elect the entirety of committee for the new year. However, we also have a
 mystery event that we are currently working with the school on, as well as a few other societies to participate in. It's
 been a long while since we've seen this kind of event at UoB, but perhaps some events we've run this semester and will
 run the next semester too may give you a small idea... oh yeah, and calling for peace in the chaos of war against Bad
