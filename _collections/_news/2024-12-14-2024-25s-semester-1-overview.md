@@ -25,7 +25,7 @@ Matt, who travelled across the country to come back to UoB and give a beginner's
 Lua mug and a laptop with Lua on it.](/assets/images/2024-semester-1/lua-workshop.png)
 
 After that, we leaned back into our social side and ran our annual Halloween Quiz, where we saw a vast range of bizarre
-costumes and teams battling for wit to win a swarm of Blahajs, and an Aftonsparv for the costume competition! Despite
+costumes and teams battling to win a swarm of Blahajs, and an Aftonsparv for the costume competition! Despite
 a marking error at the end that did end up affecting the final scores (oops), the event went wonderfully and it was 
 incredible to see so many people dressed up.
 
