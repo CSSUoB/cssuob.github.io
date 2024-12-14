@@ -31,10 +31,10 @@ incredible to see so many people dressed up.
 
 ![A picture of the Halloween Quiz inside of the Computer Science atrium.](/assets/images/2024-semester-1/halloween-quiz.png)
 
-Then, sometime in between, we got declared war upon by Bad Film Society, where they egregiously accused us of using their
+Then, sometime in between we were declared war upon by Bad Film Society, who egregiously accused us of using their
 "brand identity" for some harmless publicity... needless to say, I will break my silence on this matter and will confirm
 that I have not tolerated this baseless slander, and that we have spoken diplomatically to find a negotiation that will 
-appease both parties, but I fear that we will have to resort to measures that will take us both down, as I will not 
+appease both parties. However, I fear that we will have to resort to measures that will take us both down, as I will not 
 kneel to Bad Film's unreasonable demands and let them step over CSS like a doormat. We will win this war, one way or 
 another!! 🔥🔥🔥
 
