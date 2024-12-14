@@ -47,7 +47,7 @@ and the return of the legendary Discord Botathon!
 
 On the 30th of November, we hosted a bar crawl that traversed throughout the city of Birmingham, starting at Mr Mulligan's,
 making our way to the energetic Heidi's, partying our way to the Brasshouse before finally finishing off at the Soloman
-Cutler, concluding an incredibly successful bar crawl.
+Cutler.
 
 ![A picture of members at the bar crawl inside the Soloman Cutler.](/assets/images/2024-semester-1/bar-crawl.png)
 
