@@ -1,0 +1,50 @@
+---
+layout: page
+styles:
+  - /css/main.css
+  - /css/ball/2025/main.css
+title: CSS Ball
+---
+
+{% assign ball = site.data.ball.2025 %}
+
+<div class="text-center-div margin-top margin-bottom section-details">
+    <h1 class="title">
+        {{ ball.name }} {{ ball.year }}
+    </h1>
+
+    <h2>
+        <span class="avoidwrap">{{ball.location}}</span> • <span class="avoidwrap">{{ball.date}}</span>
+    </h2>
+
+    {% for link in ball.menu-links %}
+        <a href='{{link.url}}' class="button {% if link.url == '' %}empty"{% else %}" href='{{link.url}}' {% endif %}>
+            {{link.text}}{% if link.url == '' %} (Coming Soon){% endif %}</a>
+    {% endfor %}
+</div>
+<hr>
+<div class="text-center-div menu margin-bottom">
+    <h2 class="subtitle">Menu</h2>
+    <div class="text-center-div margin-bottom menu-footer">
+        <p class="text-block">
+            The venue will alter your chosen dish to account for any dietary requirements. Please ensure to enter any allergy or dietary information when you purchase your ticket.
+            If a dietary requirement means that the dish cannot be altered to meet your requirements the venue will provide an alternative. 
+        </p>
+    </div>
+    {% for section in ball.menu %}
+        <hr class="small">
+        <h3 class="menu-section-title">{{ section[0] | capitalize }}</h3>
+        {% assign first = false %}
+        {% for item in section[1] %}
+        {% if first != false %}<div class="menu-item-seperator">- OR -</div>{% endif %}
+        <div class="menu-item-container">
+            <h2 class="menu-item">{{ item.dish }}</h2>
+            <br>
+            {% if item.type %}
+            <h3 class="menu-type">{{ item.type }}</h3>
+            {% endif %}
+        </div>
+        {% assign first = true %}
+        {% endfor %}
+    {% endfor %}
+</div>
