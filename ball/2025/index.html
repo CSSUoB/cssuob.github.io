@@ -31,7 +31,7 @@ favicon: /ball/favicon.ico
     <img class="image" src="/assets/images/ball-24-venue.png" alt="Image of the Banqueting Suite, where the CSS Ball is being held.">
     <div class="description-left text-center-div">
         <h2 class="subtitle">The Venue</h2>
-        <p class="text-block">For this year's ball we'll be at the beautiful Banqueting Suite!<br><br>
+        <p class="text-block">NOT DECIDED YET!<br><br>
             We'll have exclusive access to several rooms and facilities including a bar, gorgeous dining room, and of course the dancefloor!
         </p>
     </div>
@@ -62,7 +62,7 @@ favicon: /ball/favicon.ico
             </table>
             <br>
       <div class="ticket-buttons">
-        <a class="button" href="https://www.guildofstudents.com/events/6531/8760/">Buy Tickets</a>
+        <a class="button" href="https://www.guildofstudents.com/events/6531/10315/">Buy Tickets</a>
         <a class="button" href="https://cssbham.com/join">Buy Membership</a>
       </div>
     </div>
@@ -83,7 +83,20 @@ favicon: /ball/favicon.ico
 </div>
 <hr>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
+    const pos = [52.4800686, -1.9027106];
+
+    var map = L.map('map').setView(pos, 17);
+
+    L.marker(pos).addTo(map);
+    L.tooltip(pos, {content: 'Council House Banqueting Suite', permanent: true, offset: [5, 0]}).addTo(map);
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
     const countDownDate = new Date("Apr 4, 2025 19:00:00").getTime();
 
     (function updateTimer() {
@@ -98,7 +111,7 @@ favicon: /ball/favicon.ico
             + minutes + " <span>minutes</span> " + seconds + " <span>seconds</span>";
 
         if (distance < 0) {
-            document.getElementById("count").innerHTML = "Attendees: "+{{ball.attendees}};
+            document.getElementById("count").innerHTML = "<a href='https://cssbham.com/join'>cssbham.com/join</a>";
         } else {
             setTimeout(updateTimer, 1000)
         }
