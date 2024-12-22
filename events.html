@@ -3,8 +3,7 @@ layout: page
 title: Events
 styles:
   - /css/events.css
-scripts:
-  - /js/fadein.js
+  - /css/fadein.css
 ---
 
 <div class="page-header">
@@ -33,7 +32,7 @@ scripts:
 
 <div class="events-listing fadein-container">
   {% for event in site.events %} 
-  <div class="event fadein hidden {% if event.long %} event-long {% endif %} {{ event.decoration }} {{ event.side }}">
+  <div class="event fadein hidden {% if event.long %} event-long {% endif %} {{ event.decoration }} {{ event.side }}" style="--child-index: {{ forloop.index }};">
     <img
       alt="{{ event.title }}"
       class="event-image"
