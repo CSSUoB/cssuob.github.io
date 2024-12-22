@@ -51,7 +51,7 @@ body {
 
 main {
   font-family: "Roboto", sans-serif;
-  width: 80%;
+  width: min(1550px, 95%);
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -344,27 +344,16 @@ header {
   }
 }
 
-@media only screen and (max-width: 800px) {
-  main {
-    width: 95%;
-  }
-
+@media only screen and (max-width: 1050px) {
   header {
     .left {
       padding-left: 10px;
     }
 
     .right {
+      display: none;
       padding-right: 10px;
       font-size: 2vw;
-    }
-  }
-}
-
-@media only screen and (max-width: 880px) {
-  header {
-    .right {
-      display: none;
     }
 
     .hamburger {

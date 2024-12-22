@@ -1,0 +1,72 @@
+---
+layout: page
+title: Events
+styles:
+  - /css/events.css
+  - /css/fadein.css
+---
+
+<div class="page-header">
+  <div class="page-information">
+    <div class="page-description">
+      <h1>Events</h1>
+      <p>
+        Welcome to CSS! We do a lot of events throughout the year, both for CS students and
+        the wider university as well. This page details some of the stuff that we do
+        and what you can expect at them.
+      </p>
+    </div>
+
+    <div class="calendar-callout">
+      <p><i class="fas fa-calendar"></i>
+        For all our upcoming and recent events, <b>see our <a href="/calendar">calendar</a></b>!
+      </p>
+    </div>
+  </div>
+  <div class="tex">
+    <a href="/tex">
+      <img src="/assets/tex/tex_megaphone.svg">
+    </a>
+  </div>
+</div>
+
+<div class="events-listing fadein-container">
+  {% for event in site.events %} 
+  <div class="event fadein hidden {% if event.long %} event-long {% endif %} {{ event.decoration }} {{ event.side }}" style="--child-index: {{ forloop.index }};">
+    <img
+      alt="{{ event.title }}"
+      class="event-image"
+      loading="lazy"
+      src="{{ event.image }}"
+    />
+    
+    {% if "missing-semester" == event.decoration %}
+    <div class="swooshy-thing"> </div>
+    {% endif %}
+
+    {% if "ball" == event.decoration %}
+    <a class="decorative-tex" href="/ball">
+      <img
+        alt="Ball TeX"
+        src="/assets/tex/raster/tex_ball.png"
+      />
+    </a>
+    {% endif %}
+    
+    <div class="details">
+      <h2>{{ event.title }}</h2>
+
+      {{ event.content | markdownify }}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="page-footer">
+  <p>
+    We also run many other events, such as our <b>Hallowe'en quiz</b>, 
+    <b>bouldering</b>, <b>competitions</b>, <b>mixers</b>, and <b>various collabs with other societies</b> 
+    to name a few. Plus, we're always trying out new events and working on suggestions, so please see 
+    our <a href="/calendar">calendar</a> for the latest from CSS!
+  </p>
+</div>
