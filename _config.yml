@@ -27,12 +27,12 @@ menu:
         link: /ball/2021
       - name: 2020
         link: /ball/2020
+  - name: Events
+    link: /events
   - name: Newsletter
     link: /newsletter
   - name: Committee
     link: /committee
-  - name: Clubs
-    link: /clubs
   - name: Calendar
     link: /calendar
   - name: Sponsor
@@ -55,6 +55,8 @@ collections:
     output: true
     permalink: /newsletter/:title
   clubs:
+  events:
+    sort_by: order
 
 feed:
   collections:
