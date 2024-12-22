@@ -1,5 +1,6 @@
 ---
 ---
+
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&family=Ovo&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
 
@@ -26,7 +27,7 @@
   max-width: 100%;
   border-radius: 10px;
   padding: 15px;
-  
+
   * {
     color: black;
   }
@@ -41,7 +42,7 @@
   border-radius: 10px;
   background-color: #9d68dc;
   padding: 5px 15px;
-  
+
   a {
     color: #fff;
   }
@@ -59,9 +60,9 @@
   background-color: #fff;
   border-radius: 10px;
   width: 100%;
-  position: relative; 
+  position: relative;
   transition: opacity 0.1s;
-  
+
   overflow: hidden;
 
   * {
@@ -71,7 +72,7 @@
   &.hidden {
     opacity: 0;
   }
-  
+
   .details {
     padding-top: 5px;
     padding-left: 15px;
@@ -81,21 +82,21 @@
       color: #9d68dc;
     }
   }
-  
+
   .event-image {
     height: 15rem;
     max-width: none;
     width: 100%;
     object-fit: cover;
   }
-  
+
   &.missing-semester {
     background-color: #303030;
-    
+
     * {
       color: #fff;
     }
-    
+
     .swooshy-thing::before {
       content: " ";
       height: 1rem;
@@ -103,10 +104,16 @@
       display: block;
       position: relative;
       margin-top: -1rem;
-      background: repeating-linear-gradient(-45deg, #2f3c63, #2f3c63 100px, #0CE3AC 100px, #0CE3AC 200px);
+      background: repeating-linear-gradient(
+        -45deg,
+        #2f3c63,
+        #2f3c63 100px,
+        #0ce3ac 100px,
+        #0ce3ac 200px
+      );
     }
   }
-  
+
   &.tex-talks {
     background-color: #dac6fa;
 
@@ -116,7 +123,7 @@
       }
     }
   }
-  
+
   &.ball {
     border: 2px solid #e4d05f;
 
@@ -145,7 +152,6 @@
       }
 
       background-color: rgba(0, 0, 0, 0.2666666667);
-      
     }
   }
 
@@ -156,7 +162,7 @@
       width: 50%;
       float: right;
       height: 18rem;
-      
+
       &.anchor-bottom {
         object-position: bottom;
       }
@@ -168,7 +174,7 @@
       position: absolute;
       top: 0;
     }
-    
+
     &.verso {
       .event-image {
         float: right;
@@ -190,7 +196,6 @@
         text-align: right;
       }
     }
-
   }
 }
 
@@ -198,11 +203,12 @@
   .events-listing {
     grid-template-columns: 1fr;
   }
-  
+
   .event.event-long {
     grid-column: 1;
-    
-    &.verso, &.recto {
+
+    &.verso,
+    &.recto {
       .event-image {
         width: inherit;
         float: inherit;
@@ -226,8 +232,9 @@
       }
     }
   }
-  
-  .tex, .decorative-tex {
+
+  .tex,
+  .decorative-tex {
     display: none;
   }
 }
