@@ -4,8 +4,7 @@ title: Committee Archive
 styles:
   - /css/committee.css
   - /css/flags.css
-scripts:
-  - /js/fadein.js
+  - /css/fadein.css
 ---
 
 <h1>Committee Archive</h1>
@@ -27,7 +26,7 @@ scripts:
     <div class="person-container fadein-container">
       {% for person in committee.people %}
         {% if person.end-date %}
-        <div class="person fadein hidden">
+        <div class="person fadein" style="--child-index: {{ forloop.index }};">
           <img class="picture" src="{{ person.picture | relative_url }}" alt="picture of {{ person.name }}">
           <div class="details">
             <span class="name">{{ person.name }}</span>

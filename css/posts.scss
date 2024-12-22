@@ -11,9 +11,6 @@ $preview-height: 150px;
 
   margin-bottom: 20px;
 
-  opacity: 0;
-  transition: opacity 0.1s;
-
   text-decoration: none;
 
   height: $preview-height;
@@ -49,10 +46,6 @@ $preview-height: 150px;
         color: grey;
       }
     }
-  }
-
-  &.visible {
-    opacity: 1;
   }
 }
 

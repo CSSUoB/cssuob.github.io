@@ -3,8 +3,7 @@ layout: page
 title: Developer Student Clubs
 styles:
   - /css/clubs.css
-scripts:
-  - /js/fadein.js
+  - /css/fadein.css
 ---
 
 <a class="dsc-logo" href="https://developers.google.com/community/dsc/">
@@ -60,7 +59,7 @@ scripts:
   <div class="clubs-list">
     {% for session in site.clubs reversed %} {% if forloop.first == true %} {%
     continue %} {% endif %}
-    <div class="club not-recent fadein">
+    <div class="club not-recent fadein" style="--child-index: {{ forloop.index + 1}};">
       {% if session.header-image %}
       <img
         alt="{{ session.title }}"
