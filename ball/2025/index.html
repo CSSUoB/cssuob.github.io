@@ -85,12 +85,12 @@ favicon: /ball/favicon.ico
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-    const pos = [52.4800686, -1.9027106];
+    const pos = [52.47881, -1.89882];
 
     var map = L.map('map').setView(pos, 17);
 
     L.marker(pos).addTo(map);
-    L.tooltip(pos, {content: 'Council House Banqueting Suite', permanent: true, offset: [5, 0]}).addTo(map);
+    L.tooltip(pos, {content: 'Burlington Hotel', permanent: true, offset: [5, 0]}).addTo(map);
 
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,

@@ -1,15 +1,12 @@
 name: CSS BALL
 year: 2025
-location: TBD
+location: Macdonald Burlington Hotel
 date: 4th April
 
 tickets:
   - type: 3 Course
     member-price: £35
     non-member-price: £45
-  - type: 2 Course
-    member-price: £30
-    non-member-price: £40
   - type: Non-Food
     member-price: £22
     non-member-price: £28
@@ -66,8 +63,6 @@ faq:
     answer: The venue can handle catering for most dietary requirements, and there are vegan and gluten free options. Make sure to let us know any dietary requirements when you purchase your ticket. For more info on the menu please check the menu page <a href=/ball/2024/menu> here </a>.
   - question: What should I wear?
     answer: Dress to impress! <br>Don your fanciest frocks, smartest suits or whatever you feel fabulous in. It's going to be the big night of the year so feel free to go all out!
-  - question: When do I need to get there?
-    answer: We're still finalising details but we'll let you know as soon as we can!
   - question: Will I be photographed?
     answer: Yes. We'll have a photographer taking photos all night so we can share them all with you afterwards. If you don't want to be in photos, please speak to our lovely photographer on the night or email us in advance.
   - question: I bought a ticket but can't attend anymore.
