@@ -4,8 +4,7 @@ title: Committee
 styles:
   - /css/committee.css
   - /css/flags.css
-scripts:
-  - /js/fadein.js
+  - /css/fadein.css
 ---
 
 <h1>Committee</h1>
@@ -43,7 +42,7 @@ scripts:
     {% assign committee = committees[1] %}
     {% for person in committee.people %}
       {% unless person.end-date %}
-      <div class="person fadein hidden">
+      <div class="person fadein" style="--child-index: {{ forloop.index }};">
           <img class="picture" src="{{ person.picture | relative_url }}" alt="picture of {{ person.name }}">
         <div class="details">
           <span class="name">{{ person.name }}</span>

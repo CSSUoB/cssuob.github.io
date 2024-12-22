@@ -3,8 +3,7 @@ layout: page
 title: Newsletter
 styles:
   - /css/posts.css
-scripts:
-  - /js/fadein.js
+  - /css/fadein.css
 favicon: /favicon.ico
 ---
 
@@ -16,7 +15,7 @@ favicon: /favicon.ico
 
 <div class="fadein-container">
   {% for post in site.news reversed %}
-  <a class="post-preview fadein" href="{{ post.url | relative_url }}">
+  <a class="post-preview fadein" style="--child-index: {{ forloop.index }};" href="{{ post.url | relative_url }}">
     {% if post.thumbnail %}
     <img alt="{{ post.title }}" class="post-thumbnail" src="{{ post.thumbnail | relative_url }}">
     {% endif %}

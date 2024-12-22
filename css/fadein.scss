@@ -1,0 +1,25 @@
+---
+---
+
+.fadein-container {
+  --delay: 0.05s;
+}
+
+.fadein {
+  opacity: 0;
+  transform: translateY(5px);
+  animation: fadeIn 1s ease forwards;
+  animation-delay: calc(var(--delay) * var(--child-index));
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

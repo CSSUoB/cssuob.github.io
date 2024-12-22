@@ -7,13 +7,6 @@
 }
 
 .person {
-  opacity: 1;
-  transition: opacity 0.1s;
-
-  &.hidden {
-    opacity: 0;
-  }
-
   background-color: #fdfdfd;
   overflow: hidden;
   border-radius: 10px;

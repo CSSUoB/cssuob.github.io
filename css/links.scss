@@ -51,9 +51,6 @@ $preview-height-small: 45px;
 
   margin-bottom: 20px;
 
-  opacity: 0;
-  transition: opacity 0.1s;
-
   text-decoration: none;
 
   @include set-height();
@@ -92,10 +89,6 @@ $preview-height-small: 45px;
         color: grey;
       }
     }
-  }
-
-  &.visible {
-    opacity: 1;
   }
 }
 

@@ -3,8 +3,7 @@ layout: page
 title: Links
 styles:
 - /css/links.css
-scripts:
-- /js/fadein.js
+- /css/fadein.css
 favicon: /favicon.ico
 ---
 <div style="display: flex; justify-content: center;">
@@ -18,7 +17,7 @@ favicon: /favicon.ico
         {% if link.type == "divider" %}
         <h4 style="padding-bottom: 10px;">{{ link.text }}</h4>
         {% else %}
-        <a class=" wide-child post-preview fadein" href="{{ link.url }}">
+        <a class=" wide-child post-preview fadein" style="--child-index: {{ forloop.index }};" href="{{ link.url }}">
             {% if link.image %}
             <div class="post-thumbnail-container">
                 <img alt="{{ link.text }}" src="{{ link.image | relative_url }}">
