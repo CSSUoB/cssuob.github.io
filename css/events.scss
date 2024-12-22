@@ -1,0 +1,239 @@
+---
+---
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&family=Ovo&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+
+.page-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 1rem;
+
+  .page-information {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .tex {
+    max-width: 280px;
+    min-width: 280px;
+  }
+}
+
+.page-description {
+  background-color: #fff;
+  max-width: 100%;
+  border-radius: 10px;
+  padding: 15px;
+  
+  * {
+    color: black;
+  }
+}
+
+.page-footer {
+  margin-top: 1rem;
+}
+
+.calendar-callout {
+  max-width: 100%;
+  border-radius: 10px;
+  background-color: #9d68dc;
+  padding: 5px 15px;
+  
+  a {
+    color: #fff;
+  }
+}
+
+.events-listing {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.event {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  position: relative; 
+  transition: opacity 0.1s;
+  
+  overflow: hidden;
+
+  * {
+    color: black;
+  }
+
+  &.hidden {
+    opacity: 0;
+  }
+  
+  .details {
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    a {
+      color: #9d68dc;
+    }
+  }
+  
+  .event-image {
+    height: 15rem;
+    max-width: none;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  &.missing-semester {
+    background-color: #303030;
+    
+    * {
+      color: #fff;
+    }
+    
+    .swooshy-thing::before {
+      content: " ";
+      height: 1rem;
+      width: 100%;
+      display: block;
+      position: relative;
+      margin-top: -1rem;
+      background: repeating-linear-gradient(-45deg, #2f3c63, #2f3c63 100px, #0CE3AC 100px, #0CE3AC 200px);
+    }
+  }
+  
+  &.tex-talks {
+    background-color: #dac6fa;
+
+    .details {
+      a {
+        color: #7d3acf;
+      }
+    }
+  }
+  
+  &.ball {
+    border: 2px solid #e4d05f;
+
+    * {
+      color: #fff;
+      font-family: "Ovo", serif;
+    }
+
+    background-image: url("/assets/events/ball/2022-background.png");
+
+    .decorative-tex {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      z-index: 60;
+      margin-bottom: -60px;
+      right: 55%;
+      bottom: 0;
+    }
+
+    .details {
+      h2 {
+        font-family: "Gentium Book Basic", serif;
+        color: #cbb347;
+        font-size: 2.5em;
+      }
+
+      background-color: rgba(0, 0, 0, 0.2666666667);
+      
+    }
+  }
+
+  &.event-long {
+    grid-column: span 3;
+
+    .event-image {
+      width: 50%;
+      float: right;
+      height: 18rem;
+      
+      &.anchor-bottom {
+        object-position: bottom;
+      }
+    }
+
+    .details {
+      max-width: calc(50% - 30px);
+      height: 100%;
+      position: absolute;
+      top: 0;
+    }
+    
+    &.verso {
+      .event-image {
+        float: right;
+      }
+
+      .details {
+        left: 0;
+        text-align: left;
+      }
+    }
+
+    &.recto {
+      .event-image {
+        float: left;
+      }
+
+      .details {
+        right: 0;
+        text-align: right;
+      }
+    }
+
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .events-listing {
+    grid-template-columns: 1fr;
+  }
+  
+  .event.event-long {
+    grid-column: 1;
+    
+    &.verso, &.recto {
+      .event-image {
+        width: inherit;
+        float: inherit;
+        height: inherit;
+        float: inherit;
+
+        height: 15rem;
+        max-width: none;
+        width: 100%;
+        object-fit: cover;
+      }
+
+      .details {
+        left: unset;
+        right: unset;
+        text-align: unset;
+        top: unset;
+        position: inherit;
+        max-width: unset;
+        height: unset;
+      }
+    }
+  }
+  
+  .tex, .decorative-tex {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1550px) {
+  .decorative-tex {
+    display: none;
+  }
+}
