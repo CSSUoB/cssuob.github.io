@@ -92,6 +92,10 @@ title: Meetings
                             <li>
                                 EGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}egm/agenda.pdf'>Agenda</a>
                             </li>
+                        {% elsif file.path contains 'plan' %}
+                            <li>
+                                Planning Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}plan/minutes.pdf'>Minutes</a>
+                            </li>
                         {% else %}
                             <li>
                                 Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}agenda.pdf'>Agenda</a>
