@@ -76,7 +76,7 @@ title: Meetings
                             </li>
                         {% elsif file.path contains 'egm' %}
                             <li>
-                                EGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}egm_agenda.pdf'>Agenda</a> - <a href='{{path1}}egm/minutes.pdf'>Minutes</a>
+                                EGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}egm/agenda.pdf'>Agenda</a> - <a href='{{path1}}egm/minutes.pdf'>Minutes</a>
                             </li>
                         {% else %}
                             <li>
@@ -98,7 +98,7 @@ title: Meetings
                                 <li>
                                     Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}minutes.pdf'>Minutes</a>
                                 </li>
-                            {% else %}
+                            {%else %}
                                 <li>
                                     Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}agenda.pdf'>Agenda</a>
                                 </li>
