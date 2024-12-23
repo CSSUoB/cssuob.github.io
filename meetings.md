@@ -98,7 +98,7 @@ title: Meetings
                                 <li>
                                     Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}minutes.pdf'>Minutes</a>
                                 </li>
-                            {%else %}
+                            {% else %}
                                 <li>
                                     Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}agenda.pdf'>Agenda</a>
                                 </li>
