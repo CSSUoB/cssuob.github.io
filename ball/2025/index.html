@@ -88,8 +88,8 @@ favicon: /ball/favicon.ico
 <script>
     const pos = [52.47881, -1.89882];
 
-    var L = window.L;
-    var map = L.map('map').setView(pos, 17);
+    let L = window.L;
+    let map = L.map('map').setView(pos, 17);
 
     L.marker(pos).addTo(map);
     L.tooltip(pos, {content: 'Burlington Hotel', permanent: true, offset: [5, 0]}).addTo(map);
