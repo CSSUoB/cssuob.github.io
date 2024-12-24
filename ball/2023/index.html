@@ -7,7 +7,7 @@ title: CSS Ball
 favicon: /ball/favicon.ico
 ---
 
-{% assign ball = site.data.ball.2023 %}
+{% assign ball = site.data.ball['2023'] %}
 
 <div class="text-center-div margin-top margin-bottom section-details">
     <h1 class="title">
@@ -93,7 +93,7 @@ favicon: /ball/favicon.ico
             + minutes + " <span>minutes</span> " + seconds + " <span>seconds</span>";
 
         if (distance < 0) {
-document.getElementById("count").innerHTML = "Attendees: "+{{ball.attendees}};
+            document.getElementById("count").innerHTML = "Attendees: {{ ball.attendees }}";
         } else {
             setTimeout(updateTimer, 1000)
         }

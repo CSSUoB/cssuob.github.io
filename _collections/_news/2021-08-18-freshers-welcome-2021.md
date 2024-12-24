@@ -25,8 +25,9 @@ We run the department’s largest (and best😉) online community in our Discord
 
 
 
-By becoming a member of CSS you’ll be supporting the society and help us run exciting events to give you the best uni experience. You’ll also get access to our big ticketed events like the CSS Ball; collect a variety of TeX stickers; and get access to exclusive CSS merch. ![](https://lh6.googleusercontent.com/OM9VN5j8kq8GPsJRof8h_m2hU0QC3-tI46RE_gUaE7mbWUfK7_ZqB2u1T8QA_SoN_RyDzKXFsOVW5Bh2sgNbMmicjPQC5czGmf7HzcBiV1DvumwvlE1DQCKIVAdZCBIVgRgep3C-)
+By becoming a member of CSS you’ll be supporting the society and help us run exciting events to give you the best uni experience. You’ll also get access to our big ticketed events like the CSS Ball; collect a variety of TeX stickers; and get access to exclusive CSS merch. ![TeX](https://lh6.googleusercontent.com/OM9VN5j8kq8GPsJRof8h_m2hU0QC3-tI46RE_gUaE7mbWUfK7_ZqB2u1T8QA_SoN_RyDzKXFsOVW5Bh2sgNbMmicjPQC5czGmf7HzcBiV1DvumwvlE1DQCKIVAdZCBIVgRgep3C-)
 _TeX, our purple dino mascot. You'll see a lot more of them throughout the year._
+
 ## What can I do in Freshers’ Week? 🥳
 
 Freshers’ Week (20th-24th September) will be the perfect opportunity for you to kick off your time at university and we’re working hard to organise some awesome events for you. Keep your eyes on our social media and our [events calendar](https://cssbham.com/calendar).

@@ -1,0 +1,23 @@
+name: Setup node
+
+runs:
+  using: "composite"
+  steps:
+  - name: Cache npm and node_modules
+    uses: actions/cache@v3
+    with:
+      path: |
+        ~/.npm
+        node_modules
+      key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+      restore-keys: |
+        ${{ runner.os }}-npm-
+
+  - name: Set up Node.js
+    uses: actions/setup-node@v3
+    with:
+      node-version: '20'
+
+  - name: Install dependencies
+    shell: bash
+    run: npm install

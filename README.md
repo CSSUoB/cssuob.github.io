@@ -4,7 +4,7 @@ This is the source code to [cssbham.com](https://cssbham.com).
 
 ## Documentation
 
-See in-depth documentation and maintainance guides at the
+See in-depth documentation and maintenance guides at the
 [wiki](https://github.com/CSSUoB/cssuob.github.io/wiki).
 
 ## Installation
@@ -27,12 +27,14 @@ You can also build the site into `_site`:
 make build
 ```
 
-To automatically run the code formatter, ensure that
-[prettier](https://prettier.io/) is installed, then:
+To be able to use the code formatter and linting tools, you need to install
+the dev dependencies.
 
 ```bash
-make fmt
+npm install
 ```
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for more information about code formatting.
 
 ### Manual setup (not recommended)
 
@@ -126,7 +128,7 @@ website.
 
 #### Event formatting
 
-The event data displayed on the webiste is taken directly from the Google
+The event data displayed on the website is taken directly from the Google
 Calendar event. Some properties are extracted using XML-like tags from the
 event description - note that this does **not** imply that other XML tags are
 implemented, so no other tags aside from the ones specified here should be

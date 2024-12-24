@@ -1,0 +1,12 @@
+{
+    "default": true,
+    "no-hard-tabs": false,
+    "whitespace": false,
+    "headings": { "style": "atx" },
+    "bullet": { "indent": 4 },
+    "line-length": false, 
+    "no-inline-html": false,
+    "single-h1": false,
+    "fenced-code-language": false,
+    "no-trailing-punctuation": false
+}

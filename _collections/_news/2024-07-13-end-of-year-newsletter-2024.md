@@ -38,6 +38,7 @@ Just to end off, we do have a couple of messages from our friends over at Bank o
 ![Bank of America logo.](/assets/images/2024-end-of-year-newsletter/bofa.png)
 
 For anyone who is looking to start searching for industrial opportunities early, Bank of America will be opening their applications early this year, and keep them open until the roles are filled! This is for the following programmes:
+
 - Summer Internship in 2025
 - Graduate Programme (for finance only) in 2025
 - Industrial Placement Programme (for technology only) in 2025
@@ -53,9 +54,11 @@ Last but not least, Kainos have provided us with testimonials from fellow studen
 ![Kainos logo.](/assets/images/2024-end-of-year-newsletter/kainos.png)
 
 ## Leonardo Bishop – Placement Software Engineer
+
 When I first joined Kainos in August, I was not sure what to expect. Having never worked in the industry before, I was feeling a mixture of excitement and nervousness, and the idea of doing something I did as a hobby professionally in the real world was daunting at first. However, not only did this year at Kainos quickly ease any concerns I had, but the amount of feedback and support I have received from my seniors has allowed me to grow and develop as a person. I have been given the opportunity to work on several projects during my time here, including cutting-edge work around generative AI, and have also had the chance to travel and meet clients from across the country. The company culture here is fantastic, everybody is approachable and friendly, and I have never felt like just an intern. Ultimately, my time at Kainos has significantly developed my technical abilities and confidence, and my placement experience will be something I look back on fondly.
 
 ## Callum Esprey – Placement Software Engineer
+
 I am so grateful to have undertaken an amazing industrial placement experience with Kainos. It has significantly improved my technical skills as well as my ability to work collaboratively with people from a range of disciplines, this being in part due to the comprehensive and broad-ranging training I received at the start of my placement.  The culture here has great balance with lots of opportunities to work on innovative and exciting projects or unwind with colleagues at monthly work socials which are always a highlight. My favourite social of the year being the Christmas Ball, held at Birmingham’s Grand Hotel. Personally, I have spent much of my placement working on cutting-edge Generative AI projects, Kainos is making great progress in being a predominate adopter of Generative AI and so I wholeheartedly recommend anyone with an interest in the field to give Kainos serious consideration when looking for a placement opportunity.
 
 As Leonardo and Callum’s placement ends in the upcoming months, we wanted to share exciting news that our 2025 placement opportunities will be going live in September!

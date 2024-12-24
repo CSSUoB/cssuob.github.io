@@ -17,7 +17,9 @@ This month, we've got a big collection of events coming up, but this list isn't 
 around the corner!
 
 ## Lua Workshops 🛠️ - Thursday 31st October, 5pm - Y3-G29
+
 This Thursday, we have Amrit giving the second Lua workshop that covers the following:
+
 - The Lua C API and embedding Lua
 - Making modules for Lua
 - Setting up Lua in your editor
@@ -28,6 +30,7 @@ If you missed the first talk, you can access the "slides" for it here: <https://
 told were made in Lua, believe it or not)
 
 ## November EGM 🗳️ - Wednesday 6th November, 1pm - Y3-G34
+
 Campaigning for the EGM has now begun! You can now post your manifestos, questions and constitutional amendments ahead
 of the EGM into the newly opened channel on our Discord server. 
 
@@ -39,6 +42,7 @@ If you're standing or have questions for candidates, you are now able to join th
 See you on the day!
 
 ## NQ64 🎮 - Thursday 7th November, 7pm 
+
 We'll be returning to NQ64 for the night! NQ64 is a drinking arcade in Digbeth with themed drinks and arcade games like
 Mario Kart, Crazy Taxi, Pacman, etc. - for more information, check [NQ64's website](https://nq64.co.uk/birmingham/).
 
@@ -49,10 +53,12 @@ If you're planning on going, please note that NQ64 only accepts driver licenses 
 18 years or older are allowed inside.
 
 ## Film Night 🎥 - Wednesday 13th November, 7pm - University House G12
+
 The following week, we'll be holding a film night - break out your popcorn (if it gets approved by the Guild) and enjoy
 a CS-oriented film with your friends!
 
 Currently, we are holding a vote in [Discord](https://cssbham.com/discord) for the film to show; these include:
+
 - Hackers (1995)
 - Source Code (2011)
 - Hidden Figures (2016)
@@ -62,20 +68,25 @@ Currently, we are holding a vote in [Discord](https://cssbham.com/discord) for t
 Voting will be open for a week, then the film to be hosted will be announced!
 
 ## CSS x AlgoSoc 💼
+
 We're currently working on a collaborative event with AlgoSoc to deliver important knowledge about applying to positions
 in the CS industry - we'll have more details confirmed soon, so keep an eye out on CSS' and AlgoSoc's socials!
 
 ## Python Workshop 🐍
+
 We'll be looking to hold a Python workshop later in the month, hosted by none other than our wonderful Matt, who has 
 held similar workshops in the past! If you're unfamiliar with Python and want to start somewhere to learn it, this will
 be the best opportunity to do so.
 
 ## Pub...? Lots of pubs...?
+
 This is one we're still in the process of confirming - keep an eye out for more information!
 
 ## Missing Semester 🐧
+
 We have more coming with our collaborative talks from us, AFNOM and contributors within SoCS! As a quick overview of
 what's to come this month:
+
 - Containers and Virtualisation, 4th November
 - Shell Advanced, 11th November
 - LaTeX, 18th November
@@ -83,7 +94,8 @@ what's to come this month:
 
 Each session is being held on Mondays from 1pm to 2pm.
 
-## Festive fun awaits... 
+## Festive fun awaits 
+
 This covers all of our events for November, but there's also some pretty significant ones waiting right around the
 corner... something about advent... something about a green man and certainly dressed TeX... something about Discord 
 bots...

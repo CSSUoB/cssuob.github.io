@@ -12,4 +12,10 @@ clean:
 	rm -rf _site
 	
 fmt:
-	npx prettier . --write
+	npm run format:fix
+
+lint:
+	npm run lint:fix
+
+spellcheck:
+	npm run spellcheck:staged
