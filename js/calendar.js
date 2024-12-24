@@ -345,7 +345,7 @@ function sanitizeTags(text, validTags, validProperties) {
   let result = "";
   for (;;) {
     const match = text.match(
-      /<(\/?)(h[1-6]|[a-zA-Z]+)([a-zA-Z0-9\s:\/&'"\-_=.~?#*@'+,;%]*?)(\/?)>/,
+      /<(\/?)(h[1-6]|[a-zA-Z]+)([a-zA-Z0-9\s:/&'"\-_=.~?#*@'+,;%]*?)(\/?)>/,
     );
     if (!match) {
       result += encodeHTML(text);
@@ -390,11 +390,11 @@ function encodeHTML(text) {
     text
       // parse selected entities (because *someone* is pasting weird characters to the calendar)
       .replace(
-        /\&(#?[a-z0-9]+);/g,
+        /&(#?[a-z0-9]+);/g,
         (match, group) => entityList.get(group) || match,
       )
       // encode all dangerous characters to html entities
-      .replace(/[\u00A0-\u9999<>\&]/g, (i) => "&#" + i.charCodeAt(0) + ";")
+      .replace(/[\u00A0-\u9999<>&]/g, (i) => "&#" + i.charCodeAt(0) + ";")
   );
 }
 

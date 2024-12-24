@@ -3,6 +3,7 @@
 A big welcome and thank you for considering contributing to CSS' open source projects! We welcome anybody who wants to contribute, and we actively encourage everyone to do so, especially if you have never contributed before.
 
 ## Quick links
+
 * [Getting started](#getting-started)
 * [Using the issue tracker](#using-the-issue-tracker)
 * [Making your first contribution](#making-your-first-contribution)
@@ -17,18 +18,19 @@ If you have never used git before, we would recommend that you read the [GitHub'
 * [Getting Git Right (Atlassian)](https://www.atlassian.com/git/)
 
 If you are new to contributing to open-source projects on GitHub, the general workflow is as follows:
+
 1. Fork this repository and clone it
 2. Create a branch off main
 3. Make your changes
-    - Make sure to run `make fmt` to autoformat your code
-    - Make a commit with an explanatory commit message
-5. Push your local branch to your remote fork
-6. Open a new pull request on GitHub
+    * Make sure to run `make fmt` to autoformat your code
+    * Make a commit with an explanatory commit message
+4. Push your local branch to your remote fork
+5. Open a new pull request on GitHub
 
 We recommend also reading the following if you're unsure or not confident:
 
-* https://makeapullrequest.com/
-* https://www.firsttimersonly.com/
+* <https://makeapullrequest.com/>
+* <https://www.firsttimersonly.com/>
 
 ## Using the issue tracker
 
@@ -66,6 +68,7 @@ Commit messages should be written in the imperative, present tense. For example,
 Additionally, we request that you keep the commit subject under 80 characters for a comfortable viewing experience on GitHub and other git tools. If you need more, please use the body of the commit.
 
 For example:
+
 ```
 Fix HTTP 418 error when navigating to /ball
 

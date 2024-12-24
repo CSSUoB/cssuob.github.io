@@ -13,7 +13,7 @@ Firstly, to all freshers, congratulations on getting into UoB! I hope you have a
 
 So, what is The Computer Science Society? CSS is a student-run society that is a large part of the CS community here at UoB. Over the year, we run a variety of events; from pub nights, to workshops, to quizzes, to the CSS ball, to a mini conference called TeX Talks, we have something for everyone. You’ll notice free pizza and drinks are running themes at CSS events! My personal favourite is an annual trip to the birthplace of computers, alternating from The National Museum of Computing and, where we're going this year, Bletchley Park!
 
-![](/assets/images/2023-welcome-week-newsletter/tnmoc.jpg)
+![Group photo of last year's TNMoC trp attendees](/assets/images/2023-welcome-week-newsletter/tnmoc.jpg)
 
 ## Welcome Week
 
@@ -21,7 +21,7 @@ If you’re new to CSS, come say hi! We’ll have a stand in the CS atrium every
 
 We have a ton of events in the works for freshers, so keep an eye out for updates! Just to give a taste of things to come, we’re planning a board games night in the CS building (with pizza!), a pub outing to Selly Oak, and a return of our annual trip to Ming Moon - a Chinese buffet in the city.
 
-![](/assets/images/2023-welcome-week-newsletter/calendar.png)
+![Welcome week calendar for 2023](/assets/images/2023-welcome-week-newsletter/calendar.png)
 
 ## Looking Forwards
 
@@ -29,7 +29,7 @@ The future of term 1 is looking bright, as we’ll bring back many of our classi
 
 Speaking of the committee, I’m excited to work with the lovely people running the society this year! If you see any of us around campus, come and say hi. You can check out the committee [here](/committee).
 
-![](/assets/images/2023-welcome-week-newsletter/committee.jpg)
+![Incoming committee for 2023](/assets/images/2023-welcome-week-newsletter/committee.jpg)
 
 ## Join Us!
 

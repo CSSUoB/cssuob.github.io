@@ -82,4 +82,5 @@ Website: [cssbham.com](https://cssbham.com)
 
 **See you in September!**
 
+<!-- markdownlint-disable-next-line MD036 -->
 **CSS Committee**

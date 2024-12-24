@@ -100,7 +100,7 @@ Hackathons normally run over a weekend, with 24 hours to work on a project!
 - On Stage Demos: 15:00
 - Awards: 16:00
 
-## Events CSS has been to!
+## Events CSS has been to
 
 <div class="row">
 {% for hackathon in page.hackathons %}

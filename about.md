@@ -39,7 +39,7 @@ We can't wait to see you at our events!
 
 ## Get Involved ✨
 
-#### Join Our Discord
+### Join Our Discord
 
 The best way to find out all the information you'd like to know about CSS and our
 events is through our [Discord Server](/discord). 👾
@@ -47,14 +47,14 @@ events is through our [Discord Server](/discord). 👾
 We've built an amazing, friendly, virtual-community on Discord which you
 can get involved with straight away — no membership required! 😃
 
-#### Become A Member
+### Become A Member
 
 To take part in our ticketed events, you'll want to [click here](/join) to
 purchase a membership; it's only £5 for the entire year!
 
 You can find out more about becoming a member [here](/membership).
 
-#### Hackathons
+### Hackathons
 
 A great way to learn new skills, make new friends and create a cool project!
 

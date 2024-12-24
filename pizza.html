@@ -58,7 +58,6 @@ styles:
   </div>
 </div>
 
-<!-- Annual pie chart scripting -->
 <script>
   const chartBackgroundColors = [
                 'rgba(255, 23, 45, 0.7)',
@@ -79,13 +78,13 @@ styles:
                 'rgba(23, 43, 250, 1)'
             ];
   
-  var pizzaPieLabels = '{{current_labels}}'.split(", ");
-  var pizzaFigures = '{{current_figures}}'.split(", ");
-  var ctx = document.getElementById("annualPieChart").getContext("2d");
-  var annualChart = new Chart(ctx, {
+  let pizzaLabels = '{{current_labels}}'.split(", ");
+  let pizzaFigures = '{{current_figures}}'.split(", ");
+  let pieChart = document.getElementById("annualPieChart").getContext("2d");
+  new Chart(pieChart, {
     type: 'pie',
     data: {
-        labels: pizzaPieLabels,
+        labels: pizzaLabels,
         datasets: [{
             data: pizzaFigures,
             backgroundColor: chartBackgroundColors,
@@ -113,24 +112,16 @@ styles:
         }
       },
     }
-})
-</script> 
-
-<!-- Annual bar chart scripting -->
-<script>
-  var pizzaLabels = '{{current_labels}}'.split(", ");
-  pizzaLabels.pop();
-  var pizzaFigures = '{{current_figures}}'.split(", ");
-  pizzaFigures = pizzaFigures.map((figure) => {
-    return parseInt(figure);
   })
-  var ctx = document.getElementById("annualBarChart").getContext("2d");
-  var annualChart = new Chart(ctx, {
+
+  pizzaLabels.pop();
+  let barChart = document.getElementById("annualBarChart").getContext("2d");
+  new Chart(barChart, {
     type: 'bar',
     data: {
         labels: pizzaLabels,
         datasets: [{
-            data: pizzaFigures,
+            data: pizzaFigures.map(f => parseInt(f)),
             backgroundColor: chartBackgroundColors,
             borderColor: chartBorderColors,
             borderWidth: 1

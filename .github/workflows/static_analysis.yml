@@ -1,0 +1,64 @@
+name: Static analysis
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - uses: ./.github/actions/setup-node
+
+    - name: Run prettier
+      run: npx prettier --check .
+
+  spellcheck:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - uses: ./.github/actions/setup-node
+    
+    - name: Get changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v45
+      with:
+        files: |
+          **.md
+          **.html
+
+    - name: Run cspell on changed files
+      id: run-cspell
+      continue-on-error: true
+      env:
+        ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+      run: npx cspell --files $ALL_CHANGED_FILES
+        
+    - name: Report spellcheck failures
+      if: steps.run-cspell.outcome != 'success'
+      run: echo "::notice::Spellcheck found issues in some or all modified files"
+
+  lint-js:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - uses: ./.github/actions/setup-node
+
+    - name: Run eslint
+      run: npx eslint
+
+  lint-markdown:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - uses: ./.github/actions/setup-node
+
+    - name: Run markdownlint
+      run: npx markdownlint -c '.markdownlint.jsonc' -p '.gitignore' .
