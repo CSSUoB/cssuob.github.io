@@ -29,18 +29,20 @@ menu-links:
 
 menu:
   starters:
-    - dish: Roasted vine tomato and basil soup served with focaccia
-      type: vegetarian, vegan, gluten free & lactose free
-    - dish: Samosa chatt served with spiced chickpeas, onion salad and a warm yoghurt dressing
-      type: vegetarian, vegan & lactose free
+    - dish: Starter 1
+      type: something, something else
+    - dish: Starter 2
+      type: something, something else
   mains:
-    - dish: Roasted pork belly served with spring greens, braised carrots, lentils with a Provencale sauce
-      type: gluten free & lactose free
-    - dish: Aubergine butter katsu, served with cumin and green pea rice and Bengali carrot salad
-      type: vegetarian & vegan
+    - dish: Main 1
+      type: something, something else
+    - dish: Main 2
+      type: something, something else
   dessert:
-    - dish: Chocolate torte and berries served with lotus powder and cinder toffee
-      type: vegetarian & vegan
+    - dish: Dessert 1
+      type: something, something
+    - dish: Dessert 2
+      type: something, something
 
 faq:
   - question: What is a Ball?
