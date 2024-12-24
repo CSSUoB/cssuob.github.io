@@ -31,8 +31,9 @@ favicon: /ball/favicon.ico
     <img class="image" src="/assets/images/ball-25-venue.jpg" alt="Image of the Horton Suite, where the CSS Ball is being held.">
     <div class="description-left text-center-div">
         <h2 class="subtitle">The Venue</h2>
-        <p class="text-block">NOT DECIDED YET!<br><br>
-            We'll have exclusive access to several rooms and facilities including a bar, gorgeous dining room, and of course the dancefloor!
+        <p class="text-block">Macdonald Burlington Hotel<br><br>
+            We'll have exclusive access to several rooms and facilities including a dedicated bar area, gorgeous dining room, and of course the dancefloor!<br><br>
+            We'll also have a cloakroom available to store coats and bags.
         </p>
     </div>
 </div>
@@ -87,6 +88,7 @@ favicon: /ball/favicon.ico
 <script>
     const pos = [52.47881, -1.89882];
 
+    var L = window.L;
     var map = L.map('map').setView(pos, 17);
 
     L.marker(pos).addTo(map);
