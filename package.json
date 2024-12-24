@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@cspell/dict-en-gb": "^4.1.52",
     "@eslint/js": "^9.17.0",
     "cspell": "^8.17.1",
     "eslint": "^9.17.0",
@@ -11,9 +12,10 @@
   },
   "scripts": {
     "lint": "npx eslint && npx markdownlint-cli -c .markdownlint.jsonc -p .gitignore .",
-    "lint:fix": "npx eslint --fix",
+    "lint:fix": "npx eslint --fix && npx markdownlint-cli -c .markdownlint.jsonc -p .gitignore --fix .",
     "format": "npx prettier --check .",
-    "format:fix": "npx prettier --check .",
-    "spellcheck": "npx cspell --gitignore '**/*.{md,html}'"
+    "format:fix": "npx prettier --write .",
+    "spellcheck": "npx cspell --gitignore '**/*.{md,html}'",
+    "spellcheck:staged": "git diff HEAD --name-only | grep -E '.md|.html' | npx cspell --file-list stdin"
   }
 }
