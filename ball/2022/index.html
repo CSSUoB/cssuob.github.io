@@ -7,7 +7,7 @@ title: CSS Ball
 favicon: /ball/favicon.ico
 ---
 
-{% assign ball = site.data.ball.2022 %}
+{% assign ball = site.data.ball['2022'] %}
 
 <div class="text-center-div margin-top section-details">
     <h1 class="title">
@@ -73,23 +73,24 @@ favicon: /ball/favicon.ico
 
 
 <script>
-    var countDownDate = new Date("Apr 27, 2022 19:00:00").getTime();
+    let countDownDate = new Date("Apr 27, 2022 19:00:00").getTime();
 
-    var x = setInterval(function() {
-        var now = new Date().getTime();
-        var distance = countDownDate - now;
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    (function updateTimer() {
+        let now = new Date().getTime();
+        let distance = countDownDate - now;
+        let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        document.getElementById("count").innerHTML = "<span class='avoidwrap'><span class='avoidwrap'>" + days + " Days <\span><span class='avoidwrap'>" + ("00" + hours).slice(-2) +
-            " Hours </span></span> <span class='avoidwrap'><span class='avoidwrap'>" + ("00" + minutes).slice(-2) + " Minutes <\span><span class='avoidwrap'> " + ("00" + seconds).slice(-2) +
+        document.getElementById("count").innerHTML = "<span class='avoidwrap'><span class='avoidwrap'>" + days + " Days <\\span><span class='avoidwrap'>" + ("00" + hours).slice(-2) +
+            " Hours </span></span> <span class='avoidwrap'><span class='avoidwrap'>" + ("00" + minutes).slice(-2) + " Minutes <\\span><span class='avoidwrap'> " + ("00" + seconds).slice(-2) +
             " Seconds</span></span>";
 
         if (distance < 0) {
-            clearInterval(x);
             document.getElementById("count").innerHTML = "<a href='#CSSBall22'>#CSSBall22</a>";
+        } else {
+            setTimeout(updateTimer, 1000)
         }
-    }, 1000);
+    })();
 </script>

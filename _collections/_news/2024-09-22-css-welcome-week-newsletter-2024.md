@@ -5,7 +5,7 @@ title: Welcome Week 2024
 thumbnail: /assets/images/2024-welcome-week-newsletter/header.png
 header-image: /assets/images/2024-welcome-week-newsletter/header.png
 ---
-# Welcome CSS members, to a new year of UoB!
+# Welcome CSS members, to a new year of UoB
 
 To start off another year full of fantastic CSS events, we're running 2 weeks full of freshers activities to get involved with, with lots to do, even if you aren't a first year!
 
@@ -18,18 +18,18 @@ Here are some big ones open to everyone coming up soon:
 
 Come to the CS atrium for a night of board games and pizza! Get to know other people in CSS while you learn how to play something new! We'll also have a quiet room setup in room 222 if you'd like to take some time to relax in a quieter environment. Make sure to bring your student ID if you'd like to get alcohol at the event, and no need to bring your own, that's our job!
 
-We will have board games ready on the night, but you're welcome to bring your own too! If you're planning on bringing your own games, let us know what you're bringing here: https://cssbham.com/bgn
+We will have board games ready on the night, but you're welcome to bring your own too! If you're planning on bringing your own games, let us know what you're bringing here: <https://cssbham.com/bgn>
 
-If you're interested in what others plan to bring, you can check that out here: https://cssbham.com/board-games
+If you're interested in what others plan to bring, you can check that out here: <https://cssbham.com/board-games>
 
-Regarding pizza, if you have any dietary requirements you want us to account for, please fill out the form here: https://cssbham.com/bgn-dietary-form - we'll always have vegan, vegetarian and meat options available!
+Regarding pizza, if you have any dietary requirements you want us to account for, please fill out the form here: <https://cssbham.com/bgn-dietary-form> - we'll always have vegan, vegetarian and meat options available!
 
 
 ## CSS Scavenger Hunt — Tuesday 24th September 10am-4pm — UoB Campus
 
 Learn the lay of the campus with CSS' scavenger hunt, find study areas and food outlets around the uni. Find us at our stall from 10am — 4pm once you've completed it in the CS building for an exclusive Old Joe Tex sticker! Join up with up to 5 other people and have fun exploring!
 
-Sign up here: https://cssbham.com/scavenger-hunt
+Sign up here: <https://cssbham.com/scavenger-hunt>
 
 
 ## CSS goes to Ming Moon — Friday 27th September 1pm-3pm — [Ming Moon, 16 Hurst St, Birmingham B5 4BN](https://maps.app.goo.gl/TgcpBnoZjDC7gNj29)
@@ -55,7 +55,7 @@ Societies attending:
 - **AlgoSoc** - Algorithmic Programming Society
 - **CSS** - Computer Science Society (that's us!)
 
-You can find their discord servers in the UoB discord hub here: https://discord.gg/9CH8VtfWQr
+You can find their discord servers in the UoB discord hub here: <https://discord.gg/9CH8VtfWQr>
 
 The rest of the building will be quiet, so feel free to leave at any time to decompress or cool down.
 
@@ -83,11 +83,11 @@ Make sure to bring a form of **Photo ID** (Not student ID!) if you'd like to buy
 
 
 
-As well as the above, AFNOM, oSTEM, and VR will be running their own events as seen on the timetable, join their discord servers from the hub at https://discord.gg/9CH8VtfWQr to learn more!
+As well as the above, AFNOM, oSTEM, and VR will be running their own events as seen on the timetable, join their discord servers from the hub at <https://discord.gg/9CH8VtfWQr> to learn more!
 
-If you know anyone who'd like to join, send them our way at https://cssbham.com/join so they can sign up!
+If you know anyone who'd like to join, send them our way at <https://cssbham.com/join> so they can sign up!
 
-If you have any questions, or just want to say hi, we'll be at our stand in the CS Atrium on the 24th and the 25th of September, as well as being available on our discord server at https://cssbham.com/discord. Hope to see you around!
+If you have any questions, or just want to say hi, we'll be at our stand in the CS Atrium on the 24th and the 25th of September, as well as being available on our discord server at <https://cssbham.com/discord>. Hope to see you around!
 
 
 Rohit J  

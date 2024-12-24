@@ -10,6 +10,7 @@ What a blazing start it's been for CSS - there's so much that's happened, even I
 If you need a quick reminder on what's happened, let's go over everything...
 
 # What's been on this semester
+
 Since our welcome week, we've been running a mix of new and recurring events, kicking off first with Cream Tea with TeaSoc! 
 Even if we ended up buying Sainsbury's full stock of scones and forgot the cream, it was still an incredibly successful 
 event, giving us the chance to catch up with everyone after the chaos of welcome week. Thank you once again to
@@ -73,11 +74,13 @@ Congratulations once again to the team behind Texagotchi, who have won Raspberry
 ![A picture of our botathon winners and their prizes.](/assets/images/2024-semester-1/botathon.png)
 
 # New Faces on Committee
+
 In November, we held our first EGM of the year to fill in roles in committee that were either already empty, being
 stepped down from or were being rolled over - which resulted in a wave of new faces on our committee! If you run into
 them, don't be afraid to say hi.
 
 Congratulations once again to:
+
 - **George** - Socials Secretary
 - **Sabrina** - EDI Officer
 - **Nial** - PGT Rep
@@ -88,6 +91,7 @@ If you're a first year student who has enjoyed CSS' events so far and wants to g
 on your email and social media for EGM announcements!
 
 # Hoodies
+
 We've had quite a few people ask about them, and we're planning to deliver - **hoodies will be on sale again in the near
 future!** 🎉
 
@@ -99,6 +103,7 @@ put them on sale.
 For everyone waiting on thigh highs - we're trying our best, but these will still be a work in progress for now!
 
 # Members
+
 You might've seen on Instagram that we recently reposted a screenshot from a reel that the Guild made, creating their 
 own "wrapped" that summarised the year for societies so far. We were in one of the categories, and as of currently, we
 have the **second-highest membership count in the entire Guild**, standing at 404 (not found) members! That number has
@@ -126,6 +131,7 @@ community. Thus, whether you've given a workshop, joined us in events or simply 
 be the same without you - thank you for making this our best semester in CSS' history. 💙
 
 # What's next
+
 As I round off this newsletter, I'd like to give you a brief glimpse into what we're looking to prepare next semester. 
 
 We've already started planning our larger events, such as our trip to the National Museum of

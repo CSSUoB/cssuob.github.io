@@ -78,6 +78,7 @@ That's probably enough about that.
 
 Hopefully you all enjoy our new website!
 
+<!-- markdownlint-disable-next-line MD036 -->
 **Justin**
 
 ---

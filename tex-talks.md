@@ -107,6 +107,7 @@ schedule:
 ---
 
 # TeX Talks Schedule
+
 ## *{{ page.date }}*
 
 Interested in learning beyond what your CS degree teaches? Want to find out about CS careers outside of software development? Pizza? Then come to the **Aston Webb building** on **Monday the 13th of March** at **4pm** for a series of short talks about new and different CS and technology topics in an event we're calling TeX Talks. 
@@ -114,20 +115,21 @@ Interested in learning beyond what your CS degree teaches? Want to find out abou
 Make sure to register for a **FREE** ticket: [cssbham.com/tex-talks-tickets](/tex-talks-tickets)
 
 ### Schedule
+
 <div class="schedule">
-<div class="tex-container"><div class="tex-image"><img class="tex" src="/assets/tex/raster/tex_megaphone.png"/></div></div>
+<div class="tex-container"><div class="tex-image"><img class="tex" src="/assets/tex/raster/tex_megaphone.png" alt="Megaphone TeX"/></div></div>
 {% for slot in page.schedule %}
 <div class="slot-container">
     <div class="slot-header">
         <span class="slot-title">{% if slot.speaker %}<b>{{ slot.speaker }}</b>: {% endif %}{{ slot.title }}</span>
-        <span class="slot-time"><img class="clock-symbol" src="/assets/clock.svg"/><b><i>{{ slot.time }}</i></b></span>
+        <span class="slot-time"><img class="clock-symbol" src="/assets/clock.svg" alt="Clock"/><b><i>{{ slot.time }}</i></b></span>
     </div>
     {% if slot.description %}
     <div class="slot-body">
         {% if slot.image %}
         <div class="slot-image-container">
           {% for image in slot.image %}
-          <div class="slot-image"><img src="/assets/{{ image }}"/></div>
+          <div class="slot-image"><img src="/assets/{{ image }}" alt="{{ slot.speaker }}" /></div>
           {% endfor %}
         </div>
         {% endif %}

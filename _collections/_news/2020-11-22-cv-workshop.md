@@ -39,6 +39,7 @@ A multitude of different things can make a CV sub-par. During the workshop, we c
 File: [Example 1](/assets/events/cv-workshop/Example1.pdf)
 
 Some of the points made included:
+
 * Contact details take up too much space
 * Multiple addresses
 * Unprofessional email address
@@ -48,9 +49,11 @@ Some of the points made included:
 * References not necessary to put down
 
 ### Example 2:
+
 File: [Example 2](/assets/events/cv-workshop/Example2.pdf)
 
 Some of the points made included:
+
 * Contact details brief and concise
 * Lines are useful to clearly separate sections
 * Work experience and projects listed together, and evidence their skills
@@ -71,7 +74,7 @@ You can also take up internships. It goes without saying that taking on a summer
 
 Use the Careers Network's [CV Checker](https://intranet.birmingham.ac.uk/as/employability/careers/vmock.aspx). Upload your CV and get an automated rating and suggestions for improvement.
 
-Alternatively, you can email your CV for a manual review, or ask questions, to careersenquiries@bham.ac.uk.
+Alternatively, you can email your CV for a manual review, or ask questions, to <careersenquiries@bham.ac.uk>.
 
 ## In Conclusion
 

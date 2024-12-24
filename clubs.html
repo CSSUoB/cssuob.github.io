@@ -59,7 +59,7 @@ styles:
   <div class="clubs-list">
     {% for session in site.clubs reversed %} {% if forloop.first == true %} {%
     continue %} {% endif %}
-    <div class="club not-recent fadein" style="--child-index: {{ forloop.index + 1}};">
+    <div class="club not-recent fadein" style="--child-index: {{ forloop.index | plus: 1 }};">
       {% if session.header-image %}
       <img
         alt="{{ session.title }}"

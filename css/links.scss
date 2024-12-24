@@ -65,10 +65,11 @@ $preview-height-small: 45px;
     box-sizing: border-box;
     background: white;
 
-    @include set-width;
     object-fit: cover;
     display: flex;
     justify-content: center;
+
+    @include set-width;
   }
 
   .post-details {
@@ -162,13 +163,14 @@ $preview-height-small: 45px;
     margin-bottom: 10px;
 
     .post-quote-thumbnail {
-      @include set-height();
-      @include set-width();
       margin-right: 15px;
       margin-bottom: 10px;
       border-radius: 10px;
       flex: 0 0 auto;
       object-fit: cover;
+
+      @include set-height();
+      @include set-width();
     }
     .post-quote-title {
       margin-top: 0.5em;
