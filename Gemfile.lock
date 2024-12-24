@@ -14,7 +14,7 @@ GEM
     eventmachine (1.2.7)
     ffi (1.17.0)
     forwardable-extended (2.6.0)
-    google-protobuf (4.29.1)
+    google-protobuf (4.29.2)
       bigdecimal
       rake (>= 13)
     http_parser.rb (0.8.0)
@@ -83,4 +83,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.6.1
+   2.6.2
