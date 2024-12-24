@@ -25,7 +25,14 @@ body {
 }
 
 .slot-container {
+  margin-bottom: 10px;
+
   > .slot-header {
+    display: flex;
+    width: calc(100% - 20px);
+    background-color: $TeX-Shadow;
+    padding: 10px;
+    font-family: "JetBrains Mono", "Inconsolata", monospace;
     * {
       color: white;
     }
@@ -46,11 +53,6 @@ body {
       text-align: left;
       flex-grow: 4;
     }
-    display: flex;
-    width: calc(100% - 20px);
-    background-color: $TeX-Shadow;
-    padding: 10px;
-    font-family: "JetBrains Mono", "Inconsolata", monospace;
   }
 
   > .slot-body {
@@ -88,7 +90,6 @@ body {
       // align-items: center;
       // margin-left: 70px;
     }
-    margin-bottom: 10px;
   }
 }
 

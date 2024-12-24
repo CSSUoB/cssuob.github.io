@@ -126,13 +126,12 @@
 
   &.ball {
     border: 2px solid #e4d05f;
+    background-image: url("/assets/events/ball/2022-background.png");
 
     * {
       color: #fff;
       font-family: "Ovo", serif;
     }
-
-    background-image: url("/assets/events/ball/2022-background.png");
 
     .decorative-tex {
       position: absolute;
