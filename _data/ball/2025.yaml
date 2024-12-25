@@ -11,7 +11,7 @@ tickets:
     member-price: £22
     non-member-price: £28
 
-links: 
+links:
   - text: Menu
     url:  '/ball/2025/menu'
   - text: Tickets
@@ -61,8 +61,10 @@ faq:
     answer: You are welcome to arrive any time from 7pm onwards, but we ask you to arrive no later than 7:45 as we expect to begin dinner service at 8pm.
   - question: How do I get there?
     answer: The Burlington is in the city centre - right across the street from New Street Station. <br><br>If you're coming from campus or Selly Oak, the 61 / 63 bus will get you to the otherside of New Street, from which it's a 5 minute walk. <br>From the Vale, you'll want the X22 or X21 and for Harborne you'll want the 23 / 24 all of which drop you just the other side of New Street. <br><br>There's also a tram stop right in front of the hotel if you're coming from the Jewellery Quarter or Wolverhampton.
+  - question: What will happen when I get there?
+    answer: When you arrive, come either up the stairs, or the lift, to the 1st floor. From there you'll come to the reception desk and will be asked for either your student ID or some other ID. We'll then tick your name off on the list and give you a wristband and optionally your physical ticket if you hadn't picked this up already. You'll then be able to sit down and wait for food service or hang out and get some pictures in the photobooth! <br><br>Food service will start around 8pm and expect to last approximately 2 hours. It'll then be up to you to sit and chat, boogy on the dance-floor, head over to the bar for another drink, or pop round to the photobooth to capture some great memories!
   - question: Who will I sit next to for dinner?
-    answer: We'll ask you for the names of up to 2 people who you would like to sit near. We'll try our best to sit people near their friends, but we can't make promises you'll be next to both.<br><br> If you bring a +1 we will make sure you're sat with them, but we can only do this if you say so in the seating preference or contact us separately.
+    answer: We'll ask you for the names of up to 2 people who you would like to sit near. We'll try our best to sit people near their friends, but we can't make promises you'll be next to both.<br><br> If you bring a +1 we will make sure you're sat with them, but we can only do this if you say so in the seating preference or contact us separately.<br><br> We can also only fit 10 people per table, so if you can please organise within your friend group who you would like to sit next to who and we will do our best to factor this in.
   - question: What about my dietary requirements?
     answer: The venue can handle catering for most dietary requirements, and there are vegan and gluten free options. Make sure to let us know any dietary requirements when you purchase your ticket. For more info on the menu please check the menu page <a href=/ball/2024/menu> here </a>.
   - question: What should I wear?
