@@ -83,8 +83,24 @@ favicon: /ball/favicon.ico
 </div>
 <hr>
 
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-    const countDownDate = new Date("Apr 26, 2023 19:00:00").getTime();
+    const pos = [52.4800686, -1.9027106];
+
+    let L = window.L;
+    let map = L.map('map').setView(pos, 17);
+
+    L.marker(pos).addTo(map);
+    L.tooltip(pos, {content: 'Council House Banqueting Suite', permanent: true, offset: [5, 0]}).addTo(map);
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+
+    const countDownDate = new Date("Apr 24, 2024 19:00:00").getTime();
 
     (function updateTimer() {
         let now = new Date().getTime();
