@@ -1,11 +1,4 @@
 - type: divider
-  text: "Hoodies"
-
-- text: Get a CSS Hoodie
-  url: /hoodies
-  image: /assets/images/singular_hoodie.png
-
-- type: divider
   text: "General"
 
 - text: Get membership!
