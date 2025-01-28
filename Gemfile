@@ -6,3 +6,4 @@ gem "jekyll-seo-tag"
 gem 'webrick'
 gem 'csv'
 gem 'base64'
+gem 'logger'
