@@ -29,20 +29,20 @@ menu-links:
 
 menu:
   starters:
-    - dish: Starter 1
-      type: something, something else
-    - dish: Starter 2
-      type: something, something else
+    - dish: ham hock or chicken thingy
+      type: 
+    - dish: Tomato & basil soup
+      type: vegetarian, vegan, gluten free
   mains:
-    - dish: Main 1
-      type: something, something else
-    - dish: Main 2
-      type: something, something else
+    - dish: Honey glazed pork belly
+      type: gluten free
+    - dish: Pumpkin & sage ravioli, creamy mushroom sauce, parmesan
+      type: vegetarian, vegan on request
   dessert:
-    - dish: Dessert 1
-      type: something, something
-    - dish: Dessert 2
-      type: something, something
+    - dish: Chocolate brownie, vanilla ice cream
+      type: vegan on request, gluten free on request
+    - dish: Raspberry cheesecake, chantilly cream, berries glaze
+      type: 
 
 faq:
   - question: What is a Ball?
