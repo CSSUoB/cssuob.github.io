@@ -1,4 +1,11 @@
 - type: divider
+  text: Ball
+
+- text: CSS Ball 
+  url: /ball/2025
+  image: /assets/tex/tex_ball.svg
+
+- type: divider
   text: "General"
 
 - text: Get membership!
@@ -20,11 +27,3 @@
 - text: "Meet our mascot: TeX"
   url: /tex
   image: /assets/tex/raster/tex_original.png
-
-- type: divider
-  text: Ball
-  
-
-- text: CSS Ball 2024 Photos
-  url: /ball/2024/photos
-  image: /assets/tex/tex_ball.svg
