@@ -74,38 +74,14 @@
 /hoodie /hoodies
 /hoody /hoodies
 
-# BBQ
-/bbq https://www.guildofstudents.com/events/6531/9200/
-/barbecue /bbq
-/barbeque /bbq
-/raffle https://www.justgiving.com/campaign/cssbbq
-
 # 2024 Welcome
 /welcome https://www.youtube.com/watch?v=gJcnfB2ep7E
 
-# 2025 BGN
-/bgn https://forms.gle/cV7RPY6o3ZSGCyrx9
-/bringing-games /bgn
-/board-games https://docs.google.com/spreadsheets/d/1BsdXgcJ9d6CHR0CevH3obhEZCj1OVYZJqnUQjm--7jw/edit?usp=sharing
-/bgn-games /board-games
-/bgn-dietary-form https://forms.gle/YQUDRxBJvqMwP9Ey8
+# Living Documents
+/module-opinions https://docs.google.com/document/d/1LHYwfkOKjthdWT6qwyVo3GQkhwwi8_KXwXVtj2kUHUI/
+/module-opinions-25-26 /module-opinions
+/module-opinions-24-25 https://docs.google.com/document/d/1-bzpzRw1sSFtvBOnycmuuAnsqWfzYs_dJ8_g-rBwxh4/
+/module-opinions-23-24 https://docs.google.com/document/d/1d5pDCxwQh6C4T_T1ik8hLVccfLkBj-3QBVAWvSiqlf4/
+/module-opinions-22-23 https://docs.google.com/document/d/1eAX82FOmyBHnx65XHV5aWjjLGwm_Ao_-fCbN0MYkd18/
 
-# Scavenger Hunt
-/scavenger-hunt https://forms.gle/mL6L6Ar2SJoKcZej8
-/hunt /scavenger-hunt
-
-# Bar Crawl
-/bar-crawl https://www.guildofstudents.com/events/6531/10077/
-/pub-crawl /bar-crawl
-/barcrawl /bar-crawl
-/pubcrawl /bar-crawl
-
-# Bot Workshop
-/bot-workshop /assets/discord_bot_workshop.pdf
-
-# FOSDEM subsidy
-/fosdem https://docs.google.com/forms/d/e/1FAIpQLSdjcJy71Pbmywc-akGCbBdLrbq-kjbyXloNXbP3b9386A-0vg/viewform
-
-# TNMoC
-/tnmoc https://www.guildofstudents.com/ents/event/9452/
-/tnmoc! /tnmoc
+/supervisor-opinions https://docs.google.com/document/d/1jyzgp8ScrmvVpf8k0EplTuvflxqqbcY3LJoQX0Tg8jc/
