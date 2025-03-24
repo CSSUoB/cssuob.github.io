@@ -29,7 +29,8 @@ favicon: /ball/favicon.ico
         </div>
 	{% for image in qanda.images %}
 	  {% assign url = ball.image_root | append: image.name %}
-	  <img class="image" src="{{ url }}">
+    {% assign alt = image.alt %}
+    <img class="image" src="{{ url }}", alt="{{ alt }}">
 	  <br>
 	{% endfor %}
     {% endfor %}
