@@ -12,23 +12,30 @@ features:
     guests could walk around, chat and show off their outfits!"
     images:
       - name: "start.png"
+        alt: "An image of the Gather.Town map with the dining hall"
   - title: "But what about food?"
     paragraph: "Don't worry, we had that covered! Each guest received an Uber Eats voucher (worth more than the 
     ticket cost!) which they used to get their favourite dish delivered straight to their door. And just like   
     at any other ball, we sat together at (virtual) tables!"
     images:
       - name: "Screenshot_20210325_201739.png"
+        alt: "An image of the Gather.Town map with the dining hall and several members of the CSS community"
   - title: "...and drink?"
     paragraph: "The great thing about this year was that we could bring any drink we wanted. We even created    
     our own cocktail just for the event!"
     images:
       - name: "the_tex.png"
+        alt: "An image containing the recepie for the 'TeX' cocktail"
   - title: "Fun and Games"
     paragraph: "After we'd eaten, we enjoyed the custom-built maze and a treasure hunt around the map we had    
     created. We had a group photo competition, and got up to some famous CSS shenanigans. Everyone had an 
     absolute blast, and for many of us it was the highlight of the year!"
     images:
       - name: "maze.png"
+        alt: "An image of a maze as part of the game at the CSS Ball"
       - name: "unknown-12.png"
+        alt: "An image of the game being played as part of the Ball with 5 people in the image"
       - name: "rick-astley.png"
+        alt: "An image of Rick Astley being played as part of the Ball"
       - name: "CSS_Virtual_Ball_2021.jpg"
+        alt: "An image of multiple attendees of the online ball"

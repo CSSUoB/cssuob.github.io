@@ -31,7 +31,8 @@ favicon: /ball/favicon.ico
         <p class="text-block answer">{{ qanda.paragraph }}</p>
         </div>
         {% assign url = ball.image_root | append: qanda.image %}
-        <img class="image" src="{{ url }}", alt="An image taken at the 2020 CSS Ball">
+        {% assign alt = qanda.alt %}
+        <img class="image" src="{{ url }}", alt="{{ alt }}">
         <br>
     {% endfor %}
 </div>
