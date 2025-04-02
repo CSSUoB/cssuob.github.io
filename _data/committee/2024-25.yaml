@@ -1,5 +1,5 @@
 academic_year: 2024/2025
-current: true
+current: false
 people:
   - name: Holly P.
     discordtag: errortm99
@@ -7,6 +7,7 @@ people:
     role: President
     picture: /assets/committee/2024-25/mini/holly.jpg
     start-date: 1/7/2024
+    end-date: 30/06/2025
     bio: >
       All aboard! My name is Holly, and I am your CSS President, conducting our wonderful committee and the society as a 
       whole this year. Whilst I am in charge of ensuring events and tasks run smoothly, I am also the face and voice for 
