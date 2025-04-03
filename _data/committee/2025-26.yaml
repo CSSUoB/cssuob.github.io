@@ -26,7 +26,7 @@ people:
     picture: /assets/committee/2025-26/mini/marcus.jpg
     start-date: 1/7/2025
     bio: >
-      
+
 
   - name: Sumeet Brar
     discordtag: jethoodie
@@ -46,6 +46,15 @@ people:
     bio: >
       
 
+  - name: Mahima Gupta
+    pronouns: She/Her
+    discordtag: mahima2209
+    role: International Student Rep
+    picture: /assets/committee/2025-26/mini/mahima.jpg
+    start-date: 1/7/2025
+    bio: >
+
+
   - name: Toby
     discordtag: 99tornado99
     pronouns: He/Him
@@ -55,11 +64,11 @@ people:
     bio: >
       
 
-  - name: Amrit 
-    pronouns: He/Him
-    discordtag: frityet
-    role: Industrial Liaison
-    picture: /assets/committee/2025-26/mini/amrit.jpg
+  - name: Fearne Townsend
+    pronouns: She/Her
+    discordtag: ferb_t
+    role: Socials Secretary
+    picture: /assets/committee/2025-26/mini/fearne.jpg
     start-date: 1/7/2025
     bio: >
       
@@ -73,15 +82,24 @@ people:
     bio: >
       
 
-  - name: Mahima Gupta
-    pronouns: She/Her
-    discordtag: mahima2209
-    role: International Student Rep
-    picture: /assets/committee/2025-26/mini/mahima.jpg
+  - name: Sabrina Ahmad
+    discordtag: thesussywussy
+    pronouns: They/She
+    role: Equality, Diversity, and Inclusivity Officer
+    picture: /assets/committee/2025-26/mini/sabrina.jpg
     start-date: 1/7/2025
     bio: >
+      
 
- 
+  - name: Amrit 
+    pronouns: He/Him
+    discordtag: frityet
+    role: Industrial Liaison
+    picture: /assets/committee/2025-26/mini/amrit.jpg
+    start-date: 1/7/2025
+    bio: >
+      
+
   - name: Matt Norton
     discordtag: carrotmanmatt
     pronouns: He/Him
@@ -97,24 +115,6 @@ people:
     role: First Year Rep
     flags: ["interim"]
     picture: /assets/committee/2025-26/mini/vidushi.jpg
-    start-date: 1/7/2025
-    bio: >
-      
-
-  - name: Fearne Townsend
-    pronouns: She/Her
-    discordtag: ferb_t
-    role: Socials Secretary
-    picture: /assets/committee/2025-26/mini/fearne.jpg
-    start-date: 1/7/2025
-    bio: >
-      
-
-  - name: Sabrina Ahmad
-    discordtag: thesussywussy
-    pronouns: They/She
-    role: Equality, Diversity, and Inclusivity Officer
-    picture: /assets/committee/2025-26/mini/sabrina.jpg
     start-date: 1/7/2025
     bio: >
       
