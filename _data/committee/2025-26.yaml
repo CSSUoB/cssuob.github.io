@@ -1,11 +1,11 @@
 academic_year: 2025/2025
-current: false
+current: true
 people:
   - name: Matty Widdop
     discordtag: MattyTheHacker
     pronouns: He/Him
     role: President
-    picture: 
+    picture: /assets/committee/2025-26/mini/matty.jpg
     start-date: 1/7/2025
     bio: >
       
@@ -14,25 +14,25 @@ people:
     discordtag: solarninja
     pronouns: They/Them
     role: Treasurer
-    picture:
+    picture: /assets/committee/2025-26/mini/oli.jpg
     start-date: 1/7/2025
     bio: >
 
-
-  - name: Sumeet Brar
-    discordtag: jethoodie
-    pronouns: He/They
-    role: Vice-President
-    picture:
-    start-date: 1/7/2025
-    bio: >
-      
 
   - name: Marcus Gustafsson
     discordtag: jb007db5
     pronouns: He/Him
     role: Secretary
-    picture:
+    picture: /assets/committee/2025-26/mini/marcus.jpg
+    start-date: 1/7/2025
+    bio: >
+      
+
+  - name: Sumeet Brar
+    discordtag: jethoodie
+    pronouns: He/They
+    role: Vice-President
+    picture: /assets/committee/2025-26/mini/sumeet.jpg
     start-date: 1/7/2025
     bio: >
       
@@ -41,7 +41,7 @@ people:
     pronouns: He/Him
     discordtag: bluka479
     role: Publicity Officer
-    picture:
+    picture: /assets/committee/2025-26/mini/rohit.jpg
     start-date: 1/7/2025
     bio: >
       
@@ -50,114 +50,81 @@ people:
     discordtag: 99tornado99
     pronouns: He/Him
     role: Special Events Officer
-    picture:
+    picture: /assets/committee/2025-26/mini/toby.jpg
     start-date: 1/7/2025
     bio: >
       
 
-  - name:
-    pronouns:
-    discordtag:
+  - name: Amrit 
+    pronouns: He/Him
+    discordtag: frityet
     role: Industrial Liaison
-    picture:
+    picture: /assets/committee/2025-26/mini/amrit.jpg
     start-date: 1/7/2025
     bio: >
       
 
-  - name: Sumeet Brar
-    pronouns: He/Him
-    discordtag: jethoodie
+  - name: Evie
+    pronouns: She/Her
+    discordtag: cacti7
     role: Sports Secretary
-    picture: /assets/committee/2024-25/mini/sumeet.jpg
-    start-date: 1/7/2024
+    picture: /assets/committee/2025-26/mini/evie.jpg
+    start-date: 1/7/2025
     bio: >
-      Hey, I'm Sumeet and I'm in my 3rd year of Maths and Computer Science.
-      I'll be responsible for helping out with anything sport related within
-      CSS this year, and will be making sure that we can all stay active.
-      I enjoy a lot of sports, such as ultimate frisbee and tennis.
-      Other than sport, my interests consist of cooking, building lego and gaming.
-      I'll be on discord a lot, so feel free to message me about anything!
+      
 
-  - name: Sai
-    pronouns: Any
+  - name: Mahima Gupta
+    pronouns: She/Her
+    discordtag: mahima2209
     role: International Student Rep
-    discordtag: achievementcava
-    picture: /assets/committee/2024-25/mini/sai.jpg
-    start-date: 1/7/2024
+    picture: /assets/committee/2025-26/mini/mahima.jpg
+    start-date: 1/7/2025
     bio: >
-      ¡Hola, Hello, 大家好, வணக்கம், apa habaq, नमस्ते, Jambo, a su'mae, Birmingham - I'm Sai, your International's 
-      Representative for this year! My job is to think about how decisions we make might have different impacts on 
-      students from every culture, country and creed. I might be mega-Introverted, 
-      but I still love meeting new people, especially if it means that I can help you with anything that might be 
-      on your mind (I don't bite, I promise). When I'm busyn't, I play the guitar and <s>bedrot</s>
-      like exploring new places! 
- 
-  - name: Ella
-    discordtag: formlessmess
-    pronouns: She/They
-    role: Post-Graduate (Research) Rep
-    picture: /assets/committee/2024-25/mini/ella.jpg
-    start-date: 1/7/2024
-    end-date: 6/11/2024
-    bio: >
-      Hi I'm Ella, a 3rd year Comp Sci student! My role is to represent the post grad research students in CSS, to ensure all members of CSS have a voice when we are planning events and making decisions. Outside of committee you can usually find me playing saxophone, getting more piercings, and chilling with some crochet (when uni work hasn't completely absorbed me).
 
-  - name: Shay Patel
-    discordtag: sg.24
+ 
+  - name: Matt Norton
+    discordtag: carrotmanmatt
     pronouns: He/Him
+    role: Post-Graduate (Research) Rep
+    picture: /assets/committee/2025-26/mini/matt.jpg
+    start-date: 1/7/2025
+    bio: >
+
+
+  - name: Vidushi
+    discordtag: vidushi2409
+    pronouns: She/Her
     role: First Year Rep
     flags: ["interim"]
-    picture: /assets/committee/2024-25/mini/shay.jpg
-    start-date: 1/7/2024
-    end-date: 6/11/2024
+    picture: /assets/committee/2025-26/mini/vidushi.jpg
+    start-date: 1/7/2025
     bio: >
-      Hey everyone - Shay here! I'm your elected First Year Rep - this means I'm here to represent the often unheard voice of first years within the CSS Committee,
-      making sure that as a first year, you feel welcomed into the society and have fun participating in events alongside us!
-      If you have any questions or suggestions, feel free to DM me over on Discord!
+      
 
-  - name: Trinity
-    discordtag: trinity034
-    pronouns: They/Them
-    role: Equality, Diversity, and Inclusivity Officer
-    picture: /assets/committee/2024-25/mini/trinity.jpg
-    start-date: 1/7/2024
-    end-date: 6/11/2024
-    bio: >
-      Hi, I'm Trinity, I'm a 4th year Computer Science student and CSS' EDI Officer! This means it's my job to ensure CSS events are accessible and all members of the society feel represented. Feel free to reach out to me if you have any EDI-related questions, feedback, or ideas!
-
-  - name: George Barrell
-    pronouns: He/Him
+  - name: Fearne Townsend
+    pronouns: She/Her
+    discordtag: ferb_t
     role: Socials Secretary
-    picture: /assets/committee/2024-25/mini/george.jpg
-    start-date: 6/11/2024
+    picture: /assets/committee/2025-26/mini/fearne.jpg
+    start-date: 1/7/2025
     bio: >
-      Hello everyone, I'm George. My role is to organise and run fun and exciting events for the society! Outside of CSS, I'm an avid speed cuber and chess player. I'm a friendly face (mostly) so feel free to message me on Discord or speak to me if you see me around.
+      
 
   - name: Sabrina Ahmad
     discordtag: thesussywussy
     pronouns: They/She
     role: Equality, Diversity, and Inclusivity Officer
-    picture: /assets/committee/2024-25/mini/sabrina.jpg
-    start-date: 6/11/2024
+    picture: /assets/committee/2025-26/mini/sabrina.jpg
+    start-date: 1/7/2025
     bio: >
-      Ellow, I am Sabrina, a 1st year Mathematics and Computer Science student, and I'm your EDI Officer this year.
-      My role is to try to make sure CSS events are accessible, and that everyone can feel comfortable/free to participate.
-      Feel free to reach out to me if you have any EDI-related queries or suggestions  on discord or by email, or on the CSS server.
+      
 
-  - name: Nial Dixon
-    discordtag: nialdixon8
+  - name: Jhundon Mendi
+    discordtag: thatguyender
     pronouns: He/Him
     role: Post-Graduate (Taught) Rep
-    picture: /assets/committee/2024-25/mini/nial.jpg
-    start-date: 6/11/2024
+    flags: ["interim"]
+    picture: /assets/committee/2025-26/mini/jhundon.jpg
+    start-date: 1/7/2025
     bio: > 
-      Hi, I'm Nial, I'm a postgraduate Computer Science student who grew up down the road from campus in Bournville. I will be ensuring that the society makes awesome events tailored towards the postgrad cohort. If you see me I'm happy to chat on any ideas or concerns you may have or just have a chat in general. I like to code a lot as well play and watch Football with my favourite team being Birmingham City (sadly).
-
-  - name: Joseph Adams
-    discordtag: itjoe
-    pronouns: He/Him
-    role: Post-Graduate (Research) Rep
-    picture: /assets/committee/2024-25/mini/joe.jpg
-    start-date: 6/11/2024
-    bio: >
-      Hey everyone, I'm Joe, a fourth year MSci CS student who's your PGR Rep for this year! On committee, my main role is to represent our wonderful students studying hard for a Ph.D., as well as accommodating them and encouraging them to attend CSS' events. However, I'm always happy to chat to everyone, not just PGRs! Outside of uni work, you can find me Ballroom & Latin dancing, or enthusing over many insects.
+      
