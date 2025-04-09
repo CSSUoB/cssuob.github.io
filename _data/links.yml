@@ -1,8 +1,8 @@
 - type: divider
   text: Ball
 
-- text: CSS Ball 
-  url: /ball/2025
+- text: CSS Ball 2025 Photos
+  url: /ball/2025/photos
   image: /assets/tex/tex_ball.svg
 
 - type: divider
