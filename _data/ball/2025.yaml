@@ -18,6 +18,8 @@ links:
     url:  '#tickets'
   - text: FAQs
     url: '#faq'
+  - text: Photos
+    url: '/ball/2025/photos'
 
 menu-links:
   - text: Home
