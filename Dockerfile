@@ -1,4 +1,4 @@
-FROM ruby:3.4.2 AS base
+FROM ruby:3.4.3 AS base
 
 RUN bundle config set frozen 'true' && \
     bundle config set path '/vendor/bundle'
