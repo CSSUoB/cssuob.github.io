@@ -1,8 +1,8 @@
-FROM ruby:3.4.2 AS base
+FROM ruby:3.4.3 AS base
 
-RUN bundle config --global frozen 1 && \
-    mkdir -p /vendor/bundle && \
-    bundle config set --local path /vendor/bundle
+RUN bundle config set frozen 'true' && \
+    bundle config set path '/vendor/bundle'
+
 WORKDIR /usr/src/app
 
 COPY Gemfile Gemfile.lock ./
