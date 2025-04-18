@@ -16,6 +16,12 @@ if [[ -z "$committee" ]]; then
 	exit 1
 fi
 
+for file in $committee/full/*; do
+	if [[ $file =~ [A-Z] ]]; then
+		mv $file `echo $file | tr '[:upper:]' '[:lower:]'`
+	fi
+done
+
 resolution="250x250"
 
 mkdir -p $committee/mini/
