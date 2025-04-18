@@ -16,10 +16,17 @@ if [[ -z "$committee" ]]; then
 	exit 1
 fi
 
+find "$committee/full/" -type f -print0 | while IFS= read -r -d '' file; do
+	if [[ "$file" =~ [A-Z] || "$file" =~ [[:space:]] ]]; then
+		mv "$file" "$(echo "$file" | tr '[:upper:]' '[:lower:]' | sed 's/ /_/g')"
+	fi
+done
+
 resolution="250x250"
 
 mkdir -p $committee/mini/
-for picture in $committee/full/*; do
+
+find "$committee/full/" -type f -print0 | while IFS= read -r -d '' picture; do
 	convert $picture -resize $resolution^ -gravity center -crop $resolution+0+0 $committee/mini/`basename $picture`
 done
 
