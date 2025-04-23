@@ -12,7 +12,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    ffi (1.17.1)
+    ffi (1.17.2)
     forwardable-extended (2.6.0)
     google-protobuf (4.30.2)
       bigdecimal
@@ -68,7 +68,7 @@ GEM
     rexml (3.4.1)
     rouge (4.5.1)
     safe_yaml (1.0.5)
-    sass-embedded (1.86.3)
+    sass-embedded (1.87.0)
       google-protobuf (~> 4.30)
       rake (>= 13)
     terminal-table (3.0.2)
