@@ -1,0 +1,36 @@
+---
+layout: page
+title: Merch
+styles:
+- /css/merch-listing.css
+- /css/fadein.css
+favicon: /favicon.ico
+---
+
+<div class="merch-container">
+  <h1>Merch</h1>
+
+  {% if site.merch.size == 0 %}
+  <p>There's nothing here yet...</p>
+  {% endif %}
+
+  <div class="fadein-container">
+    {% for merch in site.merch %}
+    <a class="merch-preview fadein" style="--child-index: {{ forloop.index }};" href="{{ merch.url | relative_url }}">
+      {% if merch.thumbnail %}
+      <img alt="{{ post.title }}" class="merch-thumbnail" src="{{ merch.thumbnail | relative_url }}">
+      {% endif %}
+      <div class="merch-details">
+        <h2 class="merch-title">{{ merch.title }}</h2>
+        <div class="merch-excerpt">
+          <p>{{ merch.excerpt | strip_html }}</p>
+        </div>
+        {% if merch.options %}
+        {% assign options = merch.options | sort: 'price' %}
+        <p class="merch-price">from £{{ options[0]['price'] }}</h2>
+          {% endif %}
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,94 @@
+---
+---
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+
+.merch-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.merch-preview {
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-decoration: none;
+  height: 120px;
+
+  .merch-thumbnail {
+    flex: 0 0 auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px white solid;
+    box-sizing: border-box;
+
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+
+  .merch-details {
+    flex: 1 1 auto;
+    padding-left: 1em;
+    width: calc(100vw - 150px - 5% - 1em);
+    background: white;
+
+    .merch-title {
+      color: black;
+    }
+
+    .merch-excerpt {
+      * {
+        color: black;
+      }
+    }
+
+    .merch-price {
+      font-family: "JetBrains Mono", "Inconsolata", monospace;
+      font-weight: bold;
+      font-style: italic;
+      font-size: smaller;
+      color: black;
+    }
+  }
+}
+
+
+@media only screen and (min-width: 600px) {
+  .merch-preview {
+    .merch-details {
+      .merch-title {
+        margin-top: 0.5em;
+        margin-bottom: 0.3em;
+      }
+      .merch-date {
+        margin-top: 0.3em;
+        margin-bottom: 0.5em;
+      }
+      .merch-excerpt p {
+        margin-top: 0.5em;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .merch-preview {
+    .merch-details {
+      .merch-title {
+        font-size: min(6vw, 27px);
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+      }
+      .merch-date {
+        font-size: min(5vw, 27px);
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+      }
+      .merch-excerpt p {
+        margin-top: 0.5em;
+      }
+    }
+  }
+}

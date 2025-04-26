@@ -54,6 +54,9 @@ collections:
   news:
     output: true
     permalink: /newsletter/:title
+  merch:
+    output: true
+    permalink: /merch/:slug
   clubs:
   events:
     sort_by: order
