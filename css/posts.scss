@@ -49,6 +49,97 @@ $preview-height: 150px;
   }
 }
 
+.post {
+  background-color: white;
+
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 20px;
+
+  * {
+    color: black;
+  }
+
+  a {
+    color: #9d68dc;
+  }
+
+  .post-title,
+  .post-date {
+    margin: 0.1em 1ch 0.1em 0px;
+    display: inline;
+  }
+
+  .post-image {
+    width: 100%;
+    height: auto;
+  }
+
+  /*
+   * TODO: this would be nice to have as part of main.scss so that tables can
+   * appear in textpages as well.
+   */
+  table {
+    border-collapse: collapse;
+
+    td,
+    th {
+      border: 1px solid black;
+      padding: 0.4em;
+    }
+
+    thead {
+      tr {
+        background-color: rgba(0, 0, 0, 0.1);
+        border-bottom: 2px solid black;
+      }
+    }
+
+    tbody {
+      tr:nth-child(even) {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      tr:nth-child(odd) {
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+    }
+  }
+
+  .post-quote {
+    display: flex;
+    border: solid 2px black;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    .post-quote-thumbnail {
+      width: $preview-height;
+      height: $preview-height;
+      margin-right: 15px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      flex: 0 0 auto;
+      object-fit: cover;
+    }
+    .post-quote-title {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+    .post-quote-subtitle {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+    .post-quote-excerpt {
+    }
+  }
+}
+
 .post-header {
   width: 100%;
   height: auto;
