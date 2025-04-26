@@ -48,8 +48,8 @@
             <span class="price">£{{ option.price }}</span>
           </div>
         {% endfor %}
-        {% if page.url %}
-          <a href="{{ page.url }}" class="button guild-button">Buy on Guild website <i class="fas fa-arrow-right"></i></a>
+        {% if page.purchase-url %}
+          <a href="{{ page.purchase-url }}" class="button guild-button">Buy on Guild website <i class="fas fa-arrow-right"></i></a>
         {% endif %}
       </div>
     </div>
