@@ -5,7 +5,7 @@
 
 .merch-container {
   display: grid;
-  grid-template-areas: 
+  grid-template-areas:
     "back ."
     "description purchase"
     "gallery purchase";
@@ -54,7 +54,6 @@
   }
 }
 
-
 .purchase {
   background-color: #fff;
   width: 350px;
@@ -77,24 +76,23 @@
   h2 {
     margin-bottom: 0;
   }
-
 }
 
 .purchase-option {
   display: flex;
   align-items: center;
-  
+
   .option-label {
     flex-grow: 1;
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
       "option"
       "note";
     grid-template-columns: 1fr;
     gap: 0.2em;
 
     &.with-quantity {
-      grid-template-areas: 
+      grid-template-areas:
         "quantity option"
         "note note";
       grid-template-columns: min-content 1fr;
@@ -140,7 +138,8 @@
   }
 }
 
-.gallery img, .merch-description img {
+.gallery img,
+.merch-description img {
   border-radius: 10px;
   border-style: initial;
   max-height: initial;
@@ -160,26 +159,25 @@
 }
 
 @media only screen and (max-width: 1100px) {
-.merch-container {
-  display: grid;
-  grid-template-areas: 
-    "back"
-    "description"
-    "purchase"
-    "gallery";
+  .merch-container {
+    display: grid;
+    grid-template-areas:
+      "back"
+      "description"
+      "purchase"
+      "gallery";
 
-  .purchase {
-    width: 100%;
-    top: -60px;
+    .purchase {
+      width: 100%;
+      top: -60px;
+    }
+
+    .merch-description {
+      width: 100%;
+    }
+
+    .gallery {
+      width: 100%;
+    }
   }
-
-  .merch-description {
-    width: 100%;
-  }
-
-  .gallery {
-    width: 100%;
-  }
-
-}
 }
