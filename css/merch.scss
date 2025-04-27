@@ -120,22 +120,33 @@
   }
 }
 
-.guild-button {
+.button {
   display: inline-block;
   padding: 10px;
   font-weight: bold;
   border-radius: 10px;
-  text-align: center;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   width: 100%;
   box-sizing: border-box;
-  background-color: #5bbaa2;
   color: white;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
 
   i {
     color: white;
   }
+}
+
+.guild-button {
+  background-color: #5bbaa2;
+}
+
+.unavailable-button {
+  background-color: gray;
+  cursor: not-allowed;
 }
 
 .gallery img,

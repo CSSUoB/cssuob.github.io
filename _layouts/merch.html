@@ -49,7 +49,9 @@
           </div>
         {% endfor %}
         {% if page.purchase-url %}
-          <a href="{{ page.purchase-url }}" class="button guild-button">Buy on Guild website <i class="fas fa-arrow-right"></i></a>
+          <a href="{{ page.purchase-url }}" target="_blank" class="button guild-button">Buy on Guild website <i class="fas fa-arrow-right"></i></a>
+        {% else %}
+          <a href="#" class="button unavailable-button"><i class="fas fa-ban"></i>Currently unavailable</a>
         {% endif %}
       </div>
     </div>
