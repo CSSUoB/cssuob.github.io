@@ -20,4 +20,4 @@ window.toggleShow = function (id) {
   } else {
     x.style.display = "none";
   }
-}
+};
