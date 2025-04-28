@@ -2,7 +2,7 @@
 layout: merch
 title: TeX Plushies
 slug: plushies
-# purchase-url: https://www.guildofstudents.com/
+purchase-url: https://www.guildofstudents.com/shop/catalogue/ComputerScienceSoc/
 options:
   - name: Plushie
     quantity: 1
