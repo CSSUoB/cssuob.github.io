@@ -37,3 +37,6 @@ Adopt a very special hand-made crochet [TeX](/tex) plushie!
 These plushies have been hand crocheted by our very own Fearne. We hope you enjoy them!
 
 Approximate size dimensions: H: 15cm, W: 7.5cm, D: 12.5cm
+
+**Collection:** These plushies are available for immediate collection from the CS building -
+just ask a [Committee](/committee) member in-person or on Discord, or ask us on Instagram.
