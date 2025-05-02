@@ -1,4 +1,11 @@
 - type: divider
+  text: TeX Plushies
+
+- text: Get a TeX plushie!
+  url: /merch/plushies
+  image: /assets/images/tex-plushie/20250426_0042_lowres_square.jpg
+
+- type: divider
   text: Ball
 
 - text: CSS Ball 2025 Photos

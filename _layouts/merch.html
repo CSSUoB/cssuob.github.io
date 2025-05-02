@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UoB Computer Science Society - {{ page.title }}</title>
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/css/normalize.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/css/merch.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/css/fadein.css' | relative_url }}">
+
+  <script src="{{ '/js/hamburger.js' | relative_url }}" type="module"></script>
+
+  {% seo %}
+</head>
+<body>
+  {% include header.html %}
+  <main>
+    <div class="merch-container fadein-container">
+      <a class="merch-back fadein" href="/merch"><i class="fas fa-arrow-left-long"></i> See other merch</a>
+      <div class="merch-description fadein text-container">
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+      </div>
+      {% if page.gallery %}
+        <div class="gallery fadein">
+          <h2>Gallery</h2>
+          {% for photo in page.gallery %}
+          <img src="{{ photo.url }}" alt="{{ photo.alt }}" />
+          {% endfor %}
+        </div>
+      {% endif %}
+      <div class="purchase fadein">
+        <h2>Purchase options</h2>
+        {% for option in page.options %}
+          <div class="purchase-option">
+            {% if option.quantity %}
+            <div class="option-label with-quantity">
+              <span class="quantity">{{option.quantity}}x</span> 
+            {% else %}
+            <div class="option-label">
+            {% endif %}
+              <span class="option">{{ option.name }}</span>
+              {% if option.note %}
+                <span class="note">{{ option.note }}</span>
+              {% endif %}
+            </div>
+            <span class="price">£{{ option.price }}</span>
+          </div>
+        {% endfor %}
+        {% if page.purchase-url %}
+          <a href="{{ page.purchase-url }}" target="_blank" class="button guild-button">Buy on Guild website <i class="fas fa-arrow-right"></i></a>
+        {% else %}
+          <a href="#" class="button unavailable-button"><i class="fas fa-ban"></i>Currently unavailable</a>
+        {% endif %}
+      </div>
+    </div>
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>
