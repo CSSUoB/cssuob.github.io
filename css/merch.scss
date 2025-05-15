@@ -1,0 +1,194 @@
+---
+---
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+
+.merch-container {
+  display: grid;
+  grid-template-areas:
+    "back ."
+    "description purchase"
+    "gallery purchase";
+  grid-template-rows: min-content 1fr;
+  width: 100%;
+  gap: 1rem;
+  justify-content: center;
+
+  .merch-back {
+    grid-area: back;
+    --child-index: 1;
+    color: white;
+
+    * {
+      text-decoration: underline;
+    }
+  }
+
+  .merch-description {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 700px;
+    height: fit-content;
+    grid-area: description;
+    box-sizing: border-box;
+    --child-index: 2;
+  }
+
+  .gallery {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 700px;
+    height: fit-content;
+    grid-area: gallery;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    --child-index: 4;
+
+    * {
+      color: black;
+    }
+  }
+}
+
+.purchase {
+  background-color: #fff;
+  width: 350px;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: fit-content;
+  grid-area: purchase;
+  box-sizing: border-box;
+  position: sticky;
+  top: 1rem;
+  --child-index: 3;
+
+  * {
+    color: black;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+}
+
+.purchase-option {
+  display: flex;
+  align-items: center;
+
+  .option-label {
+    flex-grow: 1;
+    display: grid;
+    grid-template-areas:
+      "option"
+      "note";
+    grid-template-columns: 1fr;
+    gap: 0.2em;
+
+    &.with-quantity {
+      grid-template-areas:
+        "quantity option"
+        "note note";
+      grid-template-columns: min-content 1fr;
+    }
+
+    .quantity {
+      grid-area: quantity;
+    }
+
+    .option {
+      grid-area: option;
+    }
+
+    .note {
+      grid-area: note;
+      font-style: italic;
+      font-size: small;
+    }
+  }
+
+  .price {
+    flex-shrink: 0;
+    font-size: larger;
+    font-family: "JetBrains Mono", "Inconsolata", monospace;
+  }
+}
+
+.button {
+  display: inline-block;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+
+  i {
+    color: white;
+  }
+}
+
+.guild-button {
+  background-color: #5bbaa2;
+}
+
+.unavailable-button {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.gallery img,
+.merch-description img {
+  border-radius: 10px;
+  border-style: initial;
+  max-height: initial;
+  height: initial;
+  box-sizing: border-box;
+}
+
+.merch-description img {
+  width: 80%;
+  max-width: 80%;
+}
+
+.gallery img {
+  width: initial;
+  max-width: 100%;
+  max-height: 500px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .merch-container {
+    display: grid;
+    grid-template-areas:
+      "back"
+      "description"
+      "purchase"
+      "gallery";
+
+    .purchase {
+      width: 100%;
+      top: -60px;
+    }
+
+    .merch-description {
+      width: 100%;
+    }
+
+    .gallery {
+      width: 100%;
+    }
+  }
+}

@@ -13,11 +13,11 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-export function toggleShow(id) {
+window.toggleShow = function (id) {
   let x = document.getElementById("hbdd_" + id);
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
     x.style.display = "none";
   }
-}
+};
