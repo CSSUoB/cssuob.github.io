@@ -32,7 +32,8 @@
       {% endif %}
       <div class="purchase fadein">
         <h2>Purchase options</h2>
-        {% for option in page.options %}
+        {% for group in page.purchase-options %}
+          {% for option in group.options %}
           <div class="purchase-option">
             {% if option.quantity %}
             <div class="option-label with-quantity">
@@ -45,14 +46,19 @@
                 <span class="note">{{ option.note }}</span>
               {% endif %}
             </div>
-            <span class="price">£{{ option.price }}</span>
+            {% if option.price > 0 %}
+              <span class="price">£{{ option.price }}</span>
+            {% else %}
+              <span class="price">Free</span>
+            {% endif %}
           </div>
+          {% endfor %}
+          {% if group.url %}
+            <a href="{{ group.url }}" target="_blank" class="button {{ group.type }}-button"><i class="fas {{ group.icon }}"></i>{{ group.text }}</a>
+          {% else %}
+            <a href="#" class="button unavailable-button"><i class="fas fa-ban"></i>Currently unavailable</a>
+          {% endif %}
         {% endfor %}
-        {% if page.purchase-url %}
-          <a href="{{ page.purchase-url }}" target="_blank" class="button guild-button">Buy on Guild website <i class="fas fa-arrow-right"></i></a>
-        {% else %}
-          <a href="#" class="button unavailable-button"><i class="fas fa-ban"></i>Currently unavailable</a>
-        {% endif %}
       </div>
     </div>
   </main>

@@ -25,10 +25,11 @@ favicon: /favicon.ico
         <div class="merch-excerpt">
           <p>{{ merch.excerpt | strip_html }}</p>
         </div>
-        {% if merch.options %}
+        <!-- todo: figure out something better to put here -->
+        <!-- {% if merch.options %}
         {% assign options = merch.options | sort: 'price' %}
         <p class="merch-price">from £{{ options[0]['price'] }}</h2>
-          {% endif %}
+        {% endif %} -->
       </div>
     </a>
     {% endfor %}
