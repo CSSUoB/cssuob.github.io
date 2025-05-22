@@ -144,6 +144,15 @@
   background-color: #5bbaa2;
 }
 
+.download-button {
+  background-color: lightgray;
+  color: black;
+  
+  i {
+    color: black;
+  } 
+}
+
 .unavailable-button {
   background-color: gray;
   cursor: not-allowed;
@@ -180,7 +189,7 @@
 
     .purchase {
       width: 100%;
-      top: -60px;
+      position: static;
     }
 
     .merch-description {
