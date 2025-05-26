@@ -7,7 +7,7 @@ jobs:
     name: Automatic PR Updater
     runs-on: ubuntu-latest
     steps:
-      - uses: CSSUoB/pr-auto-updater@v2
+      - uses: CSSUoB/pr-auto-updater@v2.0.0
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
           PR_FILTER: 'labelled'
