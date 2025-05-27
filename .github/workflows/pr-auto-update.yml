@@ -1,0 +1,17 @@
+name: pr-auto-update
+on:
+  push: {}
+
+jobs:
+  pr-auto-update:
+    name: Automatic PR Updater
+    runs-on: ubuntu-latest
+    permissions: 
+      pull-requests: write
+      contents: write
+    steps:
+      - uses: CSSUoB/pr-auto-updater@v2.0.0
+        env:
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+          PR_FILTER: 'labelled'
+          PR_LABELS: 'sync'
