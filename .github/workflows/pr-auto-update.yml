@@ -12,6 +12,6 @@ jobs:
     steps:
       - uses: CSSUoB/pr-auto-updater@v2.1.2
         env:
-          GITHUB_TOKEN: '${{ secrets.pr-auto-updater }}'
+          GITHUB_TOKEN: '${{ secrets.PR_UPDATE_TOKEN }}'
           PR_FILTER: 'labelled'
           PR_LABELS: 'sync'
