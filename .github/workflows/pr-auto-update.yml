@@ -15,3 +15,5 @@ jobs:
           GITHUB_TOKEN: '${{ secrets.PR_UPDATE_TOKEN }}'
           PR_FILTER: 'labelled'
           PR_LABELS: 'sync'
+          MERGE_CONFLICT_ACTION: 'label'
+          MERGE_CONFLICT_LABEL: 'conflict'
