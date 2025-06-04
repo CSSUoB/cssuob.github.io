@@ -2,12 +2,24 @@
 layout: merch
 title: TeX Plushies
 slug: plushies
-purchase-url: https://www.guildofstudents.com/shop/product/10317460/
-options:
-  - name: Plushie
-    quantity: 1
-    price: 13.99
-    note: Limited to members only
+purchase-options:
+  - url: https://www.guildofstudents.com/shop/product/10317460/
+    type: guild
+    text: Buy on Guild website
+    icon: fa-arrow-up-right-from-square
+    options:
+      - name: Plushie
+        quantity: 1
+        price: 13.99
+        note: Limited to members only
+  - url: /assets/tex-pattern.pdf
+    type: download
+    text: Download
+    icon: fa-download
+    options:
+      - name: Pattern
+        price: 0
+        note: For if you want to make one yourself!
 gallery:
   - url: /assets/images/tex-plushie/20250426_0008_lowres.jpg
     alt: TeX reading a book
