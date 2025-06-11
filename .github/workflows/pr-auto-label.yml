@@ -1,0 +1,26 @@
+name: "Automatically mark PRs to sync"
+
+on:
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  labeler:
+    if: github.event.pull_request.user.type != 'Bot'
+    permissions:
+      pull-requests: write
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add "sync" label to PR
+        run: gh pr edit "$PR_URL" --add-label sync
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+
+      - name: Comment on PR to explain sync label
+        run: gh pr comment "$PR_URL" --body "This pull request has been marked to **automatically sync** to its base branch. You can **disable** this behavior by removing the `sync` label."
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
