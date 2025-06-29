@@ -1,5 +1,5 @@
 academic_year: 2024/2025
-current: true
+current: false
 people:
   - name: Holly P.
     discordtag: errortm99
@@ -7,6 +7,7 @@ people:
     role: President
     picture: /assets/committee/2024-25/mini/holly.jpg
     start-date: 1/7/2024
+    end-date: 30/06/2025
     bio: >
       All aboard! My name is Holly, and I am your CSS President, conducting our wonderful committee and the society as a 
       whole this year. Whilst I am in charge of ensuring events and tasks run smoothly, I am also the face and voice for 
@@ -20,6 +21,7 @@ people:
     role: Treasurer
     picture: /assets/committee/2024-25/mini/matty.jpg
     start-date: 1/7/2024
+    end-date: 30/06/2025
     bio: >
       Hello! I'm Matty, your treasurer, so I'll be handling the society finances and financial paperwork required to make sure the society can continue running amazing events for everyone! I'm going into my 5th year at UoB, 4th year in CS and a student rep so please do reach out if you have any concerns, general feedback or just fancy venting about something.
 
@@ -29,6 +31,7 @@ people:
     role: Vice-President
     picture: /assets/committee/2024-25/mini/adi.jpg
     start-date: 1/7/2024
+    end-date: 30/06/2025
     bio: >
       Hiya folks! My name is Adi, the Vice President of CSS. My role is very similar to that of our President, however I mostly look after the lower level tasks and taking over responsibilites as and when needed. Alongside that, I am also the GDSC Lead for this year, so if you have any ideas for workshops or talks, please let me know! Outside of CSS, I enjoy reading, writing poetry, playing the guitar and gardening. Feel free to say hi if you see me in person, or DM me over Discord!
 
@@ -54,6 +57,7 @@ people:
     role: Publicity Officer
     picture: /assets/committee/2024-25/mini/leonardo.jpg
     start-date: 1/7/2024
+    end-date: 30/06/2025
     bio: >
       Hi! I'm Leonardo, a final year studying Computer Science. My role this year is to create beautiful shitposts on 
       Canva to publish on Instagram and Discord to keep you guys up to date on what we're up to. I'm usually around on 
@@ -64,6 +68,7 @@ people:
     role: Special Events Officer
     picture: /assets/committee/2024-25/mini/rohit.png
     start-date: 1/7/2024
+    end-date: 30/06/2025
     bio: >
       Heya! I'm Rohit, I'm in my second year of medicine, and I'm the CSS Special Events Officer.
       Believe it or not, there is a real person under the mask! My job is to manage larger events
@@ -76,6 +81,7 @@ people:
     role: Industrial Liaison
     picture: /assets/committee/2024-25/mini/marcus.jpg
     start-date: 1/7/2024
+    end-date: 30/06/2025
     bio: >
       Hello, I'm Marcus, and I'm on industrial placement at Jaguar Land Rover. 
       I'm responsible for working with current and prospective sponsors and planning sponsored events. 
@@ -88,6 +94,7 @@ people:
     role: Sports Secretary
     picture: /assets/committee/2024-25/mini/sumeet.jpg
     start-date: 1/7/2024
+    end-date: 30/06/2025
     bio: >
       Hey, I'm Sumeet and I'm in my 3rd year of Maths and Computer Science.
       I'll be responsible for helping out with anything sport related within
@@ -102,6 +109,7 @@ people:
     discordtag: achievementcava
     picture: /assets/committee/2024-25/mini/sai.jpg
     start-date: 1/7/2024
+    end-date: 30/06/2025
     bio: >
       ¡Hola, Hello, 大家好, வணக்கம், apa habaq, नमस्ते, Jambo, a su'mae, Birmingham - I'm Sai, your International's 
       Representative for this year! My job is to think about how decisions we make might have different impacts on 
@@ -139,6 +147,7 @@ people:
     role: First Year Rep
     picture: /assets/committee/2024-25/mini/evie.jpeg
     start-date: 29/01/2025
+    end-date: 30/06/2025
     bio: > 
       Hello there, I'm Evie your current first year rep. My job is the lure first years into joining CSS as well as making sure first years feel welcome in CSS. Feel free to message me on the discord (:
 
@@ -157,6 +166,7 @@ people:
     role: Socials Secretary
     picture: /assets/committee/2024-25/mini/george.jpg
     start-date: 6/11/2024
+    end-date: 30/06/2025
     bio: >
       Hello everyone, I'm George. My role is to organise and run fun and exciting events for the society! Outside of CSS, I'm an avid speed cuber and chess player. I'm a friendly face (mostly) so feel free to message me on Discord or speak to me if you see me around.
 
@@ -166,6 +176,7 @@ people:
     role: Equality, Diversity, and Inclusivity Officer
     picture: /assets/committee/2024-25/mini/sabrina.jpg
     start-date: 6/11/2024
+    end-date: 30/06/2025
     bio: >
       Ellow, I am Sabrina, a 1st year Mathematics and Computer Science student, and I'm your EDI Officer this year.
       My role is to try to make sure CSS events are accessible, and that everyone can feel comfortable/free to participate.
@@ -177,6 +188,7 @@ people:
     role: Post-Graduate (Taught) Rep
     picture: /assets/committee/2024-25/mini/nial.jpg
     start-date: 6/11/2024
+    end-date: 30/06/2025
     bio: > 
       Hi, I'm Nial, I'm a postgraduate Computer Science student who grew up down the road from campus in Bournville. I will be ensuring that the society makes awesome events tailored towards the postgrad cohort. If you see me I'm happy to chat on any ideas or concerns you may have or just have a chat in general. I like to code a lot as well play and watch Football with my favourite team being Birmingham City (sadly).
 
@@ -186,5 +198,6 @@ people:
     role: Post-Graduate (Research) Rep
     picture: /assets/committee/2024-25/mini/joe.jpg
     start-date: 6/11/2024
+    end-date: 30/06/2025
     bio: >
       Hey everyone, I'm Joe, a fourth year MSci CS student who's your PGR Rep for this year! On committee, my main role is to represent our wonderful students studying hard for a Ph.D., as well as accommodating them and encouraging them to attend CSS' events. However, I'm always happy to chat to everyone, not just PGRs! Outside of uni work, you can find me Ballroom & Latin dancing, or enthusing over many insects.
