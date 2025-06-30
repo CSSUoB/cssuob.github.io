@@ -15,7 +15,7 @@ jobs:
         id: generate-token
         with:
           app-id: 1363586
-          private-key: ${{ secrets.PR_AUTO_UPDATE_CLIENT_SECRET }}
+          private-key: ${{ secrets.PR_AUTO_UPDATE_PRIVATE_KEY }}
 
       - uses: CSSUoB/pr-auto-updater@v2.1.2
         env:
