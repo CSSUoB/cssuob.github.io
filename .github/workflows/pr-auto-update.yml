@@ -10,9 +10,16 @@ jobs:
       pull-requests: write
       contents: write
     steps:
+      - name: Generate Access Token
+        uses: actions/create-github-app-token@v2
+        id: generate-token
+        with:
+          app-id: ${{ vars.PR_AUTO_UPDATE_CLIENT_ID }}
+          private-key: ${{ secrets.PR_AUTO_UPDATE_PRIVATE_KEY }}
+
       - uses: CSSUoB/pr-auto-updater@v2.1.2
         env:
-          GITHUB_TOKEN: '${{ secrets.PR_AUTO_UPDATE_TOKEN }}'
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
           PR_FILTER: 'labelled'
           PR_LABELS: 'sync'
           MERGE_CONFLICT_ACTION: 'label'
