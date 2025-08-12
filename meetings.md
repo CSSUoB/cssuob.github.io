@@ -80,7 +80,7 @@ title: Meetings
                             </li>
                         {% else %}
                             <li>
-                                Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}agenda.pdf'>Agenda</a> - Minutes: <a href='{{path1}}minutes.pdf'>PDF</a> - <a href='{{path1}}minutes.pdf'>HTML</a>
+                                Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}agenda.pdf'>Agenda</a> - Minutes: <a href='{{path1}}minutes.pdf'>PDF</a> - <a href='{{path1}}minutes.html'>HTML</a>
                             </li>
                         {% endif %}
                     {% elsif path1 contains path3 %}
