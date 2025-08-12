@@ -94,9 +94,13 @@ title: Meetings
                                 EGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}egm/agenda.pdf'>Agenda</a>
                             </li>
                         {% else %}
-                            {% if new_path contains 'minutes' %}
+                            {% if new_path contains 'minutes.pdf' %}
                                 <li>
-                                    Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}minutes.pdf'>Minutes</a>
+                                    Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}minutes.pdf'>PDF Minutes</a>
+                                </li>
+                            {% elsif new_path contains 'minutes.html' %}
+                                <li>
+                                    Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}minutes.html'>HTML Minutes (WIP)</a>
                                 </li>
                             {% else %}
                                 <li>
