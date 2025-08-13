@@ -73,15 +73,15 @@ title: Meetings
                         {% if file.path contains '.html' %}
                             {% if file.path contains 'agm' %}
                                 <li>
-                                    AGM {{day}}/{{month}}/{{year}}: Agenda: <a href='{{path1}}agm/agenda.pdf'>PDF</a> - <a href='{{path1}}agm/agenda.html'>HTML</a> - Minutes: <a href='{{path1}}agm/minutes.pdf'>PDF</a> - <a href='{{path1}}agm/minutes.html'>HTML (WIP)</a>
+                                    AGM {{day}}/{{month}}/{{year}}: Agenda: <a href='{{path1}}agm/agenda.pdf'>PDF</a> - <a href='{{path1}}agm/agenda.html'>HTML (WIP)</a> - Minutes: <a href='{{path1}}agm/minutes.pdf'>PDF</a> - <a href='{{path1}}agm/minutes.html'>HTML (WIP)</a>
                                 </li>
                             {% elsif file.path contains 'egm' %}
                                 <li>
-                                    EGM {{day}}/{{month}}/{{year}}: Agenda: <a href='{{path1}}egm/agenda.pdf'>PDF</a> - <a href='{{path1}}egm/agenda.html'>HTML</a> - Minutes: <a href='{{path1}}egm/minutes.pdf'>PDF</a> - <a href='{{path1}}egm/minutes.html'>HTML (WIP)</a>
+                                    EGM {{day}}/{{month}}/{{year}}: Agenda: <a href='{{path1}}egm/agenda.pdf'>PDF</a> - <a href='{{path1}}egm/agenda.html'>HTML (WIP)</a> - Minutes: <a href='{{path1}}egm/minutes.pdf'>PDF</a> - <a href='{{path1}}egm/minutes.html'>HTML (WIP)</a>
                                 </li>
                             {% else %}
                                 <li>
-                                    Committee Meeting {{day}}/{{month}}/{{year}}: Agenda: <a href='{{path1}}/agenda.pdf'>PDF</a> - <a href='{{path1}}/agenda.html'>HTML</a> - Minutes: <a href='{{path1}}minutes.pdf'>PDF</a> - <a href='{{path1}}minutes.html'>HTML (WIP)</a>
+                                    Committee Meeting {{day}}/{{month}}/{{year}}: Agenda: <a href='{{path1}}/agenda.pdf'>PDF</a> - <a href='{{path1}}/agenda.html'>HTML (WIP)</a> - Minutes: <a href='{{path1}}minutes.pdf'>PDF</a> - <a href='{{path1}}minutes.html'>HTML (WIP)</a>
                                 </li>
                             {% endif %}
                         {% else %}
