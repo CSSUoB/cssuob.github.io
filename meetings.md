@@ -70,18 +70,34 @@ title: Meetings
 
 
                     {% if path2 contains path1 %}
-                        {% if file.path contains 'agm' %}
-                            <li>
-                                AGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}agm/agenda.pdf'>Agenda</a> - <a href='{{path1}}agm/minutes.pdf'>Minutes</a>
-                            </li>
-                        {% elsif file.path contains 'egm' %}
-                            <li>
-                                EGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}egm/agenda.pdf'>Agenda</a> - <a href='{{path1}}egm/minutes.pdf'>Minutes</a>
-                            </li>
+                        {% if file.path contains '.html' %}
+                            {% if file.path contains 'agm' %}
+                                <li>
+                                    AGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}agm/agenda.pdf'>Agenda</a> - <a href='{{path1}}agm/minutes.pdf'>Minutes</a> - <a href='{{path1}}agm/minutes.html'>HTML</a>
+                                </li>
+                            {% elsif file.path contains 'egm' %}
+                                <li>
+                                    EGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}egm/agenda.pdf'>Agenda</a> - <a href='{{path1}}egm/minutes.pdf'>Minutes</a> - <a href='{{path1}}agm/minutes.html'>HTML</a>
+                                </li>
+                            {% else %}
+                                <li>
+                                    Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}agenda.pdf'>Agenda</a> - Minutes: <a href='{{path1}}minutes.pdf'>PDF</a> - <a href='{{path1}}minutes.html'>HTML</a>
+                                </li>
+                            {% endif %}
                         {% else %}
-                            <li>
-                                Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}agenda.pdf'>Agenda</a> - Minutes: <a href='{{path1}}minutes.pdf'>PDF</a> - <a href='{{path1}}minutes.html'>HTML</a>
-                            </li>
+                            {% if file.path contains 'agm' %}
+                                <li>
+                                    AGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}agm/agenda.pdf'>Agenda</a> - <a href='{{path1}}agm/minutes.pdf'>Minutes</a>
+                                </li>
+                            {% elsif file.path contains 'egm' %}
+                                <li>
+                                    EGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}egm/agenda.pdf'>Agenda</a> - <a href='{{path1}}egm/minutes.pdf'>Minutes</a>
+                                </li>
+                            {% else %}
+                                <li>
+                                    Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}agenda.pdf'>Agenda</a> - Minutes: <a href='{{path1}}minutes.pdf'>PDF</a>
+                                </li>
+                            {% endif %}
                         {% endif %}
                     {% elsif path1 contains path3 %}
                     {% else %}
@@ -94,13 +110,9 @@ title: Meetings
                                 EGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}egm/agenda.pdf'>Agenda</a>
                             </li>
                         {% else %}
-                            {% if new_path contains 'minutes.pdf' %}
+                            {% if new_path contains 'minutes' %}
                                 <li>
-                                    Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}minutes.pdf'>PDF Minutes</a>
-                                </li>
-                            {% elsif new_path contains 'minutes.html' %}
-                                <li>
-                                    Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}minutes.html'>HTML Minutes (WIP)</a>
+                                    Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}minutes.pdf'>Minutes</a>
                                 </li>
                             {% else %}
                                 <li>
