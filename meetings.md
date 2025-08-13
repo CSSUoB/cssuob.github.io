@@ -73,11 +73,11 @@ title: Meetings
                         {% if file.path contains '.html' %}
                             {% if file.path contains 'agm' %}
                                 <li>
-                                    AGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}agm/agenda.pdf'>Agenda</a> - <a href='{{path1}}agm/minutes.pdf'>Minutes</a> - <a href='{{path1}}agm/minutes.html'>HTML</a>
+                                    AGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}agm/agenda.pdf'>Agenda</a> - Minutes: <a href='{{path1}}agm/minutes.pdf'>PDF</a> - <a href='{{path1}}agm/minutes.html'>HTML</a>
                                 </li>
                             {% elsif file.path contains 'egm' %}
                                 <li>
-                                    EGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}egm/agenda.pdf'>Agenda</a> - <a href='{{path1}}egm/minutes.pdf'>Minutes</a> - <a href='{{path1}}agm/minutes.html'>HTML</a>
+                                    EGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}egm/agenda.pdf'>Agenda</a> - Minutes: <a href='{{path1}}egm/minutes.pdf'>PDF</a> - <a href='{{path1}}egm/minutes.html'>HTML</a>
                                 </li>
                             {% else %}
                                 <li>
