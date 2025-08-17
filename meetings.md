@@ -68,8 +68,8 @@ title: Meetings
                     {% assign month = file.path | remove: "/assets/meetings" | slice: 6, 2 %}
                     {% assign year = file.path | remove: "/assets/meetings" | slice: 1, 4 %}
 
-
-                    {% if ((path2 contains path1) and not (path3 contains path1)) %}
+                    {% if path1 contains path3 %}
+                    {% elsif path2 contains path1 %}
                         {% if file.path contains '.html' %}
                             {% if file.path contains 'agm' %}
                                 <li>
@@ -123,7 +123,6 @@ title: Meetings
                                 </li>
                             {% endif %}
                         {% endif %}
-                    {% elsif path1 contains path3 %}
                     {% else %}
                         {% if file.path contains 'agm' %}
                             <li>
