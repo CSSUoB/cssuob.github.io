@@ -69,7 +69,7 @@ title: Meetings
                     {% assign year = file.path | remove: "/assets/meetings" | slice: 1, 4 %}
 
 
-                    {% if not path3 contains path1 %}
+                    {% if ((path2 contains path1) and not (path3 contains path1)) %}
                         {% if file.path contains '.html' %}
                             {% if file.path contains 'agm' %}
                                 <li>
