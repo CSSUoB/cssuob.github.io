@@ -110,36 +110,80 @@ title: Meetings
                             {% endif %}
                         {% else %}
                             {% if file.path contains 'agm' %}
-                                <li>
-                                    AGM {{day}}/{{month}}/{{year}}: Agenda: <a href='{{path1}}agm/agenda.pdf'>PDF</a> - Minutes: <a href='{{path1}}agm/minutes.pdf'>PDF</a>
+                                <li> 
+                                    AGM {{day}}/{{month}}/{{year}}:
+                                    <ul>
+                                        <li>
+                                            Agenda: <a href='{{path1}}agm/agenda.pdf'>PDF</a>
+                                        </li>
+                                        <li>
+                                            Minutes: <a href='{{path1}}agm/minutes.pdf'>PDF</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             {% elsif file.path contains 'egm' %}
-                                <li>
-                                    EGM {{day}}/{{month}}/{{year}}: Agenda: <a href='{{path1}}egm/agenda.pdf'>PDF</a> - Minutes: <a href='{{path1}}egm/minutes.pdf'>PDF</a>
+                                <li> 
+                                    EGM {{day}}/{{month}}/{{year}}:
+                                    <ul>
+                                        <li>
+                                            Agenda: <a href='{{path1}}egm/agenda.pdf'>PDF</a>
+                                        </li>
+                                        <li>
+                                            Minutes: <a href='{{path1}}egm/minutes.pdf'>PDF</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             {% else %}
-                                <li>
-                                    Committee Meeting {{day}}/{{month}}/{{year}}: Agenda: <a href='{{path1}}/agenda.pdf'>PDF</a> - Minutes: <a href='{{path1}}/minutes.pdf'>PDF</a>
+                                <li> 
+                                    Committee Meeting {{day}}/{{month}}/{{year}}:
+                                    <ul>
+                                        <li>
+                                            Agenda: <a href='{{path1}}/agenda.pdf'>PDF</a>
+                                        </li>
+                                        <li>
+                                            Minutes: <a href='{{path1}}/minutes.pdf'>PDF</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             {% endif %}
                         {% endif %}
                     {% else %}
                         {% if file.path contains 'agm' %}
                             <li>
-                                 AGM {{day}}/{{month}}/{{year}}: Agenda: <a href='{{path1}}agm/agenda.pdf'>PDF</a>
+                                 AGM {{day}}/{{month}}/{{year}}:
+                                 <ul>
+                                    <li>
+                                        Agenda: <a href='{{path1}}agm/agenda.pdf'>PDF</a>
+                                    </li>
+                                </ul>
                             </li>
                         {% elsif file.path contains 'egm' %}
                             <li>
-                                EGM {{day}}/{{month}}/{{year}}: Agenda: <a href='{{path1}}egm/agenda.pdf'>PDF</a>
+                                 EGM {{day}}/{{month}}/{{year}}:
+                                 <ul>
+                                    <li>
+                                        Agenda: <a href='{{path1}}egm/agenda.pdf'>PDF</a>
+                                    </li>
+                                </ul>
                             </li>
                         {% else %}
                             {% if new_path contains 'minutes' %}
                                 <li>
-                                    Committee Meeting {{day}}/{{month}}/{{year}}: Minutes: <a href='{{path1}}/minutes.pdf'>PDF</a>
+                                    AGM {{day}}/{{month}}/{{year}}:
+                                    <ul>
+                                        <li>
+                                            Minutes: <a href='{{path1}}/minutes.pdf'>PDF</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             {% else %}
                                 <li>
-                                    Committee Meeting {{day}}/{{month}}/{{year}}: Agenda: <a href='{{path1}}/agenda.pdf'>PDF</a>
+                                    Committee Meeting {{day}}/{{month}}/{{year}}:
+                                    <ul>
+                                        <li>
+                                            Agenda: <a href='{{path1}}/agenda.pdf'>PDF</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             {% endif %}
                         {% endif %}
