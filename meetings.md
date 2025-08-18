@@ -119,7 +119,7 @@ title: Meetings
                                 </li>
                             {% else %}
                                 <li>
-                                    Committee Meeting {{day}}/{{month}}/{{year}}: Agenda: <a href='{{path1}}agenda.pdf'>PDF</a> - Minutes: <a href='{{path1}}minutes.pdf'>PDF</a>
+                                    Committee Meeting {{day}}/{{month}}/{{year}}: Agenda: <a href='{{path1}}/agenda.pdf'>PDF</a> - Minutes: <a href='{{path1}}/minutes.pdf'>PDF</a>
                                 </li>
                             {% endif %}
                         {% endif %}
@@ -135,11 +135,11 @@ title: Meetings
                         {% else %}
                             {% if new_path contains 'minutes' %}
                                 <li>
-                                    Committee Meeting {{day}}/{{month}}/{{year}}: Minutes: <a href='{{path1}}minutes.pdf'>PDF</a>
+                                    Committee Meeting {{day}}/{{month}}/{{year}}: Minutes: <a href='{{path1}}/minutes.pdf'>PDF</a>
                                 </li>
                             {% else %}
                                 <li>
-                                    Committee Meeting {{day}}/{{month}}/{{year}}: Agenda: <a href='{{path1}}agenda.pdf'>PDF</a>
+                                    Committee Meeting {{day}}/{{month}}/{{year}}: Agenda: <a href='{{path1}}/agenda.pdf'>PDF</a>
                                 </li>
                             {% endif %}
                         {% endif %}
