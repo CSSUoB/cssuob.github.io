@@ -68,39 +68,122 @@ title: Meetings
                     {% assign month = file.path | remove: "/assets/meetings" | slice: 6, 2 %}
                     {% assign year = file.path | remove: "/assets/meetings" | slice: 1, 4 %}
 
-
-                    {% if path2 contains path1 %}
-                        {% if file.path contains 'agm' %}
-                            <li>
-                                AGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}agm/agenda.pdf'>Agenda</a> - <a href='{{path1}}agm/minutes.pdf'>Minutes</a>
-                            </li>
-                        {% elsif file.path contains 'egm' %}
-                            <li>
-                                EGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}egm/agenda.pdf'>Agenda</a> - <a href='{{path1}}egm/minutes.pdf'>Minutes</a>
-                            </li>
+                    {% if path1 contains path3 %}
+                    {% elsif path2 contains path1 %}
+                        {% if file.path contains '.html' %}
+                            {% if file.path contains 'agm' %}
+                                <li>
+                                    AGM {{day}}/{{month}}/{{year}}:
+                                    <ul> 
+                                        <li>
+                                            Agenda: <a href='{{path1}}agm/agenda.pdf'>PDF</a> - <a href='{{path1}}agm/agenda.html'>HTML (WIP)</a>
+                                        </li>
+                                        <li>
+                                            Minutes: <a href='{{path1}}agm/minutes.pdf'>PDF</a> - <a href='{{path1}}agm/minutes.html'>HTML (WIP)</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            {% elsif file.path contains 'egm' %}
+                                <li>
+                                    EGM {{day}}/{{month}}/{{year}}: 
+                                    <ul>
+                                        <li>
+                                            Agenda: <a href='{{path1}}egm/agenda.pdf'>PDF</a> - <a href='{{path1}}egm/agenda.html'>HTML (WIP)</a>
+                                        </li>
+                                        <li>
+                                            Minutes: <a href='{{path1}}egm/minutes.pdf'>PDF</a> - <a href='{{path1}}egm/minutes.html'>HTML (WIP)</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            {% else %}
+                                <li>
+                                    Committee Meeting {{day}}/{{month}}/{{year}}: 
+                                    <ul>
+                                        <li>
+                                            Agenda: <a href='{{path1}}/agenda.pdf'>PDF</a> - <a href='{{path1}}/agenda.html'>HTML (WIP)</a>
+                                        </li>
+                                        <li>
+                                            Minutes: <a href='{{path1}}/minutes.pdf'>PDF</a> - <a href='{{path1}}/minutes.html'>HTML (WIP)</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            {% endif %}
                         {% else %}
-                            <li>
-                                Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}agenda.pdf'>Agenda</a> - <a href='{{path1}}minutes.pdf'>Minutes</a>
-                            </li>
+                            {% if file.path contains 'agm' %}
+                                <li> 
+                                    AGM {{day}}/{{month}}/{{year}}:
+                                    <ul>
+                                        <li>
+                                            Agenda: <a href='{{path1}}agm/agenda.pdf'>PDF</a>
+                                        </li>
+                                        <li>
+                                            Minutes: <a href='{{path1}}agm/minutes.pdf'>PDF</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            {% elsif file.path contains 'egm' %}
+                                <li> 
+                                    EGM {{day}}/{{month}}/{{year}}:
+                                    <ul>
+                                        <li>
+                                            Agenda: <a href='{{path1}}egm/agenda.pdf'>PDF</a>
+                                        </li>
+                                        <li>
+                                            Minutes: <a href='{{path1}}egm/minutes.pdf'>PDF</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            {% else %}
+                                <li> 
+                                    Committee Meeting {{day}}/{{month}}/{{year}}:
+                                    <ul>
+                                        <li>
+                                            Agenda: <a href='{{path1}}/agenda.pdf'>PDF</a>
+                                        </li>
+                                        <li>
+                                            Minutes: <a href='{{path1}}/minutes.pdf'>PDF</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            {% endif %}
                         {% endif %}
-                    {% elsif path1 contains path3 %}
                     {% else %}
                         {% if file.path contains 'agm' %}
                             <li>
-                                 AGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}agm/agenda.pdf'>Agenda</a>
+                                 AGM {{day}}/{{month}}/{{year}}:
+                                 <ul>
+                                    <li>
+                                        Agenda: <a href='{{path1}}agm/agenda.pdf'>PDF</a>
+                                    </li>
+                                </ul>
                             </li>
                         {% elsif file.path contains 'egm' %}
                             <li>
-                                EGM {{day}}/{{month}}/{{year}}: <a href='{{path1}}egm/agenda.pdf'>Agenda</a>
+                                 EGM {{day}}/{{month}}/{{year}}:
+                                 <ul>
+                                    <li>
+                                        Agenda: <a href='{{path1}}egm/agenda.pdf'>PDF</a>
+                                    </li>
+                                </ul>
                             </li>
                         {% else %}
                             {% if new_path contains 'minutes' %}
                                 <li>
-                                    Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}minutes.pdf'>Minutes</a>
+                                    AGM {{day}}/{{month}}/{{year}}:
+                                    <ul>
+                                        <li>
+                                            Minutes: <a href='{{path1}}/minutes.pdf'>PDF</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             {% else %}
                                 <li>
-                                    Committee Meeting {{day}}/{{month}}/{{year}}: <a href='{{path1}}agenda.pdf'>Agenda</a>
+                                    Committee Meeting {{day}}/{{month}}/{{year}}:
+                                    <ul>
+                                        <li>
+                                            Agenda: <a href='{{path1}}/agenda.pdf'>PDF</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             {% endif %}
                         {% endif %}
