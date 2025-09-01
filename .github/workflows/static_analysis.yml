@@ -10,7 +10,7 @@ jobs:
   format:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v5
 
     - uses: ./.github/actions/setup-node
 
@@ -20,7 +20,7 @@ jobs:
   spellcheck:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v5
 
     - uses: ./.github/actions/setup-node
     
@@ -46,7 +46,7 @@ jobs:
   lint-js:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v5
 
     - uses: ./.github/actions/setup-node
 
@@ -56,7 +56,7 @@ jobs:
   lint-markdown:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v5
 
     - uses: ./.github/actions/setup-node
 
