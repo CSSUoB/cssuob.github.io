@@ -17,7 +17,7 @@ jobs:
           app-id: ${{ vars.PR_AUTO_UPDATE_CLIENT_ID }}
           private-key: ${{ secrets.PR_AUTO_UPDATE_PRIVATE_KEY }}
 
-      - uses: CSSUoB/pr-auto-updater@v2.1.2
+      - uses: CSSUoB/pr-auto-updater@v2.2.4
         env:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
           PR_FILTER: 'labelled'
