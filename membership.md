@@ -11,7 +11,7 @@ To take part in our bigger, ticketed events, you'll want to purchase a
 membership 🎉 It's £5 for the whole year and all of your membership money goes
 to running great events for other members, a lot of it going on pizza!
 
-You'll also get a snazzy green role 🟢 on the [Discord](/discord)!
+In addition, you'll get an awesome free T-shirt 👕 and a snazzy green role 🟢 on the [Discord](/discord)!
 
 If you have any problems getting a membership, ask in #help on our Discord
 server, the Guild website can occasionally be a little temperamental!
