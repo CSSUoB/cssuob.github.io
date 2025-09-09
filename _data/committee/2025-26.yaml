@@ -1,0 +1,172 @@
+academic_year: 2025/2026
+current: true
+people:
+  - name: Matty Widdop
+    discordtag: MattyTheHacker
+    pronouns: He/Him
+    role: President
+    picture: /assets/committee/2025-26/mini/matty.jpg
+    start-date: 1/7/2025
+    bio: >
+      Hey all! I'm Matty, your CSS president for 2025-26! I'll be coordinating committee and making sure everyone is on track and supported throughout the year. I'll also be responsible for representing the society as a whole so do feel free to reach out if you have any questions, comments or concerns!
+
+  - name: Oli Baker
+    discordtag: solarninja
+    pronouns: They/Them
+    role: Treasurer
+    picture: /assets/committee/2025-26/mini/oli.jpg
+    start-date: 1/7/2025
+    bio: >
+      Hello! My name is Oli and I am the new treasurer!
+      I will be dealing with the society's finances, along with other general stuff.
+      I am currently going into my second year of Computer Science but my third year of university; outside of my education and committee obligations I like creative writing, coding, video games, vocaloid music & music in general, cosplay, etc.
+      Feel free to say hi through an email, on discord, or in person if you see me!
+
+
+  - name: Marcus Gustafsson
+    discordtag: jb007db5
+    pronouns: He/Him
+    role: Secretary
+    picture: /assets/committee/2025-26/mini/marcus.jpg
+    start-date: 1/7/2025
+    bio: >
+      Hello, I'm Marcus, and I'm in my fifth and final year!
+      I'm responsible for minuting our meetings and making agendas publicly available on our website among other things. 
+      My interests outside of Computer Science are movies, cars, planes, '80s music, laserdisc and other nerdy stuff! 
+      I'm normally around on Discord so feel free to message me!
+
+
+  - name: Sumeet Brar
+    discordtag: jethoodie
+    pronouns: He/They
+    role: Vice-President
+    picture: /assets/committee/2025-26/mini/sumeet.jpg
+    start-date: 1/7/2025
+    bio: >
+      Hey there, I'm Sumeet and I'm in my 4th (and hopefully final) year :)
+      I'll be responsible for picking up slack for when our supreme leader Matty needs it (so never).
+      And if not that I'll be generally helping set up events and being a friendly face for the society.
+      As someone who's been on the committee for a while, I'm sure many of you recognise me, and I'll be around a lot if you need any help!
+      
+
+  - name: Rohit Jose
+    pronouns: He/Him
+    discordtag: bluka479
+    role: Publicity Officer
+    picture: /assets/committee/2025-26/mini/rohit.png
+    start-date: 1/7/2025
+    bio: >
+      Heya! I'm Rohit, and I'm the CSS Publicity Officer. Believe it or not, there is a real person under the mask! My job is to organise, design, and publish publicity for CSS and the many events we run. A couple of my hobbies include ethical hacking, drawing, and gaming. Feel free to say hi if you see me around or on discord!
+
+  - name: Mahima Gupta
+    pronouns: She/Her
+    discordtag: mahima2209
+    role: International Student Rep
+    picture: /assets/committee/2025-26/mini/mahima.jpeg
+    start-date: 1/7/2025
+    bio: >
+      Hi, I'm Mahima, and I am super excited to be your new International Student Rep. Being an international student myself even though its my second year, I know what it's like to adjust to a new place, so I'm here to make sure CSS stays the friendly, welcoming, and inclusive family that it already is. Can't wait to meet more of you this year!!! Reach out to me on Discord, I am always happy to help!
+
+
+  - name: Toby
+    discordtag: 99tornado99
+    pronouns: He/Him
+    role: Special Events Officer
+    picture: /assets/committee/2025-26/mini/toby.jpg
+    start-date: 1/7/2025
+    bio: >
+      Hi, I'm Toby, the Special Events Officer for CSS. My role is to organise the large CSS events that happen throught the year. Outside of computer science my main interests are games (League of Legends) and piano, mainly focusing on classical music.
+      
+
+  - name: Fearne Townsend
+    pronouns: She/Her
+    discordtag: ferb_t
+    role: Socials Secretary
+    picture: /assets/committee/2025-26/mini/fearne.jpg
+    start-date: 1/7/2025
+    bio: >
+      Hellooooo, I'm Fearne your new socials sec. I'll be putting together
+      some hopefully fun and super duper cool and awesome socials for you.
+      Please come along and say hi :)
+      I'm going into my third year in CS and first year in committee.
+      If your favourite colour is pink I think we'll be great friends 
+      
+  - name: Evie Wilson
+    pronouns: She/Her
+    discordTag: cacti7
+    role: Sports Secretary
+    picture: /assets/committee/2024-25/mini/evie.jpeg
+    start-date: 1/7/2025
+    bio: >
+      Hello there, I'm Evie your current sports sec. Sports and CS crazy right but let me introduce you to a little thing called league of legends. Feel free to message me on the discord (:
+
+  - name: Sabrina Ahmad
+    discordtag: thesussywussy
+    pronouns: They/Any
+    role: Equality, Diversity, and Inclusivity Officer
+    picture: /assets/committee/2025-26/mini/sabrina.png
+    start-date: 1/7/2025
+    bio: > 
+      Ellow, I'm Sabrina! I'm a Maths and CS student, and I'm your EDI Officer again. My role is to ensure CSS events are accessible, and that everyone can feel comfortable participating. Feel free to reach out to me on discord/on the CSS server, in-person, or via email if you *really* like email.
+
+  - name: Amrit Bhogal
+    discordtag: Frityet
+    pronouns: He/Him
+    role: Industrial Liaison
+    picture: /assets/committee/2025-26/mini/amrit.jpg
+    start-date: 1/7/2025
+    bio: >
+      I am Amrit. Second year undergraduate!
+      Lua is my favourite programming language, and is easily one of the best languages to ever be made. I also love to use C, C++, C#, Objective-C, Swift, TypeScript, and F#. I have a wide plethora of projects I have worked on and am currently working on, present for viewing on my GitHub (same username as my discord)
+      Other than programming, I also love Model UN/International relations, volleyball, cooking, classic Japanese cars, and snowboarding!
+      As an industrial liason, I am excited to work to help students get oppertunities in industry to hone their skills and gain experience and connections.
+      I am looking forward to meeting and working with everyone!
+      
+
+  - name: Matt Norton
+    discordtag: carrotmanmatt
+    pronouns: He/Him
+    role: Post-Graduate (Research) Rep
+    picture: /assets/committee/2025-26/mini/matt.png
+    start-date: 1/7/2025
+    bio: >
+      Matt here, your Post-Graduate (Research) Rep (and boy am I good at "repping").
+      I'll be looking out for all the research post-graduates over the year,
+      as well as introducing CSS to all the new students in September.
+      We've had such a good inclusion of PGR students in 2024/25 so I'm looking
+      forward to keeping that going with fun events that are accessible to the needs
+      of my cohort. I may be crazy, but I'll never be scary so always feel free to
+      come over for a chat! #ILoveOSM
+
+
+  - name: Vidushi
+    discordtag: vidushi2409
+    pronouns: She/Her
+    role: First Year Rep
+    flags: ["interim"]
+    picture: /assets/committee/2025-26/mini/vidushi.jpg
+    start-date: 1/7/2025
+    bio: >
+      Hey! I’m Vidushi, your Interim First-Year Rep for CSS. As a classic Libra, 
+      I love balance, good vibes, and making sure everyone’s voice is heard. I’m 
+      passionate about helping others, meeting new people, and turning your ideas 
+      into real change. If you see me around, come say hi, I’m always up for a chat 
+      (or a coffee)!
+      
+
+  - name: Jhundon Mendi
+    discordtag: thatguyender
+    pronouns: He/Him
+    role: Post-Graduate (Taught) Rep
+    flags: ["interim"]
+    picture: /assets/committee/2025-26/mini/jhundon.jpg
+    start-date: 1/7/2025
+    bio: >
+      Howdy hey! I'm Jhundon, your Interim Postgraduate (Taught) Rep! I'm here to represent 
+      and support the PGT students joining us at CSS. Whether you're facing academic hurdles, 
+      feeling a little lost, or just want to get more involved,  all you got to do is send me 
+      a message!
+
+      I've been here since my undergraduate in CS four years ago and have met many amazing people 
+      from both the society and the university. Without them, I wouldn't have found my love for 
+      Immersive Technologies (mostly VR) and the amazing community we have here.
