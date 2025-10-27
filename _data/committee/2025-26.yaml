@@ -121,7 +121,45 @@ people:
       Other than programming, I also love Model UN/International relations, volleyball, cooking, classic Japanese cars, and snowboarding!
       As an industrial liason, I am excited to work to help students get oppertunities in industry to hone their skills and gain experience and connections.
       I am looking forward to meeting and working with everyone!
-      
+
+  - name: Joe Adams
+    discordtag: itjoe
+    pronouns: He/Him
+    role: Post-Graduate (Research) Rep
+    picture: /assets/committee/2025-26/mini/joe.jpg
+    start-date: 22/10/2025
+    bio: >
+      Hi guys, I'm Joe, and I'm back as the PGR Rep! This time, however, I'm actually a Ph.D. student, so I feel more equipped to represent our smallest, but still very important group! On committee, my main role is to represent our wonderful students studying hard for a Ph.D., as well as accommodating them and encouraging them to attend CSS' events. However, I'm always happy to chat to everyone, not just PGRs! Outside of uni work, you can find me Ballroom & Latin dancing, or enthusing over many, many insects.
+
+  - name: Maddy Lardner
+    discordtag: darkbanshee
+    pronouns: She/Her
+    role: Post-Graduate (Taught) Rep
+    picture: /assets/committee/2025-26/mini/maddy.jpg
+    start-date: 22/10/2025
+    bio: >
+      Hi! I'm Maddy, a PGT student studying AI and Machine Learning, and I'm excited to be your new PGT Rep this year. As someone new to UOB, I've jumped straight into getting involved and connecting with our community. Outside of studying, I'm a massive gamer and a pretty terrible netball player. My goal is to represent and support all PGT students, making sure everyone feels welcome, included, and heard.
+      If you ever need anything or just fancy a chat, feel free to reach out but be warned I can talk for ages :)
+
+  - name: Deji
+    discordtag: schloraus
+    pronouns: He/Him
+    role: Hackathons Officer
+    picture: /assets/committee/2025-26/mini/deji.jpg
+    start-date: 22/10/2025
+    bio: >
+      Hello, I'm Deji the Hackathons Officer and I'm currently studying Artificial Intelligence (AI) and Computer Science BSc.
+      I love music, learning and games(both card games and online games). If you have any specific concerns about proceedings or
+      hackathons you'd like to take part in please send us an email and I'll make sure to get back to you.
+
+  - name: Albert Waldron
+    discordtag: albotexe
+    pronouns: He/Him
+    role: First Year Rep
+    picture: /assets/committee/2025-26/mini/albert.jpg
+    start-date: 22/10/2025
+    bio: >
+      Hello! I'm Albert, a first year undergraduate currently studying Computer Science Bsc. I love all things to do with computers, music, and philosophy. I also enjoy strategy games, and playing badminton. As first year rep, I represent the needs of my year group on committee, so please don't hesitate to come to me with concerns if you see me around or in a lecture, or just drop me a message on discord!
 
   - name: Matt Norton
     discordtag: carrotmanmatt
@@ -129,6 +167,7 @@ people:
     role: Post-Graduate (Research) Rep
     picture: /assets/committee/2025-26/mini/matt.png
     start-date: 1/7/2025
+    end-date: 1/10/2025
     bio: >
       Matt here, your Post-Graduate (Research) Rep (and boy am I good at "repping").
       I'll be looking out for all the research post-graduates over the year,
@@ -146,6 +185,7 @@ people:
     flags: ["interim"]
     picture: /assets/committee/2025-26/mini/vidushi.jpg
     start-date: 1/7/2025
+    end-date: 22/10/2025
     bio: >
       Hey! I’m Vidushi, your Interim First-Year Rep for CSS. As a classic Libra, 
       I love balance, good vibes, and making sure everyone’s voice is heard. I’m 
@@ -161,6 +201,7 @@ people:
     flags: ["interim"]
     picture: /assets/committee/2025-26/mini/jhundon.jpg
     start-date: 1/7/2025
+    end-date: 22/10/2025
     bio: >
       Howdy hey! I'm Jhundon, your Interim Postgraduate (Taught) Rep! I'm here to represent 
       and support the PGT students joining us at CSS. Whether you're facing academic hurdles, 
