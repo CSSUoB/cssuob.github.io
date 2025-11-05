@@ -1,4 +1,11 @@
 - type: divider
+  text: Christmas Meal
+
+- text: Grab a ticket to the Christmas Meal!
+  url: /xmas
+  image: /assets/tex/tex_christmas.svg
+
+- type: divider
   text: TeX Plushies
 
 - text: Get a TeX plushie!
