@@ -70,6 +70,9 @@
 
 # Plushies
 /plushies /merch/plushies
+/make-a-plush https://docs.google.com/forms/d/e/1FAIpQLSc4ZntF8B8_DvxD8nel1hrI38x3xCyufP2XF5tE8sIfj8dFZQ/viewform?usp=sharing&ouid=111762901662355864036
+/make-a-tex /make-a-plush
+/build-a-tex /make-a-plush
 
 # Voting
 /vote https://vote.cssbham.com
