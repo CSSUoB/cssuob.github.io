@@ -107,8 +107,8 @@ We appreciate that each member of our society may not know everything that has h
 
 | Who? | Why? |
 | :----- | :---- |
-| CSS  | Worked with and gained sponsorships for the society and events from IBM, Developer Student Clubs, the University, Kainos and others. |
-| Justin Chadwell | Established a local Google Developer Student Club - ran various workshops throughout the year.<br>Local Hack Day organiser and workshop deliverer.<br>Gained sponsorship for CSS from Netcompany.|
+| CSS | Worked with and gained sponsorships for the society and events from IBM, Developer Student Clubs, the University, Kainos and others. |
+| Justin Chadwell | Established a local Google Developer Student Club - ran various workshops throughout the year.<br>Local Hack Day organiser and workshop deliverer.<br>Gained sponsorship for CSS from Netcompany. |
 | Killu-Smilla Palk | Connection to Kainos gave us sponsortship for the CSS Ball this year |
 | Tom Goodman | Raised over £120,000 over the last 4 years for local events and initiatives, including CSS.<br>Works with industrial bodies like the BCS, Silicon Canal, etc., and recently joined the board of Brum.AI<br>Finalist for the Future Faces Award at the Greater Birmingham Chamber of Commerce, and won “Rising Star in Tech” (in the West Midlands) at the Silicon Canal Awards. |
 
