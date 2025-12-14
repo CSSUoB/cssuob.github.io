@@ -16,7 +16,7 @@ In addition, you'll get an awesome free T-shirt 👕 and get to choose a snazzy 
 If you have any problems getting a membership, ask in #help on our Discord
 server, the Guild website can occasionally be a little temperamental!
 
-Interested in seeing our historical membership statistics and some fun graphs? Check them out [here](/membership-stats)!
+Interested in seeing our historical membership statistics and some fun graphs? Check them out on the [stats page](/membership-stats)!
 
 <div class="text-center">
   <a href="/join" class="button guild-button">
@@ -58,7 +58,7 @@ External members can do everything that standard members can, except vote in ele
 
 The process for external memberships is a bit longer and will vary depending on your circumstances.
 
-1. Firstly, everyone will need to create a "Guest Account" on the guild website. You can do that [here](https://www.guildofstudents.com/about/memberships/).
+1. Firstly, everyone will need to create a "Guest Account" on the [guild website](https://www.guildofstudents.com/about/memberships/).
 
 2. Once you've done that, you'll need to click the "Apply for External Membership" button on the same page and this is where the process deviates.
 

@@ -118,7 +118,7 @@ square for best results.
 ### Calendar Events
 
 The calendar events are accessed from the public CSS Google calendar also
-available [here][calendar]. They are accessed from the calendar using
+available [on the calendar page][calendar]. They are accessed from the calendar using
 [FullCalendar][fullcalendar] and an API key managed from the Google Cloud
 Console.
 
