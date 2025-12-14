@@ -72,7 +72,7 @@ We appreciate that each member of our society may not know everything that has h
 | Jacob Wilson | Mapathon Event (see above about the event) |
 | Keerthi Rachamallu | CSS Multicultural Events series.<br>HackTheMidlands Volunteer |
 | Tom Goodman | Represents PGRs at all levels of the University, charing the Staff Research Student Consultative Committee (SRSCC), and attending College Education Committee (CEC), College Quality Assurance and Accreditation Committee (CQAAC), Graduate Research Board (GRB), Senate, and more.<br>Has been on the committee for 4 years now, and about to start 5th term as a committee member.<br>Works in the wider community too, as a School Governor, CEO of HackTheMidlands CIC, and various other work with organisations like the British Computer Society (BCS) |
-| Justin Chadwell ||
+| Justin Chadwell | |
 | Likkan Chung | Given countless hours to publicise events and write regular newsletters for the Society Website.<br>Ensuring drinks, snacks and refreshments are set up and provided at Society events throughout the year.<br>Outreach with Computer Science Applicants during Offer Holder Visit Day, talking about societies and live as a student at University.<br>HackTheMidlands Organiser |
 
 ### Outreach Award
@@ -99,7 +99,7 @@ We appreciate that each member of our society may not know everything that has h
 | Lauren Alie | |
 | Selma Kander | Successfully engaged the international community with CSS events |
 | Leela Muppala | |
-| Tianhao Li ||
+| Tianhao Li | |
 
 ### Industrial Award
 
@@ -118,8 +118,8 @@ We appreciate that each member of our society may not know everything that has h
 
 | Who? | Why? |
 | :----- | :---- |
-| Cristian Calauz ||
-| Justin Chadwell ||
+| Cristian Calauz | |
+| Justin Chadwell | |
 
 ### Inspirational Committee Member
 
@@ -164,7 +164,7 @@ See below in the Role Model list for more suggestions, many of them apply here t
 | :----- | :---- |
 | Tom Goodman | Served 3 years as President of CSS, and 1 as Secretary (about to serve 2nd term as Secretary now). Raised over £120,000 for events and initiatives in the local community.<br>Trustee of the Guild of Students, CEO of HackTheMidlands CIC, Director of Brum.AI, worked in various other positions with the BCS, Silicon Canal, etc.<br>Worked beyond just CSS in the EPS community, founding & co-chairing the EPSCEDI Committee, running numerous joint events with WISE and oSTEM, and sitting on a variety of committees.<br>Fellow of 3 learned societies - including Fellowship of the Higher Education Academy (FHEA) in recognition of his extensive teaching work. |
 | Cristian Calauz | Led the committee in time of crisis (Covid-19) |
-| Stefan Nedelcu ||
+| Stefan Nedelcu | |
 
 ### Society of the Year 2019/20
 
