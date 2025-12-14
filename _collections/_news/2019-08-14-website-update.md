@@ -35,7 +35,7 @@ So what's actually on this new and flashy website?
 
 We're going to continue working on more stuff on this site and improving it
 more and more, but the main work is done now. If you're interested in helping
-out, you can checkout the GitHub [here](https://github.com/CSSUoB/cssuob.github.io/).
+out, you can checkout the [GitHub](https://github.com/CSSUoB/cssuob.github.io/).
 
 ## Tech stack
 

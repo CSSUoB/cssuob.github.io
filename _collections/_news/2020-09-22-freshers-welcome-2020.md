@@ -45,7 +45,7 @@ We encourage all our members to take part in these really cool events called ‘
 
 You don’t have to know anything about programming to get involved! In fact, hackathons always have something to cater for new programmers. ⌨️
 
-For CSS members, there is (at least one) hackathon each year which is a must: [HackTheMidlands](https://hackthemidlands.com)! In fact, you can already grab a free ticket [here](https://www.eventbrite.co.uk/e/hackthemidlands-50-tickets-111222359070).
+For CSS members, there is (at least one) hackathon each year which is a must: [HackTheMidlands](https://hackthemidlands.com)! In fact, you can already grab a free ticket on [Eventbrite](https://www.eventbrite.co.uk/e/hackthemidlands-50-tickets-111222359070).
 
 ## Follow us
 
