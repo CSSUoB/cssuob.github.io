@@ -27,13 +27,13 @@ We have a ton of events in the works for freshers, so keep an eye out for update
 
 The future of term 1 is looking bright, as we’ll bring back many of our classic events. You can look forward to the Halloween quiz, Christmas meal, and collaborations with other societies. We’ll also be hosting an Extraordinary General Meeting in late October, where we will elect a new First Year Rep and Post-Graduate Rep to the committee.
 
-Speaking of the committee, I’m excited to work with the lovely people running the society this year! If you see any of us around campus, come and say hi. You can check out the committee [here](/committee).
+Speaking of the committee, I’m excited to work with the lovely people running the society this year! If you see any of us around campus, come and say hi. You can check out the committee on the [committee page](/committee).
 
 ![Incoming committee for 2023](/assets/images/2023-welcome-week-newsletter/committee.jpg)
 
 ## Join Us!
 
-This last year, we broke many records for CSS: with over 400 members, we reached the 3rd largest Guild society at UoB; we have over 2.5k members in our discord server (and counting); and we ran 40 different events. Buying a membership gives you access to exclusive events, a green name on Discord, and a free T-shirt! Join us [here](/join).
+This last year, we broke many records for CSS: with over 400 members, we reached the 3rd largest Guild society at UoB; we have over 2.5k members in our discord server (and counting); and we ran 40 different events. Buying a membership gives you access to exclusive events, a green name on Discord, and a free T-shirt! Join us on the [guild website](/join).
 
 We’ve recently updated our discord server, so if you want more updates on CSS, a place to discuss your course, or just to talk to other students, [join our server](/discord)
 
