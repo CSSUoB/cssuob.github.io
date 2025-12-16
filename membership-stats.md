@@ -7,7 +7,7 @@ styles:
 
 # Membership Statistics
 
-What is Membership? Find out [here](/membership)!
+What is Membership? Check out our [Membership page](/membership)!
 
 <div class="text-center">
   <a href="/join" class="button guild-button">
