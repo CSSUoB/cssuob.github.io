@@ -138,7 +138,7 @@ body {
     .image {
       object-fit: cover;
       object-position: 50% 25%;
-      max-width: None;
+      max-width: none;
       height: 60vh;
       max-height: 500px;
     }
@@ -230,6 +230,7 @@ body {
     width: 100%;
   }
 
+  .menu-item-separator,
   .menu-item-seperator {
     font-family: $font-secondary;
     color: #bbb;

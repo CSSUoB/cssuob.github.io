@@ -2,12 +2,12 @@
 layout: page
 styles:
   - /css/main.css
-  - /css/ball/2025/main.css
+  - /css/ball/2026/main.css
 title: CSS Ball
 favicon: /ball/favicon.ico
 ---
 
-{% assign ball = site.data.ball['2025'] %}
+{% assign ball = site.data.ball['2026'] %}
 
 <div class="text-center-div margin-top margin-bottom section-details">
     <h1 class="title">
@@ -37,7 +37,7 @@ favicon: /ball/favicon.ico
         <h3 class="menu-section-title">{{ section[0] | capitalize }}</h3>
         {% assign first = false %}
         {% for item in section[1] %}
-        {% if first != false %}<div class="menu-item-seperator">- OR -</div>{% endif %}
+        {% if first != false %}<div class="menu-item-separator">- OR -</div>{% endif %}
         <div class="menu-item-container">
             <h2 class="menu-item">{{ item.dish }}</h2>
             <br>
