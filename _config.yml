@@ -22,6 +22,8 @@ menu:
   - name: Ball
     link: /ball
     children:
+      - name: 2026
+        link: /ball/2026
       - name: 2025
         link: /ball/2025
       - name: 2024

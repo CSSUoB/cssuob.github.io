@@ -1,0 +1,81 @@
+name: CSS BALL
+year: 2026
+location: Macdonald Burlington Hotel
+date: 27th March
+
+tickets:
+  - type: 3 Course
+    member-price: £35
+    non-member-price: £45
+  - type: Non-Food
+    member-price: £22
+    non-member-price: £28
+
+links:
+  - text: Menu
+    url:  '/ball/2026/menu'
+  - text: Tickets
+    url:  '#tickets'
+  - text: FAQs
+    url: '#faq'
+
+menu-links:
+  - text: Home
+    url:  '/ball/2026'
+  - text: Tickets
+    url:  '/ball/2026#tickets'
+  - text: FAQs
+    url:  '/ball/2026#faq'
+
+menu:
+  starters:
+    - dish: Ham hock & pea terrine, wholegrain honey mustard & parsley
+      type:
+    - dish: Tomato & basil soup
+      type: vegetarian, vegan, gluten free
+  mains:
+    - dish: Honey glazed pork belly, mustard mash, seasonal vegetables, apple cider jus
+      type: gluten free
+    - dish: Pumpkin & sage ravioli, creamy mushroom sauce, parmesan
+      type: vegetarian, vegan on request
+  dessert:
+    - dish: Chocolate brownie, chocolate sauce, vanilla ice cream
+      type: vegan on request, gluten free on request
+    - dish: Raspberry cheesecake, chantilly cream, berries glaze
+      type:
+
+faq:
+  - question: What is a Ball?
+    answer: A ball is a solid or hollow spherical or egg-shaped object that is kicked, thrown, or hit in a game. <br><br> Ok but seriously, a Ball is an opportunity to come together and celebrate the year. Many societies hold them for their members and we're no different. Our annual Ball is the biggest night of the year so if you're not attending you're really missing out.
+  - question: What will be there?
+    answer: The ball will have a 3 course meal, a bar, and a dancefloor. We will also have some bangin' tunes, a photobooth, and a photographer.
+  - question: Is the venue accessible?
+    answer: Yes! There is step free access and accessible toilets on the same floor. Full details can be found on the <a href="https://www.accessable.co.uk/birmingham-city-council/access-guides/macdonald-burlington-hotel">AccessAble website</a>.
+  - question: When can I buy tickets?
+    answer: Soon! We'll be opening ticket sales in early February. Keep an eye on our social media and website for updates.
+  - question: How much do tickets cost?
+    answer: We have a number of different ticket options available and all of our member tickets are cheaper than the last 2 years! The Guild will also add on a £1 booking fee - There's nothing we can do about that sadly. Take a look at the <a href=/ball/2026/#tickets> tickets page </a> for more details. 
+  - question: Can I bring a guest?
+    answer: Absolutely! Non-Member tickets will be available alongside member tickets. If your guest is not a student they will need to create a guest account on the Guild website. If they're a member of staff or current student resitting externally or on a leave of absence they can still get membership prices, but will need to follow the steps on the <a href=/membership>membership page</a>.
+  - question: Will I need to show my ticket when I arrive?
+    answer: No, but we will ask to see your student ID or any other form of ID to confirm your identity. You'll then be given a wristband so you can come and go as you wish.
+  - question: What time should I arrive?
+    answer: You are welcome to arrive any time from 7pm onwards, but we ask you to arrive no later than 7:45 as we expect to begin dinner service at 8pm.
+  - question: How do I get there?
+    answer: The Burlington is in the city centre - right across the street from New Street Station. <br><br>If you're coming from campus or Selly Oak, the 61 / 63 bus will get you to the otherside of New Street, from which it's a 5 minute walk. <br>From the Vale, you'll want the X22 or X21 and for Harborne you'll want the 23 / 24 all of which drop you just the other side of New Street. <br><br>There's also a tram stop right in front of the hotel if you're coming from the Jewellery Quarter or Wolverhampton.
+  - question: What will happen when I get there?
+    answer: When you arrive, come either up the stairs, or the lift, to the 1st floor. From there you'll come to the reception desk and will be asked for either your student ID or some other ID. We'll then tick your name off on the list and give you a wristband and optionally your physical ticket if you hadn't picked this up already. You'll then be able to sit down and wait for food service or hang out and get some pictures in the photobooth! <br><br>Food service will start around 8pm and expect to last approximately 2 hours. It'll then be up to you to sit and chat, boogy on the dance-floor, head over to the bar for another drink, or pop round to the photobooth to capture some great memories!
+  - question: Who will I sit next to for dinner?
+    answer: We'll ask you for the names of up to 2 people who you would like to sit near. We'll try our best to sit people near their friends, but we can't make promises you'll be next to both.<br><br> If you bring a +1 we will make sure you're sat with them, but we can only do this if you say so in the seating preference or contact us separately.<br><br> We can also only fit 10 people per table, so if you can please organise within your friend group who you would like to sit next to who and we will do our best to factor this in.
+  - question: What about my dietary requirements?
+    answer: The venue can handle catering for most dietary requirements, and there are vegan and gluten free options. Make sure to let us know any dietary requirements when you purchase your ticket. For more info on the menu please check the <a href=/ball/2026/menu>menu page</a>.
+  - question: Can I bring my own alcohol?
+    answer: No outside alcohol is permitted at the venue. There will be a fully stocked bar available for you to purchase drinks from throughout the night.
+  - question: Is any of the meat halal?
+    answer: No, unfortunately none of the meat options on the menu are halal. There are vegetarian, vegan and gluten free options available though.
+  - question: What should I wear?
+    answer: Dress to impress! <br>Don your fanciest frocks, smartest suits or whatever you feel fabulous in. It's going to be the big night of the year so feel free to go all out!
+  - question: Will I be photographed?
+    answer: Yes. We'll have a photographer taking photos all night so we can share them all with you afterwards. If you don't want to be in photos, please speak to our lovely photographer on the night or email us in advance.
+  - question: I bought a ticket but can't attend anymore.
+    answer: Oh no! That's okay though. You're welcome to sell your ticket to someone else, though we will not be able to offer a refund, nor are we able to change the meal options or dietary requirements once a ticket has been purchased. Please also contact committee to let us know who you've sold your ticket to.
