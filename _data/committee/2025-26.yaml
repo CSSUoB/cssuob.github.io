@@ -84,13 +84,23 @@ people:
     role: Socials Secretary
     picture: /assets/committee/2025-26/mini/fearne.jpg
     start-date: 1/7/2025
+    end-date: 11/02/2026
     bio: >
       Hellooooo, I'm Fearne your new socials sec. I'll be putting together
       some hopefully fun and super duper cool and awesome socials for you.
       Please come along and say hi :)
       I'm going into my third year in CS and first year in committee.
       If your favourite colour is pink I think we'll be great friends 
-      
+
+  - name: Misha
+    discordtag: mxg586
+    pronouns: he/him
+    role: Socials Secretary
+    picture: /assets/committee/2025-26/mini/misha.jpg
+    start-date: 11/02/2026
+    bio: >
+      Hello! I'm Misha, your socials secretary for the rest of this academic year. I'll be organising regular social events and ensuring those events are inclusive and accessible. Being a member of CSS has made me more confident in talking to new people and I'd like to ensure others have this opportunity. I'm a second year CS student and I like ethical hacking and open-source software. Feel free to talk to me in person or message me on Discord.
+
   - name: Evie Wilson
     pronouns: She/Her
     discordTag: cacti7
@@ -106,8 +116,18 @@ people:
     role: Equality, Diversity, and Inclusivity Officer
     picture: /assets/committee/2025-26/mini/sabrina.png
     start-date: 1/7/2025
+    end-date: 11/02/2026
     bio: > 
       Ellow, I'm Sabrina! I'm a Maths and CS student, and I'm your EDI Officer again. My role is to ensure CSS events are accessible, and that everyone can feel comfortable participating. Feel free to reach out to me on discord/on the CSS server, in-person, or via email if you *really* like email.
+
+  - name: Lee Alabaster
+    discordtag: palee.
+    pronouns: he/him
+    role: Equality, Diversity, and Inclusivity Officer
+    picture: /assets/committee/2025-26/mini/lee.jpg
+    start-date: 11/02/2026
+    bio: >
+       Hi there, I'm a 4th year Computer Science and I'm your EDI Officer. In my free time, I enjoy playing games (mostly Destiny 2) and also watching F1, darts and my football team, West Ham United. If you see me around feel free to have a chat or reach out to me on discord where I'm nearly always active :)
 
   - name: Amrit Bhogal
     discordtag: Frityet
