@@ -72,6 +72,12 @@ tex:
       TeX exercising their democratic rights as a CSS member. Stickers are handed out at our elections.
     ratio: 1.109
 
+  - name: Hacker TeX
+    path: tex_hacker.png
+    description: >
+      TeX breaching the firewall. Stickers are handed out at birmingHack.
+    ratio: 1.326
+
 ---
 
 # TeX
