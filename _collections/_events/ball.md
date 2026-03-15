@@ -1,7 +1,7 @@
 ---
 title: CSS BALL
 image: /assets/images/ball-group-photo.jpg
-order: 8
+order: 4
 decoration: ball
 long: true
 side: verso

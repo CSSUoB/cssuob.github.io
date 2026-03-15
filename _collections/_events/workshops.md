@@ -1,7 +1,7 @@
 ---
 title: Workshops
 image: /assets/images/justin-workshop.jpg
-order: 1
+order: 10
 ---
 
 We run regular programming workshops for people to learn a new language or
