@@ -1,7 +1,7 @@
 ---
-title: Board Games Nights & LAN Parties
+title: Board Games Nights
 image: /assets/images/board-games-night.jpg
-order: 5
+order: 7
 ---
 
 At least once a term we run a Board Games Night and/or a LAN Party in the School
