@@ -4,11 +4,6 @@ image: /assets/images/xmas-meal.jpg
 order: 3
 ---
 
-At the end of each semester we have our Christmas Meal, and the Summer BBQ!
-These are typically our final event of each semester so it's always nice to come
-together for one last time as a CS community.
+At the end of the first semester we have our Christmas Meal which is usually the last event we run before the winter break and is a nice way to have a final get together before Christmas.
 
-The Christmas Meal usually takes place in a local pub with orders taken beforehand.
-The BBQ is more relaxed, we encourage everybody to bring their own food / booze,
-and we also run a charity raffle to give away some of the random stuff we've 
-acquired throughout the years!
+It usually takes place in a local pub with orders taken beforehand, and food delivered to the table while you relax and chat with friends.
