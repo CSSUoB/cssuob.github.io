@@ -1,7 +1,7 @@
 ---
 title: TeX Talks
 image: /assets/images/tex-talks.jpg
-order: 6
+order: 11
 ---
 
 TeX Talks are a series of lightning talks on a variety of topics related to

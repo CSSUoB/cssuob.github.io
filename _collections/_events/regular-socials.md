@@ -1,7 +1,7 @@
 ---
 title: Regular Socials
 image: /assets/images/pub-night.jpg
-order: 2
+order: 6
 ---
 
 We host regular socials, usually in the evening, for people to chill out and
