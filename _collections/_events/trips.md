@@ -1,7 +1,7 @@
 ---
 title: Trips to Bletchley Park and the National Museum of Computing
 image: /assets/images/bletchley-park.jpg
-order: 4
+order: 8
 long: true
 side: recto
 ---

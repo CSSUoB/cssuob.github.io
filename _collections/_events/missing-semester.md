@@ -1,7 +1,7 @@
 ---
 title: Missing Semester
 image: /assets/images/missing-semester.jpg
-order: 3
+order: 5
 decoration: missing-semester
 ---
 
