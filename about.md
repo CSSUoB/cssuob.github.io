@@ -127,7 +127,7 @@ This year, we are proudly sponsored by:
 If you or your company is interested in sponsoring CSS, please take a look at our Sponsorship Proposal:
 
 <div class="sponsors-buttons">
-    <a href="/sponsor" class="sponsors-link sponsors-proposal">
+    <a href="/assets/sponsorship/CSS_Sponsorship_Proposal.pdf" class="sponsors-link sponsors-proposal">
         <h4>Sponsorship Proposal</h4>
     </a>
 </div>
