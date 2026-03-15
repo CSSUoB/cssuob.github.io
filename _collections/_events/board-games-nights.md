@@ -1,5 +1,5 @@
 ---
-title: Board Games Nights
+title: Board Games Night & LAN Parties
 image: /assets/images/board-games-night.jpg
 order: 7
 ---
