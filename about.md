@@ -124,11 +124,11 @@ This year, we are proudly sponsored by:
     <img src="assets/sponsorship/the-Trade-Desk_brand_image.png" alt="the Trade Desk" />
 </div>
 
-If you or your company is interested in sponsoring CSS, please take a look at our Sponsorship Proposal:
+If you or your company is interested in sponsoring CSS, please take a look at our sponsorship page:
 
 <div class="sponsors-buttons">
     <a href="/sponsor" class="sponsors-link sponsors-proposal">
-        <h4>Sponsorship Proposal</h4>
+        <h4>Sponsor us</h4>
     </a>
 </div>
 
