@@ -100,10 +100,10 @@ title: Meetings
                                     Committee Meeting {{day}}/{{month}}/{{year}}: 
                                     <ul>
                                         <li>
-                                            Agenda: <a href='{{path1}}/agenda.pdf'>PDF</a> - <a href='{{path1}}/agenda.html'>HTML (WIP)</a>
+                                            Agenda: <a href='{{path1}}agenda.pdf'>PDF</a> - <a href='{{path1}}agenda.html'>HTML (WIP)</a>
                                         </li>
                                         <li>
-                                            Minutes: <a href='{{path1}}/minutes.pdf'>PDF</a> - <a href='{{path1}}/minutes.html'>HTML (WIP)</a>
+                                            Minutes: <a href='{{path1}}minutes.pdf'>PDF</a> - <a href='{{path1}}minutes.html'>HTML (WIP)</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -138,10 +138,10 @@ title: Meetings
                                     Committee Meeting {{day}}/{{month}}/{{year}}:
                                     <ul>
                                         <li>
-                                            Agenda: <a href='{{path1}}/agenda.pdf'>PDF</a>
+                                            Agenda: <a href='{{path1}}agenda.pdf'>PDF</a>
                                         </li>
                                         <li>
-                                            Minutes: <a href='{{path1}}/minutes.pdf'>PDF</a>
+                                            Minutes: <a href='{{path1}}minutes.pdf'>PDF</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -172,7 +172,7 @@ title: Meetings
                                     AGM {{day}}/{{month}}/{{year}}:
                                     <ul>
                                         <li>
-                                            Minutes: <a href='{{path1}}/minutes.pdf'>PDF</a>
+                                            Minutes: <a href='{{path1}}minutes.pdf'>PDF</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -181,7 +181,7 @@ title: Meetings
                                     Committee Meeting {{day}}/{{month}}/{{year}}:
                                     <ul>
                                         <li>
-                                            Agenda: <a href='{{path1}}/agenda.pdf'>PDF</a>
+                                            Agenda: <a href='{{path1}}agenda.pdf'>PDF</a>
                                         </li>
                                     </ul>
                                 </li>
