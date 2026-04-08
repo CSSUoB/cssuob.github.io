@@ -11,7 +11,7 @@ jobs:
       contents: write
     steps:
       - name: Generate Access Token
-        uses: actions/create-github-app-token@v2
+        uses: actions/create-github-app-token@v3
         id: generate-token
         with:
           app-id: ${{ vars.PR_AUTO_UPDATE_CLIENT_ID }}
