@@ -88,7 +88,7 @@ schedule:
     speaker: Lik Kan Chung
     title: "AWS: Why do people keep using it?"
     description: >
-      CSS alumnus and Kainos grad LikKan will be talking about Amazon Web Services and
+      CSS alumnus and Kainos grad Lik Kan will be talking about Amazon Web Services and
       the pros and cons of the cloud services industry for businesses and individuals. 
     image: [images/likkan.jpg]
 
