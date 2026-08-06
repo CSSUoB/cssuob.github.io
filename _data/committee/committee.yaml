@@ -4,8 +4,8 @@ committee-members:
     roles:
       - role: President
         academic_year: 2019/2020
-        start-date: 1/7/2019
-        end-date: 1/7/2020
+        start-date: 2019-07-01
+        end-date: 2020-07-01
         bio: >
           As the president of CSS, I oversee and manage the committee and the
           society. I also engage in the recreational sport of watching paint dry,
@@ -16,8 +16,8 @@ committee-members:
     roles:
       - role: Secretary
         academic_year: 2019/2020
-        start-date: 1/7/2019
-        end-date: 1/7/2020
+        start-date: 2019-07-01
+        end-date: 2020-07-01
         bio: >
           I'm Tom, a 2nd year PhD student here at the uni. I did my BSc here too,
           and I've been involved with CSS since my first year, and was president
@@ -25,8 +25,8 @@ committee-members:
           meeting y'all! 🎉
       - role: Secretary
         academic_year: 2020/2021
-        start-date: 1/7/2020
-        end-date: 1/7/2021
+        start-date: 2020-07-01
+        end-date: 2021-07-01
         bio: >
           Hey! I'm a 3rd year PhD student in the School 💖 This year, I'm serving as your Secretary, and have been on the
           committee for five (😱) years now. I love cats, baking, gin, board games, and a boatload of other stuff - feel
@@ -37,8 +37,8 @@ committee-members:
     roles:
       - role: Treasurer
         academic_year: 2019/2020
-        start-date: 1/7/2019
-        end-date: 1/7/2020
+        start-date: 2019-07-01
+        end-date: 2020-07-01
         bio: >
           As Treasurer, I look after the finances of our society, ensuring every
           transaction is made by the book. Some would say the computer science
@@ -50,8 +50,8 @@ committee-members:
     roles:
       - role: Vice-President
         academic_year: 2019/2020
-        start-date: 1/7/2019
-        end-date: 1/7/2020
+        start-date: 2019-07-01
+        end-date: 2020-07-01
         bio: >
           My job within the committee is to help the society run smoothly, so I
           do lots of odd jobs, like work on this website. When not on CSS
@@ -63,8 +63,8 @@ committee-members:
     roles:
       - role: Socials Rep
         academic_year: 2019/2020
-        start-date: 1/7/2019
-        end-date: 1/7/2020
+        start-date: 2019-07-01
+        end-date: 2020-07-01
         bio: >
           As CSS socials rep, I ensure that social events occur frequently and
           that these events are designed around our members. When I’m not
@@ -75,8 +75,8 @@ committee-members:
     roles:
       - role: International Rep
         academic_year: 2019/2020
-        start-date: 1/7/2019
-        end-date: 1/7/2020
+        start-date: 2019-07-01
+        end-date: 2020-07-01
         bio: >
           Hi I’m selma, international rep for CSS. My goal is to make sure
           international CS students feel at home here! Feel free to hit me up if
@@ -87,8 +87,8 @@ committee-members:
     roles:
       - role: Special Events Rep
         academic_year: 2019/2020
-        start-date: 1/7/2019
-        end-date: 1/7/2020
+        start-date: 2019-07-01
+        end-date: 2020-07-01
         bio: >
           As Special Events rep, I'm responsible for making sure that all big CSS
           events during the year, such as the CSS ball, are the best they can be.
@@ -99,8 +99,8 @@ committee-members:
     roles:
       - role: Diversity and Inclusivity Rep
         academic_year: 2019/2020
-        start-date: 1/7/2019
-        end-date: 1/7/2020
+        start-date: 2019-07-01
+        end-date: 2020-07-01
         bio: >
           I’m the Diversity, Inclusivity and Equality Representative, or as I
           like to be called, the DIE rep for CSS. When I’m not doing nerdy comp
@@ -112,8 +112,8 @@ committee-members:
     roles:
       - role: Sports Rep
         academic_year: 2019/2020
-        start-date: 1/7/2019
-        end-date: 1/7/2020
+        start-date: 2019-07-01
+        end-date: 2020-07-01
         bio: >
           Within the committee I organise any sporting events, not forgetting
           e-sports. In my free time I play ice hockey, cycle and do and any other
@@ -127,8 +127,8 @@ committee-members:
     roles:
       - role: Publicity Rep
         academic_year: 2019/2020
-        start-date: 1/7/2019
-        end-date: 1/7/2020
+        start-date: 2019-07-01
+        end-date: 2020-07-01
         bio: >
           Hi. I'm Likkan, I'm a third year undergrad. I'm the publicity rep so my
           job is to make all the posters and post on social media. Other things I
@@ -136,8 +136,8 @@ committee-members:
           also a student ambassador for the department
       - role: Industrial Rep
         academic_year: 2020/2021
-        start-date: 1/7/2020
-        end-date: 1/7/2021
+        start-date: 2020-07-01
+        end-date: 2021-07-01
         bio: >
           I'm a fourth year undergrade on my Year in Industry at Kainos.
           As our Industrial Liaison, I bring industry and careers events to the society.
@@ -145,8 +145,8 @@ committee-members:
           I'm also a student ambassador for the department.
       - role: President
         academic_year: 2021/2022
-        start-date: 1/7/2021
-        end-date: 1/7/2022
+        start-date: 2021-07-01
+        end-date: 2022-07-01
         bio: >
           I'm a final year on the MSci course, just coming back from my placement at Kainos. 
           You may also know me from organising HackTheMidlands, or as a Student Ambassador. 
@@ -157,8 +157,8 @@ committee-members:
     roles:
       - role: Industrial Rep
         academic_year: 2019/2020
-        start-date: 1/7/2019
-        end-date: 1/7/2020
+        start-date: 2019-07-01
+        end-date: 2020-07-01
         bio: >
           I'm the committee's link to the world of industry, ensuring that the
           society is relevant and on top of changes. I also represents the
@@ -170,8 +170,8 @@ committee-members:
     roles:
       - role: First Year Rep
         academic_year: 2019/2020
-        start-date: 23/10/2019
-        end-date: 1/7/2020
+        start-date: 2019-10-23
+        end-date: 2020-07-01
         bio: >
           Hi! My name is Valeria and my goal is to make sure that first-year
           students are well informed and involved in all the opportunities out
@@ -180,8 +180,8 @@ committee-members:
           bachata dancing.
       - role: Vice-President
         academic_year: 2020/2021
-        start-date: 1/7/2020
-        end-date: 1/7/2021
+        start-date: 2020-07-01
+        end-date: 2021-07-01
         bio: >
           Hi everyone! My role this year is to make sure that all events run smoothly and that everyone feels included
           in our computer science community.
@@ -194,8 +194,8 @@ committee-members:
     roles:
       - role: Post-Graduate (Research) Rep
         academic_year: 2019/2020
-        start-date: 1/7/2019
-        end-date: 1/7/2020
+        start-date: 2019-07-01
+        end-date: 2020-07-01
         bio:
 
   - name: Jacqui Henes
@@ -205,8 +205,8 @@ committee-members:
     roles:
       - role: President
         academic_year: 2020/2021
-        start-date: 1/7/2020
-        end-date: 1/7/2021
+        start-date: 2020-07-01
+        end-date: 2021-07-01
         bio: >
           I'm Jacqui, the president of CSS! My role is to manage the society and
           committee, as well as represent CSS at the guild. When I'm not stressing
@@ -214,8 +214,8 @@ committee-members:
           RPGs and drinking iced lemon tea.
       - role: Treasurer
         academic_year: 2021/2022
-        start-date: 1/7/2021
-        end-date: 1/7/2022
+        start-date: 2021-07-01
+        end-date: 2022-07-01
         bio: >
           I'm Jacqui, the treasurer of CSS! My role is to manage the funds for CSS, making sure we have the ability to put on great events. 
           When I'm not stressing out over responsibilities and deadlines, I spend a lot of my time playing RPGs and drinking iced lemon tea.
@@ -225,8 +225,8 @@ committee-members:
     roles:
       - role: Treasurer
         academic_year: 2020/2021
-        start-date: 1/7/2020
-        end-date: 1/7/2021
+        start-date: 2020-07-01
+        end-date: 2021-07-01
         bio: >
           Hi I’m Jake and this academic year I will be managing the societies finances.
           I am going into my 4th year and plan to spend it playing DnD, drinking, and completing the occasional assignment.
@@ -237,8 +237,8 @@ committee-members:
     roles:
       - role: Socials Rep
         academic_year: 2020/2021
-        start-date: 1/7/2020
-        end-date: 1/7/2021
+        start-date: 2020-07-01
+        end-date: 2021-07-01
         bio: >
           Hi, I'm Rob. It’s my job to make sure you have as much fun as possible
           by running social events and meetups! This year, I want more people coming to these. In
@@ -250,8 +250,8 @@ committee-members:
     roles:
       - role: International Student Rep
         academic_year: 2020/2021
-        start-date: 28/10/2020
-        end-date: 1/7/2021
+        start-date: 2020-10-28
+        end-date: 2021-07-01
         bio: >
           I know all about the struggles of being an international student — like finding friends, understanding the culture,
           and homesickness. I'm here to help you make friends and to make everyone feel
@@ -264,8 +264,8 @@ committee-members:
     roles:
       - role: Special Events Rep
         academic_year: 2020/2021
-        start-date: 1/7/2020
-        end-date: 1/7/2021
+        start-date: 2020-07-01
+        end-date: 2021-07-01
         bio: >
           I ensure that all of our big social events (like the CSS Ball and the Christmas meal) run
           smoothly and that everyone has a good time. I hope to make all of our events special throughout the
@@ -273,8 +273,8 @@ committee-members:
           (sometimes concurrently).
       - role: Vice-President
         academic_year: 2021/2022
-        start-date: 1/7/2021
-        end-date: 1/7/2022
+        start-date: 2021-07-01
+        end-date: 2022-07-01
         bio: >
           My role is keeping everything in the society ticking along and to help out where I can in all aspects of the committee. 
           If the President, Secretary or Treasurer can't make it, then I fill in for them in meetings. 
@@ -282,8 +282,8 @@ committee-members:
           In my spare time I like to play D&D, win at board games, and drink wine. You may also see me fencing as part of the University's Fencing Club. 🤺
       - role: President
         academic_year: 2022/2023
-        start-date: 1/7/2022
-        end-date: 1/7/2023
+        start-date: 2022-07-01
+        end-date: 2023-07-01
         bio: >
           Hello! I'm a final year Computer Science student and my role is to lead the society and manage the committee to help everything get done. 🎉 CSS members may recognise me from the many CSS quizzes I've written and hosted, all with a glass of wine in my hand 🍷 In my spare time I like to play D&D, win at board games, and travel. I've been on the committee for three years now and I've met my best friends through CSS, feel free to reach out on the Discord or say hi in person <3 
 
@@ -292,8 +292,8 @@ committee-members:
     roles:
       - role: Diversity, Equality and Inclusivity Rep
         academic_year: 2020/2021
-        start-date: 1/7/2020
-        end-date: 1/7/2021
+        start-date: 2020-07-01
+        end-date: 2021-07-01
         bio: >
           My role is to make everyone feel included and represented at all our events,
           no matter their background. I also help arrange our international events,
@@ -306,8 +306,8 @@ committee-members:
     roles:
       - role: Sports Rep
         academic_year: 2020/2021
-        start-date: 1/7/2020
-        end-date: 1/7/2021
+        start-date: 2020-07-01
+        end-date: 2021-07-01
         bio: >
           I encourage everyone (regardless of your level or experience) to take
           part in our sports and e-sports events! One of my goals this year is to increase the amount of people
@@ -318,8 +318,8 @@ committee-members:
     roles:
       - role: Publicity Rep
         academic_year: 2020/2021
-        start-date: 1/7/2020
-        end-date: 1/7/2021
+        start-date: 2020-07-01
+        end-date: 2021-07-01
         bio: >
           I’m responsible for promoting all of our wonderful events and maintaining this website! In my spare time, I enjoy photography,
           playing tennis, and listening to music.
@@ -331,16 +331,16 @@ committee-members:
     roles:
       - role: First Year Rep
         academic_year: 2020/2021
-        start-date: 28/10/2020
-        end-date: 1/7/2021
+        start-date: 2020-10-28
+        end-date: 2021-07-01
         bio: >
           Hello World! I'm Rhys, a first year degree apprentice and your First Year Rep. I enjoy anything to do with CS and many
           other things - from programming to cycling (sometimes I do both 😉). I'll be making sure that you feel welcomed as a first
           year, and that CSS is a cool place for you. Feel free to contact me and I'll be sure to get back to you. 😇
       - role: Secretary
         academic_year: 2021/2022
-        start-date: 1/7/2021
-        end-date: 1/1/2022
+        start-date: 2021-07-01
+        end-date: 2022-01-01
         bio: >
           Hiya! I'm Rhys, a second year degree apprentice and your Secretary this year. 
           It's my job to organise and minute the meetings, as well as ensuring everyone's doing awesome. 
@@ -353,8 +353,8 @@ committee-members:
     roles:
       - role: Post-Graduate (Research) Rep
         academic_year: 2020/2021
-        start-date: 1/7/2020
-        end-date: 1/7/2021
+        start-date: 2020-07-01
+        end-date: 2021-07-01
         bio: >
           My job this year is to get more PhD and MRes students involved in CSS events.
           My research is in Cyber Security, focusing on the (in)security of
@@ -363,8 +363,8 @@ committee-members:
           then I went to work for a few years (and now I'm back)!
       - role: Post-Graduate (Research) Rep
         academic_year: 2021/2022
-        start-date: 1/7/2021
-        end-date: 1/7/2022
+        start-date: 2021-07-01
+        end-date: 2022-07-01
         bio: >
           My job this year is to get more PhD and MRes students involved in CSS events.
           My research is in Cyber Security, focusing on the (in)security of
@@ -373,8 +373,8 @@ committee-members:
           went to work for a few years then came back to UoB in 2019 and have been PGR rep ever since.
       - role: Post-Graduate (Research) Rep
         academic_year: 2022/2023
-        start-date: 1/7/2022
-        end-date: 27/10/2022
+        start-date: 2022-07-01
+        end-date: 2022-10-27
         bio: >
           My job this year is to get more PhD and MRes students involved in CSS events. My research is in Cyber Security, focusing on 
           the (in)security of Bluetooth. Outside of that, I enjoy competing in CTF competitions and Rock Climbing. I was the CSS PGT 
@@ -388,23 +388,23 @@ committee-members:
     roles:
       - role: Equality, Diversity, and Inclusivity Officer
         academic_year: 2021/2022
-        start-date: 1/7/2021
-        end-date: 28/1/2022
+        start-date: 2021-07-01
+        end-date: 2022-01-28
         bio: >
           Heya! I'm Victoria and this year I'll be making sure that everyone feels included and represented at all of our events and in our School. 
           Outside of this, I enjoy game development, airsoft, snowboarding and playing guitar. Come to me if you need anything!
       - role: Secretary
         academic_year: 2021/2022
-        start-date: 29/1/2022
-        end-date: 1/7/2022
+        start-date: 2022-01-29
+        end-date: 2022-07-01
         bio: >
           Heya! I'm Victoria, a second year who will be your Secretary for this year.
           It's my job to make sure CSS' meetings are organised and minuted and generally help out everywhere else.
           Outside of this, I enjoy web development, airsoft, snowboarding and playing guitar. Come to me if you need anything!
       - role: Vice-President
         academic_year: 2022/2023
-        start-date: 1/7/2022
-        end-date: 1/7/2023
+        start-date: 2022-07-01
+        end-date: 2023-07-01
         bio: >
           Hiya! My role in the society is to help out where I can across all the committee positions and make sure that everyone is 
           doing well. CSS members will know me from hosting a bunch of workshops, posting plenty of memes in the CSS Discord or 
@@ -419,8 +419,8 @@ committee-members:
       - role: First Year Rep
         academic_year: 2021/2022
         flags: ["interim"]
-        start-date: 1/7/2021
-        end-date: 20/10/2021
+        start-date: 2021-07-01
+        end-date: 2021-10-20
         bio: >
           Hello everyone. My name is Fatima Zahra Al Hajji and I’m a first year student on the course ‘Artificial Intelligence and Computer Science with a year in industry’. 
           I enjoy cycling, reading and drawing as well as programming, of course. 
@@ -428,8 +428,8 @@ committee-members:
           make friends and learn more about what computer science has to offer 💜.
       - role: Publicity Officer
         academic_year: 2022/2023
-        start-date: 1/7/2022
-        end-date: 1/7/2023
+        start-date: 2022-07-01
+        end-date: 2023-07-01
         bio: >
           Hello everyone. My name is Fatima Zahra Al Hajji and I'm a final year student on the course of AI and CS with a year 
           in industry. I enjoy cycling, reading and drawing in my free time. As the publicity officer, I aim to ensure that all 
@@ -443,8 +443,8 @@ committee-members:
     roles:
       - role: First Year Rep
         academic_year: 2021/2022
-        start-date: 20/10/2021
-        end-date: 1/7/2022
+        start-date: 2021-10-20
+        end-date: 2022-07-01
         bio: >
           Hey everyone! I’m Gokul, a CS student who is the First year representative for CSS this year.
           My job is to ensure all first years enjoy their time at CSS and more generally at university.
@@ -458,8 +458,8 @@ committee-members:
     roles:
       - role: International Student Rep
         academic_year: 2021/2022
-        start-date: 1/7/2021
-        end-date: 1/7/2022
+        start-date: 2021-07-01
+        end-date: 2022-07-01
         bio: >
           Hey! I'm Aamaan. My job is to ensure all International Students enjoy their time at the university and receive support to ease the challenges that accompany a move to the new country. 
           In my free time (sometimes not so free), I like playing Rocket League and watching random YouTube videos!
@@ -471,8 +471,8 @@ committee-members:
     roles:
       - role: Publicity Officer
         academic_year: 2021/2022
-        start-date: 1/7/2021
-        end-date: 1/7/2022
+        start-date: 2021-07-01
+        end-date: 2022-07-01
         bio: >
           My job is to make sure all our members know all about the amazing events we do throughout the year, 
           and help the society reach even more people by encouraging people to sign up, especially throughout freshers. 
@@ -486,8 +486,8 @@ committee-members:
     roles:
       - role: Special Events Officer
         academic_year: 2021/2022
-        start-date: 1/7/2021
-        end-date: 1/7/2022
+        start-date: 2021-07-01
+        end-date: 2022-07-01
         bio: >
           Hey everyone! I’m Jack, a 1st year CS student on the Year Abroad course! 
           I will be responsible for handling all the larger events we run this year, including the CSS Ball, Christmas meal, Board Game Nights, 
@@ -500,16 +500,16 @@ committee-members:
     roles:
       - role: Socials Secretary
         academic_year: 2021/2022
-        start-date: 1/7/2021
-        end-date: 1/7/2022
+        start-date: 2021-07-01
+        end-date: 2022-07-01
         bio: >
           My role on committee is organizing fun socials, workshops, & meetups for members. Outside of enjoying programming, 
           I love cosplaying, playing games, art, photography, baking, collecting sanrio merch, & puzzle solving. 
           I'm always happy to meet new people so always feel welcome to message me or approach me if you see me on campus. 🌱
       - role: Socials Secretary
         academic_year: 2022/2023
-        start-date: 1/7/2022
-        end-date: 27/10/2022
+        start-date: 2022-07-01
+        end-date: 2022-10-27
         bio: >
           My role on committee is organising fun socials, workshops, & meetups for members. Outside of enjoying programming, I love 
           cosplaying, playing games, art, photography, baking, collecting sanrio merch, & puzzle solving. I'm always happy to meet 
@@ -522,15 +522,15 @@ committee-members:
     roles:
       - role: Sports Secretary
         academic_year: 2021/2022
-        start-date: 1/7/2021
-        end-date: 15/1/2022
+        start-date: 2021-07-01
+        end-date: 2022-01-15
         bio: >
           Hello, I'm Raine and I'm going into my 2nd year studying Computer Science. I will be responsible for all of your sports and e-Sports events this year --
           please let me know what you want to see! When I'm not sleeping I'm either speedrunning, participating in hackathons or working on programming projects.
       - role: Secretary
         academic_year: 2022/2023
-        start-date: 1/7/2022
-        end-date: 1/7/2023
+        start-date: 2022-07-01
+        end-date: 2023-07-01
         bio: >
           Hello, I'm Raine and I'm going into my final year studying Computer Science. I will be responsible for keeping everyone in check and taking minutes during meetings. 
           When I'm not sleeping I'm either speedrunning, 
@@ -543,8 +543,8 @@ committee-members:
     roles:
       - role: Sports Secretary
         academic_year: 2021/2022
-        start-date: 15/2/2022
-        end-date: 1/7/2022
+        start-date: 2022-02-15
+        end-date: 2022-07-01
         bio: >
           Well Hello there! I'm Aarogya but feel free to call me "Arrow" because pronunciation can be difficult,
           I'm a 1st year studying CS and I'll be handling any suggestions on activities and sports you'd like to be
@@ -552,8 +552,8 @@ committee-members:
           so feel free to approach me anytime! 😄
       - role: Sports Secretary
         academic_year: 2022/2023
-        start-date: 1/7/2022
-        end-date: 1/7/2023
+        start-date: 2022-07-01
+        end-date: 2023-07-01
         bio: >
           Well Hello there! I'm Aarogya but feel free to call me "Arrow" because pronunciation can be difficult, I'm a 2nd year 
           studying CS and I'll be handling any suggestions on activities and sports you'd like to be run during my time as Sports 
@@ -566,8 +566,8 @@ committee-members:
     roles:
       - role: Equality, Diversity, and Inclusivity Officer
         academic_year: 2021/2022
-        start-date: 15/2/2022
-        end-date: 1/7/2022
+        start-date: 2022-02-15
+        end-date: 2022-07-01
         bio: >
           Hi! I'm Tori, I'm a first year doing Comp Sci/ Software Engineering MEng with an Industrial Year. 
           As the EDI officer I'm in charge if making sure that everyone feels represented, equal and safe within CS. 
@@ -575,8 +575,8 @@ committee-members:
       - role: First Year Rep
         academic_year: 2022/2023
         flags: ["interim"]
-        start-date: 1/7/2022
-        end-date: 27/10/2022
+        start-date: 2022-07-01
+        end-date: 2022-10-27
         bio: >
           Hi, I'm Tori and I'm a second year Computer Science student. I'm the Interim First Year Rep and I'll be helping organise 
           events for first years joining at the start of this year. Feel free to say hi if you see me on the Discord!
@@ -588,8 +588,8 @@ committee-members:
     roles:
       - role: Industrial Liaison
         academic_year: 2021/2022
-        start-date: 1/7/2021
-        end-date: 15/2/2022
+        start-date: 2021-07-01
+        end-date: 2022-02-15
         bio: >
           Hi everyone. I am Lyndon, the Industrial Liaison of CSS this year. 
           My role is to build connection between the industry and the society by organizing different careers events. 
@@ -603,16 +603,16 @@ committee-members:
     roles:
       - role: Industrial Liaison
         academic_year: 2021/2022
-        start-date: 15/2/2022
-        end-date: 1/7/2022
+        start-date: 2022-02-15
+        end-date: 2022-07-01
         bio: >
           Hello! I'm Matty, your industrial liaison so I'll be handling communication and organisation with external companies to arrange sponsorships and events
           to help make sure CSS is providing the best possible experience for members. My interest in CS started with programming Minecraft plugins nearly 8 years
           ago but since then I've also gotten into cyber security as well. I also enjoy Jiu Jitsu, and would love to get more people involved!
       - role: Industrial Liaison
         academic_year: 2022/2023
-        start-date: 1/7/2022
-        end-date: 7/12/2022
+        start-date: 2022-07-01
+        end-date: 2022-12-07
         bio: >
           Hello! I'm Matty, your industrial liaison so I'll be handling communication and organisation with external companies to 
           arrange sponsorships and events to help make sure CSS is providing the best possible experience for members. My interest 
@@ -620,28 +620,28 @@ committee-members:
           well. I also enjoy Jiu Jitsu and would love to get more people involved!
       - role: Treasurer
         academic_year: 2022/2023
-        start-date: 7/12/2022
-        end-date: 1/7/2023
+        start-date: 2022-12-07
+        end-date: 2023-07-01
         bio: >
           Hello! I'm Matty, your treasurer so I'll be handling the society finances and financial paperwork required to make sure the society can continue running amazing events for everyone!
           I'm a second year CS student and I'm also the most senior student rep - representing all 24,000 Undergraduate students to the University Senate.
           My interest in CS started with programming Minecraft plugins nearly 8 years ago but since then I've also gotten into cyber security as well. I also enjoy Jiu Jitsu and would love to get more people involved!
       - role: Treasurer
         academic_year: 2023/2024
-        start-date: 1/7/2023
-        end-date: 1/7/2024
+        start-date: 2023-07-01
+        end-date: 2024-07-01
         bio: >
           Hello! I'm Matty, your treasurer, so I'll be handling the society finances and financial paperwork required to make sure the society can continue running amazing events for everyone!
           I'm in my 4th year at UoB, 3rd year in CS and a student rep so please do reach out if you have any concerns, general feedback or just fancy venting about something.
       - role: Treasurer
         academic_year: 2024/2025
-        start-date: 1/7/2024
-        end-date: 30/06/2025
+        start-date: 2024-07-01
+        end-date: 2025-06-30
         bio: >
           Hello! I'm Matty, your treasurer, so I'll be handling the society finances and financial paperwork required to make sure the society can continue running amazing events for everyone! I'm going into my 5th year at UoB, 4th year in CS and a student rep so please do reach out if you have any concerns, general feedback or just fancy venting about something.
       - role: President
         academic_year: 2025/2026
-        start-date: 1/7/2025
+        start-date: 2025-07-01
         bio: >
           Hey all! I'm Matty, your CSS president for 2025-26! I'll be coordinating committee and making sure everyone is on track and supported throughout the year. I'll also be responsible for representing the society as a whole so do feel free to reach out if you have any questions, comments or concerns!
 
@@ -652,8 +652,8 @@ committee-members:
       - role: Post-Graduate Taught Rep
         academic_year: 2021/2022
         flags: ["interim"]
-        start-date: 1/7/2021
-        end-date: 20/10/2021
+        start-date: 2021-07-01
+        end-date: 2021-10-20
         bio: >
           I’m James, an MSc Computer Science student. My role its help represent current and incoming masters students.
           In my free time, I love cycling, swimming, and reading. Feel free to contact me!
@@ -665,8 +665,8 @@ committee-members:
     roles:
       - role: Treasurer
         academic_year: 2022/2023
-        start-date: 1/7/2022
-        end-date: 7/12/2022
+        start-date: 2022-07-01
+        end-date: 2022-12-07
         bio: >
           Hey, I'm Juozas and I am currently on a Year in Industry. I'm the treasurer, meaning I keep track of the money that CSS 
           deals with and help with making events happen! When not in an office in the city centre, I like to read fantasy and SF 
@@ -680,8 +680,8 @@ committee-members:
     roles:
       - role: International Student Rep
         academic_year: 2022/2023
-        start-date: 1/7/2022
-        end-date: 1/7/2023
+        start-date: 2022-07-01
+        end-date: 2023-07-01
         bio: >
           Hey guys! My name is Adi and I'm the International Student Rep for this year. My main role is to look after all the 
           international students in the society, make sure they're comfortable and answer any sort of questions they might have. 
@@ -689,8 +689,8 @@ committee-members:
           cooking and gaming :)
       - role: Vice-President
         academic_year: 2024/2025
-        start-date: 1/7/2024
-        end-date: 30/06/2025
+        start-date: 2024-07-01
+        end-date: 2025-06-30
         bio: >
           Hiya folks! My name is Adi, the Vice President of CSS. My role is very similar to that of our President, however I mostly look after the lower level tasks and taking over responsibilites as and when needed. Alongside that, I am also the GDSC Lead for this year, so if you have any ideas for workshops or talks, please let me know! Outside of CSS, I enjoy reading, writing poetry, playing the guitar and gardening. Feel free to say hi if you see me in person, or DM me over Discord!
 
@@ -701,16 +701,16 @@ committee-members:
     roles:
       - role: Special Events Officer
         academic_year: 2022/2023
-        start-date: 1/7/2022
-        end-date: 1/7/2023
+        start-date: 2022-07-01
+        end-date: 2023-07-01
         bio: >
           Hi! I'm Leonardo, a second year studying Computer Science. I'm responsible for organising large scale CSS events, such 
           as the BBQ, Christmas meal, Ball and helping with other events. Outside of CSS, I enjoy robotics, cybersecurity, 
           gaming, and Formula 1. 🏎
       - role: Publicity Officer
         academic_year: 2024/2025
-        start-date: 1/7/2024
-        end-date: 30/06/2025
+        start-date: 2024-07-01
+        end-date: 2025-06-30
         bio: >
           Hi! I'm Leonardo, a final year studying Computer Science. My role this year is to create beautiful shitposts on 
           Canva to publish on Instagram and Discord to keep you guys up to date on what we're up to. I'm usually around on 
@@ -723,16 +723,16 @@ committee-members:
     roles:
       - role: Socials Secretary
         academic_year: 2022/2023
-        start-date: 7/12/2022
-        end-date: 1/7/2023
+        start-date: 2022-12-07
+        end-date: 2023-07-01
         bio: >
           Hello, I'm Marcus, and I'm in second year Computer Science. I'm responsible for organising social events of all different
           types. My interests outside of Computer Science are movies, cars, planes, '80s music and other nerdy stuff! I'm normally 
           around on Discord so feel free to message me!
       - role: Socials Secretary
         academic_year: 2023/2024
-        start-date: 1/7/2023
-        end-date: 1/7/2024
+        start-date: 2023-07-01
+        end-date: 2024-07-01
         bio: >
           Hello, I'm Marcus, and I'm in my 3rd year of Computer Science. 
           I'm responsible for organising social events of all different types. 
@@ -740,8 +740,8 @@ committee-members:
           I'm normally around on Discord so feel free to message me!
       - role: Industrial Liaison
         academic_year: 2024/2025
-        start-date: 1/7/2024
-        end-date: 30/06/2025
+        start-date: 2024-07-01
+        end-date: 2025-06-30
         bio: >
           Hello, I'm Marcus, and I'm on industrial placement at Jaguar Land Rover. 
           I'm responsible for working with current and prospective sponsors and planning sponsored events. 
@@ -749,7 +749,7 @@ committee-members:
           I'm normally around on Discord so feel free to message me!
       - role: Secretary
         academic_year: 2025/2026
-        start-date: 1/7/2025
+        start-date: 2025-07-01
         bio: >
           Hello, I'm Marcus, and I'm in my fifth and final year!
           I'm responsible for minuting our meetings and making agendas publicly available on our website among other things. 
@@ -763,8 +763,8 @@ committee-members:
     roles:
       - role: Equality, Diversity, and Inclusivity Officer
         academic_year: 2022/2023
-        start-date: 1/7/2022
-        end-date: 1/7/2023
+        start-date: 2022-07-01
+        end-date: 2023-07-01
         bio: >
           Hiya! I'm Sofia, a second year and the EDI Officer of CSS! I work to make sure that all CSS members are properly 
           represented as well as ensuring all CSS events and School programmes are safe, diverse and equal for all. Other than 
@@ -772,8 +772,8 @@ committee-members:
           or want to chat <3
       - role: Equality, Diversity, and Inclusivity Officer
         academic_year: 2023/2024
-        start-date: 1/7/2023
-        end-date: 1/7/2024
+        start-date: 2023-07-01
+        end-date: 2024-07-01
         bio: >
           Hiya! I'm Sofia, a second year and the EDI Officer of CSS! I work to make sure that all CSS members are properly 
           represented as well as ensuring all CSS events and School programmes are safe, diverse and equal for all. Other than 
@@ -787,8 +787,8 @@ committee-members:
     roles:
       - role: Industrial Liaison
         academic_year: 2022/2023
-        start-date: 7/12/2022
-        end-date: 1/7/2023
+        start-date: 2022-12-07
+        end-date: 2023-07-01
         bio: >
           Hi I'm Charlie and I'm the Industrial Liaison for CSS, which means I communicate with lots of companies to convince them to
           sponsor us, helping bring in money for the society and fund all the fun events that we want to run.  My hobbies outside of
@@ -796,8 +796,8 @@ committee-members:
           free to come up to me to talk about those or anything else you'd like to discuss.
       - role: Vice-President
         academic_year: 2023/2024
-        start-date: 1/7/2023
-        end-date: 1/7/2024
+        start-date: 2023-07-01
+        end-date: 2024-07-01
         bio: >
           Hi I'm Charlie, the vice-president for CSS. This means I pick up any odd jobs that need to be done if other commitee members don't have the time. My hobbies outside of Computer Science are reading Science Fiction (with my favourite book being Brave New World) and I love listening to music, so feel free to come up to me to talk about those or anything else you'd like to discuss.
 
@@ -809,8 +809,8 @@ committee-members:
       - role: PGT Rep
         academic_year: 2022/2023
         flags: ["interim"]
-        start-date: 1/7/2022
-        end-date: 27/10/2022
+        start-date: 2022-07-01
+        end-date: 2022-10-27
         bio: >
           As Interim PGT Rep, I make sure that all Postgrad students on a taught course feel welcomed by CSS. I enjoy running, 
           hitting the gym and (ethical) computer hacking. I'm a regular at events and always happy to have a friendly chat or offer 
@@ -823,8 +823,8 @@ committee-members:
     roles:
       - role: PGT Rep
         academic_year: 2022/2023
-        start-date: 27/10/2022
-        end-date: 1/7/2023
+        start-date: 2022-10-27
+        end-date: 2023-07-01
         bio: >
           Hey! I'm a MSc Computer Science student and as PGT Rep I aim to make sure that all postgrad students (on any of the 7 PGT courses) feel welcomed at CSS. Outside of CSS, I enjoy music 🎧, gaming 🎮 and reading high fantasy 🧙‍♂️. Always up for a friendly chat or offering support and advice; feel free to hmu on Discord or LinkedIn, or say hi 👋 if you see me around campus! 
 
@@ -835,8 +835,8 @@ committee-members:
     roles:
       - role: First Year Rep
         academic_year: 2022/2023
-        start-date: 27/10/2022
-        end-date: 1/7/2023
+        start-date: 2022-10-27
+        end-date: 2023-07-01
         bio: >
           Hiya! I'm Archer and I'm in my first year studying computer science. As the first-year rep, it is my job to put 
           on events that first years will enjoy, be approachable for them to share their thoughts or concerns, and be a 
@@ -844,8 +844,8 @@ committee-members:
           over random pieces of media. Feel free to contact me on discord or say hi if you ever see me around campus!
       - role: President
         academic_year: 2023/2024
-        start-date: 1/7/2023
-        end-date: 1/11/2023
+        start-date: 2023-07-01
+        end-date: 2023-11-01
         bio: >
           Hey! I’m Archer and I’m the CSS president. My role is to lead the society (read: take all the credit) and whip the committee into doing their jobs and getting everything done. I’ve had a blast at CSS events and being on the committee since I joined, and I hope I can help others have a brilliant time this year as well. In my free time I like to listen to musicals, play D&D, and obsess over roller coasters. Feel free to message me on discord or say hi if you see me around campus! 🎉
 
@@ -856,8 +856,8 @@ committee-members:
     roles:
       - role: PGR Rep
         academic_year: 2022/2023
-        start-date: 07/12/2022
-        end-date: 1/7/2023
+        start-date: 2022-12-07
+        end-date: 2023-07-01
         bio: >
           Hey, I'm Matthew! I'm a 3rd year undergrad, studying computer science. As the PGR Rep, it's my responsibility to
           represent all the PhD and research students who might be interested in the events we do. I've been a regular face
@@ -865,8 +865,8 @@ committee-members:
           and sleep during the day.
       - role: Post-Graduate (Research) Rep
         academic_year: 2023/2024
-        start-date: 1/7/2023
-        end-date: 1/11/2023
+        start-date: 2023-07-01
+        end-date: 2023-11-01
         bio: >
           Hello, hello! I'm Matthew and I'm returning as this year's PGR rep. It's
           my job to reach out to the PGRs (all the people studying for a PhD), and
@@ -875,8 +875,8 @@ committee-members:
           on, as well as sleep 24/7 (especially when it helps me avoid my responsibilities).
       - role: President
         academic_year: 2023/2024
-        start-date: 1/11/2023
-        end-date: 1/7/2024
+        start-date: 2023-11-01
+        end-date: 2024-07-01
         bio: >
           Hello, hello! I'm Matthew and I'm your CSS President! It's my job to keep things running
           smoothly and to keep the rest of committee on top of their tasks! I've had a great time
@@ -891,14 +891,14 @@ committee-members:
     roles:
       - role: Secretary
         academic_year: 2023/2024
-        start-date: 1/7/2023
-        end-date: 1/7/2024
+        start-date: 2023-07-01
+        end-date: 2024-07-01
         bio: >
           Hey! I’m Ella, a 2nd year CS student. In my role as Secretary I’ll be minuting and keeping the committee organised and on task, as well as anything else I can help out with. Outside of CSS I play bass, have an endless amount of crochet projects, and pick up various random hobbies weekly. Please come say hi if you see me around!
       - role: Post-Graduate (Research) Rep
         academic_year: 2024/2025
-        start-date: 1/7/2024
-        end-date: 6/11/2024
+        start-date: 2024-07-01
+        end-date: 2024-11-06
         bio: >
           Hi I'm Ella, a 3rd year Comp Sci student! My role is to represent the post grad research students in CSS, to ensure all members of CSS have a voice when we are planning events and making decisions. Outside of committee you can usually find me playing saxophone, getting more piercings, and chilling with some crochet (when uni work hasn't completely absorbed me).
 
@@ -909,8 +909,8 @@ committee-members:
     roles:
       - role: Publicity Officer
         academic_year: 2023/2024
-        start-date: 1/7/2023
-        end-date: 1/7/2024
+        start-date: 2023-07-01
+        end-date: 2024-07-01
         bio: >
           Hey there! I'm Abi, and am in my second year of CS at UoB. My
           role within CSS this year is to make sure you know what we're
@@ -927,8 +927,8 @@ committee-members:
     roles:
       - role: International Student Rep
         academic_year: 2023/2024
-        start-date: 1/7/2023
-        end-date: 1/7/2024
+        start-date: 2023-07-01
+        end-date: 2024-07-01
         bio: >
           Heyo! I'm Vishwas, and I'm in my third year of CS at UoB. As your international rep, it's my job to make sure
           everyone feels at home at UoB. When I'm not dabbling in esoteric programming languages or tinkering with
@@ -942,8 +942,8 @@ committee-members:
     roles:
       - role: Special Events Officer
         academic_year: 2023/2024
-        start-date: 1/7/2023
-        end-date: 1/7/2024
+        start-date: 2023-07-01
+        end-date: 2024-07-01
         bio: >
           Hi! I'm Ellie-Anne and I'm a third year Computer Science student.
           I'm responsible for organising the more large scale CSS events like the Ball, Christmas Meal and BBQ.
@@ -956,8 +956,8 @@ committee-members:
     roles:
       - role: Sports Secretary
         academic_year: 2023/2024
-        start-date: 1/7/2023
-        end-date: 1/7/2024
+        start-date: 2023-07-01
+        end-date: 2024-07-01
         bio: >
           Hey, I'm Sumeet and I'm in my 2nd year of Maths and Computer Science.
           I'll be responsible for helping out with anything sport related within
@@ -967,8 +967,8 @@ committee-members:
           I'll be on discord a lot, so feel free to message me!
       - role: Sports Secretary
         academic_year: 2024/2025
-        start-date: 1/7/2024
-        end-date: 30/06/2025
+        start-date: 2024-07-01
+        end-date: 2025-06-30
         bio: >
           Hey, I'm Sumeet and I'm in my 3rd year of Maths and Computer Science.
           I'll be responsible for helping out with anything sport related within
@@ -978,7 +978,7 @@ committee-members:
           I'll be on discord a lot, so feel free to message me about anything!
       - role: Vice-President
         academic_year: 2025/2026
-        start-date: 1/7/2025
+        start-date: 2025-07-01
         bio: >
           Hey there, I'm Sumeet and I'm in my 4th (and hopefully final) year :)
           I'll be responsible for picking up slack for when our supreme leader Matty needs it (so never).
@@ -992,8 +992,8 @@ committee-members:
     roles:
       - role: Industrial Liaison
         academic_year: 2023/2024
-        start-date: 1/7/2023
-        end-date: 1/7/2024
+        start-date: 2023-07-01
+        end-date: 2024-07-01
         bio: >
           Howdy gang! I'm Holly and I am in my 3rd year of the MSci Computer Science
           degree. I am the Industrial Liaison for CSS this year, so I will be in charge
@@ -1002,8 +1002,8 @@ committee-members:
           and doing Karate. I'm often around on Discord, so don't be afraid to say hi! 
       - role: President
         academic_year: 2024/2025
-        start-date: 1/7/2024
-        end-date: 30/06/2025
+        start-date: 2024-07-01
+        end-date: 2025-06-30
         bio: >
           All aboard! My name is Holly, and I am your CSS President, conducting our wonderful committee and the society as a 
           whole this year. Whilst I am in charge of ensuring events and tasks run smoothly, I am also the face and voice for 
@@ -1018,8 +1018,8 @@ committee-members:
     roles:
       - role: First Year Rep
         academic_year: 2023/2024
-        start-date: 1/11/2023
-        end-date: 1/7/2024
+        start-date: 2023-11-01
+        end-date: 2024-07-01
         bio: >
           Heya! I'm Rohit, I'm in my first year of medicine, and I'm the CSS First Year Rep.
           Believe it or not, there is a real person under the mask! My job is to voice concerns
@@ -1028,8 +1028,8 @@ committee-members:
           free to say hi if you see me around or on discord!
       - role: Special Events Officer
         academic_year: 2024/2025
-        start-date: 1/7/2024
-        end-date: 30/06/2025
+        start-date: 2024-07-01
+        end-date: 2025-06-30
         bio: >
           Heya! I'm Rohit, I'm in my second year of medicine, and I'm the CSS Special Events Officer.
           Believe it or not, there is a real person under the mask! My job is to manage larger events
@@ -1037,7 +1037,7 @@ committee-members:
           include ethical hacking, drawing, and gaming. Feel free to say hi if you see me around or on discord!
       - role: Publicity Officer
         academic_year: 2025/2026
-        start-date: 1/7/2025
+        start-date: 2025-07-01
         bio: >
           Heya! I'm Rohit, and I'm the CSS Publicity Officer. Believe it or not, there is a real person under the mask! My job is to organise, design, and publish publicity for CSS and the many events we run. A couple of my hobbies include ethical hacking, drawing, and gaming. Feel free to say hi if you see me around or on discord!
 
@@ -1048,8 +1048,8 @@ committee-members:
       - role: First Year Rep
         academic_year: 2023/2024
         flags: ["interim"]
-        start-date: 1/7/2023
-        end-date: 1/11/2023
+        start-date: 2023-07-01
+        end-date: 2023-11-01
         bio: >
           Hello! I'm your first year rep, so my role is to make sure that there are events that
           first years will enjoy and voice first year suggestions and concerns during meetings.
@@ -1064,8 +1064,8 @@ committee-members:
       - role: Post-Graduate (Taught) Rep
         academic_year: 2023/2024
         flags: ["interim"]
-        start-date: 1/7/2023
-        end-date: 1/11/2023
+        start-date: 2023-07-01
+        end-date: 2023-11-01
         bio: >
           It may be short-lived, but the time we'll spend together will be memorable. Matt here,
           your interim PGT Rep (and boy am I good at "repping"). I'll be looking out for all the
@@ -1076,8 +1076,8 @@ committee-members:
           come over for a chat! #ILoveOSM
       - role: Post-Graduate (Research) Rep
         academic_year: 2025/2026
-        start-date: 1/7/2025
-        end-date: 1/10/2025
+        start-date: 2025-07-01
+        end-date: 2025-10-01
         bio: >
           Matt here, your Post-Graduate (Research) Rep (and boy am I good at "repping").
           I'll be looking out for all the research post-graduates over the year,
@@ -1094,8 +1094,8 @@ committee-members:
     roles:
       - role: Post-Graduate (Taught) Rep
         academic_year: 2023/2024
-        start-date: 31/01/2024
-        end-date: 1/7/2024
+        start-date: 2024-01-31
+        end-date: 2024-07-01
         bio: >
           Hiya! I'm Lee, your PGT Rep. My role within the committee is to
           try and get the PGTs the engage more with the society. In my free
@@ -1105,8 +1105,8 @@ committee-members:
           where I'm nearly always active :)
       - role: Secretary
         academic_year: 2024/2025
-        start-date: 1/7/2024
-        end-date: 28/02/2025
+        start-date: 2024-07-01
+        end-date: 2025-02-28
         bio: >
           Wagwan my drillas. I'm Lee, your Secretary for this year. My job 
           is to minute the meetings we have aswell as upload the agendas and 
@@ -1117,7 +1117,7 @@ committee-members:
           chat or reach out to me on discord where I'm nearly always active :)
       - role: Equality, Diversity, and Inclusivity Officer
         academic_year: 2025/2026
-        start-date: 11/02/2026
+        start-date: 2026-02-11
         bio: >
            Hi there, I'm a 4th year Computer Science and I'm your EDI Officer. In my free time, I enjoy playing games (mostly Destiny 2) and also watching F1, darts and my football team, West Ham United. If you see me around feel free to have a chat or reach out to me on discord where I'm nearly always active :)
 
@@ -1128,8 +1128,8 @@ committee-members:
     roles:
       - role: International Student Rep
         academic_year: 2024/2025
-        start-date: 1/7/2024
-        end-date: 30/06/2025
+        start-date: 2024-07-01
+        end-date: 2025-06-30
         bio: >
           ¡Hola, Hello, 大家好, வணக்கம், apa habaq, नमस्ते, Jambo, a su'mae, Birmingham - I'm Sai, your International's 
           Representative for this year! My job is to think about how decisions we make might have different impacts on 
@@ -1146,8 +1146,8 @@ committee-members:
       - role: First Year Rep
         academic_year: 2024/2025
         flags: ["interim"]
-        start-date: 1/7/2024
-        end-date: 6/11/2024
+        start-date: 2024-07-01
+        end-date: 2024-11-06
         bio: >
           Hey everyone - Shay here! I'm your elected First Year Rep - this means I'm here to represent the often unheard voice of first years within the CSS Committee,
           making sure that as a first year, you feel welcomed into the society and have fun participating in events alongside us!
@@ -1160,13 +1160,13 @@ committee-members:
     roles:
       - role: First Year Rep
         academic_year: 2024/2025
-        start-date: 29/01/2025
-        end-date: 30/06/2025
+        start-date: 2025-01-29
+        end-date: 2025-06-30
         bio: >
           Hello there, I'm Evie your current first year rep. My job is the lure first years into joining CSS as well as making sure first years feel welcome in CSS. Feel free to message me on the discord (:
       - role: Sports Secretary
         academic_year: 2025/2026
-        start-date: 1/7/2025
+        start-date: 2025-07-01
         bio: >
           Hello there, I'm Evie your current sports sec. Sports and CS crazy right but let me introduce you to a little thing called league of legends. Feel free to message me on the discord (:
 
@@ -1177,8 +1177,8 @@ committee-members:
     roles:
       - role: Equality, Diversity, and Inclusivity Officer
         academic_year: 2024/2025
-        start-date: 1/7/2024
-        end-date: 6/11/2024
+        start-date: 2024-07-01
+        end-date: 2024-11-06
         bio: >
           Hi, I'm Trinity, I'm a 4th year Computer Science student and CSS' EDI Officer! This means it's my job to ensure CSS events are accessible and all members of the society feel represented. Feel free to reach out to me if you have any EDI-related questions, feedback, or ideas!
 
@@ -1188,8 +1188,8 @@ committee-members:
     roles:
       - role: Socials Secretary
         academic_year: 2024/2025
-        start-date: 6/11/2024
-        end-date: 30/06/2025
+        start-date: 2024-11-06
+        end-date: 2025-06-30
         bio: >
           Hello everyone, I'm George. My role is to organise and run fun and exciting events for the society! Outside of CSS, I'm an avid speed cuber and chess player. I'm a friendly face (mostly) so feel free to message me on Discord or speak to me if you see me around.
 
@@ -1200,16 +1200,16 @@ committee-members:
     roles:
       - role: Equality, Diversity, and Inclusivity Officer
         academic_year: 2024/2025
-        start-date: 6/11/2024
-        end-date: 30/06/2025
+        start-date: 2024-11-06
+        end-date: 2025-06-30
         bio: >
           Ellow, I am Sabrina, a 1st year Mathematics and Computer Science student, and I'm your EDI Officer this year.
           My role is to try to make sure CSS events are accessible, and that everyone can feel comfortable/free to participate.
           Feel free to reach out to me if you have any EDI-related queries or suggestions  on discord or by email, or on the CSS server.
       - role: Equality, Diversity, and Inclusivity Officer
         academic_year: 2025/2026
-        start-date: 1/7/2025
-        end-date: 11/02/2026
+        start-date: 2025-07-01
+        end-date: 2026-02-11
         bio: >
           Ellow, I'm Sabrina! I'm a Maths and CS student, and I'm your EDI Officer again. My role is to ensure CSS events are accessible, and that everyone can feel comfortable participating. Feel free to reach out to me on discord/on the CSS server, in-person, or via email if you *really* like email.
 
@@ -1220,8 +1220,8 @@ committee-members:
     roles:
       - role: Post-Graduate (Taught) Rep
         academic_year: 2024/2025
-        start-date: 6/11/2024
-        end-date: 30/06/2025
+        start-date: 2024-11-06
+        end-date: 2025-06-30
         bio: >
           Hi, I'm Nial, I'm a postgraduate Computer Science student who grew up down the road from campus in Bournville. I will be ensuring that the society makes awesome events tailored towards the postgrad cohort. If you see me I'm happy to chat on any ideas or concerns you may have or just have a chat in general. I like to code a lot as well play and watch Football with my favourite team being Birmingham City (sadly).
 
@@ -1232,13 +1232,13 @@ committee-members:
     roles:
       - role: Post-Graduate (Research) Rep
         academic_year: 2024/2025
-        start-date: 6/11/2024
-        end-date: 30/06/2025
+        start-date: 2024-11-06
+        end-date: 2025-06-30
         bio: >
           Hey everyone, I'm Joe, a fourth year MSci CS student who's your PGR Rep for this year! On committee, my main role is to represent our wonderful students studying hard for a Ph.D., as well as accommodating them and encouraging them to attend CSS' events. However, I'm always happy to chat to everyone, not just PGRs! Outside of uni work, you can find me Ballroom & Latin dancing, or enthusing over many insects.
       - role: Post-Graduate (Research) Rep
         academic_year: 2025/2026
-        start-date: 22/10/2025
+        start-date: 2025-10-22
         bio: >
           Hi guys, I'm Joe, and I'm back as the PGR Rep! This time, however, I'm actually a Ph.D. student, so I feel more equipped to represent our smallest, but still very important group! On committee, my main role is to represent our wonderful students studying hard for a Ph.D., as well as accommodating them and encouraging them to attend CSS' events. However, I'm always happy to chat to everyone, not just PGRs! Outside of uni work, you can find me Ballroom & Latin dancing, or enthusing over many, many insects.
 
@@ -1249,7 +1249,7 @@ committee-members:
     roles:
       - role: Treasurer
         academic_year: 2025/2026
-        start-date: 1/7/2025
+        start-date: 2025-07-01
         bio: >
           Hello! My name is Oli and I am the new treasurer!
           I will be dealing with the society's finances, along with other general stuff.
@@ -1263,7 +1263,7 @@ committee-members:
     roles:
       - role: International Student Rep
         academic_year: 2025/2026
-        start-date: 1/7/2025
+        start-date: 2025-07-01
         bio: >
           Hi, I'm Mahima, and I am super excited to be your new International Student Rep. Being an international student myself even though its my second year, I know what it's like to adjust to a new place, so I'm here to make sure CSS stays the friendly, welcoming, and inclusive family that it already is. Can't wait to meet more of you this year!!! Reach out to me on Discord, I am always happy to help!
 
@@ -1274,7 +1274,7 @@ committee-members:
     roles:
       - role: Special Events Officer
         academic_year: 2025/2026
-        start-date: 1/7/2025
+        start-date: 2025-07-01
         bio: >
           Hi, I'm Toby, the Special Events Officer for CSS. My role is to organise the large CSS events that happen throught the year. Outside of computer science my main interests are games (League of Legends) and piano, mainly focusing on classical music.
 
@@ -1285,8 +1285,8 @@ committee-members:
     roles:
       - role: Socials Secretary
         academic_year: 2025/2026
-        start-date: 1/7/2025
-        end-date: 11/02/2026
+        start-date: 2025-07-01
+        end-date: 2026-02-11
         bio: >
           Hellooooo, I'm Fearne your new socials sec. I'll be putting together
           some hopefully fun and super duper cool and awesome socials for you.
@@ -1301,7 +1301,7 @@ committee-members:
     roles:
       - role: Socials Secretary
         academic_year: 2025/2026
-        start-date: 11/02/2026
+        start-date: 2026-02-11
         bio: >
           Hello! I'm Misha, your socials secretary for the rest of this academic year. I'll be organising regular social events and ensuring those events are inclusive and accessible. Being a member of CSS has made me more confident in talking to new people and I'd like to ensure others have this opportunity. I'm a second year CS student and I like ethical hacking and open-source software. Feel free to talk to me in person or message me on Discord.
 
@@ -1312,7 +1312,7 @@ committee-members:
     roles:
       - role: Industrial Liaison
         academic_year: 2025/2026
-        start-date: 1/7/2025
+        start-date: 2025-07-01
         bio: >
           I am Amrit. Second year undergraduate!
           Lua is my favourite programming language, and is easily one of the best languages to ever be made. I also love to use C, C++, C#, Objective-C, Swift, TypeScript, and F#. I have a wide plethora of projects I have worked on and am currently working on, present for viewing on my GitHub (same username as my discord)
@@ -1327,7 +1327,7 @@ committee-members:
     roles:
       - role: Post-Graduate (Taught) Rep
         academic_year: 2025/2026
-        start-date: 22/10/2025
+        start-date: 2025-10-22
         bio: >
           Hi! I'm Maddy, a PGT student studying AI and Machine Learning, and I'm excited to be your new PGT Rep this year. As someone new to UOB, I've jumped straight into getting involved and connecting with our community. Outside of studying, I'm a massive gamer and a pretty terrible netball player. My goal is to represent and support all PGT students, making sure everyone feels welcome, included, and heard.
           If you ever need anything or just fancy a chat, feel free to reach out but be warned I can talk for ages :)
@@ -1339,7 +1339,7 @@ committee-members:
     roles:
       - role: Hackathons Officer
         academic_year: 2025/2026
-        start-date: 22/10/2025
+        start-date: 2025-10-22
         bio: >
           Hello, I'm Deji the Hackathons Officer and I'm currently studying Artificial Intelligence (AI) and Computer Science BSc.
           I love music, learning and games(both card games and online games). If you have any specific concerns about proceedings or
@@ -1352,7 +1352,7 @@ committee-members:
     roles:
       - role: First Year Rep
         academic_year: 2025/2026
-        start-date: 22/10/2025
+        start-date: 2025-10-22
         bio: >
           Hello! I'm Albert, a first year undergraduate currently studying Computer Science Bsc. I love all things to do with computers, music, and philosophy. I also enjoy strategy games, and playing badminton. As first year rep, I represent the needs of my year group on committee, so please don't hesitate to come to me with concerns if you see me around or in a lecture, or just drop me a message on discord!
 
@@ -1364,8 +1364,8 @@ committee-members:
       - role: First Year Rep
         academic_year: 2025/2026
         flags: ["interim"]
-        start-date: 1/7/2025
-        end-date: 22/10/2025
+        start-date: 2025-07-01
+        end-date: 2025-10-22
         bio: >
           Hey! I’m Vidushi, your Interim First-Year Rep for CSS. As a classic Libra, 
           I love balance, good vibes, and making sure everyone’s voice is heard. I’m 
@@ -1381,8 +1381,8 @@ committee-members:
       - role: Post-Graduate (Taught) Rep
         academic_year: 2025/2026
         flags: ["interim"]
-        start-date: 1/7/2025
-        end-date: 22/10/2025
+        start-date: 2025-07-01
+        end-date: 2025-10-22
         bio: >
           Howdy hey! I'm Jhundon, your Interim Postgraduate (Taught) Rep! I'm here to represent 
           and support the PGT students joining us at CSS. Whether you're facing academic hurdles, 
