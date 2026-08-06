@@ -20,44 +20,61 @@ styles:
 </p>
 <p>
   You can also find all of the agendas from our committee meetings <a href="../meetings">here</a>.
-<p>
-  {% for committees in site.data.committee %}
-    {% assign committee = committees[1] %}
-    {% if committee.current %}
-      {% assign current_committee = committee %}
-      {% assign count = current_committee.people.size %}
-      {% for member in current_committee.people %}
-        {% if member.end-date %}
-          {% assign count = count | minus:1 %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
+</p>
+
+{% assign active_count = 0 %}
+{% assign current_academic_year = "" %}
+
+{% for person in site.data.committee.committee-members %}
+  {% for role in person.roles %}
+    {% unless role.end-date %}
+      {% assign active_count = active_count | plus: 1 %}
+      {% if current_academic_year == "" %}
+        {% assign current_academic_year = role.academic_year %}
+      {% endif %}
+    {% endunless %}
   {% endfor %}
-  Currently {{ count }} elected members for {{ current_committee.academic_year }}:
+{% endfor %}
+
+<p>
+  Currently {{ active_count }} elected members for {{ current_academic_year }}:
 </p>
 
 
 <div class="person-container fadein-container">
-  {% for committees in site.data.committee %}
-    {% assign committee = committees[1] %}
-    {% for person in committee.people %}
-      {% unless person.end-date %}
-      <div class="person fadein" style="--child-index: {{ forloop.index }};">
+  {% assign display_index = 0 %}
+  {% for person in site.data.committee.committee-members %}
+    
+    <!-- Identify if this person has a currently active role -->
+    {% assign has_current_role = false %}
+    {% assign current_role = nil %}
+    
+    {% for role in person.roles %}
+      {% unless role.end-date %}
+        {% assign has_current_role = true %}
+        {% assign current_role = role %}
+      {% endunless %}
+    {% endfor %}
+
+    {% if has_current_role %}
+      {% assign display_index = display_index | plus: 1 %}
+      <div class="person fadein" style="--child-index: {{ display_index }};">
           <img class="picture" src="{{ person.picture | relative_url }}" alt="picture of {{ person.name }}">
         <div class="details">
           <span class="name">{{ person.name }}</span>
           <span class="discordtag">{{ person.discordtag }}</span>
           {% if person.pronouns %}
             <span class="pronouns">
-              {{person.pronouns}}
+              {{ person.pronouns }}
             </span>
           {% endif %}
           <p class="role">
-            {% if committee.prefix %}{{committee.prefix}}{% endif %}
-            {{ person.role }}
-            {% if committee.postfix %}{{committee.postfix}}{% endif %}
-            {% if person.flags %}
-              {% for flag in person.flags %}
+            {% if current_role.prefix %}{{ current_role.prefix }} {% endif %}
+            {{ current_role.role }}
+            {% if current_role.postfix %} {{ current_role.postfix }}{% endif %}
+            
+            {% if current_role.flags %}
+              {% for flag in current_role.flags %}
                 {% if site.data.committee-flags.flags[flag] %}
                   <span class="flag-{{ flag }}" title="{{ site.data.committee-flags.flags[flag].description }}"><!--
                   -->{{ site.data.committee-flags.flags[flag].text }}<!--
@@ -66,15 +83,13 @@ styles:
               {% endfor %}
             {% endif %}
             |
-            {{ person.start-date | date: "%b %Y" }} -
-            {{ person.end-date | date: "%b %Y" | default: "Present" }}
+            {{ current_role.start-date | date: "%b %Y" }} - Present
           </p>
           <p class="bio">
-            {{ person.bio }}
+            {{ current_role.bio }}
           </p>
         </div>
       </div>
-      {% endunless %}
-    {% endfor %}
+    {% endif %}
   {% endfor %}
 </div>
