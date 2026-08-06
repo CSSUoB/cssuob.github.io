@@ -6,6 +6,7 @@ jobs:
   pr-auto-update:
     name: Automatic PR Updater
     runs-on: ubuntu-latest
+    if: github.repository == 'CSSUoB/cssuob.github.io'
     permissions: 
       pull-requests: write
       contents: write
