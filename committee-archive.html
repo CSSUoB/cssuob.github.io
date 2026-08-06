@@ -11,127 +11,46 @@ styles:
 
 <p>If you appear in this archive and wish for your data to be removed or amended, please <a href="mailto://css@guild.bham.ac.uk">send us an email</a>!</p>
 
-<!-- 1. Extract all unique academic years that have at least one archived role -->
-{% assign archive_years = "" %}
+{% assign archived_people = "" | split: "" %}
+{% assign archived_roles = "" | split: "" %}
 {% for person in site.data.committee["committee-members"] %}
-  {% for role in person.roles %}
-    {% if role["end-date"] %}
-      {% assign year_string = role.academic_year | append: "|" %}
-      {% unless archive_years contains year_string %}
-        {% assign archive_years = archive_years | append: year_string %}
-      {% endunless %}
-    {% endif %}
+  {% assign person_archived_roles = person.roles | where_exp: "r", "r['end-date']" %}
+  {% for role in person_archived_roles %}
+    {% assign archived_people = archived_people | push: person %}
+    {% assign archived_roles = archived_roles | push: role %}
   {% endfor %}
 {% endfor %}
-
-<!-- 2. Sort the years in reverse chronological order (e.g., 2025/2026, then 2024/2025) -->
-{% assign sorted_archive_years = archive_years | split: "|" | sort | reverse %}
+ 
+<!-- Every academic year that has at least one archived role, newest first -->
+{% assign sorted_archive_years = archived_roles | map: "academic_year" | uniq | sort | reverse %}
 {% assign priority_roles = "President, Vice-President, Treasurer, Secretary" | split: ", " %}
-
-<!-- 3. Loop through each archived year to build the blocks -->
+ 
 {% for year in sorted_archive_years %}
-  {% if year != "" %}
-    <h2>{{ year }}</h2>
-    <div class="person-container fadein-container">
-      {% assign display_index = 0 %}
-
-      <!-- PASS 1: Render Priority Roles for this Specific Year -->
-      {% for target_role in priority_roles %}
-        {% for person in site.data.committee["committee-members"] %}
-          {% for role in person.roles %}
-            {% if role.academic_year == year and role["end-date"] and role.role == target_role %}
-              {% assign display_index = display_index | plus: 1 %}
-              
-              <div class="person fadein" style="--child-index: {{ display_index }};">
-                <img class="picture" src="{{ person.picture | relative_url }}" alt="picture of {{ person.name }}">
-                <div class="details">
-                  <span class="name">{{ person.name }}</span>
-                  {% if person.pronouns %}
-                    <span class="pronouns">{{ person.pronouns }}</span>
-                  {% endif %}
-                  
-                  <p class="role">
-                    {% if role.prefix %}{{ role.prefix }} {% endif %}
-                    {{ role.role }}
-                    {% if role.postfix %} {{ role.postfix }}{% endif %}
-                    
-                    {% if role.flags %}
-                      {% for flag in role.flags %}
-                        {% if site.data["committee-flags"].flags[flag] %}
-                          <span class="flag-{{ flag }}" title="{{ site.data['committee-flags'].flags[flag].description }}"><!--
-                          -->{{ site.data['committee-flags'].flags[flag].text }}<!--
-                        --></span>
-                        {% endif %} 
-                      {% endfor %}
-                    {% endif %}
-                    |
-                    {{ role["start-date"] | date: "%b %Y" }} -
-                    {{ role["end-date"] | date: "%b %Y" }}
-                  </p>
-                  
-                  <p class="bio">
-                    {{ role.bio }}
-                  </p>
-                </div>
-              </div>
-            {% endif %}
-          {% endfor %}
-        {% endfor %}
+  <h2>{{ year }}</h2>
+  <div class="person-container fadein-container">
+    {% assign display_index = 0 %}
+ 
+    <!-- PASS 1: Priority roles for this year -->
+    {% for target_role in priority_roles %}
+      {% for role in archived_roles %}
+        {% if role.academic_year == year and role.role == target_role %}
+          {% assign display_index = display_index | plus: 1 %}
+          {% assign person = archived_people[forloop.index0] %}
+          {% include committee-card.html person=person role=role display_index=display_index %}
+        {% endif %}
       {% endfor %}
-
-      <!-- PASS 2: Render all remaining Roles for this Specific Year -->
-      {% for person in site.data.committee["committee-members"] %}
-        {% for role in person.roles %}
-          <!-- Check if the role matches the year and is archived -->
-          {% if role.academic_year == year and role["end-date"] %}
-            
-            {% assign is_priority = false %}
-            {% for pr in priority_roles %}
-              {% if role.role == pr %}
-                {% assign is_priority = true %}
-              {% endif %}
-            {% endfor %}
-            
-            {% unless is_priority %}
-              {% assign display_index = display_index | plus: 1 %}
-              
-              <div class="person fadein" style="--child-index: {{ display_index }};">
-                <img class="picture" src="{{ person.picture | relative_url }}" alt="picture of {{ person.name }}">
-                <div class="details">
-                  <span class="name">{{ person.name }}</span>
-                  {% if person.pronouns %}
-                    <span class="pronouns">{{ person.pronouns }}</span>
-                  {% endif %}
-                  
-                  <p class="role">
-                    {% if role.prefix %}{{ role.prefix }} {% endif %}
-                    {{ role.role }}
-                    {% if role.postfix %} {{ role.postfix }}{% endif %}
-                    
-                    {% if role.flags %}
-                      {% for flag in role.flags %}
-                        {% if site.data["committee-flags"].flags[flag] %}
-                          <span class="flag-{{ flag }}" title="{{ site.data['committee-flags'].flags[flag].description }}"><!--
-                          -->{{ site.data['committee-flags'].flags[flag].text }}<!--
-                        --></span>
-                        {% endif %} 
-                      {% endfor %}
-                    {% endif %}
-                    |
-                    {{ role["start-date"] | date: "%b %Y" }} -
-                    {{ role["end-date"] | date: "%b %Y" }}
-                  </p>
-                  
-                  <p class="bio">
-                    {{ role.bio }}
-                  </p>
-                </div>
-              </div>
-            {% endunless %}
-          {% endif %}
-        {% endfor %}
-      {% endfor %}
-
-    </div>
-  {% endif %}
+    {% endfor %}
+ 
+    <!-- PASS 2: Everyone else for this year -->
+    {% for role in archived_roles %}
+      {% if role.academic_year == year %}
+        {% unless priority_roles contains role.role %}
+          {% assign display_index = display_index | plus: 1 %}
+          {% assign person = archived_people[forloop.index0] %}
+          {% include committee-card.html person=person role=role display_index=display_index %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+ 
+  </div>
 {% endfor %}

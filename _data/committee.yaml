@@ -1,3 +1,5 @@
+current_academic_year: 2026/2027
+
 committee-members:
   - name: Cristian Calauz
     picture: /assets/committee/2019-20/mini/cristian.jpg
@@ -10,7 +12,7 @@ committee-members:
           As the president of CSS, I oversee and manage the committee and the
           society. I also engage in the recreational sport of watching paint dry,
           play video games, hear grass grow, and laugh at the futility of time.
-
+ 
   - name: Tom Goodman
     picture: /assets/committee/2020-21/mini/tom.jpg
     roles:
@@ -31,7 +33,7 @@ committee-members:
           Hey! I'm a 3rd year PhD student in the School 💖 This year, I'm serving as your Secretary, and have been on the
           committee for five (😱) years now. I love cats, baking, gin, board games, and a boatload of other stuff - feel
           free to come and have a chat.
-
+ 
   - name: Stefan Nedelcu
     picture: /assets/committee/2019-20/mini/stefan.jpg
     roles:
@@ -44,7 +46,7 @@ committee-members:
           transaction is made by the book. Some would say the computer science
           building is my second home as people can often find me in the labs at
           unusual hours.
-
+ 
   - name: Justin Chadwell
     picture: /assets/committee/2019-20/mini/justin.jpg
     roles:
@@ -57,7 +59,7 @@ committee-members:
           do lots of odd jobs, like work on this website. When not on CSS
           business, I'm taking part in hackathons across the UK, hacking with
           AFNOM, or spending too much time on assorted projects.
-
+ 
   - name: Jonathan Rudman
     picture: /assets/committee/2019-20/mini/jonty.jpg
     roles:
@@ -69,7 +71,7 @@ committee-members:
           As CSS socials rep, I ensure that social events occur frequently and
           that these events are designed around our members. When I’m not
           organising events, I’m often found wasting my time on configs.
-
+ 
   - name: Selma Kander
     picture: /assets/committee/2019-20/mini/selma.jpg
     roles:
@@ -81,7 +83,7 @@ committee-members:
           Hi I’m selma, international rep for CSS. My goal is to make sure
           international CS students feel at home here! Feel free to hit me up if
           you need help settling in 🙂
-
+ 
   - name: Lauren Alie
     picture: /assets/committee/2019-20/mini/lauren.jpg
     roles:
@@ -93,7 +95,7 @@ committee-members:
           As Special Events rep, I'm responsible for making sure that all big CSS
           events during the year, such as the CSS ball, are the best they can be.
           Outside CSS I enjoy dancing and playing in a steel drum orchestra.
-
+ 
   - name: Keerthi Rachmallu
     picture: /assets/committee/2019-20/mini/keerthi.jpg
     roles:
@@ -106,7 +108,7 @@ committee-members:
           like to be called, the DIE rep for CSS. When I’m not doing nerdy comp
           sci stuff, I’m usually binge watching shows or eating carrots from
           Tesco.
-
+ 
   - name: Laura Cope
     picture: /assets/committee/2019-20/mini/laura.jpg
     roles:
@@ -119,7 +121,7 @@ committee-members:
           e-sports. In my free time I play ice hockey, cycle and do and any other
           sports I fit in. I also love a host of classic and recent video
           games which I can't wait to bring to CSS.
-
+ 
   - name: Likkan Chung
     pronouns: He/Him
     discordtag: "LikkanChung#6938"
@@ -151,7 +153,7 @@ committee-members:
           I'm a final year on the MSci course, just coming back from my placement at Kainos. 
           You may also know me from organising HackTheMidlands, or as a Student Ambassador. 
           I look forward to seeing what this year brings as President, and don't be shy to say hi!
-
+ 
   - name: Tom Preece
     picture: /assets/committee/2019-20/mini/tomp.jpg
     roles:
@@ -164,7 +166,7 @@ committee-members:
           society is relevant and on top of changes. I also represents the
           students away in industry. In my own time, I play guitar and enjoy
           some casual game development.
-
+ 
   - name: Valeria Popescu
     picture: /assets/committee/2020-21/mini/valeria.jpg
     roles:
@@ -188,7 +190,7 @@ committee-members:
           I love organising events and networking. I am always looking for
           personal development and career opportunities, so if you are keen on talking about internships, CVs or interview
           prepping, I would love to help you!
-
+ 
   - name: Marco Canducci
     picture: /assets/committee/2019-20/mini/marco.jpg
     roles:
@@ -197,7 +199,7 @@ committee-members:
         start-date: 2019-07-01
         end-date: 2020-07-01
         bio:
-
+ 
   - name: Jacqui Henes
     pronouns: She/Her
     discordtag: "raenlok#9165"
@@ -219,7 +221,7 @@ committee-members:
         bio: >
           I'm Jacqui, the treasurer of CSS! My role is to manage the funds for CSS, making sure we have the ability to put on great events. 
           When I'm not stressing out over responsibilities and deadlines, I spend a lot of my time playing RPGs and drinking iced lemon tea.
-
+ 
   - name: Jake Foster
     picture: /assets/committee/2020-21/mini/jake.jpg
     roles:
@@ -231,7 +233,7 @@ committee-members:
           Hi I’m Jake and this academic year I will be managing the societies finances.
           I am going into my 4th year and plan to spend it playing DnD, drinking, and completing the occasional assignment.
           I look forward to a year full of interesting events hosted by this society.
-
+ 
   - name: Robert Hallam
     picture: /assets/committee/2020-21/mini/rob.png
     roles:
@@ -244,7 +246,7 @@ committee-members:
           by running social events and meetups! This year, I want more people coming to these. In
           the unlikely event that you can’t find me in the Sloman lounge or in the labs, I’m probably
           either playing guitar or running along the canals.
-
+ 
   - name: Afarin Izadi
     picture: /assets/committee/2020-21/mini/afarin.jpg
     roles:
@@ -256,7 +258,7 @@ committee-members:
           I know all about the struggles of being an international student — like finding friends, understanding the culture,
           and homesickness. I'm here to help you make friends and to make everyone feel
           like they belong in our community. In my free time, I love sports, fashion design and talking about Elon Musk!
-
+ 
   - name: Jacob Wilson
     pronouns: He/Him
     discordtag: "BladorthinGrey#8528"
@@ -286,7 +288,7 @@ committee-members:
         end-date: 2023-07-01
         bio: >
           Hello! I'm a final year Computer Science student and my role is to lead the society and manage the committee to help everything get done. 🎉 CSS members may recognise me from the many CSS quizzes I've written and hosted, all with a glass of wine in my hand 🍷 In my spare time I like to play D&D, win at board games, and travel. I've been on the committee for three years now and I've met my best friends through CSS, feel free to reach out on the Discord or say hi in person <3 
-
+ 
   - name: Leela Muppala
     picture: /assets/committee/2020-21/mini/leela.jpg
     roles:
@@ -300,7 +302,7 @@ committee-members:
           making sure we offer a diverse set of activities for our whole community.
           Aside from this, I mostly waste time by watching
           horror movies and reading murder mysteries. Feel free to contact me with any suggestions or concerns!
-
+ 
   - name: Daniel Stoica
     picture: /assets/committee/2020-21/mini/daniel-stoica.jpg
     roles:
@@ -312,7 +314,7 @@ committee-members:
           I encourage everyone (regardless of your level or experience) to take
           part in our sports and e-sports events! One of my goals this year is to increase the amount of people
           involved in e-sports. When time allows, I love to go to the gym, read books and play video games.
-
+ 
   - name: George Baker
     picture: /assets/committee/2020-21/mini/george.jpeg
     roles:
@@ -323,7 +325,7 @@ committee-members:
         bio: >
           I’m responsible for promoting all of our wonderful events and maintaining this website! In my spare time, I enjoy photography,
           playing tennis, and listening to music.
-
+ 
   - name: Rhys Morgan
     pronouns: He/Him
     discordtag: "Rhysimus#9263"
@@ -345,7 +347,7 @@ committee-members:
           Hiya! I'm Rhys, a second year degree apprentice and your Secretary this year. 
           It's my job to organise and minute the meetings, as well as ensuring everyone's doing awesome. 
           I love coding, JoJo, boba, many sports and spending time with friends. Feel free to have a chat with me whenever! ❤️
-
+ 
   - name: Dan Clark
     pronouns: He/Him
     discordtag: "danyc0#7106"
@@ -380,7 +382,7 @@ committee-members:
           the (in)security of Bluetooth. Outside of that, I enjoy competing in CTF competitions and Rock Climbing. I was the CSS PGT 
           rep during my MSc back in 2016/17, went to work for a few years then came back to UoB in 2019 and have been PGR rep ever 
           since.
-
+ 
   - name: Victoria Tilley
     pronouns: She/They
     discordtag: "Sapphyre#5656"
@@ -410,7 +412,7 @@ committee-members:
           doing well. CSS members will know me from hosting a bunch of workshops, posting plenty of memes in the CSS Discord or 
           just hanging around CS. If I'm not working, I'm probably programming in my spare time, playing video games or listening 
           to a lot of music. Feel free to come to me if you need anything!
-
+ 
   - name: Fatima Zahra Al Hajji
     pronouns: She/Her
     discordtag: "Fatima#2285"
@@ -435,7 +437,7 @@ committee-members:
           in industry. I enjoy cycling, reading and drawing in my free time. As the publicity officer, I aim to ensure that all 
           our members know about all the amazing events that take place throughout the year and encourage as many people as I can to join
           our society and participate. Feel free to approach me and ask me anything! 💜
-
+ 
   - name: Gokul Menon
     pronouns: He/Him
     discordtag: "laterflow#8193"
@@ -450,7 +452,7 @@ committee-members:
           My job is to ensure all first years enjoy their time at CSS and more generally at university.
           I have many hobbies, including programming, recreational maths, puzzle solving and video games.
           I'm always happy to help so always feel welcome to message me on Discord or approach me on campus!
-
+ 
   - name: Mohammed Aamaan
     pronouns: He/Him
     discordtag: "aamnaam#7088"
@@ -463,7 +465,7 @@ committee-members:
         bio: >
           Hey! I'm Aamaan. My job is to ensure all International Students enjoy their time at the university and receive support to ease the challenges that accompany a move to the new country. 
           In my free time (sometimes not so free), I like playing Rocket League and watching random YouTube videos!
-
+ 
   - name: Alex Banks
     pronouns: He/Him
     discordtag: "TheAxelr8r#7476"
@@ -478,7 +480,7 @@ committee-members:
           and help the society reach even more people by encouraging people to sign up, especially throughout freshers. 
           I promote the society through our social media, physical media, and in person at various events. 
           Outside of CS I'm an active member of the LGBTQ+ community, I have a mild caffeine addiction, and an affinity for the colour orange 🏳️‍🌈☕🧡
-
+ 
   - name: Jack Shilton
     pronouns: He/Him
     discordtag: "ジャック#0394"
@@ -492,7 +494,7 @@ committee-members:
           Hey everyone! I’m Jack, a 1st year CS student on the Year Abroad course! 
           I will be responsible for handling all the larger events we run this year, including the CSS Ball, Christmas meal, Board Game Nights, 
           as well as lots of other events! If I’m not working, then I’m probably learning and developing my Japanese skills or riding around campus!
-
+ 
   - name: Leaf
     pronouns: He/Sprout/They
     discordtag: "Leaf#0077"
@@ -514,7 +516,7 @@ committee-members:
           My role on committee is organising fun socials, workshops, & meetups for members. Outside of enjoying programming, I love 
           cosplaying, playing games, art, photography, baking, collecting sanrio merch, & puzzle solving. I'm always happy to meet 
           new people so always feel welcome to message me or approach me if you see me on campus. 🌱
-
+ 
   - name: Raine Arrowsmith
     pronouns: She/They
     discordtag: "Raine#8544"
@@ -535,7 +537,7 @@ committee-members:
           Hello, I'm Raine and I'm going into my final year studying Computer Science. I will be responsible for keeping everyone in check and taking minutes during meetings. 
           When I'm not sleeping I'm either speedrunning, 
           participating in hackathons or working on programming projects.
-
+ 
   - name: Aarogya Yadav
     pronouns: He/Him
     discordtag: "Arcane34#4178"
@@ -558,7 +560,7 @@ committee-members:
           Well Hello there! I'm Aarogya but feel free to call me "Arrow" because pronunciation can be difficult, I'm a 2nd year 
           studying CS and I'll be handling any suggestions on activities and sports you'd like to be run during my time as Sports 
           Secretary. At the end of the day, I like nothing more than to meet new people so feel free to approach me anytime! 😄
-
+ 
   - name: Tori
     pronouns: Xe/Xem
     discordtag: "torisucks2020#7193"
@@ -580,7 +582,7 @@ committee-members:
         bio: >
           Hi, I'm Tori and I'm a second year Computer Science student. I'm the Interim First Year Rep and I'll be helping organise 
           events for first years joining at the start of this year. Feel free to say hi if you see me on the Discord!
-
+ 
   - name: Lyndon Chan
     pronouns: He/Him
     discordtag: "LyndonChan#5225"
@@ -595,7 +597,7 @@ committee-members:
           My role is to build connection between the industry and the society by organizing different careers events. 
           I hope all of you will find them meaningful and helpful, especially for your personal development and future career.
           In my spare time, I like playing basketball and watching anime. I am looking forward to meeting you all.
-
+ 
   - name: Matty Widdop
     pronouns: He/Him
     discordtag: "MattyTheHacker"
@@ -645,7 +647,7 @@ committee-members:
         end-date: 2026-06-30
         bio: >
           Hey all! I'm Matty, your CSS president for 2025-26! I'll be coordinating committee and making sure everyone is on track and supported throughout the year. I'll also be responsible for representing the society as a whole so do feel free to reach out if you have any questions, comments or concerns!
-
+ 
   - name: James Dickinson
     discordtag: "jamesdickinson#3403"
     picture: /assets/committee/2021-22/mini/james.jpg
@@ -658,7 +660,7 @@ committee-members:
         bio: >
           I’m James, an MSc Computer Science student. My role its help represent current and incoming masters students.
           In my free time, I love cycling, swimming, and reading. Feel free to contact me!
-
+ 
   - name: Juozas Domarkas
     pronouns: He/Him
     discordtag: "registershift#1573"
@@ -673,7 +675,7 @@ committee-members:
           deals with and help with making events happen! When not in an office in the city centre, I like to read fantasy and SF 
           (if you have any recommendations, let me know!); make computer hardware do stuff it was never meant to; and try to form 
           the ultimate ritual to make the perfect cup of coffee.
-
+ 
   - name: Adi Agarwal
     pronouns: He/Him
     discordtag: "floofmcfluff"
@@ -694,7 +696,7 @@ committee-members:
         end-date: 2025-06-30
         bio: >
           Hiya folks! My name is Adi, the Vice President of CSS. My role is very similar to that of our President, however I mostly look after the lower level tasks and taking over responsibilites as and when needed. Alongside that, I am also the GDSC Lead for this year, so if you have any ideas for workshops or talks, please let me know! Outside of CSS, I enjoy reading, writing poetry, playing the guitar and gardening. Feel free to say hi if you see me in person, or DM me over Discord!
-
+ 
   - name: Leonardo Bishop
     pronouns: He/Him
     discordtag: "leonardobishop"
@@ -716,7 +718,7 @@ committee-members:
           Hi! I'm Leonardo, a final year studying Computer Science. My role this year is to create beautiful shitposts on 
           Canva to publish on Instagram and Discord to keep you guys up to date on what we're up to. I'm usually around on 
           campus, so if you see around do feel free to say hello :)
-
+ 
   - name: Marcus Gustafsson
     pronouns: He/Him
     discordtag: "jb007db5"
@@ -757,7 +759,7 @@ committee-members:
           I'm responsible for minuting our meetings and making agendas publicly available on our website among other things. 
           My interests outside of Computer Science are movies, cars, planes, '80s music, laserdisc and other nerdy stuff! 
           I'm normally around on Discord so feel free to message me!
-
+ 
   - name: Sofia
     pronouns: She/They
     discordtag: "cryptonomicon"
@@ -781,7 +783,7 @@ committee-members:
           represented as well as ensuring all CSS events and School programmes are safe, diverse and equal for all. Other than 
           CS, I enjoy reading sci-fi novels, playing D&D and listening to a lot of music! Please come to me if you need anything 
           or want to chat <3
-
+ 
   - name: Charlie Wilson
     pronouns: He/They
     discordtag: "cesw"
@@ -802,7 +804,7 @@ committee-members:
         end-date: 2024-07-01
         bio: >
           Hi I'm Charlie, the vice-president for CSS. This means I pick up any odd jobs that need to be done if other commitee members don't have the time. My hobbies outside of Computer Science are reading Science Fiction (with my favourite book being Brave New World) and I love listening to music, so feel free to come up to me to talk about those or anything else you'd like to discuss.
-
+ 
   - name: Theo
     pronouns: He/Him
     discordtag: "Thexxn#4799"
@@ -817,7 +819,7 @@ committee-members:
           As Interim PGT Rep, I make sure that all Postgrad students on a taught course feel welcomed by CSS. I enjoy running, 
           hitting the gym and (ethical) computer hacking. I'm a regular at events and always happy to have a friendly chat or offer 
           support and advice. I'd never say no to a few pints and you can usually find me at Joe's bar on a Thursday.
-
+ 
   - name: Aju Ani Justus
     pronouns: He/Him
     discordtag: "ajewdor#0360"
@@ -829,7 +831,7 @@ committee-members:
         end-date: 2023-07-01
         bio: >
           Hey! I'm a MSc Computer Science student and as PGT Rep I aim to make sure that all postgrad students (on any of the 7 PGT courses) feel welcomed at CSS. Outside of CSS, I enjoy music 🎧, gaming 🎮 and reading high fantasy 🧙‍♂️. Always up for a friendly chat or offering support and advice; feel free to hmu on Discord or LinkedIn, or say hi 👋 if you see me around campus! 
-
+ 
   - name: Archer
     pronouns: They/Them
     discordtag: "useruninvited"
@@ -850,7 +852,7 @@ committee-members:
         end-date: 2023-11-01
         bio: >
           Hey! I’m Archer and I’m the CSS president. My role is to lead the society (read: take all the credit) and whip the committee into doing their jobs and getting everything done. I’ve had a blast at CSS events and being on the committee since I joined, and I hope I can help others have a brilliant time this year as well. In my free time I like to listen to musicals, play D&D, and obsess over roller coasters. Feel free to message me on discord or say hi if you see me around campus! 🎉
-
+ 
   - name: Matthew Hammond
     pronouns: He/They
     discordtag: "frozendude101"
@@ -885,7 +887,7 @@ committee-members:
           planning, running, and attending events so far, so now I just have to return the favour!
           Outside of CSS I like to work on whatever soon-to-be abandoned project my brain will focus
           on, as well as sleep 24/7 (especially when it helps me avoid my responsibilities).
-
+ 
   - name: Ella
     pronouns: She/They
     discordtag: "formlessmess"
@@ -903,7 +905,7 @@ committee-members:
         end-date: 2024-11-06
         bio: >
           Hi I'm Ella, a 3rd year Comp Sci student! My role is to represent the post grad research students in CSS, to ensure all members of CSS have a voice when we are planning events and making decisions. Outside of committee you can usually find me playing saxophone, getting more piercings, and chilling with some crochet (when uni work hasn't completely absorbed me).
-
+ 
   - name: Abi
     pronouns: She/Her
     discordtag: "abichrome"
@@ -921,7 +923,7 @@ committee-members:
           old film cameras in the darkroom or making things.
           If you ever see me around, feel free to say hi! You're also welcome to
           drop me a message on Discord whenever! 😁 🏳️‍⚧️
-
+ 
   - name: Vishwas
     pronouns: He/Him
     discordtag: "v.x.a"
@@ -936,7 +938,7 @@ committee-members:
           everyone feels at home at UoB. When I'm not dabbling in esoteric programming languages or tinkering with
           electronics, you'll find me raving about planes and trains. Feel free to stop me for a chat if you see me around 
           or ping me on Discord!
-
+ 
   - name: Ellie-Anne Watts
     pronouns: She/Her
     discordtag: "flame_panda33"
@@ -950,7 +952,7 @@ committee-members:
           Hi! I'm Ellie-Anne and I'm a third year Computer Science student.
           I'm responsible for organising the more large scale CSS events like the Ball, Christmas Meal and BBQ.
           Outside of Computer Science I enjoy crafts, writing and playing DnD.
-
+ 
   - name: Sumeet Brar
     pronouns: He/They
     discordtag: "jethoodie"
@@ -987,7 +989,7 @@ committee-members:
           I'll be responsible for picking up slack for when our supreme leader Matty needs it (so never).
           And if not that I'll be generally helping set up events and being a friendly face for the society.
           As someone who's been on the committee for a while, I'm sure many of you recognise me, and I'll be around a lot if you need any help!
-
+ 
   - name: Holly P.
     pronouns: Any
     discordtag: "errortm99"
@@ -1013,7 +1015,7 @@ committee-members:
           the society, so please let me know if you have any concerns or questions. Outside of my presidential duties, I 
           enjoy story writing, coding mods for Minecraft, and drawing. Feel free to say hi if you see me on campus, and if 
           you have a cat, DM it to me on Discord. :)
-
+ 
   - name: Rohit Jose
     pronouns: He/Him
     discordtag: "bluka479"
@@ -1049,7 +1051,7 @@ committee-members:
         start-date: 2026-07-01
         bio: >
           Heya! I'm Rohit, and I'm the CSS Special Events Officer. Believe it or not, there is a real person under the mask! My job is to organise, design, and prepare for CSS' special events, like the Christmas Meal, the Ball, and the Summer BBQ. A couple of my hobbies include ethical hacking, drawing, and gaming. Feel free to say hi if you see me around or on discord!
-
+ 
   - name: Charlie
     discordtag: "var_noisy"
     picture: /assets/committee/2023-24/mini/charlie0.jpeg
@@ -1064,7 +1066,7 @@ committee-members:
           first years will enjoy and voice first year suggestions and concerns during meetings.
           I enjoy playing bass and watching House in my spare time. If you see me around, feel
           free to come and chat to me about anything or message me on Discord :)
-
+ 
   - name: Matt Norton
     pronouns: He/Him
     discordtag: "carrotmanmatt"
@@ -1095,7 +1097,7 @@ committee-members:
           forward to keeping that going with fun events that are accessible to the needs
           of my cohort. I may be crazy, but I'll never be scary so always feel free to
           come over for a chat! #ILoveOSM
-
+ 
   - name: Lee Alabaster
     pronouns: He/Him
     discordtag: "palee."
@@ -1130,7 +1132,7 @@ committee-members:
         end-date: 2026-06-30
         bio: >
            Hi there, I'm a 4th year Computer Science and I'm your EDI Officer. In my free time, I enjoy playing games (mostly Destiny 2) and also watching F1, darts and my football team, West Ham United. If you see me around feel free to have a chat or reach out to me on discord where I'm nearly always active :)
-
+ 
   - name: Sai
     pronouns: Any
     discordtag: "achievementcava"
@@ -1147,7 +1149,7 @@ committee-members:
           but I still love meeting new people, especially if it means that I can help you with anything that might be 
           on your mind (I don't bite, I promise). When I'm busyn't, I play the guitar and <s>bedrot</s>
           like exploring new places! 
-
+ 
   - name: Shay Patel
     pronouns: He/Him
     discordtag: "sg.24"
@@ -1162,7 +1164,7 @@ committee-members:
           Hey everyone - Shay here! I'm your elected First Year Rep - this means I'm here to represent the often unheard voice of first years within the CSS Committee,
           making sure that as a first year, you feel welcomed into the society and have fun participating in events alongside us!
           If you have any questions or suggestions, feel free to DM me over on Discord!
-
+ 
   - name: Evie Wilson
     pronouns: She/Her
     discordtag: "cacti7"
@@ -1185,7 +1187,7 @@ committee-members:
         start-date: 2026-07-01
         bio: >
           PUBLICITY 2 BIO HERE
-
+ 
   - name: Trinity
     pronouns: They/Them
     discordtag: "trinity034"
@@ -1197,7 +1199,7 @@ committee-members:
         end-date: 2024-11-06
         bio: >
           Hi, I'm Trinity, I'm a 4th year Computer Science student and CSS' EDI Officer! This means it's my job to ensure CSS events are accessible and all members of the society feel represented. Feel free to reach out to me if you have any EDI-related questions, feedback, or ideas!
-
+ 
   - name: George Barrell
     pronouns: He/Him
     picture: /assets/committee/2024-25/mini/george.jpg
@@ -1208,7 +1210,7 @@ committee-members:
         end-date: 2025-06-30
         bio: >
           Hello everyone, I'm George. My role is to organise and run fun and exciting events for the society! Outside of CSS, I'm an avid speed cuber and chess player. I'm a friendly face (mostly) so feel free to message me on Discord or speak to me if you see me around.
-
+ 
   - name: Sabrina Ahmad
     pronouns: They/Any
     discordtag: "thesussywussy"
@@ -1228,7 +1230,7 @@ committee-members:
         end-date: 2026-02-11
         bio: >
           Ellow, I'm Sabrina! I'm a Maths and CS student, and I'm your EDI Officer again. My role is to ensure CSS events are accessible, and that everyone can feel comfortable participating. Feel free to reach out to me on discord/on the CSS server, in-person, or via email if you *really* like email.
-
+ 
   - name: Nial Dixon
     pronouns: He/Him
     discordtag: "nialdixon8"
@@ -1240,7 +1242,7 @@ committee-members:
         end-date: 2025-06-30
         bio: >
           Hi, I'm Nial, I'm a postgraduate Computer Science student who grew up down the road from campus in Bournville. I will be ensuring that the society makes awesome events tailored towards the postgrad cohort. If you see me I'm happy to chat on any ideas or concerns you may have or just have a chat in general. I like to code a lot as well play and watch Football with my favourite team being Birmingham City (sadly).
-
+ 
   - name: Joseph Adams
     pronouns: He/Him
     discordtag: "itjoe"
@@ -1266,7 +1268,7 @@ committee-members:
           I'm excited to get everyone involved with events, and overall help CSS offer something for everyone who gets involved with the society!
           Outside of the society, I'm a second year Ph.D. student in the Theory group of CS, and my many hobbies include dance, birds, and insects!
           Feel free to reach out to me if you have anything about the society you want answered! 
-
+ 
   - name: Oli Baker
     pronouns: They/Them
     discordtag: "solarninja"
@@ -1281,7 +1283,7 @@ committee-members:
           I will be dealing with the society's finances, along with other general stuff.
           I am currently going into my second year of Computer Science but my third year of university; outside of my education and committee obligations I like creative writing, coding, video games, vocaloid music & music in general, cosplay, etc.
           Feel free to say hi through an email, on discord, or in person if you see me!
-
+ 
   - name: Mahima Gupta
     pronouns: She/Her
     discordtag: "mahima2209"
@@ -1293,7 +1295,7 @@ committee-members:
         end-date: 2026-06-30
         bio: >
           Hi, I'm Mahima, and I am super excited to be your new International Student Rep. Being an international student myself even though its my second year, I know what it's like to adjust to a new place, so I'm here to make sure CSS stays the friendly, welcoming, and inclusive family that it already is. Can't wait to meet more of you this year!!! Reach out to me on Discord, I am always happy to help!
-
+ 
   - name: Toby
     pronouns: He/Him
     discordtag: "99tornado99"
@@ -1305,7 +1307,7 @@ committee-members:
         end-date: 2026-06-30
         bio: >
           Hi, I'm Toby, the Special Events Officer for CSS. My role is to organise the large CSS events that happen throught the year. Outside of computer science my main interests are games (League of Legends) and piano, mainly focusing on classical music.
-
+ 
   - name: Fearne Townsend
     pronouns: She/Her
     discordtag: "ferb_t"
@@ -1321,7 +1323,7 @@ committee-members:
           Please come along and say hi :)
           I'm going into my third year in CS and first year in committee.
           If your favourite colour is pink I think we'll be great friends 
-
+ 
   - name: Misha
     pronouns: he/him
     discordtag: "mxg586"
@@ -1333,7 +1335,7 @@ committee-members:
         end-date: 2026-06-30
         bio: >
           Hello! I'm Misha, your socials secretary for the rest of this academic year. I'll be organising regular social events and ensuring those events are inclusive and accessible. Being a member of CSS has made me more confident in talking to new people and I'd like to ensure others have this opportunity. I'm a second year CS student and I like ethical hacking and open-source software. Feel free to talk to me in person or message me on Discord.
-
+ 
   - name: Amrit Bhogal
     pronouns: He/Him
     discordtag: "Frityet"
@@ -1349,7 +1351,7 @@ committee-members:
           Other than programming, I also love Model UN/International relations, volleyball, cooking, classic Japanese cars, and snowboarding!
           As an industrial liason, I am excited to work to help students get oppertunities in industry to hone their skills and gain experience and connections.
           I am looking forward to meeting and working with everyone!
-
+ 
   - name: Maddy Lardner
     pronouns: She/Her
     discordtag: "darkbanshee"
@@ -1368,7 +1370,7 @@ committee-members:
         bio: >
           Hi! I'm Maddy, a PGT student studying AI and Machine Learning, and I'm excited to be your new PGT Rep this year. As someone new to UOB, I've jumped straight into getting involved and connecting with our community. Outside of studying, I'm a massive gamer and a pretty terrible netball player. My goal is to represent and support all PGT students, making sure everyone feels welcome, included, and heard.
           If you ever need anything or just fancy a chat, feel free to reach out but be warned I can talk for ages :)
-
+ 
   - name: Deji
     pronouns: He/Him
     discordtag: "schloraus"
@@ -1382,7 +1384,7 @@ committee-members:
           Hello, I'm Deji the Hackathons Officer and I'm currently studying Artificial Intelligence (AI) and Computer Science BSc.
           I love music, learning and games(both card games and online games). If you have any specific concerns about proceedings or
           hackathons you'd like to take part in please send us an email and I'll make sure to get back to you.
-
+ 
   - name: Albert Waldron
     pronouns: He/Him
     discordtag: "albotexe"
@@ -1399,7 +1401,7 @@ committee-members:
         start-date: 2026-07-01
         bio: >
           Hello! I'm Albert, and I'm a second year compsci student. I love all things to do with computers, music, and philosophy. I also enjoy strategy games, and playing badminton. As VP, it's my job to fill in for the Scrum Master when they're not available. My main role though is just to help out wherever I can, so you'll still see me at plenty of events. Please don't hesitate to reach out on discord if you've got any questions, or want to discuss anything society related!
-
+ 
   - name: Vidushi
     pronouns: She/Her
     discordtag: "vidushi2409"
@@ -1416,7 +1418,7 @@ committee-members:
           passionate about helping others, meeting new people, and turning your ideas 
           into real change. If you see me around, come say hi, I’m always up for a chat 
           (or a coffee)!
-
+ 
   - name: Jhundon Mendi
     pronouns: He/Him
     discordtag: "thatguyender"
@@ -1432,11 +1434,11 @@ committee-members:
           and support the PGT students joining us at CSS. Whether you're facing academic hurdles, 
           feeling a little lost, or just want to get more involved,  all you got to do is send me 
           a message!
-
+ 
           I've been here since my undergraduate in CS four years ago and have met many amazing people 
           from both the society and the university. Without them, I wouldn't have found my love for 
           Immersive Technologies (mostly VR) and the amazing community we have here.
-
+ 
   - name: Idris Evans
     pronouns: He/Him
     discordtag: "bros112"
@@ -1447,7 +1449,7 @@ committee-members:
         start-date: 2026-07-01
         bio: >
           Hello all! I'm Idris and I'm your new Treasurer for this year. I'm excited to be a part of this society and help to work with the finances. I'm responsible for the finances of the society and helping around the place too. I'm a second year CS student and I like cybersecurity, Minecraft, coding and more. Feel free to reach out about anything, role-related or otherwise.
-
+ 
   - name: Henry Thomas
     picture: /assets/committee/2026-27/mini/henry.jpg
     roles:
@@ -1456,7 +1458,7 @@ committee-members:
         start-date: 2026-07-01
         bio: >
           Hello! I'm Henry, a second year computer science student. I'm your new Secretary for the year so I'm responsible for minuting and publishing our meetings. Outside of Computer Science I enjoy cricket, astronomy, and kayaking. Feel free to message me if you have any questions.
-
+ 
   - name: Tyler King
     picture: /assets/committee/2026-27/mini/
     roles:
@@ -1465,7 +1467,7 @@ committee-members:
         start-date: 2026-07-01
         bio: >
           PUBLICITY 1 BIO HERE
-
+ 
   - name: George Tong
     discordtag: "geo.rget"
     picture: /assets/committee/2026-27/mini/georget.jpg
@@ -1475,7 +1477,7 @@ committee-members:
         start-date: 2026-07-01
         bio: >
           Hi, I’m George, and I’m in my second year. As social sec, I’ll be responsible for organising regular socials throughout the year to help you get to know everyone and make the most of your time in the society. Feel free to get in touch with me via email 🙂. Cheers! 🍻
-
+ 
   - name: Anna Charleton
     picture: /assets/committee/2026-27/mini/annach.png
     roles:
@@ -1518,4 +1520,4 @@ committee-members:
         start-date: 2026-07-01
         bio: >
           Good Tidings everyone, I'm Day a third year M.Sci Mathematics and Computer Science student, and will be the Hackathons Officer for this academic year. I will be mainly focused on making sure BirmingHack 3.0 is planned and executed well, but we might also have time in the schedule to run a few smaller hackathons in the runup to BirmingHack. My main pastimes are: reading, video/board games, ethical hacking, music, and maintaining my homelab and other projects at drjoness.uk. If you have any queries about BirmingHack or suggestions to be made, drop me a message on Discord or feel free to say hello in person.
-          
+

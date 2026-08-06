@@ -1,0 +1,6 @@
+{%- comment -%} Renders one committee-member card for a single (person, role) pairing. Required params: person - an entry from site.data.committee["committee-members"] role - one entry from person.roles display_index - 1-based index used for the fadein stagger animation A person with more than one currently-active role (e.g. interim cover) will simply be passed into this include more than once, once per role — this renders as one card per role, same as the archive already does, rather than silently keeping only one of their roles. {%- endcomment -%}
+picture of {{ include.person.name }}
+{{ include.person.name }} {{ include.person.discordtag }} {% if include.person.pronouns %} {{ include.person.pronouns }} {% endif %}
+{% if include.role.prefix %}{{ include.role.prefix }} {% endif %} {{ include.role.role }} {% if include.role.postfix %} {{ include.role.postfix }}{% endif %} {% if include.role.flags %} {% for flag in include.role.flags %} {% if site.data["committee-flags"].flags[flag] %} {{ site.data['committee-flags'].flags[flag].text }} {% endif %} {% endfor %} {% endif %} | {{ include.role["start-date"] | date: "%b %Y" }} - {% if include.role["end-date"] %}{{ include.role["end-date"] | date: "%b %Y" }}{% else %}Present{% endif %}
+
+{{ include.role.bio }}
