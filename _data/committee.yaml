@@ -2,7 +2,7 @@ current_academic_year: 2026/2027
 
 committee-members:
   - name: Cristian Calauz
-    picture: /assets/committee/2019-20/mini/cristian.jpg
+    picture: /assets/committee/mini/cristian.jpg
     roles:
       - role: President
         academic_year: 2019/2020
@@ -14,7 +14,7 @@ committee-members:
           play video games, hear grass grow, and laugh at the futility of time.
  
   - name: Tom Goodman
-    picture: /assets/committee/2020-21/mini/tom.jpg
+    picture: /assets/committee/mini/tom.jpg
     roles:
       - role: Secretary
         academic_year: 2019/2020
@@ -35,7 +35,7 @@ committee-members:
           free to come and have a chat.
  
   - name: Stefan Nedelcu
-    picture: /assets/committee/2019-20/mini/stefan.jpg
+    picture: /assets/committee/mini/stefan.jpg
     roles:
       - role: Treasurer
         academic_year: 2019/2020
@@ -48,7 +48,7 @@ committee-members:
           unusual hours.
  
   - name: Justin Chadwell
-    picture: /assets/committee/2019-20/mini/justin.jpg
+    picture: /assets/committee/mini/justin.jpg
     roles:
       - role: Vice-President
         academic_year: 2019/2020
@@ -61,7 +61,7 @@ committee-members:
           AFNOM, or spending too much time on assorted projects.
  
   - name: Jonathan Rudman
-    picture: /assets/committee/2019-20/mini/jonty.jpg
+    picture: /assets/committee/mini/jonty.jpg
     roles:
       - role: Socials Rep
         academic_year: 2019/2020
@@ -73,7 +73,7 @@ committee-members:
           organising events, I’m often found wasting my time on configs.
  
   - name: Selma Kander
-    picture: /assets/committee/2019-20/mini/selma.jpg
+    picture: /assets/committee/mini/selma.jpg
     roles:
       - role: International Rep
         academic_year: 2019/2020
@@ -85,7 +85,7 @@ committee-members:
           you need help settling in 🙂
  
   - name: Lauren Alie
-    picture: /assets/committee/2019-20/mini/lauren.jpg
+    picture: /assets/committee/mini/lauren.jpg
     roles:
       - role: Special Events Rep
         academic_year: 2019/2020
@@ -97,7 +97,7 @@ committee-members:
           Outside CSS I enjoy dancing and playing in a steel drum orchestra.
  
   - name: Keerthi Rachmallu
-    picture: /assets/committee/2019-20/mini/keerthi.jpg
+    picture: /assets/committee/mini/keerthi.jpg
     roles:
       - role: Diversity and Inclusivity Rep
         academic_year: 2019/2020
@@ -110,7 +110,7 @@ committee-members:
           Tesco.
  
   - name: Laura Cope
-    picture: /assets/committee/2019-20/mini/laura.jpg
+    picture: /assets/committee/mini/laura.jpg
     roles:
       - role: Sports Rep
         academic_year: 2019/2020
@@ -125,7 +125,7 @@ committee-members:
   - name: Likkan Chung
     pronouns: He/Him
     discordtag: "LikkanChung#6938"
-    picture: /assets/committee/2021-22/mini/likkan.jpg
+    picture: /assets/committee/mini/likkan.jpg
     roles:
       - role: Publicity Rep
         academic_year: 2019/2020
@@ -155,7 +155,7 @@ committee-members:
           I look forward to seeing what this year brings as President, and don't be shy to say hi!
  
   - name: Tom Preece
-    picture: /assets/committee/2019-20/mini/tomp.jpg
+    picture: /assets/committee/mini/tomp.jpg
     roles:
       - role: Industrial Rep
         academic_year: 2019/2020
@@ -168,7 +168,7 @@ committee-members:
           some casual game development.
  
   - name: Valeria Popescu
-    picture: /assets/committee/2020-21/mini/valeria.jpg
+    picture: /assets/committee/mini/valeria.jpg
     roles:
       - role: First Year Rep
         academic_year: 2019/2020
@@ -192,7 +192,7 @@ committee-members:
           prepping, I would love to help you!
  
   - name: Marco Canducci
-    picture: /assets/committee/2019-20/mini/marco.jpg
+    picture: /assets/committee/mini/marco.jpg
     roles:
       - role: Post-Graduate (Research) Rep
         academic_year: 2019/2020
@@ -203,7 +203,7 @@ committee-members:
   - name: Jacqui Henes
     pronouns: She/Her
     discordtag: "raenlok#9165"
-    picture: /assets/committee/2021-22/mini/jacqui.jpg
+    picture: /assets/committee/mini/jacqui.jpg
     roles:
       - role: President
         academic_year: 2020/2021
@@ -223,7 +223,7 @@ committee-members:
           When I'm not stressing out over responsibilities and deadlines, I spend a lot of my time playing RPGs and drinking iced lemon tea.
  
   - name: Jake Foster
-    picture: /assets/committee/2020-21/mini/jake.jpg
+    picture: /assets/committee/mini/jake.jpg
     roles:
       - role: Treasurer
         academic_year: 2020/2021
@@ -235,7 +235,7 @@ committee-members:
           I look forward to a year full of interesting events hosted by this society.
  
   - name: Robert Hallam
-    picture: /assets/committee/2020-21/mini/rob.png
+    picture: /assets/committee/mini/rob.png
     roles:
       - role: Socials Rep
         academic_year: 2020/2021
@@ -248,7 +248,7 @@ committee-members:
           either playing guitar or running along the canals.
  
   - name: Afarin Izadi
-    picture: /assets/committee/2020-21/mini/afarin.jpg
+    picture: /assets/committee/mini/afarin.jpg
     roles:
       - role: International Student Rep
         academic_year: 2020/2021
@@ -262,7 +262,7 @@ committee-members:
   - name: Jacob Wilson
     pronouns: He/Him
     discordtag: "BladorthinGrey#8528"
-    picture: /assets/committee/2022-23/mini/jacob.jpg
+    picture: /assets/committee/mini/jacob.jpg
     roles:
       - role: Special Events Rep
         academic_year: 2020/2021
@@ -290,7 +290,7 @@ committee-members:
           Hello! I'm a final year Computer Science student and my role is to lead the society and manage the committee to help everything get done. 🎉 CSS members may recognise me from the many CSS quizzes I've written and hosted, all with a glass of wine in my hand 🍷 In my spare time I like to play D&D, win at board games, and travel. I've been on the committee for three years now and I've met my best friends through CSS, feel free to reach out on the Discord or say hi in person <3 
  
   - name: Leela Muppala
-    picture: /assets/committee/2020-21/mini/leela.jpg
+    picture: /assets/committee/mini/leela.jpg
     roles:
       - role: Diversity, Equality and Inclusivity Rep
         academic_year: 2020/2021
@@ -304,7 +304,7 @@ committee-members:
           horror movies and reading murder mysteries. Feel free to contact me with any suggestions or concerns!
  
   - name: Daniel Stoica
-    picture: /assets/committee/2020-21/mini/daniel-stoica.jpg
+    picture: /assets/committee/mini/daniel-stoica.jpg
     roles:
       - role: Sports Rep
         academic_year: 2020/2021
@@ -316,7 +316,7 @@ committee-members:
           involved in e-sports. When time allows, I love to go to the gym, read books and play video games.
  
   - name: George Baker
-    picture: /assets/committee/2020-21/mini/george.jpeg
+    picture: /assets/committee/mini/george.jpeg
     roles:
       - role: Publicity Rep
         academic_year: 2020/2021
@@ -329,7 +329,7 @@ committee-members:
   - name: Rhys Morgan
     pronouns: He/Him
     discordtag: "Rhysimus#9263"
-    picture: /assets/committee/2021-22/mini/rhys.jpg
+    picture: /assets/committee/mini/rhys.jpg
     roles:
       - role: First Year Rep
         academic_year: 2020/2021
@@ -351,7 +351,7 @@ committee-members:
   - name: Dan Clark
     pronouns: He/Him
     discordtag: "danyc0#7106"
-    picture: /assets/committee/2022-23/mini/dan.png
+    picture: /assets/committee/mini/dan.png
     roles:
       - role: Post-Graduate (Research) Rep
         academic_year: 2020/2021
@@ -386,7 +386,7 @@ committee-members:
   - name: Victoria Tilley
     pronouns: She/They
     discordtag: "Sapphyre#5656"
-    picture: /assets/committee/2022-23/mini/v.png
+    picture: /assets/committee/mini/v.png
     roles:
       - role: Equality, Diversity, and Inclusivity Officer
         academic_year: 2021/2022
@@ -416,7 +416,7 @@ committee-members:
   - name: Fatima Zahra Al Hajji
     pronouns: She/Her
     discordtag: "Fatima#2285"
-    picture: /assets/committee/2022-23/mini/fatima.jpg
+    picture: /assets/committee/mini/fatima.jpg
     roles:
       - role: First Year Rep
         academic_year: 2021/2022
@@ -441,7 +441,7 @@ committee-members:
   - name: Gokul Menon
     pronouns: He/Him
     discordtag: "laterflow#8193"
-    picture: /assets/committee/2021-22/mini/gokul.png
+    picture: /assets/committee/mini/gokul.png
     roles:
       - role: First Year Rep
         academic_year: 2021/2022
@@ -456,7 +456,7 @@ committee-members:
   - name: Mohammed Aamaan
     pronouns: He/Him
     discordtag: "aamnaam#7088"
-    picture: /assets/committee/2021-22/mini/aamaan.jpg
+    picture: /assets/committee/mini/aamaan.jpg
     roles:
       - role: International Student Rep
         academic_year: 2021/2022
@@ -469,7 +469,7 @@ committee-members:
   - name: Alex Banks
     pronouns: He/Him
     discordtag: "TheAxelr8r#7476"
-    picture: /assets/committee/2021-22/mini/alex.jpg
+    picture: /assets/committee/mini/alex.jpg
     roles:
       - role: Publicity Officer
         academic_year: 2021/2022
@@ -484,7 +484,7 @@ committee-members:
   - name: Jack Shilton
     pronouns: He/Him
     discordtag: "ジャック#0394"
-    picture: /assets/committee/2021-22/mini/jack.png
+    picture: /assets/committee/mini/jack.png
     roles:
       - role: Special Events Officer
         academic_year: 2021/2022
@@ -498,7 +498,7 @@ committee-members:
   - name: Leaf
     pronouns: He/Sprout/They
     discordtag: "Leaf#0077"
-    picture: /assets/committee/2022-23/mini/leaf.jpg
+    picture: /assets/committee/mini/leaf.jpg
     roles:
       - role: Socials Secretary
         academic_year: 2021/2022
@@ -520,7 +520,7 @@ committee-members:
   - name: Raine Arrowsmith
     pronouns: She/They
     discordtag: "Raine#8544"
-    picture: /assets/committee/2022-23/mini/raine.png
+    picture: /assets/committee/mini/raine.png
     roles:
       - role: Sports Secretary
         academic_year: 2021/2022
@@ -541,7 +541,7 @@ committee-members:
   - name: Aarogya Yadav
     pronouns: He/Him
     discordtag: "Arcane34#4178"
-    picture: /assets/committee/2022-23/mini/aarogya.jpg
+    picture: /assets/committee/mini/aarogya.jpg
     roles:
       - role: Sports Secretary
         academic_year: 2021/2022
@@ -564,7 +564,7 @@ committee-members:
   - name: Tori
     pronouns: Xe/Xem
     discordtag: "torisucks2020#7193"
-    picture: /assets/committee/2022-23/mini/tori.jpg
+    picture: /assets/committee/mini/tori.jpg
     roles:
       - role: Equality, Diversity, and Inclusivity Officer
         academic_year: 2021/2022
@@ -586,7 +586,7 @@ committee-members:
   - name: Lyndon Chan
     pronouns: He/Him
     discordtag: "LyndonChan#5225"
-    picture: /assets/committee/2021-22/mini/lyndon.jpg
+    picture: /assets/committee/mini/lyndon.jpg
     roles:
       - role: Industrial Liaison
         academic_year: 2021/2022
@@ -601,7 +601,7 @@ committee-members:
   - name: Matty Widdop
     pronouns: He/Him
     discordtag: "MattyTheHacker"
-    picture: /assets/committee/2025-26/mini/matty.jpg
+    picture: /assets/committee/mini/matty.jpg
     roles:
       - role: Industrial Liaison
         academic_year: 2021/2022
@@ -650,7 +650,7 @@ committee-members:
  
   - name: James Dickinson
     discordtag: "jamesdickinson#3403"
-    picture: /assets/committee/2021-22/mini/james.jpg
+    picture: /assets/committee/mini/james.jpg
     roles:
       - role: Post-Graduate Taught Rep
         academic_year: 2021/2022
@@ -664,7 +664,7 @@ committee-members:
   - name: Juozas Domarkas
     pronouns: He/Him
     discordtag: "registershift#1573"
-    picture: /assets/committee/2022-23/mini/juozas.jpg
+    picture: /assets/committee/mini/juozas.jpg
     roles:
       - role: Treasurer
         academic_year: 2022/2023
@@ -679,7 +679,7 @@ committee-members:
   - name: Adi Agarwal
     pronouns: He/Him
     discordtag: "floofmcfluff"
-    picture: /assets/committee/2024-25/mini/adi.jpg
+    picture: /assets/committee/mini/adi.jpg
     roles:
       - role: International Student Rep
         academic_year: 2022/2023
@@ -700,7 +700,7 @@ committee-members:
   - name: Leonardo Bishop
     pronouns: He/Him
     discordtag: "leonardobishop"
-    picture: /assets/committee/2024-25/mini/leonardo.jpg
+    picture: /assets/committee/mini/leonardo.jpg
     roles:
       - role: Special Events Officer
         academic_year: 2022/2023
@@ -722,7 +722,7 @@ committee-members:
   - name: Marcus Gustafsson
     pronouns: He/Him
     discordtag: "jb007db5"
-    picture: /assets/committee/2025-26/mini/marcus.jpg
+    picture: /assets/committee/mini/marcus.jpg
     roles:
       - role: Socials Secretary
         academic_year: 2022/2023
@@ -763,7 +763,7 @@ committee-members:
   - name: Sofia
     pronouns: She/They
     discordtag: "cryptonomicon"
-    picture: /assets/committee/2022-23/mini/sofia.jpg
+    picture: /assets/committee/mini/sofia.jpg
     roles:
       - role: Equality, Diversity, and Inclusivity Officer
         academic_year: 2022/2023
@@ -787,7 +787,7 @@ committee-members:
   - name: Charlie Wilson
     pronouns: He/They
     discordtag: "cesw"
-    picture: /assets/committee/2023-24/mini/charlie.jpg
+    picture: /assets/committee/mini/charlie.jpg
     roles:
       - role: Industrial Liaison
         academic_year: 2022/2023
@@ -808,7 +808,7 @@ committee-members:
   - name: Theo
     pronouns: He/Him
     discordtag: "Thexxn#4799"
-    picture: /assets/committee/2022-23/mini/theo.png
+    picture: /assets/committee/mini/theo.png
     roles:
       - role: PGT Rep
         academic_year: 2022/2023
@@ -823,7 +823,7 @@ committee-members:
   - name: Aju Ani Justus
     pronouns: He/Him
     discordtag: "ajewdor#0360"
-    picture: /assets/committee/2022-23/mini/aju.jpg
+    picture: /assets/committee/mini/aju.jpg
     roles:
       - role: PGT Rep
         academic_year: 2022/2023
@@ -835,7 +835,7 @@ committee-members:
   - name: Archer
     pronouns: They/Them
     discordtag: "useruninvited"
-    picture: /assets/committee/2023-24/mini/archer.jpg
+    picture: /assets/committee/mini/archer.jpg
     roles:
       - role: First Year Rep
         academic_year: 2022/2023
@@ -856,7 +856,7 @@ committee-members:
   - name: Matthew Hammond
     pronouns: He/They
     discordtag: "frozendude101"
-    picture: /assets/committee/2023-24/mini/matthew.jpg
+    picture: /assets/committee/mini/matthew.jpg
     roles:
       - role: PGR Rep
         academic_year: 2022/2023
@@ -891,7 +891,7 @@ committee-members:
   - name: Ella
     pronouns: She/They
     discordtag: "formlessmess"
-    picture: /assets/committee/2024-25/mini/ella.jpg
+    picture: /assets/committee/mini/ella.jpg
     roles:
       - role: Secretary
         academic_year: 2023/2024
@@ -909,7 +909,7 @@ committee-members:
   - name: Abi
     pronouns: She/Her
     discordtag: "abichrome"
-    picture: /assets/committee/2023-24/mini/abi.png
+    picture: /assets/committee/mini/abi.png
     roles:
       - role: Publicity Officer
         academic_year: 2023/2024
@@ -927,7 +927,7 @@ committee-members:
   - name: Vishwas
     pronouns: He/Him
     discordtag: "v.x.a"
-    picture: /assets/committee/2023-24/mini/vishwas.jpeg
+    picture: /assets/committee/mini/vishwas.jpeg
     roles:
       - role: International Student Rep
         academic_year: 2023/2024
@@ -942,7 +942,7 @@ committee-members:
   - name: Ellie-Anne Watts
     pronouns: She/Her
     discordtag: "flame_panda33"
-    picture: /assets/committee/2023-24/mini/ellie-anne.jpg
+    picture: /assets/committee/mini/ellie-anne.jpg
     roles:
       - role: Special Events Officer
         academic_year: 2023/2024
@@ -956,7 +956,7 @@ committee-members:
   - name: Sumeet Brar
     pronouns: He/They
     discordtag: "jethoodie"
-    picture: /assets/committee/2025-26/mini/sumeet.jpg
+    picture: /assets/committee/mini/sumeet.jpg
     roles:
       - role: Sports Secretary
         academic_year: 2023/2024
@@ -993,7 +993,7 @@ committee-members:
   - name: Holly P.
     pronouns: Any
     discordtag: "errortm99"
-    picture: /assets/committee/2024-25/mini/holly.jpg
+    picture: /assets/committee/mini/holly.jpg
     roles:
       - role: Industrial Liaison
         academic_year: 2023/2024
@@ -1019,7 +1019,7 @@ committee-members:
   - name: Rohit Jose
     pronouns: He/Him
     discordtag: "bluka479"
-    picture: /assets/committee/2025-26/mini/rohit.png
+    picture: /assets/committee/mini/rohit.png
     roles:
       - role: First Year Rep
         academic_year: 2023/2024
@@ -1054,7 +1054,7 @@ committee-members:
  
   - name: Charlie
     discordtag: "var_noisy"
-    picture: /assets/committee/2023-24/mini/charlie0.jpeg
+    picture: /assets/committee/mini/charlie0.jpeg
     roles:
       - role: First Year Rep
         academic_year: 2023/2024
@@ -1070,7 +1070,7 @@ committee-members:
   - name: Matt Norton
     pronouns: He/Him
     discordtag: "carrotmanmatt"
-    picture: /assets/committee/2025-26/mini/matt.png
+    picture: /assets/committee/mini/matt.png
     roles:
       - role: Post-Graduate (Taught) Rep
         academic_year: 2023/2024
@@ -1101,7 +1101,7 @@ committee-members:
   - name: Lee Alabaster
     pronouns: He/Him
     discordtag: "palee."
-    picture: /assets/committee/2025-26/mini/lee.jpg
+    picture: /assets/committee/mini/lee.jpg
     roles:
       - role: Post-Graduate (Taught) Rep
         academic_year: 2023/2024
@@ -1136,7 +1136,7 @@ committee-members:
   - name: Sai
     pronouns: Any
     discordtag: "achievementcava"
-    picture: /assets/committee/2024-25/mini/sai.jpg
+    picture: /assets/committee/mini/sai.jpg
     roles:
       - role: International Student Rep
         academic_year: 2024/2025
@@ -1153,7 +1153,7 @@ committee-members:
   - name: Shay Patel
     pronouns: He/Him
     discordtag: "sg.24"
-    picture: /assets/committee/2024-25/mini/shay.jpg
+    picture: /assets/committee/mini/shay.jpg
     roles:
       - role: First Year Rep
         academic_year: 2024/2025
@@ -1168,7 +1168,7 @@ committee-members:
   - name: Evie Wilson
     pronouns: She/Her
     discordtag: "cacti7"
-    picture: /assets/committee/2025-26/mini/evie.jpeg
+    picture: /assets/committee/mini/evie.jpeg
     roles:
       - role: First Year Rep
         academic_year: 2024/2025
@@ -1191,7 +1191,7 @@ committee-members:
   - name: Trinity
     pronouns: They/Them
     discordtag: "trinity034"
-    picture: /assets/committee/2024-25/mini/trinity.jpg
+    picture: /assets/committee/mini/trinity.jpg
     roles:
       - role: Equality, Diversity, and Inclusivity Officer
         academic_year: 2024/2025
@@ -1202,7 +1202,7 @@ committee-members:
  
   - name: George Barrell
     pronouns: He/Him
-    picture: /assets/committee/2024-25/mini/george.jpg
+    picture: /assets/committee/mini/george.jpg
     roles:
       - role: Socials Secretary
         academic_year: 2024/2025
@@ -1214,7 +1214,7 @@ committee-members:
   - name: Sabrina Ahmad
     pronouns: They/Any
     discordtag: "thesussywussy"
-    picture: /assets/committee/2025-26/mini/sabrina.png
+    picture: /assets/committee/mini/sabrina.png
     roles:
       - role: Equality, Diversity, and Inclusivity Officer
         academic_year: 2024/2025
@@ -1234,7 +1234,7 @@ committee-members:
   - name: Nial Dixon
     pronouns: He/Him
     discordtag: "nialdixon8"
-    picture: /assets/committee/2024-25/mini/nial.jpg
+    picture: /assets/committee/mini/nial.jpg
     roles:
       - role: Post-Graduate (Taught) Rep
         academic_year: 2024/2025
@@ -1246,7 +1246,7 @@ committee-members:
   - name: Joseph Adams
     pronouns: He/Him
     discordtag: "itjoe"
-    picture: /assets/committee/2025-26/mini/joe.jpg
+    picture: /assets/committee/mini/joe.jpg
     roles:
       - role: Post-Graduate (Research) Rep
         academic_year: 2024/2025
@@ -1272,7 +1272,7 @@ committee-members:
   - name: Oli Baker
     pronouns: They/Them
     discordtag: "solarninja"
-    picture: /assets/committee/2025-26/mini/oli.jpg
+    picture: /assets/committee/mini/oli.jpg
     roles:
       - role: Treasurer
         academic_year: 2025/2026
@@ -1287,7 +1287,7 @@ committee-members:
   - name: Mahima Gupta
     pronouns: She/Her
     discordtag: "mahima2209"
-    picture: /assets/committee/2025-26/mini/mahima.jpeg
+    picture: /assets/committee/mini/mahima.jpeg
     roles:
       - role: International Student Rep
         academic_year: 2025/2026
@@ -1299,7 +1299,7 @@ committee-members:
   - name: Toby
     pronouns: He/Him
     discordtag: "99tornado99"
-    picture: /assets/committee/2025-26/mini/toby.jpg
+    picture: /assets/committee/mini/toby.jpg
     roles:
       - role: Special Events Officer
         academic_year: 2025/2026
@@ -1311,7 +1311,7 @@ committee-members:
   - name: Fearne Townsend
     pronouns: She/Her
     discordtag: "ferb_t"
-    picture: /assets/committee/2025-26/mini/fearne.jpg
+    picture: /assets/committee/mini/fearne.jpg
     roles:
       - role: Socials Secretary
         academic_year: 2025/2026
@@ -1327,7 +1327,7 @@ committee-members:
   - name: Misha
     pronouns: he/him
     discordtag: "mxg586"
-    picture: /assets/committee/2025-26/mini/misha.jpg
+    picture: /assets/committee/mini/misha.jpg
     roles:
       - role: Socials Secretary
         academic_year: 2025/2026
@@ -1339,7 +1339,7 @@ committee-members:
   - name: Amrit Bhogal
     pronouns: He/Him
     discordtag: "Frityet"
-    picture: /assets/committee/2025-26/mini/amrit.jpg
+    picture: /assets/committee/mini/amrit.jpg
     roles:
       - role: Industrial Liaison
         academic_year: 2025/2026
@@ -1355,7 +1355,7 @@ committee-members:
   - name: Maddy Lardner
     pronouns: She/Her
     discordtag: "darkbanshee"
-    picture: /assets/committee/2025-26/mini/maddy.jpg
+    picture: /assets/committee/mini/maddy.jpg
     roles:
       - role: Post-Graduate (Taught) Rep
         academic_year: 2025/2026
@@ -1374,7 +1374,7 @@ committee-members:
   - name: Deji
     pronouns: He/Him
     discordtag: "schloraus"
-    picture: /assets/committee/2025-26/mini/deji.jpg
+    picture: /assets/committee/mini/deji.jpg
     roles:
       - role: Hackathons Officer
         academic_year: 2025/2026
@@ -1388,7 +1388,7 @@ committee-members:
   - name: Albert Waldron
     pronouns: He/Him
     discordtag: "albotexe"
-    picture: /assets/committee/2025-26/mini/albert.jpg
+    picture: /assets/committee/mini/albert.jpg
     roles:
       - role: First Year Rep
         academic_year: 2025/2026
@@ -1405,7 +1405,7 @@ committee-members:
   - name: Vidushi
     pronouns: She/Her
     discordtag: "vidushi2409"
-    picture: /assets/committee/2025-26/mini/vidushi.jpg
+    picture: /assets/committee/mini/vidushi.jpg
     roles:
       - role: First Year Rep
         academic_year: 2025/2026
@@ -1422,7 +1422,7 @@ committee-members:
   - name: Jhundon Mendi
     pronouns: He/Him
     discordtag: "thatguyender"
-    picture: /assets/committee/2025-26/mini/jhundon.jpg
+    picture: /assets/committee/mini/jhundon.jpg
     roles:
       - role: Post-Graduate (Taught) Rep
         academic_year: 2025/2026
