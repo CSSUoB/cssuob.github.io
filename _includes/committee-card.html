@@ -1,6 +1,43 @@
-{%- comment -%} Renders one committee-member card for a single (person, role) pairing. Required params: person - an entry from site.data.committee["committee-members"] role - one entry from person.roles display_index - 1-based index used for the fadein stagger animation A person with more than one currently-active role (e.g. interim cover) will simply be passed into this include more than once, once per role — this renders as one card per role, same as the archive already does, rather than silently keeping only one of their roles. {%- endcomment -%}
-picture of {{ include.person.name }}
-{{ include.person.name }} {{ include.person.discordtag }} {% if include.person.pronouns %} {{ include.person.pronouns }} {% endif %}
-{% if include.role.prefix %}{{ include.role.prefix }} {% endif %} {{ include.role.role }} {% if include.role.postfix %} {{ include.role.postfix }}{% endif %} {% if include.role.flags %} {% for flag in include.role.flags %} {% if site.data["committee-flags"].flags[flag] %} {{ site.data['committee-flags'].flags[flag].text }} {% endif %} {% endfor %} {% endif %} | {{ include.role["start-date"] | date: "%b %Y" }} - {% if include.role["end-date"] %}{{ include.role["end-date"] | date: "%b %Y" }}{% else %}Present{% endif %}
+{%- comment -%}
+  Renders one committee-member card for a single (person, role) pairing.
+  Required params:
+    person - an entry from site.data.committee["committee-members"]
+    role - one entry from person.roles
+    display_index - 1-based index used for the fadein stagger animation
+  A person with more than one currently-active role (e.g. interim cover) will
+  simply be passed into this include more than once, once per role — this
+  renders as one card per role, same as the archive already does, rather
+  than silently keeping only one of their roles.
+{%- endcomment -%}
+<div class="person fadein" style="--child-index: {{ include.display_index }};">
+  <img class="picture" src="{{ include.person.picture | relative_url }}" alt="picture of {{ include.person.name }}">
+  <div class="details">
+    <span class="name">{{ include.person.name }}</span>
+    <span class="discordtag">{{ include.person.discordtag }}</span>
+    {% if include.person.pronouns %}
+      <span class="pronouns">{{ include.person.pronouns }}</span>
+    {% endif %}
 
-{{ include.role.bio }}
+    <p class="role">
+      {% if include.role.prefix %}{{ include.role.prefix }} {% endif %}
+      {{ include.role.role }}
+      {% if include.role.postfix %} {{ include.role.postfix }}{% endif %}
+
+      {% if include.role.flags %}
+        {% for flag in include.role.flags %}
+          {% if site.data["committee-flags"].flags[flag] %}
+            <span class="flag-{{ flag }}" title="{{ site.data['committee-flags'].flags[flag].description }}"><!--
+            -->{{ site.data['committee-flags'].flags[flag].text }}<!--
+          --></span>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      |
+      {{ include.role["start-date"] | date: "%b %Y" }} - {% if include.role["end-date"] %}{{ include.role["end-date"] | date: "%b %Y" }}{% else %}Present{% endif %}
+    </p>
+
+    <p class="bio">
+      {{ include.role.bio }}
+    </p>
+  </div>
+</div>
