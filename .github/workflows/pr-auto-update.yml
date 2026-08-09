@@ -6,7 +6,7 @@ jobs:
   pr-auto-update:
     name: Automatic PR Updater
     runs-on: ubuntu-latest
-    if: github.repository == 'CSSUoB/TeX-Bot-Py-V2' && github.actor != 'dependabot[bot]'
+    if: github.repository == 'CSSUoB/cssuob.github.io' && github.actor != 'dependabot[bot]'
     permissions: 
       pull-requests: write
       contents: write
