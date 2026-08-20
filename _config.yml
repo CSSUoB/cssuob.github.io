@@ -12,6 +12,8 @@ social:
     - https://twitter.com/CSSBham
     - https://github.com/CSSUoB
 menu:
+  - name: Freshers
+    link: /freshers
   - name: News
     link: /newsletter
   - name: Events
