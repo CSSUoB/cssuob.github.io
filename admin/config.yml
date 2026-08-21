@@ -70,3 +70,43 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+
+  - name: "freshers_events"
+    label: "Freshers Events"
+    label_singular: "Freshers Event"
+    folder: "_collections/_freshers_events"
+    create: true
+    delete: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: ["date", "title"]
+    summary: "{{title}} — {{date}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Cover Image"
+        name: "cover_image"
+        widget: "image"
+        allow_multiple: false
+      - label: "Image Description"
+        name: "image_alt"
+        widget: "string"
+        hint: "Describe the image for people using screen readers."
+      - label: "Location"
+        name: "location"
+        widget: "string"
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        date_format: "DD MMM YYYY"
+        time_format: false
+        format: "YYYY-MM-DD"
+      - label: "Start Time"
+        name: "start_time"
+        widget: "string"
+        hint: "For example, 18:30."
+      - label: "End Time"
+        name: "end_time"
+        widget: "string"
+        required: false
+        hint: "Optional. For example, 21:00."
