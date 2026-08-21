@@ -12,8 +12,11 @@ social:
     - https://twitter.com/CSSBham
     - https://github.com/CSSUoB
 menu:
-  - name: Freshers
+  - name: FRESHERS
     link: /freshers
+    class: freshers-nav
+    image: /assets/images/freshers-2026/freshers-nav.png
+    image_alt: Freshers Week
   - name: News
     link: /newsletter
   - name: Events
@@ -65,6 +68,9 @@ collections:
   clubs:
   events:
     sort_by: order
+  freshers_events:
+    output: false
+    sort_by: date
 
 feed:
   collections:
