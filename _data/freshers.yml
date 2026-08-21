@@ -1,0 +1,32 @@
+hero:
+  background_image: /assets/images/freshers-2026/group-photo-web.jpg
+  intro: Your uni adventure starts right here. Freshers is brought to you by UoNSU - your Students’ Union.
+
+links:
+  discord: /discord
+  whatsapp: /whatsapp
+
+countdown:
+  date: "2026-09-21"
+
+events:
+  heading: Events
+  introduction: Pick something that sounds fun. Coming along on your own is completely normal.
+  calendar_heading: Full Freshers calendar
+  calendar_image: /assets/images/freshers-2026/cs-societies-freshers-events-2025.png
+  calendar_image_alt: CS Societies Freshers events calendar for 22 September to 3 October 2025, including CSS, GDS, AFNOM, VGS, oSTEM and other societies.
+
+welcome:
+  heading: "👋 WELCOME TO FRESHERS 2026!"
+  body: |-
+    You made it - welcome to the University of Birmingham!
+
+    Starting university is a big change — new people, a new city and probably a lot of new names to remember. That’s where CSS comes in. We’re here to help make Birmingham feel like home and give you a community outside of lectures from the moment you arrive.
+
+    Freshers is one of the best times to get involved. Throughout the year, you’ll have plenty of opportunities to meet your coursemates, make friends, try something new and take a break from studying. From socials and quizzes to workshops, hackathons, careers events and our annual CSS Ball, there’s something for everyone — and you definitely don’t need to be a coding expert to join in.
+
+    Your first few weeks can feel overwhelming, so don’t worry if you don’t know anyone yet. Come along to an event, introduce yourself in the Discord or just say hello when you see us around campus. Everyone was a fresher once!
+
+    Keep an eye on our socials and community channels for everything we have planned for Freshers and beyond.
+
+    We can’t wait to meet you. Welcome to CSS! 💜
