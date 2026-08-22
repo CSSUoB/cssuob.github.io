@@ -185,7 +185,7 @@ scripts:
     <div class="freshers-card-grid">
       <article class="freshers-card freshers-card-purple">
         <span class="freshers-card-icon" aria-hidden="true">01</span>
-        <h3>Say hello</h3>
+        <h3>Join our community</h3>
         <p>Join our Discord, introduce yourself and meet coursemates. We also regularly update our WhatsApp group with socials.</p>
         <a href="/discord">Enter the Discord <span aria-hidden="true">→</span></a>
       </article>
@@ -204,18 +204,23 @@ scripts:
     </div>
   </section>
 
-  <section class="freshers-split freshers-section">
+  <section class="freshers-split freshers-section" aria-labelledby="about-heading">
     <div class="freshers-split-intro">
-      <p class="freshers-kicker">More than a society</p>
-      <h2>A community for every version of you.</h2>
-      <p>Whether you want to build your first app, land an internship, find a board-game rival or simply have people to grab lunch with, there is space for you here.</p>
-      <a href="/about">Meet CSS <span aria-hidden="true">→</span></a>
+      <h2 id="about-heading">{{ freshers.about.heading | escape }}</h2>
+      {{ freshers.about.body | markdownify }}
+      <a href="{{ freshers.about.link_url | escape }}">{{ freshers.about.link_text | escape }} <span aria-hidden="true">→</span></a>
     </div>
     <div class="freshers-benefits">
-      <article><span aria-hidden="true">🎉</span><div><h3>Make memories</h3><p>Low-pressure socials, big nights and everything in between.</p></div></article>
-      <article><span aria-hidden="true">💡</span><div><h3>Try new things</h3><p>Beginner-friendly workshops, projects and hackathons.</p></div></article>
-      <article><span aria-hidden="true">🚀</span><div><h3>Meet your future</h3><p>Careers events and connections with people in industry.</p></div></article>
-      <article><span aria-hidden="true">🫶</span><div><h3>Feel at home</h3><p>A student community that stays with you beyond Freshers.</p></div></article>
+      {% for card in freshers.about.cards %}
+      <article>
+        <span aria-hidden="true">{{ card.icon | escape }}</span>
+        <div>
+          <h3>{{ card.title | escape }}</h3>
+          <p>{{ card.body | escape }}</p>
+          <a href="{{ card.link_url | escape }}">{{ card.link_text | escape }} <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      {% endfor %}
     </div>
   </section>
 
