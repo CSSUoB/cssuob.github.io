@@ -476,7 +476,12 @@ footer {
 header .nav.freshers-nav > a {
   display: inline-flex;
   align-items: center;
+  justify-content: right;
   line-height: 0;
+}
+
+header .right .nav.freshers-nav > a {
+  display: flex;
 }
 
 header .nav.freshers-nav .nav-item-image {
@@ -488,6 +493,13 @@ header .nav.freshers-nav .nav-item-image {
 
 header .mobile-menu .nav.freshers-nav .nav-item-image {
   height: 74px;
+}
+
+header .mobile-menu .nav.freshers-nav > a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 hr {
