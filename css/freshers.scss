@@ -596,6 +596,15 @@ main {
   }
 }
 
+.freshers-calendar-link {
+  display: inline-block;
+  margin-top: 18px;
+  color: $yellow;
+  font-family: "JetBrains Mono", "Inconsolata", monospace;
+  font-size: 16px;
+  font-weight: 700;
+}
+
 .freshers-calendar {
   margin-top: clamp(54px, 7vw, 90px);
   padding-top: clamp(38px, 5vw, 64px);
