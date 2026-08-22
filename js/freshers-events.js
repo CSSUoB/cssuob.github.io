@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (countdown) {
     const target = new Date(countdown.dataset.countdownTo).getTime();
     const days = countdown.querySelector("[data-countdown-days]");
+    const unit = countdown.querySelector("[data-countdown-unit]");
     let countdownTimer;
 
     const updateCountdown = () => {
@@ -15,7 +16,9 @@ document.addEventListener("DOMContentLoaded", () => {
         return false;
       }
 
-      days.textContent = String(Math.ceil(remaining / 86400000));
+      const remainingDays = Math.ceil(remaining / 86400000);
+      days.textContent = String(remainingDays);
+      unit.textContent = remainingDays === 1 ? "day" : "days";
       return true;
     };
 
