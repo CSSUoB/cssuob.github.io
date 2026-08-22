@@ -2,10 +2,6 @@ hero:
   background_image: /assets/images/freshers-2026/group-photo-web.jpg
   intro: Your uni adventure starts right here. Freshers is brought to you by UoNSU - your Students’ Union.
 
-links:
-  discord: /discord
-  whatsapp: /whatsapp
-
 countdown:
   date: "2026-09-21"
 
