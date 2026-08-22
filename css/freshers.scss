@@ -1226,10 +1226,9 @@ body > footer {
   --freshers-cta-gap: clamp(10px, 1.25vw, 16px);
   display: grid;
   grid-template-columns: minmax(0, 1.75fr) minmax(190px, 0.95fr) minmax(0, 1.75fr);
-  // Discord occupies the second row, making it 2/3 of the full-height cards.
-  grid-template-rows:
-    minmax(0, calc(33.333% - var(--freshers-cta-gap)))
-    minmax(0, 66.667%);
+  // The introduction, Discord and Instagram share the wide left column;
+  // WhatsApp and Events retain their full-height columns.
+  grid-template-rows: minmax(0, 0.8fr) repeat(2, minmax(0, 1fr));
   gap: var(--freshers-cta-gap);
   min-height: clamp(330px, 28vw, 390px);
   margin: 0;
@@ -1284,7 +1283,7 @@ body > footer {
     stroke-width: 3.5;
     stroke-linecap: round;
     stroke-linejoin: round;
-    opacity: 0.52;
+    opacity: 0.32;
     pointer-events: none;
   }
 
@@ -1314,6 +1313,20 @@ body > footer {
     right: 22px;
     width: 44px;
     transform: rotate(8deg);
+  }
+
+  .freshers-button-doodle-instagram-camera {
+    top: 22px;
+    left: 24px;
+    width: 68px;
+    transform: rotate(-5deg);
+  }
+
+  .freshers-button-doodle-instagram-sparkles {
+    top: 36%;
+    right: 24px;
+    width: 54px;
+    transform: rotate(6deg);
   }
 
   .freshers-button-doodle-events-drink {
@@ -1365,9 +1378,16 @@ body > footer {
   }
 }
 
+.freshers-hero-lower .freshers-button-discord,
+.freshers-hero-lower .freshers-button-instagram {
+  .freshers-button-label {
+    font-size: clamp(24px, 2vw, 34px);
+  }
+}
+
 .freshers-hero-lower .freshers-button-whatsapp {
   grid-column: 2;
-  grid-row: 1 / 3;
+  grid-row: 1 / 4;
   color: #c9f7da;
   background-color: #25d366;
   background-image: none;
@@ -1390,9 +1410,34 @@ body > footer {
   }
 }
 
+.freshers-hero-lower .freshers-button-instagram {
+  grid-column: 1;
+  grid-row: 3;
+  color: #ffe2f0;
+  background-color: #c13584;
+  background-image: none;
+
+  .freshers-button-arrow {
+    color: #9b2867;
+    background-color: #ffe2f0;
+  }
+
+  &:hover,
+  &:focus-visible {
+    color: #7e2054;
+    background-color: #ffd1e6;
+    box-shadow: none;
+
+    .freshers-button-arrow {
+      color: #ffe2f0;
+      background-color: #9b2867;
+    }
+  }
+}
+
 .freshers-hero-lower .freshers-button-quiet {
   grid-column: 3;
-  grid-row: 1 / 3;
+  grid-row: 1 / 4;
   background-color: $cream;
 
   .freshers-button-arrow {
@@ -1484,7 +1529,7 @@ body > footer {
     }
 
     .freshers-button-doodle {
-      opacity: 0.62;
+      opacity: 0.38;
     }
 
     .freshers-button-doodle-discord-chat {
@@ -1509,6 +1554,18 @@ body > footer {
       left: auto;
       display: block;
       width: 35px;
+    }
+
+    .freshers-button-doodle-instagram-camera {
+      top: 25px;
+      left: 24px;
+      width: 58px;
+    }
+
+    .freshers-button-doodle-instagram-sparkles {
+      top: 48px;
+      right: 72px;
+      width: 42px;
     }
 
     .freshers-button-doodle-events-drink {
@@ -1543,6 +1600,15 @@ body > footer {
 
     .freshers-button-label {
       font-size: 20px;
+    }
+  }
+
+  .freshers-hero-lower .freshers-button-instagram {
+    grid-column: 1 / -1;
+    min-height: 164px;
+
+    .freshers-button-label {
+      font-size: 28px;
     }
   }
 
