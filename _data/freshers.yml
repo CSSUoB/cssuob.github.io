@@ -52,3 +52,15 @@ about:
       body: Expect workshops, hackathons, projects, industry talks, careers panels and opportunities to try something new.
       link_text: Visit BirmingHack
       link_url: https://birminghack.com
+
+faq:
+  heading: FAQs
+  items:
+    - question: Do I need to study Computer Science?
+      answer: No. Anyone interested in CSS and our events is welcome to get involved.
+    - question: Do I need programming experience?
+      answer: Not at all. Our community includes everyone from complete beginners to experienced developers.
+    - question: Is it okay to come to an event alone?
+      answer: Absolutely. Lots of people do, especially during Freshers. Our committee will be there to welcome you and help you meet people.
+    - question: Do I need a membership first?
+      answer: Many activities are open to everyone. Membership may be required for some ticketed events, and this will always be stated in the event details.

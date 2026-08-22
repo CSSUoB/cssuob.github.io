@@ -256,25 +256,15 @@ scripts:
 
   <section class="freshers-section freshers-faq" aria-labelledby="faq-heading">
     <div class="freshers-section-heading">
-      <h2 id="faq-heading">FAQs</h2>
+      <h2 id="faq-heading">{{ freshers.faq.heading | escape }}</h2>
     </div>
     <div class="freshers-faq-list">
+      {% for item in freshers.faq.items %}
       <details>
-        <summary>Do I need to study Computer Science?<span aria-hidden="true">+</span></summary>
-        <p>No. Anyone interested in CSS and our events is welcome to get involved.</p>
+        <summary>{{ item.question | escape }}<span aria-hidden="true">+</span></summary>
+        <p>{{ item.answer | escape }}</p>
       </details>
-      <details>
-        <summary>Do I need programming experience?<span aria-hidden="true">+</span></summary>
-        <p>Not at all. Our community includes everyone from complete beginners to experienced developers.</p>
-      </details>
-      <details>
-        <summary>Is it okay to come to an event alone?<span aria-hidden="true">+</span></summary>
-        <p>Absolutely. Lots of people do, especially during Freshers. Our committee will be there to welcome you and help you meet people.</p>
-      </details>
-      <details>
-        <summary>Do I need a membership first?<span aria-hidden="true">+</span></summary>
-        <p>Many activities are open to everyone. Membership may be required for some ticketed events, and this will always be stated in the event details.</p>
-      </details>
+      {% endfor %}
     </div>
   </section>
 

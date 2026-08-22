@@ -102,6 +102,25 @@ collections:
                   - label: "Link URL"
                     name: "link_url"
                     widget: "string"
+          - label: "FAQs Section"
+            name: "faq"
+            widget: "object"
+            fields:
+              - label: "Heading"
+                name: "heading"
+                widget: "string"
+              - label: "Questions"
+                name: "items"
+                widget: "list"
+                min: 1
+                summary: "{{fields.question}}"
+                fields:
+                  - label: "Question"
+                    name: "question"
+                    widget: "string"
+                  - label: "Answer"
+                    name: "answer"
+                    widget: "text"
 
   - name: "pages"
     label: "Pages"
