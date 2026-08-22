@@ -151,6 +151,7 @@ scripts:
               <dd>{{ event.start_time }}{% if event.end_time %}–{{ event.end_time }}{% endif %}</dd>
             </div>
           </dl>
+          <p class="freshers-event-description">{{ event.description | escape }}</p>
         </article>
         {% endfor %}
       </div>
