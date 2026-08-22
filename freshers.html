@@ -1,0 +1,310 @@
+---
+layout: page
+title: Freshers 2026
+description: Meet the University of Birmingham Computer Science Society, discover Freshers events and join the CSS community.
+styles:
+  - /css/freshers.css
+scripts:
+  - /js/freshers-events.js
+---
+
+{% assign freshers = site.data.freshers %}
+
+<svg width="0" height="0" aria-hidden="true" focusable="false">
+  <symbol id="freshers-event-icon-location" viewBox="0 0 24 24">
+    <path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/>
+    <circle cx="12" cy="10" r="2.5"/>
+  </symbol>
+  <symbol id="freshers-event-icon-date" viewBox="0 0 24 24">
+    <rect x="3" y="5" width="18" height="16" rx="2"/>
+    <path d="M8 3v4m8-4v4M3 10h18"/>
+  </symbol>
+  <symbol id="freshers-event-icon-time" viewBox="0 0 24 24">
+    <circle cx="12" cy="13" r="8"/>
+    <path d="M12 9v5l3 2M9 3h6"/>
+  </symbol>
+</svg>
+
+<div class="freshers-page">
+  <section class="freshers-hero">
+    <div class="freshers-lockup"{% if freshers.hero.background_image %} style="--freshers-hero-photo: url('{{ freshers.hero.background_image | relative_url }}');"{% endif %}>
+      <img
+        class="freshers-campaign-lockup"
+        src="/assets/images/freshers-2026/freshers-week-2026-lockup.png"
+        alt="CSS Freshers Week 2026, University of Birmingham"
+      >
+    </div>
+
+    <div class="freshers-hero-lower">
+      <div class="freshers-actions">
+        <div class="freshers-hero-copy">
+          <p class="freshers-intro">
+            {{ freshers.hero.intro | escape }}
+          </p>
+        </div>
+
+        <a class="freshers-button freshers-button-discord" href="/discord">
+          <svg class="freshers-button-doodle freshers-button-doodle-discord-chat" viewBox="0 0 100 72" aria-hidden="true">
+            <path d="M13 13c13-4 58-3 70 1 8 3 10 10 8 23-1 11-7 17-19 18-10 1-22 0-31 0L23 68l5-14c-11-2-17-7-18-17-2-13-1-20 3-24Z"/>
+            <path d="M29 33c4-2 7-1 9 2m13-3c4-1 7 0 9 3m13-2c3-1 5 0 7 2"/>
+          </svg>
+          <svg class="freshers-button-doodle freshers-button-doodle-discord-squiggle" viewBox="0 0 72 54" aria-hidden="true">
+            <path d="M7 27c9-18 25-14 23-4-1 8-13 7-12-1 2-12 25-15 30-3 5 13-10 19-16 10-5-8 9-13 20-4 6 5 9 12 12 20"/>
+          </svg>
+          <span class="freshers-button-label">Join Our Discord</span>
+          <span class="freshers-button-arrow" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </span>
+        </a>
+        <a class="freshers-button freshers-button-whatsapp" href="/whatsapp">
+          <svg class="freshers-button-doodle freshers-button-doodle-whatsapp-phone" viewBox="0 0 82 112" aria-hidden="true">
+            <path d="M25 8c11-3 31-2 39 2 6 5 7 75 2 88-6 8-36 9-46 2-6-8-7-78-2-87 2-2 4-4 7-5Z"/>
+            <path d="M31 18c7 2 17 2 23 0M34 91c5 3 12 3 17 0"/>
+            <path d="M9 36c9-5 42-5 51 1 6 6 5 25-1 30-8 5-20 5-29 4L14 83l4-13c-8-3-12-8-12-17 0-8 0-13 3-17Z"/>
+          </svg>
+          <svg class="freshers-button-doodle freshers-button-doodle-whatsapp-squiggle" viewBox="0 0 72 58" aria-hidden="true">
+            <path d="M6 12c13-8 25-4 23 5-2 8-14 6-13-1 2-9 23-7 26 4 2 9-10 14-15 7-4-7 9-11 18-4 9 6 13 14 18 26"/>
+          </svg>
+          <span class="freshers-button-label">Join Our WhatsApp</span>
+          <span class="freshers-button-arrow" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </span>
+        </a>
+        <a class="freshers-button freshers-button-instagram" href="/instagram">
+          <svg class="freshers-button-doodle freshers-button-doodle-instagram-camera" viewBox="0 0 100 100" aria-hidden="true">
+            <rect x="13" y="13" width="74" height="74" rx="22"/>
+            <circle cx="50" cy="50" r="18"/>
+            <circle cx="72" cy="28" r="4"/>
+          </svg>
+          <svg class="freshers-button-doodle freshers-button-doodle-instagram-sparkles" viewBox="0 0 86 76" aria-hidden="true">
+            <path d="M21 8c1 13 6 19 18 21-12 2-17 8-18 21-2-13-7-19-19-21 12-2 17-8 19-21Z"/>
+            <path d="M62 35c1 9 4 13 13 14-9 2-12 6-13 15-1-9-5-13-13-15 8-1 12-5 13-14Z"/>
+          </svg>
+          <span class="freshers-button-label">Follow on Instagram</span>
+          <span class="freshers-button-arrow" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </span>
+        </a>
+        <a class="freshers-button freshers-button-quiet" href="#events">
+          <svg class="freshers-button-doodle freshers-button-doodle-events-drink" viewBox="0 0 120 120" aria-hidden="true">
+            <path d="M20 35c10-8 62-9 74-1 8 6-6 12-36 13-30 0-46-5-38-12Z"/>
+            <path d="M20 37c2 22 5 48 10 67 13 7 43 8 56 0 5-20 8-46 9-69"/>
+            <path d="M26 59c10 4 18-3 28 0 9 4 17-3 34 0M28 76c8 3 16-3 24 0 9 4 17-2 34 0"/>
+            <path d="m43 64 10 4-4 11-11-4 5-11ZM68 65l11 3-3 12-11-4 3-11Z"/>
+            <path d="M68 33 82 6M80 7c5-2 9-1 13 1M36 88c2-2 4-2 6 0M72 91c2-3 5-3 7 0"/>
+          </svg>
+          <svg class="freshers-button-doodle freshers-button-doodle-events-exclamations" viewBox="0 0 90 100" aria-hidden="true">
+            <path d="M22 12c3 15 5 32 4 50M20 82c3-4 8-4 11 0 1 5-2 8-6 8-5 0-7-4-5-8Z"/>
+            <path d="M61 18c-3 14-5 29-6 44M50 82c3-4 8-4 11 0 1 5-2 8-6 8-5 0-7-4-5-8Z"/>
+          </svg>
+          <span class="freshers-button-label">See CSS Freshers events</span>
+          <span class="freshers-button-arrow" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="freshers-marquee" aria-label="What CSS offers">
+    <span>COMMUNITY</span><i>✦</i>
+    <span>PIZZA</span><i>✦</i>
+    <span>TRIPS</span><i>✦</i>
+    <span>HACKATHONS</span><i>✦</i>
+    <span>CAREERS</span><i>✦</i>
+    <span>WORKSHOPS</span>
+  </section>
+
+  <section
+    class="freshers-countdown freshers-section"
+    data-freshers-countdown
+    data-countdown-to="{{ freshers.countdown.date }}T00:00:00+01:00"
+    aria-label="Countdown to Freshers"
+  >
+    <p><strong data-countdown-days>0</strong> days to go!</p>
+  </section>
+
+  <section class="freshers-events freshers-section" id="events" aria-labelledby="events-heading">
+    <div class="freshers-section-heading freshers-heading-row">
+      <h2 id="events-heading">{{ freshers.events.heading | escape }}</h2>
+      <p class="freshers-heading-note">{{ freshers.events.introduction | escape }}</p>
+    </div>
+
+    {% assign freshers_events = site.freshers_events | sort: "date" %}
+    {% if freshers_events.size > 0 %}
+    <div class="freshers-events-carousel" data-events-carousel>
+      <div class="freshers-events-track" data-events-track tabindex="0" aria-label="Freshers events">
+        {% for event in freshers_events %}
+        <article class="freshers-event-card">
+          <h3>{{ event.title }}</h3>
+          <img
+            class="freshers-event-cover"
+            src="{{ event.cover_image | relative_url }}"
+            alt="{{ event.image_alt | default: event.title | escape }}"
+            loading="lazy"
+          >
+          <dl class="freshers-event-details">
+            <div>
+              <dt>
+                <span class="visually-hidden">Location</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#freshers-event-icon-location"/></svg>
+              </dt>
+              <dd>{{ event.location }}</dd>
+            </div>
+            <div>
+              <dt>
+                <span class="visually-hidden">Date</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#freshers-event-icon-date"/></svg>
+              </dt>
+              <dd><time datetime="{{ event.date | date: '%Y-%m-%d' }}">{{ event.date | date: "%-d %b %Y" }}</time></dd>
+            </div>
+            <div>
+              <dt>
+                <span class="visually-hidden">Time</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#freshers-event-icon-time"/></svg>
+              </dt>
+              <dd>{{ event.start_time }}{% if event.end_time %}–{{ event.end_time }}{% endif %}</dd>
+            </div>
+          </dl>
+          <p class="freshers-event-description">{{ event.description | escape }}</p>
+        </article>
+        {% endfor %}
+      </div>
+
+      {% if freshers_events.size > 1 %}
+      <div class="freshers-carousel-controls" aria-label="Event carousel controls">
+        <button type="button" data-events-previous aria-label="Previous events">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+        </button>
+        <button type="button" data-events-next aria-label="Next events">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+        </button>
+      </div>
+      {% endif %}
+    </div>
+    <a
+      class="freshers-calendar-link"
+      href="https://calendar.google.com/calendar/embed?src=kg5v9k480jn2qahpmq33h8g7cs%40group.calendar.google.com&amp;ctz=Europe%2FLondon"
+    >Add to your own calendar <span aria-hidden="true">→</span></a>
+    {% else %}
+    <div class="freshers-events-empty">
+      <img src="{{ '/assets/tex/tex_speech.svg' | relative_url }}" alt="">
+      <div>
+        <h3>Freshers events are coming soon.</h3>
+        <p>Check back here for dates, locations and times.</p>
+      </div>
+    </div>
+    {% endif %}
+
+    <div class="freshers-calendar">
+      <h3>{{ freshers.events.calendar_heading | escape }}</h3>
+      <img
+        src="{{ freshers.events.calendar_image | relative_url }}"
+        alt="{{ freshers.events.calendar_image_alt | escape }}"
+      >
+    </div>
+  </section>
+
+  <section class="freshers-section freshers-steps" aria-labelledby="start-heading">
+    <div class="freshers-section-heading">
+      <h2 id="start-heading">{{ freshers.welcome.heading | escape }}</h2>
+      {{ freshers.welcome.body | markdownify }}
+    </div>
+
+    <div class="freshers-card-grid">
+      <article class="freshers-card freshers-card-purple">
+        <span class="freshers-card-icon" aria-hidden="true">01</span>
+        <h3>Join our community</h3>
+        <p>Join our Discord, introduce yourself and meet coursemates. We also regularly update our WhatsApp group with socials.</p>
+        <a href="/discord">Enter the Discord <span aria-hidden="true">→</span></a>
+      </article>
+      <article class="freshers-card freshers-card-mint">
+        <span class="freshers-card-icon" aria-hidden="true">02</span>
+        <h3>Pick an event</h3>
+        <p>Choose anything that sounds fun. Coming alone is completely normal—we will make you feel welcome.</p>
+        <a href="#events">Explore freshers socials <span aria-hidden="true">→</span></a>
+      </article>
+      <article class="freshers-card freshers-card-yellow">
+        <span class="freshers-card-icon" aria-hidden="true">03</span>
+        <h3>Get a membership</h3>
+        <p>Become a member for ticketed events, a free T-shirt and a whole year of CSS.</p>
+        <a href="https://www.guildofstudents.com/studentgroups/societies/css/">Explore membership <span aria-hidden="true">→</span></a>
+      </article>
+    </div>
+  </section>
+
+  <section class="freshers-split freshers-section" aria-labelledby="about-heading">
+    <div class="freshers-split-intro">
+      <h2 id="about-heading">{{ freshers.about.heading | escape }}</h2>
+      {{ freshers.about.body | markdownify }}
+      <a href="{{ freshers.about.link_url | escape }}">{{ freshers.about.link_text | escape }} <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="freshers-benefits">
+      {% for card in freshers.about.cards %}
+      <article>
+        {% case forloop.index %}
+        {% when 1 %}
+        <img
+          class="freshers-benefit-icon"
+          src="{{ '/assets/tex/tex_ballot.svg' | relative_url }}"
+          alt=""
+        >
+        {% when 2 %}
+        <span class="freshers-benefit-emoji" aria-hidden="true">🤝</span>
+        {% when 3 %}
+        <img
+          class="freshers-benefit-icon"
+          src="{{ '/assets/tex/tex_bbq.svg' | relative_url }}"
+          alt=""
+        >
+        {% when 4 %}
+        <img
+          class="freshers-benefit-icon"
+          src="{{ '/assets/tex/tex_graduation.svg' | relative_url }}"
+          alt=""
+        >
+        {% endcase %}
+        <div>
+          <h3>{{ card.title | escape }}</h3>
+          <p>{{ card.body | escape }}</p>
+          <a href="{{ card.link_url | escape }}">{{ card.link_text | escape }} <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="freshers-section freshers-faq" aria-labelledby="faq-heading">
+    <div class="freshers-section-heading">
+      <h2 id="faq-heading">{{ freshers.faq.heading | escape }}</h2>
+    </div>
+    <div class="freshers-faq-list">
+      {% for item in freshers.faq.items %}
+      <details>
+        <summary>{{ item.question | escape }}<span aria-hidden="true">+</span></summary>
+        <p>{{ item.answer | escape }}</p>
+      </details>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="freshers-final">
+    <div class="freshers-final-copy">
+      <img
+        class="freshers-final-tex"
+        src="{{ '/assets/tex/tex_megaphone.svg' | relative_url }}"
+        alt=""
+      >
+      <h2>Do not wait for Freshers Week to say hello.</h2>
+      <p>Join the Discord now and arrive in September already knowing a few friendly faces.</p>
+    </div>
+    <div class="freshers-final-actions">
+      <a class="freshers-final-button freshers-final-button-discord" href="/discord">
+        Join Discord <span aria-hidden="true">↗</span>
+      </a>
+      <a class="freshers-final-button freshers-final-button-whatsapp" href="/whatsapp">
+        Join WhatsApp <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </section>
+</div>
