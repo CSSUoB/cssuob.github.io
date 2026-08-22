@@ -14,8 +14,16 @@ $white: #ffffff;
 
 body {
   background:
-    radial-gradient(circle at 12% 8%, rgba(169, 104, 255, 0.15), transparent 24rem),
-    radial-gradient(circle at 92% 32%, rgba(105, 230, 194, 0.12), transparent 30rem),
+    radial-gradient(
+      circle at 12% 8%,
+      rgba(169, 104, 255, 0.15),
+      transparent 24rem
+    ),
+    radial-gradient(
+      circle at 92% 32%,
+      rgba(105, 230, 194, 0.12),
+      transparent 30rem
+    ),
     $ink;
 }
 
@@ -61,7 +69,10 @@ main {
     linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
     linear-gradient(135deg, $ink, #131a44 68%, #22245b);
-  background-size: 42px 42px, 42px 42px, auto;
+  background-size:
+    42px 42px,
+    42px 42px,
+    auto;
 
   &::after {
     content: "";
@@ -145,7 +156,10 @@ main {
   font-weight: 700;
   text-align: left;
   text-decoration: none;
-  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    background 0.18s ease;
 
   .freshers-button-label {
     align-self: flex-end;
@@ -398,7 +412,11 @@ main {
 .freshers-events {
   padding-top: clamp(38px, 5vw, 64px);
   background:
-    radial-gradient(circle at 94% 15%, rgba(255, 124, 134, 0.14), transparent 25rem),
+    radial-gradient(
+      circle at 94% 15%,
+      rgba(255, 124, 134, 0.14),
+      transparent 25rem
+    ),
     $blue;
 }
 
@@ -409,7 +427,11 @@ main {
   padding-bottom: clamp(28px, 4vw, 48px);
   text-align: center;
   background:
-    radial-gradient(circle at 92% 20%, rgba(255, 226, 119, 0.22), transparent 28rem),
+    radial-gradient(
+      circle at 92% 20%,
+      rgba(255, 226, 119, 0.22),
+      transparent 28rem
+    ),
     $ink;
 
   p {
@@ -886,7 +908,11 @@ main {
   gap: 40px;
   padding: clamp(70px, 9vw, 120px) var(--page-gutter);
   background:
-    radial-gradient(circle at 86% 18%, rgba(190, 142, 255, 0.34), transparent 22rem),
+    radial-gradient(
+      circle at 86% 18%,
+      rgba(190, 142, 255, 0.34),
+      transparent 22rem
+    ),
     linear-gradient(125deg, #241147, $purple-dark 58%, $purple);
 
   h2 {
@@ -1150,7 +1176,11 @@ body > footer {
 }
 
 .freshers-lockup {
-  --freshers-hero-photo: radial-gradient(circle at 50% 45%, #27336d, #0d122d 72%);
+  --freshers-hero-photo: radial-gradient(
+    circle at 50% 45%,
+    #27336d,
+    #0d122d 72%
+  );
   --freshers-logo-inset: clamp(16px, 3vw, 42px);
   position: relative;
   z-index: 2;
@@ -1191,7 +1221,6 @@ body > footer {
     object-fit: contain;
     filter: drop-shadow(0 16px 24px rgba(9, 11, 24, 0.38));
   }
-
 }
 
 .freshers-hero-lower {
@@ -1225,7 +1254,10 @@ body > footer {
 .freshers-hero-lower .freshers-actions {
   --freshers-cta-gap: clamp(10px, 1.25vw, 16px);
   display: grid;
-  grid-template-columns: minmax(0, 1.75fr) minmax(190px, 0.95fr) minmax(0, 1.75fr);
+  grid-template-columns: minmax(0, 1.75fr) minmax(190px, 0.95fr) minmax(
+      0,
+      1.75fr
+    );
   // The introduction, Discord and Instagram share the wide left column;
   // WhatsApp and Events retain their full-height columns.
   grid-template-rows: minmax(0, 0.8fr) repeat(2, minmax(0, 1fr));
@@ -1473,7 +1505,6 @@ body > footer {
       max-width: none;
       max-height: none;
     }
-
   }
 
   .freshers-final-copy {

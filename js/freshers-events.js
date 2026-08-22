@@ -40,14 +40,17 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     const move = (direction) => {
-      const gap = Number.parseFloat(window.getComputedStyle(track).columnGap) || 0;
+      const gap =
+        Number.parseFloat(window.getComputedStyle(track).columnGap) || 0;
       const card = track.querySelector(".freshers-event-card");
 
       if (!card) return;
 
       track.scrollBy({
         left: direction * (card.getBoundingClientRect().width + gap),
-        behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
+        behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
+          ? "auto"
+          : "smooth",
       });
     };
 
