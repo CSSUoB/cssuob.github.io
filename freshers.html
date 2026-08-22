@@ -29,6 +29,7 @@ scripts:
   <section class="freshers-hero">
     <div class="freshers-lockup"{% if freshers.hero.background_image %} style="--freshers-hero-photo: url('{{ freshers.hero.background_image | relative_url }}');"{% endif %}>
       <img
+        class="freshers-campaign-lockup"
         src="/assets/images/freshers-2026/freshers-week-2026-lockup.png"
         alt="CSS Freshers Week 2026, University of Birmingham"
       >
@@ -165,6 +166,14 @@ scripts:
       </div>
       {% endif %}
     </div>
+    {% else %}
+    <div class="freshers-events-empty">
+      <img src="{{ '/assets/tex/tex_speech.svg' | relative_url }}" alt="">
+      <div>
+        <h3>Freshers events are coming soon.</h3>
+        <p>Check back here for dates, locations and times.</p>
+      </div>
+    </div>
     {% endif %}
 
     <div class="freshers-calendar">
@@ -213,7 +222,28 @@ scripts:
     <div class="freshers-benefits">
       {% for card in freshers.about.cards %}
       <article>
-        <span aria-hidden="true">{{ card.icon | escape }}</span>
+        {% case forloop.index %}
+        {% when 1 %}
+        <img
+          class="freshers-benefit-icon"
+          src="{{ '/assets/tex/tex_ballot.svg' | relative_url }}"
+          alt=""
+        >
+        {% when 2 %}
+        <span class="freshers-benefit-emoji" aria-hidden="true">🤝</span>
+        {% when 3 %}
+        <img
+          class="freshers-benefit-icon"
+          src="{{ '/assets/tex/tex_bbq.svg' | relative_url }}"
+          alt=""
+        >
+        {% when 4 %}
+        <img
+          class="freshers-benefit-icon"
+          src="{{ '/assets/tex/tex_graduation.svg' | relative_url }}"
+          alt=""
+        >
+        {% endcase %}
         <div>
           <h3>{{ card.title | escape }}</h3>
           <p>{{ card.body | escape }}</p>
@@ -250,6 +280,11 @@ scripts:
 
   <section class="freshers-final">
     <div class="freshers-final-copy">
+      <img
+        class="freshers-final-tex"
+        src="{{ '/assets/tex/tex_megaphone.svg' | relative_url }}"
+        alt=""
+      >
       <h2>Do not wait for Freshers Week to say hello.</h2>
       <p>Join the Discord now and arrive in September already knowing a few friendly faces.</p>
     </div>

@@ -36,23 +36,19 @@ about:
   link_text: Learn more about CSS
   link_url: /about
   cards:
-    - icon: "🗳️"
-      title: Run by students
+    - title: Run by students
       body: An elected committee organises the society, represents members and shapes what CSS does each year.
       link_text: Meet the committee
       link_url: /committee
-    - icon: "🤝"
-      title: How we are supported
+    - title: How we are supported
       body: Memberships, ticketed events and sponsor partnerships help us fund activities and opportunities for members.
       link_text: See our sponsors
       link_url: /sponsor
-    - icon: "🎉"
-      title: Socials and community
+    - title: Socials and community
       body: We run games nights, meals, quizzes, trips, pub nights and our annual CSS Ball.
       link_text: Explore our events
       link_url: /events
-    - icon: "💡"
-      title: Skills and careers
+    - title: Skills and careers
       body: Expect workshops, hackathons, projects, industry talks, careers panels and opportunities to try something new.
       link_text: Visit BirmingHack
       link_url: https://birminghack.com

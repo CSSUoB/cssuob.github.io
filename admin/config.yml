@@ -90,10 +90,6 @@ collections:
                 min: 1
                 summary: "{{fields.title}}"
                 fields:
-                  - label: "Icon"
-                    name: "icon"
-                    widget: "string"
-                    hint: "Use a short emoji, for example 🎉."
                   - label: "Title"
                     name: "title"
                     widget: "string"
