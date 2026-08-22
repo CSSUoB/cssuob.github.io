@@ -13,8 +13,7 @@ $cream: #fbf8f3;
 $white: #ffffff;
 
 body {
-  background:
-    radial-gradient(
+  background: radial-gradient(
       circle at 12% 8%,
       rgba(169, 104, 255, 0.15),
       transparent 24rem
@@ -65,8 +64,7 @@ main {
   min-height: min(780px, calc(100vh - 96px));
   padding: clamp(60px, 6vw, 96px) var(--page-gutter);
   isolation: isolate;
-  background:
-    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+  background: linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
     linear-gradient(135deg, $ink, #131a44 68%, #22245b);
   background-size:
@@ -411,8 +409,7 @@ main {
 
 .freshers-events {
   padding-top: clamp(38px, 5vw, 64px);
-  background:
-    radial-gradient(
+  background: radial-gradient(
       circle at 94% 15%,
       rgba(255, 124, 134, 0.14),
       transparent 25rem
@@ -426,8 +423,7 @@ main {
   padding-top: clamp(28px, 4vw, 48px);
   padding-bottom: clamp(28px, 4vw, 48px);
   text-align: center;
-  background:
-    radial-gradient(
+  background: radial-gradient(
       circle at 92% 20%,
       rgba(255, 226, 119, 0.22),
       transparent 28rem
@@ -907,8 +903,7 @@ main {
   align-items: end;
   gap: 40px;
   padding: clamp(70px, 9vw, 120px) var(--page-gutter);
-  background:
-    radial-gradient(
+  background: radial-gradient(
       circle at 86% 18%,
       rgba(190, 142, 255, 0.34),
       transparent 22rem
@@ -1193,8 +1188,7 @@ body > footer {
   border-radius: clamp(28px, 4vw, 54px);
   overflow: hidden;
   isolation: isolate;
-  background-image:
-    linear-gradient(rgba(9, 11, 24, 0.1), rgba(9, 11, 24, 0.45)),
+  background-image: linear-gradient(rgba(9, 11, 24, 0.1), rgba(9, 11, 24, 0.45)),
     var(--freshers-hero-photo);
   background-position: center 62%;
   background-size: cover;
