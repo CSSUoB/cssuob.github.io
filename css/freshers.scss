@@ -201,12 +201,8 @@ main {
 }
 
 .freshers-marquee {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  gap: 20px;
+  --freshers-marquee-gap: 20px;
   overflow: hidden;
-  padding: 20px var(--page-gutter);
   color: $ink;
   background: $yellow;
   font-family: "JetBrains Mono", "Inconsolata", monospace;
@@ -214,9 +210,38 @@ main {
   font-weight: 700;
   white-space: nowrap;
 
+  &:hover .freshers-marquee-track {
+    animation-play-state: paused;
+  }
+
   i {
     color: $purple-dark;
     font-style: normal;
+  }
+}
+
+.freshers-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: freshers-marquee-scroll 20s linear infinite;
+  will-change: transform;
+}
+
+.freshers-marquee-group {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: space-around;
+  gap: var(--freshers-marquee-gap);
+  width: max-content;
+  min-width: 100vw;
+  box-sizing: border-box;
+  padding: 20px calc(var(--freshers-marquee-gap) / 2);
+}
+
+@keyframes freshers-marquee-scroll {
+  to {
+    transform: translateX(-50%);
   }
 }
 
@@ -907,17 +932,12 @@ body > footer {
   }
 
   .freshers-marquee {
-    display: grid;
-    grid-template-columns: repeat(7, max-content);
-    justify-content: space-between;
-    gap: 0;
-    padding: 16px 14px;
-    font-size: clamp(10px, 3.2vw, 13px);
+    --freshers-marquee-gap: 16px;
+    font-size: clamp(12px, 3.6vw, 15px);
   }
 
-  .freshers-marquee span:nth-of-type(n + 5),
-  .freshers-marquee i:nth-of-type(n + 4) {
-    display: none;
+  .freshers-marquee-group {
+    padding-block: 16px;
   }
 
   .freshers-event-card {
@@ -1413,5 +1433,24 @@ body > footer {
 
   .freshers-events-track {
     scroll-behavior: auto;
+  }
+
+  .freshers-marquee-track {
+    width: 100%;
+    animation: none;
+    transform: none;
+    will-change: auto;
+  }
+
+  .freshers-marquee-group {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    min-width: 100%;
+    white-space: normal;
+
+    &[aria-hidden="true"] {
+      display: none;
+    }
   }
 }

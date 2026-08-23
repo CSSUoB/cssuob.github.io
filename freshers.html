@@ -106,13 +106,17 @@ scripts:
     </div>
   </section>
 
+  {% assign freshers_marquee_items = "COMMUNITY|PIZZA|TRIPS|HACKATHONS|SPORT|QUIZZES|NETWORKING|CAREERS|WORKSHOPS" | split: "|" %}
   <section class="freshers-marquee" aria-label="What CSS offers">
-    <span>COMMUNITY</span><i>✦</i>
-    <span>PIZZA</span><i>✦</i>
-    <span>TRIPS</span><i>✦</i>
-    <span>HACKATHONS</span><i>✦</i>
-    <span>CAREERS</span><i>✦</i>
-    <span>WORKSHOPS</span>
+    <div class="freshers-marquee-track">
+      {% for copy in (1..2) %}
+        <div class="freshers-marquee-group"{% if copy == 2 %} aria-hidden="true"{% endif %}>
+          {% for item in freshers_marquee_items %}
+            <span>{{ item }}</span><i aria-hidden="true">✦</i>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
   </section>
 
   <section
