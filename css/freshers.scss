@@ -237,26 +237,6 @@ main {
   }
 }
 
-.freshers-reassurance {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-  margin-top: 22px;
-  color: rgba(255, 255, 255, 0.55);
-  font-size: 13px;
-
-  span {
-    color: inherit;
-  }
-
-  i {
-    padding: 0 5px;
-    color: $purple;
-    font-style: normal;
-  }
-}
-
-
 .freshers-marquee {
   display: flex;
   align-items: center;
@@ -1015,15 +995,6 @@ body > footer {
     box-sizing: border-box;
   }
 
-  .freshers-reassurance i {
-    display: none;
-  }
-
-  .freshers-reassurance {
-    display: grid;
-    gap: 3px;
-  }
-
   .freshers-hero-art {
     right: -95px;
     bottom: 5px;
@@ -1142,11 +1113,6 @@ body > footer {
   color: rgba(255, 255, 255, 0.84);
   font-size: clamp(17px, 1.6vw, 22px);
   line-height: 1.75;
-}
-
-.freshers-hero-lower .freshers-reassurance {
-  justify-content: flex-start;
-  margin: 24px 0 0;
 }
 
 .freshers-hero-lower .freshers-actions {
@@ -1432,10 +1398,6 @@ body > footer {
   .freshers-hero-lower .freshers-intro {
     font-size: 17px;
     line-height: 1.8;
-  }
-
-  .freshers-hero-lower .freshers-reassurance {
-    margin-top: 16px;
   }
 
   .freshers-hero-lower .freshers-actions {
