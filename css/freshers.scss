@@ -57,13 +57,11 @@ main {
 
 .freshers-hero {
   position: relative;
-  display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(300px, 0.75fr);
-  align-items: center;
-  gap: clamp(40px, 6vw, 100px);
-  min-height: min(780px, calc(100vh - 96px));
-  padding: clamp(60px, 6vw, 96px) var(--page-gutter);
+  display: block;
+  min-height: auto;
+  padding: clamp(26px, 4vw, 58px) var(--page-gutter) clamp(58px, 7vw, 100px);
   isolation: isolate;
+  text-align: left;
   background: linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
     linear-gradient(135deg, $ink, #131a44 68%, #22245b);
@@ -857,10 +855,6 @@ body > footer {
     flex-basis: calc((100% - clamp(18px, 2.4vw, 34px)) / 2);
   }
 
-  .freshers-hero {
-    grid-template-columns: 1fr;
-  }
-
   .freshers-hero-copy {
     max-width: 800px;
   }
@@ -897,10 +891,6 @@ body > footer {
   }
 
   .freshers-hero {
-    min-height: 690px;
-    padding-top: 76px;
-    padding-bottom: 70px;
-
     h1 {
       font-size: clamp(48px, 15vw, 68px);
     }
@@ -946,16 +936,6 @@ body > footer {
   .freshers-final h2 {
     font-size: clamp(42px, 12vw, 60px);
   }
-}
-
-// Editorial Freshers hero: large campaign photography on desktop, then a
-// deliberately re-composed (rather than merely scaled) mobile layout.
-.freshers-hero {
-  position: relative;
-  display: block;
-  min-height: auto;
-  padding: clamp(26px, 4vw, 58px) var(--page-gutter) clamp(58px, 7vw, 100px);
-  text-align: left;
 }
 
 .freshers-lockup {
