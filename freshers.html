@@ -156,7 +156,13 @@ scripts:
                 <span class="visually-hidden">Date</span>
                 <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#freshers-event-icon-date"/></svg>
               </dt>
-              <dd><time datetime="{{ event.date | date: '%Y-%m-%d' }}">{{ event.date | date: "%-d %b %Y" }}</time></dd>
+              <dd>
+                {% if event.display_date %}
+                  {{ event.display_date | escape }}
+                {% else %}
+                  <time datetime="{{ event.date | date: '%Y-%m-%d' }}">{{ event.date | date: "%A, %-d %b %Y" }}</time>
+                {% endif %}
+              </dd>
             </div>
             <div>
               <dt>
