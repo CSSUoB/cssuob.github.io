@@ -27,13 +27,13 @@ scripts:
 
 <div class="freshers-page">
   <section class="freshers-hero">
-    <div class="freshers-lockup"{% if freshers.hero.background_image %} style="--freshers-hero-photo: url('{{ freshers.hero.background_image | relative_url }}');"{% endif %}>
+    <h1 class="freshers-lockup"{% if freshers.hero.background_image %} style="--freshers-hero-photo: url('{{ freshers.hero.background_image | relative_url }}');"{% endif %}>
       <img
         class="freshers-campaign-lockup"
         src="/assets/images/freshers-2026/freshers-week-2026-lockup.png"
         alt="CSS Freshers Week 2026, University of Birmingham"
       >
-    </div>
+    </h1>
 
     <div class="freshers-hero-lower">
       <div class="freshers-actions">
@@ -130,7 +130,7 @@ scripts:
       <p class="freshers-heading-note">{{ freshers.events.introduction | escape }}</p>
     </div>
 
-    {% assign freshers_events = site.freshers_events | sort: "date" %}
+    {% assign freshers_events = site.freshers_events %}
     {% if freshers_events.size > 0 %}
     <div class="freshers-events-carousel" data-events-carousel>
       <div class="freshers-events-track" data-events-track tabindex="0" aria-label="Freshers events">

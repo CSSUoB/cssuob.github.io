@@ -81,18 +81,6 @@ main {
     background: linear-gradient(transparent, rgba(169, 104, 255, 0.09));
   }
 
-  h1 {
-    max-width: 850px;
-    margin: 18px 0 26px;
-    font-size: clamp(50px, 5.2vw, 78px);
-    line-height: 0.94;
-    letter-spacing: -0.065em;
-
-    em {
-      color: $mint;
-      font-style: normal;
-    }
-  }
 }
 
 .freshers-hero-copy,
