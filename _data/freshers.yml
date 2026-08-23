@@ -51,11 +51,13 @@ about:
 faq:
   heading: FAQs
   items:
+    - question: Are all freshers events free?
+      answer: Yes, all events are free to attend. You do not need a ticket.
+    - question: Do I need a membership first?
+      answer: Many activities are open to everyone. Membership may be required for some ticketed events, and this will always be stated in the event details.
     - question: Do I need to study Computer Science?
       answer: No. Anyone interested in CSS and our events is welcome to get involved.
     - question: Do I need programming experience?
       answer: Not at all! CSS is a social community first and foremost, bringing Computer Science students together to meet people, make friends and enjoy events throughout the year.
     - question: Is it okay to come to an event alone?
       answer: Absolutely. Lots of people do, especially during Freshers. Our committee will be there to welcome you and help you meet people.
-    - question: Do I need a membership first?
-      answer: Many activities are open to everyone. Membership may be required for some ticketed events, and this will always be stated in the event details.
