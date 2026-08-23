@@ -17,11 +17,18 @@ events:
 welcome:
   heading: "👋 WELCOME TO FRESHERS 2026!"
   body: |-
-    Hello everyone! Firstly, to all freshers, congratulations on getting into the University of Birmingham! I hope you have a brilliant time while you’re here. And to everyone coming back for yet another year of your degree, good to see you again! CSS is a student-run society that is a large part of the CS community here at UoB. We provide social and academic events throughout the year, connect students across different year groups and programmes, and create opportunities through industry events, sponsors and collaborations. Some of our biggest events of the year include our Halloween Quiz, Pub Crawl, Christmas Meal, TeX Talks, and our annual CSS Ball. Over the freshers’ period, our aim is to help new and returning CS students meet each other, feel part of the community, and settle into university life. Last year, we broke many records for CSS: with over 400 members, we reached the 3rd largest Guild society at UoB; we have over 3k members in our discord server (and counting); and we ran 40 different events. 
+    Congratulations to everyone joining Birmingham this year, and welcome back to our returning students! We provide social and academic events, connect students across the uni, and create opportunities through industry events, sponsors and collaborations. Some of our biggest events include our Halloween Quiz, Pub Crawl, Christmas Meal, TeX Talks, and the CSS Ball. 
     
-    Buying a CSS membership gives you access to even more events, the latest announcements straight to your inbox, a green name on Discord, and a free CSS T-shirt! You can become a member through the Guild website. Discord is our main platform, but we’ll also be keeping our WhatsApp group and Instagram up to date with all our latest events and announcements due to demand. Freshers is one of the best times to get involved. Your first few weeks can feel overwhelming, so don’t worry if you don’t know anyone yet. Everyone was a fresher once!
+    During Freshers, our aim is to help new and returning CS students meet, feel part of the community, and settle into university life.
+
+    Last year was one of our biggest yet, with over 400 members, 3,000+ on our Discord server, 40 events, and CSS becoming the 3rd largest Guild society at UoB.
+
+    Buying a CSS membership gives you access to ticketed events, society emails, a green name on Discord, and a free CSS T-shirt!
+
+    Discord is our main platform, but our WhatsApp group and Instagram will always have the latest events and announcements.
     
-    We can’t wait to meet you. Welcome to CSS! 💜
+    Freshers is one of the best times to get involved. We can’t wait to meet you. Welcome to CSS! 💜
+
 
 
 about:
@@ -34,19 +41,19 @@ about:
   link_url: /about
   cards:
     - title: Run by students
-      body: An elected committee organises the society, represents members and shapes what CSS does each year.
+      body: An elected committee organises the society, represents members and decides what CSS does each year.
       link_text: Meet the committee
       link_url: /committee
     - title: How we are supported
-      body: Memberships, ticketed events and sponsor partnerships help us fund activities and opportunities for members.
+      body: Memberships, ticketed events and sponsors help us fund events for members.
       link_text: See our sponsors
       link_url: /sponsor
     - title: Socials and community
-      body: We run games nights, meals, quizzes, trips, pub nights and our annual CSS Ball.
+      body: We run many socials including game nights, meals, quizzes, trips, pub nights. Some of our annual events are the CSS Ball and Pub Crawl.
       link_text: Explore our events
       link_url: /events
     - title: Skills and careers
-      body: Expect workshops, hackathons, projects, industry talks, careers panels and opportunities to try something new.
+      body: Expect workshops, hackathons, industry talks, and opportunities to try something new.
       link_text: Visit BirmingHack
       link_url: https://birminghack.com
 
