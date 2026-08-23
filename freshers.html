@@ -206,13 +206,28 @@ scripts:
     </div>
     {% endif %}
 
-    <div class="freshers-calendar">
-      <h3>{{ freshers.events.calendar_heading | escape }}</h3>
+    <section class="freshers-calendar" aria-labelledby="calendar-guide-heading">
       <img
+        class="freshers-calendar-preview"
         src="{{ freshers.events.calendar_image | relative_url }}"
         alt="{{ freshers.events.calendar_image_alt | escape }}"
       >
-    </div>
+      <div class="freshers-calendar-copy">
+        <h3 id="calendar-guide-heading">{{ freshers.events.calendar_guide_heading | escape }}</h3>
+        <p>{{ freshers.events.calendar_guide_description | escape }}</p>
+      </div>
+      <a
+        class="freshers-calendar-open"
+        href="{{ freshers.events.calendar_guide_file | relative_url }}"
+        target="_blank"
+        rel="noopener"
+      >
+        Open events guide
+        <span aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg>
+        </span>
+      </a>
+    </section>
   </section>
 
   <section class="freshers-section freshers-steps" aria-labelledby="start-heading">
@@ -305,8 +320,8 @@ scripts:
         src="{{ '/assets/tex/tex_megaphone.svg' | relative_url }}"
         alt=""
       >
-      <h2>Do not wait for Freshers Week to say hello.</h2>
-      <p>Join the Discord now and arrive in September already knowing a few friendly faces.</p>
+      <h2>Join our community today.</h2>
+      <p>Introduce yourself on our discord now and arrive in September already knowing a few friendly faces. Join our WhatsApp to get the latest on all our socials.</p>
     </div>
     <div class="freshers-final-actions">
       <a class="freshers-final-button freshers-final-button-discord" href="/discord">
