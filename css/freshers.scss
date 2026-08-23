@@ -82,33 +82,9 @@ main {
   }
 }
 
-.freshers-hero-copy,
-.freshers-hero-art {
+.freshers-hero-copy {
   position: relative;
   z-index: 2;
-}
-
-.freshers-eyebrow,
-.freshers-kicker {
-  margin: 0;
-  color: $mint;
-  font-family: "JetBrains Mono", "Inconsolata", monospace;
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.11em;
-  text-transform: uppercase;
-}
-
-.freshers-eyebrow {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-
-  span {
-    width: 34px;
-    height: 2px;
-    background: $mint;
-  }
 }
 
 .freshers-hero .freshers-intro {
@@ -173,17 +149,6 @@ main {
     .freshers-button-arrow {
       transform: translate(2px, -2px);
     }
-  }
-}
-
-.freshers-button-primary {
-  color: $ink;
-  background: linear-gradient(110deg, $mint, #a5f4dd);
-  box-shadow: 0 14px 35px rgba(105, 230, 194, 0.22);
-
-  &:hover,
-  &:focus-visible {
-    box-shadow: 0 18px 40px rgba(105, 230, 194, 0.32);
   }
 }
 
@@ -271,7 +236,7 @@ main {
     letter-spacing: -0.045em;
   }
 
-  > p:not(.freshers-kicker) {
+  > p {
     max-width: 650px;
     color: rgba(255, 255, 255, 0.68);
     font-size: 18px;
@@ -539,29 +504,6 @@ main {
   border: 0;
 }
 
-.freshers-date-notice {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  max-width: 850px;
-  margin-top: 24px;
-  padding: 16px 18px;
-  border: 1px solid rgba(255, 226, 119, 0.35);
-  border-radius: 12px;
-  background: rgba(255, 226, 119, 0.08);
-
-  span {
-    color: $yellow;
-    font-size: 20px;
-  }
-
-  p {
-    margin: 0;
-    color: rgba(255, 255, 255, 0.75);
-    font-size: 14px;
-  }
-}
-
 .freshers-steps {
   background: $ink;
 
@@ -569,7 +511,7 @@ main {
     max-width: none;
   }
 
-  .freshers-section-heading > p:not(.freshers-kicker) {
+  .freshers-section-heading > p {
     max-width: none;
   }
 }
@@ -657,7 +599,7 @@ main {
     letter-spacing: -0.045em;
   }
 
-  > p:not(.freshers-kicker) {
+  > p {
     color: #4f5262;
     font-size: 18px;
   }
@@ -802,7 +744,7 @@ main {
     letter-spacing: -0.05em;
   }
 
-  p:not(.freshers-kicker) {
+  p {
     max-width: 660px;
     color: rgba(255, 255, 255, 0.78);
     font-size: 18px;
@@ -829,10 +771,6 @@ main {
   p {
     grid-column: 2;
   }
-}
-
-.freshers-final .freshers-kicker {
-  color: $yellow;
 }
 
 .freshers-final-actions {
@@ -923,23 +861,6 @@ body > footer {
     grid-template-columns: 1fr;
   }
 
-  .freshers-hero-art {
-    position: absolute;
-    right: -50px;
-    bottom: 30px;
-    width: 280px;
-    min-height: 280px;
-    opacity: 0.32;
-  }
-
-  .freshers-mascot-card {
-    width: 250px;
-  }
-
-  .freshers-float-card {
-    display: none;
-  }
-
   .freshers-hero-copy {
     max-width: 800px;
   }
@@ -993,14 +914,6 @@ body > footer {
   .freshers-button {
     width: 100%;
     box-sizing: border-box;
-  }
-
-  .freshers-hero-art {
-    right: -95px;
-    bottom: 5px;
-    z-index: 1;
-    opacity: 0.2;
-    pointer-events: none;
   }
 
   .freshers-marquee {
