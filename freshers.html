@@ -25,7 +25,7 @@ scripts:
   </symbol>
 </svg>
 
-<div class="freshers-page">
+<div class="freshers-page" data-freshers-campaign="freshers_2026">
   <section class="freshers-hero">
     <h1 class="freshers-lockup"{% if freshers.hero.background_image %} style="--freshers-hero-photo: url('{{ freshers.hero.background_image | relative_url }}');"{% endif %}>
       <img
@@ -43,7 +43,12 @@ scripts:
           </p>
         </div>
 
-        <a class="freshers-button freshers-button-discord" href="/discord">
+        <a
+          class="freshers-button freshers-button-discord"
+          href="/discord"
+          data-freshers-social="discord"
+          data-freshers-placement="hero"
+        >
           <svg class="freshers-button-doodle freshers-button-doodle-discord-chat" viewBox="0 0 100 72" aria-hidden="true">
             <path d="M13 13c13-4 58-3 70 1 8 3 10 10 8 23-1 11-7 17-19 18-10 1-22 0-31 0L23 68l5-14c-11-2-17-7-18-17-2-13-1-20 3-24Z"/>
             <path d="M29 33c4-2 7-1 9 2m13-3c4-1 7 0 9 3m13-2c3-1 5 0 7 2"/>
@@ -56,7 +61,12 @@ scripts:
             <svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg>
           </span>
         </a>
-        <a class="freshers-button freshers-button-whatsapp" href="/whatsapp">
+        <a
+          class="freshers-button freshers-button-whatsapp"
+          href="/whatsapp"
+          data-freshers-social="whatsapp"
+          data-freshers-placement="hero"
+        >
           <svg class="freshers-button-doodle freshers-button-doodle-whatsapp-phone" viewBox="0 0 82 112" aria-hidden="true">
             <path d="M25 8c11-3 31-2 39 2 6 5 7 75 2 88-6 8-36 9-46 2-6-8-7-78-2-87 2-2 4-4 7-5Z"/>
             <path d="M31 18c7 2 17 2 23 0M34 91c5 3 12 3 17 0"/>
@@ -70,7 +80,12 @@ scripts:
             <svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg>
           </span>
         </a>
-        <a class="freshers-button freshers-button-instagram" href="/instagram">
+        <a
+          class="freshers-button freshers-button-instagram"
+          href="/instagram"
+          data-freshers-social="instagram"
+          data-freshers-placement="hero"
+        >
           <svg class="freshers-button-doodle freshers-button-doodle-instagram-camera" viewBox="0 0 100 100" aria-hidden="true">
             <rect x="13" y="13" width="74" height="74" rx="22"/>
             <circle cx="50" cy="50" r="18"/>
@@ -139,7 +154,13 @@ scripts:
     <div class="freshers-events-carousel" data-events-carousel>
       <div class="freshers-events-track" data-events-track tabindex="0" aria-label="Freshers events">
         {% for event in freshers_events %}
-        <article class="freshers-event-card">
+        <article
+          class="freshers-event-card"
+          data-freshers-event
+          data-freshers-event-title="{{ event.title | escape }}"
+          data-freshers-event-date="{{ event.date | date: '%Y-%m-%d' }}"
+          data-freshers-event-location="{{ event.location | escape }}"
+        >
           <h3>{{ event.title }}</h3>
           <img
             class="freshers-event-cover"
@@ -241,7 +262,11 @@ scripts:
         <span class="freshers-card-icon" aria-hidden="true">01</span>
         <h3>Join our community</h3>
         <p>Join our Discord, introduce yourself and meet coursemates. We also regularly update our WhatsApp group with socials.</p>
-        <a href="/discord">Enter the Discord <span aria-hidden="true">→</span></a>
+        <a
+          href="/discord"
+          data-freshers-social="discord"
+          data-freshers-placement="getting_started"
+        >Enter the Discord <span aria-hidden="true">→</span></a>
       </article>
       <article class="freshers-card freshers-card-mint">
         <span class="freshers-card-icon" aria-hidden="true">02</span>
@@ -324,10 +349,20 @@ scripts:
       <p>Introduce yourself on our discord now and arrive in September already knowing a few friendly faces. Join our WhatsApp to get the latest on all our socials.</p>
     </div>
     <div class="freshers-final-actions">
-      <a class="freshers-final-button freshers-final-button-discord" href="/discord">
+      <a
+        class="freshers-final-button freshers-final-button-discord"
+        href="/discord"
+        data-freshers-social="discord"
+        data-freshers-placement="final_cta"
+      >
         Join Discord <span aria-hidden="true">↗</span>
       </a>
-      <a class="freshers-final-button freshers-final-button-whatsapp" href="/whatsapp">
+      <a
+        class="freshers-final-button freshers-final-button-whatsapp"
+        href="/whatsapp"
+        data-freshers-social="whatsapp"
+        data-freshers-placement="final_cta"
+      >
         Join WhatsApp <span aria-hidden="true">↗</span>
       </a>
     </div>

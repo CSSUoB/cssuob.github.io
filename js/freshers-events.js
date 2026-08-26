@@ -1,4 +1,27 @@
+window.sa_event =
+  window.sa_event ||
+  function (...args) {
+    window.sa_event.q = window.sa_event.q || [];
+    window.sa_event.q.push(args);
+  };
+
 document.addEventListener("DOMContentLoaded", () => {
+  const campaignElement = document.querySelector("[data-freshers-campaign]");
+  const campaign = campaignElement?.dataset.freshersCampaign || "freshers";
+
+  const trackCampaignEvent = (name, metadata = {}) => {
+    window.sa_event(name, { campaign, ...metadata });
+  };
+
+  document.querySelectorAll("[data-freshers-social]").forEach((link) => {
+    link.addEventListener("click", () => {
+      trackCampaignEvent("freshers_social_click", {
+        platform: link.dataset.freshersSocial,
+        placement: link.dataset.freshersPlacement,
+      });
+    });
+  });
+
   const countdown = document.querySelector("[data-freshers-countdown]");
 
   if (countdown) {
@@ -32,7 +55,41 @@ document.addEventListener("DOMContentLoaded", () => {
     const previous = carousel.querySelector("[data-events-previous]");
     const next = carousel.querySelector("[data-events-next]");
 
-    if (!track || !previous || !next) return;
+    if (!track) return;
+
+    const viewedCards = new WeakSet();
+    const recordEventView = (card) => {
+      if (viewedCards.has(card)) return;
+
+      viewedCards.add(card);
+      trackCampaignEvent("freshers_event_view", {
+        event_title: card.dataset.freshersEventTitle,
+        event_date: card.dataset.freshersEventDate,
+        event_location: card.dataset.freshersEventLocation,
+      });
+    };
+
+    const eventCards = track.querySelectorAll("[data-freshers-event]");
+
+    if ("IntersectionObserver" in window) {
+      const cardObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+              recordEventView(entry.target);
+              cardObserver.unobserve(entry.target);
+            }
+          });
+        },
+        { root: track, threshold: 0.5 },
+      );
+
+      eventCards.forEach((card) => cardObserver.observe(card));
+    } else {
+      eventCards.forEach(recordEventView);
+    }
+
+    if (!previous || !next) return;
 
     const endTolerance = 4;
 
