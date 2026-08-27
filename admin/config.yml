@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: CSSUoB/cssuob.github.io
-  branch: master
+  branch: main
 
 publish_mode: editorial_workflow
 
