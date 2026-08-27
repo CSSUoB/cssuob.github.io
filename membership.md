@@ -19,7 +19,7 @@ server, the Guild website can occasionally be a little temperamental!
 Interested in seeing our historical membership statistics and some fun graphs? Check them out on the [stats page](/membership-stats)!
 
 <div class="text-center">
-  <a href="/join" class="button guild-button">
+  <a href="/join" class="button guild-button" data-simple-event="membership_get_membership">
     <img src="/assets/about/guild-logo.svg" class="text-img" alt="Get Membership">
     Get Membership
   </a>

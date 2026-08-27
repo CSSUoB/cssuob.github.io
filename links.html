@@ -17,7 +17,8 @@ favicon: /favicon.ico
         {% if link.type == "divider" %}
         <h4 style="padding-bottom: 10px;">{{ link.text }}</h4>
         {% else %}
-        <a class=" wide-child post-preview fadein" style="--child-index: {{ forloop.index }};" href="{{ link.url }}">
+        <a class="wide-child post-preview fadein" style="--child-index: {{ forloop.index }};" href="{{ link.url }}"
+          {% if link.analytics_event %}data-simple-event="{{ link.analytics_event }}"{% endif %}>
             {% if link.image %}
             <div class="post-thumbnail-container">
                 <img alt="{{ link.text }}" src="{{ link.image | relative_url }}">
