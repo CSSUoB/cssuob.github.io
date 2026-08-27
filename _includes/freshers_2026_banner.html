@@ -1,0 +1,19 @@
+{% if site.freshers_banner.enabled %}
+  {% unless page.url contains "/freshers" %}
+  <aside class="banner freshers-2026-banner" aria-label="Freshers 2026">
+    <img
+      class="freshers-2026-banner-logo"
+      src="{{ site.freshers_banner.image | relative_url }}"
+      alt=""
+      aria-hidden="true"
+    >
+    <p class="freshers-2026-banner-copy">
+      <strong>Freshers 2026 starts 21 September</strong>
+      <span>Meet CSS, discover our events and join the community.</span>
+    </p>
+    <a class="freshers-2026-banner-cta" href="{{ site.freshers_banner.link | relative_url }}">
+      Explore Freshers <span class="" aria-hidden="true">→</span>
+    </a>
+  </aside>
+  {% endunless %}
+{% endif %}
