@@ -46,6 +46,105 @@ body {
   }
 }
 
+.freshers-2026-banner {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 18px;
+  overflow: hidden;
+  padding: 10px 16px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 24px;
+  background: $TeX-Purple;
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.18),
+    0 12px 30px rgba(10, 15, 30, 0.22);
+}
+
+.banner .freshers-2026-banner-logo {
+  display: block;
+  width: 76px;
+  height: 58px;
+  object-fit: contain;
+}
+
+.banner .freshers-2026-banner-copy {
+  margin: 0;
+  text-align: left;
+
+  strong,
+  span {
+    display: block;
+    text-align: left;
+  }
+
+  strong {
+    margin-bottom: 3px;
+    color: white;
+    font-size: 18px;
+  }
+
+  span {
+    color: rgba(255, 255, 255, 0.82);
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+.banner .freshers-2026-banner-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-height: 42px;
+  padding: 0 16px;
+  border-radius: 10px;
+  color: #241147;
+  background: #ffe277;
+  font-size: 14px;
+  text-decoration: none;
+  white-space: nowrap;
+
+  span {
+    color: inherit;
+  }
+
+  &:hover,
+  &:focus-visible {
+    color: white;
+    background: #241147;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .freshers-2026-banner {
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 10px 14px;
+    padding: 12px 14px 14px;
+    border-radius: 18px;
+  }
+
+  .banner .freshers-2026-banner-logo {
+    width: 62px;
+    height: 52px;
+  }
+
+  .banner .freshers-2026-banner-copy strong {
+    font-size: 15px;
+  }
+
+  .banner .freshers-2026-banner-copy span {
+    font-size: 12px;
+  }
+
+  .banner .freshers-2026-banner-cta {
+    grid-column: 1 / -1;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
 main {
   font-family: "Roboto", sans-serif;
   width: min(1550px, 95%);
@@ -168,6 +267,9 @@ header {
   }
 
   .right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     flex: 1 1 auto;
     text-align: right;
     padding-right: 20px;
@@ -369,6 +471,35 @@ footer {
 .poc-contact {
   list-style-type: none;
   padding: 0;
+}
+
+header .nav.freshers-nav > a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: right;
+  line-height: 0;
+}
+
+header .right .nav.freshers-nav > a {
+  display: flex;
+}
+
+header .nav.freshers-nav .nav-item-image {
+  display: block;
+  width: auto;
+  height: 30px;
+  max-width: none;
+}
+
+header .mobile-menu .nav.freshers-nav .nav-item-image {
+  height: 74px;
+}
+
+header .mobile-menu .nav.freshers-nav > a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 hr {

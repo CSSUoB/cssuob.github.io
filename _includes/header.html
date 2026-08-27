@@ -7,8 +7,8 @@
 <span class="right">
     {% for item in site.menu %}
     {% if item.children %}
-    <div class="nav dropdown">
-	<a href="{{ item.link | relative_url }}">{{ item.name }}</a>
+    <div class="nav dropdown {{ item.class }}">
+	<a href="{{ item.link | relative_url }}">{% if item.image %}<img class="nav-item-image" src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.name }}">{% else %}{{ item.name }}{% endif %}</a>
     <div class="dropdown-content">
       {% for sub in item.children %}
       <a href="{{ sub.link }}">{{ sub.name }}</a>
@@ -16,8 +16,8 @@
     </div>
     </div>
     {% else %}
-    <div class="nav">
-	<a href="{{ item.link | relative_url }}">{{ item.name }}</a>
+    <div class="nav {{ item.class }}">
+	<a href="{{ item.link | relative_url }}">{% if item.image %}<img class="nav-item-image" src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.name }}">{% else %}{{ item.name }}{% endif %}</a>
     </div>
     {% endif %}
     {% endfor %}
@@ -27,9 +27,9 @@
 </div>
 <div id="hamburger-menu" class="mobile-menu">
     {% for item in site.menu %}
-    <div class="nav">
+    <div class="nav {{ item.class }}">
 	{% if item.children %}
-	<a onclick="toggleShow({{ forloop.index }})">{{ item.name }}</a>
+	<a onclick="toggleShow({{ forloop.index }})">{% if item.image %}<img class="nav-item-image" src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.name }}">{% else %}{{ item.name }}{% endif %}</a>
 	<div class="dropdown" style="display: none" id="hbdd_{{ forloop.index }}">
         <a href="{{ item.link | relative_url }}">- {{ item.name }}</a><br/>
 	  {% for sub in item.children %}
@@ -37,7 +37,7 @@
 	  {% endfor %}
 	</div>
 	{% else %}
-        <a href="{{ item.link | relative_url }}">{{ item.name }}</a>
+        <a href="{{ item.link | relative_url }}">{% if item.image %}<img class="nav-item-image" src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.name }}">{% else %}{{ item.name }}{% endif %}</a>
 	{% endif %}
     </div>
     {% endfor %}
