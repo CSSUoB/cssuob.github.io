@@ -1,0 +1,71 @@
+hero:
+  background_image: /assets/images/freshers-2026/group-photo-web.jpg
+  intro: New to Computer Science at Birmingham? Find upcoming events and join the CSS community.
+
+countdown:
+  date: "2026-09-21"
+
+events:
+  heading: Events
+  introduction: Events are open to everyone, not just freshers! Coming along on your own is completely normal.
+  calendar_image: /assets/images/freshers-2026/freshers-calendar.svg
+  calendar_image_alt: CS Societies Freshers events calendar for 21 September to 2 October 2026, including CSS, GDS, AFNOM, VGS, oSTEM and other societies.
+  calendar_guide_file: /assets/images/freshers-2026/freshers-calendar.pdf
+  calendar_guide_heading: View our handy Freshers events guide
+  calendar_guide_description: Open our guide for dates, times and locations of events from CSS and a bunch of other societies you might be interested in.
+
+welcome:
+  heading: "👋 WELCOME TO FRESHERS 2026!"
+  body: |-
+    Congratulations to everyone joining Birmingham this year, and welcome back to our returning students! We provide social and academic events, connect students across the uni, and create opportunities through industry events, sponsors and collaborations. Some of our biggest events include our Halloween Quiz, Pub Crawl, Christmas Meal, TeX Talks, and the CSS Ball. 
+    
+    During Freshers, our aim is to help new and returning CS students meet, feel part of the community, and settle into university life.
+    Last year was one of our biggest yet, with over 400 members, 3,000+ on our Discord server, 40 events, and CSS becoming the 3rd largest Guild society at UoB.
+
+    Buying a CSS membership gives you access to ticketed events, society emails, a green name on Discord, and a free CSS T-shirt!
+
+    Discord is our main platform, but our WhatsApp group and Instagram will always have the latest events and announcements.
+    
+    Freshers is one of the best times to get involved. We can’t wait to meet you. Welcome to CSS! 💜
+
+
+
+about:
+  heading: Who are we?
+  body: |-
+    CSS is the official Computer Science Society at the University of Birmingham. We are a student-run society affiliated with the Guild of Students and work closely with the School of Computer Science. The society is run by an elected committee of students who organise our events, manage our finances and represent the society throughout the year.
+
+    Our activities are funded through a combination of membership fees, Guild and University funding, and sponsorship from industry partners. This funding allows us to run events throughout the year, often for free or at a heavily subsidised price for our members.
+  link_text: Learn more about CSS
+  link_url: /about
+  cards:
+    - title: Run by students
+      body: An elected committee organises the society, represents members and decides what CSS does each year.
+      link_text: Meet the committee
+      link_url: /committee
+    - title: How we are supported
+      body: Memberships, ticketed events and sponsors help us fund events for members.
+      link_text: See our sponsors
+      link_url: /sponsor
+    - title: Socials and community
+      body: We run many socials including game nights, meals, quizzes, trips, pub nights. Some of our annual events are the CSS Ball and Pub Crawl.
+      link_text: Explore our events
+      link_url: /events
+    - title: Skills and careers
+      body: Expect workshops, hackathons, industry talks, and opportunities to try something new.
+      link_text: Visit BirmingHack
+      link_url: https://birminghack.com
+
+faq:
+  heading: FAQs
+  items:
+    - question: Are all freshers events free?
+      answer: Yes, all events are free to attend. You do not need a ticket.
+    - question: Do I need a membership first?
+      answer: Many activities are open to everyone. Membership may be required for some ticketed events, and this will always be stated in the event details.
+    - question: Do I need to study Computer Science?
+      answer: No. Anyone interested in CSS and our events is welcome to get involved.
+    - question: Do I need programming experience?
+      answer: Not at all! CSS is a social community first and foremost, bringing Computer Science students together to meet people, make friends and enjoy events throughout the year.
+    - question: Is it okay to come to an event alone?
+      answer: Absolutely. Lots of people do, especially during Freshers. Our committee will be there to welcome you and help you meet people.
