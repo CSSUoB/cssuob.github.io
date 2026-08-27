@@ -25,18 +25,22 @@
 - text: Get membership!
   url: /join
   image: /assets/images/guild-colour-logo.png
+  analytics_event: links_get_membership
 
 - text: Join our Discord community
   url: /discord
   image: /assets/images/discord-logo.png
+  analytics_event: links_join_discord
 
 - text: Join our WhatsApp group
   url: https://chat.whatsapp.com/HA2wW0rxk9lH7DmNDXrsBB
   image: /assets/images/whatsapp-logo.png
+  analytics_event: links_join_whatsapp
 
 - text: Follow us on Instagram
   url: /instagram
   image: /assets/images/instagram-logo.png
+  analytics_event: links_follow_instagram
 
 - text: Read Missing Semester lecture notes
   url: https://missingsemester.afnom.net/
