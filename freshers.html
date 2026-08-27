@@ -227,28 +227,6 @@ scripts:
     </div>
     {% endif %}
 
-    <section class="freshers-calendar" aria-labelledby="calendar-guide-heading">
-      <img
-        class="freshers-calendar-preview"
-        src="{{ freshers.events.calendar_image | relative_url }}"
-        alt="{{ freshers.events.calendar_image_alt | escape }}"
-      >
-      <div class="freshers-calendar-copy">
-        <h3 id="calendar-guide-heading">{{ freshers.events.calendar_guide_heading | escape }}</h3>
-        <p>{{ freshers.events.calendar_guide_description | escape }}</p>
-      </div>
-      <a
-        class="freshers-calendar-open"
-        href="{{ freshers.events.calendar_guide_file | relative_url }}"
-        target="_blank"
-        rel="noopener"
-      >
-        Open events guide
-        <span aria-hidden="true">
-          <svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg>
-        </span>
-      </a>
-    </section>
   </section>
 
   <section class="freshers-section freshers-steps" aria-labelledby="start-heading">
