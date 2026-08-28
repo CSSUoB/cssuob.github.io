@@ -1,5 +1,5 @@
 academic_year: 2025/2026
-current: true
+current: false
 people:
   - name: Matty Widdop
     discordtag: MattyTheHacker
@@ -7,6 +7,7 @@ people:
     role: President
     picture: /assets/committee/2025-26/mini/matty.jpg
     start-date: 1/7/2025
+    end-date: 30/6/2026
     bio: >
       Hey all! I'm Matty, your CSS president for 2025-26! I'll be coordinating committee and making sure everyone is on track and supported throughout the year. I'll also be responsible for representing the society as a whole so do feel free to reach out if you have any questions, comments or concerns!
 
@@ -16,6 +17,7 @@ people:
     role: Treasurer
     picture: /assets/committee/2025-26/mini/oli.jpg
     start-date: 1/7/2025
+    end-date: 30/6/2026
     bio: >
       Hello! My name is Oli and I am the new treasurer!
       I will be dealing with the society's finances, along with other general stuff.
@@ -29,6 +31,7 @@ people:
     role: Secretary
     picture: /assets/committee/2025-26/mini/marcus.jpg
     start-date: 1/7/2025
+    end-date: 30/6/2026
     bio: >
       Hello, I'm Marcus, and I'm in my fifth and final year!
       I'm responsible for minuting our meetings and making agendas publicly available on our website among other things. 
@@ -42,6 +45,7 @@ people:
     role: Vice-President
     picture: /assets/committee/2025-26/mini/sumeet.jpg
     start-date: 1/7/2025
+    end-date: 30/6/2026
     bio: >
       Hey there, I'm Sumeet and I'm in my 4th (and hopefully final) year :)
       I'll be responsible for picking up slack for when our supreme leader Matty needs it (so never).
@@ -55,6 +59,7 @@ people:
     role: Publicity Officer
     picture: /assets/committee/2025-26/mini/rohit.png
     start-date: 1/7/2025
+    end-date: 30/6/2026
     bio: >
       Heya! I'm Rohit, and I'm the CSS Publicity Officer. Believe it or not, there is a real person under the mask! My job is to organise, design, and publish publicity for CSS and the many events we run. A couple of my hobbies include ethical hacking, drawing, and gaming. Feel free to say hi if you see me around or on discord!
 
@@ -64,6 +69,7 @@ people:
     role: International Student Rep
     picture: /assets/committee/2025-26/mini/mahima.jpeg
     start-date: 1/7/2025
+    end-date: 30/6/2026
     bio: >
       Hi, I'm Mahima, and I am super excited to be your new International Student Rep. Being an international student myself even though its my second year, I know what it's like to adjust to a new place, so I'm here to make sure CSS stays the friendly, welcoming, and inclusive family that it already is. Can't wait to meet more of you this year!!! Reach out to me on Discord, I am always happy to help!
 
@@ -74,6 +80,7 @@ people:
     role: Special Events Officer
     picture: /assets/committee/2025-26/mini/toby.jpg
     start-date: 1/7/2025
+    end-date: 30/6/2026
     bio: >
       Hi, I'm Toby, the Special Events Officer for CSS. My role is to organise the large CSS events that happen throught the year. Outside of computer science my main interests are games (League of Legends) and piano, mainly focusing on classical music.
       
@@ -98,6 +105,7 @@ people:
     role: Socials Secretary
     picture: /assets/committee/2025-26/mini/misha.jpg
     start-date: 11/02/2026
+    end-date: 30/6/2026
     bio: >
       Hello! I'm Misha, your socials secretary for the rest of this academic year. I'll be organising regular social events and ensuring those events are inclusive and accessible. Being a member of CSS has made me more confident in talking to new people and I'd like to ensure others have this opportunity. I'm a second year CS student and I like ethical hacking and open-source software. Feel free to talk to me in person or message me on Discord.
 
@@ -107,6 +115,7 @@ people:
     role: Sports Secretary
     picture: /assets/committee/2025-26/mini/evie.jpeg
     start-date: 1/7/2025
+    end-date: 30/6/2026
     bio: >
       Hello there, I'm Evie your current sports sec. Sports and CS crazy right but let me introduce you to a little thing called league of legends. Feel free to message me on the discord (:
 
@@ -126,6 +135,7 @@ people:
     role: Equality, Diversity, and Inclusivity Officer
     picture: /assets/committee/2025-26/mini/lee.jpg
     start-date: 11/02/2026
+    end-date: 30/6/2026
     bio: >
        Hi there, I'm a 4th year Computer Science and I'm your EDI Officer. In my free time, I enjoy playing games (mostly Destiny 2) and also watching F1, darts and my football team, West Ham United. If you see me around feel free to have a chat or reach out to me on discord where I'm nearly always active :)
 
@@ -135,6 +145,7 @@ people:
     role: Industrial Liaison
     picture: /assets/committee/2025-26/mini/amrit.jpg
     start-date: 1/7/2025
+    end-date: 30/6/2026
     bio: >
       I am Amrit. Second year undergraduate!
       Lua is my favourite programming language, and is easily one of the best languages to ever be made. I also love to use C, C++, C#, Objective-C, Swift, TypeScript, and F#. I have a wide plethora of projects I have worked on and am currently working on, present for viewing on my GitHub (same username as my discord)
@@ -148,6 +159,7 @@ people:
     role: Post-Graduate (Research) Rep
     picture: /assets/committee/2025-26/mini/joe.jpg
     start-date: 22/10/2025
+    end-date: 30/6/2026
     bio: >
       Hi guys, I'm Joe, and I'm back as the PGR Rep! This time, however, I'm actually a Ph.D. student, so I feel more equipped to represent our smallest, but still very important group! On committee, my main role is to represent our wonderful students studying hard for a Ph.D., as well as accommodating them and encouraging them to attend CSS' events. However, I'm always happy to chat to everyone, not just PGRs! Outside of uni work, you can find me Ballroom & Latin dancing, or enthusing over many, many insects.
 
@@ -157,6 +169,7 @@ people:
     role: Post-Graduate (Taught) Rep
     picture: /assets/committee/2025-26/mini/maddy.jpg
     start-date: 22/10/2025
+    end-date: 30/6/2026
     bio: >
       Hi! I'm Maddy, a PGT student studying AI and Machine Learning, and I'm excited to be your new PGT Rep this year. As someone new to UOB, I've jumped straight into getting involved and connecting with our community. Outside of studying, I'm a massive gamer and a pretty terrible netball player. My goal is to represent and support all PGT students, making sure everyone feels welcome, included, and heard.
       If you ever need anything or just fancy a chat, feel free to reach out but be warned I can talk for ages :)
@@ -167,6 +180,7 @@ people:
     role: Hackathons Officer
     picture: /assets/committee/2025-26/mini/deji.jpg
     start-date: 22/10/2025
+    end-date: 30/6/2026
     bio: >
       Hello, I'm Deji the Hackathons Officer and I'm currently studying Artificial Intelligence (AI) and Computer Science BSc.
       I love music, learning and games(both card games and online games). If you have any specific concerns about proceedings or
@@ -178,6 +192,7 @@ people:
     role: First Year Rep
     picture: /assets/committee/2025-26/mini/albert.jpg
     start-date: 22/10/2025
+    end-date: 30/6/2026
     bio: >
       Hello! I'm Albert, a first year undergraduate currently studying Computer Science Bsc. I love all things to do with computers, music, and philosophy. I also enjoy strategy games, and playing badminton. As first year rep, I represent the needs of my year group on committee, so please don't hesitate to come to me with concerns if you see me around or in a lecture, or just drop me a message on discord!
 
