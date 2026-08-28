@@ -7,7 +7,7 @@ on:
 
 jobs:
   labeler:
-    if: github.event.pull_request.user.type != 'Bot'
+    if: github.repository == 'CSSUoB/cssuob.github.io' && github.event.pull_request.user.type != 'Bot'
     permissions:
       pull-requests: write
 
