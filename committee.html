@@ -20,61 +20,66 @@ styles:
 </p>
 <p>
   You can also find all of the agendas from our committee meetings <a href="../meetings">here</a>.
-<p>
-  {% for committees in site.data.committee %}
-    {% assign committee = committees[1] %}
-    {% if committee.current %}
-      {% assign current_committee = committee %}
-      {% assign count = current_committee.people.size %}
-      {% for member in current_committee.people %}
-        {% if member.end-date %}
-          {% assign count = count | minus:1 %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
-  Currently {{ count }} elected members for {{ current_committee.academic_year }}:
 </p>
 
+{% assign current_academic_year = site.data.committee.current_academic_year %}
+
+<!--
+  Precompute every currently-active (person, role) pairing exactly once,
+  instead of re-deriving "this person's active role" from scratch for
+  every priority-role check (previously up to 5x per person).
+
+  A role only counts as "active" if BOTH:
+    - it has no end-date, AND
+    - it belongs to the explicitly-declared current academic year
+  The second condition is what stops a stray missing end-date on an old,
+  archived role from ever leaking onto this page.
+
+  active_people / active_roles are parallel arrays: active_roles[i] is
+  the active role belonging to active_people[i]. A person with two
+  concurrent active roles appears twice, once per role, exactly like
+  the archive page already renders concurrent historical roles.
+-->
+{% assign active_people = "" | split: "" %}
+{% assign active_roles = "" | split: "" %}
+{% for person in site.data.committee["committee-members"] %}
+  {% assign person_active_roles = person.roles | where_exp: "r", "r.academic_year == current_academic_year and r['end-date'] == nil" %}
+  {% for role in person_active_roles %}
+    {% assign active_people = active_people | push: person %}
+    {% assign active_roles = active_roles | push: role %}
+  {% endfor %}
+{% endfor %}
+
+{% assign active_member_names = active_people | map: "name" | uniq %}
+
+<p>
+  Currently {{ active_member_names.size }} elected members for {{ current_academic_year }}:
+</p>
 
 <div class="person-container fadein-container">
-  {% for committees in site.data.committee %}
-    {% assign committee = committees[1] %}
-    {% for person in committee.people %}
-      {% unless person.end-date %}
-      <div class="person fadein" style="--child-index: {{ forloop.index }};">
-          <img class="picture" src="{{ person.picture | relative_url }}" alt="picture of {{ person.name }}">
-        <div class="details">
-          <span class="name">{{ person.name }}</span>
-          <span class="discordtag">{{ person.discordtag }}</span>
-          {% if person.pronouns %}
-            <span class="pronouns">
-              {{person.pronouns}}
-            </span>
-          {% endif %}
-          <p class="role">
-            {% if committee.prefix %}{{committee.prefix}}{% endif %}
-            {{ person.role }}
-            {% if committee.postfix %}{{committee.postfix}}{% endif %}
-            {% if person.flags %}
-              {% for flag in person.flags %}
-                {% if site.data.committee-flags.flags[flag] %}
-                  <span class="flag-{{ flag }}" title="{{ site.data.committee-flags.flags[flag].description }}"><!--
-                  -->{{ site.data.committee-flags.flags[flag].text }}<!--
-                --></span>
-                {% endif %} 
-              {% endfor %}
-            {% endif %}
-            |
-            {{ person.start-date | date: "%b %Y" }} -
-            {{ person.end-date | date: "%b %Y" | default: "Present" }}
-          </p>
-          <p class="bio">
-            {{ person.bio }}
-          </p>
-        </div>
-      </div>
-      {% endunless %}
+
+  <!-- Define priority order -->
+  {% assign priority_roles = "President, Vice-President, Treasurer, Secretary" | split: ", " %}
+  {% assign display_index = 0 %}
+
+  <!-- PASS 1: Render Priority Roles, in order -->
+  {% for target_role in priority_roles %}
+    {% for role in active_roles %}
+      {% if role.role == target_role %}
+        {% assign display_index = display_index | plus: 1 %}
+        {% assign person = active_people[forloop.index0] %}
+        {% include committee-card.html person=person role=role display_index=display_index %}
+      {% endif %}
     {% endfor %}
   {% endfor %}
+
+  <!-- PASS 2: Render everyone else -->
+  {% for role in active_roles %}
+    {% unless priority_roles contains role.role %}
+      {% assign display_index = display_index | plus: 1 %}
+      {% assign person = active_people[forloop.index0] %}
+      {% include committee-card.html person=person role=role display_index=display_index %}
+    {% endunless %}
+  {% endfor %}
+
 </div>
