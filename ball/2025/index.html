@@ -112,7 +112,7 @@ favicon: /ball/favicon.ico
         document.getElementById("count").innerHTML = days + " <span>days</span> " + hours + " <span>hours</span> "
             + minutes + " <span>minutes</span> " + seconds + " <span>seconds</span>";
 
-        let attendees = ball.attendees
+        let attendees = {{ ball.attendees }}
         if (distance < 0) {
           if (attendees > 0) {
             document.getElementById("count").innerHTML = "Attendees: {{ attendees }}";
