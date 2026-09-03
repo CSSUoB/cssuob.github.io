@@ -14,15 +14,14 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 window.toggleShow = function (id) {
-  let x = document.getElementById("hbdd_" + id);
+  const menu = document.getElementById("hamburger-menu");
+  const selected = document.getElementById("hbdd_" + id);
+  const shouldOpen = selected.style.display === "none";
 
-  document.querySelectorAll("#hamburger-menu .mobile-dropdown").forEach((dropdown) => {
-    if (dropdown !== x) dropdown.style.display = "none";
+  menu.querySelectorAll(".mobile-dropdown").forEach((dropdown) => {
+    const isSelected = dropdown === selected && shouldOpen;
+    dropdown.style.display = isSelected ? "block" : "none";
+    const trigger = menu.querySelector(`[aria-controls="${dropdown.id}"]`);
+    trigger?.setAttribute("aria-expanded", String(isSelected));
   });
-
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
 };
