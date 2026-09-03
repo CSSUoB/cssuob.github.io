@@ -441,6 +441,21 @@ header {
       text-decoration: none;
       font-weight: bold;
       cursor: pointer;
+
+      &:after {
+        display: inline-block;
+        width: 0.35em;
+        height: 0.35em;
+        margin-left: 0.45em;
+        border-right: 0.12em solid currentColor;
+        border-bottom: 0.12em solid currentColor;
+        content: "";
+        transform: translateY(-0.18em) rotate(45deg);
+      }
+
+      &[aria-expanded="true"]:after {
+        transform: translateY(0.02em) rotate(225deg);
+      }
     }
   }
 }
