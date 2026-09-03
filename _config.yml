@@ -21,15 +21,27 @@ menu:
     class: freshers-nav
     image: /assets/images/freshers-2026/freshers-week-2026-lockup.png
     image_alt: Freshers Week
-  - name: News
-    link: /newsletter
-  - name: Events
-    link: /events
+  - name: What's On
     children:
+      - name: Events
+        link: /events
       - name: Calendar
         link: /calendar
+      - name: News
+        link: /newsletter
+  - name: Society
+    children:
+      - name: About
+        link: /about
+      - name: Committee
+        link: /committee
+      - name: Merch
+        link: /merch
+      - name: Sponsors
+        link: /sponsor
+      - name: Community Links
+        link: /links
   - name: Ball
-    link: /ball
     children:
       - name: 2026
         link: /ball/2026
@@ -45,19 +57,8 @@ menu:
         link: /ball/2021
       - name: 2020
         link: /ball/2020
-  - name: Merch
-    link: /merch
-  - name: Committee
-    link: /committee
-  - name: Sponsor
-    link: /sponsor
-  - name: About
-    link: /about
-    children:
-      - name: Membership
-        link: /membership
-      - name: Links
-        link: /links
+  - name: Join CSS
+    link: /membership
 baseurl: /
 root: /
 

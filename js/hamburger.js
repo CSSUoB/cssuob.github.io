@@ -15,6 +15,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 window.toggleShow = function (id) {
   let x = document.getElementById("hbdd_" + id);
+
+  document.querySelectorAll("#hamburger-menu .mobile-dropdown").forEach((dropdown) => {
+    if (dropdown !== x) dropdown.style.display = "none";
+  });
+
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
