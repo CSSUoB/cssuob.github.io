@@ -11,6 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
       menu.classList.toggle("visible");
     }
   });
+
+  window.matchMedia("(min-width: 1051px)").addEventListener("change", (event) => {
+    if (event.matches) menu.classList.remove("visible");
+  });
 });
 
 window.toggleShow = function (id) {
