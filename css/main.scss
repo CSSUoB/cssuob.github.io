@@ -436,6 +436,8 @@ header {
     }
 
     button {
+      display: inline-flex;
+      align-items: center;
       color: white;
       background: none;
       padding: 0;
@@ -446,17 +448,16 @@ header {
 
       &:after {
         display: inline-block;
-        width: 0.35em;
-        height: 0.35em;
-        margin-left: 0.45em;
-        border-right: 0.12em solid currentColor;
-        border-bottom: 0.12em solid currentColor;
+        width: 0.46em;
+        height: 0.3em;
+        margin-left: 0.4em;
+        background-color: currentColor;
+        clip-path: polygon(0 0, 50% 58%, 100% 0, 100% 42%, 50% 100%, 0 42%);
         content: "";
-        transform: translateY(-0.18em) rotate(45deg);
       }
 
       &[aria-expanded="true"]:after {
-        transform: translateY(0.02em) rotate(225deg);
+        transform: rotate(180deg);
       }
     }
   }
