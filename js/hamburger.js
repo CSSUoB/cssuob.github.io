@@ -12,9 +12,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  window.matchMedia("(min-width: 1051px)").addEventListener("change", (event) => {
-    if (event.matches) menu.classList.remove("visible");
-  });
+  window
+    .matchMedia("(min-width: 1051px)")
+    .addEventListener("change", (event) => {
+      if (event.matches) menu.classList.remove("visible");
+    });
 });
 
 window.toggleShow = function (id) {

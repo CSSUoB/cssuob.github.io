@@ -59,6 +59,7 @@ menu:
         link: /ball/2020
   - name: Join CSS
     link: /membership
+    class: join-nav
 baseurl: /
 root: /
 

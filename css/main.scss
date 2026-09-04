@@ -521,6 +521,67 @@ header .mobile-menu .nav.freshers-nav > a {
   width: 100%;
 }
 
+header .nav.join-nav {
+  > a {
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    color: white;
+    white-space: nowrap;
+
+    &:before {
+      position: absolute;
+      z-index: -1;
+      top: 0.1em;
+      left: -0.25em;
+      width: 100%;
+      height: 1em;
+      padding: 0 0.25em;
+      background-color: $TeX-Purple;
+      clip-path: polygon(
+        1% 8%,
+        7% 2%,
+        16% 6%,
+        27% 1%,
+        39% 5%,
+        51% 2%,
+        64% 6%,
+        76% 1%,
+        89% 5%,
+        99% 2%,
+        100% 16%,
+        98% 29%,
+        100% 43%,
+        98% 58%,
+        100% 74%,
+        98% 91%,
+        90% 97%,
+        78% 94%,
+        65% 99%,
+        52% 95%,
+        39% 99%,
+        27% 94%,
+        14% 98%,
+        1% 93%,
+        2% 78%,
+        0 63%,
+        2% 47%,
+        0 31%,
+        2% 18%
+      );
+      content: "";
+      pointer-events: none;
+      transform: rotate(179.6deg);
+    }
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  header .mobile-menu .nav.join-nav > a {
+    line-height: 1.2;
+  }
+}
+
 hr {
   color: #9d68dc;
 }
