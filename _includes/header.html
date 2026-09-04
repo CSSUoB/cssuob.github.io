@@ -8,8 +8,8 @@
     {% for item in site.menu %}
     {% if item.children %}
     <div class="nav dropdown {{ item.class }}">
-	<a href="{{ item.link | relative_url }}">{% if item.image %}<img class="nav-item-image" src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.name }}">{% else %}{{ item.name }}{% endif %}</a>
-    <div class="dropdown-content">
+	<button type="button" aria-haspopup="true" aria-controls="desktop-dropdown-{{ forloop.index }}">{% if item.image %}<img class="nav-item-image" src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.name }}">{% else %}{{ item.name }}{% endif %}</button>
+    <div class="dropdown-content" id="desktop-dropdown-{{ forloop.index }}">
       {% for sub in item.children %}
       <a href="{{ sub.link }}">{{ sub.name }}</a>
       {% endfor %}
@@ -29,9 +29,8 @@
     {% for item in site.menu %}
     <div class="nav {{ item.class }}">
 	{% if item.children %}
-	<a onclick="toggleShow({{ forloop.index }})">{% if item.image %}<img class="nav-item-image" src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.name }}">{% else %}{{ item.name }}{% endif %}</a>
-	<div class="dropdown" style="display: none" id="hbdd_{{ forloop.index }}">
-        <a href="{{ item.link | relative_url }}">- {{ item.name }}</a><br/>
+	<button type="button" onclick="toggleShow({{ forloop.index }})" aria-expanded="false" aria-controls="hbdd_{{ forloop.index }}">{% if item.image %}<img class="nav-item-image" src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.name }}">{% else %}{{ item.name }}{% endif %}</button>
+	<div class="dropdown mobile-dropdown" style="display: none" id="hbdd_{{ forloop.index }}">
 	  {% for sub in item.children %}
           <a href="{{ sub.link | relative_url }}">- {{ sub.name }}</a><br/>
 	  {% endfor %}
