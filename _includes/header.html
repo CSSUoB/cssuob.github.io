@@ -8,7 +8,7 @@
     {% for item in site.menu %}
     {% if item.children %}
     <div class="nav dropdown {{ item.class }}">
-	<button type="button" aria-haspopup="true" aria-controls="desktop-dropdown-{{ forloop.index }}">{% if item.image %}<img class="nav-item-image" src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.name }}">{% else %}{{ item.name }}{% endif %}</button>
+	<button type="button" aria-expanded="false" aria-controls="desktop-dropdown-{{ forloop.index }}">{% if item.image %}<img class="nav-item-image" src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.name }}">{% else %}{{ item.name }}{% endif %}</button>
     <div class="dropdown-content" id="desktop-dropdown-{{ forloop.index }}">
       {% for sub in item.children %}
       <a href="{{ sub.link }}">{{ sub.name }}</a>

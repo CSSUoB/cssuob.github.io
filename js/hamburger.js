@@ -1,6 +1,36 @@
 document.addEventListener("DOMContentLoaded", () => {
   const hamburger = document.getElementById("hamburger");
   const menu = document.getElementById("hamburger-menu");
+  const desktopDropdowns = document.querySelectorAll("header .right .dropdown");
+
+  const setDesktopDropdownExpanded = (dropdown, isExpanded) => {
+    const trigger = dropdown.querySelector(":scope > button");
+    trigger?.setAttribute("aria-expanded", String(isExpanded));
+  };
+
+  desktopDropdowns.forEach((dropdown) => {
+    dropdown.addEventListener("mouseenter", () => {
+      setDesktopDropdownExpanded(dropdown, true);
+    });
+
+    dropdown.addEventListener("mouseleave", () => {
+      setDesktopDropdownExpanded(
+        dropdown,
+        dropdown.contains(document.activeElement),
+      );
+    });
+
+    dropdown.addEventListener("focusin", () => {
+      setDesktopDropdownExpanded(dropdown, true);
+    });
+
+    dropdown.addEventListener("focusout", (event) => {
+      setDesktopDropdownExpanded(
+        dropdown,
+        dropdown.matches(":hover") || dropdown.contains(event.relatedTarget),
+      );
+    });
+  });
 
   const setMenuOpen = (isOpen, returnFocus = false) => {
     menu.classList.toggle("visible", isOpen);
