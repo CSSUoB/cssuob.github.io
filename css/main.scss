@@ -273,6 +273,18 @@ header {
     flex: 1 1 auto;
     text-align: right;
     padding-right: 20px;
+
+    > .navigation-list {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+
+  .navigation-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
   }
 
   .nav {
@@ -315,6 +327,7 @@ header {
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
       margin-top: 1px;
       padding: 0;
+      list-style: none;
       background-color: $CSS-Mid_Blue;
       opacity: 1;
       z-index: 10;
@@ -416,6 +429,19 @@ header {
     &.visible {
       visibility: visible;
       opacity: 1;
+    }
+
+    > .navigation-list {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    .mobile-dropdown {
+      margin: 0;
+      padding: 0;
+      list-style: none;
     }
 
     .nav {
