@@ -1,21 +1,38 @@
 document.addEventListener("DOMContentLoaded", () => {
-  let hamburger = document.getElementById("hamburger");
-  let menu = document.getElementById("hamburger-menu");
+  const hamburger = document.getElementById("hamburger");
+  const menu = document.getElementById("hamburger-menu");
+
+  const setMenuOpen = (isOpen, returnFocus = false) => {
+    menu.classList.toggle("visible", isOpen);
+    hamburger.setAttribute("aria-expanded", String(isOpen));
+    hamburger.setAttribute(
+      "aria-label",
+      isOpen ? "Close navigation menu" : "Open navigation menu",
+    );
+
+    if (returnFocus) hamburger.focus();
+  };
 
   hamburger.addEventListener("click", () => {
-    menu.classList.toggle("visible");
+    setMenuOpen(!menu.classList.contains("visible"));
   });
 
   menu.addEventListener("click", (event) => {
     if (event.target == menu) {
-      menu.classList.toggle("visible");
+      setMenuOpen(false, true);
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && menu.classList.contains("visible")) {
+      setMenuOpen(false, true);
     }
   });
 
   window
     .matchMedia("(min-width: 1051px)")
     .addEventListener("change", (event) => {
-      if (event.matches) menu.classList.remove("visible");
+      if (event.matches) setMenuOpen(false);
     });
 });
 

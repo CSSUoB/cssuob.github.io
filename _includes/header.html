@@ -22,9 +22,10 @@
     {% endif %}
     {% endfor %}
 </span>
-<div id="hamburger" class="hamburger">
-    <img alt="Hamburger menu" src="{{ '/assets/hamburger.svg' | relative_url }}">
-</div>
+<button id="hamburger" class="hamburger" type="button" aria-expanded="false" aria-controls="hamburger-menu" aria-label="Open navigation menu">
+    <img class="hamburger-icon hamburger-icon-open" src="{{ '/assets/hamburger.svg' | relative_url }}" alt="" aria-hidden="true">
+    <img class="hamburger-icon hamburger-icon-close" src="{{ '/assets/cross.svg' | relative_url }}" alt="" aria-hidden="true">
+</button>
 <div id="hamburger-menu" class="mobile-menu">
     {% for item in site.menu %}
     <div class="nav {{ item.class }}">

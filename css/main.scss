@@ -358,11 +358,38 @@ header {
     margin-left: auto;
     text-align: right;
     display: none;
-    padding-right: 20px;
+    padding: 10px 20px 10px 10px;
+    border: 0;
+    color: white;
+    background: none;
     cursor: pointer;
 
     z-index: 2000;
-    padding-top: 5px;
+
+    &:focus-visible {
+      outline: 3px solid white;
+      outline-offset: 2px;
+    }
+
+    .hamburger-icon {
+      display: block;
+      width: 32px;
+      height: 32px;
+    }
+
+    .hamburger-icon-close {
+      display: none;
+    }
+
+    &[aria-expanded="true"] {
+      .hamburger-icon-open {
+        display: none;
+      }
+
+      .hamburger-icon-close {
+        display: block;
+      }
+    }
   }
 
   .mobile-menu {
