@@ -27,20 +27,20 @@ menu:
         link: /events
       - name: Calendar
         link: /calendar
-      - name: News
-        link: /newsletter
   - name: Society
     children:
       - name: About
         link: /about
-      - name: Committee
-        link: /committee
       - name: Merch
         link: /merch
       - name: Sponsor Us
         link: /sponsor
       - name: Community Links
         link: /links
+  - name: News
+    link: /newsletter
+  - name: Committee
+    link: /committee
   - name: Ball
     children:
       - name: 2026
