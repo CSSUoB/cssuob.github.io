@@ -451,11 +451,15 @@ header {
       margin-left: 40px;
       margin-right: 20px;
 
-      a {
-        &:active,
-        &:focus {
-          outline: none;
+      a,
+      button {
+        &:focus-visible {
+          outline: 3px solid white;
+          outline-offset: 2px;
         }
+      }
+
+      a {
         cursor: pointer;
       }
 
