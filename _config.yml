@@ -41,22 +41,6 @@ menu:
     link: /newsletter
   - name: Committee
     link: /committee
-  - name: Ball
-    children:
-      - name: 2026
-        link: /ball/2026
-      - name: 2025
-        link: /ball/2025
-      - name: 2024
-        link: /ball/2024
-      - name: 2023
-        link: /ball/2023
-      - name: 2022
-        link: /ball/2022
-      - name: 2021
-        link: /ball/2021
-      - name: 2020
-        link: /ball/2020
   - name: Join CSS
     link: /membership
     class: join-nav
