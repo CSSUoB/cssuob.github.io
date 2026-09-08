@@ -2,8 +2,20 @@ document.addEventListener("DOMContentLoaded", () => {
   const hamburger = document.getElementById("hamburger");
   const menu = document.getElementById("hamburger-menu");
   const desktopDropdowns = document.querySelectorAll("header .right .dropdown");
+  const desktopCloseTimers = new WeakMap();
+
+  const clearDesktopCloseTimer = (dropdown) => {
+    const timer = desktopCloseTimers.get(dropdown);
+
+    if (timer) {
+      window.clearTimeout(timer);
+      desktopCloseTimers.delete(dropdown);
+    }
+  };
 
   const updateDesktopDropdown = (dropdown, isExpanded, openedBy = "") => {
+    if (!isExpanded) clearDesktopCloseTimer(dropdown);
+
     const trigger = dropdown.querySelector(":scope > button");
     trigger?.setAttribute("aria-expanded", String(isExpanded));
     dropdown.classList.toggle("open", isExpanded);
@@ -31,6 +43,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let pointerActivated = false;
 
     dropdown.addEventListener("pointerenter", () => {
+      clearDesktopCloseTimer(dropdown);
+
       if (trigger?.getAttribute("aria-expanded") === "false") {
         setDesktopDropdownExpanded(dropdown, true, "hover");
       }
@@ -41,7 +55,18 @@ document.addEventListener("DOMContentLoaded", () => {
         dropdown.dataset.openedBy === "hover" &&
         !dropdown.contains(document.activeElement)
       ) {
-        setDesktopDropdownExpanded(dropdown, false);
+        const timer = window.setTimeout(() => {
+          desktopCloseTimers.delete(dropdown);
+
+          if (
+            !dropdown.matches(":hover") &&
+            !dropdown.contains(document.activeElement)
+          ) {
+            setDesktopDropdownExpanded(dropdown, false);
+          }
+        }, 300);
+
+        desktopCloseTimers.set(dropdown, timer);
       }
     });
 
