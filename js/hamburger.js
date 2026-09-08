@@ -110,6 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const setMenuOpen = (isOpen, returnFocus = false) => {
     menu.classList.toggle("visible", isOpen);
+    document.body.classList.toggle("mobile-menu-open", isOpen);
     hamburger.setAttribute("aria-expanded", String(isOpen));
     hamburger.setAttribute(
       "aria-label",

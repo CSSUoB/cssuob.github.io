@@ -23,6 +23,10 @@ body {
   flex-direction: column;
 }
 
+body.mobile-menu-open {
+  overflow: hidden;
+}
+
 .banner {
   border-radius: 10px;
   padding: 2px 20px;
@@ -264,6 +268,8 @@ header {
   background-color: $CSS-Mid-Blue;
 
   .left {
+    position: relative;
+    z-index: 2000;
     flex: 0 0 auto;
     padding-left: 20px;
   }
@@ -411,15 +417,15 @@ header {
   .mobile-menu {
     font-family: "JetBrains Mono", "Inconsolata", monospace;
     position: fixed;
-    top: 0;
+    top: 64px;
     left: 0;
     width: 100vw;
-    height: 100vh;
-    opacity: 0;
+    height: calc(100vh - 64px);
+    height: calc(100dvh - 64px);
     display: flex;
     visibility: hidden;
-
-    padding-top: 100px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
 
     background-color: $CSS-Deep-Blue;
     z-index: 1000;
@@ -427,11 +433,16 @@ header {
     flex-direction: column;
     align-items: flex-end;
 
-    transition: opacity 0.2s;
+    transform: translateY(-100%);
+    transition:
+      transform 0.18s ease-out,
+      visibility 0s linear 0.18s;
+    will-change: transform;
 
     &.visible {
       visibility: visible;
-      opacity: 1;
+      transform: translateY(0);
+      transition-delay: 0s;
     }
 
     > .navigation-list {
@@ -544,6 +555,20 @@ header {
 
 @media only screen and (max-width: 1050px) {
   header {
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+    transition: background-color 0.18s ease-out;
+
+    &:before {
+      position: absolute;
+      inset: 0;
+      z-index: 1500;
+      background-color: inherit;
+      content: "";
+      pointer-events: none;
+    }
+
     .left {
       padding-left: 10px;
     }
@@ -557,6 +582,18 @@ header {
     .hamburger {
       display: inline-block;
     }
+  }
+
+  body.mobile-menu-open header {
+    background-color: $CSS-Deep-Blue;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  header,
+  header:before,
+  header .mobile-menu {
+    transition: none;
   }
 }
 
