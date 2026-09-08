@@ -253,8 +253,10 @@ main {
 }
 
 header {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
+  min-height: 64px;
   padding-top: 5px;
   padding-bottom: 5px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
