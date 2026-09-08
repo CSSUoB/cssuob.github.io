@@ -310,13 +310,14 @@ header {
     }
 
     &:hover:before,
-    &:hover:after {
+    &:hover:after,
+    &.open:before,
+    &.open:after {
       width: 100%;
       height: 1px;
     }
 
-    &.dropdown:hover .dropdown-content,
-    &.dropdown:focus-within .dropdown-content {
+    &.dropdown.open .dropdown-content {
       display: block;
       text-align: center;
     }

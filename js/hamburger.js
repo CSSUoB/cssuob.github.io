@@ -3,32 +3,83 @@ document.addEventListener("DOMContentLoaded", () => {
   const menu = document.getElementById("hamburger-menu");
   const desktopDropdowns = document.querySelectorAll("header .right .dropdown");
 
-  const setDesktopDropdownExpanded = (dropdown, isExpanded) => {
+  const updateDesktopDropdown = (dropdown, isExpanded, openedBy = "") => {
     const trigger = dropdown.querySelector(":scope > button");
     trigger?.setAttribute("aria-expanded", String(isExpanded));
+    dropdown.classList.toggle("open", isExpanded);
+    dropdown.dataset.openedBy = isExpanded ? openedBy : "";
+  };
+
+  const setDesktopDropdownExpanded = (
+    dropdown,
+    isExpanded,
+    openedBy = "activation",
+  ) => {
+    if (isExpanded) {
+      desktopDropdowns.forEach((otherDropdown) => {
+        if (otherDropdown !== dropdown) {
+          updateDesktopDropdown(otherDropdown, false);
+        }
+      });
+    }
+
+    updateDesktopDropdown(dropdown, isExpanded, openedBy);
   };
 
   desktopDropdowns.forEach((dropdown) => {
-    dropdown.addEventListener("mouseenter", () => {
-      setDesktopDropdownExpanded(dropdown, true);
+    const trigger = dropdown.querySelector(":scope > button");
+    let pointerActivated = false;
+
+    dropdown.addEventListener("pointerenter", () => {
+      if (trigger?.getAttribute("aria-expanded") === "false") {
+        setDesktopDropdownExpanded(dropdown, true, "hover");
+      }
     });
 
-    dropdown.addEventListener("mouseleave", () => {
-      setDesktopDropdownExpanded(
-        dropdown,
-        dropdown.contains(document.activeElement),
-      );
+    dropdown.addEventListener("pointerleave", () => {
+      if (
+        dropdown.dataset.openedBy === "hover" &&
+        !dropdown.contains(document.activeElement)
+      ) {
+        setDesktopDropdownExpanded(dropdown, false);
+      }
     });
 
-    dropdown.addEventListener("focusin", () => {
-      setDesktopDropdownExpanded(dropdown, true);
+    trigger?.addEventListener("pointerdown", () => {
+      pointerActivated = true;
+    });
+
+    trigger?.addEventListener("click", () => {
+      const isExpanded = trigger.getAttribute("aria-expanded") === "true";
+
+      if (
+        pointerActivated &&
+        isExpanded &&
+        dropdown.dataset.openedBy === "hover"
+      ) {
+        dropdown.dataset.openedBy = "activation";
+      } else {
+        setDesktopDropdownExpanded(dropdown, !isExpanded);
+      }
+
+      pointerActivated = false;
     });
 
     dropdown.addEventListener("focusout", (event) => {
-      setDesktopDropdownExpanded(
-        dropdown,
-        dropdown.matches(":hover") || dropdown.contains(event.relatedTarget),
-      );
+      if (
+        !dropdown.contains(event.relatedTarget) &&
+        !dropdown.matches(":hover")
+      ) {
+        setDesktopDropdownExpanded(dropdown, false);
+      }
+    });
+  });
+
+  document.addEventListener("pointerdown", (event) => {
+    desktopDropdowns.forEach((dropdown) => {
+      if (!dropdown.contains(event.target)) {
+        setDesktopDropdownExpanded(dropdown, false);
+      }
     });
   });
 
@@ -54,8 +105,24 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && menu.classList.contains("visible")) {
+    if (event.key !== "Escape") return;
+
+    if (menu.classList.contains("visible")) {
       setMenuOpen(false, true);
+      return;
+    }
+
+    const openDropdown = Array.from(desktopDropdowns).find(
+      (dropdown) =>
+        dropdown
+          .querySelector(":scope > button")
+          ?.getAttribute("aria-expanded") === "true",
+    );
+
+    if (openDropdown) {
+      const trigger = openDropdown.querySelector(":scope > button");
+      setDesktopDropdownExpanded(openDropdown, false);
+      trigger?.focus();
     }
   });
 
