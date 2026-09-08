@@ -442,6 +442,7 @@ header {
     }
 
     .mobile-dropdown {
+      width: 100%;
       margin: 0;
       padding: 0;
       list-style: none;
@@ -449,10 +450,36 @@ header {
 
     .nav {
       text-align: right;
-      font-size: 2em;
-      line-height: 1.6em;
-      margin-left: 40px;
-      margin-right: 20px;
+      font-size: 30px;
+      line-height: 1.2;
+      width: 100%;
+      margin: 0;
+
+      > a,
+      > button,
+      .mobile-dropdown a {
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        height: 66px;
+        padding: 11px 20px;
+        transition: background-color 0.15s;
+      }
+
+      > a:hover,
+      > a:focus-visible,
+      > a:active,
+      > button:hover,
+      > button:focus-visible,
+      > button:active,
+      > button[aria-expanded="true"],
+      .mobile-dropdown a:hover,
+      .mobile-dropdown a:focus-visible,
+      .mobile-dropdown a:active {
+        background-color: $CSS-Blue;
+      }
 
       a,
       button {
@@ -466,17 +493,9 @@ header {
         cursor: pointer;
       }
 
-      &:before {
-        display: none;
-      }
-      &:first-child:before,
+      &:before,
       &:after {
-        position: relative;
-        content: "";
-        display: block;
-        width: 80vw;
-        height: 2px;
-        background-color: white;
+        content: none;
       }
     }
   }
@@ -572,12 +591,12 @@ header .nav.freshers-nav .nav-item-image {
 }
 
 header .mobile-menu .nav.freshers-nav .nav-item-image {
-  height: 74px;
+  height: 44px;
 }
 
 header .mobile-menu .nav.freshers-nav > a {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-end;
   width: 100%;
 }
@@ -639,7 +658,13 @@ header .nav.join-nav {
 
 @media only screen and (max-width: 1050px) {
   header .mobile-menu .nav.join-nav > a {
-    line-height: 1.2;
+    &:before {
+      top: 50%;
+      right: calc(20px - 0.25em);
+      left: auto;
+      width: 8ch;
+      transform: translateY(-50%) rotate(179.6deg);
+    }
   }
 }
 
