@@ -446,7 +446,7 @@ header {
     overflow-y: auto;
     overscroll-behavior: contain;
 
-    background-color: $CSS-Deep-Blue;
+    background-color: $CSS-Mid-Blue;
     z-index: 1000;
 
     flex-direction: column;
@@ -574,8 +574,6 @@ header {
 
 @media only screen and (max-width: 1050px) {
   header {
-    transition: background-color 0.18s ease-out;
-
     &:before {
       position: absolute;
       inset: 0;
@@ -599,15 +597,9 @@ header {
       display: inline-block;
     }
   }
-
-  body.mobile-menu-open header {
-    background-color: $CSS-Deep-Blue;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  header,
-  header:before,
   header .mobile-menu,
   header .hamburger-icon {
     transition: none;
