@@ -258,6 +258,9 @@ main {
 
 header {
   box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 2000;
   display: flex;
   align-items: center;
   min-height: 64px;
@@ -365,8 +368,8 @@ header {
 
   .logo {
     display: block;
-    width: 100px;
-    height: 50px;
+    width: 80px;
+    height: 40px;
 
     img {
       width: 100%;
@@ -376,6 +379,7 @@ header {
   }
 
   .hamburger {
+    position: relative;
     flex: 0 0 auto;
     margin-left: auto;
     text-align: right;
@@ -397,19 +401,34 @@ header {
       display: block;
       width: 32px;
       height: 32px;
+      transform-origin: center;
+      transition:
+        opacity 0.15s ease-out,
+        transform 0.18s ease-out;
+    }
+
+    .hamburger-icon-open {
+      opacity: 1;
+      transform: rotate(0) scale(1);
     }
 
     .hamburger-icon-close {
-      display: none;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      opacity: 0;
+      transform: rotate(-90deg) scale(0.65);
     }
 
     &[aria-expanded="true"] {
       .hamburger-icon-open {
-        display: none;
+        opacity: 0;
+        transform: rotate(90deg) scale(0.65);
       }
 
       .hamburger-icon-close {
-        display: block;
+        opacity: 1;
+        transform: rotate(0) scale(1);
       }
     }
   }
@@ -555,9 +574,6 @@ header {
 
 @media only screen and (max-width: 1050px) {
   header {
-    position: sticky;
-    top: 0;
-    z-index: 2000;
     transition: background-color 0.18s ease-out;
 
     &:before {
@@ -592,7 +608,8 @@ header {
 @media (prefers-reduced-motion: reduce) {
   header,
   header:before,
-  header .mobile-menu {
+  header .mobile-menu,
+  header .hamburger-icon {
     transition: none;
   }
 }
