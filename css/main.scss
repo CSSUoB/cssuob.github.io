@@ -550,6 +550,10 @@ header {
         font-size: 0.8em;
       }
 
+      .dropdown-chevron {
+        width: 0.42em;
+      }
+
       > a,
       > button,
       .mobile-dropdown a {
@@ -561,6 +565,10 @@ header {
         height: 66px;
         padding: 10px 16px 10px 24px;
         transition: background-color 0.15s;
+      }
+
+      .mobile-dropdown a {
+        padding-left: 48px;
       }
 
       > a:hover,
