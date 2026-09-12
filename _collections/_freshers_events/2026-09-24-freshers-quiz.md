@@ -8,6 +8,6 @@ description: Get a team together or come along on your own for an evening of
   prizes up for grabs.
 location: School of Computer Science
 date: 2026-09-24
-start_time: 15:00
-end_time: 17:00
+start_time: 15:0
+end_time: 17:0
 ---
