@@ -9,16 +9,16 @@
       {% for item in site.menu %}
       {% if item.children %}
       <li class="nav dropdown {{ item.class }}">
-        <button type="button" aria-expanded="false" aria-controls="desktop-dropdown-{{ forloop.index }}">{% if item.image %}<img class="nav-item-image" src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.name }}">{% else %}{{ item.name }}{% endif %}</button>
+        <button type="button" aria-expanded="false" aria-controls="desktop-dropdown-{{ forloop.index }}"><span class="nav-label"><span class="nav-bracket nav-bracket-open" aria-hidden="true">[</span>{% if item.image %}<img class="nav-item-image" src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.name }}">{% else %}{{ item.name }}{% endif %}<img class="dropdown-chevron" src="{{ '/assets/down-arrowhead.svg' | relative_url }}" alt="" aria-hidden="true"><span class="nav-bracket nav-bracket-close" aria-hidden="true">]</span></span></button>
         <ul class="dropdown-content" id="desktop-dropdown-{{ forloop.index }}">
           {% for sub in item.children %}
-          <li><a href="{{ sub.link }}">{{ sub.name }}</a></li>
+          <li><a href="{{ sub.link }}"><span class="nav-label"><span class="nav-bracket nav-bracket-open" aria-hidden="true">[</span>{{ sub.name }}<span class="nav-bracket nav-bracket-close" aria-hidden="true">]</span></span></a></li>
           {% endfor %}
         </ul>
       </li>
       {% else %}
       <li class="nav {{ item.class }}">
-        <a href="{{ item.link | relative_url }}">{% if item.image %}<img class="nav-item-image" src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.name }}">{% else %}{{ item.name }}{% endif %}</a>
+        <a href="{{ item.link | relative_url }}"><span class="nav-label"><span class="nav-bracket nav-bracket-open" aria-hidden="true">[</span>{% if item.image %}<img class="nav-item-image" src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.name }}">{% else %}{{ item.name }}{% endif %}<span class="nav-bracket nav-bracket-close" aria-hidden="true">]</span></span></a>
       </li>
       {% endif %}
       {% endfor %}
@@ -33,14 +33,14 @@
       {% for item in site.menu %}
       <li class="nav {{ item.class }}">
         {% if item.children %}
-        <button type="button" onclick="toggleShow({{ forloop.index }})" aria-expanded="false" aria-controls="hbdd_{{ forloop.index }}">{% if item.image %}<img class="nav-item-image" src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.name }}">{% else %}{{ item.name }}{% endif %}</button>
+        <button type="button" onclick="toggleShow({{ forloop.index }})" aria-expanded="false" aria-controls="hbdd_{{ forloop.index }}"><span class="nav-label"><span class="nav-bracket nav-bracket-open" aria-hidden="true">[</span>{% if item.image %}<img class="nav-item-image" src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.name }}">{% else %}{{ item.name }}{% endif %}<img class="dropdown-chevron" src="{{ '/assets/down-arrowhead.svg' | relative_url }}" alt="" aria-hidden="true"><span class="nav-bracket nav-bracket-close" aria-hidden="true">]</span></span></button>
         <ul class="dropdown mobile-dropdown" style="display: none" id="hbdd_{{ forloop.index }}">
           {% for sub in item.children %}
-          <li><a href="{{ sub.link | relative_url }}">- {{ sub.name }}</a></li>
+          <li><a href="{{ sub.link | relative_url }}"><span class="nav-label"><span class="nav-bracket nav-bracket-open" aria-hidden="true">[</span>{{ sub.name }}<span class="nav-bracket nav-bracket-close" aria-hidden="true">]</span></span></a></li>
           {% endfor %}
         </ul>
         {% else %}
-        <a href="{{ item.link | relative_url }}">{% if item.image %}<img class="nav-item-image" src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.name }}">{% else %}{{ item.name }}{% endif %}</a>
+        <a href="{{ item.link | relative_url }}"><span class="nav-label"><span class="nav-bracket nav-bracket-open" aria-hidden="true">[</span>{% if item.image %}<img class="nav-item-image" src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.name }}">{% else %}{{ item.name }}{% endif %}<span class="nav-bracket nav-bracket-close" aria-hidden="true">]</span></span></a>
         {% endif %}
       </li>
       {% endfor %}
