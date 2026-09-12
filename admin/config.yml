@@ -197,6 +197,7 @@ collections:
     folder: "_collections/_freshers_events"
     create: true
     delete: true
+    yaml_quote: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     sortable_fields: ["date", "title"]
     summary: "{{title}} — {{date}}"
