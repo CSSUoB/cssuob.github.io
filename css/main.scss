@@ -257,6 +257,15 @@ main {
 }
 
 header {
+  --nav-background: #101939;
+  --nav-panel-background: #101939;
+  --nav-hover: #2f3c63;
+  --nav-accent: #cfa8ff;
+  --nav-highlight: #9d68dc;
+  --nav-highlight-text: #fff;
+  --nav-text: #fff;
+  --nav-font: "JetBrains Mono", "Inconsolata", monospace;
+
   box-sizing: border-box;
   position: sticky;
   top: 0;
@@ -268,7 +277,7 @@ header {
   padding-bottom: 5px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 
-  background-color: $CSS-Mid-Blue;
+  background-color: var(--nav-background);
 
   .left {
     position: relative;
@@ -309,7 +318,7 @@ header {
     .nav-bracket {
       position: absolute;
       top: 50%;
-      color: #cfa8ff;
+      color: var(--nav-accent);
       opacity: 0;
       transform: translateY(-50%) scale(0.7);
       transition:
@@ -358,7 +367,7 @@ header {
       margin: 0;
       padding: 12px 8px 18px;
       list-style: none;
-      background-color: $CSS-Mid-Blue;
+      background-color: var(--nav-panel-background);
       box-shadow: 0 14px 20px rgba(10, 15, 30, 0.25);
       opacity: 0;
       pointer-events: none;
@@ -387,11 +396,11 @@ header {
       a:hover,
       a:focus-visible,
       a:active {
-        color: #cfa8ff;
+        color: var(--nav-accent);
       }
 
       a:focus-visible {
-        outline: 2px solid #cfa8ff;
+        outline: 2px solid var(--nav-accent);
         outline-offset: -2px;
       }
     }
@@ -486,7 +495,7 @@ header {
   }
 
   .mobile-menu {
-    font-family: "JetBrains Mono", "Inconsolata", monospace;
+    font-family: var(--nav-font);
     position: fixed;
     top: 64px;
     left: 0;
@@ -498,7 +507,7 @@ header {
     overflow-y: auto;
     overscroll-behavior: contain;
 
-    background-color: $CSS-Mid-Blue;
+    background-color: var(--nav-panel-background);
     z-index: 1000;
 
     flex-direction: column;
@@ -564,7 +573,7 @@ header {
       .mobile-dropdown a:hover,
       .mobile-dropdown a:focus-visible,
       .mobile-dropdown a:active {
-        background-color: $CSS-Blue;
+        background-color: var(--nav-hover);
       }
 
       a,
@@ -584,25 +593,27 @@ header {
   & .nav {
     display: inline-block;
     font-size: 1.25rem;
-    font-family: "JetBrains Mono", "Inconsolata", monospace;
+    font-family: var(--nav-font);
     font-weight: 700;
     margin-left: 10px;
     margin-right: 10px;
 
     a {
       padding: none;
-      color: white;
+      color: var(--nav-text);
+      font-family: var(--nav-font);
       text-decoration: none;
     }
 
     button {
       display: inline-flex;
       align-items: center;
-      color: white;
+      color: var(--nav-text);
       background: none;
       padding: 0;
       border: none;
       text-decoration: none;
+      font-family: var(--nav-font);
       font-weight: 700;
       cursor: default;
 
@@ -702,7 +713,7 @@ header .mobile-menu .nav.freshers-nav > a {
 
 header .nav.join-nav {
   > a {
-    color: white;
+    color: var(--nav-highlight-text);
     white-space: nowrap;
   }
 
@@ -717,7 +728,7 @@ header .nav.join-nav {
       width: 100%;
       height: 1em;
       padding: 0 0.25em;
-      background-color: $TeX-Purple;
+      background-color: var(--nav-highlight);
       clip-path: polygon(
         1% 8%,
         7% 2%,

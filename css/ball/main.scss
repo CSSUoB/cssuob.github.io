@@ -26,7 +26,13 @@ html {
 }
 
 header {
-  background-color: $secondary-lowlight;
+  --nav-background: #79651b;
+  --nav-panel-background: #79651b;
+  --nav-hover: #241040;
+  --nav-accent: #e4d05f;
+  --nav-highlight: #cbb347;
+  --nav-highlight-text: #241040;
+  --nav-font: "Ovo", serif;
 }
 
 body {
@@ -116,19 +122,6 @@ body {
         filter: brightness(110%);
         box-shadow: 5px 5px 6px $primary-lowlight;
       }
-    }
-  }
-
-  .dropdown {
-    font-family: $font-secondary;
-  }
-
-  .dropdown-content {
-    background-color: $secondary-lowlight;
-
-    a {
-      font-family: $font-secondary;
-      font-size: 20px;
     }
   }
 
