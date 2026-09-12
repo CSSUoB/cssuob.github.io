@@ -261,8 +261,6 @@ header {
   --nav-panel-background: #101939;
   --nav-hover: #2f3c63;
   --nav-accent: #cfa8ff;
-  --nav-highlight: #9d68dc;
-  --nav-highlight-text: #fff;
   --nav-text: #fff;
   --nav-font: "JetBrains Mono", "Inconsolata", monospace;
 
@@ -721,56 +719,21 @@ header .mobile-menu .nav.freshers-nav > a {
 
 header .nav.join-nav {
   > a {
-    color: var(--nav-highlight-text);
     white-space: nowrap;
   }
 
   .nav-label {
-    z-index: 0;
-
-    &:before {
+    &:after {
       position: absolute;
-      z-index: -1;
-      top: 50%;
-      left: -0.25em;
-      width: 100%;
-      height: 1em;
-      padding: 0 0.25em;
-      background-color: var(--nav-highlight);
-      clip-path: polygon(
-        1% 8%,
-        7% 2%,
-        16% 6%,
-        27% 1%,
-        39% 5%,
-        51% 2%,
-        64% 6%,
-        76% 1%,
-        89% 5%,
-        99% 2%,
-        100% 16%,
-        98% 29%,
-        100% 43%,
-        98% 58%,
-        100% 74%,
-        98% 91%,
-        90% 97%,
-        78% 94%,
-        65% 99%,
-        52% 95%,
-        39% 99%,
-        27% 94%,
-        14% 98%,
-        1% 93%,
-        2% 78%,
-        0 63%,
-        2% 47%,
-        0 31%,
-        2% 18%
-      );
+      right: 0;
+      bottom: -0.2em;
+      left: 0;
+      height: 0.16em;
+      border-radius: 999px;
+      background-color: var(--nav-accent);
       content: "";
       pointer-events: none;
-      transform: translateY(-50%) rotate(179.6deg);
+      transform: rotate(-1.5deg);
     }
   }
 }
