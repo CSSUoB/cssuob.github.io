@@ -29,9 +29,9 @@ menu:
     link: /sponsor
   - name: Committee
     link: /committee
-  - name: Society
+  - name: About
     children:
-      - name: About
+      - name: Overview
         link: /about
       - name: Merch
         link: /merch
