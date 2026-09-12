@@ -48,23 +48,6 @@ button.email-button {
   margin: 0;
 }
 
-.sponsors-container {
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  gap: 20px;
-  grid-auto-flow: column;
-  width: 100%;
-}
-
-.sponsors-container img {
-  height: 75px;
-}
-
-.previous-sponsors {
-  gap: 40px;
-}
-
 @media only screen and (max-width: 990px) {
   .benefit.text-container {
     width: 100%;
