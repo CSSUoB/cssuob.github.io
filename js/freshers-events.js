@@ -92,6 +92,23 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!previous || !next) return;
 
     const endTolerance = 4;
+    let targetScrollLeft = track.scrollLeft;
+
+    const getSnapPositions = () => {
+      const maximumScroll = track.scrollWidth - track.clientWidth;
+      const firstCard = eventCards[0];
+
+      if (!firstCard) return [];
+
+      return Array.from(eventCards)
+        .map((card) =>
+          Math.min(maximumScroll, card.offsetLeft - firstCard.offsetLeft),
+        )
+        .filter(
+          (position, index, positions) =>
+            index === 0 || position - positions[index - 1] > endTolerance,
+        );
+    };
 
     const updateControls = () => {
       const maximumScroll = track.scrollWidth - track.clientWidth;
@@ -100,14 +117,29 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     const move = (direction) => {
-      const gap =
-        Number.parseFloat(window.getComputedStyle(track).columnGap) || 0;
-      const card = track.querySelector(".freshers-event-card");
+      const snapPositions = getSnapPositions();
 
-      if (!card) return;
+      if (!snapPositions.length) return;
 
-      track.scrollBy({
-        left: direction * (card.getBoundingClientRect().width + gap),
+      const currentIndex = snapPositions.reduce(
+        (closestIndex, position, index) =>
+          Math.abs(position - targetScrollLeft) <
+          Math.abs(snapPositions[closestIndex] - targetScrollLeft)
+            ? index
+            : closestIndex,
+        0,
+      );
+      const targetIndex = Math.min(
+        snapPositions.length - 1,
+        Math.max(0, currentIndex + direction),
+      );
+
+      targetScrollLeft = snapPositions[targetIndex];
+
+      // Absolute destinations avoid Firefox getting stuck when a smooth
+      // relative scroll is combined with mandatory scroll snapping.
+      track.scrollTo({
+        left: targetScrollLeft,
         behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
           ? "auto"
           : "smooth",
@@ -117,7 +149,14 @@ document.addEventListener("DOMContentLoaded", () => {
     previous.addEventListener("click", () => move(-1));
     next.addEventListener("click", () => move(1));
     track.addEventListener("scroll", updateControls, { passive: true });
-    window.addEventListener("resize", updateControls);
+    track.addEventListener("scrollend", () => {
+      targetScrollLeft = track.scrollLeft;
+      updateControls();
+    });
+    window.addEventListener("resize", () => {
+      targetScrollLeft = track.scrollLeft;
+      updateControls();
+    });
 
     updateControls();
   });
