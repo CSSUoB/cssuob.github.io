@@ -343,12 +343,23 @@ header {
       transform: translateY(-50%) scale(1);
     }
 
-    &.dropdown.open .dropdown-content {
+    &.dropdown.open .dropdown-content,
+    html:not(.js) &.dropdown:hover .dropdown-content,
+    html:not(.js) &.dropdown:focus-within .dropdown-content {
       visibility: visible;
       opacity: 1;
       pointer-events: auto;
       transform: translateX(-50%) translateY(0);
       transition-delay: 0s;
+    }
+
+    html:not(.js) &.dropdown .dropdown-content::before {
+      position: absolute;
+      right: 0;
+      bottom: 100%;
+      left: 0;
+      height: 10px;
+      content: "";
     }
 
     .dropdown-content {
