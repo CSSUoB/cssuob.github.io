@@ -21,43 +21,26 @@ menu:
     class: freshers-nav
     image: /assets/images/freshers-2026/freshers-week-2026-lockup.png
     image_alt: Freshers Week
-  - name: News
-    link: /newsletter
   - name: Events
     link: /events
-    children:
-      - name: Calendar
-        link: /calendar
-  - name: Ball
-    link: /ball
-    children:
-      - name: 2026
-        link: /ball/2026
-      - name: 2025
-        link: /ball/2025
-      - name: 2024
-        link: /ball/2024
-      - name: 2023
-        link: /ball/2023
-      - name: 2022
-        link: /ball/2022
-      - name: 2021
-        link: /ball/2021
-      - name: 2020
-        link: /ball/2020
-  - name: Merch
-    link: /merch
-  - name: Committee
-    link: /committee
+  - name: News
+    link: /newsletter
   - name: Sponsor
     link: /sponsor
+  - name: Committee
+    link: /committee
   - name: About
-    link: /about
     children:
-      - name: Membership
-        link: /membership
+      - name: Overview
+        link: /about
+      - name: Merch
+        link: /merch
       - name: Links
         link: /links
+
+  - name: Join CSS
+    link: /membership
+    class: join-nav
 baseurl: /
 root: /
 

@@ -198,6 +198,29 @@
   }
 }
 
+@media only screen and (min-width: 1201px) {
+  .event.ball.event-long {
+    .event-image {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 50%;
+      height: 100%;
+      float: none;
+    }
+
+    .details {
+      box-sizing: border-box;
+      width: 50%;
+      position: static;
+      max-width: none;
+      height: auto;
+      padding-bottom: 5px;
+    }
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .events-listing {
     grid-template-columns: 1fr;
