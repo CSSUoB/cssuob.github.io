@@ -262,13 +262,13 @@ pre.ascii {
   }
 }
 
-.lead + .sponsor-block {
+.lead + .partner-block {
   // The final text line starts at 4.5s and takes 0.2s to finish.
   animation: sponsors-fade-in 1s ease 4.7s backwards;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .lead + .sponsor-block {
+  .lead + .partner-block {
     animation: none;
   }
 }
