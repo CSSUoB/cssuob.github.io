@@ -1,6 +1,3 @@
----
----
-
 .responsive-video {
   width: 100%;
   height: auto;
@@ -8,12 +5,14 @@
 }
 
 .stats {
-  justify-content: center;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: 940px;
+  margin: 0 auto;
 }
 
 .stat {
-  margin: 20px 50px;
+  margin: 20px;
 }
 
 button.email-button {
@@ -46,6 +45,36 @@ button.email-button {
 .benefit.text-container {
   width: 420px;
   margin: 0;
+}
+
+.sponsors-container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+  grid-auto-flow: column;
+  width: 100%;
+}
+
+.sponsors-container img {
+  height: 75px;
+}
+
+.previous-sponsors {
+  gap: 40px;
+}
+
+@media only screen and (max-width: 540px) {
+  .stat {
+    margin: 20px 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .stats {
+    grid-template-columns: minmax(0, 1fr);
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 990px) {
