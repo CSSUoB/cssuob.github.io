@@ -1,3 +1,6 @@
+---
+---
+
 .responsive-video {
   width: 100%;
   height: auto;
@@ -27,7 +30,7 @@ button.email-button {
 }
 
 .proposal {
-  margin: 0 150px 0 150px;
+  margin: 0 150px;
 }
 
 .proposal.text-container {
@@ -64,6 +67,12 @@ button.email-button {
   gap: 40px;
 }
 
+@media only screen and (max-width: 990px) {
+  .benefit.text-container {
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 540px) {
   .stat {
     margin: 20px 10px;
@@ -74,11 +83,5 @@ button.email-button {
   .stats {
     grid-template-columns: minmax(0, 1fr);
     text-align: center;
-  }
-}
-
-@media only screen and (max-width: 990px) {
-  .benefit.text-container {
-    width: 100%;
   }
 }
