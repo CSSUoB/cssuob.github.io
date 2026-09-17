@@ -2,6 +2,7 @@
 layout: textpage
 title: About
 styles:
+- /css/sponsors.css
 - /css/about.css
 ---
 
@@ -116,13 +117,7 @@ Our society has won many achievements and awards, including:
     </div>
 </div>
 
-## 2024/2025 Sponsors 🤝
-
-This year, we are proudly sponsored by:
-
-<div class="sponsors-images">
-    <img src="assets/sponsorship/the-Trade-Desk_brand_image.png" alt="the Trade Desk" />
-</div>
+{% include sponsors.html %}
 
 If you or your company is interested in sponsoring CSS, please take a look at our sponsorship page:
 

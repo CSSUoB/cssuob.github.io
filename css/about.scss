@@ -177,13 +177,13 @@ h4 {
   }
 }
 
-.sponsors-images {
-  justify-content: center;
-  align-items: center;
-  display: grid;
-  grid-template-columns: repeat(1, 185px);
-  grid-gap: 30px;
-  padding: 10px;
+.sponsor-block {
+  margin-bottom: 16px;
+  padding: 24px 0 0;
+
+  > h2 {
+    text-align: left;
+  }
 }
 
 .sponsors-buttons {
@@ -213,13 +213,6 @@ h4 {
 }
 
 @media (max-width: 400px) {
-  .sponsors-images {
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    grid-template-columns: 185px;
-  }
-
   .sponsors-link {
     width: 150px;
     height: 55px;
