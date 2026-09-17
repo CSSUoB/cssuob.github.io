@@ -1,0 +1,11 @@
+title: 2026/27 sponsors
+sponsors:
+  - name: Capital One
+    tier: gold
+    logo: /assets/sponsorship/capital-one-logo.svg
+  - name: TPP
+    tier: silver
+    logo: /assets/sponsorship/tpp-logo.svg
+  - name: Interrupt Labs
+    tier: bronze
+    logo: /assets/sponsorship/interrupt-labs-logo.svg
