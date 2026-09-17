@@ -1,7 +1,7 @@
 ---
 ---
 
-.sponsor-block {
+.partner-block {
   max-width: 900px;
   margin: 0 auto 36px;
   padding: 24px 16px;
@@ -66,16 +66,16 @@
 }
 
 // Keep tier labels readable inside pages with a white content background.
-.text-container .sponsor-block {
-  .sponsor-block__tier--gold {
+.text-container .partner-block {
+  .partner-block__tier--gold {
     color: #896400;
   }
 
-  .sponsor-block__tier--silver {
+  .partner-block__tier--silver {
     color: #626c7a;
   }
 
-  .sponsor-block__tier--bronze {
+  .partner-block__tier--bronze {
     color: #955b2c;
   }
 }
