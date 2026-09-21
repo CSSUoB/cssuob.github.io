@@ -1,0 +1,21 @@
+<section class="partner-block">
+  <h2>{{ include.title | default: site.data.sponsors.title | escape }}</h2>
+  <ul class="partner-block__list">
+    {% for sponsor in site.data.sponsors.sponsors %}
+    <li class="partner-block__sponsor">
+      <h3 class="partner-block__tier partner-block__tier--{{ sponsor.tier }}">
+        {{ sponsor.tier | capitalize }}
+      </h3>
+      <div class="partner-block__logo">
+        <img
+          src="{{ sponsor.logo | relative_url }}"
+          alt="{{ sponsor.name | escape }}"
+          loading="lazy"
+          width="220"
+          height="110"
+        />
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
