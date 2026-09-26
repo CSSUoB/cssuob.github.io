@@ -1040,6 +1040,7 @@ body > footer {
     #0d122d 72%
   );
   --freshers-logo-inset: clamp(16px, 3vw, 42px);
+  --freshers-logo-scale: 0.7;
   position: relative;
   z-index: 2;
   display: grid;
@@ -1076,6 +1077,7 @@ body > footer {
     max-height: none;
     margin: 0;
     object-fit: contain;
+    transform: scale(var(--freshers-logo-scale));
     filter: drop-shadow(0 16px 24px rgba(9, 11, 24, 0.38));
   }
 }
