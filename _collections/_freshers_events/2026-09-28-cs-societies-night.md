@@ -5,5 +5,6 @@ image_alt: Students sitting together in a lecture hall
 description: We’ll be joined alongside our friends at AFNOM, GDS, CVG, WiSE and oSTEM to hear some amazing introductory talks about each society to find out what we’re all about! After the talks, stick around for a chat and some free pizza and drinks!
 location: Haworth 101 (subject to change)
 date: 2026-09-28
-start_time: "6pm"
+start_time: "18:00"
+end_time: "20:00"
 ---
