@@ -3,6 +3,7 @@ layout: page
 title: Sponsors
 styles:
   - /css/posts.css
+  - /css/sponsors.css
   - /css/sponsor.css
 favicon: /favicon.ico
 ---
@@ -112,15 +113,4 @@ favicon: /favicon.ico
   </div>
 </div>
 
-<div class="text-container">
-  <p>In the past, we have worked with:</p>
-  <div class="previous-sponsors sponsors-container">
-    <img
-      src="assets/sponsorship/bank-of-america_brand_image.png"
-      alt="Bank of America"
-    />
-    <img src="assets/sponsorship/accenture.png" alt="Accenture" />
-    <img src="assets/sponsorship/goldman-sachs.png" alt="Goldman Sachs" />
-    <img src="assets/sponsorship/IBM.svg" alt="IBM" />
-  </div>
-</div>
+{% include sponsors.html %}

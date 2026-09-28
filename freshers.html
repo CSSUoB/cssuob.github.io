@@ -217,6 +217,32 @@ scripts:
       class="freshers-calendar-link"
       href="https://calendar.google.com/calendar/embed?src=kg5v9k480jn2qahpmq33h8g7cs%40group.calendar.google.com&amp;ctz=Europe%2FLondon"
     >Add to your own calendar <span aria-hidden="true">→</span></a>
+
+    {% if freshers.events.calendar_image and freshers.events.calendar_guide_file %}
+    <div class="freshers-calendar">
+      <img
+        class="freshers-calendar-preview"
+        src="{{ freshers.events.calendar_image | relative_url }}"
+        alt="{{ freshers.events.calendar_image_alt | escape }}"
+        loading="lazy"
+      >
+      <div class="freshers-calendar-copy">
+        <h3>{{ freshers.events.calendar_guide_heading | escape }}</h3>
+        <p>{{ freshers.events.calendar_guide_description | escape }}</p>
+      </div>
+      <a
+        class="freshers-calendar-open"
+        href="{{ freshers.events.calendar_guide_file | relative_url }}"
+        target="_blank"
+        rel="noopener"
+      >
+        Open guide
+        <span aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg>
+        </span>
+      </a>
+    </div>
+    {% endif %}
     {% else %}
     <div class="freshers-events-empty">
       <img src="{{ '/assets/tex/tex_speech.svg' | relative_url }}" alt="">
