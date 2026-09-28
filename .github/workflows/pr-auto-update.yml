@@ -24,7 +24,7 @@ jobs:
           private-key: ${{ secrets.PR_AUTO_UPDATE_PRIVATE_KEY }}
 
       - name: Update PRs labelled sync
-        uses: CSSUoB/pr-auto-updater@v4.0.0
+        uses: CSSUoB/pr-auto-updater@v5.0.0
         env:
           GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
           PR_FILTER: labelled
