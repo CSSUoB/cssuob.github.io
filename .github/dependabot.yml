@@ -1,16 +1,34 @@
 version: 2
 updates:
-  - package-ecosystem: "docker"
-    directory: "/"
+  - package-ecosystem: npm
+    directory: /
     schedule:
-      interval: "daily"
+      interval: weekly
+    groups:
+      npm:
+        patterns: ["*"]
 
-  - package-ecosystem: "bundler"
-    directory: "/"
+  - package-ecosystem: bundler
+    directory: /
     schedule:
-      interval: "daily"
+      interval: weekly
+    groups:
+      bundler:
+        patterns: ["*"]
 
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: docker
+    directory: /
     schedule:
-      interval: "daily"
+      interval: weekly
+    groups:
+      docker:
+        patterns: ["*"]
+
+  - package-ecosystem: github-actions
+    # "/" only covers .github/workflows, so the local composite actions are listed too
+    directories: ["/", "/.github/actions/*"]
+    schedule:
+      interval: weekly
+    groups:
+      github-actions:
+        patterns: ["*"]

@@ -1,0 +1,50 @@
+name: Static analysis
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  static-analysis:
+    name: Format, lint and spellcheck
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          # The parent commit is needed to work out which files changed
+          fetch-depth: 2
+
+      - name: Set up Node.js
+        uses: ./.github/actions/setup-node
+
+      # Each check runs even if an earlier one fails, so all problems are reported at once
+      - name: Check formatting
+        if: ${{ !cancelled() }}
+        run: npm run format
+
+      - name: Lint JavaScript
+        if: ${{ !cancelled() }}
+        run: npm run lint:js
+
+      - name: Lint Markdown
+        if: ${{ !cancelled() }}
+        run: npm run lint:md
+
+      # Advisory only: unknown words are shown as warnings on the PR without failing the check
+      - name: Spellcheck changed files
+        if: ${{ !cancelled() }}
+        continue-on-error: true
+        run: |
+          git diff --name-only --diff-filter=d HEAD^ HEAD -- '*.md' '*.html' \
+            | npx cspell --file-list stdin --no-must-find-files --no-progress \
+              --issue-template '::warning file=$filename,line=$row,col=$col::Unknown word: $text'
