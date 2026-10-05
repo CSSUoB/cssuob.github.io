@@ -85,7 +85,7 @@ build the most efficient Create machinery, or like me, just build pretty things!
 
 If you've enjoyed your time in CSS so far, and want to support us - along with getting many benefits - why not get 
 yourself a £5 membership at [cssbham.com/join](https://cssbham.com/join). The membership lasts for the whole year, 
-and gets you discounts on ticketed events, saving you money! It also gives you a pretty colour on our Disscord 
+and gets you discounts on ticketed events, saving you money! It also gives you a pretty colour on our Discord 
 server, a free t-shirt (soon), and the ability to vote at our upcoming EGM. Still unsure? Well, your membership 
 goes straight to supporting the society, so we can pay for all the pizza, get you cool merch, and run incredible 
 events for you and your friends to enjoy whilst at uni! 
@@ -95,7 +95,7 @@ events for you and your friends to enjoy whilst at uni!
 As usual, we have tonnes of events planned for you this semester on the run-up to Christmas, so let's tease some!
 
 Firstly, we have our Extraordinary General Meeting (EGM) in a couple weeks. The EGM is a meeting for people to run 
-for roles on committee, vote on the candidates, and propose constituional amendments. This event requires attendees 
+for roles on committee, vote on the candidates, and propose constitutional amendments. This event requires attendees 
 to be members of the society, but it's a great chance for you to have a chance to say how CSS should be run, as well 
 as see some early access sneak peaks at events and, wait, tickets for events?! I wonder what event that will be! 
 The EGM will be in the Winifred Hackett Buidling on Wednesday 21st October from 1pm. If you're interested in 
@@ -123,11 +123,11 @@ these events as we go through the year, but if you have more event suggestions, 
 tell us! 
 
 Oh, and t-shirts! As you may have heard us say - and you've likely seen people wearing them - if you get the 
-membership for the society, you will get a free t-shirt. Nowm we have't forgotten, I promise! Issues at the start 
+membership for the society, you will get a free t-shirt. Now, we haven't forgotten, I promise! Issues at the start 
 of the year pertaining to funds (I don't know how Idris has managed the finances so well!) meant they were delayed, 
 however, they have been ordered and are on their way! The moment they arrive, we will be running a big collection 
-event in the CS buidling so you can come and collect the shirt, or buy a membership there and then to get one! 
-It even has our sponsors on the back
+event in the CS building so you can come and collect the shirt, or buy a membership there and then to get one! 
+It even has our sponsors on the back.
 
 We are looking forward to seeing many of you continue to get involved in the society as we go through the year, 
 and we can't wait to run these events for you! 
@@ -135,7 +135,7 @@ and we can't wait to run these events for you!
 ## WhatsApp
 
 This year, we decided to revive the WhatsApp server to make it the proper social it deserves to be! We now announce all 
-publicity from Discord on the WhatsApp too, snd we have added plenty of new channels for you to find coursemates, chat 
+publicity from Discord on the WhatsApp too, and we have added plenty of new channels for you to find coursemates, chat 
 about work, and learn about our events! It's still brand new, but if you're not a Discord fan, then the WhatsApp might 
 be the place for you!
 
@@ -144,7 +144,7 @@ be the place for you!
 Finally, how are we doing with memberships?
 
 Well, with t-shirts being delayed, we understandably haven't broken any records yet, however, we reached over 200 
-members by the end of Fresher's, and we've been climbing every day! Below is the gtraph of Fresher's Week:
+members by the end of Fresher's, and we've been climbing every day! Below is the graph of Fresher's Week:
 
 ![2026-Freshers-Graph](/assets/images/2026/2026-freshers-graph.png)
 
@@ -152,7 +152,7 @@ We started off really strong with early renewals and early joiners, which was in
 t-shirts, we have been able to maintain a solid growth of memberships throughout the two weeks, which we're very happy 
 to see! 
 
-Want a mambership? Looking to make your time at university better than ever? Then [cssbham.com/join](https://cssbham.com/join) 
+Want a membership? Looking to make your time at university better than ever? Then [cssbham.com/join](https://cssbham.com/join) 
 is the place to go! 
 
 ## Going Forward
@@ -173,5 +173,7 @@ something else, thank you so much! I see that this committee are extremely dedic
 best for CSS and our members, and that fills me with lots of hope for the coming academic year!
 
 Many thanks,
+
 Joe (He/Him), your CSS Scrum Master
+
 And the rest of committee <3
