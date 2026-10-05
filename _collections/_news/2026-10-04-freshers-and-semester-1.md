@@ -41,6 +41,7 @@ the better! Anyway, a final congratulations again to Team 0, who won the quiz, g
 
 Going into week 1, we ran our annual CS Societies Night, which was your chance to meet many Computer-related 
 societies and learn about what they do. A massive thank you to the fantatsic societies who attended:
+
 - [oSTEM](https://www.guildofstudents.com/organisation/ostem/)
 - [WiSE](https://linktr.ee/wise_uob)
 - [GDS](https://www.guildofstudents.com/organisation/gamesdevelopment/)
