@@ -156,6 +156,16 @@ to see!
 Want a membership? Looking to make your time at university better than ever? Then [cssbham.com/join](https://cssbham.com/join) 
 is the place to go! 
 
+## Sponsorships
+
+I would like to welcome our sponsors for this year! As always, we're excited to work with our sponsors throughout the year, so let's introduce them!
+
+- Capital One - Gold Sponsor
+- TPP - Silver Sponsor
+- InterruptLabs - Bronze Sponsor
+
+We're very grateful for the support they're giving the society! If you're interested, keep an eye out for events, messages, and exciting opportunities from our sponsors!
+
 ## Going Forward
 
 I just wanted to say one final thank you to you all for making 2026 Fresher's Week something I will never forget, and I 
