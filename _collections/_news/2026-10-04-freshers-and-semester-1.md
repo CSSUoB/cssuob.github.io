@@ -49,14 +49,13 @@ societies and learn about what they do. A massive thank you to the fantatsic soc
 - [UBRobotics](https://linktr.ee/UBRobotics)
 - [AFNOM](https://afnom.net)
 - [UBVR](https://www.guildofstudents.com/organisation/ubvr/)
-- IBM Z
-- AlgoSoc
-- CyberWomen
+- [IBM Z](https://www.guildofstudents.com/organisation/ibmzsociety/)
+- [AlgoSoc](https://www.algosoc.uk/)
+- [CyberWomen](https://uk.linkedin.com/company/cyberwomen-birmingham)
 
 ![UBVR at Societies Night](/assets/images/2026/2026-soc-night-2.jpg)
 
-And, of course, I go to finally wear the famous TeX costume, which looks much more enjoyable than AFNOM's monkey suit; 
-sorry Tyler!
+And, of course, I go to finally wear the famous TeX costume, which looked much more enjoyable than AFNOM's monkey suit!
 
 ![CSS TeX and AFNOM Monkey](/assets/images/2026/2026-soc-night-3.jpg)
 
@@ -70,7 +69,7 @@ happening Friday week 3), so come along and chat, relax, and enjoy a couple drin
 
 ![Pub Night Later](/assets/images/2026/2026-fresher-pub-2.jpg)
 
-Throughout the week, we also had other smaller, but equally as important, events heppening! Throughout the week, we had 
+Throughout the week, we also had other smaller, but equally as important, events happening! Throughout the week, we had 
 our stall up in the CS atrium, at the Guild Societies Fair, the School of CS Fair, and the EPS Fair. We had such good 
 interest from you all, coming to chat, ask questions, start your TeX sticker collection, and join our socials! If you 
 haven't already, check out our website's [links page](https://cssbham.com/links) to join our Discord, WhatsApp, and 
