@@ -98,7 +98,7 @@ Firstly, we have our Extraordinary General Meeting (EGM) in a couple weeks. The 
 for roles on committee, vote on the candidates, and propose constitutional amendments. This event requires attendees 
 to be members of the society, but it's a great chance for you to have a chance to say how CSS should be run, as well 
 as see some early access sneak peaks at events and, wait, tickets for events?! I wonder what event that will be! 
-The EGM will be in the Winifred Hackett Buidling on Wednesday 21st October from 1pm. If you're interested in 
+The EGM will be in the Winifred Hackett Building on Wednesday 21st October from 1pm. If you're interested in 
 running or attending, keep an eye out on our socials for more information soon!
 
 Then, on Thursday 29th October at 7pm, we're running our Halloween Quiz; get dressed up in your halloween costume, 
@@ -134,7 +134,7 @@ and we can't wait to run these events for you!
 
 ## WhatsApp
 
-This year, we decided to revive the WhatsApp server to make it the proper social it deserves to be! We now announce all 
+This year, we decided to revive the WhatsApp community to make it the proper social it deserves to be! We now announce all 
 publicity from Discord on the WhatsApp too, and we have added plenty of new channels for you to find coursemates, chat 
 about work, and learn about our events! It's still brand new, but if you're not a Discord fan, then the WhatsApp might 
 be the place for you!
