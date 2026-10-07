@@ -62,7 +62,7 @@ sorry Tyler!
 
 Finally, our last big event was Pub Night on Friday of Week 1, which saw us pile into The Soak Bar & Grill in Selly and 
 enjoy some delicious curries, and have a couple drinks to celebrate finishing the first week of lectures. So many people, 
-new and exisitng students, came along and made it a fantastic night - a great way to end out an incredible Fresher's! If 
+new and existing students, came along and made it a fantastic night - a great way to end out an incredible Fresher's! If 
 you enjoyed the pub night, we will be making them a regular event, with them happening every other week (the next 
 happening Friday week 3), so come along and chat, relax, and enjoy a couple drinks, whether alcoholic or not! 
 
@@ -162,7 +162,7 @@ I would like to welcome our sponsors for this year! As always, we're excited to 
 
 - Capital One - Gold Sponsor
 - TPP - Silver Sponsor
-- InterruptLabs - Bronze Sponsor
+- Interrupt Labs - Bronze Sponsor
 
 We're very grateful for the support they're giving the society! If you're interested, keep an eye out for events, messages, and exciting opportunities from our sponsors!
 
