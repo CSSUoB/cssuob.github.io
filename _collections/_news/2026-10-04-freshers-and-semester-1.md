@@ -46,8 +46,8 @@ societies and learn about what they do. A massive thank you to the fantatsic soc
 - [WiSE](https://linktr.ee/wise_uob)
 - [GDS](https://www.guildofstudents.com/organisation/gamesdevelopment/)
 - [VGS](https://linktr.ee/uobvideogames)
-- [UBRobotics](linktr.ee/UBRobotics)
-- [AFNOM](afnom.net)
+- [UBRobotics](https://linktr.ee/UBRobotics)
+- [AFNOM](https://afnom.net)
 - [UBVR](https://www.guildofstudents.com/organisation/ubvr/)
 - IBM Z
 - AlgoSoc
