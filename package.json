@@ -11,11 +11,13 @@
     "prettier": "3.2.5"
   },
   "scripts": {
-    "lint": "npx eslint && npx markdownlint-cli -c .markdownlint.jsonc -p .gitignore .",
-    "lint:fix": "npx eslint --fix && npx markdownlint-cli -c .markdownlint.jsonc -p .gitignore --fix .",
-    "format": "npx prettier --check .",
-    "format:fix": "npx prettier --write .",
-    "spellcheck": "npx cspell --gitignore '**/*.{md,html}'",
-    "spellcheck:staged": "git diff HEAD --name-only | grep -E '.md|.html' | npx cspell --file-list stdin"
+    "lint": "npm run lint:js && npm run lint:md",
+    "lint:js": "eslint",
+    "lint:md": "markdownlint -c .markdownlint.jsonc -p .gitignore .",
+    "lint:fix": "eslint --fix && markdownlint -c .markdownlint.jsonc -p .gitignore --fix .",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "spellcheck": "cspell --gitignore '**/*.{md,html}'",
+    "spellcheck:staged": "git diff HEAD --name-only --diff-filter=d -- '*.md' '*.html' | cspell --file-list stdin --no-must-find-files"
   }
 }

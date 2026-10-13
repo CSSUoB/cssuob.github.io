@@ -1,27 +1,33 @@
-name: pr-auto-update
+name: PR auto-update
+
 on:
-  push: {}
+  push:
+    branches: [main]
+
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
 
 jobs:
   pr-auto-update:
-    name: Automatic PR Updater
+    name: Update PRs labelled sync
     runs-on: ubuntu-latest
     if: github.repository == 'CSSUoB/cssuob.github.io' && github.actor != 'dependabot[bot]'
-    permissions: 
-      pull-requests: write
-      contents: write
     steps:
-      - name: Generate Access Token
+      - name: Generate App token
+        id: app-token
         uses: actions/create-github-app-token@v3
-        id: generate-token
         with:
-          app-id: ${{ vars.PR_AUTO_UPDATE_CLIENT_ID }}
+          client-id: ${{ vars.PR_AUTO_UPDATE_CLIENT_ID }}
           private-key: ${{ secrets.PR_AUTO_UPDATE_PRIVATE_KEY }}
 
-      - uses: CSSUoB/pr-auto-updater@v4.0.0
+      - name: Update PRs labelled sync
+        uses: CSSUoB/pr-auto-updater@v5.0.0
         env:
-          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
-          PR_FILTER: 'labelled'
-          PR_LABELS: 'sync'
-          MERGE_CONFLICT_ACTION: 'label'
-          MERGE_CONFLICT_LABEL: 'conflict'
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
+          PR_FILTER: labelled
+          PR_LABELS: sync
+          MERGE_CONFLICT_ACTION: label
+          MERGE_CONFLICT_LABEL: conflict

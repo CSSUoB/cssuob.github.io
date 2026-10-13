@@ -1,24 +1,15 @@
-name: Setup node
-description: Local node setup for runners
+name: Set up Node.js
+description: Install Node.js and the project's npm dependencies
 
 runs:
-  using: "composite"
+  using: composite
   steps:
-  - name: Cache npm and node_modules
-    uses: actions/cache@v6
-    with:
-      path: |
-        ~/.npm
-        node_modules
-      key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
-      restore-keys: |
-        ${{ runner.os }}-npm-
+    - name: Set up Node.js
+      uses: actions/setup-node@v7
+      with:
+        node-version: "24"
+        cache: npm
 
-  - name: Set up Node.js
-    uses: actions/setup-node@v7
-    with:
-      node-version: '24'
-
-  - name: Install dependencies
-    shell: bash
-    run: npm install
+    - name: Install dependencies
+      shell: bash
+      run: npm ci

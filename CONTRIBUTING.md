@@ -132,6 +132,12 @@ Fix HTTP 418 error when navigating to /ball
 
 Once you have made your changes, please describe them in your pull request in full. We will then review them and communicate with you on GitHub. We may ask you to change a few things so please do check GitHub or your emails frequently.
 
+When you open a pull request against `main`, a bot sets it up for you:
+
+* Auto-merge is turned on, so your pull request is squash-merged as soon as it has been approved. For draft pull requests, this happens when you mark it as ready for review.
+* If your branch is in this repository rather than a fork, the `sync` label is added. While the label is there, your branch is updated automatically whenever `main` changes. Remove the label if you would rather update your branch yourself.
+* If an automatic update hits a merge conflict, the `conflict` label is added and you will need to resolve the conflict yourself.
+
 After that, that's it! You've made your first contribution to CSS' website. 🎉
 
 ## Guidance
