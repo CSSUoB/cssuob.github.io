@@ -206,9 +206,12 @@ $preview-height: 150px;
   display: inline;
 }
 
+.newsletter-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5em;
+}
+
 .rss-link {
-  font-size: 16px;
-  font-weight: normal;
-  color: #9d68dc;
-  text-decoration: none;
+  font-size: 18px;
 }
