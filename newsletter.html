@@ -7,7 +7,13 @@ styles:
 favicon: /favicon.ico
 ---
 
-<h1>Newsletter</h1>
+<h1>
+  Newsletter
+  <a class="rss-link" href="{{ '/newsletter/feed.xml' | relative_url }}" data-simple-event="newsletter_subscribe_rss">
+    <img class="text-img" src="{{ '/assets/rss.svg' | relative_url }}" alt="RSS">
+    RSS
+  </a>
+</h1>
 
 {% if site.news.size == 0 %}
 <p>There's nothing here yet...</p>
