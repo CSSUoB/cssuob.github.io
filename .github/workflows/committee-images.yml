@@ -1,0 +1,72 @@
+name: "Generate committee mini images"
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'assets/committee/*/full/**'
+
+concurrency:
+  group: committee-images-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  minify:
+    # GITHUB_TOKEN can't push to forks, so only run for branches in this repo
+    if: github.repository == github.event.pull_request.head.repo.full_name
+    permissions:
+      contents: write
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          # Full history is needed to diff against the base, but not old images
+          fetch-depth: 0
+          filter: blob:none
+
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+
+      - name: Run committee.sh on each changed committee folder
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          git -c core.quotePath=false diff --name-only --no-renames --diff-filter=d "$BASE_SHA"...HEAD -- 'assets/committee/*/full/*' \
+            | cut -d/ -f1-3 | sort -u \
+            | while read -r dir; do
+                # Skip if the minis were already committed after the last full image change,
+                # as PNGs get a new timestamp each time and would be committed again
+                last_full=$(git log -1 --format=%H "$BASE_SHA"..HEAD -- "$dir/full")
+                last_mini=$(git log -1 --format=%H "$BASE_SHA"..HEAD -- "$dir/mini")
+                if [ -n "$last_mini" ] && git merge-base --is-ancestor "$last_full" "$last_mini"; then
+                  echo "Mini images for $dir are already up to date"
+                  continue
+                fi
+
+                echo "Generating mini images for $dir"
+                _scripts/committee.sh "$dir"
+
+                # committee.sh doesn't report convert failures, so check each full image has a mini
+                for full in "$dir"/full/*; do
+                  if [ ! -f "$dir/mini/$(basename "$full")" ]; then
+                    echo "::error file=$full::No mini image was made for $full"
+                    exit 1
+                  fi
+                done
+              done
+
+      - name: Commit mini images to the PR
+        env:
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+        run: |
+          git add -A assets/committee
+          if git diff --cached --quiet; then
+            echo "Mini images are already up to date"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Generate committee mini images"
+          git push origin "HEAD:refs/heads/$HEAD_REF"
