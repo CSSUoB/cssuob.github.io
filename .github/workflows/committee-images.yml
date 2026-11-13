@@ -35,8 +35,7 @@ jobs:
           git -c core.quotePath=false diff --name-only --no-renames --diff-filter=d "$BASE_SHA"...HEAD -- 'assets/committee/*/full/*' \
             | cut -d/ -f1-3 | sort -u \
             | while read -r dir; do
-                # Skip if the minis were already committed after the last full image change,
-                # as PNGs get a new timestamp each time and would be committed again
+                # Skip if the minis were already committed after the last full image change (e.g. made locally)
                 last_full=$(git log -1 --format=%H "$BASE_SHA"..HEAD -- "$dir/full")
                 last_mini=$(git log -1 --format=%H "$BASE_SHA"..HEAD -- "$dir/mini")
                 if [ -n "$last_mini" ] && git merge-base --is-ancestor "$last_full" "$last_mini"; then
