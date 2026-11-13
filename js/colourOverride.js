@@ -29,7 +29,11 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Transgender Visibility Week (13th-19th Nov) + Transgender Day of Remembrance (20th Nov)
-  if (currentDate.getMonth() === 10 && currentDate.getDate() >= 13 && currentDate.getDate() <= 20) {
+  if (
+    currentDate.getMonth() === 10 &&
+    currentDate.getDate() >= 13 &&
+    currentDate.getDate() <= 20
+  ) {
     asciiElement.classList.add("tdov");
   }
 
