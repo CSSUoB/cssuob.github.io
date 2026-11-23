@@ -11,6 +11,7 @@ jobs:
   pr-auto-setup:
     name: Label and enable auto-merge
     runs-on: ubuntu-latest
+    if: github.repository == 'CSSUoB/cssuob.github.io'
     steps:
       - name: Generate App token
         id: app-token
@@ -24,6 +25,7 @@ jobs:
           github.event.action == 'opened'
           && github.event.pull_request.head.repo.full_name == github.repository
           && github.event.pull_request.user.type != 'Bot'
+        continue-on-error: true
         run: gh pr edit "$PR_URL" --add-label sync
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
