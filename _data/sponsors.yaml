@@ -6,6 +6,9 @@ sponsors:
   - name: TPP
     tier: silver
     logo: /assets/sponsorship/tpp-logo.svg
+  - name: Deutsche Bank
+    tier: silver
+    logo: /assets/sponsorship/db-logo.jpg
   - name: Interrupt Labs
     tier: bronze
     logo: /assets/sponsorship/interrupt-labs-logo.svg

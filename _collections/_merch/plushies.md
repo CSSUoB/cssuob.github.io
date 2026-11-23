@@ -3,15 +3,6 @@ layout: merch
 title: TeX Plushies
 slug: plushies
 purchase-options:
-  - url: https://www.guildofstudents.com/shop/product/10317460/
-    type: guild
-    text: Buy on Guild website
-    icon: fa-arrow-up-right-from-square
-    options:
-      - name: Plushie
-        quantity: 1
-        price: 13.99
-        note: Limited to members only
   - url: /assets/tex-pattern.pdf
     type: download
     text: Download
@@ -46,9 +37,6 @@ Adopt a very special hand-made crochet [TeX](/tex) plushie!
 
 ![Two TeX plushies together](/assets/images/tex-plushie/20250426_0004_lowres.jpg)
 
-These plushies have been hand crocheted by our very own Fearne. We hope you enjoy them!
+These plushies were hand crocheted by our very own Fearne. Unfortunately, they're no longer for sale, but we have the crochet pattern available for you to download now for free! If you have a go at making your own, we'd love to see how it goes!
 
-Approximate size dimensions: H: 15cm, W: 7.5cm, D: 12.5cm
-
-**Collection:** These plushies are available for immediate collection from the CS building -
-just ask a [Committee](/committee) member in-person or on Discord, or ask us on Instagram.
+Approximate size dimensions (of Fearne's): H: 15cm, W: 7.5cm, D: 12.5cm
