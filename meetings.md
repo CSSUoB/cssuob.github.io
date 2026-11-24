@@ -10,6 +10,9 @@ title: Meetings
 
 {% assign months = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
 
+<!-- Exporting of agenda and minutes into HTML is no longer WIP after this ddate, but we want to keep old listings marked as WIP -->
+{% assign html_stable_after = 20261123 %}
+
 {% assign paths = "" | split: ',' %}
 
 {% for file in files %}
@@ -68,6 +71,13 @@ title: Meetings
                     {% assign month = file.path | remove: "/assets/meetings" | slice: 6, 2 %}
                     {% assign year = file.path | remove: "/assets/meetings" | slice: 1, 4 %}
 
+                    {% assign file_date = file.path | remove: "/assets/meetings/" | slice: 0, 10 | remove: "/" | plus: 0 %}
+                    {% if file_date >= html_stable_after %}
+                        {% assign html_label = 'HTML' %}
+                    {% else %}
+                        {% assign html_label = 'HTML (WIP)' %}
+                    {% endif %}
+
                     {% if path1 contains path3 %}
                     {% elsif path2 contains path1 %}
                         {% if file.path contains '.html' %}
@@ -76,10 +86,10 @@ title: Meetings
                                     AGM {{day}}/{{month}}/{{year}}:
                                     <ul> 
                                         <li>
-                                            Agenda: <a href='{{path1}}agm/agenda.pdf'>PDF</a> - <a href='{{path1}}agm/agenda.html'>HTML</a>
+                                            Agenda: <a href='{{path1}}agm/agenda.pdf'>PDF</a> - <a href='{{path1}}agm/agenda.html'>{{html_label}}</a>
                                         </li>
                                         <li>
-                                            Minutes: <a href='{{path1}}agm/minutes.pdf'>PDF</a> - <a href='{{path1}}agm/minutes.html'>HTML</a>
+                                            Minutes: <a href='{{path1}}agm/minutes.pdf'>PDF</a> - <a href='{{path1}}agm/minutes.html'>{{html_label}}</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -88,10 +98,10 @@ title: Meetings
                                     EGM {{day}}/{{month}}/{{year}}: 
                                     <ul>
                                         <li>
-                                            Agenda: <a href='{{path1}}egm/agenda.pdf'>PDF</a> - <a href='{{path1}}egm/agenda.html'>HTML</a>
+                                            Agenda: <a href='{{path1}}egm/agenda.pdf'>PDF</a> - <a href='{{path1}}egm/agenda.html'>{{html_label}}</a>
                                         </li>
                                         <li>
-                                            Minutes: <a href='{{path1}}egm/minutes.pdf'>PDF</a> - <a href='{{path1}}egm/minutes.html'>HTML</a>
+                                            Minutes: <a href='{{path1}}egm/minutes.pdf'>PDF</a> - <a href='{{path1}}egm/minutes.html'>{{html_label}}</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -100,10 +110,10 @@ title: Meetings
                                     Committee Meeting {{day}}/{{month}}/{{year}}: 
                                     <ul>
                                         <li>
-                                            Agenda: <a href='{{path1}}agenda.pdf'>PDF</a> - <a href='{{path1}}agenda.html'>HTML</a>
+                                            Agenda: <a href='{{path1}}agenda.pdf'>PDF</a> - <a href='{{path1}}agenda.html'>{{html_label}}</a>
                                         </li>
                                         <li>
-                                            Minutes: <a href='{{path1}}minutes.pdf'>PDF</a> - <a href='{{path1}}minutes.html'>HTML</a>
+                                            Minutes: <a href='{{path1}}minutes.pdf'>PDF</a> - <a href='{{path1}}minutes.html'>{{html_label}}</a>
                                         </li>
                                     </ul>
                                 </li>
