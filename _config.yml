@@ -11,16 +11,7 @@ social:
   links:
     - https://twitter.com/CSSBham
     - https://github.com/CSSUoB
-freshers_banner:
-  enabled: true
-  link: /freshers
-  image: /assets/images/freshers-2026/freshers-week-2026-lockup.png
 menu:
-  - name: FRESHERS
-    link: /freshers
-    class: freshers-nav
-    image: /assets/images/freshers-2026/freshers-nav(new).png
-    image_alt: Freshers Week
   - name: News
     link: /newsletter
   - name: Events
@@ -72,9 +63,6 @@ collections:
   clubs:
   events:
     sort_by: order
-  freshers_events:
-    output: false
-    sort_by: date
 
 feed:
   collections:

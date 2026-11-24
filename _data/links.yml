@@ -1,22 +1,22 @@
 - type: divider
   text: Christmas Meal
 
-- text: Grab a ticket to the Christmas Meal!
+- text: Grab a ticket to the 2026 Christmas Meal!
   url: /xmas
   image: /assets/tex/tex_christmas.svg
 
 - type: divider
   text: TeX Plushies
 
-- text: Get a TeX plushie!
+- text: Get the TeX plushie crochet pattern!
   url: /merch/plushies
   image: /assets/images/tex-plushie/20250426_0042_lowres_square.jpg
 
 - type: divider
   text: Ball
 
-- text: CSS Ball 2025 Photos
-  url: /ball/2025/photos
+- text: CSS Ball 2026 Photos
+  url: /ball/2026/photos
   image: /assets/tex/tex_ball.svg
 
 - type: divider
