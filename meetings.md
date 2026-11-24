@@ -76,10 +76,10 @@ title: Meetings
                                     AGM {{day}}/{{month}}/{{year}}:
                                     <ul> 
                                         <li>
-                                            Agenda: <a href='{{path1}}agm/agenda.pdf'>PDF</a> - <a href='{{path1}}agm/agenda.html'>HTML (WIP)</a>
+                                            Agenda: <a href='{{path1}}agm/agenda.pdf'>PDF</a> - <a href='{{path1}}agm/agenda.html'>HTML</a>
                                         </li>
                                         <li>
-                                            Minutes: <a href='{{path1}}agm/minutes.pdf'>PDF</a> - <a href='{{path1}}agm/minutes.html'>HTML (WIP)</a>
+                                            Minutes: <a href='{{path1}}agm/minutes.pdf'>PDF</a> - <a href='{{path1}}agm/minutes.html'>HTML</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -88,10 +88,10 @@ title: Meetings
                                     EGM {{day}}/{{month}}/{{year}}: 
                                     <ul>
                                         <li>
-                                            Agenda: <a href='{{path1}}egm/agenda.pdf'>PDF</a> - <a href='{{path1}}egm/agenda.html'>HTML (WIP)</a>
+                                            Agenda: <a href='{{path1}}egm/agenda.pdf'>PDF</a> - <a href='{{path1}}egm/agenda.html'>HTML</a>
                                         </li>
                                         <li>
-                                            Minutes: <a href='{{path1}}egm/minutes.pdf'>PDF</a> - <a href='{{path1}}egm/minutes.html'>HTML (WIP)</a>
+                                            Minutes: <a href='{{path1}}egm/minutes.pdf'>PDF</a> - <a href='{{path1}}egm/minutes.html'>HTML</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -100,10 +100,10 @@ title: Meetings
                                     Committee Meeting {{day}}/{{month}}/{{year}}: 
                                     <ul>
                                         <li>
-                                            Agenda: <a href='{{path1}}agenda.pdf'>PDF</a> - <a href='{{path1}}agenda.html'>HTML (WIP)</a>
+                                            Agenda: <a href='{{path1}}agenda.pdf'>PDF</a> - <a href='{{path1}}agenda.html'>HTML</a>
                                         </li>
                                         <li>
-                                            Minutes: <a href='{{path1}}minutes.pdf'>PDF</a> - <a href='{{path1}}minutes.html'>HTML (WIP)</a>
+                                            Minutes: <a href='{{path1}}minutes.pdf'>PDF</a> - <a href='{{path1}}minutes.html'>HTML</a>
                                         </li>
                                     </ul>
                                 </li>
