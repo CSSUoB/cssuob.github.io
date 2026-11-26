@@ -162,12 +162,14 @@ and dates given in the calendar event. The below table details the process:
 
 To update the committee:
 
-1. Add the new committee's photos into `assets/committee/full`
+1. Add the new committee's photos into `assets/committee/<year>/full`, e.g. `assets/committee/2026-27/full`
    - Each image should have a 1:1 ratio.
    - Add the highest quality images you can (they'll be scaled down later).
    - Most common image formats are supported.
-2. Create all the additional files by running `_scripts/committee.sh _scripts/assets/committee/2019-20`
-   (it's a bash shell script).
+2. You don't need to make the smaller images in `assets/committee/<year>/mini` yourself. When you open a pull request,
+   a workflow makes them and commits them to your branch, so run `git pull` before pushing more changes.
+   - To make them yourself instead, run `_scripts/committee.sh assets/committee/2026-27`
+     (it's a bash shell script and needs ImageMagick).
 3. Create a new yaml file in `_data/committee/` with these tags:
    - `academic_year`: The academic year of the committee, e.g. `2019/20`
    - `prefix`: Prefix to the role of each member, e.g. \"`Outgoing` Publicity Rep\"

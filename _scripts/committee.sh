@@ -24,6 +24,10 @@ done
 
 resolution="250x250"
 
+# Stop ImageMagick saving timestamps in the images, so remaking an image gives
+# an identical file. Must be above 0 for ImageMagick 7.
+export SOURCE_DATE_EPOCH=1
+
 mkdir -p $committee/mini/
 
 find "$committee/full/" -type f -print0 | while IFS= read -r -d '' picture; do
